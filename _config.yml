@@ -1,0 +1,22 @@
+# Site settings
+title: Random Lives
+description: Biographical stories of randomly sampled people from across all of human history
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+permalink: /lives/:title/
+
+# Collections for the biographical stories
+collections:
+  lives:
+    output: true
+    permalink: /lives/:name/
+
+# Exclude files from the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - Old_Claude.md

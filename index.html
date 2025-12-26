@@ -1,0 +1,28 @@
+---
+layout: default
+title: Home
+---
+
+<div class="home">
+  <h1>Random Lives</h1>
+  <p class="intro">
+    Biographical stories of randomly sampled people from across all of human history,
+    weighted by actual birth numbers. Explore lives from 200,000 BCE to present.
+  </p>
+
+  <div class="lives-list">
+    <h2>Lives</h2>
+    {% for life in site.lives %}
+      <article class="life-preview">
+        <h3><a href="{{ life.url | relative_url }}">{{ life.title }}</a></h3>
+        <div class="meta">
+          <span class="birth-year">{{ life.birth_year }}</span>
+          {% if life.region %}<span class="region">{{ life.region }}</span>{% endif %}
+          {% if life.country %}<span class="country">{{ life.country }}</span>{% endif %}
+          <span class="lifestyle">{{ life.lifestyle }}</span>
+        </div>
+        <p class="excerpt">{{ life.excerpt | strip_html | truncatewords: 50 }}</p>
+      </article>
+    {% endfor %}
+  </div>
+</div>

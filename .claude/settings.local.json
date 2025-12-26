@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(jekyll --version:*)",
+      "Bash(git --version)",
+      "Bash(ruby --version:*)",
+      "Bash(gem install:*)",
+      "Bash(git init:*)",
+      "Bash(git branch:*)",
+      "Bash(bundle install:*)",
+      "Bash(brew --version:*)",
+      "Bash(brew install:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}

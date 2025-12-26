@@ -1,0 +1,190 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header and navigation */
+header {
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  font-size: 1.8rem;
+}
+
+nav h1 a {
+  color: #333;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Home page */
+.home {
+  max-width: 900px;
+}
+
+.intro {
+  font-size: 1.2rem;
+  margin: 20px 0 40px;
+  color: #555;
+}
+
+.lives-list h2 {
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+}
+
+/* Life preview cards */
+.life-preview {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background: #fafafa;
+}
+
+.life-preview h3 {
+  margin-bottom: 10px;
+}
+
+.life-preview h3 a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.life-preview h3 a:hover {
+  text-decoration: underline;
+}
+
+.meta {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.meta span {
+  padding: 2px 8px;
+  background: #e0e0e0;
+  border-radius: 3px;
+}
+
+.excerpt {
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Individual life page */
+.life {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.life-header {
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #ddd;
+}
+
+.life-header h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.life-meta {
+  color: #666;
+}
+
+.life-meta p {
+  margin: 5px 0;
+}
+
+.life-narrative {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+
+.life-narrative p {
+  margin-bottom: 1.2rem;
+}
+
+.life-events {
+  margin: 40px 0;
+  padding: 20px;
+  background: #f5f5f5;
+  border-radius: 5px;
+}
+
+.life-events h2 {
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+}
+
+.life-events ul {
+  list-style-position: inside;
+  padding-left: 10px;
+}
+
+.life-events li {
+  margin: 8px 0;
+}
+
+.life-navigation {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.life-navigation a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.life-navigation a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  margin-top: 60px;
+  padding-top: 20px;
+  border-top: 2px solid #ddd;
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+}
