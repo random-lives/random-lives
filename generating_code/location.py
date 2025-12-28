@@ -227,12 +227,12 @@ class Location:
             output[_clim_vars[var]] = _clim_maps[var][self.row, self.col]
         return output
 
-    def gmap_url(self, zoom=8):
+    def gmap_url(self, zoom=5):
         """Return Google Maps URL for this location.
 
         Args:
             zoom: Zoom level (1=world, 5=landmass/continent, 10=city, 15=streets, 20=buildings)
-                  Default is 8 (regional view)
+                  Default is 5 (landmass/continent view)
         """
         return f"https://www.google.com/maps/place/{self.lat},{self.lon}/@{self.lat},{self.lon},{zoom}z"
 
