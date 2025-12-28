@@ -22,14 +22,40 @@ def slugify(text):
     return text.strip('-')
 
 
-def format_date(date_obj):
-    """Format a date object to string.
+def format_date(date_tuple):
+    """Format a date tuple to string.
 
-    Returns string like "March 15, 1834" or None if date_obj is None.
+    Takes (year, day_of_year) tuple and returns string like "March 15, 1834 AD" or "March 15, 5000 BC".
+    Returns None if date_tuple is None.
     """
-    if date_obj is None:
+    if date_tuple is None:
         return None
-    return date_obj.strftime("%B %d, %Y")
+
+    year, day_of_year = date_tuple
+
+    # Convert day_of_year to month and day
+    is_leap = (year % 4 == 0 and (year % 100 != 0 or year % 400 == 0))
+    days_in_months = [31, 29 if is_leap else 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+    month_names = ["January", "February", "March", "April", "May", "June",
+                   "July", "August", "September", "October", "November", "December"]
+
+    day_count = 0
+    for month_idx, days in enumerate(days_in_months):
+        if day_of_year <= day_count + days:
+            month = month_names[month_idx]
+            day = day_of_year - day_count
+            break
+        day_count += days
+    else:
+        # Shouldn't happen, but fallback
+        month = "December"
+        day = 31
+
+    # Format with AD/BC
+    if year > 0:
+        return f"{month} {day}, {year} AD"
+    else:
+        return f"{month} {day}, {1-year} BC"
 
 
 def calculate_death_year(person):
@@ -42,7 +68,7 @@ def calculate_death_year(person):
 
     # If we have an actual death date, use it
     if hasattr(person, 'death_date') and person.death_date is not None:
-        year = person.death_date.year
+        year, _ = person.death_date  # Unpack (year, day_of_year) tuple
         if year > 0:
             return f"{year} AD"
         else:
@@ -74,7 +100,7 @@ death_year: "{calculate_death_year(person)}"
 age_at_death: {person.age_at_death}
 """
 
-    # Add full dates if available
+    # Add full dates if available (always available for new Person objects)
     if hasattr(person, 'birth_date') and person.birth_date is not None:
         frontmatter += f'birth_date: "{format_date(person.birth_date)}"\n'
     if hasattr(person, 'death_date') and person.death_date is not None:

@@ -80,62 +80,69 @@ def _format_year(year):
 def _sample_birth_date(year):
     """Sample a birth date within the given year.
 
-    For historical years (positive), uses a simple uniform distribution.
-    For modern years (1 AD onwards), returns actual date object.
-    For BCE years (negative), returns None (no date object support for BCE).
+    Returns (year, day_of_year) tuple where day_of_year is 1-365 (or 1-366 for leap years).
+    Works for all years including BCE (negative years).
     """
-    if year <= 0:
-        # BCE years - no date object, just return None
-        return None
+    # Determine if leap year (works for negative years too)
+    is_leap = (year % 4 == 0 and (year % 100 != 0 or year % 400 == 0))
+    days_in_year = 366 if is_leap else 365
 
-    try:
-        # Uniform random date within the year
-        start = date(year, 1, 1)
-        days_in_year = 366 if (year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)) else 365
-        random_day = np.random.randint(0, days_in_year)
-        return start + timedelta(days=random_day)
-    except (ValueError, OverflowError):
-        # Date is out of range for Python date object (year < 1 or year > 9999)
-        return None
+    # Random day of year (1-indexed)
+    day_of_year = np.random.randint(1, days_in_year + 1)
+
+    return (year, day_of_year)
 
 
 def _sample_death_date(birth_date, age_at_death):
     """Sample a death date given birth date and age at death.
 
     For infants (age < 1), uses exponential distribution weighted toward early death.
-    For others, uses uniform distribution within the year.
+    For others, uses uniform distribution within the death year.
 
-    Returns None if birth_date is None or person is still alive.
+    Returns (year, day_of_year) tuple, or None if person is still alive.
     """
-    if birth_date is None or age_at_death == "alive":
+    if age_at_death == "alive":
         return None
 
-    try:
-        if age_at_death < 1:
-            # Infant death - exponentially weighted toward early death
-            # Mean of ~3 months (90 days)
-            days_lived = min(int(np.random.exponential(90)), 365)
-            return birth_date + timedelta(days=days_lived)
-        else:
-            # Non-infant - uniform random date within the death year
-            years_to_add = int(age_at_death)
-            death_year = birth_date.year + years_to_add
+    birth_year, birth_day = birth_date
 
-            # Random date within the death year
-            start = date(death_year, 1, 1)
-            days_in_year = 366 if (death_year % 4 == 0 and (death_year % 100 != 0 or death_year % 400 == 0)) else 365
-            random_day = np.random.randint(0, days_in_year)
+    if age_at_death < 1:
+        # Infant death - exponentially weighted toward early death
+        # Mean of ~3 months (90 days)
+        days_lived = min(int(np.random.exponential(90)), 365)
 
-            death_date = start + timedelta(days=random_day)
+        # Add days to birth date
+        is_leap = (birth_year % 4 == 0 and (birth_year % 100 != 0 or birth_year % 400 == 0))
+        days_in_birth_year = 366 if is_leap else 365
 
-            # Ensure death date is after birth date + age_at_death years
-            min_death = birth_date.replace(year=birth_date.year + years_to_add)
-            if death_date < min_death:
-                death_date = min_death
+        death_day = birth_day + days_lived
+        death_year = birth_year
 
-            return death_date
-    except (ValueError, OverflowError):
-        return None
+        # Handle year rollover
+        if death_day > days_in_birth_year:
+            death_year += 1
+            death_day -= days_in_birth_year
+
+        return (death_year, death_day)
+    else:
+        # Non-infant - uniform random date within the death year
+        death_year = birth_year + int(age_at_death)
+
+        # Random date within the death year
+        is_leap = (death_year % 4 == 0 and (death_year % 100 != 0 or death_year % 400 == 0))
+        days_in_year = 366 if is_leap else 365
+        death_day = np.random.randint(1, days_in_year + 1)
+
+        # Ensure death is after birth + age years
+        # If death day is before birth day in the year, it's automatically valid
+        # If death day is on/after birth day, also valid
+        # Only issue is if death_day < birth_day, which could mean they died before their birthday
+        # In that case, add 1 to death_year to ensure they lived the full age
+
+        if death_day < birth_day:
+            death_year += 1
+
+        return (death_year, death_day)
 
 
 def _hyde_indices(year):
