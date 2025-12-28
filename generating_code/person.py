@@ -317,15 +317,51 @@ class Person:
         else:
             return "adult"
 
+    def _format_date_tuple(self, date_tuple):
+        """Format a (year, day_of_year) tuple to readable string."""
+        if date_tuple is None:
+            return None
+
+        year, day_of_year = date_tuple
+
+        # Convert day_of_year to month and day
+        is_leap = (year % 4 == 0 and (year % 100 != 0 or year % 400 == 0))
+        days_in_months = [31, 29 if is_leap else 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+        month_names = ["January", "February", "March", "April", "May", "June",
+                       "July", "August", "September", "October", "November", "December"]
+
+        day_count = 0
+        for month_idx, days in enumerate(days_in_months):
+            if day_of_year <= day_count + days:
+                month = month_names[month_idx]
+                day = day_of_year - day_count
+                break
+            day_count += days
+        else:
+            # Shouldn't happen, but fallback
+            month = "December"
+            day = 31
+
+        # Format with AD/BC
+        if year > 0:
+            return f"{month} {day}, {year} AD"
+        else:
+            return f"{month} {day}, {1-year} BC"
+
     def to_dict(self):
         """Export person as flat dict for LLM prompts."""
         output = {
             'Era': self.era,
             'Birth year': self.birth_year_str,
+            'Birth date': self._format_date_tuple(self.birth_date),
             'Age at death': self.age_at_death,
             'Sex': self.sex,
             'Lifestyle': self.lifestyle,
         }
+
+        # Add death date if person is deceased
+        if self.death_date is not None:
+            output['Death date'] = self._format_date_tuple(self.death_date)
 
         if self.era == 'Paleolithic':
             output['Region'] = self.region
