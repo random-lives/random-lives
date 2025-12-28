@@ -33,13 +33,14 @@ RandomLivesWebsite/
 ├── index.html               # Homepage (lists all lives)
 ├── about.md                 # About page
 ├── generating_code/         # Python generation pipeline
-│   ├── person.py            # Person sampling
+│   ├── person.py            # Person sampling and representation
+│   ├── location.py          # Geographic utilities
+│   ├── lifespan.py          # Mortality simulation
+│   ├── date_utils.py        # Date/calendar utilities
 │   ├── generation.py        # LLM narrative generation
 │   ├── llm_utils.py         # LLM infrastructure
-│   ├── lifespan.py          # Mortality simulation
-│   ├── location.py          # Geographic utilities
+│   ├── export.py            # Export to Jekyll markdown
 │   ├── CountryData.py       # Country demographic data
-│   ├── export_to_jekyll.py  # Export script (pkl → markdown)
 │   ├── Raw_Data/            # 5.2 GB (NOT in git)
 │   ├── Processed_Data/      # 1.1 GB (NOT in git)
 │   └── *.pkl                # Generated people (NOT in git)
@@ -75,13 +76,14 @@ RandomLivesWebsite/
   - `hg_array.h5`: Hunter-gatherer population maps
 
 **Python Modules**:
-- `person.py`: Person sampling and representation
-- `generation.py`: LLM generation pipeline
-- `llm_utils.py`: LLM infrastructure (client, cost tracking)
-- `lifespan.py`: Mortality simulation
-- `location.py`: Geographic utilities
-- `CountryData.py`: Country-level demographic data management
-- `export_to_jekyll.py`: Export Person objects to Jekyll markdown
+- `person.py`: Person sampling and representation (12KB)
+- `location.py`: Geographic utilities and Location class (8KB)
+- `lifespan.py`: Mortality simulation using lifetables and Siler model (5KB)
+- `date_utils.py`: Date/calendar arithmetic, formatting, and sampling (5KB)
+- `generation.py`: LLM generation pipeline for narratives (30KB)
+- `llm_utils.py`: LLM infrastructure - clients, cost tracking, retry logic (12KB)
+- `export.py`: Export Person objects to Jekyll markdown format (4KB)
+- `CountryData.py`: Country-level demographic data management (3KB)
 
 **Dependencies**:
 - Data processing: numpy, scipy, xarray, rasterio, h5py, geopandas
@@ -113,7 +115,7 @@ with open('batch_001.pkl', 'wb') as f:
 
 ```bash
 cd /Users/damonbinder/Documents/RandomLivesWebsite/generating_code
-python3 export_to_jekyll.py batch_001.pkl
+python3 export.py batch_001.pkl
 ```
 
 This creates markdown files in `_lives/` with this format:
@@ -241,16 +243,70 @@ The project aims for "quiet realism":
 
 ## Working with the Codebase
 
+### Code Architecture
+
+The Python generation pipeline is organized into focused modules with clear responsibilities:
+
+**Core Data Models:**
+- `person.py` (12KB) - Person class, sampling logic, personality traits
+  - Handles both Paleolithic and Holocene eras
+  - Samples birth years weighted by historical births
+  - Manages demographic attributes and LLM-generated content
+
+- `location.py` (8KB) - Location class and geographic data
+  - Converts HYDE grid coordinates to geographic information
+  - Provides country, biome, climate, elevation data
+  - Uses lazy loading for 6+ GB of geographic datasets
+
+- `lifespan.py` (5KB) - Mortality modeling
+  - Age-at-death calculation using historical lifetables
+  - Siler model for hunter-gatherer populations
+  - Accounts for lifestyle (urban, rural, hunter-gatherer)
+
+- `date_utils.py` (5KB) - Date and calendar utilities
+  - Calendar arithmetic (leap years, day counting, year rollovers)
+  - Date formatting (AD/BC display, month/day conversion)
+  - Date sampling (birth and death date generation)
+  - Works with `(year, day_of_year)` tuple format
+
+**Generation Pipeline:**
+- `generation.py` (30KB) - LLM narrative generation
+  - Multi-stage pipeline: demographics → events → narrative → QC
+  - Age-appropriate narrative generation
+  - Prompt engineering for historical accuracy
+
+- `llm_utils.py` (12KB) - LLM infrastructure
+  - API clients (Anthropic, OpenAI, Google)
+  - Cost tracking and usage monitoring
+  - Retry logic and error handling
+  - JSON extraction utilities
+
+**Export & Data:**
+- `export.py` (4KB) - Jekyll markdown export
+  - Converts Person objects to markdown with frontmatter
+  - Handles both Paleolithic and Holocene formatting
+  - Creates URL-safe slugs for filenames
+
+- `CountryData.py` (3KB) - Country demographic data
+  - Post-1600 country-level statistics
+  - Population, births, life expectancy by year
+
+**Key Design Patterns:**
+- **Lazy loading**: Geographic data loads on first use, not import (person.py, location.py)
+- **Separation of concerns**: Domain models separate from generation logic and export
+- **Unified Person class**: Single class handles all eras with era-specific initialization
+- **Tuple dates**: `(year, day_of_year)` format works for all years including BCE
+
 ### File Editing Policy
 
 **IMPORTANT: Do not directly edit generated markdown files in `_lives/`**
 
 The markdown files in `_lives/` are **generated outputs** from the Python pipeline. They should only be modified by:
-1. Re-running `export_to_jekyll.py` with updated pickle files
+1. Re-running `export.py` with updated pickle files
 2. Modifying the export script itself to change the output format
 
 **DO:**
-- Edit Python scripts in `generating_code/` (person.py, export_to_jekyll.py, generation.py, etc.)
+- Edit Python scripts in `generating_code/` (person.py, export.py, generation.py, etc.)
 - Edit Jekyll templates in `_layouts/` (life.html, default.html)
 - Edit site-wide files (CSS, index.html, about.md, _config.yml)
 - Re-generate markdown files by running export scripts
@@ -261,7 +317,7 @@ The markdown files in `_lives/` are **generated outputs** from the Python pipeli
 - Try to fix data issues by editing the output instead of the source
 
 **If you need to change how biographical pages are structured or what data they display:**
-1. Modify `export_to_jekyll.py` to change the frontmatter/content generation
+1. Modify `export.py` to change the frontmatter/content generation
 2. Modify `_layouts/life.html` to change how data is displayed on the page
 3. Re-run the export script to regenerate all files with the new format
 
