@@ -15,7 +15,6 @@ import re
 import yaml
 
 from date_utils import _format_date_tuple, _format_year
-from location import _ensure_data_loaded
 
 
 def slugify(text):
@@ -121,10 +120,6 @@ def export_to_jekyll(pickle_path, output_dir):
         people = dill.load(f)
 
     print(f"Found {len(people)} people")
-
-    # Ensure geographic data is loaded for to_dict() calls
-    print("Loading geographic data...")
-    _ensure_data_loaded()
 
     # Create output directory
     output_path = Path(output_dir)
