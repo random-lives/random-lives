@@ -15,6 +15,7 @@ import re
 import yaml
 
 from date_utils import _format_date_tuple, _format_year
+from location import _ensure_data_loaded
 
 
 def slugify(text):
@@ -76,29 +77,35 @@ sex: "{person.sex}"
     # Add debugging information as YAML comments (not parsed by Jekyll)
     frontmatter += "\n# Debug information (not displayed on page):\n"
 
-    # Personality traits
-    if person.personality:
-        frontmatter += "# personality:\n"
-        for trait, value in person.personality.items():
-            frontmatter += f"#   {trait}: {value}\n"
+    # Export full person data as YAML
+    try:
+        person_dict = person.to_dict()
 
-    # Demographics
-    if person.demographics:
-        frontmatter += "# demographics:\n"
-        for key, value in person.demographics.items():
-            if key != 'name':  # Skip name since it's already in title
-                # Escape quotes and handle multi-line values
-                value_str = str(value).replace('"', '\\"')
-                if '\n' in value_str:
-                    value_str = value_str.replace('\n', ' ')
-                frontmatter += f"#   {key}: {value_str}\n"
+        # Convert numpy types to native Python types for clean YAML
+        def convert_value(v):
+            if hasattr(v, 'item'):  # numpy scalar
+                return v.item()
+            elif isinstance(v, (list, tuple)):
+                return [convert_value(x) for x in v]
+            elif isinstance(v, dict):
+                return {k: convert_value(val) for k, val in v.items()}
+            else:
+                return v
 
-    # Life events
-    if person.events:
-        frontmatter += "# events:\n"
-        for i, event in enumerate(person.events, 1):
-            event_str = str(event).replace('\n', ' ')
-            frontmatter += f"#   {i}. {event_str}\n"
+        clean_dict = {k: convert_value(v) for k, v in person_dict.items()}
+
+        yaml_str = yaml.dump(clean_dict, default_flow_style=False, allow_unicode=True, sort_keys=True)
+
+        # Prefix each line with "# " to make it a comment
+        for line in yaml_str.split('\n'):
+            if line.strip():  # Skip empty lines
+                frontmatter += f"# {line}\n"
+    except (TypeError, AttributeError) as e:
+        # Fallback: include basic serializable attributes
+        frontmatter += f"# Error calling to_dict(): {e}\n"
+        frontmatter += f"# personality: {person.personality}\n"
+        frontmatter += f"# demographics: {person.demographics}\n"
+        frontmatter += f"# events: {person.events}\n"
 
     frontmatter += "---\n\n"
 
@@ -114,6 +121,10 @@ def export_to_jekyll(pickle_path, output_dir):
         people = dill.load(f)
 
     print(f"Found {len(people)} people")
+
+    # Ensure geographic data is loaded for to_dict() calls
+    print("Loading geographic data...")
+    _ensure_data_loaded()
 
     # Create output directory
     output_path = Path(output_dir)
