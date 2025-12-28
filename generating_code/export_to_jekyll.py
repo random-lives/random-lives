@@ -82,8 +82,17 @@ sex: "{person.sex}"
     if person.events:
         frontmatter += "events:\n"
         for event in person.events:
+            # Handle both string and dict formats
+            if isinstance(event, str):
+                event_str = event
+            elif isinstance(event, dict):
+                # Extract description or concatenate relevant fields
+                event_str = event.get('description', str(event))
+            else:
+                event_str = str(event)
+
             # Escape quotes in events
-            event_clean = event.replace('"', '\\"')
+            event_clean = event_str.replace('"', '\\"')
             frontmatter += f'  - "{event_clean}"\n'
 
     frontmatter += "---\n\n"
