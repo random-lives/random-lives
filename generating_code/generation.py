@@ -277,6 +277,10 @@ HISTORICAL CONTEXT:
  - Include explicit historical framing throughout where relevant to the story, so that the reader can follow
  - Assume the reader is intelligent, well-educated and able to google things if interested, but not an expert on the specific period
 
+PERSONALITY TRAITS:
+Personality must be portrayed realistically through actions, particularly for extremes (below 15th or above 85th percentile). Those with low 
+intelligence or conscientiousness should visibly struggle with tasks others manage; those with low agreeableness or honesty-humility should create friction and face social consequences. Do not bowdlerize—negative traits should cause real problems, not be reframed as hidden strengths.
+
 EVENT INTEGRATION:
 Every historical event or contextual detail should do at least one of:
 1. Reveals character (shows a personality trait or relationship dynamic)
@@ -335,6 +339,7 @@ LENGTH & FOCUS (age 11-18):
 - Show emerging adult roles and relationships
 - Make sure to express the person's personality through behavior and choices
 - Traits below 15th percentile or above 85th percentile should be particularly visible
+
 """,
     "adult": """
 LENGTH & FOCUS (age 19+):
@@ -380,6 +385,9 @@ STYLE & VOICE:
 NARRATOR HEDGING:
 Remove uncertain language: "likely," "probably," "perhaps," "X or Y," "some kind of."
 Replace with specific facts. The narrator knows what happened.
+
+PERSONALITY TRAIT CHECK:
+Verify that extreme personality traits are visible and unvarnished. Negative traits should not be reframed as hidden strengths. Dysfunctional, ineffectual, or difficult people must not be bowdlerized into sympathetic eccentrics.
 
 EVENT INTEGRATION CHECK:
 Review all life events and historical details mentioned in the narrative.
