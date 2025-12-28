@@ -6,29 +6,22 @@ layout: default
   <header class="life-header">
     <h1>{{ page.title }}</h1>
     <div class="life-meta">
-      <p><strong>Born:</strong> {{ page.birth_year }}</p>
-      {% if page.death_year %}<p><strong>Died:</strong> {{ page.death_year }} (Age {{ page.age_at_death }})</p>{% endif %}
+      <p><strong>Born:</strong> {{ page.birth_date }}</p>
+      {% if page.death_year != "alive" %}<p><strong>Died:</strong> {{ page.death_date }} (Age {{ page.age_at_death }})</p>{% endif %}
       {% if page.region %}<p><strong>Region:</strong> {{ page.region }}</p>{% endif %}
-      {% if page.country %}<p><strong>Location:</strong> {{ page.country }}</p>{% endif %}
-      <p><strong>Lifestyle:</strong> {{ page.lifestyle }}</p>
-      <p><strong>Era:</strong> {{ page.era }}</p>
+      {% if page.country %}
+        <p><strong>Location:</strong>
+          <a href="https://www.google.com/maps?q={{ page.latitude }},{{ page.longitude }}" target="_blank" rel="noopener noreferrer">
+            {{ page.country }}
+          </a>
+        </p>
+      {% endif %}
     </div>
   </header>
 
   <div class="life-narrative">
     {{ content }}
   </div>
-
-  {% if page.events %}
-  <section class="life-events">
-    <h2>Life Events</h2>
-    <ul>
-      {% for event in page.events %}
-        <li>{{ event }}</li>
-      {% endfor %}
-    </ul>
-  </section>
-  {% endif %}
 
   <nav class="life-navigation">
     <a href="{{ '/' | relative_url }}">← Back to all lives</a>

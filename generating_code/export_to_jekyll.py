@@ -61,21 +61,14 @@ age_at_death: {person.age_at_death}
         frontmatter += f'region: "{person.region}"\n'
     else:
         frontmatter += f'country: "{person.location.country}"\n'
+        frontmatter += f'latitude: {person.location.lat}\n'
+        frontmatter += f'longitude: {person.location.lon}\n'
 
-    # Add other metadata
+    # Add other metadata (not displayed but kept for filtering/sorting)
     frontmatter += f"""lifestyle: "{person.lifestyle}"
 era: "{person.era}"
 sex: "{person.sex}"
 """
-
-    # Add events if present
-    if person.events:
-        frontmatter += "events:\n"
-        for event in person.events:
-            # Events are dicts with 'event' and 'timing' fields
-            event_str = event['event'] if isinstance(event, dict) else event
-            event_clean = event_str.replace('"', '\\"')
-            frontmatter += f'  - "{event_clean}"\n'
 
     frontmatter += "---\n\n"
 
