@@ -126,7 +126,7 @@ class Person:
 
         # Generate birth and death dates
         self.birth_date = _sample_birth_date(year)
-        self.death_date = _sample_death_date(self.birth_date, self.age_at_death, self.lifestyle)
+        self.death_date = _sample_death_date(self.birth_date, self.age_at_death)
 
         # Sample personality after age_at_death is set
         if self.years_lived() > 2:

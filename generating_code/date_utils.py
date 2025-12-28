@@ -13,6 +13,16 @@ All dates are represented as (year, day_of_year) tuples where:
 import numpy as np
 
 
+# Constants
+MONTH_NAMES = ["January", "February", "March", "April", "May", "June",
+               "July", "August", "September", "October", "November", "December"]
+
+# Infant mortality model parameters
+NEONATAL_FRACTION = 0.55  # Fraction of infant deaths in neonatal period (0-27 days)
+DAY_ZERO_DEATH_PROB = 0.40  # Probability of death on day 0 for neonatal deaths
+NEONATAL_EXPONENTIAL_MEAN = 5  # Mean for exponential distribution of neonatal deaths (days 1-27)
+
+
 # =============================================================================
 # Calendar Arithmetic
 # =============================================================================
@@ -52,13 +62,11 @@ def _add_days_to_date(year, day_of_year, days_to_add):
 def _day_of_year_to_month_day(year, day_of_year):
     """Convert day of year to (month_name, day) tuple."""
     days_in_months = [31, 29 if _is_leap_year(year) else 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-    month_names = ["January", "February", "March", "April", "May", "June",
-                   "July", "August", "September", "October", "November", "December"]
 
     day_count = 0
     for month_idx, days in enumerate(days_in_months):
         if day_of_year <= day_count + days:
-            return month_names[month_idx], day_of_year - day_count
+            return MONTH_NAMES[month_idx], day_of_year - day_count
         day_count += days
 
     # Shouldn't happen, but fallback
@@ -71,10 +79,7 @@ def _day_of_year_to_month_day(year, day_of_year):
 
 def _format_year(year):
     """Format year as string (e.g., '1500 AD' or '8000 BC')."""
-    if year > 0:
-        return f"{year} AD"
-    else:
-        return f"{1-year} BC"
+    return f"{year} AD" if year > 0 else f"{1-year} BC"
 
 
 def _format_date_tuple(date_tuple):
@@ -101,12 +106,10 @@ def _sample_birth_date(year):
     Returns (year, day_of_year) tuple where day_of_year is 1-365 (or 1-366 for leap years).
     Works for all years including BCE (negative years).
     """
-    days_in_year = _days_in_year(year)
-    day_of_year = np.random.randint(1, days_in_year + 1)
-    return (year, day_of_year)
+    return (year, np.random.randint(1, _days_in_year(year) + 1))
 
 
-def _sample_death_date(birth_date, age_at_death, lifestyle='Rural'):
+def _sample_death_date(birth_date, age_at_death):
     """Sample a death date given birth date and age at death.
 
     For infants (age < 1), uses realistic neonatal/post-neonatal distribution.
@@ -121,15 +124,12 @@ def _sample_death_date(birth_date, age_at_death, lifestyle='Rural'):
 
     if age_at_death < 1:
         # Infant death - use neonatal/post-neonatal model
-        # Neonatal fraction: ~0.55 as compromise for historical populations
-        neonatal_fraction = 0.55
-
-        if np.random.random() < neonatal_fraction:
-            # Neonatal death (0-27 days): 40% day 0, exponential decay for days 1-27
-            if np.random.random() < 0.40:
+        if np.random.random() < NEONATAL_FRACTION:
+            # Neonatal death (0-27 days): 40% day 0, exponential decay thereafter
+            if np.random.random() < DAY_ZERO_DEATH_PROB:
                 days_lived = 0
             else:
-                days_lived = min(1 + int(np.random.exponential(5)), 27)
+                days_lived = min(1 + int(np.random.exponential(NEONATAL_EXPONENTIAL_MEAN)), 27)
         else:
             # Post-neonatal death (28-365 days): uniform distribution
             days_lived = np.random.randint(28, 366)

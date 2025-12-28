@@ -60,10 +60,8 @@ def siler_Sx(x, params):
 
 def to_numeric_year(birth_year_str):
     """Convert birth year string (e.g., '1500 AD' or '500 BC') to numeric year."""
-    if 'AD' in birth_year_str:
-        return int(re.sub(r'\D', '', birth_year_str))
-    else:
-        return 1 - int(re.sub(r'\D', '', birth_year_str))
+    year_num = int(re.sub(r'\D', '', birth_year_str))
+    return year_num if 'AD' in birth_year_str else 1 - year_num
 
 
 class LifespanCalculator:
