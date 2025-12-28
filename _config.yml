@@ -1,7 +1,7 @@
 # Site settings
 title: Random Lives
 description: Biographical stories of randomly sampled people from across all of human history
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/random-lives" # the subpath of your site, e.g. /blog
 url: "https://random-lives.github.io" # the base hostname & protocol for your site
 
 # Build settings
