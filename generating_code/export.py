@@ -54,6 +54,10 @@ birth_date: "{_format_date_tuple(person.birth_date)}"
     # Add location info
     if person.era == 'Paleolithic':
         frontmatter += f'region: "{person.region}"\n'
+        if 'Subregion' in person.demographics and person.demographics['Subregion']:
+            frontmatter += f'subregion: "{person.demographics["Subregion"]}"\n'
+        if 'Subsubregion' in person.demographics and person.demographics['Subsubregion']:
+            frontmatter += f'subsubregion: "{person.demographics["Subsubregion"]}"\n'
     else:
         # Use detailed address if available, otherwise fall back to subregion/country
         if person.location.address:

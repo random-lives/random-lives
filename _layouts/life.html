@@ -8,8 +8,17 @@ layout: default
     <div class="life-meta">
       <p><strong>Born:</strong> {{ page.birth_date }}</p>
       {% if page.death_year != "alive" %}<p><strong>Died:</strong> {{ page.death_date }} (Age {{ page.age_at_death }})</p>{% endif %}
-      {% if page.region %}<p><strong>Region:</strong> {{ page.region }}</p>{% endif %}
-      {% if page.location %}
+      {% if page.region %}
+        <p><strong>Location:</strong>
+          {% if page.subsubregion %}
+            {{ page.subsubregion }}, {{ page.subregion }}, {{ page.region }}
+          {% elsif page.subregion %}
+            {{ page.subregion }}, {{ page.region }}
+          {% else %}
+            {{ page.region }}
+          {% endif %}
+        </p>
+      {% elsif page.location %}
         <p><strong>Location:</strong>
           <a href="{{ page.map_url }}" target="_blank" rel="noopener noreferrer">
             {{ page.location }}
