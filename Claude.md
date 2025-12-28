@@ -126,21 +126,25 @@ layout: life
 title: "Person Name"
 birth_year: "1834 AD"
 death_year: "1891 AD"
-birth_date: "March 15, 1834"
-death_date: "November 3, 1891"
+birth_date: "March 15, 1834 AD"
+death_date: "November 3, 1891 AD"
 age_at_death: 57
+location: "New York, United States"
 country: "United States"
+latitude: 40.71
+longitude: -74.01
+map_url: "https://www.google.com/maps/place/40.71,-74.01/@40.71,-74.01,5z"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "F"
-events:
-  - "Event description"
 ---
 
 Biographical narrative text goes here...
 ```
 
 Note: `birth_date` and `death_date` fields are included for all people, formatted as readable dates (e.g., "March 15, 1834 AD" or "July 4, 5000 BC").
+
+**Map URLs**: Each Holocene person includes a `map_url` field linking to their birthplace on Google Maps. The URL uses the format `https://www.google.com/maps/place/lat,lon/@lat,lon,5z` which displays both a marker at the precise location and a zoom level of 5 (landmass/continent view). This provides geographic context while being zoomed out enough to show the broader region.
 
 ### 3. Preview Locally (Optional)
 
@@ -257,6 +261,7 @@ The Python generation pipeline is organized into focused modules with clear resp
   - Converts HYDE grid coordinates to geographic information
   - Provides country, biome, climate, elevation data
   - Uses lazy loading for 6+ GB of geographic datasets
+  - `gmap_url()` method generates Google Maps URLs with markers (default zoom level 5)
 
 - `lifespan.py` (5KB) - Mortality modeling
   - Age-at-death calculation using historical lifetables
@@ -285,7 +290,9 @@ The Python generation pipeline is organized into focused modules with clear resp
 - `export.py` (4KB) - Jekyll markdown export
   - Converts Person objects to markdown with frontmatter
   - Handles both Paleolithic and Holocene formatting
+  - Includes Google Maps URLs with markers for Holocene people
   - Creates URL-safe slugs for filenames
+  - Exports full person data as YAML comments for debugging
 
 - `CountryData.py` (3KB) - Country demographic data
   - Post-1600 country-level statistics
@@ -369,7 +376,7 @@ git push
 ### Generation Scripts
 - `generating_code/person.py` - Core person sampling logic
 - `generating_code/generation.py` - LLM generation pipeline
-- `generating_code/export_to_jekyll.py` - Export to markdown
+- `generating_code/export.py` - Export to markdown
 
 ---
 
