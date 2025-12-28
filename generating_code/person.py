@@ -140,6 +140,9 @@ class Person:
         self.narrative = None
         self.messages = []  # LLM conversation history
 
+        # Cache for to_dict() to avoid recomputing location data
+        self._dict_cache = None
+
     def _init_paleolithic(self):
         """Initialize Paleolithic-specific attributes."""
         self.lifestyle = 'Hunter-Gatherer'
@@ -271,7 +274,16 @@ class Person:
 
 
     def to_dict(self):
-        """Export person as flat dict for LLM prompts."""
+        """Export person as flat dict for LLM prompts.
+
+        Results are cached after first call to avoid recomputing location data
+        which requires loading large geographic datasets.
+        """
+        # Return cached result if available (check hasattr for backward compatibility)
+        if hasattr(self, '_dict_cache') and self._dict_cache is not None:
+            return self._dict_cache
+
+        # Compute the dict
         output = {
             'Era': self.era,
             'Birth year': self.birth_year_str,
@@ -281,7 +293,7 @@ class Person:
             'Sex': self.sex,
             'Lifestyle': self.lifestyle,
         }
-        
+
         if self.era == 'Paleolithic':
             output['Region'] = self.region
         else:
@@ -318,6 +330,9 @@ class Person:
 
         output.update(self.personality)
         output.update(self.demographics)
+
+        # Cache the result
+        self._dict_cache = output
         return output
 
     def to_prompt_string(self):
