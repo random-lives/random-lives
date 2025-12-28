@@ -295,11 +295,11 @@ class Person:
         if self.era == 'Paleolithic':
             output['Region'] = self.region
         else:
-            # Ensure geographic data is loaded
-            _ensure_data_loaded()
-
             # Check for cached location data (with backward compatibility)
             if not hasattr(self, '_location_data_cache') or self._location_data_cache is None:
+                # Ensure geographic data is loaded (only when we need to compute cache)
+                _ensure_data_loaded()
+
                 # Compute and cache location data
                 loc = self.location
                 self._location_data_cache = {
