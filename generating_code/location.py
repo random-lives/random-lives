@@ -225,18 +225,14 @@ class Location:
             output[_clim_vars[var]] = _clim_maps[var][self.row, self.col]
         return output
 
-    def gmap_url(self):
-        """Return Google Maps URL for this location."""
-        url = "https://www.google.com/maps/place/"
-        if self.lat > 0:
-            url += f"{self.lat}N+"
-        else:
-            url += f"{-self.lat}S+"
-        if self.lon > 0:
-            url += f"{self.lon}E"
-        else:
-            url += f"{-self.lon}W"
-        return url
+    def gmap_url(self, zoom=8):
+        """Return Google Maps URL for this location.
+
+        Args:
+            zoom: Zoom level (1=world, 5=landmass/continent, 10=city, 15=streets, 20=buildings)
+                  Default is 8 (regional view)
+        """
+        return f"https://www.google.com/maps/@{self.lat},{self.lon},{zoom}z"
 
     def local_land_area(self, size):
         """Get total land area in a square around this cell."""
