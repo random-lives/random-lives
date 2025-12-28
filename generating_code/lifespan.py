@@ -2,7 +2,6 @@
 
 import csv
 import numpy as np
-import re
 import dill
 
 AGES = np.arange(121)
@@ -58,12 +57,6 @@ def siler_Sx(x, params):
     return output
 
 
-def to_numeric_year(birth_year_str):
-    """Convert birth year string (e.g., '1500 AD' or '500 BC') to numeric year."""
-    year_num = int(re.sub(r'\D', '', birth_year_str))
-    return year_num if 'AD' in birth_year_str else 1 - year_num
-
-
 class LifespanCalculator:
     """Calculator for historical lifespan simulations."""
 
@@ -81,9 +74,6 @@ class LifespanCalculator:
 
     def age_at_death(self, country, birth_year, sex, lifestyle):
         """Calculate age at death for a person based on their demographics."""
-        if isinstance(birth_year, str):
-            birth_year = to_numeric_year(birth_year)
-
         if lifestyle == "Hunter-Gatherer":
             return sample_age(self.hg_Px)
 
