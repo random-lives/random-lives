@@ -768,7 +768,7 @@ def generate_batch(n=10, model="haiku", quiet=True, show_cost=False):
     results = []
     for i in tqdm(range(n), disable=quiet):
         try:
-            person = generate_person(model=model, quiet=True, show_cost=False)
+            person = generate_person(model=model, quiet=quiet, show_cost=show_cost)
             results.append(person)
             if not quiet:
                 print(f"  {i+1}: {person.era}, {person.birth_year_str}, "

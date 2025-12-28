@@ -371,14 +371,11 @@ class Person:
             'Birth year': self.birth_year_str,
             'Birth date': _format_date_tuple(self.birth_date),
             'Age at death': self.age_at_death,
+            'Death date': _format_date_tuple(self.death_date),
             'Sex': self.sex,
             'Lifestyle': self.lifestyle,
         }
-
-        # Add death date if person is deceased
-        if self.death_date is not None:
-            output['Death date'] = _format_date_tuple(self.death_date)
-
+        
         if self.era == 'Paleolithic':
             output['Region'] = self.region
         else:

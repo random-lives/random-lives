@@ -72,8 +72,8 @@ sex: "{person.sex}"
     if person.events:
         frontmatter += "events:\n"
         for event in person.events:
-            # Events are dicts with 'description' field
-            event_str = event['description'] if isinstance(event, dict) else event
+            # Events are dicts with 'event' and 'timing' fields
+            event_str = event['event'] if isinstance(event, dict) else event
             event_clean = event_str.replace('"', '\\"')
             frontmatter += f'  - "{event_clean}"\n'
 
