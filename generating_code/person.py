@@ -13,7 +13,7 @@ import h5py
 from datetime import date, timedelta
 
 from lifespan import age_at_death
-from location import Location
+from location import Location, _ensure_data_loaded
 from date_utils import (_format_year, _format_date_tuple, _sample_birth_date,
                         _sample_death_date)
 
@@ -295,6 +295,9 @@ class Person:
         if self.era == 'Paleolithic':
             output['Region'] = self.region
         else:
+            # Ensure geographic data is loaded
+            _ensure_data_loaded()
+
             # Check for cached location data (with backward compatibility)
             if not hasattr(self, '_location_data_cache') or self._location_data_cache is None:
                 # Compute and cache location data
