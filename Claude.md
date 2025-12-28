@@ -239,6 +239,36 @@ The project aims for "quiet realism":
 
 ---
 
+## Working with the Codebase
+
+### File Editing Policy
+
+**IMPORTANT: Do not directly edit generated markdown files in `_lives/`**
+
+The markdown files in `_lives/` are **generated outputs** from the Python pipeline. They should only be modified by:
+1. Re-running `export_to_jekyll.py` with updated pickle files
+2. Modifying the export script itself to change the output format
+
+**DO:**
+- Edit Python scripts in `generating_code/` (person.py, export_to_jekyll.py, generation.py, etc.)
+- Edit Jekyll templates in `_layouts/` (life.html, default.html)
+- Edit site-wide files (CSS, index.html, about.md, _config.yml)
+- Re-generate markdown files by running export scripts
+
+**DON'T:**
+- Manually edit individual `.md` files in `_lives/`
+- Create one-off scripts to patch generated files
+- Try to fix data issues by editing the output instead of the source
+
+**If you need to change how biographical pages are structured or what data they display:**
+1. Modify `export_to_jekyll.py` to change the frontmatter/content generation
+2. Modify `_layouts/life.html` to change how data is displayed on the page
+3. Re-run the export script to regenerate all files with the new format
+
+**Rationale**: The `_lives/` directory will eventually contain hundreds of generated files. Any manual edits will be lost when the export script is re-run. Changes must be made at the source (Python pipeline or Jekyll templates) to be permanent and apply to all files consistently.
+
+---
+
 ## Local Development Commands
 
 ### Jekyll Site
