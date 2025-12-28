@@ -66,6 +66,7 @@ birth_date: "{_format_date_tuple(person.birth_date)}"
         frontmatter += f'country: "{person.location.country}"\n'
         frontmatter += f'latitude: {person.location.lat}\n'
         frontmatter += f'longitude: {person.location.lon}\n'
+        frontmatter += f'map_url: "{person.location.gmap_url()}"\n'
 
     # Add other metadata (not displayed but kept for filtering/sorting)
     frontmatter += f"""lifestyle: "{person.lifestyle}"

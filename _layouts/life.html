@@ -11,13 +11,13 @@ layout: default
       {% if page.region %}<p><strong>Region:</strong> {{ page.region }}</p>{% endif %}
       {% if page.location %}
         <p><strong>Location:</strong>
-          <a href="https://www.google.com/maps?q={{ page.latitude }},{{ page.longitude }}" target="_blank" rel="noopener noreferrer">
+          <a href="{{ page.map_url }}" target="_blank" rel="noopener noreferrer">
             {{ page.location }}
           </a>
         </p>
       {% elsif page.country %}
         <p><strong>Location:</strong>
-          <a href="https://www.google.com/maps?q={{ page.latitude }},{{ page.longitude }}" target="_blank" rel="noopener noreferrer">
+          <a href="{{ page.map_url }}" target="_blank" rel="noopener noreferrer">
             {{ page.country }}
           </a>
         </p>
