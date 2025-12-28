@@ -9,7 +9,13 @@ layout: default
       <p><strong>Born:</strong> {{ page.birth_date }}</p>
       {% if page.death_year != "alive" %}<p><strong>Died:</strong> {{ page.death_date }} (Age {{ page.age_at_death }})</p>{% endif %}
       {% if page.region %}<p><strong>Region:</strong> {{ page.region }}</p>{% endif %}
-      {% if page.country %}
+      {% if page.location %}
+        <p><strong>Location:</strong>
+          <a href="https://www.google.com/maps?q={{ page.latitude }},{{ page.longitude }}" target="_blank" rel="noopener noreferrer">
+            {{ page.location }}
+          </a>
+        </p>
+      {% elsif page.country %}
         <p><strong>Location:</strong>
           <a href="https://www.google.com/maps?q={{ page.latitude }},{{ page.longitude }}" target="_blank" rel="noopener noreferrer">
             {{ page.country }}

@@ -60,6 +60,14 @@ age_at_death: {person.age_at_death}
     if person.era == 'Paleolithic':
         frontmatter += f'region: "{person.region}"\n'
     else:
+        # Build full location string (subregion, country)
+        location_parts = []
+        if person.location.subregion:
+            location_parts.append(person.location.subregion)
+        location_parts.append(person.location.country)
+        full_location = ', '.join(location_parts)
+
+        frontmatter += f'location: "{full_location}"\n'
         frontmatter += f'country: "{person.location.country}"\n'
         frontmatter += f'latitude: {person.location.lat}\n'
         frontmatter += f'longitude: {person.location.lon}\n'
