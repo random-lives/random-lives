@@ -10,7 +10,14 @@
       "Bash(bundle install:*)",
       "Bash(brew --version:*)",
       "Bash(brew install:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(export PATH=\"/opt/homebrew/opt/ruby/bin:$PATH\")",
+      "Bash(gh --version:*)",
+      "Bash(chmod:*)",
+      "Bash(python3:*)",
+      "Bash(git push:*)",
+      "Bash(ls:*)"
     ]
   }
 }
