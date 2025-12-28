@@ -6,3 +6,12 @@ _site/
 vendor/
 Gemfile.lock
 .DS_Store
+
+# Generating code - large data files
+generating_code/Raw_Data/
+generating_code/Processed_Data/
+generating_code/*.pkl
+generating_code/.ipynb_checkpoints/
+generating_code/.virtual_documents/
+generating_code/__pycache__/
+generating_code/Outputs/
