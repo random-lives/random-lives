@@ -338,6 +338,10 @@ class Person:
         output.update(self.personality)
         output.update(self.demographics)
 
+        # Add events if they exist
+        if self.events:
+            output['events'] = self.events
+
         return output
 
     def to_prompt_string(self):
