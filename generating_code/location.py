@@ -19,52 +19,20 @@ import geopandas as gpd
 from shapely.geometry import Point
 
 # =============================================================================
-# Load Geographic Data
+# Lazy Load Geographic Data
 # =============================================================================
 
-# ISO country codes
-with rasterio.open('Raw_Data/HYDE34/general/iso_cr.asc') as src:
-    _iso_data = src.read(1)
-
-# ISO subregion codes
-with open('Raw_Data/HYDE34/general/sub_iso_cr.asc', 'r') as f:
-    ncols = int(f.readline().split()[1])
-    nrows = int(f.readline().split()[1])
-    xllcorner = float(f.readline().split()[1])
-    yllcorner = float(f.readline().split()[1])
-    cellsize = float(f.readline().split()[1])
-    nodata = float(f.readline().split()[1])
-    _sub_iso_data = np.loadtxt(f).reshape(nrows, ncols)
-
-# Land area data
-with rasterio.open('Raw_Data/HYDE34/general/maxln_cr.asc') as src:
-    _max_land_area = src.read(1)
-    _max_land_area = _max_land_area * (_max_land_area > 0)
-
-with rasterio.open('Raw_Data/HYDE34/general/garea_cr.asc') as src:
-    _total_area = src.read(1)
-    _total_area = _total_area * (_max_land_area > 0)
-
-# Country ID mapping (loaded from processed data)
-import dill
-with open('Processed_Data/processed_p1600_data.pkl', 'rb') as f:
-    _country_data = dill.load(f)
-
-_ID_to_country = {-9999: 'None'}
-for name in _country_data:
-    _ID_to_country[_country_data[name].hyde_id] = name
-
-# Subregion ID mapping
-_Subregion_ID = {}
-with open('Raw_Data/HYDE34/general/region_key.csv', 'r') as csvfile:
-    csvreader = csv.reader(csvfile)
-    next(csvreader)
-    for row in csvreader:
-        _Subregion_ID[int(row[1])] = row[5]
-_Subregion_ID[-9999] = None
-
-# Biome data
-_ecoregions = gpd.read_file('Raw_Data/Geography/wwf_eco/wwf_terr_ecos.shp')
+# Module-level cache variables (loaded on first use)
+_data_loaded = False
+_iso_data = None
+_sub_iso_data = None
+_max_land_area = None
+_total_area = None
+_ID_to_country = None
+_Subregion_ID = None
+_ecoregions = None
+_elevation = None
+_clim_maps = None
 
 _biome_names = {
     1: 'Tropical & Subtropical Moist Broadleaf Forests',
@@ -85,9 +53,6 @@ _biome_names = {
     99: 'Rock and Ice'
 }
 
-# Climate data
-_elevation = np.array(Image.open('Raw_Data/Geography/climatology/wc2.1_5m_elev.tif'))
-
 _clim_vars = {
     'bio_1': "Mean Temp",
     'bio_5': "Warmest Month Temp",
@@ -95,9 +60,67 @@ _clim_vars = {
     'bio_12': "Annual Precipitation",
 }
 
-_clim_maps = {}
-for var in _clim_vars:
-    _clim_maps[var] = np.array(Image.open(f'Raw_Data/Geography/climatology/wc2.1_5m_{var}.tif'))
+
+def _ensure_data_loaded():
+    """Load all geographic data files on first call. Subsequent calls are no-ops."""
+    global _data_loaded, _iso_data, _sub_iso_data, _max_land_area, _total_area
+    global _ID_to_country, _Subregion_ID, _ecoregions, _elevation, _clim_maps
+
+    if _data_loaded:
+        return
+
+    # ISO country codes
+    with rasterio.open('Raw_Data/HYDE34/general/iso_cr.asc') as src:
+        _iso_data = src.read(1)
+
+    # ISO subregion codes
+    with open('Raw_Data/HYDE34/general/sub_iso_cr.asc', 'r') as f:
+        ncols = int(f.readline().split()[1])
+        nrows = int(f.readline().split()[1])
+        xllcorner = float(f.readline().split()[1])
+        yllcorner = float(f.readline().split()[1])
+        cellsize = float(f.readline().split()[1])
+        nodata = float(f.readline().split()[1])
+        _sub_iso_data = np.loadtxt(f).reshape(nrows, ncols)
+
+    # Land area data
+    with rasterio.open('Raw_Data/HYDE34/general/maxln_cr.asc') as src:
+        _max_land_area = src.read(1)
+        _max_land_area = _max_land_area * (_max_land_area > 0)
+
+    with rasterio.open('Raw_Data/HYDE34/general/garea_cr.asc') as src:
+        _total_area = src.read(1)
+        _total_area = _total_area * (_max_land_area > 0)
+
+    # Country ID mapping (loaded from processed data)
+    import dill
+    with open('Processed_Data/processed_p1600_data.pkl', 'rb') as f:
+        _country_data = dill.load(f)
+
+    _ID_to_country = {-9999: 'None'}
+    for name in _country_data:
+        _ID_to_country[_country_data[name].hyde_id] = name
+
+    # Subregion ID mapping
+    _Subregion_ID = {}
+    with open('Raw_Data/HYDE34/general/region_key.csv', 'r') as csvfile:
+        csvreader = csv.reader(csvfile)
+        next(csvreader)
+        for row in csvreader:
+            _Subregion_ID[int(row[1])] = row[5]
+    _Subregion_ID[-9999] = None
+
+    # Biome data
+    _ecoregions = gpd.read_file('Raw_Data/Geography/wwf_eco/wwf_terr_ecos.shp')
+
+    # Climate data
+    _elevation = np.array(Image.open('Raw_Data/Geography/climatology/wc2.1_5m_elev.tif'))
+
+    _clim_maps = {}
+    for var in _clim_vars:
+        _clim_maps[var] = np.array(Image.open(f'Raw_Data/Geography/climatology/wc2.1_5m_{var}.tif'))
+
+    _data_loaded = True
 
 
 # =============================================================================
@@ -106,6 +129,7 @@ for var in _clim_vars:
 
 def get_biome(lat, lon):
     """Query biome and ecoregion for a coordinate."""
+    _ensure_data_loaded()
     point = Point(lon, lat)
     matches = _ecoregions[_ecoregions.contains(point)]
 
@@ -154,6 +178,7 @@ class Location:
     """
 
     def __init__(self, row, col):
+        _ensure_data_loaded()
         self.row = row
         self.col = col
 

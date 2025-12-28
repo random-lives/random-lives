@@ -17,40 +17,64 @@ from location import Location
 
 
 # =============================================================================
-# Load Data
+# Lazy Data Loading
 # =============================================================================
 
-# Unified birth data
-with open('Processed_Data/unified_births.pkl', 'rb') as f:
-    _unified = dill.load(f)
+# Module-level cache variables (loaded on first use)
+_data_loaded = False
+_years = None
+_cumulative = None
+_total_births = None
+_transition_year = None
+_paleo_data = None
+_births_array = None
+_hg_array = None
+_hyde_ds = None
+_hyde_years = None
+_hyde = None
 
-_years = _unified['years']
-_cumulative = _unified['cumulative_births']
-_total_births = _unified['total_births']
-_transition_year = _unified['transition_year']  # Paleolithic/Holocene boundary
 
-# Paleolithic regional data
-with open('Processed_Data/paleo_regions.pkl', 'rb') as f:
-    _paleo_data = dill.load(f)
+def _ensure_data_loaded():
+    """Load all data files on first call. Subsequent calls are no-ops."""
+    global _data_loaded, _years, _cumulative, _total_births, _transition_year
+    global _paleo_data, _births_array, _hg_array, _hyde_ds, _hyde_years, _hyde
 
-# Holocene spatial data
-with h5py.File('Processed_Data/births_array.h5', 'r') as f:
-    _births_array = f['data'][:]
+    if _data_loaded:
+        return
 
-with h5py.File('Processed_Data/hg_array.h5', 'r') as f:
-    _hg_array = f['data'][:]
+    # Unified birth data
+    with open('Processed_Data/unified_births.pkl', 'rb') as f:
+        _unified = dill.load(f)
 
-# HYDE years and data
-import xarray as xr
-_hyde_ds = xr.open_dataset('Raw_Data/HYDE34/NetCDF/population.nc', decode_times=False, chunks={})
-_hyde_years = (_hyde_ds['population'].time.values // 365).astype(int) + 1
+    _years = _unified['years']
+    _cumulative = _unified['cumulative_births']
+    _total_births = _unified['total_births']
+    _transition_year = _unified['transition_year']  # Paleolithic/Holocene boundary
 
-_hyde = {}
-for f in ["population", "urban_population", "cropland", "pasture", "rangeland",
-          "urban_area", "irrigated_not_rice", "irrigated_rice",
-          "rainfed_not_rice", "rainfed_rice"]:
-    ds = xr.open_dataset('Raw_Data/HYDE34/NetCDF/' + f + '.nc', decode_times=False, chunks={})
-    _hyde[f] = ds[list(ds.data_vars)[0]]
+    # Paleolithic regional data
+    with open('Processed_Data/paleo_regions.pkl', 'rb') as f:
+        _paleo_data = dill.load(f)
+
+    # Holocene spatial data
+    with h5py.File('Processed_Data/births_array.h5', 'r') as f:
+        _births_array = f['data'][:]
+
+    with h5py.File('Processed_Data/hg_array.h5', 'r') as f:
+        _hg_array = f['data'][:]
+
+    # HYDE years and data
+    import xarray as xr
+    _hyde_ds = xr.open_dataset('Raw_Data/HYDE34/NetCDF/population.nc', decode_times=False, chunks={})
+    _hyde_years = (_hyde_ds['population'].time.values // 365).astype(int) + 1
+
+    _hyde = {}
+    for f in ["population", "urban_population", "cropland", "pasture", "rangeland",
+              "urban_area", "irrigated_not_rice", "irrigated_rice",
+              "rainfed_not_rice", "rainfed_rice"]:
+        ds = xr.open_dataset('Raw_Data/HYDE34/NetCDF/' + f + '.nc', decode_times=False, chunks={})
+        _hyde[f] = ds[list(ds.data_vars)[0]]
+
+    _data_loaded = True
 
 
 # =============================================================================
@@ -193,6 +217,7 @@ def _sample_death_date(birth_date, age_at_death, lifestyle='Rural'):
 
 def _hyde_indices(year):
     """Get HYDE time indices for interpolation."""
+    _ensure_data_loaded()
     idx = np.searchsorted(_hyde_years, year)
     if idx < len(_hyde_years) and _hyde_years[idx] == year:
         return (idx, None)
@@ -207,6 +232,7 @@ class Person:
     """A person from human history."""
 
     def __init__(self, year):
+        _ensure_data_loaded()
         self.birth_year = year
         self.birth_year_str = _format_year(year)
         self.sex = 'M' if np.random.random() < 0.512 else 'F'
@@ -425,6 +451,7 @@ class Person:
 
 def sample_year():
     """Sample a birth year weighted by births across all human history."""
+    _ensure_data_loaded()
     draw = np.random.random() * _total_births
     year = np.interp(draw, _cumulative, _years)
     return int(np.round(year))
