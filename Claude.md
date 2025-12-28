@@ -193,7 +193,10 @@ Dates are stored as `(year, day_of_year)` tuples where `day_of_year` is 1-365 (o
 
 - **Birth dates**: Uniformly sampled within the birth year
 - **Death dates**:
-  - **Infants (age < 1)**: Exponentially distributed with mean ~3 months to reflect higher early mortality clustering
+  - **Infants (age < 1)**: Uses realistic neonatal/post-neonatal distribution
+    - 55% die in neonatal period (0-27 days): 40% on day 0, exponential decay (mean ~5 days) for days 1-27
+    - 45% die in post-neonatal period (28-365 days): roughly uniform distribution
+    - Based on empirical data showing ~40% of infant deaths occur on day 1, with rapid decay thereafter
   - **Others (age ≥ 1)**: Uniformly distributed within possible death years, ensuring death occurs after birth_year + age_at_death years
   - This addresses the issue that death_year calculated as birth_year + age_at_death can be off by one year depending on whether birthdays occurred
 

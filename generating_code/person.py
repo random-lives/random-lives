@@ -93,10 +93,10 @@ def _sample_birth_date(year):
     return (year, day_of_year)
 
 
-def _sample_death_date(birth_date, age_at_death):
+def _sample_death_date(birth_date, age_at_death, lifestyle='Rural'):
     """Sample a death date given birth date and age at death.
 
-    For infants (age < 1), uses exponential distribution weighted toward early death.
+    For infants (age < 1), uses realistic neonatal/post-neonatal distribution.
     For others, uses uniform distribution within the death year.
 
     Returns (year, day_of_year) tuple, or None if person is still alive.
@@ -107,9 +107,25 @@ def _sample_death_date(birth_date, age_at_death):
     birth_year, birth_day = birth_date
 
     if age_at_death < 1:
-        # Infant death - exponentially weighted toward early death
-        # Mean of ~3 months (90 days)
-        days_lived = min(int(np.random.exponential(90)), 365)
+        # Infant death - use neonatal/post-neonatal model
+        # Neonatal fraction varies by mortality regime:
+        # - Modern low-mortality (e.g., Hunter-Gatherers with good care): ~0.67
+        # - High-mortality pre-modern: ~0.5
+        # Use 0.55 as compromise for historical populations
+        neonatal_fraction = 0.55
+
+        if np.random.random() < neonatal_fraction:
+            # Neonatal death (0-27 days)
+            # Distribution: ~40% day 0, exponential decay for days 1-27
+            if np.random.random() < 0.40:
+                days_lived = 0
+            else:
+                # Exponential for days 1-27, mean ~5 days
+                days_lived = min(1 + int(np.random.exponential(5)), 27)
+        else:
+            # Post-neonatal death (28-365 days)
+            # Roughly uniform distribution
+            days_lived = np.random.randint(28, 366)
 
         # Add days to birth date
         is_leap = (birth_year % 4 == 0 and (birth_year % 100 != 0 or birth_year % 400 == 0))
@@ -174,7 +190,7 @@ class Person:
 
         # Generate birth and death dates
         self.birth_date = _sample_birth_date(year)
-        self.death_date = _sample_death_date(self.birth_date, self.age_at_death)
+        self.death_date = _sample_death_date(self.birth_date, self.age_at_death, self.lifestyle)
 
         # Sample personality after age_at_death is set
         if self.years_lived() > 2:
