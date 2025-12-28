@@ -234,7 +234,7 @@ class Location:
             zoom: Zoom level (1=world, 5=landmass/continent, 10=city, 15=streets, 20=buildings)
                   Default is 8 (regional view)
         """
-        return f"https://www.google.com/maps/@{self.lat},{self.lon},{zoom}z"
+        return f"https://www.google.com/maps/search/?api=1&query={self.lat},{self.lon}"
 
     def local_land_area(self, size):
         """Get total land area in a square around this cell."""
