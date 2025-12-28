@@ -54,9 +54,12 @@ birth_date: "{_format_date_tuple(person.birth_date)}"
     if person.era == 'Paleolithic':
         frontmatter += f'region: "{person.region}"\n'
     else:
-        # Build full location string (subregion, country)
-        location_parts = [p for p in [person.location.subregion, person.location.country] if p]
-        full_location = ', '.join(location_parts)
+        # Use detailed address if available, otherwise fall back to subregion/country
+        if person.location.address:
+            full_location = person.location.address
+        else:
+            location_parts = [p for p in [person.location.subregion, person.location.country] if p]
+            full_location = ', '.join(location_parts)
 
         frontmatter += f'location: "{full_location}"\n'
         frontmatter += f'country: "{person.location.country}"\n'
