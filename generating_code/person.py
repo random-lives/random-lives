@@ -13,7 +13,7 @@ import h5py
 from datetime import date, timedelta
 
 from lifespan import age_at_death
-from location import Location, _ensure_data_loaded
+from location import Location
 from date_utils import (_format_year, _format_date_tuple, _sample_birth_date,
                         _sample_death_date)
 
@@ -297,10 +297,7 @@ class Person:
         else:
             # Check for cached location data (with backward compatibility)
             if not hasattr(self, '_location_data_cache') or self._location_data_cache is None:
-                # Ensure geographic data is loaded (only when we need to compute cache)
-                _ensure_data_loaded()
-
-                # Compute and cache location data
+                # Compute and cache location data (Location methods will ensure data is loaded)
                 loc = self.location
                 self._location_data_cache = {
                     'Birthplace latitude': loc.lat,

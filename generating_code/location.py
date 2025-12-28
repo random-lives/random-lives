@@ -216,10 +216,12 @@ class Location:
 
     def altitude(self):
         """Return elevation in meters."""
+        _ensure_data_loaded()
         return _elevation[self.row, self.col]
 
     def climate(self):
         """Return dict of climate variables."""
+        _ensure_data_loaded()
         output = {}
         for var in _clim_vars:
             output[_clim_vars[var]] = _clim_maps[var][self.row, self.col]
