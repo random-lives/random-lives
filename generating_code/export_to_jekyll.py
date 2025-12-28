@@ -25,21 +25,12 @@ def slugify(text):
 
 
 def calculate_death_year(person):
-    """Calculate death year string.
-
-    Uses actual death_date if available, otherwise approximates from birth year.
-    """
+    """Calculate death year string from death_date."""
     if person.age_at_death == "alive":
         return "alive"
 
-    # If we have an actual death date, use it
-    if hasattr(person, 'death_date') and person.death_date is not None:
-        year, _ = person.death_date
-        return _format_year(year)
-
-    # Fallback to approximation
-    death_year = person.birth_year + person.age_at_death
-    return _format_year(death_year)
+    year, _ = person.death_date
+    return _format_year(year)
 
 
 def person_to_markdown(person, index):
@@ -60,10 +51,9 @@ death_year: "{calculate_death_year(person)}"
 age_at_death: {person.age_at_death}
 """
 
-    # Add full dates if available (always available for new Person objects)
-    if hasattr(person, 'birth_date') and person.birth_date is not None:
-        frontmatter += f'birth_date: "{_format_date_tuple(person.birth_date)}"\n'
-    if hasattr(person, 'death_date') and person.death_date is not None:
+    # Add full dates
+    frontmatter += f'birth_date: "{_format_date_tuple(person.birth_date)}"\n'
+    if person.death_date is not None:
         frontmatter += f'death_date: "{_format_date_tuple(person.death_date)}"\n'
 
     # Add location info
@@ -82,16 +72,8 @@ sex: "{person.sex}"
     if person.events:
         frontmatter += "events:\n"
         for event in person.events:
-            # Handle both string and dict formats
-            if isinstance(event, str):
-                event_str = event
-            elif isinstance(event, dict):
-                # Extract description or concatenate relevant fields
-                event_str = event.get('description', str(event))
-            else:
-                event_str = str(event)
-
-            # Escape quotes in events
+            # Events are dicts with 'description' field
+            event_str = event['description'] if isinstance(event, dict) else event
             event_clean = event_str.replace('"', '\\"')
             frontmatter += f'  - "{event_clean}"\n'
 
