@@ -13,7 +13,7 @@ import dill
 from pathlib import Path
 import re
 
-from person import _format_date_tuple, _format_year
+from format_utils import _format_date_tuple, _format_year
 
 
 def slugify(text):
