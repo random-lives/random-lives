@@ -124,6 +124,8 @@ layout: life
 title: "Person Name"
 birth_year: "1834 AD"
 death_year: "1891 AD"
+birth_date: "March 15, 1834"
+death_date: "November 3, 1891"
 age_at_death: 57
 country: "United States"
 lifestyle: "Rural"
@@ -135,6 +137,8 @@ events:
 
 Biographical narrative text goes here...
 ```
+
+Note: `birth_date` and `death_date` fields are only included for people born in years 1-9999 AD where date objects are available.
 
 ### 3. Preview Locally (Optional)
 
@@ -165,6 +169,8 @@ The `Person` class stores all data for a generated person:
 person.era                 # 'Paleolithic' or 'Holocene'
 person.birth_year          # Numeric year (negative for BCE)
 person.birth_year_str      # Formatted string ("1234 AD" or "5000 BC")
+person.birth_date          # date object (None for BCE or if unavailable)
+person.death_date          # date object (None for BCE, unavailable, or if alive)
 person.sex                 # 'M' or 'F'
 person.age_at_death        # Numeric age or "alive"
 person.lifestyle           # 'Hunter-Gatherer', 'Rural', or 'Urban'
@@ -180,6 +186,14 @@ person.events              # List of life events
 person.narrative           # Biographical text
 person.messages            # Full LLM conversation history
 ```
+
+### Birth and Death Dates
+
+- **Birth dates**: Uniformly sampled within the birth year for years 1-9999 AD. None for BCE or out-of-range years.
+- **Death dates**:
+  - **Infants (age < 1)**: Exponentially distributed with mean ~3 months to reflect higher early mortality
+  - **Others (age ≥ 1)**: Uniformly distributed within the death year
+  - This addresses the issue that death_year calculated as birth_year + age_at_death can be off by one year depending on whether birthdays occurred
 
 ---
 

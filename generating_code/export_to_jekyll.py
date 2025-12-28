@@ -22,11 +22,33 @@ def slugify(text):
     return text.strip('-')
 
 
+def format_date(date_obj):
+    """Format a date object to string.
+
+    Returns string like "March 15, 1834" or None if date_obj is None.
+    """
+    if date_obj is None:
+        return None
+    return date_obj.strftime("%B %d, %Y")
+
+
 def calculate_death_year(person):
-    """Calculate death year string."""
+    """Calculate death year string.
+
+    Uses actual death_date if available, otherwise approximates from birth year.
+    """
     if person.age_at_death == "alive":
         return "alive"
 
+    # If we have an actual death date, use it
+    if hasattr(person, 'death_date') and person.death_date is not None:
+        year = person.death_date.year
+        if year > 0:
+            return f"{year} AD"
+        else:
+            return f"{1-year} BC"
+
+    # Fallback to approximation
     death_year = person.birth_year + person.age_at_death
     if death_year > 0:
         return f"{death_year} AD"
@@ -51,6 +73,12 @@ birth_year: "{person.birth_year_str}"
 death_year: "{calculate_death_year(person)}"
 age_at_death: {person.age_at_death}
 """
+
+    # Add full dates if available
+    if hasattr(person, 'birth_date') and person.birth_date is not None:
+        frontmatter += f'birth_date: "{format_date(person.birth_date)}"\n'
+    if hasattr(person, 'death_date') and person.death_date is not None:
+        frontmatter += f'death_date: "{format_date(person.death_date)}"\n'
 
     # Add location info
     if person.era == 'Paleolithic':
