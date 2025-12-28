@@ -2,7 +2,7 @@
 """Export generated person objects to Jekyll markdown files.
 
 Usage:
-    python export_to_jekyll.py input.pkl
+    python export.py input.pkl
 
 This will read person objects from input.pkl and create markdown files
 in the ../_lives/ directory for the Jekyll site.
@@ -24,15 +24,6 @@ def slugify(text):
     return text.strip('-')
 
 
-def calculate_death_year(person):
-    """Calculate death year string from death_date."""
-    if person.age_at_death == "alive":
-        return "alive"
-
-    year, _ = person.death_date
-    return _format_year(year)
-
-
 def person_to_markdown(person, index):
     """Convert a Person object to Jekyll markdown format."""
 
@@ -42,17 +33,20 @@ def person_to_markdown(person, index):
     # Create filename
     filename = f"{index:04d}-{slugify(name)}.md"
 
+    # Calculate death year
+    death_year = "alive" if person.age_at_death == "alive" else _format_year(person.death_date[0])
+
     # Build frontmatter
     frontmatter = f"""---
 layout: life
 title: "{name}"
 birth_year: "{person.birth_year_str}"
-death_year: "{calculate_death_year(person)}"
+death_year: "{death_year}"
 age_at_death: {person.age_at_death}
+birth_date: "{_format_date_tuple(person.birth_date)}"
 """
 
-    # Add full dates
-    frontmatter += f'birth_date: "{_format_date_tuple(person.birth_date)}"\n'
+    # Add death date if applicable
     if person.death_date is not None:
         frontmatter += f'death_date: "{_format_date_tuple(person.death_date)}"\n'
 
@@ -61,10 +55,7 @@ age_at_death: {person.age_at_death}
         frontmatter += f'region: "{person.region}"\n'
     else:
         # Build full location string (subregion, country)
-        location_parts = []
-        if person.location.subregion:
-            location_parts.append(person.location.subregion)
-        location_parts.append(person.location.country)
+        location_parts = [p for p in [person.location.subregion, person.location.country] if p]
         full_location = ', '.join(location_parts)
 
         frontmatter += f'location: "{full_location}"\n'
@@ -80,10 +71,7 @@ sex: "{person.sex}"
 
     frontmatter += "---\n\n"
 
-    # Add narrative
-    narrative = person.narrative if person.narrative else "No narrative available."
-
-    return filename, frontmatter + narrative
+    return filename, frontmatter + person.narrative
 
 
 def export_to_jekyll(pickle_path, output_dir):
@@ -121,9 +109,9 @@ def export_to_jekyll(pickle_path, output_dir):
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
-        print("Usage: python export_to_jekyll.py <pickle_file>")
+        print("Usage: python export.py <pickle_file>")
         print("\nExample:")
-        print("  python export_to_jekyll.py test_examples_story.pkl")
+        print("  python export.py test_examples.pkl")
         sys.exit(1)
 
     pickle_file = sys.argv[1]
