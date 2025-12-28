@@ -12,6 +12,7 @@ import sys
 import dill
 from pathlib import Path
 import re
+import yaml
 
 from date_utils import _format_date_tuple, _format_year
 
@@ -71,6 +72,33 @@ birth_date: "{_format_date_tuple(person.birth_date)}"
 era: "{person.era}"
 sex: "{person.sex}"
 """
+
+    # Add debugging information as YAML comments (not parsed by Jekyll)
+    frontmatter += "\n# Debug information (not displayed on page):\n"
+
+    # Personality traits
+    if person.personality:
+        frontmatter += "# personality:\n"
+        for trait, value in person.personality.items():
+            frontmatter += f"#   {trait}: {value}\n"
+
+    # Demographics
+    if person.demographics:
+        frontmatter += "# demographics:\n"
+        for key, value in person.demographics.items():
+            if key != 'name':  # Skip name since it's already in title
+                # Escape quotes and handle multi-line values
+                value_str = str(value).replace('"', '\\"')
+                if '\n' in value_str:
+                    value_str = value_str.replace('\n', ' ')
+                frontmatter += f"#   {key}: {value_str}\n"
+
+    # Life events
+    if person.events:
+        frontmatter += "# events:\n"
+        for i, event in enumerate(person.events, 1):
+            event_str = str(event).replace('\n', ' ')
+            frontmatter += f"#   {i}. {event_str}\n"
 
     frontmatter += "---\n\n"
 
