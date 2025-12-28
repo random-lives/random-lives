@@ -140,8 +140,8 @@ class Person:
         self.narrative = None
         self.messages = []  # LLM conversation history
 
-        # Cache for to_dict() to avoid recomputing location data
-        self._dict_cache = None
+        # Cache for location data in to_dict() to avoid recomputing expensive lookups
+        self._location_data_cache = None
 
     def _init_paleolithic(self):
         """Initialize Paleolithic-specific attributes."""
@@ -276,14 +276,11 @@ class Person:
     def to_dict(self):
         """Export person as flat dict for LLM prompts.
 
-        Results are cached after first call to avoid recomputing location data
-        which requires loading large geographic datasets.
+        Location data (altitude, biome, climate, HYDE) is cached after first call
+        to avoid recomputing expensive geographic lookups, but demographics/events
+        are always freshly included.
         """
-        # Return cached result if available (check hasattr for backward compatibility)
-        if hasattr(self, '_dict_cache') and self._dict_cache is not None:
-            return self._dict_cache
-
-        # Compute the dict
+        # Base attributes (always computed fresh)
         output = {
             'Era': self.era,
             'Birth year': self.birth_year_str,
@@ -294,45 +291,53 @@ class Person:
             'Lifestyle': self.lifestyle,
         }
 
+        # Location data (computed once, then cached)
         if self.era == 'Paleolithic':
             output['Region'] = self.region
         else:
-            loc = self.location
-            output['Birthplace latitude'] = loc.lat
-            output['Birthplace longitude'] = loc.lon
-            output['Birthplace modern region'] = loc.subregion
-            output['Birthplace modern country'] = loc.country
-            output['Birthplace modern address'] = loc.address
-            output['Birthplace altitude'] = loc.altitude()
+            # Check for cached location data (with backward compatibility)
+            if not hasattr(self, '_location_data_cache') or self._location_data_cache is None:
+                # Compute and cache location data
+                loc = self.location
+                self._location_data_cache = {
+                    'Birthplace latitude': loc.lat,
+                    'Birthplace longitude': loc.lon,
+                    'Birthplace modern region': loc.subregion,
+                    'Birthplace modern country': loc.country,
+                    'Birthplace modern address': loc.address,
+                    'Birthplace altitude': loc.altitude(),
+                }
 
-            biome, ecotype = loc.biome()
-            output['Birthplace biome'] = biome
-            output['Birthplace ecotype'] = ecotype
+                biome, ecotype = loc.biome()
+                self._location_data_cache['Birthplace biome'] = biome
+                self._location_data_cache['Birthplace ecotype'] = ecotype
 
-            clim_data = loc.climate()
-            for key, val in clim_data.items():
-                output['Birthplace ' + key.lower()] = val
+                clim_data = loc.climate()
+                for key, val in clim_data.items():
+                    self._location_data_cache['Birthplace ' + key.lower()] = val
 
-            output['Birthplace map url'] = loc.gmap_url()
+                self._location_data_cache['Birthplace map url'] = loc.gmap_url()
 
-            # HYDE land use data
-            averaging_size = 1
-            area = loc.local_land_area(averaging_size)
+                # HYDE land use data
+                averaging_size = 1
+                area = loc.local_land_area(averaging_size)
 
-            output['Birthplace population density'] = np.round(
-                self.hyde_value('population', averaging_size) / area, 2
-            )
-
-            for f in HYDE_LAND_USE_FIELDS:
-                output['Birthplace ' + f + ' percentage'] = np.round(
-                    100 * self.hyde_value(f, averaging_size) / area, 2
+                self._location_data_cache['Birthplace population density'] = np.round(
+                    self.hyde_value('population', averaging_size) / area, 2
                 )
 
+                for f in HYDE_LAND_USE_FIELDS:
+                    self._location_data_cache['Birthplace ' + f + ' percentage'] = np.round(
+                        100 * self.hyde_value(f, averaging_size) / area, 2
+                    )
+
+            # Add cached location data to output
+            output.update(self._location_data_cache)
+
+        # Add dynamic data (always fresh)
         output.update(self.personality)
         output.update(self.demographics)
 
-        # Cache the result
-        self._dict_cache = output
         return output
 
     def to_prompt_string(self):
