@@ -69,6 +69,54 @@ def _sample_personality():
     return {f'{trait} (% rank)': np.random.randint(0, 101) for trait in PERSONALITY_TRAITS}
 
 
+def _is_leap_year(year):
+    """Check if a year is a leap year (works for negative years)."""
+    return year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)
+
+
+def _days_in_year(year):
+    """Get number of days in a year."""
+    return 366 if _is_leap_year(year) else 365
+
+
+def _add_days_to_date(year, day_of_year, days_to_add):
+    """Add days to a date, handling year rollovers.
+
+    Args:
+        year: Year (can be negative for BCE)
+        day_of_year: Day within year (1-365/366)
+        days_to_add: Number of days to add
+
+    Returns:
+        (new_year, new_day_of_year) tuple
+    """
+    new_day = day_of_year + days_to_add
+    new_year = year
+
+    # Handle year rollover
+    while new_day > _days_in_year(new_year):
+        new_day -= _days_in_year(new_year)
+        new_year += 1
+
+    return (new_year, new_day)
+
+
+def _day_of_year_to_month_day(year, day_of_year):
+    """Convert day of year to (month_name, day) tuple."""
+    days_in_months = [31, 29 if _is_leap_year(year) else 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+    month_names = ["January", "February", "March", "April", "May", "June",
+                   "July", "August", "September", "October", "November", "December"]
+
+    day_count = 0
+    for month_idx, days in enumerate(days_in_months):
+        if day_of_year <= day_count + days:
+            return month_names[month_idx], day_of_year - day_count
+        day_count += days
+
+    # Shouldn't happen, but fallback
+    return "December", 31
+
+
 def _format_year(year):
     """Format year as string (e.g., '1500 AD' or '8000 BC')."""
     if year > 0:
@@ -77,19 +125,28 @@ def _format_year(year):
         return f"{1-year} BC"
 
 
+def _format_date_tuple(date_tuple):
+    """Format a (year, day_of_year) tuple to readable string.
+
+    Returns string like "March 15, 1834 AD" or "July 4, 5000 BC".
+    Returns None if date_tuple is None.
+    """
+    if date_tuple is None:
+        return None
+
+    year, day_of_year = date_tuple
+    month, day = _day_of_year_to_month_day(year, day_of_year)
+    return f"{month} {day}, {_format_year(year)}"
+
+
 def _sample_birth_date(year):
     """Sample a birth date within the given year.
 
     Returns (year, day_of_year) tuple where day_of_year is 1-365 (or 1-366 for leap years).
     Works for all years including BCE (negative years).
     """
-    # Determine if leap year (works for negative years too)
-    is_leap = (year % 4 == 0 and (year % 100 != 0 or year % 400 == 0))
-    days_in_year = 366 if is_leap else 365
-
-    # Random day of year (1-indexed)
+    days_in_year = _days_in_year(year)
     day_of_year = np.random.randint(1, days_in_year + 1)
-
     return (year, day_of_year)
 
 
@@ -108,53 +165,26 @@ def _sample_death_date(birth_date, age_at_death, lifestyle='Rural'):
 
     if age_at_death < 1:
         # Infant death - use neonatal/post-neonatal model
-        # Neonatal fraction varies by mortality regime:
-        # - Modern low-mortality (e.g., Hunter-Gatherers with good care): ~0.67
-        # - High-mortality pre-modern: ~0.5
-        # Use 0.55 as compromise for historical populations
+        # Neonatal fraction: ~0.55 as compromise for historical populations
         neonatal_fraction = 0.55
 
         if np.random.random() < neonatal_fraction:
-            # Neonatal death (0-27 days)
-            # Distribution: ~40% day 0, exponential decay for days 1-27
+            # Neonatal death (0-27 days): 40% day 0, exponential decay for days 1-27
             if np.random.random() < 0.40:
                 days_lived = 0
             else:
-                # Exponential for days 1-27, mean ~5 days
                 days_lived = min(1 + int(np.random.exponential(5)), 27)
         else:
-            # Post-neonatal death (28-365 days)
-            # Roughly uniform distribution
+            # Post-neonatal death (28-365 days): uniform distribution
             days_lived = np.random.randint(28, 366)
 
-        # Add days to birth date
-        is_leap = (birth_year % 4 == 0 and (birth_year % 100 != 0 or birth_year % 400 == 0))
-        days_in_birth_year = 366 if is_leap else 365
-
-        death_day = birth_day + days_lived
-        death_year = birth_year
-
-        # Handle year rollover
-        if death_day > days_in_birth_year:
-            death_year += 1
-            death_day -= days_in_birth_year
-
-        return (death_year, death_day)
+        return _add_days_to_date(birth_year, birth_day, days_lived)
     else:
         # Non-infant - uniform random date within the death year
         death_year = birth_year + int(age_at_death)
+        death_day = np.random.randint(1, _days_in_year(death_year) + 1)
 
-        # Random date within the death year
-        is_leap = (death_year % 4 == 0 and (death_year % 100 != 0 or death_year % 400 == 0))
-        days_in_year = 366 if is_leap else 365
-        death_day = np.random.randint(1, days_in_year + 1)
-
-        # Ensure death is after birth + age years
-        # If death day is before birth day in the year, it's automatically valid
-        # If death day is on/after birth day, also valid
-        # Only issue is if death_day < birth_day, which could mean they died before their birthday
-        # In that case, add 1 to death_year to ensure they lived the full age
-
+        # Ensure death is after birthday by moving to next year if needed
         if death_day < birth_day:
             death_year += 1
 
@@ -333,43 +363,13 @@ class Person:
         else:
             return "adult"
 
-    def _format_date_tuple(self, date_tuple):
-        """Format a (year, day_of_year) tuple to readable string."""
-        if date_tuple is None:
-            return None
-
-        year, day_of_year = date_tuple
-
-        # Convert day_of_year to month and day
-        is_leap = (year % 4 == 0 and (year % 100 != 0 or year % 400 == 0))
-        days_in_months = [31, 29 if is_leap else 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-        month_names = ["January", "February", "March", "April", "May", "June",
-                       "July", "August", "September", "October", "November", "December"]
-
-        day_count = 0
-        for month_idx, days in enumerate(days_in_months):
-            if day_of_year <= day_count + days:
-                month = month_names[month_idx]
-                day = day_of_year - day_count
-                break
-            day_count += days
-        else:
-            # Shouldn't happen, but fallback
-            month = "December"
-            day = 31
-
-        # Format with AD/BC
-        if year > 0:
-            return f"{month} {day}, {year} AD"
-        else:
-            return f"{month} {day}, {1-year} BC"
 
     def to_dict(self):
         """Export person as flat dict for LLM prompts."""
         output = {
             'Era': self.era,
             'Birth year': self.birth_year_str,
-            'Birth date': self._format_date_tuple(self.birth_date),
+            'Birth date': _format_date_tuple(self.birth_date),
             'Age at death': self.age_at_death,
             'Sex': self.sex,
             'Lifestyle': self.lifestyle,
@@ -377,7 +377,7 @@ class Person:
 
         # Add death date if person is deceased
         if self.death_date is not None:
-            output['Death date'] = self._format_date_tuple(self.death_date)
+            output['Death date'] = _format_date_tuple(self.death_date)
 
         if self.era == 'Paleolithic':
             output['Region'] = self.region

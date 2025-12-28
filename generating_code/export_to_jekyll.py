@@ -13,6 +13,8 @@ import dill
 from pathlib import Path
 import re
 
+from person import _format_date_tuple, _format_year
+
 
 def slugify(text):
     """Convert text to URL-safe slug."""
@@ -20,42 +22,6 @@ def slugify(text):
     text = re.sub(r'[^\w\s-]', '', text)
     text = re.sub(r'[-\s]+', '-', text)
     return text.strip('-')
-
-
-def format_date(date_tuple):
-    """Format a date tuple to string.
-
-    Takes (year, day_of_year) tuple and returns string like "March 15, 1834 AD" or "March 15, 5000 BC".
-    Returns None if date_tuple is None.
-    """
-    if date_tuple is None:
-        return None
-
-    year, day_of_year = date_tuple
-
-    # Convert day_of_year to month and day
-    is_leap = (year % 4 == 0 and (year % 100 != 0 or year % 400 == 0))
-    days_in_months = [31, 29 if is_leap else 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-    month_names = ["January", "February", "March", "April", "May", "June",
-                   "July", "August", "September", "October", "November", "December"]
-
-    day_count = 0
-    for month_idx, days in enumerate(days_in_months):
-        if day_of_year <= day_count + days:
-            month = month_names[month_idx]
-            day = day_of_year - day_count
-            break
-        day_count += days
-    else:
-        # Shouldn't happen, but fallback
-        month = "December"
-        day = 31
-
-    # Format with AD/BC
-    if year > 0:
-        return f"{month} {day}, {year} AD"
-    else:
-        return f"{month} {day}, {1-year} BC"
 
 
 def calculate_death_year(person):
@@ -68,18 +34,12 @@ def calculate_death_year(person):
 
     # If we have an actual death date, use it
     if hasattr(person, 'death_date') and person.death_date is not None:
-        year, _ = person.death_date  # Unpack (year, day_of_year) tuple
-        if year > 0:
-            return f"{year} AD"
-        else:
-            return f"{1-year} BC"
+        year, _ = person.death_date
+        return _format_year(year)
 
     # Fallback to approximation
     death_year = person.birth_year + person.age_at_death
-    if death_year > 0:
-        return f"{death_year} AD"
-    else:
-        return f"{1-death_year} BC"
+    return _format_year(death_year)
 
 
 def person_to_markdown(person, index):
@@ -102,9 +62,9 @@ age_at_death: {person.age_at_death}
 
     # Add full dates if available (always available for new Person objects)
     if hasattr(person, 'birth_date') and person.birth_date is not None:
-        frontmatter += f'birth_date: "{format_date(person.birth_date)}"\n'
+        frontmatter += f'birth_date: "{_format_date_tuple(person.birth_date)}"\n'
     if hasattr(person, 'death_date') and person.death_date is not None:
-        frontmatter += f'death_date: "{format_date(person.death_date)}"\n'
+        frontmatter += f'death_date: "{_format_date_tuple(person.death_date)}"\n'
 
     # Add location info
     if person.era == 'Paleolithic':
