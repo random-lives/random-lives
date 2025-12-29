@@ -9,7 +9,7 @@ layout: default
       <p><strong>Born:</strong> {{ page.birth_date }}</p>
       {% if page.death_year != "alive" %}<p><strong>Died:</strong> {{ page.death_date }} (Age {{ page.age_at_death }})</p>{% endif %}
       {% if page.region %}
-        <p><strong>Location:</strong>
+        <p><strong>Birthplace:</strong>
           {% if page.subsubregion %}
             {{ page.subsubregion }}, {{ page.subregion }}, {{ page.region }}
           {% elsif page.subregion %}
@@ -19,13 +19,13 @@ layout: default
           {% endif %}
         </p>
       {% elsif page.location %}
-        <p><strong>Location:</strong>
+        <p><strong>Birthplace:</strong>
           <a href="{{ page.map_url }}" target="_blank" rel="noopener noreferrer">
             {{ page.location }}
           </a>
         </p>
       {% elsif page.country %}
-        <p><strong>Location:</strong>
+        <p><strong>Birthplace:</strong>
           <a href="{{ page.map_url }}" target="_blank" rel="noopener noreferrer">
             {{ page.country }}
           </a>
@@ -34,13 +34,8 @@ layout: default
     </div>
   </header>
 
-  <div class="life-narrative">
-    {{ content }}
-  </div>
-
   {% if page.latitude and page.longitude %}
   <div class="life-map">
-    <h2>Birthplace</h2>
     <iframe
       width="100%"
       height="400"
@@ -55,6 +50,10 @@ layout: default
     </p>
   </div>
   {% endif %}
+
+  <div class="life-narrative">
+    {{ content }}
+  </div>
 
   <nav class="life-navigation">
     <a href="{{ '/' | relative_url }}">← Back to all lives</a>
