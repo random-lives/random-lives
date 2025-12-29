@@ -28,8 +28,13 @@ def slugify(text):
 def person_to_markdown(person, index):
     """Convert a Person object to Jekyll markdown format."""
 
-    # Get name from demographics, or create a generic one
-    name = person.demographics.get('name', f'Person {index:04d}')
+    # Get name from person object, or create a generic one
+    if person.name:
+        name = person.name
+    elif hasattr(person, 'naming_category') and person.naming_category == 'unnamed':
+        name = f'Person {index:04d} (unnamed)'
+    else:
+        name = f'Person {index:04d}'
 
     # Create filename
     filename = f"{index:04d}-{slugify(name)}.md"

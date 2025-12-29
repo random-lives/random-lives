@@ -1,0 +1,89 @@
+---
+layout: life
+title: "Itzel Moreno García"
+birth_year: "2021 AD"
+death_year: "alive"
+age_at_death: alive
+birth_date: "January 15, 2021 AD"
+location: "La Cruz, Frontera, Coahuila, México"
+country: "Mexico"
+latitude: 26.98
+longitude: -101.49
+map_url: "https://www.google.com/maps/place/26.98,-101.49/@26.98,-101.49,5z"
+lifestyle: "Urban"
+era: "Holocene"
+sex: "F"
+
+# Debug information (not displayed on page):
+# Age at death: alive
+# Agreeableness (% rank): 36
+# Birth date: January 15, 2021 AD
+# Birth year: 2021 AD
+# Birthplace altitude: 562
+# Birthplace annual precipitation: 360.0
+# Birthplace biome: Deserts & Xeric Shrublands
+# Birthplace coldest month temp: 4.576000213623047
+# Birthplace cropland percentage: 8.51
+# Birthplace ecotype: Chihuahuan desert
+# Birthplace irrigated_not_rice percentage: 5.47
+# Birthplace irrigated_rice percentage: 0.0
+# Birthplace latitude: 26.98
+# Birthplace longitude: -101.49
+# Birthplace map url: https://www.google.com/maps/place/26.98,-101.49/@26.98,-101.49,5z
+# Birthplace mean temp: 21.824874877929688
+# Birthplace modern address: La Cruz, Frontera, Coahuila, México
+# Birthplace modern country: Mexico
+# Birthplace modern region: Coahuila
+# Birthplace pasture percentage: 0.0
+# Birthplace population density: 456.7300109863281
+# Birthplace rainfed_not_rice percentage: 3.03
+# Birthplace rainfed_rice percentage: 0.0
+# Birthplace rangeland percentage: 64.02
+# Birthplace urban_area percentage: 7.84
+# Birthplace warmest month temp: 35.84600067138672
+# Conscientiousness (% rank): 22
+# Death date: null
+# Era: Holocene
+# Extraversion (% rank): 29
+# Honesty-Humility (% rank): 50
+# Intelligence (% rank): 40
+# Lifestyle: Urban
+# Name: Itzel Moreno García
+# Naming category: attested
+# Neuroticism (% rank): 32
+# Openness (% rank): 99
+# Sex: F
+# birth_order_position: 2
+# ethnicity: Mestizo / mainstream Mexican (mixed Indigenous-Spanish heritage; Spanish-speaking
+#   national culture)
+# father_occupation: Absent/unknown/not involved (no regular contact; occupation not
+#   reliably known to the child)
+# household_social_status: Extreme poverty / highly precarious (food insecurity, unstable
+#   housing, informal work dominant)
+# household_structure_at_birth: Single-mother household (mother as primary adult; father
+#   non-resident)
+# language: Spanish only (monolingual Spanish in daily life)
+# mother_occupation: Factory/maquiladora worker (operative/packaging; low-wage formal
+#   job)
+# number_of_siblings: '1'
+# religion: Culturally Catholic household practice (baptism/first communion expected;
+#   occasional Mass; home prayers/devotion to Virgen/saints; major holidays)
+# sibling_ages_at_death:
+# - alive
+# sibling_sexes:
+# - F
+---
+
+Itzel Moreno García was born on January 15, 2021, in La Cruz, Frontera, Coahuila, in the flat, dry heat of the Chihuahuan Desert. Her mother, Yadira, carried her into a two-room rental behind a relative’s house. The door latch slipped if you didn’t lift it hard. Alma, Itzel’s older sister, learned to keep the baby away from it.
+
+Itzel’s father never lived with them. He didn’t show up for school meetings or birthdays, and Yadira didn’t let his name stay in the room. If Itzel asked, Yadira answered with a short no and sent her back to her food or her homework.
+
+Yadira kept the household running on a maquiladora wage. She stood at a packaging line, counted pieces, sealed boxes, watched the clock. During the pandemic the factory took temperatures at the entrance and sent sick workers home, then pushed the rest to cover the gaps. Yadira came back sore and quiet. Rent, tortillas, notebooks, and phone credit took the pay before the week finished.
+
+Their Catholic life stayed inside the rooms. A printed Virgen de Guadalupe above the bed. A quick sign of the cross at night because Yadira insisted on it. When Alma started talking about first communion like the girls at school, Yadira said they would do it when they had the money for the clothes and the papers. Some Sundays they went to Mass early, clean and tense, and left fast. Other Sundays Yadira slept through her alarm.
+
+In primary school, Itzel asked questions that slowed the class down. She wanted to know why a letter sounded one way in one word and a different way in another. She argued with the teacher about a map that showed one highway, when she knew the bus turned off before it and passed the same tire shop every morning. She could hold onto a complicated question for days and forget the easy parts the same afternoon. She copied half the homework and stopped. She left permission slips in the bottom of her backpack until the due date passed. She lost her pencil, borrowed one, and didn’t return it.
+
+She didn’t work to be liked. If a girl took her markers, Itzel grabbed them back and said, loud enough for everyone, that they weren’t hers. When the teacher wrote her up for fighting, Itzel didn’t cry or apologize. She sat with her arms crossed and stared at the wall.
+
+At home she pulled apart old toys to see the wires and springs and left the pieces in a pile. Alma complained and stepped over them. Yadira cooked on the small stove and told Itzel to clean up; Itzel said she would and then didn’t. One night Yadira set down two plates of beans and rice. Itzel ate fast, wiped her mouth with the back of her hand, and leaned over the table to copy a drawing from Alma’s book onto a scrap of cardboard while the TV played low in Spanish behind her.

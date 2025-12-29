@@ -1,0 +1,148 @@
+---
+layout: life
+title: "Mohamed Sesay"
+birth_year: "2005 AD"
+death_year: "alive"
+age_at_death: alive
+birth_date: "September 28, 2005 AD"
+location: "Foya Tewei, Moyamba District, Sierra Leone"
+country: "Sierra Leone"
+latitude: 7.99
+longitude: -12.19
+map_url: "https://www.google.com/maps/place/7.99,-12.19/@7.99,-12.19,5z"
+lifestyle: "Rural"
+era: "Holocene"
+sex: "M"
+
+# Debug information (not displayed on page):
+# Age at death: alive
+# Agreeableness (% rank): 60
+# Birth date: September 28, 2005 AD
+# Birth year: 2005 AD
+# Birthplace altitude: 59
+# Birthplace annual precipitation: 2718.0
+# Birthplace biome: Tropical & Subtropical Moist Broadleaf Forests
+# Birthplace coldest month temp: 20.134000778198242
+# Birthplace cropland percentage: 42.4
+# Birthplace ecotype: Western Guinean lowland forests
+# Birthplace irrigated_not_rice percentage: 0.0
+# Birthplace irrigated_rice percentage: 0.0
+# Birthplace latitude: 7.99
+# Birthplace longitude: -12.19
+# Birthplace map url: https://www.google.com/maps/place/7.99,-12.19/@7.99,-12.19,5z
+# Birthplace mean temp: 26.482458114624023
+# Birthplace modern address: Foya Tewei, Moyamba District, Sierra Leone
+# Birthplace modern country: Sierra Leone
+# Birthplace modern region: Southern
+# Birthplace pasture percentage: 37.46
+# Birthplace population density: 51.72999954223633
+# Birthplace rainfed_not_rice percentage: 37.61
+# Birthplace rainfed_rice percentage: 4.78
+# Birthplace rangeland percentage: 0.0
+# Birthplace urban_area percentage: 0.16
+# Birthplace warmest month temp: 33.96500015258789
+# Conscientiousness (% rank): 99
+# Death date: null
+# Era: Holocene
+# Extraversion (% rank): 96
+# Honesty-Humility (% rank): 22
+# Intelligence (% rank): 46
+# Lifestyle: Rural
+# Name: Mohamed Sesay
+# Naming category: attested
+# Neuroticism (% rank): 3
+# Openness (% rank): 62
+# Sex: M
+# adult_standing: 'Somewhat higher than birth: modestly better-off farmer/trader (more
+#   assets/land or stronger networks; ‘doing okay’)'
+# birth_order_position: 6
+# ethnicity: Mende (Mɛnde-speaking; Southern/Eastern Sierra Leonean cultural sphere)
+# events:
+# - event: 'Ebola epidemic in Sierra Leone: community-level fear and restrictions, reduced
+#     travel/markets, school disruptions, and heightened health precautions'
+#   timing: age 8-10 (2014-2016)
+# - event: 'COVID-19 period: limits on gatherings/travel, market disruptions and price
+#     volatility, intermittent school/work interruptions'
+#   timing: age 14-16 (2020-2021)
+# - event: Severe inflation/currency depreciation and rising cost of imported goods
+#     (notably during the 2021-2024 period), affecting farm input prices, food prices,
+#     and household budgeting
+#   timing: late teens/early adulthood (approx. age 16-19)
+# - event: Significant rainy-season flooding/heavy-rain event affecting roads and farm
+#     plots (localized but common in Southern Sierra Leone), causing at least short-term
+#     crop/transport disruption
+#   timing: multiple rainy seasons; most likely in adolescence/adulthood
+# - event: Fuel price spikes and transport difficulties (especially affecting access
+#     to town markets for selling produce/buying goods), tightening margins for smallholders
+#   timing: late teens (esp. 2022-2024)
+# - event: Competitive national elections with heightened local political activity and
+#     occasional tension (2018 and 2023 election cycles), affecting community meetings,
+#     patronage, and sometimes local disputes
+#   timing: adolescence (age 12-13) and early adulthood (age 17-18)
+# father_occupation: Smallholder farmer (food crops, some cash crops; primary livelihood)
+# household_social_status: Poor smallholder household (basic subsistence; few assets;
+#   occasional cash income)
+# household_structure_at_birth: Monogamous extended household (parents + children +
+#   at least one other relative, e.g., grandparent/uncle/aunt/niece/nephew)
+# language: Mende + Krio + some English (school-based, limited fluency)
+# literacy: Can read a little (simple words/sentences) but writes poorly
+# marital_status: Never married, not cohabiting (single)
+# mental_disorder: No clear mental disorder (within normal variation; generally functional)
+# migration: Internal rural-to-town migration within Southern/Eastern Sierra Leone (e.g.,
+#   Moyamba town/Bo area) with periodic returns
+# mother_occupation: Subsistence farmer + household/domestic work (primary; little or
+#   no market trading)
+# number_of_children: '0'
+# number_of_siblings: '6'
+# occupation: Smallholder farming as primary (despite town links; mainly agricultural)
+# religion: Islamic practice (Muslim identity; some mosque attendance, Quranic prayers;
+#   may also use protective medicines/ritual specialists)
+# sibling_ages_at_death:
+# - 0
+# - alive
+# - alive
+# - alive
+# - alive
+# - 12
+# sibling_sexes:
+# - M
+# - F
+# - M
+# - F
+# - M
+# - M
+---
+
+Mohamed Sesay was born on September 28, 2005, in Foya Tewei in Moyamba District, southern Sierra Leone. The village sat low in a wet, hot belt where farms pushed into old forest and fallow. In the rains, footpaths turned slick and soft. In the dry months the same paths held dust that stuck to ankles and to the hems of school uniforms.
+
+He was the sixth child of seven. Two siblings died young, one as a baby and one later in childhood, and the gaps they left were spoken of plainly in the family. The household ran on close counting. Rice was measured, palm oil was stretched, and cash was kept out of sight. Work was shared because it had to be. Older children weeded and carried, younger ones fetched water and watched babies. A grandmother lived in the compound, and an aunt stayed for long stretches. People heard what you said. If Mohamed talked back, an older voice cut him down before his mother got up from the pot.
+
+His father farmed rainfed upland rice and rotated fields when the soil tired. Cassava stood near the compound, and oil palm in the bush filled the worst weeks. His mother did farm work and kept the house running. She cooked with firewood, hauled water, and still went out with a hoe when planting time tightened. Nobody in the house had a steady wage. When trouble came, they leaned on relatives and repaid it later in labor and obligations.
+
+In the compound Mohamed spoke Mende. Krio came out when strangers arrived or when he went toward town. English belonged to school and officials. He could read short lines if he slowed down, and he learned to recognize names on notices and labels. Writing was hard for him. He avoided any situation where he had to fill a page, and he pushed others to speak for him when forms appeared.
+
+They lived as Muslims. Prayer was washing from a small container, mats unrolled, caps straightened, and the day broken into familiar pauses. Mohamed went to the mosque when it was close and when his father demanded it. The family also used practical protections without speeches about doctrine: herbs for stomach pain, a wash for rashes, small packets made by a local specialist and kept out of children’s hands. Nobody argued about whether it “fit.” They did what they thought worked.
+
+As a boy he was loud, quick with people, and always in the middle of a group. He asked questions until adults snapped at him. He also watched what others had and kept score. If a cousin borrowed his shirt and returned it stained, he demanded another one. If he was sent to buy salt or kerosene, he came back with the change counted, but if he could keep a few leones without being caught, he did it. He lied cleanly and defended it without shame. People called him sharp, then stopped trusting him with small things.
+
+He had discipline in the parts of life that were visible. He woke early without being chased. He swept the yard in straight passes and made sure people saw the neat lines. On the farm he carried more than was comfortable and refused to be the first to rest. He did not panic when adults shouted. He just waited, face set, until it was his turn to speak. That steadiness made him useful. It also made him hard to correct.
+
+When Ebola reached Sierra Leone in 2014, he was eight. The change arrived by radio and by travelers and then by orders from chiefs and health workers. Handshakes stopped. Visitors were questioned. Buckets for handwashing appeared at doorways. School shut down. Mohamed did not sit quietly at home. He kept inventing errands, slipping to other compounds, testing how far rules went. His father caught him coming back from a neighbor’s house and beat him with a thin stick, not shouting, not bargaining, just making it clear the household would follow restrictions. Mohamed stopped breaking the rules openly. He did not become careful out of fear. He became careful because punishment was real and because sickness would empty the compound of labor.
+
+When school reopened he returned and pushed himself forward in class. He was not good at writing, and teachers complained about his exercise books. He made up for it with talk. He sat in front, answered out loud, and stayed after lessons to ask questions in Krio until the teacher waved him away. He learned enough English to greet officials and understand instructions. He repeated set phrases until they sounded smooth. He used them when he wanted something.
+
+In 2018, election season brought arguments even to small places. Party colors showed up on motorbikes and T-shirts. Men held meetings at junctions and in verandas. Mohamed did not chant or pretend belief. He watched who arrived with money, who handed out rice, who promised work. He ran errands for meetings and kept part of the change when he could. He learned which elders remembered favors and which ones forgot them as soon as the crowd broke up. When two cousins stopped speaking because their fathers quarreled over politics, Mohamed moved between them as if nothing had happened, taking food from one house and then the other. It made him useful, and it made him suspect.
+
+By his mid-teens he moved back and forth between the village and a nearby town, staying with relatives for weeks at a time and returning for the farm calendar. In town he talked his way into small opportunities: helping load produce, finding buyers, carrying messages. He collected contacts in his head because he did not want to write anything down. He borrowed a phone when he needed one, made the call quickly, and handed it back.
+
+COVID-19 came when he was fourteen and tightened movement again. Markets slowed, and people watched each other for rule-breaking. Mohamed followed rules when fines or police were near and ignored them when enforcement faded. What he could not ignore was money. Traders came less often. Prices jumped without warning. Fuel became a problem, and each trip to market had to pay for itself. He started doing the arithmetic out loud: how much rice could be carried, what would spoil, what would sell fast enough to cover transport. When a ride was too expensive, he walked part of the way and paid only for the last stretch, arriving sweaty and irritated, then acting as if it was planned.
+
+He leaned into farming as his main work and kept town ties for selling. He watched prices and timed sales more than his father had. He also started small trading on the side when he had stock: soap, seasoning cubes, and phone credit sold through other people’s phones. He cut corners whenever he thought he could control the risk. He poured palm oil with a slightly light hand. He delayed repayment with stories he repeated until they sounded true.
+
+That behavior cost him. An older trader in the market checked Mohamed’s measure, called him out in front of people, and refused to buy from him after that. Mohamed argued first, loud and fast, as if volume could change the facts. When it failed, he came back the next week anyway with a smaller, cleaner container and oil that was measured properly. He stood where the trader could see him, waited, and spoke politely. It took months before the trader bought from him again, and even then it was with a warning: one mistake and it would end.
+
+Heavy rains and flooding hit more than once in those years, and one season the road to the farms broke into ruts that held water for days. Part of Mohamed’s rice plot sat too long under water. He did not accept the loss quietly. He organized younger boys to clear drains and cut channels, pushing them hard and insulting anyone who slowed down. A neighbor accused him of cutting a channel that sent runoff toward another plot. Mohamed shouted back until people gathered. The argument ended in front of an elder, with a boundary marked and an agreement spoken in public. Mohamed agreed because he had to, then went back to the edge of the field every few days to check it, not from worry but from the need to make sure nobody crossed him.
+
+By 2023, another election season brought more meetings and more visitors. Mohamed attended for the same reason as before: to track who mattered and who had resources. He was still unmarried and did not cohabit. He avoided obligations that would tie up his money. He spent time with friends, talked loudly, and made plans that kept him at the center of the group.
+
+At twenty, he stood a step above the household he had been born into. It was not a leap. It was accumulated advantage: access to a little more land through kin, better timing at market, and a reputation for finishing work even when people found him difficult. On a humid morning in the rainy season he rose before the compound woke, washed, and prayed quickly. Then he walked to his rice with a cutlass, greeting people in Mende as he passed and switching to Krio when he met someone from town. He checked seedlings, pulled grass loose with his boot, and counted what he would carry to market the next day. Later, in the shade at the edge of the plot, he ate from a small bowl and argued with a friend about fertilizer prices and transport fare. He spoke as if every number was personal and every decision had to bend to his control.

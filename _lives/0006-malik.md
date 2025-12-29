@@ -1,0 +1,163 @@
+---
+layout: life
+title: "Malik"
+birth_year: "36308 BC"
+death_year: "36227 BC"
+age_at_death: 81
+birth_date: "July 13, 36308 BC"
+death_date: "October 12, 36227 BC"
+region: "Asia"
+subregion: "South Asia (Indus-Ganges & peninsular river/coastal zones)"
+subsubregion: "Narmada valley (around modern Hoshangabad–Jabalpur corridor)"
+lifestyle: "Hunter-Gatherer"
+era: "Paleolithic"
+sex: "M"
+
+# Debug information (not displayed on page):
+# Age at death: 81
+# Agreeableness (% rank): 62
+# Birth date: July 13, 36308 BC
+# Birth year: 36308 BC
+# Climate now: Today the Hoshangabad–Jabalpur corridor has a warm subtropical monsoonal
+#   climate with hot summers, a strong summer rainy season, and mild winters. The valley
+#   is heavily modified by agriculture, towns, and regulated river flow, with remaining
+#   natural vegetation largely in patches (riparian strips and nearby forested hills/parks).
+# Climate then: Around 36,308 BC (late Pleistocene), the Narmada valley would likely
+#   have experienced a cooler, drier-than-today climate with a weaker monsoon and more
+#   open vegetation overall. River flow and sediment load would have fluctuated strongly
+#   with seasonal rains and longer climatic swings, producing active terrace building,
+#   exposed gravels, and periodically expansive floodplains rather than a stable, densely
+#   forested landscape.
+# Conscientiousness (% rank): 22
+# Cultural tradition: undifferentiated
+# Death date: October 12, 36227 BC
+# Environment: A broad river-valley corridor with a braided/seasonally shifting Narmada
+#   channel, gravel/sand bars, and extensive river terraces. The surroundings would
+#   have been a mosaic of open woodland and grassland with patches of denser gallery
+#   forest along watercourses, plus marshy backwaters/oxbow areas in low-lying zones;
+#   large mammals would have been common in the wider plains and valley margins.
+# Era: Paleolithic
+# Extraversion (% rank): 53
+# Honesty-Humility (% rank): 27
+# Intelligence (% rank): 64
+# Lifestyle: Hunter-Gatherer
+# Name: Malik
+# Naming category: unrecoverable
+# Neuroticism (% rank): 25
+# Openness (% rank): 10
+# Region: Asia
+# Sex: M
+# Subregion: South Asia (Indus-Ganges & peninsular river/coastal zones)
+# Subsubregion: Narmada valley (around modern Hoshangabad–Jabalpur corridor)
+# birth_order_position: 3
+# cause_of_death: senescence/frailty ("old age"; gradual decline)
+# children_ages_at_death:
+# - 30
+# - 49
+# - 13
+# - 82
+# - 0
+# - 54
+# - 52
+# children_sexes:
+# - M
+# - F
+# - F
+# - F
+# - F
+# - F
+# - M
+# events:
+# - event: One or more years of markedly weak monsoon rains leading to low river levels,
+#     shrinking backwaters, and a lean-season food squeeze (more reliance on stored/dried
+#     foods, tubers, small game).
+#   timing: repeated episodes; most salient in adolescence to mid-adulthood (ages ~12–45)
+# - event: A major Narmada flood season that scoured sand/gravel bars, cut new channels,
+#     and temporarily destroyed/relocated favored campsites and fishing/foraging spots
+#     on low terraces.
+#   timing: at least once in adulthood (ages ~20–60)
+# - event: Regular late-dry-season grass/woodland fires (lightning or set by people)
+#     that temporarily changed cover, increased visibility for hunting, and altered
+#     where edible plants were gathered.
+#   timing: recurring annually; especially impactful during prime hunting years (ages
+#     ~15–50)
+# - event: 'Personal incident: a sharp intra-band dispute over meat-sharing or accusations
+#     of taking more than one’s share, resolved through public discussion/pressure rather
+#     than violence (given his moderate agreeableness and ordinary standing).'
+#   timing: adulthood (ages ~25–55)
+# mental_disorder: No, unlikely to meet modern diagnostic criteria
+# number_of_children: '7'
+# number_of_siblings: 10+
+# parents_status: father dead
+# partnership_history: one long-term partner
+# sibling_ages_at_death:
+# - 50
+# - 4
+# - 0
+# - 28
+# - 1
+# - 87
+# - 1
+# - 1
+# - 0
+# - 22
+# sibling_sexes:
+# - F
+# - M
+# - F
+# - M
+# - F
+# - F
+# - F
+# - F
+# - M
+# - F
+# social_standing: ordinary member
+# special_skills: generalist
+---
+
+The Narmada through the Hoshangabad–Jabalpur corridor is warm now, edged with farms and towns, its flow held and redirected. In 36,308 BC it ran through a cooler, drier world. The monsoon came, but it did not thicken the valley into a closed forest. Long dry months opened the ground into grassland and scattered trees. The river did not keep one course. It split around gravel bars, shifted after rains, and left backwaters that turned to mud as the level dropped. On higher terraces there was firm ground for sleeping. Below them the banks broke without warning.
+
+We’ll call him Malik. The name is a placeholder, no more recoverable than the words he spoke.
+
+He was born into a crowded household. Eleven children came from his mother, and Malik arrived third. There was always a smaller child to watch, a bundle to carry, a place at the edge of the fire where feet and elbows landed. He learned to keep his hands back when older people cut meat. He learned to step away when voices sharpened.
+
+His father was there in Malik’s earliest years, going out with the hunters and coming back with blood on his forearms and dust on his calves. Then one season he did not return. The adults talked around the absence. The routines changed. Malik’s mother kept moving with the band and kept having children. Older girls took on more of the carrying and the watching. Malik started doing what there was time for, not what anyone patiently taught: hauling water in a small hide container, pulling thorny branches for bedding, fetching stones to crack long bones for grease.
+
+He had a habit that made people short with him. He set things down wherever his hands emptied. A sharp flake. A bit of cord. A bundle of kindling. Later he would search while others were already standing up to leave. He did not apologize much. He would find the thing, tuck it under his arm, and move on.
+
+The first lean year that he understood came when he was old enough to follow without being carried. Weak rains left the river low. Backwaters shrank into shallow pools. Fish were taken when they could be cornered—hands in the mud, quick stabs with a sharpened stick, stones thrown to stun in the tightest water. The band spent more time away from the main channel, digging for tubers in damp patches and taking small animals where they could—pulled from holes, struck with a club, driven into cover and grabbed when they broke.
+
+Malik learned to look at the ground and decide whether it was worth opening with his hands. He watched older women slice roots thin and lay them out to dry. He watched an older man work the same bones until the last bits came free. Malik spoke little. When he spoke, it was a short question—where to dig, where to walk, who had seen water last.
+
+Every year, late in the dry season, fire swept the grass. Sometimes lightning did it. Sometimes people did it when the wind sat right. Malik saw it done: someone carrying a coal in a shell of bark, lowering it into dry stems, stepping back as the line of flame took.
+
+He liked the burned edges. After a burn, new green drew grazing animals, and tracks printed clearly in ash. He went out with older men, never the leader, never the tail. When they waited, he waited without shifting his feet. When they ran, he ran hard, then stopped as if he had hit an invisible boundary. People called him steady and meant it.
+
+He became competent at what the band needed without turning any one task into a name for himself. He could strike useful flakes from river stone without wasting time. He could carry heavy loads. He could bring back food on days when others returned empty-handed.
+
+He also took the convenient option even when it made trouble. If an old cord still held, he used it until it failed. If he could cut across a soft bank instead of climbing to firmer ground, he did it, even after he slid and tore skin from his shin. These were not dramatic faults. They were the kind that made people watch you when something went missing.
+
+He took a partner in early adulthood and stayed with her. Their sleeping place had a regular arrangement: the fire in one spot, bedding on the higher side, bundles kept off the damp ground. Malik still misplaced tools, but his partner corrected it. She moved his stone and his cord into the same place each time and pushed them back at him when he reached into the wrong pile. He did not charm her into letting it go. He did not argue long. He simply let her do it and benefited.
+
+Seven children were born to them over the years. Malik was not soft with them. He was quick with his hands and spare with his voice. When a toddler wandered too close to the river, he caught the child by the upper arm, lifted, and set them back without a word. When an older child brought too little firewood, he sent them out again with a look that made his partner click her tongue in annoyance. He kept a household going in plain ways: carrying water, gutting a fish before flies found it, checking where food had been laid to dry, walking the edge of camp at night when he couldn’t sleep.
+
+He taught his children the things that kept skin on bones. Don’t step on the undercut bank. Don’t put your weight where the sand looks darker. Hold the stone so the edge faces away from your palm.
+
+In his thirties, the river took more than usual. Heavy rains swelled the Narmada until it chewed at the terrace edge. The group had camped low, close to a side channel that had been mild the year before. One night the sound of water changed—deeper, steadier. At dawn the bank slumped, taking a bundle of dried meat and a roll of tools with it.
+
+Malik ran into the shallows after them. The current hit his legs and pulled hard. He reached once, fingers grazing wet hide, and then stopped when someone shouted. He backed out with his teeth clenched, anger showing in the way he jerked his feet from the mud. That day he carried loads higher, tied bundles down with extra turns, and snapped at a child who drifted too close to the edge.
+
+After the flood, a familiar crossing was gone. Sand filled a channel that had been clear. A new cut opened where the bank used to hold. Malik kept walking the old route for days, arriving at water that no longer ran where it should. Younger men laughed. He didn’t answer. When he finally took the new way, he learned it fast and refused to talk about the old one.
+
+The dispute people remembered came in middle age after a successful kill on the valley margin. The carcass lay open while hands crowded in. Malik cut a thick strip from a good part and turned toward his household.
+
+A man called out that Malik had taken too much. The voice was loud enough for everyone to hear. Malik looked at him, set the strip down, and cut it in two. He handed back the larger piece without a speech and carried off the smaller.
+
+The circle loosened. No one struck anyone. The talk shifted to other parts of the carcass and who would carry what. Malik ate later with a tight jaw. After that, people watched his hands more closely when meat was divided. Malik noticed. He did not become generous. He became careful about what could be seen.
+
+Age came to him in steps. He stopped joining the longest hunts. Then he stopped running. Nights on damp ground left his knees stiff. His hands stayed useful. Younger people brought him stone from the river gravels, and he struck flakes for them. He liked work with a clear result. Hit the stone the right way and it answered.
+
+In his last season, the cool air settled earlier at night. He stayed nearer the fire and rose more slowly. On October 12, 36,227 BC, he woke and could not make his body do what it had always done. He sat up, tried to stand, and sat again. His partner brought him water. He drank and turned his head away.
+
+His breathing thinned through the afternoon. As shadows lengthened across the terrace, his chest lifted, paused, and did not lift again.
