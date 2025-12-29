@@ -31,7 +31,7 @@ def person_to_markdown(person, index):
     # Get name from person object, or create a generic one
     if person.name:
         name = person.name
-    elif hasattr(person, 'naming_category') and person.naming_category == 'unnamed':
+    elif person.naming_category == 'unnamed':
         name = f'Person {index:04d} (unnamed)'
     else:
         name = f'Person {index:04d}'

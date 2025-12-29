@@ -294,7 +294,7 @@ class Person:
         }
 
         # Name (populated by LLM pipeline)
-        if self.name is not None:
+        if self.name:
             output['Name'] = self.name
             output['Naming category'] = self.naming_category
         elif self.naming_category == 'unnamed':
