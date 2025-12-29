@@ -248,6 +248,40 @@ Brief reasoning, then events as JSON:
 ]}'''
 
 # -----------------------------------------------------------------------------
+# Naming Prompts
+# -----------------------------------------------------------------------------
+
+NAMING_PROMPT = '''Generate 20 possible names for this person.
+
+Person details:
+{person_data}
+
+NAMING CATEGORIES:
+First, determine which category applies:
+
+1. **ATTESTED**: Names survive in written records. Use historically authentic names appropriate to era, region, class, and sex. Prioritize common everyday names over famous or prestigious ones. Maximize diversity across the 20 options.
+
+2. **INFERABLE**: Language family known but no written records. Generate phonologically plausible names for that language family. Use linguistic reconstruction notation where appropriate. Vary phonological patterns and roots.
+
+3. **UNRECOVERABLE**: No linguistic connection to known languages. Generate simple, short names (1-3 syllables) that sound human. CRITICAL: Vary name length substantially - include roughly equal numbers of 1-syllable, 2-syllable, and 3-syllable names across the 20 options. Vary consonants, vowels, and syllable structures.
+
+4. **UNNAMED**: Infant died before customary naming age. Return empty names list.
+
+NAMING CONSIDERATIONS:
+- Full name format should match cultural norms (given name only, or with family/clan/patronymic elements)
+- Consider: social class, sex, religious context, regional variation
+
+FORMAT:
+Brief reasoning about which category applies and why, then as JSON:
+{{
+    "category": "attested" | "inferable" | "unrecoverable" | "unnamed",
+    "names": ["Full Name 1", "Full Name 2", ..., "Full Name 20"]
+}}
+
+For "unnamed" category, return empty list: {{"category": "unnamed", "names": []}}'''
+
+
+# -----------------------------------------------------------------------------
 # Narrative Prompts
 # -----------------------------------------------------------------------------
 
@@ -291,7 +325,7 @@ If an event does none of these things, remove it entirely. Don't include events 
 
 NARRATIVE_PROMPT_ERA = {
     'Holocene': """Write a narrative biography for this historical person that brings them to life as a real individual.
-- Give the person a historically appropriate name based on their language, culture, and time period
+- Use the provided name for this person
 - Include the demographic details in the story naturally
 - Avoid anachronisms
 
@@ -309,7 +343,7 @@ SETTING THE SCENE:
 - Open with the environment and climate (use the "Climate then" vs "Climate now" contrast to orient readers)
 
 WRITING THE PERSON:
-- Give them a placeholder name and note it's unknowable (e.g., "We'll call her X, though her real name is lost")
+- Use the provided name; if the naming category is "unrecoverable", you may briefly acknowledge the name is a placeholder (e.g., "We'll call her X"), but don't belabor this point
 - Show personality through actions, choices, habits, and relationships - NOT by stating trait levels
 - Avoid mechanical phrasing like "With moderate openness..." or "His low agreeableness suggests..."
 
@@ -626,6 +660,47 @@ def generate_life_events(person, ctx):
     ctx.log(f"  Final events: {len(person.events)}")
 
 
+def generate_name(person, ctx):
+    """
+    Generate a name for the person by having the LLM propose 10 options
+    and randomly selecting one.
+
+    Modifies person in place.
+    """
+    ctx.log("Generating name...")
+
+    prompt = NAMING_PROMPT.format(person_data=person.to_prompt_string())
+    person.messages.append({"role": "user", "content": prompt})
+
+    result, content = call_with_retry(ctx, person.messages)
+
+    if not result or 'category' not in result:
+        ctx.log("  Failed to generate names")
+        person.messages.pop()
+        person.name = None
+        person.naming_category = None
+        return
+
+    person.messages.append({"role": "assistant", "content": content})
+
+    names = result.get('names', [])
+    category = result.get('category', 'unknown')
+
+    person.naming_category = category
+
+    if not names or category == 'unnamed':
+        person.name = None
+        ctx.log(f"  Unnamed ({category})")
+    else:
+        ctx.log(f" Names: {names}")
+        person.name = random.choice(names)
+        ctx.log(f"  Selected: {person.name} ({category})")
+        person.messages.append({
+            "role": "user",
+            "content": SELECTION_TEXT + person.name
+        })
+
+
 def generate_narrative(person, ctx, extra_prompt=None, replace_prompt=None):
     """
     Generate biographical narrative.
@@ -742,11 +817,15 @@ def run_pipeline(person, model="haiku", quiet=True, show_cost=False):
     generate_life_events(person, ctx)
 
     ctx.log("\n" + "=" * 50)
-    ctx.log("Step 4: Generating narrative...")
+    ctx.log("Step 4: Generating name...")
+    generate_name(person, ctx)
+
+    ctx.log("\n" + "=" * 50)
+    ctx.log("Step 5: Generating narrative...")
     generate_narrative(person, ctx)
 
     ctx.log("\n" + "=" * 50)
-    ctx.log("Step 5: Quality check...")
+    ctx.log("Step 6: Quality check...")
     quality_check(person, ctx)
 
     ctx.finish()

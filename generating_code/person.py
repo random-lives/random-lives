@@ -139,6 +139,8 @@ class Person:
         self.events = []
         self.narrative = None
         self.messages = []  # LLM conversation history
+        self.name = None
+        self.naming_category = None  # 'attested', 'inferable', 'unrecoverable', or 'unnamed'
 
         # Cache for location data in to_dict() to avoid recomputing expensive lookups
         self._location_data_cache = None
@@ -290,6 +292,14 @@ class Person:
             'Sex': self.sex,
             'Lifestyle': self.lifestyle,
         }
+
+        # Name (populated by LLM pipeline)
+        if self.name is not None:
+            output['Name'] = self.name
+            output['Naming category'] = self.naming_category
+        elif self.naming_category == 'unnamed':
+            output['Name'] = '(unnamed - died before naming)'
+            output['Naming category'] = self.naming_category
 
         # Location data (computed once, then cached)
         if self.era == 'Paleolithic':
