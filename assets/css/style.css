@@ -179,6 +179,39 @@ nav a:hover {
   text-decoration: underline;
 }
 
+/* Life map */
+.life-map {
+  margin: 40px 0;
+  padding: 20px;
+  background: #f5f5f5;
+  border-radius: 5px;
+}
+
+.life-map h2 {
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+}
+
+.life-map iframe {
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.map-caption {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.map-caption a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.map-caption a:hover {
+  text-decoration: underline;
+}
+
 /* Footer */
 footer {
   margin-top: 60px;
