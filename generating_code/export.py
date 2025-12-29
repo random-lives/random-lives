@@ -135,6 +135,14 @@ def export_to_jekyll(pickle_path, output_dir):
     output_path = Path(output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
 
+    # Remove all existing markdown files
+    print(f"Removing existing markdown files from {output_dir}...")
+    removed = 0
+    for md_file in output_path.glob('*.md'):
+        md_file.unlink()
+        removed += 1
+    print(f"  Removed {removed} files")
+
     # Export each person
     exported = 0
     for i, person in enumerate(people):
