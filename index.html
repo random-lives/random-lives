@@ -79,6 +79,7 @@ title: Home
     {% for life in sorted_lives %}
       <article class="life-preview"
                data-birth-year="{{ life.birth_year_numeric }}"
+               data-birth-year-str="{{ life.birth_year }}"
                data-continent="{{ life.continent }}"
                data-age="{{ life.age_tag }}"
                data-sex="{{ life.sex }}"
@@ -147,10 +148,14 @@ title: Home
     const yearEnd = parseYear(filters.yearEnd.value);
 
     articles.forEach(article => {
-      const birthYear = parseInt(article.dataset.birthYear, 10);
+      // Try numeric birth year first, fall back to parsing string
+      let birthYear = parseInt(article.dataset.birthYear, 10);
+      if (isNaN(birthYear)) {
+        birthYear = parseYear(article.dataset.birthYearStr);
+      }
 
-      const matchYearStart = yearStart === null || birthYear >= yearStart;
-      const matchYearEnd = yearEnd === null || birthYear <= yearEnd;
+      const matchYearStart = yearStart === null || birthYear === null || birthYear >= yearStart;
+      const matchYearEnd = yearEnd === null || birthYear === null || birthYear <= yearEnd;
       const matchContinent = !filters.continent.value || article.dataset.continent === filters.continent.value;
       const matchAge = !filters.age.value || article.dataset.age === filters.age.value;
       const matchSex = !filters.sex.value || article.dataset.sex === filters.sex.value;
