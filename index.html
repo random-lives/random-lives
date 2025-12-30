@@ -24,32 +24,6 @@ title: Home
       </label>
 
       <label>
-        Continent:
-        <select id="filter-continent">
-          <option value="">All Continents</option>
-          <option value="Africa">Africa</option>
-          <option value="Asia">Asia</option>
-          <option value="Europe">Europe</option>
-          <option value="North America">North America</option>
-          <option value="South America">South America</option>
-          <option value="Oceania">Oceania</option>
-        </select>
-      </label>
-
-      <label>
-        Age at Death:
-        <select id="filter-age">
-          <option value="">All Ages</option>
-          <option value="Alive">Alive</option>
-          <option value="Infant (0–1)">Infant (0–1)</option>
-          <option value="Child (2–10)">Child (2–10)</option>
-          <option value="Adolescent (11–18)">Adolescent (11–18)</option>
-          <option value="Adult (19–49)">Adult (19–49)</option>
-          <option value="Elder (50+)">Elder (50+)</option>
-        </select>
-      </label>
-
-      <label>
         Sex:
         <select id="filter-sex">
           <option value="">All</option>
@@ -57,16 +31,35 @@ title: Home
           <option value="F">Female</option>
         </select>
       </label>
+    </div>
 
-      <label>
-        Lifestyle:
-        <select id="filter-lifestyle">
-          <option value="">All Lifestyles</option>
-          <option value="Hunter-Gatherer">Hunter-Gatherer</option>
-          <option value="Rural">Rural</option>
-          <option value="Urban">Urban</option>
-        </select>
-      </label>
+    <div class="filter-row">
+      <fieldset class="filter-group" id="filter-continent">
+        <legend>Continent:</legend>
+        <label><input type="checkbox" value="Africa"> Africa</label>
+        <label><input type="checkbox" value="Asia"> Asia</label>
+        <label><input type="checkbox" value="Europe"> Europe</label>
+        <label><input type="checkbox" value="North America"> North America</label>
+        <label><input type="checkbox" value="South America"> South America</label>
+        <label><input type="checkbox" value="Oceania"> Oceania</label>
+      </fieldset>
+
+      <fieldset class="filter-group" id="filter-age">
+        <legend>Age at Death:</legend>
+        <label><input type="checkbox" value="Alive"> Alive</label>
+        <label><input type="checkbox" value="Infant (0–1)"> Infant (0–1)</label>
+        <label><input type="checkbox" value="Child (2–10)"> Child (2–10)</label>
+        <label><input type="checkbox" value="Adolescent (11–18)"> Adolescent (11–18)</label>
+        <label><input type="checkbox" value="Adult (19–49)"> Adult (19–49)</label>
+        <label><input type="checkbox" value="Elder (50+)"> Elder (50+)</label>
+      </fieldset>
+
+      <fieldset class="filter-group" id="filter-lifestyle">
+        <legend>Lifestyle:</legend>
+        <label><input type="checkbox" value="Hunter-Gatherer"> Hunter-Gatherer</label>
+        <label><input type="checkbox" value="Rural"> Rural</label>
+        <label><input type="checkbox" value="Urban"> Urban</label>
+      </fieldset>
 
       <label>
         Sort by:
@@ -111,11 +104,21 @@ title: Home
   const filters = {
     yearStart: document.getElementById('filter-year-start'),
     yearEnd: document.getElementById('filter-year-end'),
+    sex: document.getElementById('filter-sex')
+  };
+
+  // Checkbox filter groups
+  const checkboxFilters = {
     continent: document.getElementById('filter-continent'),
     age: document.getElementById('filter-age'),
-    sex: document.getElementById('filter-sex'),
     lifestyle: document.getElementById('filter-lifestyle')
   };
+
+  // Get selected values from a checkbox group
+  function getCheckedValues(fieldset) {
+    const checkboxes = fieldset.querySelectorAll('input[type="checkbox"]:checked');
+    return Array.from(checkboxes).map(cb => cb.value);
+  }
 
   const sortOrder = document.getElementById('sort-order');
   const livesList = document.querySelector('.lives-list');
@@ -195,15 +198,20 @@ title: Home
     const yearStart = parseYear(filters.yearStart.value);
     const yearEnd = parseYear(filters.yearEnd.value);
 
+    // Get selected checkbox values (empty array means "all")
+    const selectedContinents = getCheckedValues(checkboxFilters.continent);
+    const selectedAges = getCheckedValues(checkboxFilters.age);
+    const selectedLifestyles = getCheckedValues(checkboxFilters.lifestyle);
+
     articles.forEach(article => {
       const birthYear = parseInt(article.dataset.birthYear, 10);
 
       const matchYearStart = yearStart === null || isNaN(birthYear) || birthYear >= yearStart;
       const matchYearEnd = yearEnd === null || isNaN(birthYear) || birthYear <= yearEnd;
-      const matchContinent = !filters.continent.value || article.dataset.continent === filters.continent.value;
-      const matchAge = !filters.age.value || article.dataset.age === filters.age.value;
+      const matchContinent = selectedContinents.length === 0 || selectedContinents.includes(article.dataset.continent);
+      const matchAge = selectedAges.length === 0 || selectedAges.includes(article.dataset.age);
       const matchSex = !filters.sex.value || article.dataset.sex === filters.sex.value;
-      const matchLifestyle = !filters.lifestyle.value || article.dataset.lifestyle === filters.lifestyle.value;
+      const matchLifestyle = selectedLifestyles.length === 0 || selectedLifestyles.includes(article.dataset.lifestyle);
 
       if (matchYearStart && matchYearEnd && matchContinent && matchAge && matchSex && matchLifestyle) {
         article.style.display = '';
@@ -219,13 +227,18 @@ title: Home
   // Initial state
   applyFilters();
 
-  // Add event listeners for filters
+  // Add event listeners for simple filters (text inputs and selects)
   Object.values(filters).forEach(filter => {
     if (filter.tagName === 'INPUT') {
       filter.addEventListener('input', applyFilters);
     } else {
       filter.addEventListener('change', applyFilters);
     }
+  });
+
+  // Add event listeners for checkbox filter groups
+  Object.values(checkboxFilters).forEach(fieldset => {
+    fieldset.addEventListener('change', applyFilters);
   });
 
   // Add event listener for sorting

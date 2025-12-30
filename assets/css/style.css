@@ -104,6 +104,34 @@ nav a:hover {
   border-color: #999;
 }
 
+/* Checkbox filter groups */
+.filter-group {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px 15px;
+  background: white;
+}
+
+.filter-group legend {
+  font-size: 0.9rem;
+  color: #555;
+  padding: 0 5px;
+}
+
+.filter-group label {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-right: 12px;
+  font-size: 0.85rem;
+  color: #555;
+  cursor: pointer;
+}
+
+.filter-group input[type="checkbox"] {
+  cursor: pointer;
+}
+
 .filter-stats {
   margin-top: 15px;
   font-size: 0.9rem;
