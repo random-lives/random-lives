@@ -400,7 +400,7 @@ ENDING (person has died):
 # Historical Notes Prompts
 # -----------------------------------------------------------------------------
 
-HISTORICAL_NOTES_PROMPT = """Generate 4-6 brief historical notes that provide context for understanding this person's life.
+HISTORICAL_NOTES_PROMPT = """Generate 10-15 candidate historical notes that could provide context for this person's life. Generate more than needed—the best will be selected later.
 
 Person details:
 {person_data}
@@ -408,26 +408,20 @@ Person details:
 Narrative:
 {narrative}
 
-WHAT TO INCLUDE:
-- Demographic facts not obvious from the narrative (language, ethnicity, religion, literacy)
-- Concrete historical context (archaeological sites, dates, statistics, economic figures)
-- Surprising facts an educated reader might not know
-- Comparative context: was this person typical? How did they compare to others?
+AIM FOR VARIETY. Include candidates from each category:
+- Surprising facts an educated reader probably doesn't know
+- Specific archaeological sites, dates, or statistics relevant to this time/place
+- Comparative context: how does this person compare to others in their society?
+- Economic context: income, prices, costs of living
+- Demographic facts not in the narrative (language, ethnicity, religion)
+- What we can and cannot know about this period (limit to 1-2 candidates)
 
-For pre-modern periods, UP TO ONE note may acknowledge limits of knowledge.
+PRIORITIZE:
+- Facts that would make someone say "I didn't know that"
+- Specific numbers, dates, place names
+- Connections between the narrative and broader historical patterns
 
-STYLE:
-- 1-2 sentences per note
-- State facts directly; do not justify why the fact is relevant
-- Use plain language, not academic jargon
-- Include specific numbers, dates, and place names where possible
-
-AVOID:
-- Ending notes with "consistent with the narrative" or "matching the story" or similar
-- Academic notation (write "26,000 BC" not "~26 ka")
-- Technical jargon ("rainfed upland rice" → "rain-fed rice farming")
-- Hedging phrases ("cannot be proven," "plausible but not verifiable")
-- Repeating information already clear in the narrative
+Keep each note to 1-2 sentences. Use plain language.
 
 FORMAT:
 Return as JSON:
@@ -496,7 +490,7 @@ Check for:
 """
 }
 
-HISTORICAL_NOTES_QC_PROMPT = """Review these historical notes for quality and relevance.
+HISTORICAL_NOTES_QC_PROMPT = """Select the 4-6 best historical notes from these candidates and arrange them in a logical order.
 
 Person details:
 {person_data}
@@ -504,28 +498,31 @@ Person details:
 Narrative:
 {narrative}
 
-Current historical notes:
+Candidate notes:
 {notes}
 
-REMOVE or REWRITE notes that:
-- End with justifications like "consistent with the narrative," "matching the story," "as described"
-- Use academic jargon or notation ("~26 ka," "settlement patterning," "rainfed upland")
-- Are longer than 2 sentences
-- Repeat what's already clear from the narrative
+SELECTION CRITERIA - prefer notes that:
+- Would make an educated reader say "I didn't know that"
+- Have specific numbers, dates, or place names
+- Add context not obvious from the narrative itself
+- Place this person in comparative context (typical/atypical, better/worse off)
 
-IMPROVE notes by:
-- Cutting justification clauses entirely (the note should stand alone as an interesting fact)
-- Converting academic language to plain English
-- Adding specific numbers, dates, or comparisons where missing
+REJECT notes that:
+- State obvious or easily guessed facts
+- Repeat information clear from the narrative
+- Are generic descriptions that could apply to many times/places
+- End with "consistent with the narrative" or similar justifications
 
-CHECK that notes collectively include:
-- At least one note with comparative context (typical/atypical, better/worse off than peers)
-- Concrete specifics (dates, figures, place names)
-- At most one epistemic-limits note (for pre-modern periods)
+EDITING:
+- Cut any justification clauses ("as seen in the narrative," "which explains...")
+- Convert academic jargon to plain English
+- Keep at most ONE note about limits of historical knowledge
+
+Return the 4-6 best notes, edited and ordered logically.
 
 Return as JSON:
 {{
-    "issues_found": ["brief description of problems"],
+    "selection_reasoning": "Brief explanation of which notes were best and why",
     "revised_notes": ["note 1", "note 2", ...]
 }}"""
 
