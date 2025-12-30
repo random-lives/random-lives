@@ -69,4 +69,47 @@ layout: default
   <nav class="life-navigation">
     <a href="{{ '/' | relative_url }}">← Back to all lives</a>
   </nav>
+
+  <nav class="life-nav-buttons">
+    {% assign sorted_lives = site.lives | sort: "birth_year_numeric" %}
+    {% assign current_index = -1 %}
+    {% for life in sorted_lives %}
+      {% if life.url == page.url %}
+        {% assign current_index = forloop.index0 %}
+      {% endif %}
+    {% endfor %}
+
+    {% if current_index > 0 %}
+      {% assign prev_index = current_index | minus: 1 %}
+      {% assign prev_life = sorted_lives[prev_index] %}
+      <a href="{{ prev_life.url | relative_url }}" class="nav-btn">← Earlier life</a>
+    {% else %}
+      <span class="nav-btn disabled">← Earlier life</span>
+    {% endif %}
+
+    <a href="#" class="nav-btn" id="random-life-btn">Random life</a>
+
+    {% assign next_index = current_index | plus: 1 %}
+    {% if next_index < sorted_lives.size %}
+      {% assign next_life = sorted_lives[next_index] %}
+      <a href="{{ next_life.url | relative_url }}" class="nav-btn">Later life →</a>
+    {% else %}
+      <span class="nav-btn disabled">Later life →</span>
+    {% endif %}
+  </nav>
+
+  <script>
+    (function() {
+      const allLives = [
+        {% for life in site.lives %}
+          "{{ life.url | relative_url }}"{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ];
+      document.getElementById('random-life-btn').addEventListener('click', function(e) {
+        e.preventDefault();
+        const randomIndex = Math.floor(Math.random() * allLives.length);
+        window.location.href = allLives[randomIndex];
+      });
+    })();
+  </script>
 </article>
