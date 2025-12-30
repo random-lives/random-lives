@@ -371,6 +371,47 @@ git push
 
 ---
 
+## Filtering and Tagging System
+
+The homepage (`index.html`) includes a comprehensive filtering system with clickable tag buttons:
+
+### Filter Categories
+- **Born after/before**: Text inputs accepting formats like "10000 BC", "500 AD", "1990"
+- **Sex**: Multi-select (Male, Female)
+- **Continent**: Multi-select (Africa, Asia, Europe, N. America, S. America, Oceania)
+- **Age at Death**: Multi-select (Alive, Infant, Child, Adolescent, Adult, Elder)
+- **Lifestyle**: Multi-select (Hunter-Gatherer, Rural, Urban)
+- **Sort**: Single-select (Default, Oldest first, Newest first, Random)
+
+### How It Works
+- Click tag buttons to toggle selection (blue = selected)
+- Empty selection means "show all" for that category
+- Multiple selections within a category use OR logic (matches any)
+- Selections across categories use AND logic (must match all)
+- Clicking "Random" again re-shuffles the order
+
+### Frontmatter Fields for Filtering
+Each life markdown file includes these fields used for filtering:
+```yaml
+birth_year_numeric: -5000      # Numeric year for sorting/filtering
+sex: "M"                       # M or F
+continent: "Africa"            # Computed from country or Paleolithic region
+age_tag: "Adult (19–49)"       # Computed from age_at_death
+lifestyle: "Hunter-Gatherer"   # Hunter-Gatherer, Rural, or Urban
+```
+
+### Continent Mapping
+- **Holocene**: Mapped from country using `COUNTRY_TO_CONTINENT` dict in `export.py`
+- **Paleolithic**: Mapped from region (Africa, Asia, Europe, North_America, South_America, Sahul→Oceania)
+
+### Individual Life Page Navigation
+Each biographical page (`_layouts/life.html`) includes navigation buttons:
+- **← Earlier life**: Previous person chronologically
+- **Random life**: Jump to random biography
+- **Later life →**: Next person chronologically
+
+---
+
 ## Important Files
 
 ### Website Configuration
@@ -400,8 +441,8 @@ git push
 
 ### Phase 2: Context & Metadata
 - [x] Historical context/notes - manual process using Claude (automated generation wasn't good enough)
-- [ ] Tagging system (era, region, age buckets, lifestyle, themes)
-- [ ] Filtering/search functionality on website
+- [x] Tagging system (continent, age buckets, lifestyle, sex)
+- [x] Filtering/search functionality on website
 
 ### Phase 3: Presentation
 - [ ] Cross-story editing pass (review for clichés/repetition)
