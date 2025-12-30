@@ -67,6 +67,15 @@ title: Home
           <option value="Urban">Urban</option>
         </select>
       </label>
+
+      <label>
+        Sort by:
+        <select id="sort-order">
+          <option value="chronological">Oldest first</option>
+          <option value="reverse">Newest first</option>
+          <option value="random">Random</option>
+        </select>
+      </label>
     </div>
     <div class="filter-stats">
       Showing <span id="visible-count">0</span> of <span id="total-count">0</span> lives
@@ -108,7 +117,9 @@ title: Home
     lifestyle: document.getElementById('filter-lifestyle')
   };
 
-  const articles = document.querySelectorAll('.life-preview');
+  const sortOrder = document.getElementById('sort-order');
+  const livesList = document.querySelector('.lives-list');
+  const articles = Array.from(document.querySelectorAll('.life-preview'));
   const visibleCount = document.getElementById('visible-count');
   const totalCount = document.getElementById('total-count');
 
@@ -140,6 +151,41 @@ title: Home
     return null;
   }
 
+  // Get birth year for sorting
+  function getBirthYear(article) {
+    return parseInt(article.dataset.birthYear, 10);
+  }
+
+  // Shuffle array (Fisher-Yates)
+  function shuffle(array) {
+    const arr = array.slice();
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  }
+
+  function applySorting() {
+    const order = sortOrder.value;
+    let sorted;
+
+    if (order === 'random') {
+      sorted = shuffle(articles);
+    } else {
+      sorted = articles.slice().sort((a, b) => {
+        const yearA = getBirthYear(a);
+        const yearB = getBirthYear(b);
+        if (isNaN(yearA) && isNaN(yearB)) return 0;
+        if (isNaN(yearA)) return 1;
+        if (isNaN(yearB)) return -1;
+        return order === 'chronological' ? yearA - yearB : yearB - yearA;
+      });
+    }
+
+    sorted.forEach(article => livesList.appendChild(article));
+  }
+
   function applyFilters() {
     let visible = 0;
 
@@ -167,10 +213,10 @@ title: Home
     visibleCount.textContent = visible;
   }
 
-  // Initial count
+  // Initial state
   applyFilters();
 
-  // Add event listeners
+  // Add event listeners for filters
   Object.values(filters).forEach(filter => {
     if (filter.tagName === 'INPUT') {
       filter.addEventListener('input', applyFilters);
@@ -178,5 +224,8 @@ title: Home
       filter.addEventListener('change', applyFilters);
     }
   });
+
+  // Add event listener for sorting
+  sortOrder.addEventListener('change', applySorting);
 })();
 </script>
