@@ -71,6 +71,7 @@ title: Home
       <label>
         Sort by:
         <select id="sort-order">
+          <option value="default">Default</option>
           <option value="chronological">Oldest first</option>
           <option value="reverse">Newest first</option>
           <option value="random">Random</option>
@@ -84,8 +85,7 @@ title: Home
 
   <div class="lives-list">
     <h2>Lives</h2>
-    {% assign sorted_lives = site.lives | sort: "birth_year_numeric" %}
-    {% for life in sorted_lives %}
+    {% for life in site.lives %}
       <article class="life-preview"
                data-birth-year="{{ life.birth_year_numeric }}"
                data-continent="{{ life.continent }}"
@@ -120,6 +120,7 @@ title: Home
   const sortOrder = document.getElementById('sort-order');
   const livesList = document.querySelector('.lives-list');
   const articles = Array.from(document.querySelectorAll('.life-preview'));
+  const originalOrder = articles.slice(); // Preserve original DOM order
   const visibleCount = document.getElementById('visible-count');
   const totalCount = document.getElementById('total-count');
 
@@ -170,7 +171,9 @@ title: Home
     const order = sortOrder.value;
     let sorted;
 
-    if (order === 'random') {
+    if (order === 'default') {
+      sorted = originalOrder;
+    } else if (order === 'random') {
       sorted = shuffle(articles);
     } else {
       sorted = articles.slice().sort((a, b) => {
