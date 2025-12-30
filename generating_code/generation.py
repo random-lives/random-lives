@@ -400,7 +400,7 @@ ENDING (person has died):
 # Historical Notes Prompts
 # -----------------------------------------------------------------------------
 
-HISTORICAL_NOTES_PROMPT = """Generate 2-4 brief historical notes that provide context for understanding this person's life.
+HISTORICAL_NOTES_PROMPT = """Generate 3-6 brief historical notes that provide context for understanding this person's life.
 
 Person details:
 {person_data}
@@ -409,28 +409,40 @@ Narrative:
 {narrative}
 
 WHAT TO INCLUDE:
-- Historical events or conditions mentioned in the narrative that need explanation
-- Important context about the time period, region, or culture that helps readers understand the story
-- Background on social structures, religious practices, or economic systems that shaped this life
-- Clarification of terms or concepts that modern readers might not know
+
+1. DEMOGRAPHIC FACTS not obvious from the narrative:
+   - Language(s) spoken and their regional context
+   - Ethnic/cultural group and its place in the broader region
+   - Religious practice if not fully explained
+   - Literacy context if relevant
+
+2. CONCRETE HISTORICAL CONTEXT:
+   - Specific events, dates, or figures that ground the story
+   - Archaeological evidence or documented history relevant to the period
+   - Verifiable specifics: mortality figures, economic statistics, population data
+   - Surprising or non-obvious facts an educated reader might not know
+
+3. WHAT WE KNOW VS. CAN'T KNOW (especially for pre-modern periods):
+   - Explicitly note if no written records exist
+   - Acknowledge limits of archaeological or linguistic reconstruction
+   - State if the name is a placeholder
+
+4. CONNECTIONS TO THE NARRATIVE:
+   - Link notes to specific elements of the story
+   - Provide scale or comparison where useful
 
 WHAT TO AVOID:
-- Don't repeat information already clear in the narrative
-- Don't explain obvious or well-known facts
-- Don't add speculative information not grounded in the narrative
-- Don't moralize or add commentary on whether conditions were "good" or "bad"
+- Repeating information already clear in the narrative
+- Obvious or widely-known facts
+- Vague generalizations
+- Moralizing or editorializing
+- Speculation beyond well-established facts
 
 FORMAT:
-Each note should be 1-3 sentences, written in plain contemporary English. Return as JSON:
+Each note should be 1-3 sentences in plain contemporary English. Return as JSON:
 {{
-    "notes": [
-        "First note text here.",
-        "Second note text here.",
-        ...
-    ]
-}}
-
-If no notes are needed (the narrative is self-explanatory), return an empty list."""
+    "notes": ["First note.", "Second note.", ...]
+}}"""
 
 # -----------------------------------------------------------------------------
 # Quality Control Prompts
@@ -492,6 +504,36 @@ Check for:
 3. MECHANICAL DESCRIPTIONS: "with high openness..." style personality descriptions
 """
 }
+
+HISTORICAL_NOTES_QC_PROMPT = """Review these historical notes for quality and relevance.
+
+Person details:
+{person_data}
+
+Narrative:
+{narrative}
+
+Current historical notes:
+{notes}
+
+REMOVE notes that:
+- Repeat what's already clear from the narrative
+- State obvious or widely-known facts
+- Provide generic background without connecting to this person
+- Contain vague generalizations instead of concrete facts
+- Are speculative or unverifiable
+
+CHECK that the notes collectively:
+- Surface key demographic facts (language, ethnicity, religion) not obvious from the narrative
+- Include concrete specifics (dates, figures, place names)
+- Acknowledge epistemic limits for pre-modern periods
+- Connect to specific elements of the story
+
+Return as JSON:
+{{
+    "issues_found": ["brief description of problems"],
+    "revised_notes": ["note 1", "note 2", ...]
+}}"""
 
 SELECTION_TEXT = "The random number generator selected for this person: "
 
@@ -846,31 +888,61 @@ def generate_historical_notes(person, ctx):
 
 def quality_check(person, ctx):
     """
-    Review and revise narrative for issues.
+    Review and revise narrative and historical notes for issues.
 
     Modifies person in place.
-    Returns issues_found.
+    Returns issues_found dict with 'narrative' and 'notes' keys.
     """
+    all_issues = {'narrative': [], 'notes': []}
+
+    # QC narrative
     qc_prompt = QC_CHECKS_ERA[person.era] + QC_PROMPT_BASE.format(
         person_data=person.to_prompt_string(), narrative=person.narrative
     )
 
-    ctx.log("Running quality check...")
+    ctx.log("Running quality check on narrative...")
 
     messages = [{"role": "user", "content": qc_prompt}]
     result, _ = call_with_retry(ctx, messages)
 
-    if not result:
-        ctx.log("  Quality check failed, keeping original")
-        return []
+    if result:
+        narrative_issues = result.get('issues_found', [])
+        person.narrative = result.get('revised_narrative', person.narrative)
+        all_issues['narrative'] = narrative_issues
 
-    issues = result.get('issues_found', [])
-    person.narrative = result.get('revised_narrative', person.narrative)
+        count = len(narrative_issues) if isinstance(narrative_issues, list) else sum(len(v) for v in narrative_issues.values() if isinstance(v, list))
+        ctx.log(f"  Fixed {count} narrative issues")
+    else:
+        ctx.log("  Narrative QC failed, keeping original")
 
-    count = len(issues) if isinstance(issues, list) else sum(len(v) for v in issues.values() if isinstance(v, list))
-    ctx.log(f"  Fixed {count} issues")
+    # QC historical notes if they exist
+    if person.historical_notes:
+        ctx.log("Running quality check on historical notes...")
 
-    return issues
+        notes_qc_prompt = HISTORICAL_NOTES_QC_PROMPT.format(
+            person_data=person.to_prompt_string(),
+            narrative=person.narrative,
+            notes='\n'.join(f'{i+1}. {note}' for i, note in enumerate(person.historical_notes))
+        )
+
+        messages = [{"role": "user", "content": notes_qc_prompt}]
+        notes_result, _ = call_with_retry(ctx, messages)
+
+        if notes_result:
+            notes_issues = notes_result.get('issues_found', [])
+            revised_notes = notes_result.get('revised_notes', person.historical_notes)
+
+            # Only update if we got valid revised notes
+            if revised_notes and isinstance(revised_notes, list):
+                person.historical_notes = revised_notes
+                all_issues['notes'] = notes_issues
+
+                notes_count = len(notes_issues) if isinstance(notes_issues, list) else 0
+                ctx.log(f"  Fixed {notes_count} note issues, {len(person.historical_notes)} notes remain")
+        else:
+            ctx.log("  Notes QC failed, keeping original")
+
+    return all_issues
 
 
 # =============================================================================
