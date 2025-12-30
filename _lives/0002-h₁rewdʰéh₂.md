@@ -1,6 +1,6 @@
 ---
 layout: life
-title: "Wérā"
+title: "H₁rewdʰéh₂"
 birth_year: "2296 BC"
 death_year: "2296 BC"
 age_at_death: 0
@@ -45,7 +45,7 @@ sex: "F"
 # Death date: August 10, 2296 BC
 # Era: Holocene
 # Lifestyle: Rural
-# Name: Wérā
+# Name: H₁rewdʰéh₂
 # Naming category: inferable
 # Sex: F
 # birth_order_position: 6
@@ -80,14 +80,12 @@ sex: "F"
 # - F
 ---
 
-Wérā was born in late winter, in a clay-plastered wattle house on a low rise above wet forest ground near the river. Smoke from the hearth sat in the rafters. The floor was hard-packed. Her mother named her in the same quick way she spoke to the other children, without a pause in her work.
+H₁rewdʰéh₂ was born near the end of winter in a Trypillian settlement in the mixed forest, where people kept fields in clearings among birch and oak and the ground stayed dark and wet into spring. Her household held three generations. The oldest woman slept beside the clay oven. She rose first, pulled yesterday’s coals forward, and set a pot on the heat.
 
-She was the sixth child and the sixth girl. Two sisters had already died, one before her first year and one still small enough to be carried everywhere. The older girls filled the house with noise and errands. The eldest, thirty-six, lived there with her husband and a small child, and took charge when the adults were gone. Wérā’s grandparents stayed closest to the warmest part of the room. They watched the fire, sorted grain, and kept things moving when the younger hands were in the fields.
+H₁rewdʰéh₂’s mother had already borne five girls. Two had died before they learned to walk. One had lived into adulthood and now worked the same house, married, with a small child of her own. Another daughter was grown and hard-handed from fieldwork. When H₁rewdʰéh₂ arrived she was small, loud, and red with cold.
 
-Her father’s days ran with the animals. He drove cattle and pigs between clearings and oak stands and kept them out of the planted strips. In the evenings he came back smelling of wet hide and dung. If someone arrived to trade, he did it at the edge of the yard—salt for hide, a better strap for a measure of grain—then he put the herd where he could hear them at night.
+Her father spent most days with the animals—cattle and a few sheep—moving them between the forest edge and the open patches near the fields. He came back smelling of hide and smoke, and he brought news from other households when he swapped help at grazing time. In the house, women kept the fire, carried water from a shallow source, and worked the plots once the thaw loosened the soil.
 
-When spring came, Wérā’s mother went back to planting and weeding with the baby tied tight against her. Before the first work of the day she stopped at the settlement’s offering place and left meal and a little milk for the fields and the herd, then joined the others.
+When early summer came and the first greens were cut for drying, the household joined the seasonal meal at the edge of the field. They set out grain and milk, ate, and spoke about the rain and the young animals.
 
-In the heat of late summer the river ran low and the water near the houses turned foul. Wérā began to pass thin stools again and again. Her mother fed her thin gruel and sips of water, and kept her against her chest to warm her when she went cold. The child’s mouth dried, her crying weakened, and her skin stayed slack under a pinch.
-
-She died in the high part of the day, in her mother’s arms, before the evening work was done.
+By late summer, H₁rewdʰéh₂ began taking thin gruel from a shared pot. Water sat in clay jars and open bowls through the day while flies came and went. Within a day of the first feedings she turned hot and slack, then emptied herself again and again until nothing stayed in her. Her mother put her back to the breast and tried to give her cooled, boiled water with a little salt, wetting her lips between cries. The child’s mouth stayed dry. Her eyes dulled. Before the next morning she stopped crying, her breath slowed, and then it ended.

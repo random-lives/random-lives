@@ -1,6 +1,6 @@
 ---
 layout: life
-title: "Taku"
+title: "Kamiri"
 birth_year: "365 BC"
 death_year: "364 BC"
 age_at_death: 0
@@ -46,7 +46,7 @@ sex: "M"
 # Death date: April 24, 364 BC
 # Era: Holocene
 # Lifestyle: Hunter-Gatherer
-# Name: Taku
+# Name: Kamiri
 # Naming category: inferable
 # Sex: M
 # birth_order_position: 2
@@ -71,14 +71,14 @@ sex: "M"
 # - F
 ---
 
-Taku was born on May 7, 365 BC in the Cerrado uplands, in the country that lies north of today’s Minas Gerais. His family moved with a small band between streams and the darker strips of woodland, putting up shelters where there was water, game, and roots to dig, then leaving when the place was picked over or another camp settled too close.
+Kamiri was born at the start of the dry season, when the grass in the cerrado faded and the nights cooled on the higher ground above the river bends. His family camped on a low rise near scattered trees in the interior of what is now northern Minas Gerais. Their lives ran along footpaths between waterholes, hunting grounds, and the outcrops where they took stone for points.
 
-When he was born the household was his mother and father and one living child. He was the second of three births. The first, a boy, died during delivery. The third, a girl, lived a year and then died in a fever.
+His father hunted with other men, not alone. When they brought in meat—deer, armadillo, and sometimes a larger animal pushed toward waiting spears—everyone watched the butchering and the division. His father’s hands were quick and exact. He took the best cuts last. People noticed.
 
-His father’s work fed the camp and kept his name in use. Before dawn he went out with other men, following tracks across dry grass and sandy ground. He carried a bow with arrows and a spear for close work. When he brought back deer or smaller animals, he did not keep the best cuts for his own shelter. He handed them over in front of the older men, and they watched him do it.
+His mother kept ties between camps. She traveled with other women and carried bundles meant for exchange: smoked meat, cordage, pigment, and small tools. She also carried the memory of two dead children. Her first had died soon after birth. Her second had lived through one rainy season and died before she could walk far.
 
-His mother kept their ties with other camps from thinning out. She visited kin and other bands with bundles of smoked meat, cord, and feathers. She came back with stone for cutting and scraping, with resin for fixing points to shafts, and with news about where people were gathering next. When she walked, she carried Taku tight against her side under a cloth wrap. He slept and woke to voices, singing, and the steady stamp of feet on hard ground.
+Kamiri still received a name. At dusk the camp gathered in a broad ring. Feet struck the ground in time. Voices rose and fell in the songs used for births and mourning. His mother held him tight against her ribs while others danced around them.
 
-The deaths of the older baby and the girl made his parents careful with water and with strangers, but they could not live alone. People shared the same stream edges and the same shelters when storms came. Visitors arrived hungry or sick and stayed close to the fire.
+Rains returned months later. The river filled and the air stayed warm through the night. Then Kamiri’s stools turned watery and frequent. Fever came after. He nursed in short pulls and pushed away. His mother tried to keep him at her breast and carried him everywhere, even when she went to fetch water. Within days he stopped lifting his head.
 
-Near the end of the rains in 364 BC, Taku began to pass watery stool. His mouth stayed wet with nursing but he weakened, and fever followed. After that he started to cough, short and sharp, breaking his latch and leaving him breathing fast between cries. He died on April 24, 364 BC, in the same shelter where he had been born.
+He died before his first year was done. At first light his mother sat with him until his body went slack and heavy. The camp fell quiet. The hunters moved out early, following tracks along the damp ground, because the others still had to eat.

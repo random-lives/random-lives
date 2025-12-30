@@ -1,6 +1,6 @@
 ---
 layout: life
-title: "Sita"
+title: "Pushpa"
 birth_year: "1936 AD"
 death_year: "1937 AD"
 age_at_death: 0
@@ -44,7 +44,7 @@ sex: "F"
 # Death date: February 7, 1937 AD
 # Era: Holocene
 # Lifestyle: Rural
-# Name: Sita
+# Name: Pushpa
 # Naming category: attested
 # Sex: F
 # birth_order_position: 4
@@ -75,14 +75,12 @@ sex: "F"
 # - F
 ---
 
-Sita was born on 19 August 1936 in a village outside Raebareli, on the flat cropland of the Gangetic plain. In the hot months the work shifted early and late, and at noon people stayed in the shade. Her parents spoke Awadhi at home.
+Pushpa was born on August 19, 1936, in a village outside Raebareli in the United Provinces. The land lay flat and open, with scattered trees at the edges and dirt tracks that stayed dry and powdery until the rains. Inside her parents’ house, Awadhi filled the rooms.
 
-Shanti, her mother, began most mornings by rinsing her hands, lighting a small oil lamp in the wall niche, and setting down water and a few flower petals before the images. Then she put rice on the fire.
+At daybreak her mother lit a small lamp at the household shrine and set down water in a metal lota before anyone ate. The rest of the morning went to the usual work—grain ground and cooked, pots scrubbed, clothes rinsed, younger children watched. Pushpa’s father farmed his own narrow plots and kept two milk animals. He cut fodder before the sun climbed, then carried a tin pail of milk to the lane, where a local buyer took it and noted the amount to settle later.
 
-They lived as a nuclear household. Sita was the fourth child. Two older sisters had already died, one as a baby and one at two years old. The three surviving children were an older brother and two sisters. The brother was taken along to the fields when he could be useful. One girl carried water. The other kept an eye on the baby while Shanti swept the courtyard and shaped dung cakes to dry for fuel.
+Pushpa was the fourth child. Two sisters and a brother were already in the house. Before her, a baby had died, and no one spoke about it, but her mother counted the children by habit when she fed them and when she laid them down.
 
-Ram Saran farmed his own small plots and kept buffalo. Before daylight he cut fodder and checked the animals. He milked them and carried the milk in a brass pot to the market. The cash from milk came in small amounts and often, and he used it for salt, oil, and medicine when someone fell sick.
+In January the cold tightened at night. Pushpa started with a cough. Within days her breathing turned quick and shallow, each breath lifting her ribs. Her mother kept her close to the fire and rubbed warm oil over her chest and back. A compounder came once, felt for fever, left a paper twist of bitter powder, and took a few coins.
 
-In late January 1937, fog sat over the fields in the mornings and Sita started to cough. Within days her breathing turned fast and wet. Shanti kept her on her lap close to the warmth of the chulha and rubbed warmed oil on her chest. Ram Saran went into town and returned with a packet of medicine powder from a shop. It did not turn the illness.
-
-On 7 February 1937, before midday, Sita’s breathing slowed and stopped.
+Pushpa did not improve. She died before dawn on February 7, 1937. In the shed behind the house, the buffalo shifted and stamped in the dark while the household woke to the quiet that followed.

@@ -397,6 +397,42 @@ ENDING (person has died):
 """
 
 # -----------------------------------------------------------------------------
+# Historical Notes Prompts
+# -----------------------------------------------------------------------------
+
+HISTORICAL_NOTES_PROMPT = """Generate 2-4 brief historical notes that provide context for understanding this person's life.
+
+Person details:
+{person_data}
+
+Narrative:
+{narrative}
+
+WHAT TO INCLUDE:
+- Historical events or conditions mentioned in the narrative that need explanation
+- Important context about the time period, region, or culture that helps readers understand the story
+- Background on social structures, religious practices, or economic systems that shaped this life
+- Clarification of terms or concepts that modern readers might not know
+
+WHAT TO AVOID:
+- Don't repeat information already clear in the narrative
+- Don't explain obvious or well-known facts
+- Don't add speculative information not grounded in the narrative
+- Don't moralize or add commentary on whether conditions were "good" or "bad"
+
+FORMAT:
+Each note should be 1-3 sentences, written in plain contemporary English. Return as JSON:
+{{
+    "notes": [
+        "First note text here.",
+        "Second note text here.",
+        ...
+    ]
+}}
+
+If no notes are needed (the narrative is self-explanatory), return an empty list."""
+
+# -----------------------------------------------------------------------------
 # Quality Control Prompts
 # -----------------------------------------------------------------------------
 
@@ -475,6 +511,44 @@ def _get_demographic_queries(person):
     ]
 
 
+def reset_to_stage(person, stage):
+    """
+    Reset person to the start of a specific pipeline stage, removing all later-stage data.
+
+    Stages (in order):
+    - 'demographics': Before demographics are generaetd
+    - 'events': Before life events are generated
+    - 'name': Before name is generated
+    - 'narrative': Before narrative is generated
+    - 'notes' : Before notes are generated
+    """
+    person.historical_notes = []
+    if stage in ['demographics', 'events', 'name', 'narrative']:
+        person.narrative = None
+    if stage in ['demographics', 'events', 'name']:
+        person.name = None
+        person.naming_category = None
+    if stage in ['demographics', 'events']:
+        person.events = []
+
+    if stage == 'demographics':
+        person.messages = []
+        person.demographics = {}
+    else:
+        # Stage markers - text that appears at the start of each stage's prompt
+        stage_markers = {
+            'events': 'Based on this person\'s demographics and lifetime, list events',
+            'name': 'Generate 20 possible names',
+            'narrative': 'Write a narrative biography',
+            'notes' : 'Generate 2-4 brief historical notes',
+        }
+    
+        if stage in stage_markers:
+            marker = stage_markers[stage]
+            for i, msg in enumerate(person.messages):
+                if marker in msg.get('content', ''):
+                    person.messages = person.messages[:i]
+    
 # =============================================================================
 # GENERATION FUNCTIONS
 # =============================================================================
@@ -745,6 +819,31 @@ def generate_narrative(person, ctx, extra_prompt=None, replace_prompt=None):
     ctx.log(f"  Generated {len(person.narrative.split())} words")
 
 
+def generate_historical_notes(person, ctx):
+    """
+    Generate historical context notes for the narrative.
+
+    Modifies person in place by setting person.historical_notes.
+    """
+    ctx.log("Generating historical notes...")
+
+    prompt = HISTORICAL_NOTES_PROMPT.format(
+        person_data=person.to_prompt_string(),
+        narrative=person.narrative
+    )
+
+    messages = [{"role": "user", "content": prompt}]
+    result, _ = call_with_retry(ctx, messages)
+
+    if not result or 'notes' not in result:
+        ctx.log("  Failed to generate notes")
+        person.historical_notes = []
+        return
+
+    person.historical_notes = result.get('notes', [])
+    ctx.log(f"  Generated {len(person.historical_notes)} notes")
+
+
 def quality_check(person, ctx):
     """
     Review and revise narrative for issues.
@@ -825,7 +924,11 @@ def run_pipeline(person, model="haiku", quiet=True, show_cost=False):
     generate_narrative(person, ctx)
 
     ctx.log("\n" + "=" * 50)
-    ctx.log("Step 6: Quality check...")
+    ctx.log("Step 6: Generating historical notes...")
+    generate_historical_notes(person, ctx)
+
+    ctx.log("\n" + "=" * 50)
+    ctx.log("Step 7: Quality check...")
     quality_check(person, ctx)
 
     ctx.finish()
