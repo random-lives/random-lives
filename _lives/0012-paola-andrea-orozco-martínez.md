@@ -3,7 +3,7 @@ layout: life
 title: "Paola Andrea Orozco Martínez"
 birth_year: "1990 AD"
 birth_year_numeric: 1990
-death_year: "alive"
+death_year: "present"
 age_at_death: alive
 birth_date: "December 14, 1990 AD"
 location: "Chorjalé, Cabricán, Quetzaltenango, Guatemala"

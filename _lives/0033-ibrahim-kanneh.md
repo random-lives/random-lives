@@ -3,7 +3,7 @@ layout: life
 title: "Ibrahim Kanneh"
 birth_year: "2005 AD"
 birth_year_numeric: 2005
-death_year: "alive"
+death_year: "present"
 age_at_death: alive
 birth_date: "September 28, 2005 AD"
 location: "Foya Tewei, Moyamba District, Sierra Leone"

@@ -3,7 +3,7 @@ layout: life
 title: "Camila Moreno García"
 birth_year: "2021 AD"
 birth_year_numeric: 2021
-death_year: "alive"
+death_year: "present"
 age_at_death: alive
 birth_date: "January 15, 2021 AD"
 location: "La Cruz, Frontera, Coahuila, México"

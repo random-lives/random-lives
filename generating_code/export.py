@@ -147,7 +147,7 @@ def person_to_markdown(person, index):
     filename = f"{index:04d}-{slugify(name)}.md"
 
     # Calculate death year
-    death_year = "alive" if person.age_at_death == "alive" else _format_year(person.death_date[0])
+    death_year = "present" if person.age_at_death == "alive" else _format_year(person.death_date[0])
 
     # Build frontmatter
     frontmatter = f"""---

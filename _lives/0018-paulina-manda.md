@@ -3,7 +3,7 @@ layout: life
 title: "Paulina Manda"
 birth_year: "1975 AD"
 birth_year_numeric: 1975
-death_year: "alive"
+death_year: "present"
 age_at_death: alive
 birth_date: "December 1, 1975 AD"
 location: "Nyasa, Ruvuma, Southern Highlands Zone, Tanzania"

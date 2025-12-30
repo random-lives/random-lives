@@ -3,7 +3,7 @@ layout: life
 title: "Jane Adong"
 birth_year: "1980 AD"
 birth_year_numeric: 1980
-death_year: "alive"
+death_year: "present"
 age_at_death: alive
 birth_date: "March 25, 1980 AD"
 location: "Abilaep, Serere, Uganda"
