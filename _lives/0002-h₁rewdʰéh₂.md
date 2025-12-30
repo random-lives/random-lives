@@ -15,13 +15,12 @@ lifestyle: "Rural"
 era: "Holocene"
 sex: "F"
 historical_notes:
-  - "c. 2300 BC in the Upper Dnieper–Kyiv/Polissia zone, this area lay on the NE periphery of the late Cucuteni–Trypillia horizon as large “mega-sites” declined and smaller, shifting settlements became more common."
-  - "Late Trypillian communities farmed cereals (emmer/einkorn wheat, barley) and kept cattle, pigs, sheep/goats; cattle traction and manure use are widely attested in late 4th–3rd millennium BC farming across the forest-steppe fringe."
-  - "Weaning (often beginning around 6–18 months in many premodern agrarian settings) is a high-risk window for diarrheal disease; contaminated water and thin cereal gruels are common pathways, matching the described late-summer decline."
-  - "Ethnicity/culture: “Late Cucuteni–Trypillia” refers to agrarian villages with characteristic painted pottery traditions and clay architecture across modern Ukraine–Moldova–Romania, with peripheral variants toward the Dnieper."
-  - "Language context: by the late 3rd millennium BC, Indo-European speech associated with steppe-derived groups (e.g., Yamnaya-derived and later forest-steppe complexes) was expanding in the broader Pontic–Caspian region, increasing bilingual contact on Trypillian frontiers."
-  - "Religion/ritual: Trypillian life emphasized household and seasonal agrarian rites—hearth-centered practice, communal feasting, and offerings linked to sowing/harvest and herd fertility—rather than temple institutions."
-  - "Evidence limits (single note): Trypillian communities left no deciphered writing, so personal names are unattested; any individual name here is a modern reconstruction/stand-in rather than a recorded historical name."
+  - "Around 2300 BC, the Malyn area (modern Zhytomyrs'ka Oblast', north-central Ukraine) lay near the fringe where farming villages met more forest-based foraging and herding lifeways."
+  - "Late Trypillia homes were typically timber-framed and plastered with clay; many settlements show repeated house rebuilding, sometimes after deliberate burning."
+  - "Food remains and tools from Late Trypillian sites point to cereals such as emmer and barley plus pulses, with cattle and pigs especially important and sheep/goats present in smaller numbers."
+  - "Infants in Bronze Age farming communities faced very high risk: in many premodern villages, roughly 1 in 4 to 1 in 3 children did not reach age five, and diarrheal illness was a common cause."
+  - "No local writing from this region and time records personal names; any reconstructed name and language label are inferred from later Indo-European linguistics and archaeology."
+  - "Circa 2300 BC, steppe-linked groups and new burial practices (often associated with Yamnaya/Corded Ware traditions) were spreading across parts of eastern Europe, while some Trypillia communities persisted and others broke up or moved."
 
 # Debug information (not displayed on page):
 # Age at death: 0
@@ -88,16 +87,16 @@ historical_notes:
 # - F
 ---
 
-H₁rewdʰéh₂ was born near the end of winter in a Trypillian settlement set among birch and oak. The house was long and wide, its walls packed with clay, its floor hard from feet and ash. Three generations slept and worked under the same roof. The oldest woman lay closest to the clay oven. Before dawn she pulled yesterday’s coals together and set a pot where it would warm.
+H₁rewdʰéh₂ was born near the end of winter in a farming settlement among birch and oak. Her family lived in a clay-plastered house with a hard-packed floor darkened by ash. Three generations shared it. The oldest woman slept nearest the oven. Before dawn she raked last night’s coals together and set a pot at the edge of the heat.
 
-Her mother had carried five girls before her. Two had died before they could walk. The eldest lived here still, married, with a child of her own. Another daughter was grown and kept to the fields from first light. When H₁rewdʰéh₂ came she was small and furious at the cold, her skin mottled from the air.
+Her mother had carried five girls before her. Two were buried before they learned to walk. The eldest stayed in this house, married now, with a small child. Another daughter was grown and left for the plots at first light. When the new baby came she was small and loud with hunger, her skin blotched from the cold air.
 
-Her father stayed with the animals most days, pushing cattle and a few sheep and goats along the forest edge and bringing them back before dark. Dung rose in a heap near the house for fuel and for the plots. Hides hung where smoke could reach them. Inside, the women kept the fire, ground grain on stone, and hauled water in clay jars from the stream.
+Her father spent most days with the animals. He drove the cattle out to the open strip by the forest and kept them moving until afternoon. The pigs rooted near the houses. Goat and sheep were fewer, watched close so they did not slip into the grain. He brought them back before dark. A dung heap sat behind the wall for fuel and for spreading on the fields.
 
-As the weather warmed, the house filled with flies. They moved from the animals to the dung heap and back to the bowls. Water stood uncovered. The rims of the jars stayed wet from hands and mouths.
+Inside, the women kept the fire going, ground grain on stone, and carried water in clay jars from the stream. In warm weather the flies came in thick, settling on the rims of jars and on the porridge when the bowl sat a moment too long. Children drank straight from the vessel. Hands went from animals to food and back again.
 
-By late summer, her mother began to stretch the breast milk with food from the pot. She dipped a finger into thin grain mash and pressed it into the baby’s mouth. After the first feedings, H₁rewdʰéh₂ went hot and slack. She soiled herself again and again until there was nothing left in her but watery stool.
+By late summer her mother began to thin the breast milk with what the pot could spare. She cooled a little grain mash and fed it with her finger. After the first days the baby went hot and limp. The stool ran out of her again and again until it was only water.
 
-Her mother put her back to the breast. She tried to wet the child’s mouth with water from the jar. It spilled down her chin. The lips split and stayed dry. The baby stopped crying, then stopped turning toward touch.
+Her mother put her back to the breast and tried to give her water. It spilled down the baby’s chin. Her mouth dried and cracked. She stopped crying. She stopped turning toward touch.
 
-In the night her breathing slowed. Before morning she lay still beside the oven, while the fire sank and the house listened for a sound that did not come.
+In the night her breathing slowed. Before morning she lay still beside the oven while the fire sank and the house stayed quiet, listening to nothing.

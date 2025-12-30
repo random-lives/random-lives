@@ -400,7 +400,7 @@ ENDING (person has died):
 # Historical Notes Prompts
 # -----------------------------------------------------------------------------
 
-HISTORICAL_NOTES_PROMPT = """Generate 3-6 brief historical notes that provide context for understanding this person's life.
+HISTORICAL_NOTES_PROMPT = """Generate 4-6 brief historical notes that provide context for understanding this person's life.
 
 Person details:
 {person_data}
@@ -409,36 +409,25 @@ Narrative:
 {narrative}
 
 WHAT TO INCLUDE:
+- Demographic facts not obvious from the narrative (language, ethnicity, religion, literacy)
+- Concrete historical context (archaeological sites, dates, statistics, economic figures)
+- Surprising facts an educated reader might not know
+- Comparative context: was this person typical? How did they compare to others?
 
-1. DEMOGRAPHIC FACTS not obvious from the narrative:
-   - Language(s) spoken and their regional context
-   - Ethnic/cultural group and its place in the broader region
-   - Religious demographics if relevant
-   - Literacy rates or educational context if relevant
-
-2. CONCRETE HISTORICAL CONTEXT:
-   - Relevant archaeological sites or historical sources
-   - Specific dates, mortality figures, economic statistics
-   - Surprising facts an educated reader might not know
-   - How this person compares to others in their society
-
-3. CONNECTIONS TO THE NARRATIVE:
-   - Link notes to specific elements of the story where possible
-
-For pre-modern periods, include UP TO ONE note acknowledging limits of knowledge (no written records, name is a placeholder, etc.). Do not repeat caveats across multiple notes.
+For pre-modern periods, UP TO ONE note may acknowledge limits of knowledge.
 
 STYLE:
-- Write like a museum placard or magazine sidebar, not an academic paper
-- Each note should be 1-2 sentences
-- Be direct and concrete
-- Prefer specific facts over general claims
+- 1-2 sentences per note
+- State facts directly; do not justify why the fact is relevant
+- Use plain language, not academic jargon
+- Include specific numbers, dates, and place names where possible
 
 AVOID:
+- Ending notes with "consistent with the narrative" or "matching the story" or similar
+- Academic notation (write "26,000 BC" not "~26 ka")
+- Technical jargon ("rainfed upland rice" → "rain-fed rice farming")
+- Hedging phrases ("cannot be proven," "plausible but not verifiable")
 - Repeating information already clear in the narrative
-- Vague generalizations
-- Phrases like "cannot be proven," "plausible but not verifiable," "evidentiary limits"
-- Parenthetical qualifiers like "(with epistemic caveat)"
-- Notes that are primarily about what we don't know rather than what we do
 
 FORMAT:
 Return as JSON:
@@ -518,23 +507,21 @@ Narrative:
 Current historical notes:
 {notes}
 
-REMOVE notes that:
-- Repeat what's already clear from the narrative
-- Are primarily meta-commentary about documentation rather than actual context
-- Contain vague generalizations instead of concrete facts
-- Use hedging language throughout ("cannot be proven," "plausible but not verifiable")
+REMOVE or REWRITE notes that:
+- End with justifications like "consistent with the narrative," "matching the story," "as described"
+- Use academic jargon or notation ("~26 ka," "settlement patterning," "rainfed upland")
 - Are longer than 2 sentences
+- Repeat what's already clear from the narrative
 
 IMPROVE notes by:
-- Cutting unnecessary words and qualifiers
-- Making vague claims more specific
-- Strengthening connections to the narrative
+- Cutting justification clauses entirely (the note should stand alone as an interesting fact)
+- Converting academic language to plain English
+- Adding specific numbers, dates, or comparisons where missing
 
-CHECK that the notes collectively:
-- Surface key demographic facts (language, ethnicity, religion) not obvious from the narrative
-- Include concrete specifics (dates, figures, archaeological sites, place names)
-- Have at most one note about epistemic limits (for pre-modern periods)
-- Place the person in context (was their experience typical? how do they compare?)
+CHECK that notes collectively include:
+- At least one note with comparative context (typical/atypical, better/worse off than peers)
+- Concrete specifics (dates, figures, place names)
+- At most one epistemic-limits note (for pre-modern periods)
 
 Return as JSON:
 {{
