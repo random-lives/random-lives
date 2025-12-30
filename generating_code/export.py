@@ -89,28 +89,6 @@ COUNTRY_TO_CONTINENT = {
 }
 
 
-def get_era_tag(birth_year):
-    """Convert numeric birth year to era tag string."""
-    if birth_year < -10000:
-        return "Paleolithic (before 10,000 BC)"
-    elif birth_year < -3000:
-        return "Neolithic (10,000–3,000 BC)"
-    elif birth_year < -1000:
-        return "Ancient (3,000–1,000 BC)"
-    elif birth_year < 500:
-        return "Antiquity (1,000 BC–500 AD)"
-    elif birth_year < 1500:
-        return "Medieval (500–1500)"
-    elif birth_year < 1800:
-        return "Early Modern (1500–1800)"
-    elif birth_year < 1900:
-        return "19th Century"
-    elif birth_year < 2000:
-        return "20th Century"
-    else:
-        return "21st Century"
-
-
 def get_age_tag(age_at_death):
     """Convert age at death to age tag string."""
     if age_at_death == "alive":
@@ -132,13 +110,15 @@ def get_continent(country, region=None):
     if country:
         return COUNTRY_TO_CONTINENT.get(country, "Unknown")
     elif region:
-        # Paleolithic regions map directly to continents
+        # Paleolithic regions map to continents
+        # Note: Paleolithic uses underscores (North_America, South_America) and Sahul for Oceania
         region_to_continent = {
             'Africa': 'Africa',
             'Europe': 'Europe',
             'Asia': 'Asia',
-            'Oceania': 'Oceania',
-            'Americas': 'Americas',
+            'Sahul': 'Oceania',
+            'North_America': 'North America',
+            'South_America': 'South America',
         }
         return region_to_continent.get(region, "Unknown")
     return "Unknown"
@@ -174,6 +154,7 @@ def person_to_markdown(person, index):
 layout: life
 title: "{name}"
 birth_year: "{person.birth_year_str}"
+birth_year_numeric: {person.birth_year}
 death_year: "{death_year}"
 age_at_death: {person.age_at_death}
 birth_date: "{_format_date_tuple(person.birth_date)}"
@@ -210,13 +191,11 @@ birth_date: "{_format_date_tuple(person.birth_date)}"
     frontmatter += f'sex: "{person.sex}"\n'
 
     # Add computed tags for filtering
-    era_tag = get_era_tag(person.birth_year)
     age_tag = get_age_tag(person.age_at_death)
     country = person.location.country if person.era == 'Holocene' else None
     region = person.region if person.era == 'Paleolithic' else None
     continent = get_continent(country, region)
 
-    frontmatter += f'era_tag: "{era_tag}"\n'
     frontmatter += f'age_tag: "{age_tag}"\n'
     frontmatter += f'continent: "{continent}"\n'
 

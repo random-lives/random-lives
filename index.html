@@ -14,19 +14,13 @@ title: Home
     <h3>Filter by:</h3>
     <div class="filter-row">
       <label>
-        Era:
-        <select id="filter-era">
-          <option value="">All Eras</option>
-          <option value="Paleolithic (before 10,000 BC)">Paleolithic (before 10,000 BC)</option>
-          <option value="Neolithic (10,000–3,000 BC)">Neolithic (10,000–3,000 BC)</option>
-          <option value="Ancient (3,000–1,000 BC)">Ancient (3,000–1,000 BC)</option>
-          <option value="Antiquity (1,000 BC–500 AD)">Antiquity (1,000 BC–500 AD)</option>
-          <option value="Medieval (500–1500)">Medieval (500–1500)</option>
-          <option value="Early Modern (1500–1800)">Early Modern (1500–1800)</option>
-          <option value="19th Century">19th Century</option>
-          <option value="20th Century">20th Century</option>
-          <option value="21st Century">21st Century</option>
-        </select>
+        Born after:
+        <input type="text" id="filter-year-start" placeholder="e.g. 10000 BC" style="width: 100px;">
+      </label>
+
+      <label>
+        Born before:
+        <input type="text" id="filter-year-end" placeholder="e.g. 500 AD" style="width: 100px;">
       </label>
 
       <label>
@@ -34,7 +28,6 @@ title: Home
         <select id="filter-continent">
           <option value="">All Continents</option>
           <option value="Africa">Africa</option>
-          <option value="Americas">Americas</option>
           <option value="Asia">Asia</option>
           <option value="Europe">Europe</option>
           <option value="North America">North America</option>
@@ -84,7 +77,7 @@ title: Home
     <h2>Lives</h2>
     {% for life in site.lives %}
       <article class="life-preview"
-               data-era="{{ life.era_tag }}"
+               data-birth-year="{{ life.birth_year_numeric }}"
                data-continent="{{ life.continent }}"
                data-age="{{ life.age_tag }}"
                data-sex="{{ life.sex }}"
@@ -106,7 +99,8 @@ title: Home
 <script>
 (function() {
   const filters = {
-    era: document.getElementById('filter-era'),
+    yearStart: document.getElementById('filter-year-start'),
+    yearEnd: document.getElementById('filter-year-end'),
     continent: document.getElementById('filter-continent'),
     age: document.getElementById('filter-age'),
     sex: document.getElementById('filter-sex'),
@@ -119,17 +113,49 @@ title: Home
 
   totalCount.textContent = articles.length;
 
+  // Parse year string like "500 AD", "10000 BC", "1990" into numeric year
+  function parseYear(str) {
+    if (!str || !str.trim()) return null;
+    str = str.trim().toUpperCase();
+
+    // Handle plain numbers (assume AD if positive)
+    const plainNum = parseInt(str, 10);
+    if (!isNaN(plainNum) && str.match(/^-?\d+$/)) {
+      return plainNum;
+    }
+
+    // Handle "X BC" or "X BCE"
+    const bcMatch = str.match(/^(\d+)\s*(BC|BCE)$/i);
+    if (bcMatch) {
+      return -parseInt(bcMatch[1], 10);
+    }
+
+    // Handle "X AD" or "X CE"
+    const adMatch = str.match(/^(\d+)\s*(AD|CE)$/i);
+    if (adMatch) {
+      return parseInt(adMatch[1], 10);
+    }
+
+    return null;
+  }
+
   function applyFilters() {
     let visible = 0;
 
+    const yearStart = parseYear(filters.yearStart.value);
+    const yearEnd = parseYear(filters.yearEnd.value);
+
     articles.forEach(article => {
-      const matchEra = !filters.era.value || article.dataset.era === filters.era.value;
+      const birthYear = parseInt(article.dataset.birthYear, 10);
+
+      const matchYearStart = yearStart === null || birthYear >= yearStart;
+      const matchYearEnd = yearEnd === null || birthYear <= yearEnd;
       const matchContinent = !filters.continent.value || article.dataset.continent === filters.continent.value;
       const matchAge = !filters.age.value || article.dataset.age === filters.age.value;
       const matchSex = !filters.sex.value || article.dataset.sex === filters.sex.value;
       const matchLifestyle = !filters.lifestyle.value || article.dataset.lifestyle === filters.lifestyle.value;
 
-      if (matchEra && matchContinent && matchAge && matchSex && matchLifestyle) {
+      if (matchYearStart && matchYearEnd && matchContinent && matchAge && matchSex && matchLifestyle) {
         article.style.display = '';
         visible++;
       } else {
@@ -145,7 +171,11 @@ title: Home
 
   // Add event listeners
   Object.values(filters).forEach(filter => {
-    filter.addEventListener('change', applyFilters);
+    if (filter.tagName === 'INPUT') {
+      filter.addEventListener('input', applyFilters);
+    } else {
+      filter.addEventListener('change', applyFilters);
+    }
   });
 })();
 </script>
