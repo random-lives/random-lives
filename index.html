@@ -87,7 +87,7 @@ title: Home
                data-country="{{ life.country }}">
         <h3><a href="{{ life.url | relative_url }}">{{ life.title }}</a></h3>
         <div class="meta">
-          <span class="years">{{ life.birth_year }} – {{ life.death_year }}</span>
+          <span class="years">{% if life.birth_year == life.death_year %}{{ life.birth_year }}{% else %}{{ life.birth_year }} – {{ life.death_year }}{% endif %}</span>
           {% if life.region %}<span class="region">{{ life.region }}</span>{% endif %}
           {% if life.country %}<span class="country">{{ life.country }}</span>{% endif %}
           <span class="lifestyle">{{ life.lifestyle }}</span>
@@ -141,6 +141,30 @@ title: Home
     return null;
   }
 
+  // Get birth year for an article (numeric or parsed from string)
+  function getBirthYear(article) {
+    let birthYear = parseInt(article.dataset.birthYear, 10);
+    if (isNaN(birthYear)) {
+      birthYear = parseYear(article.dataset.birthYearStr);
+    }
+    return birthYear;
+  }
+
+  // Sort articles by birth year (oldest first)
+  const livesList = document.querySelector('.lives-list');
+  const articlesArray = Array.from(articles);
+  articlesArray.sort((a, b) => {
+    const yearA = getBirthYear(a);
+    const yearB = getBirthYear(b);
+    // Handle nulls - put them at the end
+    if (yearA === null && yearB === null) return 0;
+    if (yearA === null) return 1;
+    if (yearB === null) return -1;
+    return yearA - yearB;
+  });
+  // Re-append in sorted order
+  articlesArray.forEach(article => livesList.appendChild(article));
+
   function applyFilters() {
     let visible = 0;
 
@@ -148,11 +172,7 @@ title: Home
     const yearEnd = parseYear(filters.yearEnd.value);
 
     articles.forEach(article => {
-      // Try numeric birth year first, fall back to parsing string
-      let birthYear = parseInt(article.dataset.birthYear, 10);
-      if (isNaN(birthYear)) {
-        birthYear = parseYear(article.dataset.birthYearStr);
-      }
+      const birthYear = getBirthYear(article);
 
       const matchYearStart = yearStart === null || birthYear === null || birthYear >= yearStart;
       const matchYearEnd = yearEnd === null || birthYear === null || birthYear <= yearEnd;
