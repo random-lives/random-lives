@@ -104,32 +104,41 @@ nav a:hover {
   border-color: #999;
 }
 
-/* Checkbox filter groups */
-.filter-group {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 10px 15px;
-  background: white;
-}
-
-.filter-group legend {
-  font-size: 0.9rem;
-  color: #555;
-  padding: 0 5px;
-}
-
-.filter-group label {
-  display: inline-flex;
+/* Tag filter groups */
+.filter-tags {
+  display: flex;
   align-items: center;
-  gap: 4px;
-  margin-right: 12px;
-  font-size: 0.85rem;
-  color: #555;
-  cursor: pointer;
+  gap: 6px;
+  flex-wrap: wrap;
 }
 
-.filter-group input[type="checkbox"] {
+.filter-label {
+  font-size: 0.9rem;
+  color: #666;
+  margin-right: 4px;
+}
+
+.tag {
+  padding: 3px 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background: transparent;
+  color: #555;
+  font-size: 0.85rem;
   cursor: pointer;
+  transition: all 0.1s;
+  font-family: inherit;
+}
+
+.tag:hover {
+  border-color: #999;
+  color: #333;
+}
+
+.tag.selected {
+  background: #0066cc;
+  border-color: #0066cc;
+  color: white;
 }
 
 .filter-stats {

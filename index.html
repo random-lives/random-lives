@@ -34,32 +34,34 @@ title: Home
     </div>
 
     <div class="filter-row">
-      <fieldset class="filter-group" id="filter-continent">
-        <legend>Continent:</legend>
-        <label><input type="checkbox" value="Africa"> Africa</label>
-        <label><input type="checkbox" value="Asia"> Asia</label>
-        <label><input type="checkbox" value="Europe"> Europe</label>
-        <label><input type="checkbox" value="North America"> North America</label>
-        <label><input type="checkbox" value="South America"> South America</label>
-        <label><input type="checkbox" value="Oceania"> Oceania</label>
-      </fieldset>
+      <div class="filter-tags" id="filter-continent">
+        <span class="filter-label">Continent:</span>
+        <button type="button" class="tag" data-value="Africa">Africa</button>
+        <button type="button" class="tag" data-value="Asia">Asia</button>
+        <button type="button" class="tag" data-value="Europe">Europe</button>
+        <button type="button" class="tag" data-value="North America">N. America</button>
+        <button type="button" class="tag" data-value="South America">S. America</button>
+        <button type="button" class="tag" data-value="Oceania">Oceania</button>
+      </div>
+    </div>
 
-      <fieldset class="filter-group" id="filter-age">
-        <legend>Age at Death:</legend>
-        <label><input type="checkbox" value="Alive"> Alive</label>
-        <label><input type="checkbox" value="Infant (0–1)"> Infant (0–1)</label>
-        <label><input type="checkbox" value="Child (2–10)"> Child (2–10)</label>
-        <label><input type="checkbox" value="Adolescent (11–18)"> Adolescent (11–18)</label>
-        <label><input type="checkbox" value="Adult (19–49)"> Adult (19–49)</label>
-        <label><input type="checkbox" value="Elder (50+)"> Elder (50+)</label>
-      </fieldset>
+    <div class="filter-row">
+      <div class="filter-tags" id="filter-age">
+        <span class="filter-label">Age:</span>
+        <button type="button" class="tag" data-value="Alive">Alive</button>
+        <button type="button" class="tag" data-value="Infant (0–1)">Infant</button>
+        <button type="button" class="tag" data-value="Child (2–10)">Child</button>
+        <button type="button" class="tag" data-value="Adolescent (11–18)">Adolescent</button>
+        <button type="button" class="tag" data-value="Adult (19–49)">Adult</button>
+        <button type="button" class="tag" data-value="Elder (50+)">Elder</button>
+      </div>
 
-      <fieldset class="filter-group" id="filter-lifestyle">
-        <legend>Lifestyle:</legend>
-        <label><input type="checkbox" value="Hunter-Gatherer"> Hunter-Gatherer</label>
-        <label><input type="checkbox" value="Rural"> Rural</label>
-        <label><input type="checkbox" value="Urban"> Urban</label>
-      </fieldset>
+      <div class="filter-tags" id="filter-lifestyle">
+        <span class="filter-label">Lifestyle:</span>
+        <button type="button" class="tag" data-value="Hunter-Gatherer">Hunter-Gatherer</button>
+        <button type="button" class="tag" data-value="Rural">Rural</button>
+        <button type="button" class="tag" data-value="Urban">Urban</button>
+      </div>
 
       <label>
         Sort by:
@@ -107,17 +109,29 @@ title: Home
     sex: document.getElementById('filter-sex')
   };
 
-  // Checkbox filter groups
-  const checkboxFilters = {
+  // Tag filter groups
+  const tagFilters = {
     continent: document.getElementById('filter-continent'),
     age: document.getElementById('filter-age'),
     lifestyle: document.getElementById('filter-lifestyle')
   };
 
-  // Get selected values from a checkbox group
-  function getCheckedValues(fieldset) {
-    const checkboxes = fieldset.querySelectorAll('input[type="checkbox"]:checked');
-    return Array.from(checkboxes).map(cb => cb.value);
+  // Get selected values from a tag group
+  function getSelectedTags(container) {
+    const selected = container.querySelectorAll('.tag.selected');
+    return Array.from(selected).map(btn => btn.dataset.value);
+  }
+
+  // Toggle tag selection
+  function setupTagFilters() {
+    Object.values(tagFilters).forEach(container => {
+      container.querySelectorAll('.tag').forEach(btn => {
+        btn.addEventListener('click', () => {
+          btn.classList.toggle('selected');
+          applyFilters();
+        });
+      });
+    });
   }
 
   const sortOrder = document.getElementById('sort-order');
@@ -198,10 +212,10 @@ title: Home
     const yearStart = parseYear(filters.yearStart.value);
     const yearEnd = parseYear(filters.yearEnd.value);
 
-    // Get selected checkbox values (empty array means "all")
-    const selectedContinents = getCheckedValues(checkboxFilters.continent);
-    const selectedAges = getCheckedValues(checkboxFilters.age);
-    const selectedLifestyles = getCheckedValues(checkboxFilters.lifestyle);
+    // Get selected tag values (empty array means "all")
+    const selectedContinents = getSelectedTags(tagFilters.continent);
+    const selectedAges = getSelectedTags(tagFilters.age);
+    const selectedLifestyles = getSelectedTags(tagFilters.lifestyle);
 
     articles.forEach(article => {
       const birthYear = parseInt(article.dataset.birthYear, 10);
@@ -236,10 +250,8 @@ title: Home
     }
   });
 
-  // Add event listeners for checkbox filter groups
-  Object.values(checkboxFilters).forEach(fieldset => {
-    fieldset.addEventListener('change', applyFilters);
-  });
+  // Setup tag filter click handlers
+  setupTagFilters();
 
   // Add event listener for sorting
   sortOrder.addEventListener('change', applySorting);
