@@ -34,34 +34,38 @@ title: Home
     </div>
 
     <div class="filter-row">
-      <div class="filter-tags" id="filter-continent">
-        <span class="filter-label">Continent:</span>
-        <button type="button" class="tag" data-value="Africa">Africa</button>
-        <button type="button" class="tag" data-value="Asia">Asia</button>
-        <button type="button" class="tag" data-value="Europe">Europe</button>
-        <button type="button" class="tag" data-value="North America">N. America</button>
-        <button type="button" class="tag" data-value="South America">S. America</button>
-        <button type="button" class="tag" data-value="Oceania">Oceania</button>
-      </div>
-    </div>
+      <label>
+        Continent:
+        <select id="filter-continent" multiple size="6">
+          <option value="Africa">Africa</option>
+          <option value="Asia">Asia</option>
+          <option value="Europe">Europe</option>
+          <option value="North America">North America</option>
+          <option value="South America">South America</option>
+          <option value="Oceania">Oceania</option>
+        </select>
+      </label>
 
-    <div class="filter-row">
-      <div class="filter-tags" id="filter-age">
-        <span class="filter-label">Age:</span>
-        <button type="button" class="tag" data-value="Alive">Alive</button>
-        <button type="button" class="tag" data-value="Infant (0–1)">Infant</button>
-        <button type="button" class="tag" data-value="Child (2–10)">Child</button>
-        <button type="button" class="tag" data-value="Adolescent (11–18)">Adolescent</button>
-        <button type="button" class="tag" data-value="Adult (19–49)">Adult</button>
-        <button type="button" class="tag" data-value="Elder (50+)">Elder</button>
-      </div>
+      <label>
+        Age at Death:
+        <select id="filter-age" multiple size="6">
+          <option value="Alive">Alive</option>
+          <option value="Infant (0–1)">Infant (0–1)</option>
+          <option value="Child (2–10)">Child (2–10)</option>
+          <option value="Adolescent (11–18)">Adolescent (11–18)</option>
+          <option value="Adult (19–49)">Adult (19–49)</option>
+          <option value="Elder (50+)">Elder (50+)</option>
+        </select>
+      </label>
 
-      <div class="filter-tags" id="filter-lifestyle">
-        <span class="filter-label">Lifestyle:</span>
-        <button type="button" class="tag" data-value="Hunter-Gatherer">Hunter-Gatherer</button>
-        <button type="button" class="tag" data-value="Rural">Rural</button>
-        <button type="button" class="tag" data-value="Urban">Urban</button>
-      </div>
+      <label>
+        Lifestyle:
+        <select id="filter-lifestyle" multiple size="3">
+          <option value="Hunter-Gatherer">Hunter-Gatherer</option>
+          <option value="Rural">Rural</option>
+          <option value="Urban">Urban</option>
+        </select>
+      </label>
 
       <label>
         Sort by:
@@ -109,29 +113,16 @@ title: Home
     sex: document.getElementById('filter-sex')
   };
 
-  // Tag filter groups
-  const tagFilters = {
+  // Multi-select filters
+  const multiFilters = {
     continent: document.getElementById('filter-continent'),
     age: document.getElementById('filter-age'),
     lifestyle: document.getElementById('filter-lifestyle')
   };
 
-  // Get selected values from a tag group
-  function getSelectedTags(container) {
-    const selected = container.querySelectorAll('.tag.selected');
-    return Array.from(selected).map(btn => btn.dataset.value);
-  }
-
-  // Toggle tag selection
-  function setupTagFilters() {
-    Object.values(tagFilters).forEach(container => {
-      container.querySelectorAll('.tag').forEach(btn => {
-        btn.addEventListener('click', () => {
-          btn.classList.toggle('selected');
-          applyFilters();
-        });
-      });
-    });
+  // Get selected values from a multi-select
+  function getSelectedValues(select) {
+    return Array.from(select.selectedOptions).map(opt => opt.value);
   }
 
   const sortOrder = document.getElementById('sort-order');
@@ -212,10 +203,10 @@ title: Home
     const yearStart = parseYear(filters.yearStart.value);
     const yearEnd = parseYear(filters.yearEnd.value);
 
-    // Get selected tag values (empty array means "all")
-    const selectedContinents = getSelectedTags(tagFilters.continent);
-    const selectedAges = getSelectedTags(tagFilters.age);
-    const selectedLifestyles = getSelectedTags(tagFilters.lifestyle);
+    // Get selected values (empty array means "all")
+    const selectedContinents = getSelectedValues(multiFilters.continent);
+    const selectedAges = getSelectedValues(multiFilters.age);
+    const selectedLifestyles = getSelectedValues(multiFilters.lifestyle);
 
     articles.forEach(article => {
       const birthYear = parseInt(article.dataset.birthYear, 10);
@@ -250,8 +241,10 @@ title: Home
     }
   });
 
-  // Setup tag filter click handlers
-  setupTagFilters();
+  // Add event listeners for multi-select filters
+  Object.values(multiFilters).forEach(select => {
+    select.addEventListener('change', applyFilters);
+  });
 
   // Add event listener for sorting
   sortOrder.addEventListener('change', applySorting);

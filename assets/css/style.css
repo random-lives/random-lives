@@ -104,40 +104,31 @@ nav a:hover {
   border-color: #999;
 }
 
-/* Tag filter groups */
-.filter-tags {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  flex-wrap: wrap;
-}
-
-.filter-label {
-  font-size: 0.9rem;
-  color: #666;
-  margin-right: 4px;
-}
-
-.tag {
-  padding: 3px 10px;
+/* Multi-select filters */
+.filter-row select[multiple] {
+  padding: 4px;
   border: 1px solid #ccc;
-  border-radius: 3px;
-  background: transparent;
-  color: #555;
-  font-size: 0.85rem;
+  border-radius: 4px;
+  background: white;
+  font-size: 0.9rem;
   cursor: pointer;
-  transition: all 0.1s;
-  font-family: inherit;
 }
 
-.tag:hover {
+.filter-row select[multiple]:hover {
   border-color: #999;
-  color: #333;
 }
 
-.tag.selected {
-  background: #0066cc;
+.filter-row select[multiple]:focus {
   border-color: #0066cc;
+  outline: none;
+}
+
+.filter-row select[multiple] option {
+  padding: 4px 8px;
+}
+
+.filter-row select[multiple] option:checked {
+  background: #0066cc linear-gradient(0deg, #0066cc 0%, #0066cc 100%);
   color: white;
 }
 
