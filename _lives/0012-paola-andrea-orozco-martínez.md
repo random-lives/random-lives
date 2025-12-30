@@ -2,6 +2,7 @@
 layout: life
 title: "Paola Andrea Orozco Martínez"
 birth_year: "1990 AD"
+birth_year_numeric: 1990
 death_year: "alive"
 age_at_death: alive
 birth_date: "December 14, 1990 AD"
@@ -13,7 +14,6 @@ map_url: "https://www.google.com/maps/place/15.07,-91.66/@15.07,-91.66,5z"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "F"
-era_tag: "20th Century"
 age_tag: "Alive"
 continent: "North America"
 

@@ -2,6 +2,7 @@
 layout: life
 title: "Georg"
 birth_year: "1530 AD"
+birth_year_numeric: 1530
 death_year: "1530 AD"
 age_at_death: 0
 birth_date: "February 5, 1530 AD"
@@ -14,7 +15,6 @@ map_url: "https://www.google.com/maps/place/46.81,11.71/@46.81,11.71,5z"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "M"
-era_tag: "Early Modern (1500–1800)"
 age_tag: "Infant (0–1)"
 continent: "Europe"
 

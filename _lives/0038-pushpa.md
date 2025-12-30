@@ -2,6 +2,7 @@
 layout: life
 title: "Pushpa"
 birth_year: "1936 AD"
+birth_year_numeric: 1936
 death_year: "1937 AD"
 age_at_death: 0
 birth_date: "August 19, 1936 AD"
@@ -14,7 +15,6 @@ map_url: "https://www.google.com/maps/place/26.15,81.19/@26.15,81.19,5z"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "F"
-era_tag: "20th Century"
 age_tag: "Infant (0–1)"
 continent: "Asia"
 

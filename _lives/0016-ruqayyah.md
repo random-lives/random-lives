@@ -2,6 +2,7 @@
 layout: life
 title: "Ruqayyah"
 birth_year: "1442 AD"
+birth_year_numeric: 1442
 death_year: "1453 AD"
 age_at_death: 11
 birth_date: "March 2, 1442 AD"
@@ -14,7 +15,6 @@ map_url: "https://www.google.com/maps/place/25.57,39.12/@25.57,39.12,5z"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "F"
-era_tag: "Medieval (500–1500)"
 age_tag: "Adolescent (11–18)"
 continent: "Asia"
 

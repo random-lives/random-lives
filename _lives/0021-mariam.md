@@ -2,6 +2,7 @@
 layout: life
 title: "Mariam"
 birth_year: "1779 AD"
+birth_year_numeric: 1779
 death_year: "1795 AD"
 age_at_death: 15
 birth_date: "March 30, 1779 AD"
@@ -14,7 +15,6 @@ map_url: "https://www.google.com/maps/place/24.82,88.02/@24.82,88.02,5z"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "F"
-era_tag: "Early Modern (1500–1800)"
 age_tag: "Adolescent (11–18)"
 continent: "Asia"
 

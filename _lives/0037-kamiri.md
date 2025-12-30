@@ -2,6 +2,7 @@
 layout: life
 title: "Kamiri"
 birth_year: "365 BC"
+birth_year_numeric: -364
 death_year: "364 BC"
 age_at_death: 0
 birth_date: "May 7, 365 BC"
@@ -14,7 +15,6 @@ map_url: "https://www.google.com/maps/place/-15.83,-45.01/@-15.83,-45.01,5z"
 lifestyle: "Hunter-Gatherer"
 era: "Holocene"
 sex: "M"
-era_tag: "Antiquity (1,000 BC–500 AD)"
 age_tag: "Infant (0–1)"
 continent: "South America"
 

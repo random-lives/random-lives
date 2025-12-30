@@ -2,6 +2,7 @@
 layout: life
 title: "Shah Jahan"
 birth_year: "1688 AD"
+birth_year_numeric: 1688
 death_year: "1689 AD"
 age_at_death: 0
 birth_date: "October 16, 1688 AD"
@@ -14,7 +15,6 @@ map_url: "https://www.google.com/maps/place/22.32,91.68/@22.32,91.68,5z"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "M"
-era_tag: "Early Modern (1500–1800)"
 age_tag: "Infant (0–1)"
 continent: "Asia"
 

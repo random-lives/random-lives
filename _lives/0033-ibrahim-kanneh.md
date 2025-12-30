@@ -2,6 +2,7 @@
 layout: life
 title: "Ibrahim Kanneh"
 birth_year: "2005 AD"
+birth_year_numeric: 2005
 death_year: "alive"
 age_at_death: alive
 birth_date: "September 28, 2005 AD"
@@ -13,7 +14,6 @@ map_url: "https://www.google.com/maps/place/7.99,-12.19/@7.99,-12.19,5z"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "M"
-era_tag: "21st Century"
 age_tag: "Alive"
 continent: "Africa"
 

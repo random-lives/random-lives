@@ -2,6 +2,7 @@
 layout: life
 title: "Paulina Manda"
 birth_year: "1975 AD"
+birth_year_numeric: 1975
 death_year: "alive"
 age_at_death: alive
 birth_date: "December 1, 1975 AD"
@@ -13,7 +14,6 @@ map_url: "https://www.google.com/maps/place/-11.17,35.04/@-11.17,35.04,5z"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "F"
-era_tag: "20th Century"
 age_tag: "Alive"
 continent: "Africa"
 

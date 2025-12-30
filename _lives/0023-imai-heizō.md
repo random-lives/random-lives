@@ -2,6 +2,7 @@
 layout: life
 title: "Imai Heizō"
 birth_year: "1762 AD"
+birth_year_numeric: 1762
 death_year: "1841 AD"
 age_at_death: 79
 birth_date: "May 30, 1762 AD"
@@ -14,7 +15,6 @@ map_url: "https://www.google.com/maps/place/36.4,140.08/@36.4,140.08,5z"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "M"
-era_tag: "Early Modern (1500–1800)"
 age_tag: "Elder (50+)"
 continent: "Asia"
 

@@ -2,6 +2,7 @@
 layout: life
 title: "Titus Valerius Primus"
 birth_year: "141 AD"
+birth_year_numeric: 141
 death_year: "179 AD"
 age_at_death: 37
 birth_date: "December 15, 141 AD"
@@ -14,7 +15,6 @@ map_url: "https://www.google.com/maps/place/48.64,-1.7/@48.64,-1.7,5z"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "M"
-era_tag: "Antiquity (1,000 BC–500 AD)"
 age_tag: "Adult (19–49)"
 continent: "Europe"
 

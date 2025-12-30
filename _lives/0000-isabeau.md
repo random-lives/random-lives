@@ -2,6 +2,7 @@
 layout: life
 title: "Isabeau"
 birth_year: "1609 AD"
+birth_year_numeric: 1609
 death_year: "1609 AD"
 age_at_death: 0
 birth_date: "March 31, 1609 AD"
@@ -14,7 +15,6 @@ map_url: "https://www.google.com/maps/place/46.39,1.05/@46.39,1.05,5z"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "F"
-era_tag: "Early Modern (1500–1800)"
 age_tag: "Infant (0–1)"
 continent: "Europe"
 

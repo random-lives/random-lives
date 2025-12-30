@@ -2,6 +2,7 @@
 layout: life
 title: "Theresa Walsh"
 birth_year: "1913 AD"
+birth_year_numeric: 1913
 death_year: "1990 AD"
 age_at_death: 76
 birth_date: "October 11, 1913 AD"
@@ -14,7 +15,6 @@ map_url: "https://www.google.com/maps/place/40.39,-74.25/@40.39,-74.25,5z"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "F"
-era_tag: "20th Century"
 age_tag: "Elder (50+)"
 continent: "North America"
 

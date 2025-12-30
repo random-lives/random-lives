@@ -2,6 +2,7 @@
 layout: life
 title: "Samaku"
 birth_year: "26360 BC"
+birth_year_numeric: -26359
 death_year: "26301 BC"
 age_at_death: 58
 birth_date: "November 12, 26360 BC"
@@ -11,7 +12,6 @@ subsubregion: "Nile Valley (Egypt–Sudan corridor)"
 lifestyle: "Hunter-Gatherer"
 era: "Paleolithic"
 sex: "F"
-era_tag: "Paleolithic (before 10,000 BC)"
 age_tag: "Elder (50+)"
 continent: "Africa"
 

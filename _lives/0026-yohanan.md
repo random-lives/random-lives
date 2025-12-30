@@ -2,6 +2,7 @@
 layout: life
 title: "Yohanan"
 birth_year: "135 AD"
+birth_year_numeric: 135
 death_year: "135 AD"
 age_at_death: 0
 birth_date: "May 27, 135 AD"
@@ -14,7 +15,6 @@ map_url: "https://www.google.com/maps/place/35.73,36.46/@35.73,36.46,5z"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "M"
-era_tag: "Antiquity (1,000 BC–500 AD)"
 age_tag: "Infant (0–1)"
 continent: "Asia"
 

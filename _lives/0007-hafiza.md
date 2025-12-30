@@ -2,6 +2,7 @@
 layout: life
 title: "Hafiza"
 birth_year: "1793 AD"
+birth_year_numeric: 1793
 death_year: "1798 AD"
 age_at_death: 4
 birth_date: "September 16, 1793 AD"
@@ -14,7 +15,6 @@ map_url: "https://www.google.com/maps/place/24.82,89.43/@24.82,89.43,5z"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "F"
-era_tag: "Early Modern (1500–1800)"
 age_tag: "Child (2–10)"
 continent: "Asia"
 

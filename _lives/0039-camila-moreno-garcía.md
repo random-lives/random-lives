@@ -2,6 +2,7 @@
 layout: life
 title: "Camila Moreno García"
 birth_year: "2021 AD"
+birth_year_numeric: 2021
 death_year: "alive"
 age_at_death: alive
 birth_date: "January 15, 2021 AD"
@@ -13,7 +14,6 @@ map_url: "https://www.google.com/maps/place/26.98,-101.49/@26.98,-101.49,5z"
 lifestyle: "Urban"
 era: "Holocene"
 sex: "F"
-era_tag: "21st Century"
 age_tag: "Alive"
 continent: "North America"
 

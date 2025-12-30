@@ -2,6 +2,7 @@
 layout: life
 title: "Srinivasa"
 birth_year: "1516 AD"
+birth_year_numeric: 1516
 death_year: "1519 AD"
 age_at_death: 2
 birth_date: "October 26, 1516 AD"
@@ -14,7 +15,6 @@ map_url: "https://www.google.com/maps/place/12.82,79.69/@12.82,79.69,5z"
 lifestyle: "Urban"
 era: "Holocene"
 sex: "M"
-era_tag: "Early Modern (1500–1800)"
 age_tag: "Child (2–10)"
 continent: "Asia"
 

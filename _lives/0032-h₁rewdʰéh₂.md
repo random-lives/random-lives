@@ -2,6 +2,7 @@
 layout: life
 title: "H₁rewdʰéh₂"
 birth_year: "2296 BC"
+birth_year_numeric: -2295
 death_year: "2296 BC"
 age_at_death: 0
 birth_date: "February 14, 2296 BC"
@@ -14,7 +15,6 @@ map_url: "https://www.google.com/maps/place/50.81,29.21/@50.81,29.21,5z"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "F"
-era_tag: "Ancient (3,000–1,000 BC)"
 age_tag: "Infant (0–1)"
 continent: "Europe"
 

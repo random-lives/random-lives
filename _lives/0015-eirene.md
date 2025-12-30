@@ -2,6 +2,7 @@
 layout: life
 title: "Eirene"
 birth_year: "927 AD"
+birth_year_numeric: 927
 death_year: "929 AD"
 age_at_death: 2
 birth_date: "February 23, 927 AD"
@@ -14,7 +15,6 @@ map_url: "https://www.google.com/maps/place/30.32,30.79/@30.32,30.79,5z"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "F"
-era_tag: "Medieval (500–1500)"
 age_tag: "Child (2–10)"
 continent: "Africa"
 

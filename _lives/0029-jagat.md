@@ -2,6 +2,7 @@
 layout: life
 title: "Jagat"
 birth_year: "1444 AD"
+birth_year_numeric: 1444
 death_year: "1488 AD"
 age_at_death: 43
 birth_date: "December 21, 1444 AD"
@@ -14,7 +15,6 @@ map_url: "https://www.google.com/maps/place/25.57,88.27/@25.57,88.27,5z"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "M"
-era_tag: "Medieval (500–1500)"
 age_tag: "Adult (19–49)"
 continent: "Asia"
 

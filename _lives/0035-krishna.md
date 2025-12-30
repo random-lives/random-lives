@@ -2,6 +2,7 @@
 layout: life
 title: "Krishna"
 birth_year: "1255 AD"
+birth_year_numeric: 1255
 death_year: "1298 AD"
 age_at_death: 43
 birth_date: "June 10, 1255 AD"
@@ -14,7 +15,6 @@ map_url: "https://www.google.com/maps/place/26.57,91.1/@26.57,91.1,5z"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "M"
-era_tag: "Medieval (500–1500)"
 age_tag: "Adult (19–49)"
 continent: "Asia"
 

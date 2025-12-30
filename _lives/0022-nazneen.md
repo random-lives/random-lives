@@ -2,6 +2,7 @@
 layout: life
 title: "Nazneen"
 birth_year: "1962 AD"
+birth_year_numeric: 1962
 death_year: "1967 AD"
 age_at_death: 4
 birth_date: "September 17, 1962 AD"
@@ -14,7 +15,6 @@ map_url: "https://www.google.com/maps/place/26.15,85.69/@26.15,85.69,5z"
 lifestyle: "Urban"
 era: "Holocene"
 sex: "F"
-era_tag: "20th Century"
 age_tag: "Child (2–10)"
 continent: "Asia"
 

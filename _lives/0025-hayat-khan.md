@@ -2,6 +2,7 @@
 layout: life
 title: "Hayat Khan"
 birth_year: "1572 AD"
+birth_year_numeric: 1572
 death_year: "1645 AD"
 age_at_death: 72
 birth_date: "July 5, 1572 AD"
@@ -14,7 +15,6 @@ map_url: "https://www.google.com/maps/place/28.4,69.28/@28.4,69.28,5z"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "M"
-era_tag: "Early Modern (1500–1800)"
 age_tag: "Elder (50+)"
 continent: "Asia"
 

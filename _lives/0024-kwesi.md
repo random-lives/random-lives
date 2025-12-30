@@ -2,6 +2,7 @@
 layout: life
 title: "Kwesi"
 birth_year: "1528 AD"
+birth_year_numeric: 1528
 death_year: "1571 AD"
 age_at_death: 42
 birth_date: "December 7, 1528 AD"
@@ -14,7 +15,6 @@ map_url: "https://www.google.com/maps/place/5.41,-3.95/@5.41,-3.95,5z"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "M"
-era_tag: "Early Modern (1500–1800)"
 age_tag: "Adult (19–49)"
 continent: "Africa"
 
