@@ -397,39 +397,6 @@ ENDING (person has died):
 """
 
 # -----------------------------------------------------------------------------
-# Historical Notes Prompts
-# -----------------------------------------------------------------------------
-
-HISTORICAL_NOTES_PROMPT = """Generate 10-15 candidate historical notes that could provide context for this person's life. Generate more than needed—the best will be selected later.
-
-Person details:
-{person_data}
-
-Narrative:
-{narrative}
-
-AIM FOR VARIETY. Include candidates from each category:
-- Surprising facts an educated reader probably doesn't know
-- Specific archaeological sites, dates, or statistics relevant to this time/place
-- Comparative context: how does this person compare to others in their society?
-- Economic context: income, prices, costs of living
-- Demographic facts not in the narrative (language, ethnicity, religion)
-- What we can and cannot know about this period (limit to 1-2 candidates)
-
-PRIORITIZE:
-- Facts that would make someone say "I didn't know that"
-- Specific numbers, dates, place names
-- Connections between the narrative and broader historical patterns
-
-Keep each note to 1-2 sentences. Use plain language.
-
-FORMAT:
-Return as JSON:
-{{
-    "notes": ["First note.", "Second note.", ...]
-}}"""
-
-# -----------------------------------------------------------------------------
 # Quality Control Prompts
 # -----------------------------------------------------------------------------
 
@@ -490,42 +457,6 @@ Check for:
 """
 }
 
-HISTORICAL_NOTES_QC_PROMPT = """Select the 4-6 best historical notes from these candidates and arrange them in a logical order.
-
-Person details:
-{person_data}
-
-Narrative:
-{narrative}
-
-Candidate notes:
-{notes}
-
-SELECTION CRITERIA - prefer notes that:
-- Would make an educated reader say "I didn't know that"
-- Have specific numbers, dates, or place names
-- Add context not obvious from the narrative itself
-- Place this person in comparative context (typical/atypical, better/worse off)
-
-REJECT notes that:
-- State obvious or easily guessed facts
-- Repeat information clear from the narrative
-- Are generic descriptions that could apply to many times/places
-- End with "consistent with the narrative" or similar justifications
-
-EDITING:
-- Cut any justification clauses ("as seen in the narrative," "which explains...")
-- Convert academic jargon to plain English
-- Keep at most ONE note about limits of historical knowledge
-
-Return the 4-6 best notes, edited and ordered logically.
-
-Return as JSON:
-{{
-    "selection_reasoning": "Brief explanation of which notes were best and why",
-    "revised_notes": ["note 1", "note 2", ...]
-}}"""
-
 SELECTION_TEXT = "The random number generator selected for this person: "
 
 
@@ -549,13 +480,11 @@ def reset_to_stage(person, stage):
     Reset person to the start of a specific pipeline stage, removing all later-stage data.
 
     Stages (in order):
-    - 'demographics': Before demographics are generaetd
+    - 'demographics': Before demographics are generated
     - 'events': Before life events are generated
     - 'name': Before name is generated
     - 'narrative': Before narrative is generated
-    - 'notes' : Before notes are generated
     """
-    person.historical_notes = []
     if stage in ['demographics', 'events', 'name', 'narrative']:
         person.narrative = None
     if stage in ['demographics', 'events', 'name']:
@@ -573,9 +502,8 @@ def reset_to_stage(person, stage):
             'events': 'Based on this person\'s demographics and lifetime, list events',
             'name': 'Generate 20 possible names',
             'narrative': 'Write a narrative biography',
-            'notes' : 'Generate 2-4 brief historical notes',
         }
-    
+
         if stage in stage_markers:
             marker = stage_markers[stage]
             for i, msg in enumerate(person.messages):
@@ -852,41 +780,13 @@ def generate_narrative(person, ctx, extra_prompt=None, replace_prompt=None):
     ctx.log(f"  Generated {len(person.narrative.split())} words")
 
 
-def generate_historical_notes(person, ctx):
-    """
-    Generate historical context notes for the narrative.
-
-    Modifies person in place by setting person.historical_notes.
-    """
-    ctx.log("Generating historical notes...")
-
-    prompt = HISTORICAL_NOTES_PROMPT.format(
-        person_data=person.to_prompt_string(),
-        narrative=person.narrative
-    )
-
-    messages = [{"role": "user", "content": prompt}]
-    result, _ = call_with_retry(ctx, messages)
-
-    if not result or 'notes' not in result:
-        ctx.log("  Failed to generate notes")
-        person.historical_notes = []
-        return
-
-    person.historical_notes = result.get('notes', [])
-    ctx.log(f"  Generated {len(person.historical_notes)} notes")
-
-
 def quality_check(person, ctx):
     """
-    Review and revise narrative and historical notes for issues.
+    Review and revise narrative for issues.
 
     Modifies person in place.
-    Returns issues_found dict with 'narrative' and 'notes' keys.
+    Returns list of issues found.
     """
-    all_issues = {'narrative': [], 'notes': []}
-
-    # QC narrative
     qc_prompt = QC_CHECKS_ERA[person.era] + QC_PROMPT_BASE.format(
         person_data=person.to_prompt_string(), narrative=person.narrative
     )
@@ -897,43 +797,15 @@ def quality_check(person, ctx):
     result, _ = call_with_retry(ctx, messages)
 
     if result:
-        narrative_issues = result.get('issues_found', [])
+        issues = result.get('issues_found', [])
         person.narrative = result.get('revised_narrative', person.narrative)
-        all_issues['narrative'] = narrative_issues
 
-        count = len(narrative_issues) if isinstance(narrative_issues, list) else sum(len(v) for v in narrative_issues.values() if isinstance(v, list))
-        ctx.log(f"  Fixed {count} narrative issues")
+        count = len(issues) if isinstance(issues, list) else sum(len(v) for v in issues.values() if isinstance(v, list))
+        ctx.log(f"  Fixed {count} issues")
+        return issues
     else:
-        ctx.log("  Narrative QC failed, keeping original")
-
-    # QC historical notes if they exist
-    if person.historical_notes:
-        ctx.log("Running quality check on historical notes...")
-
-        notes_qc_prompt = HISTORICAL_NOTES_QC_PROMPT.format(
-            person_data=person.to_prompt_string(),
-            narrative=person.narrative,
-            notes='\n'.join(f'{i+1}. {note}' for i, note in enumerate(person.historical_notes))
-        )
-
-        messages = [{"role": "user", "content": notes_qc_prompt}]
-        notes_result, _ = call_with_retry(ctx, messages)
-
-        if notes_result:
-            notes_issues = notes_result.get('issues_found', [])
-            revised_notes = notes_result.get('revised_notes', person.historical_notes)
-
-            # Only update if we got valid revised notes
-            if revised_notes and isinstance(revised_notes, list):
-                person.historical_notes = revised_notes
-                all_issues['notes'] = notes_issues
-
-                notes_count = len(notes_issues) if isinstance(notes_issues, list) else 0
-                ctx.log(f"  Fixed {notes_count} note issues, {len(person.historical_notes)} notes remain")
-        else:
-            ctx.log("  Notes QC failed, keeping original")
-
-    return all_issues
+        ctx.log("  QC failed, keeping original")
+        return []
 
 
 # =============================================================================
@@ -987,11 +859,7 @@ def run_pipeline(person, model="haiku", quiet=True, show_cost=False):
     generate_narrative(person, ctx)
 
     ctx.log("\n" + "=" * 50)
-    ctx.log("Step 6: Generating historical notes...")
-    generate_historical_notes(person, ctx)
-
-    ctx.log("\n" + "=" * 50)
-    ctx.log("Step 7: Quality check...")
+    ctx.log("Step 6: Quality check...")
     quality_check(person, ctx)
 
     ctx.finish()
@@ -1015,7 +883,7 @@ def generate_person(model="haiku", quiet=True, show_cost=False):
 
 
 def generate_batch(n=10, model="haiku", quiet=True, show_cost=False):
-    """Generate a batch of people with narratives."""
+    """Generate a batch of people with narratives (sequential)."""
     from tqdm import tqdm
 
     results = []
@@ -1030,4 +898,44 @@ def generate_batch(n=10, model="haiku", quiet=True, show_cost=False):
             if not quiet:
                 print(f"  {i+1}: Error - {e}")
 
+    return results
+
+
+def generate_batch_parallel(n=10, model="haiku", workers=5):
+    """Generate a batch of people with narratives in parallel.
+
+    Args:
+        n: Number of people to generate
+        model: LLM model to use
+        workers: Number of parallel workers (default 5)
+
+    Returns:
+        List of Person objects (successful generations only)
+    """
+    from concurrent.futures import ThreadPoolExecutor
+    from tqdm import tqdm
+
+    # Pre-sample all people to ensure data is loaded before threading
+    print(f"Sampling {n} people...")
+    people = [sample_person() for _ in range(n)]
+
+    def generate_one(person):
+        try:
+            run_pipeline(person, model=model, quiet=True)
+            return person
+        except Exception as e:
+            print(f"  Failed: {person.era}, {person.birth_year_str} - {e}")
+            return None
+
+    print(f"Generating {n} people with {workers} parallel workers...")
+
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        results = list(tqdm(executor.map(generate_one, people), total=n))
+
+    results = [p for p in results if p is not None]
+    failed = n - len(results)
+    if failed > 0:
+        print(f"Done: {len(results)} generated, {failed} failed")
+    else:
+        print(f"Done: {len(results)} generated")
     return results

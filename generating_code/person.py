@@ -138,7 +138,6 @@ class Person:
         self.demographics = {}
         self.events = []
         self.narrative = None
-        self.historical_notes = []  # Context notes generated after narrative
         self.messages = []  # LLM conversation history
         self.name = None
         self.naming_category = None  # 'attested', 'inferable', 'unrecoverable', or 'unnamed'
