@@ -15,10 +15,12 @@ lifestyle: "Hunter-Gatherer"
 era: "Holocene"
 sex: "M"
 historical_notes:
-  - "Around 365–364 BC, the interior of what is now Minas Gerais was occupied by small, mobile foraging communities; there were no cities, states, or written records, so what is known comes from archaeology, ecology, and later Indigenous continuities."
-  - "The Cerrado has strong wet–dry seasonality, and many groups organized movement and work around it—concentrating near reliable water in the dry months and timing hunting, gathering, and visits between camps to seasonal resource peaks."
-  - "Prestige in many low-density foraging societies was tied to provisioning and reciprocity: skilled hunters gained influence through how meat was shared, while exchange visits helped maintain alliances, information flow, and access to scarce materials like quality stone for tools."
-  - "High infant mortality was common in pre-modern settings, and diarrheal and respiratory infections were especially dangerous for infants because dehydration and secondary infections can become fatal quickly without effective rehydration and antibiotics."
+  - "For 365–364 BC in the interior/lowlands of Brazil (including northern Minas Gerais), there are no contemporary written records; any reconstruction for a person like “Kamiri” must rely on archaeology, paleoecology, and later comparative linguistics rather than dated chronicles or named historical individuals."
+  - "The ethnicity/language fields (“Tupian-affiliated interior peoples,” “Tupian/Tupi-related”) are not securely datable to a specific century at this location: while Tupian diversification and a likely southwestern Amazonian homeland are argued from comparative linguistics, the timing/routes of expansion into central/eastern Brazil (including Minas Gerais) remain debated, so this label should be treated as a tentative inference rather than a fixed identification."
+  - "The stated birthplace (≈ −15.83, −45.01; modern northern Minas Gerais, Brazil) lies in the cerrado with strong wet–dry seasonality, which fits the narrative’s seasonal shift (dry-season cooling/browning grass; later rains and river rise) and a mobility pattern focused on water sources and dispersed resource patches typical of savanna foraging landscapes documented archaeologically in central Brazil."
+  - "Cause of death as an “infectious disease” (diarrheal illness and/or respiratory infection leading to dehydration/sepsis) is plausible for an infant in a small foraging camp without sanitation or antibiotics, but the specific pathogen cannot be identified from narrative detail alone and would only be testable with exceptional bioarchaeological preservation."
+  - "The described birth/death-linked communal song/dance rite and naming event should be treated as an analogy-based reconstruction: such ceremonies are well attested ethnographically in parts of Indigenous South America, but the specific songs, roles (e.g., headman/ritual specialists), and meanings for 4th-century-BC interior Minas Gerais cannot be directly verified without clear ritual/burial context."
+  - "The personal name “Kamiri” and detailed household prestige/kin-role claims (e.g., ‘close to headman/leading kin,’ specific parental specializations) are not recoverable from archaeology for an infant unless an unusually informative burial context exists; they function best as narrative placeholders rather than empirically established facts."
 
 # Debug information (not displayed on page):
 # Age at death: 0
@@ -76,14 +78,14 @@ historical_notes:
 # - F
 ---
 
-Kamiri was born at the start of the dry season, when the grass in the cerrado faded and the nights cooled on the higher ground above the river bends. His family camped on a low rise near scattered trees in the interior of what is now northern Minas Gerais. Their lives ran along footpaths between waterholes, hunting grounds, and the outcrops where they took stone for points.
+Kamiri was born as the dry season set in. The grass browned, and the nights cooled on the higher ground above the river bends. His family camped on a low rise near scattered trees. Footpaths linked their shelter to waterholes, hunting places, and the rock outcrops where his father shaped stone into points.
 
-His father hunted with other men, not alone. When they brought in meat—deer, armadillo, and sometimes a larger animal pushed toward waiting spears—everyone watched the butchering and the division. His father’s hands were quick and exact. He took the best cuts last. People noticed.
+His father hunted with other men. They moved out before first light and came back with deer, armadillo, and, when the drive went well, a larger animal forced toward waiting spears. Butchering happened in full view. The cuts were counted out and carried off. His father kept his hands quick and his face flat. He took his share last, and he watched who looked away and who didn’t.
 
-His mother kept ties between camps. She traveled with other women and carried bundles meant for exchange: smoked meat, cordage, pigment, and small tools. She also carried the memory of two dead children. Her first had died soon after birth. Her second had lived through one rainy season and died before she could walk far.
+His mother kept the camp’s ties from thinning. She walked to nearby groups with other women, carrying wrapped bundles. She returned with new cord, red pigment for marking skin and tools, and favors owed. She spoke little about the two children she had already buried. Everyone knew the order of it: one who died right after birth, and one who lived through a rainy season and failed when she began to follow people on her own feet.
 
-Kamiri still received a name. At dusk the camp gathered in a broad ring. Feet struck the ground in time. Voices rose and fell in the songs used for births and mourning. His mother held him tight against her ribs while others danced around them.
+Kamiri was named soon after he came. At dusk the camp made a ring. People stamped in time and sang the songs used for births and for the dead, because the two sat close together. His mother held him tight against her ribs. His father stood at the edge with the other men, listening, letting the sound carry the moment for him.
 
-Rains returned months later. The river filled and the air stayed warm through the night. Then Kamiri’s stools turned watery and frequent. Fever came after. He nursed in short pulls and pushed away. His mother tried to keep him at her breast and carried him everywhere, even when she went to fetch water. Within days he stopped lifting his head.
+When the rains returned, the river rose and the ground stayed damp. Kamiri’s stools turned thin and frequent. He cried without strength. He nursed in short pulls and then pushed away. His mother kept him against her skin and took him with her when she went for water. She tried to feed him again and again, even as his mouth went slack.
 
-He died before his first year was done. At first light his mother sat with him until his body went slack and heavy. The camp fell quiet. The hunters moved out early, following tracks along the damp ground, because the others still had to eat.
+Within days he stopped lifting his head. At first light she sat with him until his body went heavy in her arms. The camp quieted and made space around her. The hunters left early anyway, following tracks along wet ground, because meat still had to come back before night.

@@ -15,10 +15,12 @@ lifestyle: "Rural"
 era: "Holocene"
 sex: "F"
 historical_notes:
-  - "The Late Cucuteni–Trypillia (Late Trypillian) communities of this era were settled farmers in the forest-steppe and mixed-forest zones of what is now central and northern Ukraine, living in timber-and-clay houses and cultivating cereals while keeping cattle, sheep/goats, and pigs."
-  - "By the late 3rd millennium BC, the northeastern edge of the Trypillian world lay close to steppe and forest-steppe groups; regular contact along river routes encouraged exchange (including livestock and prestige goods like amber) and the spread of early Indo-European speech forms and loanwords."
-  - "Households were often multi-generational and labor-sharing, with childcare, food processing, and fieldwork coordinated across related adults; this made seasonal agricultural work and animal herding possible even when some members were very young or elderly."
-  - "“Sowing/harvest feasts” and field-edge offerings reflect common prehistoric farming religion in the region: community rituals tied to seasonal cycles, fertility, and reciprocity with local sacred places rather than formal temples or written doctrines."
+  - "Around 2300 BC in the Upper Dnieper–Kyiv area (modern northern Ukraine, incl. Zhytomyrs’ka Oblast’), communities often classed as Late Cucuteni–Trypillia were in a late/peripheral phase: settlements tend to be smaller and more dispersed than the earlier Trypillian mega-sites farther southwest, with material indications of increased steppe/forest-steppe interaction."
+  - "Language: labeling her speech as “Indo-European” is a high-level reconstruction for a forest–steppe contact zone; for this place and date we cannot identify a specific daughter branch or recover any direct linguistic forms, and any vernacular assignment remains uncertain."
+  - "Religion/ritual: no direct textual evidence exists; attributing “fertility/seasonal agricultural rites” is an inference from farming lifeways and comparative patterns, and should be treated as a plausible model rather than a documented belief system for a named individual."
+  - "Name: “H₁rewdʰéh₂” is a reconstructed Proto-Indo-European-style placeholder, not an attested personal name; for Late Trypillian communities in this region we do not know individuals’ names, only that any specific naming practice is unrecoverable archaeologically."
+  - "Economy/household work: Late Trypillian peripheral sites in northern/eastern zones commonly show mixed farming and animal husbandry (cattle with sheep/goat and pigs) in faunal assemblages; this supports the story’s division of labor (routine herding near forest edges alongside crop cultivation) as contextually plausible, though not provable for one household."
+  - "Infant death: very high mortality in the first years of life is consistent with prehistoric farming settlements; the narrative’s weaning gruel + standing water + flies aligns with mechanisms that can cause acute gastrointestinal infection and fatal dehydration, but the specific diagnosis (“diarrheal disease”) cannot be confirmed for an individual case without direct bioarchaeological evidence."
 
 # Debug information (not displayed on page):
 # Age at death: 0
@@ -85,12 +87,14 @@ historical_notes:
 # - F
 ---
 
-H₁rewdʰéh₂ was born near the end of winter in a Trypillian settlement in the mixed forest, where people kept fields in clearings among birch and oak and the ground stayed dark and wet into spring. Her household held three generations. The oldest woman slept beside the clay oven. She rose first, pulled yesterday’s coals forward, and set a pot on the heat.
+H₁rewdʰéh₂ was born near the end of winter in a Trypillian settlement in the mixed forest. Fields lay in clearings among birch and oak, and the soil stayed dark and wet into spring. Three generations lived in one long house. The oldest woman slept near the clay oven. She rose first, raked yesterday’s coals forward, and set a pot close to the heat.
 
-H₁rewdʰéh₂’s mother had already borne five girls. Two had died before they learned to walk. One had lived into adulthood and now worked the same house, married, with a small child of her own. Another daughter was grown and hard-handed from fieldwork. When H₁rewdʰéh₂ arrived she was small, loud, and red with cold.
+Her mother had borne five girls before her. Two had died in their first year. The eldest daughter lived in the same house now, married, with a small child. Another daughter was grown and already bent to the work of the plots. When H₁rewdʰéh₂ arrived she was small, loud, and red from the cold air.
 
-Her father spent most days with the animals—cattle and a few sheep—moving them between the forest edge and the open patches near the fields. He came back smelling of hide and smoke, and he brought news from other households when he swapped help at grazing time. In the house, women kept the fire, carried water from a shallow source, and worked the plots once the thaw loosened the soil.
+Her father spent his days with the animals—cattle, with a few sheep and goats—keeping them at the forest edge and bringing them back before dark. Hides dried near the house. Dung was heaped for fuel and for the fields. Inside, the women kept the fire, ground grain, and carried water in clay jars from a nearby stream.
 
-When early summer came and the first greens were cut for drying, the household joined the seasonal meal at the edge of the field. They set out grain and milk, ate, and spoke about the rain and the young animals.
+Early summer brought the first cutting of greens to dry. The household ate together at the edge of the clearing, passing a shared bowl and talking over the state of the barley and the calves.
 
-By late summer, H₁rewdʰéh₂ began taking thin gruel from a shared pot. Water sat in clay jars and open bowls through the day while flies came and went. Within a day of the first feedings she turned hot and slack, then emptied herself again and again until nothing stayed in her. Her mother put her back to the breast and tried to give her cooled, boiled water with a little salt, wetting her lips between cries. The child’s mouth stayed dry. Her eyes dulled. Before the next morning she stopped crying, her breath slowed, and then it ended.
+By late summer, H₁rewdʰéh₂ was given thin gruel from the pot the family used. Water sat all day in open bowls and in jars with wet rims. Flies moved between the animals, the dung heap, and the food. After her first feedings she grew hot and limp. She began to pass stool again and again until she had no strength left to cry.
+
+Her mother put her back to the breast and tried to wet her mouth with water. It ran over cracked lips. The child’s tongue stayed dry. Her eyes lost their focus. In the night her breathing slowed. Before morning she stopped moving, and the house went quiet around the oven.

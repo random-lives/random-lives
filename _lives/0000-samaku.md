@@ -12,10 +12,12 @@ lifestyle: "Hunter-Gatherer"
 era: "Paleolithic"
 sex: "F"
 historical_notes:
-  - "Samaku lived in the Late Pleistocene, when the Nile’s flow and channel positions could shift dramatically from year to year; very high floods could cut new channels (avulsion) and strand familiar campsites, forcing short-notice moves to higher levees."
-  - "The Nile Valley sits between river wetlands and desert, so late-Pleistocene climate swings mattered: slightly wetter phases could briefly “activate” wadis and oases after rare rains, concentrating plants and game before drying quickly."
-  - "Heavy reliance on fishing, reeds, and frequent water contact increased exposure to parasites and gut infections; without sanitation infrastructure, contamination around slow backwaters could trigger recurring outbreaks, and severe diarrhea could be fatal through rapid dehydration."
-  - "Small mobile bands in this era typically organized around kin ties and shared food, with older adults often serving as mediators and decision-shapers rather than formal chiefs—especially during shortages or disputes over high-value items like tools and dried fish."
+  - "Identity limits: No recoverable personal names, ethnic labels, or languages can be tied to an individual in the Nile Valley c. 26,360–26,301 BC; any personal name (including “Samaku”) and any specific ethnolinguistic identity would be modern invention rather than an archaeological inference."
+  - "Cultural/chronological fit: At ~26 ka (late Upper Pleistocene), Nile Valley foragers precede Holocene Nilotic farming societies by many millennia; the story’s river-focused hunting–fishing–gathering economy is consistent with Late Pleistocene Nile-adapted foragers, but specific “tradition” labels are uncertain at this date and vary by subregion and site."
+  - "Environment tied to the plot: Late Pleistocene Nile landscapes were dynamic—multiple channels, levees, backwaters, and floodplain reworking are documented by fluvial geomorphology and sedimentary records—so sudden loss of low-lying camps during exceptional floods/avulsions (as in the narrative) is a realistic, recurring risk in a river-margin settlement strategy."
+  - "Desert-margin forays: Seasonal excursions from the main Nile corridor into nearby wadis or depressions after rare rains are consistent with patchy late-Pleistocene resource pulses (brief grass/forb flushes, temporary surface water, short-lived increases in game visibility); these would plausibly be most productive on short timescales (days to weeks), matching the narrative’s “rapid drying” constraint."
+  - "Waterborne illness/parasites (evidentiary limits): Repeated diarrheal episodes and heavy parasite burdens cannot usually be proven for a named individual at 26 ka, but reliance on untreated surface water, frequent wading/processing fish in warm slow water, and use of backwaters are well-known risk factors in riverine settings; the narrative’s behavioral shifts (avoiding stagnant pockets, favoring flowing water) are plausible adaptive responses even if not directly documentable."
+  - "Religion/ritual limits with a concrete pointer: No specific deities, doctrines, or formalized religious systems can be assigned for this place/time; if ritual behavior existed, it would be detectable only indirectly (e.g., occasional burials, ornament use, or patterned deposition), and it cannot be linked confidently to “Samaku” without an excavated, dated individual context—which the notes do not claim."
 
 # Debug information (not displayed on page):
 # Age at death: 58
@@ -109,66 +111,76 @@ historical_notes:
 # special_skills: generalist
 ---
 
-The Nile she knew ran unregulated. No dams, no straightened banks, no wide fields. The valley was still narrow, but it was not locked in by bare desert every day of the year. In some seasons the wind stayed cool, and after rain in the side valleys the gravel darkened, the ground softened, and green returned for a short time.
+The Nile she knew ran without walls or gates. No dams. No straight banks. The living ground was a narrow strip—channels, reeds, low trees, mud that held footprints—pressed close by dry land.
 
-We call her Samaku. The name is made for the page. Nothing that survives keeps the sounds people used for her.
+We call her Samaku. The name is made for the page. Nothing that lasts carries the sounds her people used.
 
-She was the fifth child. Two of her mother’s babies did not live long enough to be counted the way the older ones were. One brother died at an age when he could already run and talk and fetch water. Death was not rare. It was close enough that adults did not waste much time pretending it wasn’t.
+She was the fifth child. Two babies died before they were old enough to be taken along and watched the way the older ones were. One brother lived long enough to run errands and carry a small skin of water. He died anyway.
 
-When she was small, people carried her across mud and reed cuttings as the group shifted camp. She learned the rules the same way the other children did—by getting corrected. With her, it happened more.
+When she was small, people carried her across slick mud and through reed cuttings when camp shifted. She learned the rules the same way the other children did—by being stopped, pushed back, corrected. With her, it happened more, and it kept happening.
 
-She picked up things that mattered and put them down in the wrong place. A flake-blade left on a hide, then lost in grass. A twist of sinew meant for sewing, set down near the fire and scorched. A bundle of plant fiber half-finished, pulled apart by a child because she walked away and forgot it. At first the older women took the tool back and pointed. Later they slapped her fingers when she reached.
+She picked up what mattered and put it where it didn’t belong. A sharp stone flake left on a hide, then lost in grass. A strip of sinew meant for sewing set too near the fire and ruined. A twist of fiber half-done, walked away from, then pulled apart by another child. At first an older woman took the thing back and made her watch. Later there were quick slaps to the hands and sharp words when she reached again.
 
-Her parents died while she was still young. No one replaced them. Different hands took her in for different tasks, and she moved between fires. An aunt kept her close when hides needed scraping. A mother’s brother brought her to the backwaters to check simple traps. A woman from another hearth made her sleep by her side and wake when she woke. Samaku needed watching, and she got it.
+Her parents died while she was still young. No one replaced them. Different hands took her for different work, and she slept near different fires. An aunt kept her close when hides needed scraping. A mother’s brother took her to the edge of backwaters to check simple traps. Another woman pulled her in at night so she would not drift off or wander. Samaku needed watching, and she got it.
 
-One year the flood came up fast and stayed high. The bank they used as a camp turned soft, then broke. Water took the place in the night and left reeds and litter hung up in the stems. People dragged their loads to a higher strip of ground and packed in close. The insects were worse there. Children scratched until they bled. Adults rubbed fat and ash into the broken skin and told them to stop.
+One year the flood rose fast and stayed high. The bank they used for camp turned soft, then broke. Water took the place in the night. In the morning their ash was gone and reeds were hung with scraps of skin and bits of fiber. People dragged loads to a higher strip of ground and packed in close.
 
-After that, Samaku stopped arguing when someone said it was time to move. If a man pointed to the water line and began tying up a bundle, she started packing. She did it without pride. She did it because she had seen a place vanish.
+The insects were worse there. Children scratched until their skin opened. Adults rubbed fat and ash into the raw places and struck hands away when scratching started again.
 
-As a young woman she took a partner from within the same traveling circle of families. He did not praise her. He did not soften his voice. He simply kept an eye on what she handled.
+After that, Samaku stopped arguing when someone said it was time to move. If a man pointed to the new waterline and began tying up a bundle, she started packing. She did it because she had seen a sleeping place vanish.
 
-When they worked side by side he gave her short jobs. Twist cord. Cut reeds. Carry stones to edge a fire. If she had to keep track of steps, she lost them. If she had one thing to finish, she finished it.
+As a young woman she took a partner from within the same traveling circle of families. He did not praise her. He did not soften his voice. He watched what she handled.
 
-They ate from the water and from the strip of life along it. Fish taken with spears and traps. Birds pulled from the reeds or struck down when they rose heavy and close. Small game flushed from cover. Greens and seeds gathered where the ground stayed damp after the river dropped.
+When they worked side by side he gave her short jobs. Twist cord. Cut reeds. Carry stones to edge a fire. If she had to keep a count in her head, she lost it. If she had one thing in her hands, she finished it.
 
-In better weeks they walked out from the main channel to a nearby wadi. After rain it changed in a day. The air smelled of wet stone. Thin grass came up. Insects gathered on it. Tracks held in the mud instead of skittering away. The band traveled light, carrying water in skins and moving between known hollows.
+They ate from the water and from the strip of life along it. Fish taken with spears and traps. Birds pulled from the reeds or struck down when they rose heavy and close. Small animals flushed from cover. Greens and seeds gathered where the ground stayed damp after the river dropped.
+
+In better weeks they walked out from the main channel to a nearby wadi. After rain it changed in a day. The air smelled of wet stone. Thin grass came up. Insects gathered on it. Tracks held in the mud. The band traveled light, carrying water in skins and moving between known hollows.
 
 On those trips Samaku paid attention in a way she did not manage at camp. She remembered where thorn grew thick enough to hide a hare. She remembered the slope that kept shade longest. She came back with handfuls of greens and small sour fruit when it was there.
 
 She also wandered.
 
-Once she followed movement—something quick in the grass—and the others looked up to find she was gone. They found her later at the edge of the wadi, crouched and staring at a burrow she could not open. She came back without fighting the scolding. She lowered her eyes and stayed close for a while, then did it again in another season.
+Once she followed quick movement in the grass and the others looked up and she was gone. They found her at the edge of the wadi, crouched and staring at a burrow she could not open. She came back without fighting the scolding. She lowered her eyes and stayed close for a while. In another season she did it again.
 
-In her twenties the valley tightened. Wind came from the north and did not let up. The reeds along their usual bends thinned. The small animals stayed deeper in cover or moved off. Fish were still in the river, but the easy places gave less. People spent longer in the water, checking traps and lines and simple barriers they set in shallow runs. In the evenings the talk around the fires turned short.
+In her twenties the valley tightened. A dry wind came down and did not let up. Reeds along their usual bends thinned. Small animals stayed deeper in cover or moved off. Fish were still there, but the easy places gave less.
 
-Samaku did not smooth tempers. She did not have that kind of grace. What she had was a way of doing what she was told without adding more trouble. When one hearth needed to tell another that a share of dried fish was coming, she carried the message exactly as it was given. She did not improve it. She did not twist it into something clever. That made her useful.
+People spent longer in the water. They set simple barriers in shallow runs and felt along the edges for trapped fish. They checked traps more often because leaving them meant coming back to nothing. The talk around the fires turned short.
+
+Samaku did not soothe anyone. She blurted the wrong thing or said nothing at all. She was blunt, and she missed what others wanted hinted instead of spoken. But she could be made to do a task the same way every time. When one hearth needed a message carried to another, they used her for it because she repeated the words exactly. Sometimes that caused trouble when the words were harsh and would have been softened by someone else.
 
 The river made people sick, and it did it more than once.
 
-In the warm seasons, when the water slowed in back channels and the smell rose from the mud, children began to stool thin and fast. Adults doubled over with cramps and sat sweating in the shade. A few people got up and vomited and went back down. The work that kept a camp running—cutting fuel, cleaning fish, scraping hides—stalled.
+In warm seasons, when the water slowed in back channels and the mud began to smell, children started to pass thin stool and weaken. Adults doubled over with cramps and sat sweating in shade. Work stalled. Fires went low. Fish sat too long before cleaning.
 
-After the first time it hit hard, they changed what they did. They stopped drawing from still pockets at the edge where waste and silt gathered. They walked farther to fill skins from quicker flow. They kept children away from the worst shallows and slapped hands when they reached.
+After one hard spell they changed what they did. They stopped drawing from still pockets along the edge where silt and waste gathered. They walked farther to fill skins where the current moved. They kept small children out of the worst shallows and struck hands away when they reached.
 
-Samaku remembered those rules. She forgot where she put a scraper. She forgot a bundle of fiber she had been twisting. She did not forget which water made people fold up in pain.
+Samaku remembered those rules. She forgot where she set a scraper. She walked away from fiber she had been twisting. She did not forget which water made people fold up in pain.
 
-Later, in another high-water season, she slipped while pulling reeds. Mud slid under her foot and the bank gave. She went in headfirst and came up choking. Someone caught a fistful of her hair and a grip on her shoulder and hauled her onto the bank. She lay on her side coughing river water, ribs aching with each breath.
+In another high-water season she slipped while pulling reeds. The mud slid under her foot and the bank gave. She went in headfirst. Water filled her mouth and nose. She came up choking and was pushed under again by her own struggling.
 
-After that she still went to the water, but she did it with her feet set wider, and she kept close enough to another person that a hand could reach her.
+Someone caught her by the hair and shoulder and hauled her onto the bank. She lay on her side, coughing river water, ribs aching with each breath. For days she moved slow, and afterwards she did not go alone to the edge. If she had to wade, she stayed close enough that a hand could clamp on her arm.
 
-By the time she was an elder, her hair had thinned. The joints in her hands stood up from years of scraping and twisting. She sat nearer the center of camp more often, not because she was soft, but because people already knew what she would do: listen, ask one question, and give a plain answer.
+As years went on, sickness that did not kill still wore people down. Bellies swelled and emptied. Skin looked dull. Some seasons everyone moved like they were carrying stones inside them. They learned which places in the water left you itching and weak, and they avoided them when they could. When they could not, they went fast and rinsed off in cleaner flow.
+
+By the time Samaku was an elder, her hair had thinned. The joints in her hands stood up from years of scraping and twisting. She sat nearer the center of camp more often because that was where people put those who were steady enough to watch and answer without stirring things up.
+
+She was not gentle. She listened, asked one question, and gave a plain answer.
 
 Where to put a hearth when the wind shifted.
 
-Who got the best scraper for the day.
+Who got the best sharp stone for the day.
 
 How to divide a poor catch without starting a fight.
 
-She did not insist. She made it easier to agree.
+She did not insist. She did not charm. She wore people down by being direct until they chose the least bad option and moved on.
 
 In her fifty-eighth year they camped near a side channel that looked calm. The water there moved slow along the bank, and the mud held everything.
 
-After a day of cleaning fish, she drank from a skin that had been dipped too close to the edge. The sickness came fast. Cramps first, then the urgent need that left her shaking. They tried to give her small mouthfuls of water from a safer place, but it ran through her. Her lips dried and split. Her eyes sank.
+After a day of cleaning fish she drank from a skin that had been dipped too close to the edge. The sickness came fast. Cramps first, then the urgent need that left her shaking. They tried to give her small mouthfuls of water taken from quicker flow, but it ran through her.
 
-On the third day she could not sit up without hands under her arms. She stopped speaking because speech cost too much. Before sunrise, while the camp was still cold, her breathing shortened, then slowed.
+Her lips dried and split. Her eyes sank. On the third day she could not sit up without hands under her arms. She stopped speaking because it cost too much.
 
-They laid her on a mat of reeds. Someone held her shoulders until she went still. The river kept moving past the camp, carrying silt and drift and the bright flashes of fish below the surface.
+Before sunrise, while the camp was still cold, her breathing shortened, then slowed.
+
+They laid her on a mat of reeds. Someone held her shoulders until she went still. The river kept moving past the camp, carrying silt and drift, and the small bright turns of fish under the surface.

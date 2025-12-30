@@ -15,10 +15,11 @@ lifestyle: "Rural"
 era: "Holocene"
 sex: "F"
 historical_notes:
-  - "In 1936–37 Raebareli was in British-ruled North India (the United Provinces), where Congress-led nationalist politics often surfaced through meetings, rumors, and periodic arrests, even in farming districts."
-  - "Small peasant proprietors in the Gangetic plains commonly relied on a mixed economy: small landholdings plus a few cattle or buffalo for milk sales, which provided steadier cash than seasonal crop income."
-  - "A household “puja” shrine with a daily lamp, incense, water offerings, and brief prayers was a widespread form of home-based Hindu practice in North Indian villages, alongside festival observance and occasional temple visits."
-  - "Before antibiotics were widely available in rural India, acute respiratory infections in infants were frequently fatal, and treatment often came from local “compounders” (informal or semi-trained practitioners) dispensing powders and home remedies rather than hospital care."
+  - "Raebareli district (United Provinces, British India) in 1936–37 was administered under the colonial UP government framework; the place-name “United Provinces” is the correct contemporaneous jurisdiction for her birth and death."
+  - "Language: Awadhi (Eastern Hindi) was a dominant home language in the Raebareli–Awadh belt; the 1931 Census of India for the United Provinces reported very large totals of “Hindi”/regional Hindi varieties, while official domains (schooling/administration) often favored standardized Hindi/Urdu and English—consistent with Awadhi being used inside the household."
+  - "Demography/health: In interwar north India, infant and under‑5 mortality was extremely high by modern standards, and repeat infant loss within a sibling set was common; Pushpa’s death at ~5.5 months fits the period’s typical risk profile rather than an unusual event."
+  - "Cause of death context: Acute respiratory infections (pneumonia/bronchitis), frequently following febrile viral illness, were among the leading killers of infants before antibiotics and routine immunization; sulfonamides began to appear in the late 1930s but were not reliably accessible in rural villages, so treatment commonly came from local “compounders” or informal practitioners rather than hospitals."
+  - "Records/verification limits: Although late-colonial vital registration laws existed, rural birth/death registration in the United Provinces was often incomplete; for a village infant girl, family memory and oral account may be the only sources, and exact dates/clinical diagnoses are typically not independently verifiable in surviving archives without specific family documents."
 
 # Debug information (not displayed on page):
 # Age at death: 0
@@ -80,12 +81,12 @@ historical_notes:
 # - F
 ---
 
-Pushpa was born on August 19, 1936, in a village outside Raebareli in the United Provinces. The land lay flat and open, with scattered trees at the edges and dirt tracks that stayed dry and powdery until the rains. Inside her parents’ house, Awadhi filled the rooms.
+Pushpa was born on August 19, 1936, in a village outside Raebareli in the United Provinces. Her parents’ house stood among fields of food crops, with neem and mango trees near the wells and along the boundaries. At home the adults spoke Awadhi.
 
-At daybreak her mother lit a small lamp at the household shrine and set down water in a metal lota before anyone ate. The rest of the morning went to the usual work—grain ground and cooked, pots scrubbed, clothes rinsed, younger children watched. Pushpa’s father farmed his own narrow plots and kept two milk animals. He cut fodder before the sun climbed, then carried a tin pail of milk to the lane, where a local buyer took it and noted the amount to settle later.
+At daybreak her mother lit the lamp at the household shrine and set a metal lota of water before the small images. Then she stoked the chulha, cooked, and kept the younger children close while she worked. Pushpa’s father tended his own narrow plots and the two milk animals. He cut fodder in the early hours and carried milk out in a metal pail to the lane. The buyer came on his rounds, wrote the quantity in a small book, and left without paying that day.
 
-Pushpa was the fourth child. Two sisters and a brother were already in the house. Before her, a baby had died, and no one spoke about it, but her mother counted the children by habit when she fed them and when she laid them down.
+Pushpa was the fourth child in the house. Two sisters and a brother made noise in the courtyard and were fed first when food was ready. Before Pushpa, another baby had died. Her mother did not speak of that child, but she counted her children by touch when she settled them to sleep.
 
-In January the cold tightened at night. Pushpa started with a cough. Within days her breathing turned quick and shallow, each breath lifting her ribs. Her mother kept her close to the fire and rubbed warm oil over her chest and back. A compounder came once, felt for fever, left a paper twist of bitter powder, and took a few coins.
+In January the nights turned hard with cold. Pushpa began to cough. The cough deepened and her breathing grew fast, each breath lifting the skin between her ribs. Her mother kept her against her body near the fire and rubbed warmed oil over her chest and back. When the baby’s fever did not break, a compounder came to the house, felt her skin and the soft spot on her head, and listened with his ear close to her chest. He left a paper twist of bitter powder and took coins from Pushpa’s father.
 
-Pushpa did not improve. She died before dawn on February 7, 1937. In the shed behind the house, the buffalo shifted and stamped in the dark while the household woke to the quiet that followed.
+Pushpa worsened through the next days. She would not feed, and the cough pulled at her until she tired and went limp in her mother’s arms. She died before dawn on February 7, 1937. In the shed behind the house the buffalo shifted in the dark as the household woke to the space she left.
