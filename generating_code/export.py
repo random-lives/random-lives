@@ -83,6 +83,14 @@ era: "{person.era}"
 sex: "{person.sex}"
 """
 
+    # Add historical notes if they exist
+    if person.historical_notes:
+        frontmatter += "historical_notes:\n"
+        for note in person.historical_notes:
+            # Escape quotes and use YAML list format
+            escaped_note = note.replace('"', '\\"')
+            frontmatter += f'  - "{escaped_note}"\n'
+
     # Add debugging information as YAML comments (not parsed by Jekyll)
     frontmatter += "\n# Debug information (not displayed on page):\n"
 
