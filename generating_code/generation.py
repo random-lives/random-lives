@@ -413,33 +413,35 @@ WHAT TO INCLUDE:
 1. DEMOGRAPHIC FACTS not obvious from the narrative:
    - Language(s) spoken and their regional context
    - Ethnic/cultural group and its place in the broader region
-   - Religious practice if not fully explained
-   - Literacy context if relevant
+   - Religious demographics if relevant
+   - Literacy rates or educational context if relevant
 
 2. CONCRETE HISTORICAL CONTEXT:
-   - Specific events, dates, or figures that ground the story
-   - Archaeological evidence or documented history relevant to the period
-   - Verifiable specifics: mortality figures, economic statistics, population data
-   - Surprising or non-obvious facts an educated reader might not know
+   - Relevant archaeological sites or historical sources
+   - Specific dates, mortality figures, economic statistics
+   - Surprising facts an educated reader might not know
+   - How this person compares to others in their society
 
-3. WHAT WE KNOW VS. CAN'T KNOW (especially for pre-modern periods):
-   - Explicitly note if no written records exist
-   - Acknowledge limits of archaeological or linguistic reconstruction
-   - State if the name is a placeholder
+3. CONNECTIONS TO THE NARRATIVE:
+   - Link notes to specific elements of the story where possible
 
-4. CONNECTIONS TO THE NARRATIVE:
-   - Link notes to specific elements of the story
-   - Provide scale or comparison where useful
+For pre-modern periods, include UP TO ONE note acknowledging limits of knowledge (no written records, name is a placeholder, etc.). Do not repeat caveats across multiple notes.
 
-WHAT TO AVOID:
+STYLE:
+- Write like a museum placard or magazine sidebar, not an academic paper
+- Each note should be 1-2 sentences
+- Be direct and concrete
+- Prefer specific facts over general claims
+
+AVOID:
 - Repeating information already clear in the narrative
-- Obvious or widely-known facts
 - Vague generalizations
-- Moralizing or editorializing
-- Speculation beyond well-established facts
+- Phrases like "cannot be proven," "plausible but not verifiable," "evidentiary limits"
+- Parenthetical qualifiers like "(with epistemic caveat)"
+- Notes that are primarily about what we don't know rather than what we do
 
 FORMAT:
-Each note should be 1-3 sentences in plain contemporary English. Return as JSON:
+Return as JSON:
 {{
     "notes": ["First note.", "Second note.", ...]
 }}"""
@@ -518,16 +520,21 @@ Current historical notes:
 
 REMOVE notes that:
 - Repeat what's already clear from the narrative
-- State obvious or widely-known facts
-- Provide generic background without connecting to this person
+- Are primarily meta-commentary about documentation rather than actual context
 - Contain vague generalizations instead of concrete facts
-- Are speculative or unverifiable
+- Use hedging language throughout ("cannot be proven," "plausible but not verifiable")
+- Are longer than 2 sentences
+
+IMPROVE notes by:
+- Cutting unnecessary words and qualifiers
+- Making vague claims more specific
+- Strengthening connections to the narrative
 
 CHECK that the notes collectively:
 - Surface key demographic facts (language, ethnicity, religion) not obvious from the narrative
-- Include concrete specifics (dates, figures, place names)
-- Acknowledge epistemic limits for pre-modern periods
-- Connect to specific elements of the story
+- Include concrete specifics (dates, figures, archaeological sites, place names)
+- Have at most one note about epistemic limits (for pre-modern periods)
+- Place the person in context (was their experience typical? how do they compare?)
 
 Return as JSON:
 {{
