@@ -13,6 +13,11 @@ map_url: "https://www.google.com/maps/place/26.98,-101.49/@26.98,-101.49,5z"
 lifestyle: "Urban"
 era: "Holocene"
 sex: "F"
+historical_notes:
+  - "In northern Mexico, the “maquiladora” system—factories tied to export supply chains that expanded along the U.S. border after trade liberalization—has long provided steady but low-wage shift work, often with tight production demands and limited job security for workers."
+  - "In 2020–2022, COVID-19 public-health measures and economic disruptions in Mexico affected school routines, childcare arrangements, and household income, with many families experiencing reduced hours, interruptions, or informal work as a fallback."
+  - "Coahuila’s desert-edge towns include many households that mix formal wages with informal survival strategies (sharing housing, relying on neighbors or older siblings for care, stretching food budgets), reflecting longstanding regional inequality and uneven access to services."
+  - "“Culturally Catholic” practice in much of Mexico often centers on home devotions (images of the Virgen de Guadalupe, candles, prayers) and community celebrations like posadas, alongside key rites such as baptism and first communion even when regular Mass attendance is occasional."
 
 # Debug information (not displayed on page):
 # Age at death: alive

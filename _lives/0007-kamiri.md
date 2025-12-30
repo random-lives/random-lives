@@ -14,6 +14,11 @@ map_url: "https://www.google.com/maps/place/-15.83,-45.01/@-15.83,-45.01,5z"
 lifestyle: "Hunter-Gatherer"
 era: "Holocene"
 sex: "M"
+historical_notes:
+  - "Around 365–364 BC, the interior of what is now Minas Gerais was occupied by small, mobile foraging communities; there were no cities, states, or written records, so what is known comes from archaeology, ecology, and later Indigenous continuities."
+  - "The Cerrado has strong wet–dry seasonality, and many groups organized movement and work around it—concentrating near reliable water in the dry months and timing hunting, gathering, and visits between camps to seasonal resource peaks."
+  - "Prestige in many low-density foraging societies was tied to provisioning and reciprocity: skilled hunters gained influence through how meat was shared, while exchange visits helped maintain alliances, information flow, and access to scarce materials like quality stone for tools."
+  - "High infant mortality was common in pre-modern settings, and diarrheal and respiratory infections were especially dangerous for infants because dehydration and secondary infections can become fatal quickly without effective rehydration and antibiotics."
 
 # Debug information (not displayed on page):
 # Age at death: 0

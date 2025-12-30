@@ -212,6 +212,32 @@ nav a:hover {
   text-decoration: underline;
 }
 
+/* Historical notes */
+.historical-notes {
+  margin: 40px 0;
+  padding: 20px;
+  background: #f5f5f5;
+  border-radius: 5px;
+  border-left: 4px solid #0066cc;
+}
+
+.historical-notes h2 {
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+  color: #333;
+}
+
+.historical-notes ul {
+  list-style-position: outside;
+  padding-left: 25px;
+}
+
+.historical-notes li {
+  margin: 12px 0;
+  line-height: 1.6;
+  color: #555;
+}
+
 /* Footer */
 footer {
   margin-top: 60px;

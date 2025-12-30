@@ -14,6 +14,11 @@ map_url: "https://www.google.com/maps/place/26.57,91.1/@26.57,91.1,5z"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "M"
+historical_notes:
+  - "In the late 1200s the Brahmaputra Valley was a frontier zone where older Kamarupa/Kamata polities overlapped with shifting local chiefs; when security tightened, rulers often raised extra levies or demanded short spells of corvée labor (unpaid work) for embankments, roads, and small fortifications."
+  - "Riverine ecology strongly structured livelihoods: monsoon timing controlled rice yields, while floods, shifting channels, and storm squalls could abruptly change fishing returns and make small-boat travel dangerous even close to shore."
+  - "Most village households operated in a cash-poor mixed economy where fish and other easily traded foods could be converted into market purchases (salt, iron, rope) and used to settle dues; sudden gear loss commonly pushed families into short-term borrowing from better-off neighbors."
+  - "Everyday “Brahmanical Hindu” practice in rural Assam often centered on household and village shrines, calendrical festivals, and correct ritual procedure rather than scripture reading, because literacy and manuscript culture were concentrated among specialists such as priests and scribes."
 
 # Debug information (not displayed on page):
 # Age at death: 43

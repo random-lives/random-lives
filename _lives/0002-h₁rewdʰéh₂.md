@@ -14,6 +14,11 @@ map_url: "https://www.google.com/maps/place/50.81,29.21/@50.81,29.21,5z"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "F"
+historical_notes:
+  - "The Late Cucuteni–Trypillia (Late Trypillian) communities of this era were settled farmers in the forest-steppe and mixed-forest zones of what is now central and northern Ukraine, living in timber-and-clay houses and cultivating cereals while keeping cattle, sheep/goats, and pigs."
+  - "By the late 3rd millennium BC, the northeastern edge of the Trypillian world lay close to steppe and forest-steppe groups; regular contact along river routes encouraged exchange (including livestock and prestige goods like amber) and the spread of early Indo-European speech forms and loanwords."
+  - "Households were often multi-generational and labor-sharing, with childcare, food processing, and fieldwork coordinated across related adults; this made seasonal agricultural work and animal herding possible even when some members were very young or elderly."
+  - "“Sowing/harvest feasts” and field-edge offerings reflect common prehistoric farming religion in the region: community rituals tied to seasonal cycles, fertility, and reciprocity with local sacred places rather than formal temples or written doctrines."
 
 # Debug information (not displayed on page):
 # Age at death: 0

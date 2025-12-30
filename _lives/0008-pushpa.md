@@ -14,6 +14,11 @@ map_url: "https://www.google.com/maps/place/26.15,81.19/@26.15,81.19,5z"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "F"
+historical_notes:
+  - "In 1936–37 Raebareli was in British-ruled North India (the United Provinces), where Congress-led nationalist politics often surfaced through meetings, rumors, and periodic arrests, even in farming districts."
+  - "Small peasant proprietors in the Gangetic plains commonly relied on a mixed economy: small landholdings plus a few cattle or buffalo for milk sales, which provided steadier cash than seasonal crop income."
+  - "A household “puja” shrine with a daily lamp, incense, water offerings, and brief prayers was a widespread form of home-based Hindu practice in North Indian villages, alongside festival observance and occasional temple visits."
+  - "Before antibiotics were widely available in rural India, acute respiratory infections in infants were frequently fatal, and treatment often came from local “compounders” (informal or semi-trained practitioners) dispensing powders and home remedies rather than hospital care."
 
 # Debug information (not displayed on page):
 # Age at death: 0

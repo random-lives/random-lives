@@ -11,6 +11,11 @@ subsubregion: "Nile Valley (Egypt–Sudan corridor)"
 lifestyle: "Hunter-Gatherer"
 era: "Paleolithic"
 sex: "F"
+historical_notes:
+  - "Samaku lived in the Late Pleistocene, when the Nile’s flow and channel positions could shift dramatically from year to year; very high floods could cut new channels (avulsion) and strand familiar campsites, forcing short-notice moves to higher levees."
+  - "The Nile Valley sits between river wetlands and desert, so late-Pleistocene climate swings mattered: slightly wetter phases could briefly “activate” wadis and oases after rare rains, concentrating plants and game before drying quickly."
+  - "Heavy reliance on fishing, reeds, and frequent water contact increased exposure to parasites and gut infections; without sanitation infrastructure, contamination around slow backwaters could trigger recurring outbreaks, and severe diarrhea could be fatal through rapid dehydration."
+  - "Small mobile bands in this era typically organized around kin ties and shared food, with older adults often serving as mediators and decision-shapers rather than formal chiefs—especially during shortages or disputes over high-value items like tools and dried fish."
 
 # Debug information (not displayed on page):
 # Age at death: 58

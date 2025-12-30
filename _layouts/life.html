@@ -55,6 +55,17 @@ layout: default
     {{ content }}
   </div>
 
+  {% if page.historical_notes %}
+  <div class="historical-notes">
+    <h2>Historical Context</h2>
+    <ul>
+      {% for note in page.historical_notes %}
+      <li>{{ note }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
   <nav class="life-navigation">
     <a href="{{ '/' | relative_url }}">← Back to all lives</a>
   </nav>

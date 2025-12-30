@@ -13,6 +13,11 @@ map_url: "https://www.google.com/maps/place/7.99,-12.19/@7.99,-12.19,5z"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "M"
+historical_notes:
+  - "Sierra Leone’s 1991–2002 civil war ended just a few years before Ibrahim’s birth; many rural districts in the south, including Moyamba, spent the 2000s rebuilding basic services like schooling, roads, and clinics, which helps explain irregular education and difficult market access."
+  - "The 2014–2016 West Africa Ebola epidemic led to nationwide restrictions in Sierra Leone (limits on movement and gatherings, school closures, and “no-touch” greetings), and it disrupted rural trade as transport and buying networks contracted or became riskier."
+  - "In many Mende-speaking areas, Islam is practiced alongside pragmatic protective practices (amulets and visits to medicine specialists); these are often treated as everyday risk-management rather than a separate “religion,” so they can coexist without being openly debated."
+  - "Sierra Leone’s rural economy relies heavily on smallholder farming and petty trade, where cash is scarce and prices are sensitive to fuel and transport costs; the 2021–2024 inflation and currency depreciation made it harder to budget, move produce to town, and buy imported essentials or farm inputs."
 
 # Debug information (not displayed on page):
 # Age at death: alive
