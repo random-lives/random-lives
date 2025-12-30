@@ -10,10 +10,86 @@ title: Home
     weighted by actual birth numbers. Explore lives from 200,000 BCE to present.
   </p>
 
+  <div class="filters">
+    <h3>Filter by:</h3>
+    <div class="filter-row">
+      <label>
+        Era:
+        <select id="filter-era">
+          <option value="">All Eras</option>
+          <option value="Paleolithic (before 10,000 BC)">Paleolithic (before 10,000 BC)</option>
+          <option value="Neolithic (10,000–3,000 BC)">Neolithic (10,000–3,000 BC)</option>
+          <option value="Ancient (3,000–1,000 BC)">Ancient (3,000–1,000 BC)</option>
+          <option value="Antiquity (1,000 BC–500 AD)">Antiquity (1,000 BC–500 AD)</option>
+          <option value="Medieval (500–1500)">Medieval (500–1500)</option>
+          <option value="Early Modern (1500–1800)">Early Modern (1500–1800)</option>
+          <option value="19th Century">19th Century</option>
+          <option value="20th Century">20th Century</option>
+          <option value="21st Century">21st Century</option>
+        </select>
+      </label>
+
+      <label>
+        Continent:
+        <select id="filter-continent">
+          <option value="">All Continents</option>
+          <option value="Africa">Africa</option>
+          <option value="Americas">Americas</option>
+          <option value="Asia">Asia</option>
+          <option value="Europe">Europe</option>
+          <option value="North America">North America</option>
+          <option value="South America">South America</option>
+          <option value="Oceania">Oceania</option>
+        </select>
+      </label>
+
+      <label>
+        Age at Death:
+        <select id="filter-age">
+          <option value="">All Ages</option>
+          <option value="Alive">Alive</option>
+          <option value="Infant (0–1)">Infant (0–1)</option>
+          <option value="Child (2–10)">Child (2–10)</option>
+          <option value="Adolescent (11–18)">Adolescent (11–18)</option>
+          <option value="Adult (19–49)">Adult (19–49)</option>
+          <option value="Elder (50+)">Elder (50+)</option>
+        </select>
+      </label>
+
+      <label>
+        Sex:
+        <select id="filter-sex">
+          <option value="">All</option>
+          <option value="M">Male</option>
+          <option value="F">Female</option>
+        </select>
+      </label>
+
+      <label>
+        Lifestyle:
+        <select id="filter-lifestyle">
+          <option value="">All Lifestyles</option>
+          <option value="Hunter-Gatherer">Hunter-Gatherer</option>
+          <option value="Rural">Rural</option>
+          <option value="Urban">Urban</option>
+        </select>
+      </label>
+    </div>
+    <div class="filter-stats">
+      Showing <span id="visible-count">0</span> of <span id="total-count">0</span> lives
+    </div>
+  </div>
+
   <div class="lives-list">
     <h2>Lives</h2>
     {% for life in site.lives %}
-      <article class="life-preview">
+      <article class="life-preview"
+               data-era="{{ life.era_tag }}"
+               data-continent="{{ life.continent }}"
+               data-age="{{ life.age_tag }}"
+               data-sex="{{ life.sex }}"
+               data-lifestyle="{{ life.lifestyle }}"
+               data-country="{{ life.country }}">
         <h3><a href="{{ life.url | relative_url }}">{{ life.title }}</a></h3>
         <div class="meta">
           <span class="birth-year">{{ life.birth_year }}</span>
@@ -26,3 +102,50 @@ title: Home
     {% endfor %}
   </div>
 </div>
+
+<script>
+(function() {
+  const filters = {
+    era: document.getElementById('filter-era'),
+    continent: document.getElementById('filter-continent'),
+    age: document.getElementById('filter-age'),
+    sex: document.getElementById('filter-sex'),
+    lifestyle: document.getElementById('filter-lifestyle')
+  };
+
+  const articles = document.querySelectorAll('.life-preview');
+  const visibleCount = document.getElementById('visible-count');
+  const totalCount = document.getElementById('total-count');
+
+  totalCount.textContent = articles.length;
+
+  function applyFilters() {
+    let visible = 0;
+
+    articles.forEach(article => {
+      const matchEra = !filters.era.value || article.dataset.era === filters.era.value;
+      const matchContinent = !filters.continent.value || article.dataset.continent === filters.continent.value;
+      const matchAge = !filters.age.value || article.dataset.age === filters.age.value;
+      const matchSex = !filters.sex.value || article.dataset.sex === filters.sex.value;
+      const matchLifestyle = !filters.lifestyle.value || article.dataset.lifestyle === filters.lifestyle.value;
+
+      if (matchEra && matchContinent && matchAge && matchSex && matchLifestyle) {
+        article.style.display = '';
+        visible++;
+      } else {
+        article.style.display = 'none';
+      }
+    });
+
+    visibleCount.textContent = visible;
+  }
+
+  // Initial count
+  applyFilters();
+
+  // Add event listeners
+  Object.values(filters).forEach(filter => {
+    filter.addEventListener('change', applyFilters);
+  });
+})();
+</script>

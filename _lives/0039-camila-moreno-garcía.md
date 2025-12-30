@@ -13,6 +13,9 @@ map_url: "https://www.google.com/maps/place/26.98,-101.49/@26.98,-101.49,5z"
 lifestyle: "Urban"
 era: "Holocene"
 sex: "F"
+era_tag: "21st Century"
+age_tag: "Alive"
+continent: "North America"
 
 # Debug information (not displayed on page):
 # Age at death: alive

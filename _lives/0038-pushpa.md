@@ -14,6 +14,9 @@ map_url: "https://www.google.com/maps/place/26.15,81.19/@26.15,81.19,5z"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "F"
+era_tag: "20th Century"
+age_tag: "Infant (0–1)"
+continent: "Asia"
 
 # Debug information (not displayed on page):
 # Age at death: 0

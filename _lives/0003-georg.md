@@ -14,6 +14,9 @@ map_url: "https://www.google.com/maps/place/46.81,11.71/@46.81,11.71,5z"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "M"
+era_tag: "Early Modern (1500–1800)"
+age_tag: "Infant (0–1)"
+continent: "Europe"
 
 # Debug information (not displayed on page):
 # Age at death: 0

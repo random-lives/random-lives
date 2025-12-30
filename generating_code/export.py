@@ -17,6 +17,133 @@ import yaml
 from date_utils import _format_date_tuple, _format_year
 
 
+# Country to continent mapping
+COUNTRY_TO_CONTINENT = {
+    # Africa
+    'Algeria': 'Africa', 'Angola': 'Africa', 'Benin': 'Africa', 'Botswana': 'Africa',
+    'Burkina Faso': 'Africa', 'Burundi': 'Africa', 'Cameroon': 'Africa', 'Cape Verde': 'Africa',
+    'Central African Republic': 'Africa', 'Chad': 'Africa', 'Comoros': 'Africa',
+    "Cote d'Ivoire": 'Africa', 'Democratic Republic of the Congo': 'Africa', 'Djibouti': 'Africa',
+    'Egypt': 'Africa', 'Equatorial Guinea': 'Africa', 'Eritrea': 'Africa', 'Eswatini': 'Africa',
+    'Ethiopia': 'Africa', 'Gabon': 'Africa', 'Gambia': 'Africa', 'Ghana': 'Africa',
+    'Guinea': 'Africa', 'Guinea-Bissau': 'Africa', 'Kenya': 'Africa', 'Lesotho': 'Africa',
+    'Liberia': 'Africa', 'Libya': 'Africa', 'Madagascar': 'Africa', 'Malawi': 'Africa',
+    'Mali': 'Africa', 'Mauritania': 'Africa', 'Mauritius': 'Africa', 'Morocco': 'Africa',
+    'Mozambique': 'Africa', 'Namibia': 'Africa', 'Niger': 'Africa', 'Nigeria': 'Africa',
+    'Republic of the Congo': 'Africa', 'Rwanda': 'Africa', 'Sao Tome and Principe': 'Africa',
+    'Senegal': 'Africa', 'Seychelles': 'Africa', 'Sierra Leone': 'Africa', 'Somalia': 'Africa',
+    'South Africa': 'Africa', 'South Sudan': 'Africa', 'Sudan': 'Africa', 'Tanzania': 'Africa',
+    'Togo': 'Africa', 'Tunisia': 'Africa', 'Uganda': 'Africa', 'Zambia': 'Africa', 'Zimbabwe': 'Africa',
+
+    # Asia
+    'Afghanistan': 'Asia', 'Armenia': 'Asia', 'Azerbaijan': 'Asia', 'Bahrain': 'Asia',
+    'Bangladesh': 'Asia', 'Bhutan': 'Asia', 'Brunei': 'Asia', 'Cambodia': 'Asia',
+    'China': 'Asia', 'Cyprus': 'Asia', 'Georgia': 'Asia', 'India': 'Asia', 'Indonesia': 'Asia',
+    'Iran': 'Asia', 'Iraq': 'Asia', 'Israel': 'Asia', 'Japan': 'Asia', 'Jordan': 'Asia',
+    'Kazakhstan': 'Asia', 'Kuwait': 'Asia', 'Kyrgyzstan': 'Asia', 'Laos': 'Asia',
+    'Lebanon': 'Asia', 'Malaysia': 'Asia', 'Maldives': 'Asia', 'Mongolia': 'Asia',
+    'Myanmar': 'Asia', 'Nepal': 'Asia', 'North Korea': 'Asia', 'Oman': 'Asia',
+    'Pakistan': 'Asia', 'Palestine': 'Asia', 'Philippines': 'Asia', 'Qatar': 'Asia',
+    'Saudi Arabia': 'Asia', 'Singapore': 'Asia', 'South Korea': 'Asia', 'Sri Lanka': 'Asia',
+    'Syria': 'Asia', 'Taiwan': 'Asia', 'Tajikistan': 'Asia', 'Thailand': 'Asia',
+    'Timor-Leste': 'Asia', 'Turkey': 'Asia', 'Turkmenistan': 'Asia',
+    'United Arab Emirates': 'Asia', 'Uzbekistan': 'Asia', 'Vietnam': 'Asia', 'Yemen': 'Asia',
+
+    # Europe
+    'Albania': 'Europe', 'Andorra': 'Europe', 'Austria': 'Europe', 'Belarus': 'Europe',
+    'Belgium': 'Europe', 'Bosnia and Herzegovina': 'Europe', 'Bulgaria': 'Europe',
+    'Croatia': 'Europe', 'Czech Republic': 'Europe', 'Denmark': 'Europe', 'Estonia': 'Europe',
+    'Finland': 'Europe', 'France': 'Europe', 'Germany': 'Europe', 'Greece': 'Europe',
+    'Hungary': 'Europe', 'Iceland': 'Europe', 'Ireland': 'Europe', 'Italy': 'Europe',
+    'Kosovo': 'Europe', 'Latvia': 'Europe', 'Liechtenstein': 'Europe', 'Lithuania': 'Europe',
+    'Luxembourg': 'Europe', 'Malta': 'Europe', 'Moldova': 'Europe', 'Monaco': 'Europe',
+    'Montenegro': 'Europe', 'Netherlands': 'Europe', 'North Macedonia': 'Europe',
+    'Norway': 'Europe', 'Poland': 'Europe', 'Portugal': 'Europe', 'Romania': 'Europe',
+    'Russia': 'Europe', 'San Marino': 'Europe', 'Serbia': 'Europe', 'Slovakia': 'Europe',
+    'Slovenia': 'Europe', 'Spain': 'Europe', 'Sweden': 'Europe', 'Switzerland': 'Europe',
+    'Ukraine': 'Europe', 'United Kingdom': 'Europe', 'Vatican City': 'Europe',
+
+    # North America
+    'Antigua and Barbuda': 'North America', 'Bahamas': 'North America', 'Barbados': 'North America',
+    'Belize': 'North America', 'Canada': 'North America', 'Costa Rica': 'North America',
+    'Cuba': 'North America', 'Dominica': 'North America', 'Dominican Republic': 'North America',
+    'El Salvador': 'North America', 'Grenada': 'North America', 'Guatemala': 'North America',
+    'Haiti': 'North America', 'Honduras': 'North America', 'Jamaica': 'North America',
+    'Mexico': 'North America', 'Nicaragua': 'North America', 'Panama': 'North America',
+    'Saint Kitts and Nevis': 'North America', 'Saint Lucia': 'North America',
+    'Saint Vincent and the Grenadines': 'North America', 'Trinidad and Tobago': 'North America',
+    'United States': 'North America',
+
+    # South America
+    'Argentina': 'South America', 'Bolivia': 'South America', 'Brazil': 'South America',
+    'Chile': 'South America', 'Colombia': 'South America', 'Ecuador': 'South America',
+    'Guyana': 'South America', 'Paraguay': 'South America', 'Peru': 'South America',
+    'Suriname': 'South America', 'Uruguay': 'South America', 'Venezuela': 'South America',
+
+    # Oceania
+    'Australia': 'Oceania', 'Fiji': 'Oceania', 'Kiribati': 'Oceania',
+    'Marshall Islands': 'Oceania', 'Micronesia': 'Oceania', 'Nauru': 'Oceania',
+    'New Zealand': 'Oceania', 'Palau': 'Oceania', 'Papua New Guinea': 'Oceania',
+    'Samoa': 'Oceania', 'Solomon Islands': 'Oceania', 'Tonga': 'Oceania',
+    'Tuvalu': 'Oceania', 'Vanuatu': 'Oceania',
+}
+
+
+def get_era_tag(birth_year):
+    """Convert numeric birth year to era tag string."""
+    if birth_year < -10000:
+        return "Paleolithic (before 10,000 BC)"
+    elif birth_year < -3000:
+        return "Neolithic (10,000–3,000 BC)"
+    elif birth_year < -1000:
+        return "Ancient (3,000–1,000 BC)"
+    elif birth_year < 500:
+        return "Antiquity (1,000 BC–500 AD)"
+    elif birth_year < 1500:
+        return "Medieval (500–1500)"
+    elif birth_year < 1800:
+        return "Early Modern (1500–1800)"
+    elif birth_year < 1900:
+        return "19th Century"
+    elif birth_year < 2000:
+        return "20th Century"
+    else:
+        return "21st Century"
+
+
+def get_age_tag(age_at_death):
+    """Convert age at death to age tag string."""
+    if age_at_death == "alive":
+        return "Alive"
+    elif age_at_death <= 1:
+        return "Infant (0–1)"
+    elif age_at_death <= 10:
+        return "Child (2–10)"
+    elif age_at_death <= 18:
+        return "Adolescent (11–18)"
+    elif age_at_death <= 49:
+        return "Adult (19–49)"
+    else:
+        return "Elder (50+)"
+
+
+def get_continent(country, region=None):
+    """Get continent from country name, with fallback for Paleolithic regions."""
+    if country:
+        return COUNTRY_TO_CONTINENT.get(country, "Unknown")
+    elif region:
+        # Paleolithic regions map directly to continents
+        region_to_continent = {
+            'Africa': 'Africa',
+            'Europe': 'Europe',
+            'Asia': 'Asia',
+            'Oceania': 'Oceania',
+            'Americas': 'Americas',
+        }
+        return region_to_continent.get(region, "Unknown")
+    return "Unknown"
+
+
 def slugify(text):
     """Convert text to URL-safe slug."""
     text = text.lower()
@@ -78,10 +205,20 @@ birth_date: "{_format_date_tuple(person.birth_date)}"
         frontmatter += f'map_url: "{person.location.gmap_url()}"\n'
 
     # Add other metadata (not displayed but kept for filtering/sorting)
-    frontmatter += f"""lifestyle: "{person.lifestyle}"
-era: "{person.era}"
-sex: "{person.sex}"
-"""
+    frontmatter += f'lifestyle: "{person.lifestyle}"\n'
+    frontmatter += f'era: "{person.era}"\n'
+    frontmatter += f'sex: "{person.sex}"\n'
+
+    # Add computed tags for filtering
+    era_tag = get_era_tag(person.birth_year)
+    age_tag = get_age_tag(person.age_at_death)
+    country = person.location.country if person.era == 'Holocene' else None
+    region = person.region if person.era == 'Paleolithic' else None
+    continent = get_continent(country, region)
+
+    frontmatter += f'era_tag: "{era_tag}"\n'
+    frontmatter += f'age_tag: "{age_tag}"\n'
+    frontmatter += f'continent: "{continent}"\n'
 
     # Add debugging information as YAML comments (not parsed by Jekyll)
     frontmatter += "\n# Debug information (not displayed on page):\n"

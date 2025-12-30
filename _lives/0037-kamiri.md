@@ -14,6 +14,9 @@ map_url: "https://www.google.com/maps/place/-15.83,-45.01/@-15.83,-45.01,5z"
 lifestyle: "Hunter-Gatherer"
 era: "Holocene"
 sex: "M"
+era_tag: "Antiquity (1,000 BC–500 AD)"
+age_tag: "Infant (0–1)"
+continent: "South America"
 
 # Debug information (not displayed on page):
 # Age at death: 0

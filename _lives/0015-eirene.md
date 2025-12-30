@@ -14,6 +14,9 @@ map_url: "https://www.google.com/maps/place/30.32,30.79/@30.32,30.79,5z"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "F"
+era_tag: "Medieval (500–1500)"
+age_tag: "Child (2–10)"
+continent: "Africa"
 
 # Debug information (not displayed on page):
 # Age at death: 2

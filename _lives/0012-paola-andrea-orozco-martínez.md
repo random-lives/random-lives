@@ -13,6 +13,9 @@ map_url: "https://www.google.com/maps/place/15.07,-91.66/@15.07,-91.66,5z"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "F"
+era_tag: "20th Century"
+age_tag: "Alive"
+continent: "North America"
 
 # Debug information (not displayed on page):
 # Age at death: alive

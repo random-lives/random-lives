@@ -14,6 +14,9 @@ map_url: "https://www.google.com/maps/place/40.39,-74.25/@40.39,-74.25,5z"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "F"
+era_tag: "20th Century"
+age_tag: "Elder (50+)"
+continent: "North America"
 
 # Debug information (not displayed on page):
 # Age at death: 76

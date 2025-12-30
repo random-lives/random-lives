@@ -14,6 +14,9 @@ map_url: "https://www.google.com/maps/place/28.4,69.28/@28.4,69.28,5z"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "M"
+era_tag: "Early Modern (1500–1800)"
+age_tag: "Elder (50+)"
+continent: "Asia"
 
 # Debug information (not displayed on page):
 # Age at death: 72

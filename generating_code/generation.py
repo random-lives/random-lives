@@ -388,6 +388,8 @@ LENGTH & FOCUS (age 19+):
 ALIVE_PROMPT = """
 ENDING (person still living):
 - End in an ordinary moment, not on a cliffhanger or dramatic note
+- The narrative must end no later than late 2025 (the current year) - do not project events into the future
+- End with a present-tense snapshot of their current life as of 2025
 """
 
 DEAD_PROMPT = """

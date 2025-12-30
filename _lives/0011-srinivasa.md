@@ -14,6 +14,9 @@ map_url: "https://www.google.com/maps/place/12.82,79.69/@12.82,79.69,5z"
 lifestyle: "Urban"
 era: "Holocene"
 sex: "M"
+era_tag: "Early Modern (1500–1800)"
+age_tag: "Child (2–10)"
+continent: "Asia"
 
 # Debug information (not displayed on page):
 # Age at death: 2

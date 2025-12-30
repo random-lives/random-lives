@@ -14,6 +14,9 @@ map_url: "https://www.google.com/maps/place/35.73,36.46/@35.73,36.46,5z"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "M"
+era_tag: "Antiquity (1,000 BC–500 AD)"
+age_tag: "Infant (0–1)"
+continent: "Asia"
 
 # Debug information (not displayed on page):
 # Age at death: 0

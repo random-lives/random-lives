@@ -13,6 +13,9 @@ map_url: "https://www.google.com/maps/place/7.99,-12.19/@7.99,-12.19,5z"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "M"
+era_tag: "21st Century"
+age_tag: "Alive"
+continent: "Africa"
 
 # Debug information (not displayed on page):
 # Age at death: alive

@@ -11,6 +11,9 @@ subsubregion: "Nile Valley (Egypt–Sudan corridor)"
 lifestyle: "Hunter-Gatherer"
 era: "Paleolithic"
 sex: "F"
+era_tag: "Paleolithic (before 10,000 BC)"
+age_tag: "Elder (50+)"
+continent: "Africa"
 
 # Debug information (not displayed on page):
 # Age at death: 58
