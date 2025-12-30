@@ -75,7 +75,8 @@ title: Home
 
   <div class="lives-list">
     <h2>Lives</h2>
-    {% for life in site.lives %}
+    {% assign sorted_lives = site.lives | sort: "birth_year_numeric" %}
+    {% for life in sorted_lives %}
       <article class="life-preview"
                data-birth-year="{{ life.birth_year_numeric }}"
                data-continent="{{ life.continent }}"
@@ -85,7 +86,7 @@ title: Home
                data-country="{{ life.country }}">
         <h3><a href="{{ life.url | relative_url }}">{{ life.title }}</a></h3>
         <div class="meta">
-          <span class="birth-year">{{ life.birth_year }}</span>
+          <span class="years">{{ life.birth_year }} – {{ life.death_year }}</span>
           {% if life.region %}<span class="region">{{ life.region }}</span>{% endif %}
           {% if life.country %}<span class="country">{{ life.country }}</span>{% endif %}
           <span class="lifestyle">{{ life.lifestyle }}</span>
