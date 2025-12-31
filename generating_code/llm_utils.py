@@ -124,6 +124,7 @@ class CostTracker(BaseCallbackHandler):
         super().__init__()
         self.model = model
         self.input_tokens = 0
+        self.cached_input_tokens = 0  # Track cached tokens separately
         self.output_tokens = 0
         self.requests = 0
         self.debug = False
@@ -161,15 +162,24 @@ class CostTracker(BaseCallbackHandler):
             if 'input_tokens' in usage_data:  # Anthropic
                 self.input_tokens += usage_data.get('input_tokens', 0)
                 self.output_tokens += usage_data.get('output_tokens', 0)
+                # Anthropic cache info is in cache_read_input_tokens
+                cache_info = usage_data.get('cache_read_input_tokens', 0)
+                self.cached_input_tokens += cache_info
             elif 'prompt_tokens' in usage_data:  # OpenAI
                 self.input_tokens += usage_data.get('prompt_tokens', 0)
                 self.output_tokens += usage_data.get('completion_tokens', 0)
+                # OpenAI cache info is in prompt_tokens_details.cached_tokens
+                prompt_details = usage_data.get('prompt_tokens_details', {})
+                if prompt_details:
+                    self.cached_input_tokens += prompt_details.get('cached_tokens', 0)
             elif 'prompt_token_count' in usage_data:  # Google
                 self.input_tokens += usage_data.get('prompt_token_count', 0)
                 self.output_tokens += usage_data.get('candidates_token_count', 0)
+                # Google cache info (if available)
+                self.cached_input_tokens += usage_data.get('cached_content_token_count', 0)
 
     def calculate_cost(self):
-        """Calculate total cost in dollars."""
+        """Calculate total cost in dollars, accounting for cached token discounts."""
         model_key = None
         for k in self.COSTS:
             if k in self.model.lower() or self.model.lower() in k:
@@ -180,7 +190,13 @@ class CostTracker(BaseCallbackHandler):
             return 0.0
 
         input_cost, output_cost = self.COSTS[model_key]
-        return (self.input_tokens * input_cost + self.output_tokens * output_cost) / 1_000_000
+        # Cached tokens are charged at 10% of normal input rate (90% discount)
+        cached_rate = input_cost * 0.1
+        uncached_input = self.input_tokens - self.cached_input_tokens
+
+        input_total = (uncached_input * input_cost + self.cached_input_tokens * cached_rate)
+        output_total = self.output_tokens * output_cost
+        return (input_total + output_total) / 1_000_000
 
     def get_summary(self):
         """Return summary as dict for programmatic access."""
@@ -188,6 +204,8 @@ class CostTracker(BaseCallbackHandler):
             'model': self.model,
             'requests': self.requests,
             'input_tokens': self.input_tokens,
+            'cached_input_tokens': self.cached_input_tokens,
+            'cache_hit_rate': self.cached_input_tokens / self.input_tokens if self.input_tokens > 0 else 0,
             'output_tokens': self.output_tokens,
             'total_cost': self.calculate_cost(),
             'avg_input_per_request': self.input_tokens / self.requests if self.requests > 0 else 0,
@@ -199,6 +217,9 @@ class CostTracker(BaseCallbackHandler):
         print(f"\n=== Cost Summary: {self.model} ===")
         print(f"Requests: {self.requests}")
         print(f"Input tokens: {self.input_tokens:,}")
+        if self.cached_input_tokens > 0:
+            cache_pct = 100 * self.cached_input_tokens / self.input_tokens if self.input_tokens > 0 else 0
+            print(f"  Cached: {self.cached_input_tokens:,} ({cache_pct:.1f}%)")
         print(f"Output tokens: {self.output_tokens:,}")
         print(f"Total cost: ${self.calculate_cost():.4f}")
 

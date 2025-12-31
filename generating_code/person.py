@@ -1,5 +1,6 @@
 """Person sampling and representation for historical demography.
 
+
 Simple unified sampling: sample a birth year weighted by births across all history,
 then create a Person with era-appropriate attributes.
 
@@ -101,7 +102,7 @@ def _hyde_indices(year):
     idx = np.searchsorted(_hyde_years, year)
     if idx < len(_hyde_years) and _hyde_years[idx] == year:
         return (idx, None)
-    return (idx - 1, idx)
+    return (idx - 1, None)
 
 
 # =============================================================================
@@ -118,6 +119,16 @@ class Person:
         self.sex = 'M' if np.random.random() < 0.512 else 'F'
         self.era = 'Paleolithic' if year < _transition_year else 'Holocene'
 
+        # Twin status (~1.2% of births are twins)
+        # ~0.4% identical (monozygotic), ~0.8% fraternal (dizygotic)
+        r = np.random.random()
+        if r < 0.004:
+            self.twin = 'identical'
+        elif r < 0.012:
+            self.twin = 'fraternal'
+        else:
+            self.twin = None
+
         # Era-specific initialization (sets age_at_death)
         if self.era == 'Paleolithic':
             self._init_paleolithic()
@@ -133,6 +144,23 @@ class Person:
             self.personality = _sample_personality()
         else:
             self.personality = {}
+
+        # Sexual orientation (biological base rates, independent of era/culture)
+        # Only sampled for those who reach puberty (age 13+)
+        # Rates based on population surveys: ~92% heterosexual, ~4% bisexual,
+        # ~3% homosexual, ~1% asexual
+        if self.years_lived() >= 13:
+            r = np.random.random()
+            if r < 0.92:
+                self.orientation = 'heterosexual'
+            elif r < 0.96:
+                self.orientation = 'bisexual'
+            elif r < 0.99:
+                self.orientation = 'homosexual'
+            else:
+                self.orientation = 'asexual'
+        else:
+            self.orientation = None  # Died before puberty
 
         # Populated by LLM pipeline
         self.demographics = {}
@@ -293,6 +321,14 @@ class Person:
             'Lifestyle': self.lifestyle,
         }
 
+        # Twin status (if applicable)
+        if self.twin:
+            output['Twin'] = self.twin
+
+        # Sexual orientation (if person reached puberty)
+        if self.orientation:
+            output['Sexual orientation'] = self.orientation
+
         # Name (populated by LLM pipeline)
         if self.name:
             output['Name'] = self.name
@@ -348,9 +384,17 @@ class Person:
         output.update(self.personality)
         output.update(self.demographics)
 
-        # Add events if they exist
+        # Add events if they exist (legacy field)
         if self.events:
             output['events'] = self.events
+
+        # Add structured incidents (personal life events from LLM pipeline)
+        if hasattr(self, 'structured_incidents') and self.structured_incidents:
+            output['structured_incidents'] = self.structured_incidents
+
+        # Add historical context (large-scale historical/environmental events)
+        if hasattr(self, 'historical_context') and self.historical_context:
+            output['historical_context'] = self.historical_context
 
         return output
 

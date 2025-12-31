@@ -85,6 +85,13 @@ DEMOGRAPHIC_QUERIES = [
      "What were their likely religious/spiritual practices? Focus on what they actually did (household offerings, prayers, rituals) rather than abstract beliefs.",
      'Holocene', 0, False),
 
+    # Twin outcome (only asked if person is a twin)
+    ("co_twin_fate",
+     "This person was born as a {twin_type} twin. What happened to their co-twin? "
+     "Consider infant/child mortality rates for this time and place. Options should include: "
+     "died at birth/stillborn, died in infancy, died in childhood, survived to adulthood.",
+     'Both', 0, False),
+
     # Household at birth
     ("number_of_siblings",
      "How many siblings did this person have (including those who died in childhood)? Label options as 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10+.",
@@ -112,7 +119,7 @@ DEMOGRAPHIC_QUERIES = [
 
     # Education and capabilities
     ("mental_disorder",
-     "Given this person's personality profile, would they likely meet criteria for what we'd recognize today as a mental disorder or pathology? Give a realistic assessment, with high neuroticism and/or very low agreeableness, honesty/humility, conscientiousness, or intelligence likely to manifest as some modern recognized mental disorder.",
+     "Given this person's personality profile and intelligence, would they likely meet criteria for what we'd recognize today as a mental disorder or pathology? Give a realistic assessment, with high neuroticism and/or very low agreeableness, honesty/humility, conscientiousness, or intelligence likely to manifest as some modern recognized mental disorder. Also consider addictions and mental disorders acquired through life experience.",
      'Both', 5, False),
     
     ("literacy",
@@ -125,7 +132,8 @@ DEMOGRAPHIC_QUERIES = [
 
     # Adult roles
     ("marital_status",
-     "What was their likely marital status? Consider their age at death, sex, marriage customs, social status, and personality.",
+     "What was their likely marital status? Consider their age at death, sex, sexual orientation, marriage customs, social status, and personality. "
+     "Note: In most historical periods, people with same-sex attraction often married heterosexually due to social expectations.",
      'Holocene', 12, False),
 
     ("occupation",
@@ -137,7 +145,8 @@ DEMOGRAPHIC_QUERIES = [
      'Holocene', 12, False),
 
     ("partnership_history",
-     "What was this person's partnership history? Options: never partnered, one long-term partner, sequential partners, multiple concurrent partners.",
+     "What was this person's partnership history? Consider their sexual orientation. "
+     "Options: never partnered, one long-term partner, sequential partners, multiple concurrent partners, same-sex partnership.",
      'Paleolithic', 12, False),
 
     ("social_standing",
@@ -212,38 +221,30 @@ Return as JSON:
 # Life Events Prompts
 # -----------------------------------------------------------------------------
 
-LIFE_EVENTS_PROMPT_BASE = '''Based on this person's demographics and lifetime, list events that might have affected their life.
+HISTORICAL_CONTEXT_PROMPT = '''Based on this person's demographics and lifetime, list HISTORICAL and ENVIRONMENTAL CONTEXT events that might have affected their life.
 
-Include TWO types of events:
+Focus on large-scale contextual forces, NOT personal incidents (which are handled separately):
 
-1. HISTORICAL/ENVIRONMENTAL CONTEXT (aim for 4-8):
-   - Political: wars, regime changes, conquests, taxation/corvée demands
-   - Economic: trade route shifts, market access changes, currency debasements, labor demands
-   - Environmental: droughts, floods, crop failures, livestock epidemics, locust plagues
+HISTORICAL/ENVIRONMENTAL CONTEXT (aim for 4-8 events):
+   - Political: wars, regime changes, conquests, taxation/corvée demands, new laws/regulations
+   - Economic: trade route shifts, market access changes, currency debasements, labor demands, famines affecting food prices
+   - Environmental: droughts, floods, crop failures, livestock epidemics, locust plagues, extreme weather
    - Epidemics: known disease outbreaks affecting the region
-   - Religious/social: new religious movements, pilgrimage routes, community obligations
-   - For well-documented periods: reference actual historical events
-   - For poorly-documented periods: describe plausible specific patterns
+   - Religious/social: new religious movements, pilgrimage routes, community obligations, religious persecution
+   - For well-documented periods: reference actual historical events (specific wars, known famines, documented epidemics)
+   - For poorly-documented periods: describe plausible era-appropriate patterns
 
-2. PERSONAL INCIDENTS (aim for 2-4):
-   - Must be DISCRETE EVENTS with a beginning and end, not ongoing patterns or gradual processes
-   - Conflicts, disputes, legal troubles, achievements, accidents, or turning points
-   - Specific to this person's time, place, occupation, and personality
-   - Avoid generic filler that could apply to anyone anywhere
+IMPORTANT EXCLUSIONS:
+- Do NOT include personal incidents (violence, crime, accidents, achievements) - these are handled by the structured incidents system
+- Do NOT include events already in demographics (family deaths, marriage, childbirth, migration)
+- Focus on contextual forces that shaped the environment this person lived in
 
-DO NOT INCLUDE (already captured in demographics):
-- Deaths of family members, siblings, or children
-- Illness of family members
-- Marriage/partnership changes
-- Childbirth or pregnancy
-- Migration (if in demographics)
-
-PROBABILITIES should reflect your best estimate of how likely each event was to affect this specific person, given their demographics.
+PROBABILITIES should reflect your best estimate of how likely each contextual event was to affect this specific person's region/lifetime.
 
 FORMAT:
 Brief reasoning, then events as JSON:
 {"events": [
-    {"event": "description", "probability": 0.XX, "timing": "age/stage"},
+    {"event": "description", "probability": 0.XX, "timing": "age/period"},
     ...
 ]}'''
 
@@ -252,9 +253,6 @@ Brief reasoning, then events as JSON:
 # -----------------------------------------------------------------------------
 
 NAMING_PROMPT = '''Generate 20 possible names for this person.
-
-Person details:
-{person_data}
 
 NAMING CATEGORIES:
 First, determine which category applies:
@@ -461,6 +459,115 @@ Check for:
 
 SELECTION_TEXT = "The random number generator selected for this person: "
 
+# -----------------------------------------------------------------------------
+# Hierarchical Structured Incidents Prompts
+# -----------------------------------------------------------------------------
+
+# Tier 1: Broad incident categories
+TIER1_INCIDENTS_PROMPT_HEADER = '''Based on this person's demographics, personality, and lifetime, estimate the probability that each of the following broad incident categories occurred.
+
+IMPORTANT: Estimate probabilities honestly based on historical base rates for someone with these specific characteristics. Violence (especially sexual and domestic violence) and criminality were endemic in most historical periods. Do not sanitize.
+
+For each category, provide:
+- reasoning: Brief explanation (1-2 sentences) of why this probability makes sense
+- probability: Your best estimate (0.0 to 1.0) that this occurred at least once
+
+BROAD CATEGORIES:
+'''
+
+TIER1_INCIDENTS_PROMPT_FOOTER = '''
+Return as JSON with all categories:
+{{
+  "victim_violence": {{"reasoning": "...", "probability": 0.XX}},
+  "victim_property_crime": {{"reasoning": "...", "probability": 0.XX}},
+  ...
+}}'''
+
+# Category definitions - (key, description)
+TIER1_CATEGORY_DEFINITIONS = {
+    'victim_violence': 'Victim of physical or sexual violence (assault, sexual violence, domestic violence)',
+    'victim_property_crime': 'Victim of property crime (theft, fraud, robbery)',
+    'perpetrator_violence': 'Perpetrator of physical or sexual violence (assault, homicide, sexual violence)',
+    'perpetrator_property_crime': 'Perpetrator of property crime (theft, fraud, burglary, poaching, smuggling, tax evasion)',
+    'severe_economic_crisis': 'Severe financial hardship (debt crisis, destitution, property loss)',
+    'serious_health_incident': 'Serious health event that they survived or lived with (accident, chronic illness, acquired disability - NOT the terminal illness/injury that ultimately killed them)',
+    'major_caregiving': 'Extended caregiving responsibility (sick relative, orphans, elderly parents)',
+    'warfare_impact': 'Direct personal warfare impact (military service, displacement, siege, witnessing violence - NOT indirect economic effects like rationing or taxation)',
+    'major_achievement': 'Notable achievement, recognition, or success',
+    'religious_change': 'Significant religious change (loss of faith, conversion, apostasy, persecution)',
+    'nonstandard_sexual_history': 'Sexual activity outside cultural norms (premarital, extramarital, sex work, same-sex)',
+}
+
+# Tier 2: Specific subtypes for sampled broad categories (batched version)
+TIER2_SUBTYPES_BATCH_PROMPT = '''The random sampling confirmed this person experienced the following broad categories:
+{sampled_categories}
+
+For each category, estimate probabilities for the specific subtypes listed below.
+{punishment_instruction}
+SUBTYPES BY CATEGORY:
+{all_subtypes}
+
+Return as JSON with nested structure:
+{{
+  "category_name": {{
+    "subtype_1": {{"reasoning": "...", "probability": 0.XX}},
+    "subtype_2": {{"reasoning": "...", "probability": 0.XX}},
+    ...
+  }},
+  ...
+}}'''
+
+# Elaboration prompt (batched version)
+ELABORATE_INCIDENTS_PROMPT = '''The random sampling selected that this person experienced the following incidents:
+{incidents_list}
+
+For each incident, provide a specific, concrete description of what happened (1-2 sentences maximum). Make each specific to this person's time, place, occupation, and circumstances.
+
+Return as JSON:
+{{
+  "incident_key_1": {{"event": "specific concrete description", "timing": "precise age range or period"}},
+  "incident_key_2": {{"event": "specific concrete description", "timing": "precise age range or period"}},
+  ...
+}}'''
+
+# Tier 2 subtype definitions
+TIER2_SUBTYPES = {
+    'victim_violence': [
+        ('sexual_violence', 'Sexual assault, rape, or coercion'),
+        ('domestic_violence', 'Physical violence from intimate partner or household member'),
+        ('physical_assault', 'Non-sexual, non-domestic physical violence (assault, beating, serious fight)'),
+    ],
+    'perpetrator_violence': [
+        ('sexual_violence_perp', 'Perpetrated sexual violence (sexual assault, rape, coercion)'),
+        ('homicide', 'Killed someone (combat, murder, manslaughter, duel)'),
+        ('physical_assault_perp', 'Perpetrated non-sexual, non-lethal physical violence (assault, serious fight)'),
+    ],
+    'serious_health_incident': [
+        ('serious_accident', 'Serious accident causing weeks+ of incapacity'),
+        ('chronic_illness', 'Chronic health condition causing ongoing limitation'),
+        ('acquired_disability', 'Acquired disabling condition (vision/hearing loss, mobility impairment)'),
+    ],
+    'major_caregiving': [
+        ('sick_relative', 'Prolonged caregiving for seriously ill/disabled family member'),
+        ('orphaned_children', 'Raised children who weren\'t biologically theirs'),
+        ('elderly_parents', 'Primary caregiver for aging parents/in-laws'),
+    ],
+    'warfare_impact': [
+        ('military_service', 'Formal military service, conscription, or militia duty'),
+        ('civilian_war_exposure', 'Civilian war exposure (displacement, siege, occupation, bombing)'),
+        ('witnessed_atrocity', 'Witnessed killing, torture, or mass violence firsthand'),
+    ],
+    'nonstandard_sexual_history': [
+        ('premarital_sex', 'Consensual sexual activity before marriage'),
+        ('extramarital_sex', 'Sexual activity outside primary partnership/marriage'),
+        ('sex_work', 'Engaged in transactional sex for money/goods/favors'),
+    ],
+    'nonstandard_sexual_history_female': [
+        ('pregnancy_outside_marriage', 'Pregnancy before or outside formal marriage/partnership'),
+        ('pregnancy_complications', 'Miscarriage, stillbirth, or serious birth complication'),
+        ('abortion_attempt', 'Attempted abortion or use of abortifacient'),
+    ],
+}
 
 # =============================================================================
 # HELPER FUNCTIONS
@@ -468,13 +575,25 @@ SELECTION_TEXT = "The random number generator selected for this person: "
 
 def _get_demographic_queries(person):
     """Get filtered demographic queries for this person based on era, age, and alive status."""
-    return [
-        (name, query)
-        for name, query, query_era, min_age, requires_dead in DEMOGRAPHIC_QUERIES
-        if (query_era == 'Both' or query_era == person.era)
-        and person.years_lived() >= min_age
-        and not (requires_dead and person.is_alive())
-    ]
+    results = []
+    for name, query, query_era, min_age, requires_dead in DEMOGRAPHIC_QUERIES:
+        # Basic filters: era, age, alive status
+        if query_era != 'Both' and query_era != person.era:
+            continue
+        if person.years_lived() < min_age:
+            continue
+        if requires_dead and person.is_alive():
+            continue
+
+        # Special case: co_twin_fate only asked if person is a twin
+        if name == 'co_twin_fate':
+            if not person.twin:
+                continue
+            # Format the query with twin type
+            query = query.format(twin_type=person.twin)
+
+        results.append((name, query))
+    return results
 
 
 def reset_to_stage(person, stage):
@@ -483,34 +602,51 @@ def reset_to_stage(person, stage):
 
     Stages (in order):
     - 'demographics': Before demographics are generated
-    - 'events': Before life events are generated
+    - 'incidents': Before structured incidents are generated
+    - 'historical_context': Before historical context is generated
     - 'name': Before name is generated
     - 'narrative': Before narrative is generated
+    - 'qc': Before quality check is run
     """
-    if stage in ['demographics', 'events', 'name', 'narrative']:
+    stages_order = ['demographics', 'incidents', 'historical_context', 'name', 'narrative', 'qc']
+
+    if stage not in stages_order:
+        raise ValueError(f"Unknown stage: {stage}. Must be one of {stages_order}")
+
+    stage_idx = stages_order.index(stage)
+
+    # Clear data from this stage and all later stages
+    if stage_idx <= stages_order.index('qc'):
+        pass  # QC only modifies narrative, handled below
+    if stage_idx <= stages_order.index('narrative'):
         person.narrative = None
-    if stage in ['demographics', 'events', 'name']:
+    if stage_idx <= stages_order.index('name'):
         person.name = None
         person.naming_category = None
-    if stage in ['demographics', 'events']:
-        person.events = []
-
-    if stage == 'demographics':
+    if stage_idx <= stages_order.index('historical_context'):
+        person.historical_context = []
+    if stage_idx <= stages_order.index('incidents'):
+        person.structured_incidents = []
+    if stage_idx <= stages_order.index('demographics'):
         person.messages = []
         person.demographics = {}
-    else:
-        # Stage markers - text that appears at the start of each stage's prompt
-        stage_markers = {
-            'events': 'Based on this person\'s demographics and lifetime, list events',
-            'name': 'Generate 20 possible names',
-            'narrative': 'Write a narrative biography',
-        }
+        return  # Nothing more to do
 
-        if stage in stage_markers:
-            marker = stage_markers[stage]
-            for i, msg in enumerate(person.messages):
-                if marker in msg.get('content', ''):
-                    person.messages = person.messages[:i]
+    # For later stages, truncate messages at the appropriate point
+    # Stage markers - text that appears at the start of each stage's prompt
+    stage_markers = {
+        'incidents': 'estimate the probability that each of the following broad incident categories',
+        'historical_context': 'list HISTORICAL and ENVIRONMENTAL CONTEXT events',
+        'name': 'Generate 20 possible names',
+        'narrative': 'Write a narrative biography',
+    }
+
+    if stage in stage_markers:
+        marker = stage_markers[stage]
+        for i, msg in enumerate(person.messages):
+            if marker in msg.get('content', ''):
+                person.messages = person.messages[:i]
+                return
     
 # =============================================================================
 # GENERATION FUNCTIONS
@@ -654,60 +790,381 @@ def _add_family_context(person, result, kind, ctx):
         pass
 
 
-def generate_life_events(person, ctx):
+def generate_structured_incidents(person, ctx, elaborate=True):
     """
-    Generate life events through probabilistic sampling.
+    Generate personal incidents using hierarchical probability assessment.
 
-    Modifies person in place.
+    Two-tier system:
+    - Tier 1: Assess ~10 broad categories (victim, perpetrator, health, etc.)
+    - Tier 2: For sampled Tier 1 categories, assess specific subtypes
+    - Elaborate: Generate concrete descriptions for all sampled incidents
+
+    Args:
+        person: Person object with demographics already populated
+        ctx: GenerationContext
+        elaborate: If True, make follow-up calls to get concrete descriptions
+
+    Modifies person in place, storing results in person.structured_incidents
     """
     if person.years_lived() < 5:
-        ctx.log("Too young for life events")
-        person.events = []
+        ctx.log("Too young for structured incidents")
+        person.structured_incidents = []
         return
 
-    ctx.log("Generating potential life events...")
+    # =============================================================================
+    # TIER 1: Assess broad categories
+    # =============================================================================
 
-    # Build prompt
-    event_prompt = LIFE_EVENTS_PROMPT_BASE
-    event_request = event_prompt + "\n\nPerson details:\n" + person.to_prompt_string()
-    person.messages.append({"role": "user", "content": event_request})
+    ctx.log("TIER 1: Assessing broad incident categories...")
 
-    events_data, content = call_with_retry(ctx, person.messages)
+    # Determine which Tier 1 categories to assess
+    tier1_categories = [
+        'victim_violence',
+        'victim_property_crime',
+        'perpetrator_violence',
+        'perpetrator_property_crime',
+        'severe_economic_crisis',
+        'serious_health_incident',
+        'major_caregiving',
+        'major_achievement',
+        'religious_change',
+    ]
 
-    if not events_data:
-        ctx.log("  Failed to parse events")
-        person.messages.pop()  # Remove the failed query
-        person.events = []
+    # Add age-conditional category
+    if person.years_lived() >= 13:
+        tier1_categories.append('nonstandard_sexual_history')
+
+    # Add era-conditional category
+    if person.era == 'Holocene':
+        tier1_categories.append('warfare_impact')
+
+    # Build prompt dynamically based on selected categories
+    categories_text = '\n'.join(
+        f"- {cat}: {TIER1_CATEGORY_DEFINITIONS[cat]}"
+        for cat in tier1_categories
+    )
+    tier1_prompt = TIER1_INCIDENTS_PROMPT_HEADER + categories_text + TIER1_INCIDENTS_PROMPT_FOOTER
+
+    # Build and send Tier 1 prompt
+    person.messages.append({"role": "user", "content": tier1_prompt})
+
+    tier1_data, content = call_with_retry(ctx, person.messages)
+
+    if not tier1_data:
+        ctx.log("  Failed to parse Tier 1 data")
+        person.messages.pop()
+        person.structured_incidents = []
         return
 
     person.messages.append({"role": "assistant", "content": content})
-    potential_events = events_data.get('events', [])
-    ctx.log(f"  Generated {len(potential_events)} potential events")
+
+    # Log Tier 1 probabilities
+    ctx.log("  Tier 1 probabilities:")
+    for category in tier1_categories:
+        if category in tier1_data:
+            prob = tier1_data[category].get('probability', 0)
+            reasoning = tier1_data[category].get('reasoning', '')
+            if not ctx.quiet or prob > 0.05:
+                ctx.log(f"    {category}: {prob:.2f} - {reasoning[:60]}...")
+
+    # Sample Tier 1 categories
+    sampled_tier1 = []
+    for category in tier1_categories:
+        if category not in tier1_data:
+            continue
+
+        prob = tier1_data[category].get('probability', 0)
+        reasoning = tier1_data[category].get('reasoning', '')
+
+        if random.random() < prob:
+            sampled_tier1.append({
+                'category': category,
+                'reasoning': reasoning,
+                'probability': prob
+            })
+
+    ctx.log(f"  Sampled {len(sampled_tier1)} Tier 1 categories")
+
+    # =============================================================================
+    # TIER 2: Assess subtypes for sampled categories (batched)
+    # =============================================================================
+
+    all_sampled_incidents = []
+
+    # Separate categories with and without subtypes
+    standalone_categories = ['victim_property_crime', 'perpetrator_property_crime',
+                             'severe_economic_crisis', 'major_achievement', 'religious_change']
+
+    # Check if any perpetrator categories were sampled (for punishment question)
+    committed_crime = any(
+        item['category'] in ['perpetrator_violence', 'perpetrator_property_crime']
+        for item in sampled_tier1
+    )
+
+    # Add standalone categories directly to sampled incidents
+    for tier1_item in sampled_tier1:
+        category = tier1_item['category']
+        if category in standalone_categories:
+            all_sampled_incidents.append({
+                'type': category,
+                'reasoning': tier1_item['reasoning'],
+                'probability': tier1_item['probability'],
+                'tier': 1
+            })
+
+    # Collect categories that need Tier 2 subtype assessment
+    categories_needing_tier2 = []
+    category_subtypes = {}  # Maps category -> list of (subtype_name, description)
+
+    for tier1_item in sampled_tier1:
+        category = tier1_item['category']
+        if category in standalone_categories:
+            continue
+        if category not in TIER2_SUBTYPES:
+            continue
+
+        categories_needing_tier2.append(tier1_item)
+
+        # Get subtype definitions
+        subtypes = list(TIER2_SUBTYPES[category])
+
+        # Special case: add female-specific pregnancy subtypes if applicable
+        if category == 'nonstandard_sexual_history' and person.sex == 'F' and person.years_lived() >= 13:
+            subtypes = subtypes + list(TIER2_SUBTYPES['nonstandard_sexual_history_female'])
+
+        category_subtypes[category] = subtypes
+
+    # If there are categories needing Tier 2, make a single batched call
+    if categories_needing_tier2:
+        ctx.log(f"  TIER 2: Assessing subtypes for {len(categories_needing_tier2)} categories (batched)...")
+
+        # Build the prompt
+        sampled_categories = '\n'.join(
+            f"- {item['category'].replace('_', ' ')}"
+            for item in categories_needing_tier2
+        )
+
+        all_subtypes_parts = []
+        for item in categories_needing_tier2:
+            category = item['category']
+            subtypes = category_subtypes[category]
+            subtypes_str = '\n'.join(f"  - {name}: {desc}" for name, desc in subtypes)
+            all_subtypes_parts.append(f"{category}:\n{subtypes_str}")
+
+        all_subtypes = '\n\n'.join(all_subtypes_parts)
+
+        # Add punishment instruction if applicable
+        if committed_crime:
+            punishment_instruction = '''
+Also estimate the probability of faced_punishment (arrested, tried, fined, imprisoned, publicly punished, or executed) for any perpetrator categories.
+'''
+        else:
+            punishment_instruction = ''
+
+        tier2_prompt = TIER2_SUBTYPES_BATCH_PROMPT.format(
+            sampled_categories=sampled_categories,
+            all_subtypes=all_subtypes,
+            punishment_instruction=punishment_instruction
+        )
+
+        person.messages.append({"role": "user", "content": tier2_prompt})
+        tier2_data, tier2_content = call_with_retry(ctx, person.messages)
+
+        if tier2_data:
+            person.messages.append({"role": "assistant", "content": tier2_content})
+
+            # Process each category's subtypes
+            for item in categories_needing_tier2:
+                category = item['category']
+                subtypes = category_subtypes[category]
+
+                category_data = tier2_data.get(category, {})
+
+                # Log and sample subtypes
+                for subtype_name, _ in subtypes:
+                    if subtype_name not in category_data:
+                        continue
+
+                    prob = category_data[subtype_name].get('probability', 0)
+                    reasoning = category_data[subtype_name].get('reasoning', '')
+
+                    if not ctx.quiet or prob > 0.05:
+                        ctx.log(f"    {category}.{subtype_name}: {prob:.2f}")
+
+                    if random.random() < prob:
+                        all_sampled_incidents.append({
+                            'type': subtype_name,
+                            'reasoning': reasoning,
+                            'probability': prob,
+                            'tier': 2,
+                            'parent_category': category
+                        })
+
+            # Handle punishment if it was included
+            if committed_crime and 'faced_punishment' in tier2_data:
+                punishment_data = tier2_data['faced_punishment']
+                # Handle both nested and flat structures
+                if isinstance(punishment_data, dict) and 'probability' in punishment_data:
+                    prob = punishment_data.get('probability', 0)
+                    reasoning = punishment_data.get('reasoning', '')
+                elif isinstance(punishment_data, dict):
+                    # Might be nested under a key
+                    for key, val in punishment_data.items():
+                        if isinstance(val, dict) and 'probability' in val:
+                            prob = val.get('probability', 0)
+                            reasoning = val.get('reasoning', '')
+                            break
+                    else:
+                        prob = 0
+                        reasoning = ''
+                else:
+                    prob = 0
+                    reasoning = ''
+
+                if not ctx.quiet or prob > 0.05:
+                    ctx.log(f"    faced_punishment: {prob:.2f}")
+
+                if random.random() < prob:
+                    all_sampled_incidents.append({
+                        'type': 'faced_punishment',
+                        'reasoning': reasoning,
+                        'probability': prob,
+                        'tier': 2,
+                        'parent_category': 'perpetrator_crime'
+                    })
+        else:
+            ctx.log("    Failed to parse Tier 2 data")
+            person.messages.pop()
+
+    ctx.log(f"  Total sampled incidents (Tier 1 + Tier 2): {len(all_sampled_incidents)}")
+
+    # =============================================================================
+    # ELABORATE: Generate concrete descriptions (batched)
+    # =============================================================================
+
+    if elaborate and all_sampled_incidents:
+        ctx.log("  Elaborating sampled incidents (batched)...")
+
+        # Build list of incidents for prompt
+        incidents_list = '\n'.join(
+            f"- {inc['type']}: {inc['type'].replace('_', ' ')}"
+            for inc in all_sampled_incidents
+        )
+
+        elab_prompt = ELABORATE_INCIDENTS_PROMPT.format(incidents_list=incidents_list)
+        person.messages.append({"role": "user", "content": elab_prompt})
+        elab_data, elab_content = call_with_retry(ctx, person.messages)
+
+        if elab_data:
+            person.messages.append({"role": "assistant", "content": elab_content})
+
+        # Build elaborated list, using LLM output where available
+        elaborated = []
+        for incident in all_sampled_incidents:
+            incident_type = incident['type']
+            reasoning = incident['reasoning']
+            display_name = incident_type.replace('_', ' ')
+
+            # Try to get elaboration from batched response
+            if elab_data and incident_type in elab_data:
+                inc_data = elab_data[incident_type]
+                elaborated.append({
+                    'event': inc_data.get('event', f'[{display_name}]'),
+                    'timing': inc_data.get('timing', 'unknown'),
+                    'type': incident_type,
+                    'reasoning': reasoning,
+                    'tier': incident['tier']
+                })
+                ctx.log(f"    {incident_type}: {inc_data.get('event', '')[:60]}...")
+            else:
+                # Elaboration missing for this incident, use fallback
+                elaborated.append({
+                    'event': f"[{display_name}]",
+                    'timing': 'unknown',
+                    'type': incident_type,
+                    'reasoning': reasoning,
+                    'tier': incident['tier']
+                })
+                ctx.log(f"    {incident_type}: [no elaboration]")
+
+        person.structured_incidents = elaborated
+    else:
+        # Store raw sampled incidents without elaboration
+        person.structured_incidents = [
+            {
+                'event': incident['type'].replace('_', ' '),
+                'timing': 'unknown',
+                'type': incident['type'],
+                'reasoning': incident['reasoning'],
+                'tier': incident['tier']
+            }
+            for incident in all_sampled_incidents
+        ]
+
+    ctx.log(f"  Final structured incidents: {len(person.structured_incidents)}")
+
+
+def generate_historical_context(person, ctx):
+    """
+    Generate historical/environmental context events through probabilistic sampling.
+
+    This generates large-scale contextual forces (wars, famines, regime changes, etc.)
+    that affected the person's environment. Personal incidents are handled separately
+    by generate_structured_incidents().
+
+    Only called for non-hunter-gatherers (well-documented periods with better historical records).
+
+    Modifies person in place, storing results in person.historical_context.
+    """
+    if person.years_lived() < 5:
+        ctx.log("Too young for historical context")
+        person.historical_context = []
+        return
+
+    if person.lifestyle == 'Hunter-Gatherer':
+        ctx.log("Skipping historical context for hunter-gatherer (poorly documented period)")
+        person.historical_context = []
+        return
+
+    ctx.log("Generating historical/environmental context...")
+
+    person.messages.append({"role": "user", "content": HISTORICAL_CONTEXT_PROMPT})
+
+    context_data, content = call_with_retry(ctx, person.messages)
+
+    if not context_data:
+        ctx.log("  Failed to parse historical context")
+        person.messages.pop()
+        person.historical_context = []
+        return
+
+    person.messages.append({"role": "assistant", "content": content})
+    potential_events = context_data.get('events', [])
+    ctx.log(f"  Generated {len(potential_events)} potential context events")
 
     # Sample events (Bernoulli trials)
     selected_events = [e for e in potential_events if random.random() < e.get('probability', 0)]
-    ctx.log(f"  Sampled {len(selected_events)} events")
+    ctx.log(f"  Sampled {len(selected_events)} context events")
 
     # Store selected events (strip probability since it's no longer needed)
-    person.events = [
+    person.historical_context = [
         {"event": e.get("event", ""), "timing": e.get("timing", "")}
         for e in selected_events
     ]
 
-    ctx.log(f"  Final events: {len(person.events)}")
+    ctx.log(f"  Final historical context: {len(person.historical_context)}")
 
 
 def generate_name(person, ctx):
     """
-    Generate a name for the person by having the LLM propose 10 options
+    Generate a name for the person by having the LLM propose 20 options
     and randomly selecting one.
 
     Modifies person in place.
     """
     ctx.log("Generating name...")
 
-    prompt = NAMING_PROMPT.format(person_data=person.to_prompt_string())
-    person.messages.append({"role": "user", "content": prompt})
+    person.messages.append({"role": "user", "content": NAMING_PROMPT})
 
     result, content = call_with_retry(ctx, person.messages)
 
@@ -764,13 +1221,16 @@ def generate_narrative(person, ctx, extra_prompt=None, replace_prompt=None):
         if extra_prompt:
             full_prompt += "\n\n" + extra_prompt
 
-    # Always add person details and events
-    full_prompt += "\n\nPerson details:\n" + person.to_prompt_string()
+    # Structured incidents and historical context (already in conversation history)
+    if hasattr(person, 'structured_incidents') and person.structured_incidents:
+        incidents_str = "\n".join(f"- {e.get('event', '')} ({e.get('timing', 'unknown')})"
+                                  for e in person.structured_incidents)
+        full_prompt += "\n\nPersonal incidents to incorporate:\n" + incidents_str
 
-    if person.events:
-        events_str = "\n".join(f"- {e.get('event', e)} ({e.get('timing', 'unknown timing')})"
-                               for e in person.events)
-        full_prompt += "\n\nLife events to incorporate:\n" + events_str
+    if hasattr(person, 'historical_context') and person.historical_context:
+        context_str = "\n".join(f"- {e.get('event', '')} ({e.get('timing', 'unknown')})"
+                                for e in person.historical_context)
+        full_prompt += "\n\nHistorical context to incorporate:\n" + context_str
 
     person.messages.append({"role": "user", "content": full_prompt})
 
@@ -790,7 +1250,8 @@ def quality_check(person, ctx):
     Returns list of issues found.
     """
     qc_prompt = QC_CHECKS_ERA[person.era] + QC_PROMPT_BASE.format(
-        person_data=person.to_prompt_string(), narrative=person.narrative
+        person_data=person.to_prompt_string(),
+        narrative=person.narrative
     )
 
     ctx.log("Running quality check on narrative...")
@@ -849,19 +1310,23 @@ def run_pipeline(person, model="haiku", quiet=True, show_cost=False):
     generate_demographics(person, ctx)
 
     ctx.log("\n" + "=" * 50)
-    ctx.log("Step 3: Generating life events...")
-    generate_life_events(person, ctx)
+    ctx.log("Step 3: Generating structured incidents...")
+    generate_structured_incidents(person, ctx)
 
     ctx.log("\n" + "=" * 50)
-    ctx.log("Step 4: Generating name...")
+    ctx.log("Step 4: Generating historical context...")
+    generate_historical_context(person, ctx)
+
+    ctx.log("\n" + "=" * 50)
+    ctx.log("Step 5: Generating name...")
     generate_name(person, ctx)
 
     ctx.log("\n" + "=" * 50)
-    ctx.log("Step 5: Generating narrative...")
+    ctx.log("Step 6: Generating narrative...")
     generate_narrative(person, ctx)
 
     ctx.log("\n" + "=" * 50)
-    ctx.log("Step 6: Quality check...")
+    ctx.log("Step 7: Quality check...")
     quality_check(person, ctx)
 
     ctx.finish()
