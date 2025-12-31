@@ -24,7 +24,8 @@
       "Bash(time python3:*)",
       "Bash(grep:*)",
       "Bash(git restore:*)",
-      "Bash(done)"
+      "Bash(done)",
+      "Bash(cat:*)"
     ]
   }
 }

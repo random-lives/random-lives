@@ -7,7 +7,7 @@ layout: default
     <h1>{{ page.title }}</h1>
     <div class="life-meta">
       <p><strong>Born:</strong> {{ page.birth_date }}</p>
-      {% if page.death_year != "alive" %}<p><strong>Died:</strong> {{ page.death_date }} (Age {{ page.age_at_death }})</p>{% endif %}
+      {% if page.death_year != "present" %}<p><strong>Died:</strong> {{ page.death_date }} (Age {{ page.age_at_death }})</p>{% endif %}
       {% if page.region %}
         <p><strong>Birthplace:</strong>
           {% if page.subsubregion %}
