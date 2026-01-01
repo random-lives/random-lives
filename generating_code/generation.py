@@ -1293,9 +1293,8 @@ def run_pipeline(person, model="haiku", quiet=True, show_cost=False):
     ctx.log("Step 6: Generating narrative...")
     generate_narrative(person, ctx)
 
-    ctx.log("\n" + "=" * 50)
-    ctx.log("Step 7: Quality check...")
-    quality_check(person, ctx)
+    # QC step removed - wasn't adding enough value to justify the cost.
+    # quality_check() is still available if needed for spot-checking.
 
     ctx.finish()
 
