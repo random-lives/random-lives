@@ -34,6 +34,7 @@ RandomLivesWebsite/
 │   └── *-historical-notes.md  # Example historical notes
 ├── index.html               # Homepage (lists all lives)
 ├── about.md                 # About page
+├── ISSUE_TRACKER.md         # Narrative review patterns and recurring issues
 ├── generating_code/         # Python generation pipeline
 │   ├── person.py            # Person sampling and representation
 │   ├── location.py          # Geographic utilities
@@ -47,7 +48,7 @@ RandomLivesWebsite/
 │   ├── Processed_Data/      # 1.1 GB (NOT in git)
 │   └── *.pkl                # Generated people (NOT in git)
 ├── README.md
-└── PROJECT_DOCS.md          # This file
+└── CLAUDE.md                # This file
 ```
 
 ---
@@ -457,6 +458,12 @@ Each biographical page (`_layouts/life.html`) includes navigation buttons:
 - `generating_code/person.py` - Core person sampling logic
 - `generating_code/generation.py` - LLM generation pipeline
 - `generating_code/export.py` - Export to markdown
+
+### Quality Control
+- `ISSUE_TRACKER.md` - Tracks recurring narrative issues and patterns found during batch review
+  - Check before generating new batches to review current priorities
+  - Update after reviewing generated narratives
+  - Prioritizes issues (high/medium/low) and tracks resolution across batches
 
 ---
 
