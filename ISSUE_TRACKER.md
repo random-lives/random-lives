@@ -13,7 +13,27 @@ This document tracks recurring issues and patterns found during narrative review
 
 ### 🔴 HIGH PRIORITY
 
-#### 1. Hedging Language ("about", "around")
+#### 1. Anachronistic Knowledge (Post-Death Events)
+**Issue**: Narratives sometimes reference events that occurred after the person's death, breaking the temporal perspective. The omniscient narrator should only know facts up to the moment of death.
+
+**Examples**:
+- **Rudra** (died 971 AD, age 84): States his son Govinda "reached fifty" and sons Soma and Hari "lived to forty-five"—but these ages mean they outlived him by 5-10+ years
+- The narrative perspective should be limited to what happened during the person's lifetime
+
+**Fix**:
+- For children/siblings: Only state ages at death if they died **before** or **during** the person's lifetime
+- Use present-focused language: "Govinda, his eldest son, had grown strong and married" (shows status at time of death)
+- Avoid: "X lived to age Y" when Y occurs after the person died
+- Acceptable: "X died at age Y" only if that death occurred before the main character's death
+- For living children at time of death: Describe their current state, not their future lifespans
+
+**Affected narratives**: Rudra (clear violation), Ayyadurai (needs verification), Lataa (needs verification)
+
+**Technical fix needed**: The narrative generation prompt should explicitly instruct the LLM to filter sibling/children ages and only mention deaths that occurred before the person's death date.
+
+---
+
+#### 2. Hedging Language ("about", "around")
 **Issue**: Narratives frequently use hedging words like "about" and "around" for ages and timing, undermining the omniscient narrator voice.
 
 **Examples**:
