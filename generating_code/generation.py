@@ -283,117 +283,98 @@ For "unnamed" category, return empty list: {{"category": "unnamed", "names": []}
 # Narrative Prompts
 # -----------------------------------------------------------------------------
 
-NARRATIVE_STYLE_BASE ='''
-STYLE & VOICE:
-Aim for quiet realism. The main failure mode to avoid: at no level, sentence, paragraph, or structure, should you lay it on thick.
-- Write in plain, contemporary English
-- Do not use subheadings, the entire narrative should read as a continuous text
-- Keep figurative language sparse. Prefer direct, concrete description.
-- Do not employ archaic inversions or poetic grand flourishes; avoid proverbs unless spoken by a character
-- Avoid a moralizing ending or cliche last words, aim for realism
-- Be specific about who did what; avoid vague collectives
-- Avoid these exact phrases: "life went on", "work continued", "people remembered", "X was known for being"
-- Vary sentence rhythm: Mix short and long sentences. Use fragments occasionally.
+NARRATIVE_BASE_PROMPT = '''Write a narrative biography for this historical person.
 
-Trust the reader, be subtler than you think you can. Avoid cliches aggressively.
+TASK:
+- Use the provided name
+- Weave demographic details in naturally
+- Avoid anachronisms
+- Give names to people who recur in the narrative or have ongoing relationships (family, spouse, close associates). Minor figures who appear once can remain unnamed. Use names appropriate to the time, place, and culture.
+- You do not need to include every piece of demographic information. Select the details that matter for this particular life and let the rest go.
 
-NARRATOR AUTHORITY:
-You are omniscient. State facts with confidence. Avoid "likely," "probably," 
-"perhaps," "may have," or "X or Y" constructions. Pick specific details.
+VOICE:
+- Plain contemporary English, no subheadings
+- Omniscient narrator: state facts confidently, no hedging ("likely", "perhaps", "may have")
+- Vary sentence rhythm. Mix lengths. Fragments sometimes.
 
-Exceptions:
- - It is fine to report that the character themselves doesn't know something.
- - If something is historical unknowable and not clearly fictious but could instead be construed as a factual claim, then it is fine to note this
+PROSE STYLE:
+- Write actively and directly. State facts plainly and concretely.
+- Avoid passive, abstract, or distanced descriptions.
+- Include specific details so the reader can see what you mean.
+- No figurative language: no metaphors, similes, or personification.
+- No archaic inversions, poetic flourishes, or proverbs.
+- State what happened. Do not comment on it, interpret it, or frame it poetically.
+- Do not write lines that exist to sound wise or poignant. If a sentence is reaching for literary effect, cut it or replace it with a plain one.
+- Describe what was there, not what wasn't. Avoid defining people or situations by negatives. If a detail only matters as an absence, cut it.
+- Do not introduce or frame events before describing them. Start with the event itself.
 
-HISTORICAL CONTEXT:
- - Include explicit historical framing throughout where relevant to the story, so that the reader can follow
- - Assume the reader is intelligent, well-educated and able to google things if interested, but not an expert on the specific period
+HISTORICAL INTEGRATION:
+- Include historical framing throughout so readers can follow
+- Assume an intelligent reader who can look things up but isn't a specialist
+- Early in the narrative, briefly orient the reader to the political and cultural situation: what polity or power structure governed this area, what ethnic/linguistic group the person belonged to, and how that world related to larger historical forces. Keep it short and concrete—a sentence or two, not a paragraph of background.
 
-PERSONALITY TRAITS:
-Personality must be portrayed realistically through actions, particularly for extremes (below 15th or above 85th percentile). Those with low 
-intelligence or conscientiousness should visibly struggle with tasks others manage; those with low agreeableness or honesty-humility should create friction and face social consequences. Do not bowdlerize—negative traits should cause real problems, not be reframed as hidden strengths.
+PERSONALITY:
+- Show traits through action, not summary
+- Do not name personality traits. Show the behavior and let the reader infer the trait.
+- Extremes (below 15th or above 85th percentile) should be visible
+- Don't soften negative traits—low agreeableness causes friction, low conscientiousness causes real failures, low intelligence shows in limited understanding and poor decision-making
 
-EVENT INTEGRATION:
-Every historical event or contextual detail should do at least one of:
-1. Reveals character (shows a personality trait or relationship dynamic)
-2. Builds causally toward the death (creates conditions that lead to or contextualize it)
-3. Shows social/historical structure in a way that matters to this life
-If an event does none of these things, remove it entirely. Don't include events as context unless they do clear narrative work. When life events include multiple options, choose one specific version and describe it concretely.
+AVOID THESE PHRASES:
+"life went on", "work continued", "people remembered", "was known for", "in those days", "as was common", "like so many", "he suffered", "it was not X, it was Y"
 '''
 
-NARRATIVE_PROMPT_ERA = {
-    'Holocene': """Write a narrative biography for this historical person that brings them to life as a real individual.
-- Use the provided name for this person
-- Include the demographic details in the story naturally
-- Avoid anachronisms
-
-HISTORICAL CONTEXT:
-Consider what was happening in their region during their lifetime:
-- Political changes or conflicts
-- Trade patterns or economic shifts
-- Religious or cultural movements
-- Technological changes affecting their work
-""",
-
-    'Paleolithic': """Write a narrative biography for this Paleolithic hunter-gatherer.
-
-SETTING THE SCENE:
-- Open with the environment and climate (use the "Climate then" vs "Climate now" contrast to orient readers)
-
-WRITING THE PERSON:
-- Use the provided name; if the naming category is "unrecoverable", you may briefly acknowledge the name is a placeholder (e.g., "We'll call her X"), but don't belabor this point
-- Show personality through actions, choices, habits, and relationships - NOT by stating trait levels
-- Avoid mechanical phrasing like "With moderate openness..." or "His low agreeableness suggests..."
-
-WHAT WE CAN'T KNOW:
-- Specific beliefs, rituals, or mythology
-- Language
-- Specific customs or taboos
-"""
-}
-
+# Age determines length and focus
 AGE_PROMPTS = {
     "infant": """
-LENGTH & FOCUS (under age 3):
-- Keep brief: 150-300 words
-- The infant cannot express personality - focus on parents, household, circumstances
-- Can be told entirely from the parents' perspective
-""",
-    "child": """
-LENGTH & FOCUS (age 3-10):
-- Keep relatively brief: 200-400 words
-- Personality can show in limited, age-appropriate ways (a habit, a preference, how they played)
-- Focus on a few vivid moments rather than an arc
-""",
-    "adolescent": """
-LENGTH & FOCUS (age 11-18):
-- Moderate length: 400-700 words
-- Show emerging adult roles and relationships
-- Make sure to express the person's personality through behavior and choices
-- Traits below 15th percentile or above 85th percentile should be particularly visible
+LENGTH: 150-300 words
 
+FOCUS:
+- The infant cannot express personality—focus on parents, household, circumstances
+- Can be told entirely from the parents' perspective
+- A few vivid details about the household and the infant's brief life
 """,
+
+    "child": """
+LENGTH: 200-400 words
+
+FOCUS:
+- Personality can show in limited, age-appropriate ways (a habit, a preference, how they played)
+- Focus on a few vivid moments rather than a full arc
+- Show the household and family context
+""",
+
+    "adolescent": """
+LENGTH: 400-700 words
+
+FOCUS:
+- Show emerging adult roles and relationships
+- Personality should be visible through behavior and choices
+- Include family dynamics and any work or responsibilities
+""",
+
     "adult": """
-LENGTH & FOCUS (age 19+):
-- Full length: 600-1000 words
-- Include community relationships, social networks, and changes in their family life
-- Structure the piece as a realistic mosaic of everyday episodes
-- Make sure to express the person's personality through behavior and choices
-- Traits below 15th percentile or above 85th percentile should be particularly visible
+LENGTH: 600-1000 words
+
+FOCUS:
+- Mosaic of everyday episodes
+- Include relationships and family changes
+- Show work, community, and how they navigated their world
 """
 }
 
+# Alive/dead determines ending only
 ALIVE_PROMPT = """
-ENDING (person still living):
+ENDING:
 - End in an ordinary moment, not on a cliffhanger or dramatic note
-- The narrative must end no later than late 2025 (the current year) - do not project events into the future
-- End with a present-tense snapshot of their current life as of 2025
+- The narrative must end no later than late 2025—do not project events into the future
+- End with a present-tense snapshot of their current life
 """
 
 DEAD_PROMPT = """
-ENDING (person has died):
-- Include the death, but do not dwell on aftermath
-- End concretely, not sentimentally
+ENDING:
+- Include the death concretely
+- Do not dwell on aftermath or sentimentalize
+- Avoid: "breathing slowed", "fever rose/burned", "eyes closed", "slipped away", "grew weaker", "stopped breathing"
 """
 
 # -----------------------------------------------------------------------------
@@ -408,13 +389,12 @@ Person details:
 Original narrative:
 {narrative}
 
-STYLE & VOICE:
-- Aim for quiet realism - don't lay it on thick
-- Plain, contemporary English
-- No subheadings
-- Sparse figurative language. Prefer direct, concrete description.
-- No moralizing endings or clichés
-- Varied sentences, avoid vague language
+PROSE STYLE:
+- Write actively and directly. State facts plainly and concretely.
+- No figurative language: no metaphors, similes, or personification.
+- No archaic inversions, poetic flourishes, or lines reaching for literary effect.
+- Describe what was there, not what wasn't. Cut negatives that only matter as absences.
+- Do not comment on events or interpret them for the reader.
 
 NARRATOR HEDGING:
 Remove uncertain language: "likely," "probably," "perhaps," "X or Y," "some kind of."
@@ -423,15 +403,8 @@ Replace with specific facts. The narrator knows what happened.
 PERSONALITY TRAIT CHECK:
 Verify that extreme personality traits are visible and unvarnished. Negative traits should not be reframed as hidden strengths. Dysfunctional, ineffectual, or difficult people must not be bowdlerized into sympathetic eccentrics.
 
-EVENT INTEGRATION CHECK:
-Review all life events and historical details mentioned in the narrative.
-
-For each event or detail, verify it does at least ONE of these:
-1. Reveals character (shows a personality trait or relationship dynamic)
-2. Builds causally toward the death (creates conditions that lead to or contextualize it)
-3. Shows social/historical structure in a way that matters to this life
-
-If an event does NONE of these things, remove it entirely. If an event is only mentioned but never shown or consequential, remove it.
+BANNED PHRASES:
+Remove or replace: "life went on", "work continued", "people remembered", "was known for", "in those days", "as was common", "like so many", "he suffered", "it was not X, it was Y", "breathing slowed", "fever rose/burned", "eyes closed", "slipped away", "grew weaker", "stopped breathing"
 
 REWRITING:
 Fix all identified issues while maintaining consistency with person_data.
@@ -1195,7 +1168,7 @@ def generate_name(person, ctx):
         })
 
 
-def generate_narrative(person, ctx, extra_prompt=None, replace_prompt=None):
+def generate_narrative(person, ctx, extra_prompt=None):
     """
     Generate biographical narrative.
 
@@ -1203,23 +1176,18 @@ def generate_narrative(person, ctx, extra_prompt=None, replace_prompt=None):
         person: Person object with demographics and events populated
         ctx: GenerationContext
         extra_prompt: Optional string to append to the standard prompt (for experimentation)
-        replace_prompt: Optional string to use instead of the standard prompt (for full control)
 
     Modifies person in place.
     """
     age_cat = person.age_category()
 
-    if replace_prompt:
-        # Full control mode - use provided prompt directly
-        full_prompt = NARRATIVE_PROMPT_ERA[person.era] + replace_prompt + AGE_PROMPTS[age_cat]
-    else:
-        # Standard prompt construction
-        full_prompt = NARRATIVE_PROMPT_ERA[person.era] + NARRATIVE_STYLE_BASE + AGE_PROMPTS[age_cat]
-        full_prompt += ALIVE_PROMPT if person.is_alive() else DEAD_PROMPT
+    # Build prompt: base + age-specific focus + ending
+    full_prompt = NARRATIVE_BASE_PROMPT + AGE_PROMPTS[age_cat]
+    full_prompt += ALIVE_PROMPT if person.is_alive() else DEAD_PROMPT
 
-        # Add any experimental modifications
-        if extra_prompt:
-            full_prompt += "\n\n" + extra_prompt
+    # Add any experimental modifications
+    if extra_prompt:
+        full_prompt += "\n\n" + extra_prompt
 
     # Structured incidents and historical context (already in conversation history)
     if hasattr(person, 'structured_incidents') and person.structured_incidents:
