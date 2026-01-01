@@ -30,8 +30,6 @@ RandomLivesWebsite/
 │   └── example-person.md
 ├── assets/css/
 │   └── style.css            # Site styling
-├── examples/                # Hand-crafted examples for reference
-│   └── *-historical-notes.md  # Example historical notes
 ├── index.html               # Homepage (lists all lives)
 ├── about.md                 # About page
 ├── ISSUE_TRACKER.md         # Narrative review patterns and recurring issues
@@ -261,8 +259,6 @@ Note: `quality_check()` exists but is not run by default—it wasn't adding enou
 - **Elaboration**: Sampled subtypes get concrete descriptions specific to the person's circumstances
 - Calls are batched to reduce token usage (single Tier 2 call for all categories, single elaboration call)
 
-Historical notes are added manually after generation (not automated - LLM-generated notes weren't good enough). See `examples/` for reference notes.
-
 ### Lifestyle Categories
 - **Hunter-Gatherer**: Pre-agricultural (all Paleolithic, some Holocene)
 - **Rural**: Agricultural populations
@@ -478,7 +474,6 @@ Each biographical page (`_layouts/life.html`) includes navigation buttons:
 - [ ] Batch generation and refinement ← current focus
 
 ### Phase 2: Context & Metadata
-- [x] Historical context/notes - manual process using Claude (automated generation wasn't good enough)
 - [x] Tagging system (continent, age buckets, lifestyle, sex)
 - [x] Filtering/search functionality on website
 

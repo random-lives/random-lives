@@ -294,7 +294,9 @@ TASK:
 
 VOICE:
 - Plain contemporary English, no subheadings
-- Omniscient narrator: state facts confidently, no hedging ("likely", "perhaps", "may have")
+- Omniscient narrator: state facts confidently
+- No hedging: Do not write "likely", "probably", "perhaps", "may have", "might have", "could have", "about", "around", "approximately"
+- The demographic data may contain hedging language or present a range of options. Make concrete choices in these cases, rather than leaving things vague
 - Vary sentence rhythm. Mix lengths. Fragments sometimes.
 
 PROSE STYLE:
@@ -320,7 +322,20 @@ PERSONALITY:
 - Don't soften negative traits—low agreeableness causes friction, low conscientiousness causes real failures, low intelligence shows in limited understanding and poor decision-making
 
 AVOID THESE PHRASES:
-"life went on", "work continued", "people remembered", "was known for", "in those days", "as was common", "like so many", "he suffered", "it was not X, it was Y"
+"life went on", "work continued", "people remembered", "was known for", "in those days", "as was common", "like so many", "he suffered", "it was not X, it was Y", "A did not do X. A did Y"
+'''
+
+# Human particularity section (added for adolescents and adults only)
+HUMAN_PARTICULARITY_PROMPT = '''
+HUMAN PARTICULARITY:
+Include 2-4 specific human details that bring the person to life:
+- Friendships: Not just family/spouse, but people they chose to spend time with, who made them laugh or who they trusted
+- Small pleasures: What they enjoyed - a particular food, a time of day, a seasonal activity, hobbies, stories they told, gambling, singing, a place they liked to sit
+- Habits or routines: Morning rituals, how they did their work, where they went when troubled
+- Things that annoyed them or they avoided
+- Sources of quiet pride or satisfaction
+- Humor: Moments of teasing, jokes, laughter
+These details should feel plausible for the time, place, and personality, but must be made specific and idiosyncratic.
 '''
 
 # Age determines length and focus
@@ -1182,7 +1197,13 @@ def generate_narrative(person, ctx, extra_prompt=None):
     age_cat = person.age_category()
 
     # Build prompt: base + age-specific focus + ending
-    full_prompt = NARRATIVE_BASE_PROMPT + AGE_PROMPTS[age_cat]
+    full_prompt = NARRATIVE_BASE_PROMPT
+
+    # Add human particularity section for adolescents and adults only
+    if age_cat in ["adolescent", "adult"]:
+        full_prompt += HUMAN_PARTICULARITY_PROMPT
+
+    full_prompt += AGE_PROMPTS[age_cat]
     full_prompt += ALIVE_PROMPT if person.is_alive() else DEAD_PROMPT
 
     # Add any experimental modifications
