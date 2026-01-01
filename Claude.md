@@ -250,7 +250,8 @@ Each step takes `(person, ctx)` and modifies the person in place:
 4. `generate_historical_context()` - Historical/environmental events affecting the person
 5. `generate_name()` - Era-appropriate naming
 6. `generate_narrative()` - Age-appropriate biography
-7. `quality_check()` - Fix anachronisms and style issues
+
+Note: `quality_check()` exists but is not run by default—it wasn't adding enough value to justify the cost. It can be used for spot-checking samples if needed.
 
 **Two-Tier Incident System** (`generate_structured_incidents()`):
 - **Tier 1**: LLM estimates probabilities for 11 broad categories (victim_violence, perpetrator_violence, severe_economic_crisis, serious_health_incident, etc.) based on demographics and personality
@@ -269,16 +270,17 @@ Historical notes are added manually after generation (not automated - LLM-genera
 Different mortality models apply to each lifestyle.
 
 ### Narrative Style Guidelines
-The project aims for "quiet realism":
-- Plain contemporary English (no archaic inversions)
-- Sparse figurative language (~1 per 600 words)
-- No moralizing endings or clichés
-- Variable sentence rhythm
-- Show personality through repeated actions, not summary
+The project aims for plain, direct prose:
+- Write actively and directly; state facts plainly and concretely
+- No figurative language (no metaphors, similes, personification)
+- No archaic inversions, poetic flourishes, or lines reaching for literary effect
+- Describe what was there, not what wasn't (avoid negatives that only matter as absences)
+- Variable sentence rhythm; mix lengths; fragments sometimes
+- Show personality through action, not summary; don't name traits
 - Length scaled to lifespan: 150-300 words (ages 0-2), 200-400 (3-10), 400-700 (11-18), 600-1000 (19+)
-- Historical context integrated throughout (~20-30%)
-- Omniscient narrator: authoritative, not hedging
-- Specific actors, not vague collectives
+- Early in narrative, orient reader to political/cultural situation (polity, ethnic group, broader forces)
+- Omniscient narrator: state facts confidently, no hedging ("likely", "perhaps", "may have")
+- Give names to recurring people; minor one-off figures can remain unnamed
 
 ---
 
@@ -313,9 +315,9 @@ The Python generation pipeline is organized into focused modules with clear resp
 
 **Generation Pipeline:**
 - `generation.py` (30KB) - LLM narrative generation
-  - Multi-stage pipeline: demographics → events → narrative → QC
-  - Age-appropriate narrative generation
-  - Prompt engineering for historical accuracy
+  - Multi-stage pipeline: demographics → events → narrative
+  - Age-appropriate narrative generation (infant/child/adolescent/adult)
+  - Prompt engineering for historical accuracy and plain prose style
 
 - `llm_utils.py` (12KB) - LLM infrastructure
   - API clients (Anthropic, OpenAI, Google)
@@ -464,7 +466,6 @@ Each biographical page (`_layouts/life.html`) includes navigation buttons:
 - [x] Person sampling and demographics generation
 - [x] Life events generation
 - [x] Narrative generation
-- [x] Quality control pass
 - [x] Jekyll website setup
 - [x] Export script
 - [ ] Batch generation and refinement ← current focus
@@ -576,7 +577,7 @@ The `CostTracker` class in `llm_utils.py` tracks token usage and costs across pr
 - Cached tokens receive 90% discount (charged at 10% of normal input rate)
 - `print_summary()` shows cache hit rate when caching is active
 
-**Estimated cost per person** (GPT-5.2 with caching):
-- ~65K input tokens, ~6.4K output tokens
-- With ~65% cache hit rate: ~$0.13 per person
-- Output tokens dominate cost (~69%) due to 8x higher output rate ($14/M vs $1.75/M input)
+**Estimated cost per person** (GPT-5.2 with caching, without QC):
+- ~14K input tokens, ~3.7K output tokens per narrative generation
+- With prompt caching: ~$0.04-0.05 per person
+- Full pipeline (demographics + events + narrative): ~$0.10-0.15 per person
