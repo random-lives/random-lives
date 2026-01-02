@@ -126,14 +126,14 @@ continent: "Asia"
 #   type: elderly_parents
 ---
 
-Padmavati was born in early April of 890 in a hamlet near Akbarpur in the middle Ganga plain, where power shifted between big kings and local men who collected grain and labor in their name. Her people spoke an Indo-Aryan village tongue, and her household kept to Buddhist lay practice: offerings of lamps and flowers when a monk passed through, and visits to a nearby shrine when the path was dry.
+Padmavati was born in the spring of 890 in a farming village near Akbarpur in the middle Ganga plain, where local headmen answered to shifting overlords tied to the Gurjara-Pratihara and Pala courts. Her household spoke the local Indo-Aryan village speech and lived from a small holding of rain-fed fields, paying grain dues when the collectors came and sending labor when the headman demanded it.
 
-Her father was already dead. Padmavati lived with her mother, Sumana, under the roof of her father’s kin. Her paternal grandmother, Dhanika, sat by the cooking place and gave orders in a thin voice. The family farmed a small holding and kept calves and a few goats; Sumana managed the animals and milk, rising before light to strain it and carry a pot to exchange for grain when there was any to spare.
+Her father was already dead. Her mother, Sita, stayed in the courtyard of her husband’s kin and slept with her daughters on a reed mat. Three girls had been born before Padmavati. The oldest, Anandi, was already helping at the edge of the fields. Another sister had died in infancy. The third, Lalima, would live into old age.
 
-Padmavati ran errands badly. She forgot small instructions and came back without what she had been sent for. She did not argue much when scolded. She stayed close to adults and did what she was told, even when her cousins slipped away to play.
+Padmavati followed the cattle and goats because her mother needed milk and dung and the older women needed hands in the crops. At the small shrine by the track she pressed her palms together when her grandmother said a short verse learned from monks who sometimes passed along the Ganga routes. When pilgrims and traders came through with salt and cloth, she stared and asked questions until she was sent back to the animals.
 
-One monsoon season, at five or six, she helped drive the goats and calves to graze by a pond. She stepped onto a slick bank, went down hard, and her shoulder shifted out. The elders pulled and set it and bound her arm to her side with cloth. For weeks she carried water awkwardly and cried when the strap rubbed.
+One rainy season, when she was six, the pond bank turned slick. She slipped while trying to pull a calf away from the water and her shoulder jumped out of place. The women hauled her home, and an elder pulled the joint and bound her arm tight with cloth and a bark splint. She kept using the hand anyway, clumsy and stubborn, until pain stopped her.
 
-After the next rains her mother took to her bedding with fever and shaking chills. Padmavati fetched water from the well, fanned Sumana through the hot afternoons, and stirred thin rice gruel while older women went to the fields and the men answered calls for road work and grain measures. Dhanika’s legs stiffened. Padmavati helped her to the courtyard each morning, brought chips of firewood, and washed her hands after eating.
+After the monsoon her mother took repeated fevers and sat folded against the wall. Padmavati carried water from the well, fanned flies away, and stirred thin rice gruel while her grandmother, Dharmi, struggled to stand. Padmavati brought her firewood chips and led her into the sunlit yard.
 
-In the dry season of 898 the household’s grain ran short. Padmavati ate little, coughed, and could not finish even watered rice. She died on April 3, a few days before her eighth birthday.
+That winter the grain jar stayed low. Padmavati’s belly swelled and her legs thinned. A cough took hold after a bout of looseness. On April 3, 898, she died on the sleeping mat beside her mother.
