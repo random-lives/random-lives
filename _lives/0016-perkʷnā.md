@@ -75,8 +75,12 @@ continent: "Europe"
 # - M
 ---
 
-Perkʷnā was born at the end of summer in 2184 BC in a high village above the forested valleys east of the Vardar basin. No king ruled there. Households answered to older men, negotiated with neighboring settlements, and kept exchange ties that carried copper tools and ornaments along the ridges. Her family spoke an early Indo-European dialect used across the central Balkans.
+Perkʷnā was born at the end of summer in 2184 BC in a small upland settlement in the forested hills where the valleys run toward the Vardar and Struma. No king ruled there. Households answered to older men, kin ties, and agreements made with neighboring villages, and they traded hides and animals downriver for stone, salt, and bits of metal. Her family spoke an early Indo-European tongue.
 
-Her father, Swenāks, ran the household herds and fields. He walked out before dawn to check the goat pens and the cattle tethered near the edge of the clearing, then turned to the grain plots below the house. His father, Kléwos, lived under the same roof. Kléwos kept the stores and decided when to trade a calf or a skin for a small piece of metal. Perkʷnā’s mother, H₂elā, worked at the hearth. She ground grain on the stone, stirred pots, strained sour milk into a skin bag, and hung damp cloth on a line near the smoke hole. At night she set a pinch of meal and a sip of milk beside the hearth stones and touched Perkʷnā’s forehead with her fingers.
+Her father, Deywos, held the household fields and led the herding. Their yard had sheep and goats, a few cattle, and racks for drying meat. He counted animals by touch in the dark and kept the best ewes separate before lambing. The family’s standing came from animals, stored grain, and the ability to gather people for work.
 
-Perkʷnā cried often after feeding. When the first thin gruel replaced some of her mother’s milk, the stools turned watery. H₂elā boiled water in a clay pot and mixed it again, then carried the child outside for air and wiped her with rags rinsed in cold stream water. Perkʷnā’s belly cramped and she emptied herself again and again. On June 23, 2183 BC, she died in the house, on a bed of folded cloth beside the hearth.
+Perkʷnā’s mother, Alnā, worked close to the hearth. She ground grain on stone, boiled porridge, strained curds in cloth, and carried water uphill. When Perkʷnā cried, Alnā shifted her to the crook of an arm and kept turning the mash with the other hand. The baby slept on skins near the warm stones. Alnā rubbed fat on Perkʷnā’s legs when the nights cooled.
+
+They lived with Deywos’s parents. The old woman kept a small place by the hearth for offerings: a pinch of meal, a sip of milk set down before the first taste.
+
+In early summer of 2183 BC, Perkʷnā began passing thin stools. Alnā stopped giving her diluted goat milk and tried thin gruel and boiled water. The stools turned more frequent. Perkʷnā’s mouth dried and her crying thinned. She died on June 23, before the hay was cut.

@@ -81,10 +81,12 @@ continent: "Africa"
 # - M
 ---
 
-Tifirit was born at midday on February 3, 824 BC, in the date-and-grain settlements along the Drâa valley near Ternata. No king’s garrison stood there. Authority sat with elders and lineage heads, who settled water turns and grazing disputes in Berber speech, while traders from the north brought small weights, bright cloth, and foreign god-names from Phoenician ports.
+Tifirit was born before sunrise in a mud-brick house near the cultivated strip of the Drâa valley, where Amazigh-speaking families lived by small herds and watered plots while distant coastal traders carried Phoenician goods along caravan routes. No king’s officers came to this place. Authority sat with elders, kin ties, and control of wells and channels.
 
-Her father, Ayyur, split his days between a small herd and the fields that fed from a shared canal. Before dawn he checked the goats, then walked to the head of the ditch to clear silt and set stones. When caravans passed, he provided fodder and directions and took salt or a little dyed thread in payment. In the household compound his mother, Taslitt, ground grain, watched the cooking pot, patched skins for watersacks, and kept the youngest animals close.
+Her father, Yidir, had slept in a cloak beside the courtyard wall. He rose to bring water from the nearest spring and to keep the goats quiet. He checked the narrow channel that fed their garden and pulled silt from a break in the bank with his hands. The household held more than his own small family. His widowed mother, Tinhinan, gave orders from a mat in the shade and counted out grain for the morning porridge.
 
-An elder lived with them, Taslitt’s widowed mother Tinmel, who held authority inside the walls and counted the jars. Two children ran between the rooms: Tazrit, a girl already tall enough to carry a small bundle of brush, and Aksel, a boy who followed Ayyur to the animals. Two other children had been buried earlier, both before they spoke.
+Tifirit’s mother, Tasbirt, had carried four pregnancies before. Two children had died small; two lived. The older girl, Tiziri, ground barley on a stone, and the young man, Massin, took a tether and led animals to sparse grazing above the fields.
 
-Tifirit came after a hard labor. Tinmel poured warmed water, laid out clean cloth, and pressed a protective bead into Taslitt’s palm while a woman from the next house cut the cord. By evening Tifirit’s skin turned hot and her cries thinned. Before night ended, she died from infection.
+At the birth, Tasbirt’s sister brought a small lump of resin and a corded amulet that had come from traders passing south, marked with signs copied from Punic hands. She tied it near the baby’s cloth and poured a few drops of oil onto the threshold.
+
+Tifirit cried and then quieted. By midday her skin turned hot and blotched. Tasbirt rinsed her with warmed water and pressed her to the breast again and again. Before the evening meal, Tifirit’s body stiffened. Tasbirt laid her down on folded wool, and Tifirit died there in the house.

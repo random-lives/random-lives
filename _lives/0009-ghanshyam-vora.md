@@ -90,6 +90,69 @@ continent: "Asia"
 # migration: Stayed in/near birth village (no meaningful migration; only routine local
 #   travel)
 # mother_occupation: Seasonal agricultural wage laborer in addition to domestic work
+# narrative_plan:
+#   children: []
+#   incident_placements:
+#   - age: 3
+#     connection: 'Place in late 1900 after a weak/erratic monsoon: transport hire on
+#       the ghat road slackens and the family takes grain on credit from a baniya; this
+#       also worsens nutrition and vulnerability to later illness.'
+#     incident: severe_economic_crisis
+#   - age: 2
+#     connection: Place in mid-to-late 1899 as a severe fever/diarrhea bout lasting
+#       days to weeks; mother reduces outside work to care for him, tightening finances
+#       and setting up the later debt/food-shortage crisis.
+#     incident: serious_health_incident (non-terminal)
+#   life_phases:
+#   - age_range: 0-2
+#     key_events:
+#     - Born 17 Oct 1896 in a very poor Marathi+Gujarati-speaking nuclear household;
+#       father does porter/bullock-cart work tied to the ghat/rail corridor, mother
+#       does domestic work plus seasonal farm labor.
+#     - 'Early temperament: shy/withdrawn and easily distressed; strong attachment to
+#       mother consistent with later separation-anxiety pattern.'
+#     - 'Background disruptions: plague-era public health controls and fear in the wider
+#       region; occasional checks/rumors about inspections when people travel to markets
+#       or rail stops.'
+#     phase: Infancy and toddlerhood in Mawal
+#   - age_range: 2-4
+#     key_events:
+#     - Recurring childhood illness episodes (fever/diarrhea/respiratory bouts) that
+#       he survives, leaving him more anxious and cautious.
+#     - Monsoon variability raises grain prices; household food insecurity becomes more
+#       acute.
+#     - 'Family’s work rhythm: father away for stretches on carting/portering jobs;
+#       mother juggling field labor with childcare.'
+#     phase: Early childhood under strain
+#   - age_range: 4-5
+#     key_events:
+#     - Severe economic squeeze continues; reliance on credit and reduced meals.
+#     - Seasonal cholera risk rises with early rains/contaminated water sources.
+#     - Dies 1 Jul 1902 (age 5) during a cholera episode (terminal event, not counted
+#       as the prior serious-health incident).
+#     phase: Final year
+#   named_characters:
+#   - name: Ghanshyam Vora
+#     prominence: all phases
+#     relationship: self
+#   - name: Raghunath Vora
+#     prominence: all phases, especially ages 2-5 during work shortages
+#     relationship: father (porter/bullock-cart labor on ghat/rail corridor)
+#   - name: Sita Vora
+#     prominence: all phases, especially infancy and illness episodes
+#     relationship: mother (domestic work + seasonal agricultural wage labor)
+#   - name: Kalyanji Sheth
+#     prominence: ages 3-5 during the debt/food crisis
+#     relationship: local baniya/grain creditor (moneylender/shopkeeper)
+#   - name: Vithoba Kamble
+#     prominence: ages 2-5 during mother’s seasonal labor
+#     relationship: neighbor/field contractor who hires women seasonally
+#   - name: Bai Sakharam
+#     prominence: infancy through age 4, around sickness episodes
+#     relationship: older village woman/midwife who advises the mother on childhood
+#       illness and rituals
+#   partners: []
+#   siblings: []
 # number_of_siblings: '0'
 # religion: 'Hindu household puja (Vaishnava-leaning): daily lamp/incense, offerings
 #   to Vishnu/Krishna/Rama and/or local deities; festival fasts; occasional temple visits'
@@ -105,12 +168,14 @@ continent: "Asia"
 #   type: severe_economic_crisis
 ---
 
-Ghanshyam Vora was born on October 17, 1896, in Mawal, in the hills and fields above the road that climbed toward the ghats outside Pune. The area sat under the British Raj in the Bombay Presidency, with police stations, tax records, and inspectors. In his house, people spoke Marathi with neighbors and Gujarati between themselves. A small brass lamp sat on a shelf, and his mother lit it at dusk and set a pinch of sugar before a framed image of Krishna.
+Ghanshyam Vora was born on 17 October 1896 in Mawal, in the hills above the Konkan, under the British Bombay Presidency. His parents spoke Gujarati at home and Marathi outside, and they kept a small wooden shrine in their one-room house where his mother lit a lamp and offered water and a pinch of sugar to Krishna each morning.
 
-His father, Ramesh Vora, carried loads and drove a bullock cart when merchants needed goods hauled between villages and the rail-side markets. His mother, Sita, left before sunrise in peak seasons to weed and cut on other people’s fields, then came back to grind grain, fetch water, and keep the cooking fire alive. Ghanshyam stayed close to her sari end. When she tried to leave him with a neighbor, he clung and yelled until she gave in and took him along. He watched other children play in dust and waited, stiff and quiet, until someone bumped him. Then he shoved back hard.
+His father, Raghunath Vora, earned cash on the road and rail corridor, taking loads on his back at the ghat and walking beside bullock carts when hired. His mother, Sita Vora, cooked, fetched water, and went out for seasonal field work when the village needed hands. They lived as a household of three. Ghanshyam clung to her sari when strangers entered the yard and cried when she stepped onto the path with her sickle.
 
-In the winters, rumors came down the road with the carriers: plague in the cities, men taken away to hospitals, houses searched. Once, officials and local men walked the lanes, asking questions and looking at bodies for swellings. Sita kept Ghanshyam inside and washed the threshold.
+In the winter of 1898, plague rules tightened in market towns. Men came through with questions and sharp orders about sickness and travel. Raghunath returned from a hire near the rail line and refused to let anyone touch the boy when they heard talk of inspection.
 
-After the bad monsoon, grain prices rose. Ramesh stood by the road with other cartmen and got turned away. Weeks passed with little hire. He went to a baniya’s shop and took grain on credit. Sita began to thin the gruel and put fewer rotis on the leaf plate.
+In 1899, Ghanshyam fell ill with a long fever and loose stools. Sita stayed home from the fields to cool him with wet cloth and spoon him watered gruel. When he could stand again he still avoided the other children. If they reached for his clay toy cart, he snatched it back and shoved.
 
-In June 1902, the rains began. Water ran brown in the ditches, and the well mouth stayed crowded. Ghanshyam drank and then began passing watery stools. Sita carried him to the village healer for powders, then to a small dispensary along the road. By July 1, 1902, he was dead.
+The monsoon failed in 1900. Grain prices climbed. Carting work fell off on the ghat road and Raghunath went weeks without hire. Sita went to Kalyanji Sheth’s shop and took grain on credit, promising payment after the next season. Meals shrank to thin millet gruel and a little onion.
+
+In June 1902 the rains brought dirty runoff into the stream below the settlement. Ghanshyam began passing watery stools and vomiting the same day. Sita carried him to Bai Sakharam for herbs and prayers, then to the nearest compounder. He died on 1 July 1902.

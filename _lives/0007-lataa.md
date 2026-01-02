@@ -105,6 +105,133 @@ continent: "Africa"
 #   moves)
 # mother_occupation: Household subsistence manager with limited field labor (more home-based
 #   tasks due to newborn/other constraints)
+# narrative_plan:
+#   children:
+#   - birth_year: 1658
+#     death_age: 0
+#     death_year: 1658
+#     narrative_role: Only child; dies in infancy, leaving the couple childless and
+#       influencing later household structure and caregiving ties.
+#     sex: F
+#   incident_placements:
+#   - age: 19
+#     connection: Occurs during seasonal work gatherings before marriage; the mediation/compensation
+#       pressures him toward a more formal match and affects how elders view his impulsiveness.
+#     incident: premarital_sex
+#   - age: 35
+#     connection: Happens after years of childlessness and routine market socializing;
+#       the settlement drains some household resources and creates a temporary rift
+#       with Hirpha and neighbors.
+#     incident: extramarital_sex
+#   - age: 40
+#     connection: Follows the mid-30s scandal; he rebuilds standing by taking initiative
+#       in communal terrace repair and coordinated field-guarding during poor rains,
+#       earning elder praise.
+#     incident: major_achievement
+#   life_phases:
+#   - age_range: 0-7
+#     key_events:
+#     - Raised in an extended patrilocal household with paternal elders; learns farm
+#       routines and clan etiquette.
+#     - Household experiences repeated infant/toddler deaths (1633, 1636, 1645), shaping
+#       a sense of precariousness and protective rituals.
+#     phase: Early childhood in an extended compound
+#   - age_range: 8-17
+#     key_events:
+#     - Begins heavier field work (weeding, guarding crops, helping with harvest storage)
+#       under father and elders.
+#     - Hears/experiences periodic insecurity from local raiding/feuding and frontier
+#       tensions; learns to travel cautiously to markets.
+#     phase: Later childhood and adolescence
+#   - age_range: 18-27
+#     key_events:
+#     - Premarital relationship during seasonal work gatherings leads to mediation/compensation,
+#       shaping his reputation.
+#     - Marries Hirpha (1654) and establishes a conjugal household near kin; focuses
+#       on rainfed farming and small surplus sales.
+#     - Infant daughter dies (1658), leaving no surviving children.
+#     phase: 'Young adulthood: work, courtship, marriage'
+#   - age_range: 28-44
+#     key_events:
+#     - Continues as subsistence crop farmer; participates in communal labor and local
+#       dispute-settlement.
+#     - Sister (born 1639) dies in 1664, prompting obligations and reinforcing reliance
+#       on spouse rather than descendants.
+#     - Extramarital affair episode triggers elder intervention and settlement payments
+#       (mid-1660s).
+#     - In a poor-rains year he coordinates terrace repair and crop guarding, earning
+#       public praise (early 1670s).
+#     phase: 'Prime adulthood: ordinary standing, community obligations'
+#   - age_range: 45-50
+#     key_events:
+#     - Remains an ordinary commoner; household is just him and Hirpha, with occasional
+#       help/exchange labor with kin.
+#     - Develops worsening cough/weakness consistent with serious respiratory infection;
+#       dies May 1682 with wife present.
+#     phase: Later adulthood and decline
+#   named_characters:
+#   - name: Lataa
+#     prominence: all phases
+#     relationship: self
+#   - name: Hirpha
+#     prominence: young adulthood through decline (ages 23-50)
+#     relationship: wife
+#   - name: Mammoo
+#     prominence: early childhood through young adulthood (ages 0-25)
+#     relationship: father (crop farmer)
+#   - name: Biqilaa
+#     prominence: early childhood through young adulthood (ages 0-25)
+#     relationship: mother (household manager, home-based)
+#   - name: Gurmeessaa
+#     prominence: early childhood and adolescence (ages 0-15)
+#     relationship: paternal grandfather/compound elder
+#   - name: Caaltuu
+#     prominence: adolescence and early adulthood, then death in prime adulthood (ages
+#       8-33)
+#     relationship: younger sister (born 1639, died 1664)
+#   - name: Obbo Jaaloo
+#     prominence: young adulthood (premarital mediation) and prime adulthood (affair
+#       settlement; later praise for terrace effort)
+#     relationship: local elder/mediator
+#   - name: Sadaaq
+#     prominence: prime adulthood (age ~35)
+#     relationship: married woman involved in extramarital affair
+#   - name: Dachaasa
+#     prominence: prime adulthood (terrace repair/field guarding in early 1670s)
+#     relationship: neighbor farmer and work-party leader
+#   partners:
+#   - name: Hirpha
+#     narrative_role: Wife in a monogamous conjugal household; relationship is practical
+#       and affectionate but strained at times by Lataa's impulsiveness and later by
+#       child loss; she becomes central during his final respiratory illness.
+#     relationship_end_year: 1682
+#     relationship_start_year: 1654
+#   siblings:
+#   - birth_year: 1633
+#     death_age: 0
+#     death_year: 1633
+#     narrative_role: Mentioned in early-childhood memories as an infant who died soon
+#       after birth; shapes mother's caution and household grief.
+#     sex: F
+#   - birth_year: 1636
+#     death_age: 0
+#     death_year: 1636
+#     narrative_role: Briefly noted as another infant loss; used to show the fragility
+#       of life and why elders were protective of surviving children.
+#     sex: M
+#   - birth_year: 1639
+#     death_age: 25
+#     death_year: 1664
+#     narrative_role: Closest surviving sibling; appears in adolescence and early adulthood,
+#       marries out; her illness/death in 1664 becomes a turning point and family obligation
+#       moment.
+#     sex: F
+#   - birth_year: 1642
+#     death_age: 3
+#     death_year: 1645
+#     narrative_role: Appears in a few early household scenes as a toddler; his death
+#       is part of the remembered run of childhood sickness.
+#     sex: M
 # number_of_children: '1'
 # number_of_siblings: '4'
 # occupation: Subsistence crop farmer (household head/worker; rainfed cultivation, surplus
@@ -154,30 +281,28 @@ continent: "Africa"
 #   type: extramarital_sex
 ---
 
-Lataa was born on August 28, 1631, in the high country west of Shewa, where Oromo-speaking communities lived by grain fields and small herds and measured power through elders, assemblies, and ties of kin. The imperial court far to the north in Gondar sent armies and demanded tribute when it could, and Shewa sat in the middle of shifting control, new settlements, and feud.
+Lataa was born on August 28, 1631, in the wooded highlands of Shewa, in a rural Oromo community where authority came from elders and local leaders, and where the distant Christian court at Gondar mattered mainly when armed men or tax demands reached the frontier. His family compound stood on sloping land above small fields cut into the hillside. The household was extended and patrilocal. His grandfather Gurmeessaa sat close to the gate most mornings, watching who came and went, and his father Mammoo measured the seasons by the feel of the soil in his hands.
 
-He entered an extended homestead. His father, Boru, held the plow rights to several strips of rainfed land and kept only a few cattle, enough to lend an ox for a day but not enough to spare one. His mother, Sartu, stayed close to the compound with infants and grinding stones, taking field work only when hands were short. Lataa’s earliest memory was the sound of grain being pounded and the smell of damp earth after the first rains. He slept in a hut with other children while the older men talked late beside the fire and argued over boundary stones and marriage payments.
+Lataa grew up hearing Oromo speech only. Daily life followed the farm. Before sunrise his mother Biqilaa lit the cooking fire and set out porridge. She kept her work close to the house, grinding grain, watching small children, and tending the stores. Lataa learned to carry water, to sweep the yard clean of husks, to keep birds from the drying grain. When he was small, he slept with other children on a hide spread near the hearth. When Gurmeessaa spoke, Lataa listened, because the old man decided quarrels over goats and boundary stones, and he expected obedience.
 
-He grew up as the oldest of five. His next sister died before she learned to sit up, and the family buried her near the edge of the fields, where a thorn fence kept animals off the small mound. A brother came after her and lived. Another sister lived long enough to carry water and help with grinding, and then she died at twenty-five. The youngest brother died at three, after a fast sickness that left him quiet and limp. Those deaths narrowed the household. The living gathered closer; the adults watched children’s coughs and fevers and counted sacks of grain more carefully.
+The compound carried grief early. In 1633 Biqilaa bore a daughter who died in the same year. In 1636 a son was born and died before he could be carried far from the house. Biqilaa washed the infants and wailed with the women, and Mammoo slaughtered a small animal for a household rite to Waaqa. Lataa remembered the smell of smoke and blood in the yard and the way his grandfather spoke in a low voice when strangers were present. In 1639 a sister lived, Caaltuu, and the household kept her close. In 1642 another son was born, and for a time Lataa carried the boy on his hip and made faces to stop his crying. The boy died in 1645 at age three, after a short sickness that left him limp and hot. After that, Biqilaa pressed her palm to Lataa’s forehead when he coughed, and she did not let him sleep outdoors when nights turned cold.
 
-From early boyhood Lataa pushed himself into men’s talk. He hovered near visitors and repeated their words later, reshaping them into sharper stories. He learned fast when something interested him. When it did not, he left it half done. His father tried to keep him beside the fields at weeding time and in the threshing circle, but Lataa drifted toward gatherings: an age-set meeting, a cattle dispute, a beer-drinking at a neighbor’s house. He liked the heat of a crowd and the fast exchange of insult and laughter. He teased his cousin Biftu until Biftu threw chaff at him and chased him between the huts.
+By the time he reached ten, Lataa worked full days. Mammoo’s fields produced grain for the household and a small surplus for market. Lataa drove a stick into the soil to open holes for seed. He weeded on his knees until his hands cramped. When the grain headed, he spent long hours on a field edge with a sling and stones, snapping them toward birds. He liked the quiet of those watches, and he liked roasted grain taken from the fire and eaten with salt. Gurmeessaa took him to see elders when disputes were settled. Men spoke sharply and then sat to drink and accept a decision. Lataa listened and learned who held grudges.
 
-Raiding and feuding touched the area more than once in Lataa’s youth. Herds went missing at night. Men slept with spears close and moved cattle into tighter enclosures. Travelers kept to the larger paths and went in groups to market. When word came that armed men had been seen on a ridge, work stopped and watchers climbed to high points. Lataa ran with them and stared hard into the distance, trying to pick out movement among trees. He carried messages for elders because he could talk fast and remember what had been said.
+Raiding and feuding touched the area through his teens. Men came back with stories of cattle taken and returned, of night alarms, of short skirmishes near paths. When Lataa traveled to a periodic market with Mammoo, they carried little and moved in a group, keeping to open ground. The market brought news as well as goods: salt slabs, cloth, iron, and coffee moving from one hand to another. Traders told of caravans and new demands from local leaders tied to the imperial world beyond Shewa. Once, in the 1640s, Mammoo helped guard the grain stores at night after rumors of a raid. Lataa was allowed to sit with the men and hold a spear longer than his arm. He watched the dark tree line and tried to stay awake.
 
-As a teenager he took part in seasonal work gatherings where people from nearby homesteads cut and bundled grain together. In those crowded days he began a relationship with a girl named Nani. They met behind stacked stalks and again near a spring after sunset. They were careful until someone saw them slipping away. Nani’s family confronted his father. Boru’s voice stayed steady, but his hands shook when he counted out the compensation. Elders sat and made both families speak in turn. Lataa listened with a straight face and then argued back outside the meeting, louder than he should have, until his uncle dragged him aside and told him to stop talking. The settlement held. Nani married elsewhere.
+In 1650, when Lataa was nineteen, he joined a seasonal work party at a nearby homestead for threshing and hauling. The days were loud with shouting and joking, and at night young people lingered while beer was passed. He began sleeping with a girl there, privately and by consent. Her kin found out. Talk moved fast across a few hills. The girl’s father demanded satisfaction and threatened violence. Obbo Jaaloo, an elder with a firm voice and a talent for ending disputes, called both families to sit. Lataa came with his father and grandfather. He answered questions bluntly and made matters worse before the elder cut him off. The settlement ended with Lataa’s family handing over goods as compensation, and the matter closed in public, though people kept their own opinions.
 
-In his twenties Lataa took a wife, Gammachi, from a nearby neighborhood. The marriage brought him into a new set of in-laws and obligations. He built a separate hut within the larger compound, close enough that older kin still walked through at will. He enjoyed the days when relatives gathered for coffee and roasted grain, and he liked being the one to fill cups and start jokes. He also left tasks unfinished and then tried to talk his way out of blame. When a fence sagged and goats broke into a patch of young plants, he talked loudly about the neighbor’s animals and the poor condition of the wood, and his father silently rebuilt the fence with him.
+That episode pushed Mammoo to insist on a proper marriage. In 1654 Lataa married Hirpha from a neighboring community. The marriage formed a new conjugal household close to his kin, with a separate hut and its own grain store. Hirpha worked steadily and kept careful track of what remained in the pots and baskets. Lataa did not match her pace. He left tools where he used them, came late to morning tasks, and talked too long with friends when work waited. He liked gathering under a tree with Dachaasa and other men after field work, listening to gossip from the market and laughing at coarse jokes. He enjoyed beer more than he admitted to his wife.
 
-Markets grew busier during his adulthood. Salt bars came through in packs. Cloth from distant places appeared more often. People spoke of coffee moving in larger quantities and of slaves taken in wars and sold onward. Lataa went to periodic markets when he could. He liked the bargaining, the noise, the small dramas at each stall. He carried grain or honey beer to exchange and returned with metal points, a length of cloth for Gammachi, or a packet of salt. He also returned with rumors: a new conflict to the north, a movement of soldiers, the name of a man who had become powerful.
+In 1658 Hirpha bore a daughter. The infant died the same year, before she grew strong. Hirpha kept the child’s cloth close for days. Lataa avoided the house and lingered at the fields. When he returned, he expected food and quiet. Hirpha gave him both, but her face stayed tight when he spoke carelessly. With no child to bind them to a larger household of their own, they leaned on exchange labor with relatives. When older kin needed help, they went.
 
-In his mid-thirties he began an affair with a married woman named Haro, from another neighborhood. It started at a market day and continued at beer gatherings. Lataa was careless with his words and generous with drink. People noticed. Rumors reached Haro’s husband, and then elders called Lataa in. They did not shout. They spoke slowly, weighing each sentence, and made him answer in front of men he needed for field labor and for protection. Lataa argued and tried to make it sound like talk had become accusation. The elders cut through him and named the settlement. He paid goods—grain and a young animal—and he ended the liaison. He kept going to markets, but he avoided Haro’s neighborhood and chose a different path when he saw her husband.
+In 1664 Caaltuu died at age twenty-five. She had married out and lived within walking distance, and Lataa helped carry grain and water during her illness. After her death, obligations fell on surviving kin: visits, small gifts, and work for the household she left behind. Lataa met those duties because elders watched, and because Gurmeessaa demanded it.
 
-Gammachi gave birth once, a daughter, Daya. The child lived only a short time. Gammachi wrapped her tightly and sat apart, and Lataa moved restlessly between hut and yard, snapping at anyone who tried to speak softly to him. After the burial, he and Gammachi remained together, two people in one compound, without a child’s noise to structure the day. Their household stayed small even when they later lived alone, apart from the larger kin compound.
+In 1666, at age thirty-five, Lataa’s impatience with routine and his taste for attention led to trouble again. At a market day gathering, after beer had been passed through several hands, he began an affair with Sadaaq, a married woman from another neighborhood. They met away from the main paths and thought the matter would stay hidden. It did not. Rumors reached her husband’s kin, and threats followed. Obbo Jaaloo intervened again, angry that Lataa forced elders to spend time on preventable disputes. The settlement required Lataa to provide goods to end the liaison. He brought the payment with clenched jaw, and for months afterward Hirpha spoke to him in short sentences and kept her own counsel.
 
-In his late thirties the rains failed. The first showers came late and then stopped. Seed sat in dry soil. Men walked the fields and pressed clods in their hands, then watched the sky. Grain prices climbed at market. Quarrels sharpened because everyone saw loss ahead. An old terrace above several fields began to break where runoff cut into it. Lataa walked up and down the slope, tracing the line of damage, then went house to house and insisted on a joint repair. He did not ask once; he returned and argued, and then he laughed and shamed men who tried to delay. He set teams for hauling stones and for digging, and he arranged a watch on the ripening grain once the rains returned in uneven bursts. He placed younger men at the edges at night and paired them so one could doze while the other listened. The terrace held through the next storms, and the planted strips below produced enough to keep people from stripping seed grain. Elders praised him in public at a gathering, naming his effort and the order he had imposed.
+In 1671 the rains came poorly, late and uneven. Hillsides shed water in sudden bursts and cut channels through fields. Seed sprouted thin. Grain prices rose at the market, and talk of hunger spread. Lataa reacted differently than people expected after his scandal. He called neighbors to the eroded terrace line above their fields. He put men into groups, set a schedule, and kept them working until the stones held. He organized staggered planting so not all fields ripened at once, and he arranged night watches to guard the grain when it finally stood. He walked the edges at dusk with Dachaasa, checking where boys slept in the field huts and where stones for slings were stored. When the harvest came, it was smaller than in good years but not ruined. Elders praised him in public, and Obbo Jaaloo said his name without contempt.
 
-After that year he carried himself differently in meetings. He talked first. He offered plans. He still avoided long, patient routines. He left stacks of tools where others had to step around them. He forgot promised visits. He missed days of weeding and then arrived loud and energetic as if his presence erased the delay. Some men enjoyed him; others stayed wary and counted their goats after he left.
+The 1670s brought more trade through markets and more talk of distant power. Men spoke of imperial pressures and armed movements on the frontier. Lataa stayed in his local area. He farmed the same slopes, argued over the same boundaries, and attended the same gatherings. He never learned to read or write. He counted measures of grain by eye and memory, and he could recall who owed him labor from past exchanges. He enjoyed sitting on a low stool outside his hut in the late afternoon, chewing roasted grain and teasing Dachaasa about the size of his oxen.
 
-By 1682 his household was just Lataa and Gammachi in their own hut and yard. Early in the rainy season he developed a hard cough. It worsened over days and then weeks. He kept going out at first, insisting on walking to the edge of the fields, but he stopped to catch breath and leaned on his staff. He began sleeping upright against rolled hides. Gammachi heated water and brought him thick porridge, and he waved it away, then asked for it again later.
-
-On May 29, 1682, the cough turned wet and relentless. He could not rise from his bedding. Gammachi sent word to nearby kin, and an elder came and spoke to him quietly. Lataa died that day in his hut, with the smell of damp earth coming in through the doorway and the sound of people moving in the yard.
+In early 1682 Lataa developed a hard cough. It deepened into chest pain and short breath that left him stopping on small rises. Hirpha brewed hot infusions and kept the fire burning, but the illness held. On May 29, 1682, in his hut near Dano in Shewa, Lataa died at age fifty, with Hirpha beside him and the sound of wind in the trees outside.

@@ -83,6 +83,92 @@ continent: "Africa"
 #   support)
 # mother_occupation: Unemployed/not working regularly (surviving via child support grant/kin
 #   help; occasional piece jobs)
+# narrative_plan:
+#   children: []
+#   incident_placements:
+#   - age: 3
+#     connection: Occurs in Johannesburg while mother is out doing a short-term piece
+#       job; loss of phone disrupts grant communications and accelerates the decision
+#       to seek family support outside Gauteng.
+#     incident: victim_property_crime
+#   - age: 4
+#     connection: After relocating to North West, mother disengages from the old Johannesburg
+#       Pentecostal church network and begins attending a local prophecy/healing-focused
+#       congregation; this becomes part of the new routine and support-seeking.
+#     incident: religious_change
+#   - age: 4
+#     connection: In North West, a Child Support Grant/payment interruption plus loss
+#       of occasional piecework leads to skipped meals and temporary doubling-up with
+#       relatives; the crisis frames the household’s dependence on kin and church aid.
+#     incident: severe_economic_crisis
+#   life_phases:
+#   - age_range: 0-3
+#     key_events:
+#     - Born 9 Apr 2020 in Johannesburg during COVID-era restrictions; early clinic
+#       visits and paperwork under lockdown conditions
+#     - Raised by mother in extreme poverty; reliance on Child Support Grant and kin
+#       support; frequent load shedding shaping evenings/meals
+#     - Limited early childhood stimulation and intermittent informal childcare while
+#       mother searches for piece jobs
+#     phase: Early childhood (Johannesburg, mother-only household)
+#   - age_range: 3-5
+#     key_events:
+#     - Living in crowded yard/communal housing in Johannesburg; increased exposure
+#       to neighborhood insecurity
+#     - Decision to leave Gauteng for North West to access extended family support and
+#       cheaper living
+#     - Shift in religious routine as mother changes congregations after the move
+#     phase: Preschool years and instability (Johannesburg to North West transition)
+#   - age_range: 5-8
+#     key_events:
+#     - Starts Grade R/Grade 1 in North West with mixed English/Setswana use; literacy
+#       remains emergent at narrative end
+#     - Household strategies for food and electricity (borrowing, sharing, cooking during
+#       power-on windows)
+#     - Ongoing instability but gradual re-connection to schooling, clinic care, and
+#       community
+#     phase: Early school-age (settling in new province)
+#   - age_range: 9-18
+#     key_events:
+#     - 'TBD in later narrative: educational trajectory under resource constraints;
+#       peer group and church youth influence'
+#     - Potential increased responsibilities at home (errands, caring for younger relatives
+#       if present in household)
+#     - Navigating crime exposure and aspirations in a high-unemployment environment
+#     phase: Later childhood/adolescence
+#   - age_range: 19-60
+#     key_events:
+#     - 'TBD: entry into informal or low-wage formal labor market; possible return migration
+#       to Gauteng for work'
+#     - Formation of partnerships/household of his own (unknown/undecided)
+#     - Religious involvement potentially fluctuating with work and housing stability
+#     phase: Adult life
+#   - age_range: 61+
+#     key_events:
+#     - Not applicable yet (person alive and very young); leave open for future expansion
+#     phase: Old age/decline
+#   named_characters:
+#   - name: Refilwe Matlou
+#     prominence: all phases (focus on ages 0-6)
+#     relationship: self
+#   - name: Mmago Refilwe (mother; given name to be chosen later if needed)
+#     prominence: early childhood through early school-age
+#     relationship: mother/caregiver
+#   - name: Rre Refilwe (father; name unknown; non-resident)
+#     prominence: background presence in early childhood; mentioned around questions
+#       of support/identity
+#     relationship: biological father, largely absent
+#   - name: Koko (maternal grandmother; name to be chosen later)
+#     prominence: ages 4-8, central during economic crisis and housing crowding
+#     relationship: key extended-family support in North West
+#   - name: Malome (maternal uncle; name to be chosen later)
+#     prominence: ages 4-8, associated with crowded home and household dynamics
+#     relationship: extended family member in North West household
+#   - name: Mfundisi/Prophet (local church leader; name to be chosen later)
+#     prominence: ages 4-8, linked to religious change and community aid
+#     relationship: religious authority figure in new congregation
+#   partners: []
+#   siblings: []
 # number_of_siblings: '0'
 # religion: Pentecostal/charismatic Christianity (lively services; prayer meetings;
 #   healing/deliverance focus; frequent church involvement)
@@ -117,14 +203,12 @@ continent: "Africa"
 #   type: religious_change
 ---
 
-Refilwe Matlou was born on 9 April 2020 in Johannesburg, in Gauteng, under South Africa’s constitutional government, in a Setswana-speaking family that used English in daily life. His mother, Dineo Matlou, named him for a blessing and registered the birth while COVID-19 rules kept clinic queues long and taxi ranks half shut.
+Refilwe Matlou was born on 9 April 2020 in Johannesburg, in Gauteng, under the government of South Africa’s constitutional republic. His mother spoke Setswana at home and used English whenever she dealt with clinics, schools, and officials. The country shut down for COVID-19 soon after his birth. His mother, Naledi Matlou, carried him to the local clinic with a cloth mask on her face and a folded card for his vaccinations in her pocket. Lines moved slowly. Taxis ran less often. Money came in fragments: a child support grant, small gifts from relatives, and days when Naledi found piece jobs.
 
-Dineo raised him alone in a crowded yard of rooms behind a main house. She kept him close when she went to collect water, buy bread, or queue for a grant payment. In 2021, when unrest and looting shook parts of the country, the shop near their place started closing earlier, and Dineo began buying what she could in the morning. Power cuts became normal. Some nights the light went out in the middle of a children’s program, and Dineo cooked on a small stove when she could get paraffin.
+Load shedding shaped their nights. When the power cut, Naledi cooked quickly on a single hotplate or lit a candle and watched the phone battery. Refilwe learned the rhythm of it, calling out “lights!” when the bulbs came back. In July 2021, news of unrest and looting filled the radio in the yard where they rented a room, and shop shelves stayed thin for weeks.
 
-Refilwe talked early and wanted to be where adults were speaking. He followed conversations, cut in with questions, and grew restless when he had to sit still. At three, he learned letters from a poster and wrote the first R of his name on scrap paper. He liked church days because there were drums, clapping, and people who greeted him loudly. Dineo took him to a Pentecostal church in Johannesburg where the pastor prayed for jobs and sickness.
+In 2023, when Refilwe was three, Naledi left before sunrise to scrub floors at a house in the suburbs. She returned to a broken door latch. Their phone was gone, along with mealie meal and a bottle of paraffin. For weeks she borrowed a neighbor’s phone to ask about the grant and to answer calls from someone offering more cleaning work. Refilwe followed her from tap to washing line, repeating the new rules: door closed, bucket inside.
 
-In 2023, Dineo left him with a neighbor while she did a short piece job. That afternoon their room was broken into. Someone took her phone and the small bag of food and paraffin. For weeks she borrowed phones to check on grant messages and called people back only when airtime appeared.
+Naledi moved them to North West in 2024 to stay with her mother, Mmaitshepiso, in a crowded house near Rustenburg. She stopped attending her old Johannesburg Pentecostal church and began going to a small congregation led by Prophet Kabelo, where people queued for prayer after singing. Refilwe sat on a plastic chair and copied the clapping.
 
-Dineo moved with Refilwe to North West to stay near her mother, MmaSeipati. Late in 2024 a payment interruption and the end of piecework pushed them into skipped meals and a short spell sleeping in MmaSeipati’s packed house. Dineo stopped going to her old church and began visiting a local congregation where services turned on prophecies and healing prayers, sometimes missing Sundays when taxis cost too much.
-
-In late 2025 Refilwe sits on a concrete step outside the house in North West, tracing letters in dust with a stick while Dineo cooks inside and the power flickers off again.
+In 2025 the grant payment failed and Naledi’s piece jobs dried up. They left a rented back room and slept in Mmaitshepiso’s front room with cousins on the floor, eating soft pap when there was enough. By late 2025 Refilwe goes to Grade R some days, recognizes letters, writes his name in careful strokes, and comes home before dusk when the power is on.

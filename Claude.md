@@ -195,6 +195,7 @@ person.structured_incidents # List of life incidents (two-tier probabilistic sam
 person.historical_context  # List of historical/environmental events affecting the person
 person.name                # Generated name
 person.naming_category     # 'attested', 'inferable', 'unrecoverable', or 'unnamed'
+person.narrative_plan      # Timeline/family structure for narrative consistency
 person.narrative           # Biographical text
 person.messages            # Full LLM conversation history
 ```
@@ -248,9 +249,21 @@ Each step takes `(person, ctx)` and modifies the person in place:
 3. `generate_structured_incidents()` - Two-tier probabilistic incident sampling (see below)
 4. `generate_historical_context()` - Historical/environmental events affecting the person
 5. `generate_name()` - Era-appropriate naming
-6. `generate_narrative()` - Age-appropriate biography
+6. `generate_narrative_plan()` - Timeline/family structure planning (see below)
+7. `generate_narrative()` - Age-appropriate biography
 
 Note: `quality_check()` exists but is not run by default—it wasn't adding enough value to justify the cost. It can be used for spot-checking samples if needed.
+
+**Narrative Planning** (`generate_narrative_plan()`):
+Before writing the narrative, the LLM creates a detailed timeline ensuring temporal consistency:
+- **Siblings**: Birth years, death years, when they appear in the narrative (respects birth_order_position)
+- **Partners**: Relationship start/end years, nature of relationship
+- **Children**: Birth years, death years, narrative role
+- **Life phases**: Age ranges with key events for each phase
+- **Incident placements**: Exactly when each structured incident occurs
+- **Named characters**: Who gets named and when they're prominent
+
+This prevents temporal logic errors like siblings appearing at impossible ages or children mentioned before they could exist. Skipped for very short lives (age < 3).
 
 **Two-Tier Incident System** (`generate_structured_incidents()`):
 - **Tier 1**: LLM estimates probabilities for 11 broad categories (victim_violence, perpetrator_violence, severe_economic_crisis, serious_health_incident, etc.) based on demographics and personality
@@ -312,7 +325,8 @@ The Python generation pipeline is organized into focused modules with clear resp
 
 **Generation Pipeline:**
 - `generation.py` (30KB) - LLM narrative generation
-  - Multi-stage pipeline: demographics → events → narrative
+  - Multi-stage pipeline: demographics → incidents → historical_context → name → narrative_plan → narrative
+  - Narrative planning stage ensures temporal consistency (sibling/child timelines)
   - Age-appropriate narrative generation (infant/child/adolescent/adult)
   - Prompt engineering for historical accuracy and plain prose style
 

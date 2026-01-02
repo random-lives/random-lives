@@ -103,6 +103,145 @@ continent: "Asia"
 #   routine seasonal foraging range)
 # mother_occupation: Domestic labor + gathering/foraging + small-plot cultivation (subsistence
 #   co-producer)
+# narrative_plan:
+#   children:
+#   - birth_year: 216
+#     death_age: 40
+#     death_year: 256
+#     narrative_role: Eldest daughter; old enough to remember her father and later becomes
+#       a key worker in the household economy.
+#     sex: F
+#   - birth_year: 219
+#     death_age: 2
+#     death_year: 221
+#     narrative_role: Dies in early childhood (likely fever/diarrhea season); prompts
+#       mourning and protective household rites.
+#     sex: F
+#   - birth_year: 223
+#     death_age: 29
+#     death_year: 252
+#     narrative_role: Youngest surviving daughter; grows up during years of heavier
+#       corvée/tribute pressures and increased trade contact.
+#     sex: F
+#   incident_placements:
+#   - age: 28
+#     connection: Occurs while gathering bamboo/cane for craft work; forces dependence
+#       on wife and older brother for several months and heightens household concern
+#       about infection/fever seasons.
+#     incident: serious_accident
+#   - age: 34
+#     connection: Takes place during a monsoon flood-disruption period when households
+#       are crowded and vigilant; loss of knife/awl directly reduces his earning/exchange
+#       capacity and increases reliance on joint-household support.
+#     incident: victim_property_crime
+#   life_phases:
+#   - age_range: 0-6
+#     key_events:
+#     - Born into a three-generation stilt-house household; grandmother/grandfather
+#       present and involved in food storage and ritual observances.
+#     - Household grief and ritual response to the death of his older sister (197) and
+#       later the toddler sister (200).
+#     - Seasonal monsoon floods and fever seasons shape daily routines (raised platforms,
+#       smoky fires, mosquito avoidance).
+#     phase: Early childhood
+#   - age_range: 7-17
+#     key_events:
+#     - Learns cane/bamboo handling and basic craft tasks from older brother and other
+#       kin; develops a reputation for quiet focus.
+#     - Participates in foraging and small-plot cultivation; experiences periodic flood
+#       displacement to higher ground.
+#     - Avoidant temperament becomes socially noticeable—prefers solitary work over
+#       communal debating/feasting.
+#     phase: Later childhood / adolescence
+#   - age_range: 18-34
+#     key_events:
+#     - Increased local chief/lineage demands for labor/tribute begin to press on the
+#       household; Baska’s crafts become exchange goods for salt/iron.
+#     - Marriage to Jomi (214) and establishment of a nuclear unit within a larger joint
+#       household compound.
+#     - Births of daughters (216, 219, 223) and the loss of the middle child (221) amid
+#       heavy disease seasons.
+#     phase: Adult life (work, family, community)
+#   - age_range: 35-40
+#     key_events:
+#     - Ongoing monsoon flooding and occasional lean years; reliance on joint household
+#       pooling and craft exchange.
+#     - Theft incident during monsoon years strains trust with neighboring settlement.
+#     - Terminal respiratory illness in early 235 following a wet season, leading to
+#       death at 40.
+#     phase: Later adulthood / decline
+#   named_characters:
+#   - name: Baska
+#     prominence: all phases
+#     relationship: self
+#   - name: Jomi
+#     prominence: adult life and later adulthood
+#     relationship: wife
+#   - name: Duli
+#     prominence: early childhood (as caregiver) and adult life (as senior female kin)
+#     relationship: older sister (born 185)
+#   - name: Reno
+#     prominence: early childhood (death/mourning memory)
+#     relationship: older sister (born 188, died 197)
+#   - name: Karam
+#     prominence: later childhood onward (household decision-maker, work organizer)
+#     relationship: older brother (born 190)
+#   - name: Hinsa
+#     prominence: later adulthood (child old enough to interact with father)
+#     relationship: eldest daughter (born 216)
+#   - name: Mera
+#     prominence: later adulthood (young child during his final years)
+#     relationship: youngest daughter (born 223)
+#   partners:
+#   - name: Jomi
+#     narrative_role: Wife in a largely cooperative, practical marriage arranged by
+#       kin; she manages much of daily household exchange and childcare while Baska
+#       focuses on craft work.
+#     relationship_end_year: 235
+#     relationship_start_year: 214
+#   siblings:
+#   - birth_year: 185
+#     death_age: 55
+#     death_year: 240
+#     narrative_role: Eldest sibling; helps mother with childcare and gathering in Baska’s
+#       early years; later an adult ally in the joint household network.
+#     sex: F
+#   - birth_year: 188
+#     death_age: 9
+#     death_year: 197
+#     narrative_role: Dies when Baska is a small child; remembered through household
+#       mourning rites and ancestor/ghost-appeasement practices.
+#     sex: F
+#   - birth_year: 190
+#     death_age: 70
+#     death_year: 260
+#     narrative_role: Older brother who becomes the main senior male in the joint household;
+#       key in decisions about labor obligations and exchange.
+#     sex: M
+#   - birth_year: 192
+#     death_age: 0
+#     death_year: 192
+#     narrative_role: Stillbirth/infant death before Baska’s birth; referenced in family
+#       talk and ritual precautions around pregnancy.
+#     sex: M
+#   - birth_year: 194
+#     death_age: 40
+#     death_year: 235
+#     narrative_role: Baska; quiet/avoidant craft specialist; stays local and works
+#       in cane/bamboo craft within the joint household.
+#     sex: M
+#   - birth_year: 196
+#     death_age: 0
+#     death_year: 196
+#     narrative_role: Infant death after Baska; reinforces household anxiety around
+#       illness and post-monsoon fevers.
+#     sex: M
+#   - birth_year: 199
+#     death_age: 1
+#     death_year: 200
+#     narrative_role: Dies in toddlerhood; appears in narrative as a brief presence
+#       during Baska’s early childhood, then as another loss shaping family rituals.
+#     sex: F
 # number_of_children: '3'
 # number_of_siblings: '6'
 # occupation: Craft specialist within village economy (weaving, basketry, pottery, woodwork)
@@ -144,32 +283,34 @@ continent: "Asia"
 #   type: serious_accident
 ---
 
-Baska was born on a cool-season morning in a stilt house above damp ground near the braided waters of the Brahmaputra’s tributaries, in the low forests of what is now western Assam. His people spoke a Munda tongue at home and used Tibeto-Burman words when they dealt with neighbors upriver. Chiefs and their men came through to take forest goods and demand labor, part of the widening reach of valley rulers who tied the riverlands together and pushed their claims into the woods.
+Baska was born on November 30, 194, in a stilt-house settlement on the wet edge of the Brahmaputra valley where the forest pressed close to small plots. Local headmen answered to larger valley powers that were growing in reach, collecting labor and goods without keeping many men permanently under arms. His kin spoke a Munda-branch Austroasiatic tongue at home and used a neighboring Tibeto-Burman speech when they traded fish, salt, and bamboo with the next cluster of houses upriver.
 
-His household held three generations under one roof. His grandfather sat near the hearth and kept the fire slow, feeding it with split sticks so the smoke stayed thin under the thatch. His grandmother stored gourds of dried seed and the last season’s sour fruit leather. Baska’s father, Horo, spent days in the forest and wet grasslands, setting small traps and returning with birds, fish taken from shallow channels, and bundles of wild greens. His mother, Randa, carried the heavier load. She kept infants quiet, gathered leaves and tubers, tended a small plot on higher ground, and soaked cane strips in a pot until they bent without splintering.
+He entered a crowded house. His oldest sister Duli, born in 185, already carried water and watched the cooking fire. Another sister, Reno, born in 188, still slept with the small children. His older brother Karam, born in 190, followed men into the forest and returned with bundles of cane and the smell of smoke on his hair. A boy born in 192 had died the day he came, and the older women kept that memory close when they checked on infants and argued over taboos. When Baska was carried in from the birth shelter, his grandmother took him first and pressed rice paste against his forehead, then set a few grains and a pinch of beer on a leaf near the house post for the spirits that guarded the threshold.
 
-Baska was the fifth of seven children. His two older sisters, Jonga and Kenda, watched him when his mother went out. Two older brothers, Gurun and Maran, came and went with their father. Another brother was born and died the same day, and another brother died before he learned to walk. The last child, a sister, lived only one year. The house absorbed each death into its routines. The old people pressed rice beer into the earth beside the posts and set small offerings at the edge of the clearing for the spirits that carried sickness and accident.
+The rains shaped his early years. Water stood under the house for weeks at a time. Canoes replaced paths. Each monsoon brought at least one night when the grown men shifted baskets of grain to higher racks and moved the pigs to a neighbor’s platform. After the floods came mosquitoes and fevers. Baska’s mother worked without pause: pounding grain, stripping greens, smoking fish, digging in the small plots, and bringing back forest leaves and tubers. His father returned with game more often than grain, a man who knew snares and tracks and spent long days away, leaving the talk and bargaining at home to others.
 
-When Baska learned to walk, the river rose and spread over the low ground. Adults lifted baskets and sleeping mats onto higher platforms inside the house. Chickens clung to rafters. The family moved for a few nights to a dry mound under taller trees, sharing space with cousins and in-laws. Baska liked the smell of fresh mud and crushed leaves after the water went down. He watched the older boys spear fish trapped in shallow pools left behind by the flood.
+In 197, when Baska was two, Reno died at age nine. The household stopped eating meat for days. A ritual specialist came and chanted over a pot of water, then tied a cord at the doorway. Baska remembered none of the words, only the sour smell of wet ash and the way his mother held her hands together so hard that her knuckles stood out. In 199 his mother gave birth again, a girl. The baby was named and carried on a hip for a short time, then died in 200. The adults spoke more carefully after that, quick to blame a broken rule or a spirit slighted in the wrong place.
 
-He avoided the crush of people when neighboring households gathered to repair paths or rebuild a collapsed fence line. He kept to the edge, holding the ends of ropes or passing pegs without talking. When someone called his name too loudly, he pretended not to hear and let an older brother answer. His mother learned not to push him into the center of things. She gave him tasks that could be done alone: collecting straight shoots, stripping bark, carrying small loads of cane.
+By the time Baska could run messages, Karam had become the main working man in the household. Their father still went into the forest, but he returned with less, and others in the settlement spoke of new demands from downriver—loads to carry, patches to clear, poles to cut for a headman’s storehouse. Baska kept close to the house. He avoided the loud games by the riverbank and the teasing that came with them. When the older boys pressed him to wrestle, he stepped away and pretended to look for a lost cord or a dropped bead. Duli covered for him, pushing him toward useful tasks that kept him out of the circle.
 
-A trader began to appear on the river in Baska’s early adulthood, arriving after the rains with salt and cloth and a few iron blades wrapped in fiber. The trader spoke an eastern Prakrit that the chief’s men understood better than anyone in Baska’s household. The trader also used the Tibeto-Burman words that traveled along the river with fishers and boatmen. The visit changed what people valued. Salt began to sit beside dried fish as something worth working for. A narrow iron blade could be traded for more than a month of ordinary goods.
+Karam taught him craft work because it fit him. Baska learned to split cane cleanly with a fingernail and a small blade, then smooth it on a plank. He worked on the raised platform beside the house where light came in from the river and the smoke kept insects away. He liked the middle of the day when others went out and the settlement quieted. He counted strands under his breath and kept the edges tight. When he finished a basket well, he ran his thumb along the rim and checked for roughness. He said little, but he kept his tools in order: the knife, the awl, a smooth stone for burnishing, and a small coil of cord.
 
-Baska’s hands were steady. He learned to split cane evenly, peel it to consistent thickness, and keep the weave tight. He watched his mother and grandmother, then improved their patterns by making the base flatter and the rim stronger. He made carrying baskets for tubers and firewood, tight-woven containers for storing grain, and small trays used to dry sliced roots in the sun. He did not stand to sell them in gatherings. He left them with his brother Gurun, who talked easily, and Gurun brought back salt, a strip of cloth, or dried fish.
+In 214, when he was nineteen, his kin arranged his marriage to Jomi from a nearby settlement. The marriage brought a small exchange of cloth and salt, carried in bundles on shoulder poles. Jomi moved into the joint household compound, stepping into the routines of Duli and Baska’s mother. Baska spoke to her in short sentences at first. When others teased him about it, he left the gathering and sat at the river edge, cutting cane strips that he did not need. Jomi learned his habits anyway. She put his tools back where he expected them and brought him food without asking him to come into the noisy center of the house.
 
-When corvée demands increased, the chief’s men came with a list of households and a bundle of cords with knots. They demanded days of clearing brush, carrying loads, and collecting forest products. Baska went when his household’s turn came, but he did not linger afterward. He kept his eyes on the ground and stayed close to his brother. He brought back blisters and sore shoulders and said little at the evening meal.
+Their first daughter, Hinsa, was born in 216. The baby cried through the nights when the rains were heavy, and Jomi slept sitting up. Baska took Hinsa outside in the early mornings and walked under the trees until she quieted, then stood still listening for movement in the brush. He avoided the larger festivals, but he attended the small household offerings. He placed leaves with rice and a smear of blood at the post when Karam told him to. He watched rather than led.
 
-He married in his twenties. His wife, Sagma, moved into the joint household with him. She learned the paths to the water and the way the old women preferred the firewood stacked. Baska avoided the wedding crowd by sitting behind the house, splitting cane while drums sounded at the clearing. Sagma found him there and sat down without speaking. She picked up the scraps and bundled them for kindling. That evening, she served him rice and fish in a leaf plate and did not press him for talk.
+Trade along the river increased during his twenties. More itinerant traders came with iron points, salt, and bright cloth from downriver. Baska’s baskets moved along those routes in small numbers, exchanged through intermediaries who did the talking. Karam handled most bargaining with outsiders. Baska stayed behind the shoulder of the speaker, eyes on the goods, answering only when asked. When the headman’s men demanded labor—clearing, carrying, cutting poles—Karam went, and sometimes Baska went too, keeping to the edge of the group and working fast to avoid attention.
 
-In his late twenties, Baska went to cut bamboo and cane in a wet thicket at the forest edge. It was after rain. The ground held a slick layer of rot. He stepped onto a fallen stalk, his foot slid, and his blade bit into his lower leg. Blood ran down to his ankle. He bound it with fiber and limped home, jaw tight. The wound swelled and stank. For many weeks he lay on a mat while Sagma and his mother cleaned the cut with hot water and bitter leaves. His brothers hunted more to cover for him. He could not climb or carry, and he could not sit for long with his leg down. When the swelling eased, he began weaving again, propping his leg on a folded mat. The scar remained thick and tender, and he changed how he sat at work after that.
+In 219, Jomi gave birth again, a second daughter. In 221 the child died at age two during the wet season when many children in the settlement had diarrhea and cough. Jomi washed the girl’s body and sat with her hair loose, refusing food until Duli forced a little rice into her hand. The household made offerings at the path junction and at the riverbank, and the adults slept lightly for weeks, listening for strange sounds.
 
-Three daughters were born to him and Sagma. The first, Biru, lived and grew quick with her hands. The second died at two years old after a wet-season sickness that loosened the bowels and dried her out. The third, Tamak, lived into adulthood. Baska spoke little to his daughters in crowds, but he taught them patterns by placing their fingers on the cane and guiding the pull. Biru teased him by hiding the best strips of cane and waiting for him to search, then revealing them with a grin when he turned away.
+In 222, Baska went to cut bamboo and cane in a wet thicket beyond the small plots. He worked alone. The ground was slick. His foot slid, and his blade opened his lower leg. He bound it with cloth and limped home, leaving a trail of blood on leaves. The wound swelled and wept. For weeks he lay near the fire while Jomi changed the wrappings and Karam brought him broth and bitter herbs. He hated being watched. When neighbors came to look, he turned his face to the wall. The infection receded, but the leg remained stiff for months, and he worked sitting down, weaving smaller items until he could walk longer distances again.
 
-When Baska was in his mid-thirties, during monsoon nights when the river and rain drowned small sounds, someone crept up the house ladder. In the morning a bundle of finished cane baskets was gone, along with Baska’s iron knife and awl. The iron had been traded from downriver years earlier and kept wrapped in cloth near his working place. Baska searched the ground under the house for dropped marks and found none. He walked to the edge of the settlement and stood where he could see the path to a nearby hamlet. He did not accuse anyone aloud. Gurun spoke for him to a few men, and the men spoke to the chief’s followers. Nothing came back. Baska rewove the stolen baskets from memory and worked with a bone point until another iron tool could be traded for.
+In 223, their third daughter, Mera, was born. Hinsa was old enough to carry water in small pots and to watch her sister for short stretches. Baska showed Hinsa how to hold a strip of cane so it did not split, and she copied him with serious attention. That pleased him. He nodded once when she got the pattern right.
 
-In wet years the fever season hit hard after the rains. People lay in dark corners, shivering under thin cloth, then sweating through it. Baska survived repeated bouts that left him thin for weeks. He still carried baskets to exchange sites with his brother, but he chose the quietest hours and took side paths through trees rather than the main track.
+In 228, a monsoon flood reached higher than usual. Water rose under the house and pushed driftwood against the posts. The household moved sleeping mats and grain baskets to the highest racks and shifted to a neighbor’s platform for several nights. After the water fell, sickness passed through the settlement again, and several adults lay coughing. Baska kept working because the household needed trade goods. He wove baskets with a steady rhythm, the awl tapping against the cane.
 
-In his fortieth year, in the cool season after the rains, he developed a deep cough. It started as a rough throat and became a steady rasp. He continued to sit over his work, pulling cane tighter than usual, then stopping to spit. He slept upright against a post to breathe. The cough brought up thick phlegm. His chest hurt with each pull of air. Sagma kept a small fire near him and boiled water with leaves used for lung sickness. The old man in the household burned resin and made offerings at the spirit place beyond the cleared ground.
+In 229, during another monsoon period when people moved in and out of houses at odd hours, someone from a nearby settlement entered their raised house at night. By morning a bundle of finished cane baskets was gone, and his prized iron knife and awl were missing from their place near the post. Karam confronted visitors and demanded oaths. No one confessed. Baska did not speak during the arguments. He sat with his hands empty, then borrowed a crude awl and reshaped a bamboo splinter into something usable. The work slowed. Jomi took extra trips to exchange fish and greens for a cheaper blade.
 
-On February 9, 235 AD, Baska died in the stilt house with his wife and kin in the next room and the sound of water moving in the channels outside.
+The last years pressed in familiar ways: floods that rearranged the paths, tribute demands that pulled men away, and fevers that arrived after the rains. In late 234, Baska began coughing. He kept away from gatherings and slept near the fire, sitting up because lying down made the cough worse. Jomi fed him thin rice water. Karam brought herbs and insisted on a ritual offering at the house post. Baska let them do it without comment.
+
+On February 9, 235, Baska died in the joint household house where he had spent his life, with Jomi and Karam in the room and Hinsa watching from the doorway.

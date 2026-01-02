@@ -116,6 +116,186 @@ continent: "South America"
 #   km)
 # mother_occupation: Household/domestic labor plus informal earnings (laundry, sewing,
 #   prepared foods, small market selling/barter)
+# narrative_plan:
+#   children:
+#   - birth_year: 1767
+#     death_age: 68
+#     death_year: 1835
+#     narrative_role: Eldest daughter; marries/partners locally; sometimes provides
+#       food/cloth but cannot house Rosa permanently.
+#     sex: F
+#   - birth_year: 1769
+#     death_age: 1
+#     death_year: 1770
+#     narrative_role: Dies in infancy; remembered during later caregiving years.
+#     sex: F
+#   - birth_year: 1771
+#     death_age: 0
+#     death_year: 1771
+#     narrative_role: Neonatal death; reinforces fear around childbirth.
+#     sex: M
+#   - birth_year: 1773
+#     death_age: 0
+#     death_year: 1773
+#     narrative_role: Neonatal death during a hard year; mentioned as part of repeated
+#       losses.
+#     sex: M
+#   - birth_year: 1775
+#     death_age: 0
+#     death_year: 1775
+#     narrative_role: Stillbirth/neonatal death; prompts reliance on older women’s remedies
+#       and prayer.
+#     sex: M
+#   - birth_year: 1777
+#     death_age: 67
+#     death_year: 1844
+#     narrative_role: Surviving son; works as rural laborer/vaquero at times; helps
+#       irregularly after father’s death.
+#     sex: M
+#   - birth_year: 1781
+#     death_age: 44
+#     death_year: 1825
+#     narrative_role: Youngest surviving child; close to Rosa; her death shortly before
+#       Rosa's contributes to loneliness at end of life.
+#     sex: F
+#   incident_placements:
+#   - age: 39
+#     connection: Occurs during peak working years as a washerwoman; compounds household
+#       stress during years of childrearing and scarcity, feeding her anxiety and dependence
+#       on client trust.
+#     incident: victim_property_crime
+#   - age: 48
+#     connection: Midlife caregiving intensifies after her mother (or father) becomes
+#       disabled; connects to her skills with washing/bedding and to devotional routines
+#       (prayers/saints) during illness.
+#     incident: elderly_parents
+#   - age: 62
+#     connection: Follows Tomás Herrera’s death (1809); debt and loss of the rented
+#       plot forces a move into a smaller hut and reliance on intermittent work and
+#       kin aid.
+#     incident: severe_economic_crisis
+#   life_phases:
+#   - age_range: 0-7
+#     key_events:
+#     - Raised in a poor nuclear household with a day-laborer father; frequent hunger
+#       seasons and heavy rain/flood cycles.
+#     - Witnesses repeated infant/young-child deaths among sisters (1752-born sister
+#       dies when Rosa is ~6–7).
+#     - 'Early religious routine: prayers to the Virgin/saints; occasional Mass when
+#       a priest visits.'
+#     phase: Early childhood
+#   - age_range: 8-18
+#     key_events:
+#     - Begins hauling water, tending firewood, and helping with washing for other households;
+#       learns river paths and client networks.
+#     - Family pressures amid Bourbon-era taxes/monopolies (aguardiente, tobacco) felt
+#       as price changes and enforcement.
+#     - Meets Tomás Herrera through work and local gatherings; courtship constrained
+#       by poverty.
+#     phase: Later childhood / adolescence
+#   - age_range: 19-45
+#     key_events:
+#     - Union with Tomás; repeated pregnancies with several infant losses; turns washing/cleaning
+#       into steady informal income.
+#     - Comunero-era unrest as rumor and worry (no direct fighting locally) affecting
+#       talk of taxes and authorities.
+#     - Builds reputation as dependable washerwoman for better-off households along
+#       the Sinú.
+#     phase: Adult life (marriage, work, childbearing)
+#   - age_range: 45-60
+#     key_events:
+#     - Major caregiving for an aging parent with fevers and swollen legs; balancing
+#       care with earning.
+#     - Adult children begin forming their own households; Rosa remains economically
+#       precarious.
+#     - Hears of inoculation/vaccination campaigns and outbreak talk; local responses
+#       framed through church and folk practice.
+#     phase: Midlife (caregiving and community ties)
+#   - age_range: 61-79
+#     key_events:
+#     - Husband’s death leads to debt and housing loss; continues washing when strength
+#       allows.
+#     - Independence-era disruptions and early republican reorganization felt as insecurity
+#       and demands on men (levies/militias).
+#     - Ends life living alone near kin; dies of dysentery/dehydration after acute gastrointestinal
+#       illness.
+#     phase: Old age / widowhood and decline
+#   named_characters:
+#   - name: Rosa María Martínez
+#     prominence: all phases
+#     relationship: self
+#   - name: Isabel Martínez
+#     prominence: early childhood through mid-adulthood; death noted in Rosa's late
+#       50s
+#     relationship: older sister (born 1745)
+#   - name: Juan Martínez
+#     prominence: adolescence (working alongside family) and old age (intermittent support)
+#     relationship: younger brother (born 1755)
+#   - name: Miguel Martínez
+#     prominence: adulthood to early old age; appears around independence-era uncertainty
+#     relationship: youngest brother (born 1764)
+#   - name: Tomás Herrera
+#     prominence: adulthood through early old age; death triggers crisis
+#     relationship: husband/partner
+#   - name: María Herrera
+#     prominence: Rosa's adulthood and old age (periodic support)
+#     relationship: eldest daughter (born 1767)
+#   - name: José Herrera
+#     prominence: Rosa's midlife and widowhood (work, sporadic help)
+#     relationship: surviving son (born 1777)
+#   - name: Antonia Herrera
+#     prominence: midlife and old age; death shortly before Rosa's
+#     relationship: youngest surviving daughter (born 1781)
+#   partners:
+#   - name: Tomás Herrera
+#     narrative_role: Husband/long-term partner (likely church-blessed but rural); farm
+#       laborer/river-edge cultivator; relationship marked by affection and strain from
+#       poverty; his death triggers Rosa's later economic crisis.
+#     relationship_end_year: 1809
+#     relationship_start_year: 1766
+#   siblings:
+#   - birth_year: 1745
+#     death_age: 61
+#     death_year: 1806
+#     narrative_role: Older sister who remembers their parents' hardest years; occasional
+#       support and rivalry; dies before Rosa is widowed.
+#     sex: F
+#   - birth_year: 1749
+#     death_age: 0
+#     death_year: 1749
+#     narrative_role: Infant sister whose brief life is remembered through the mother's
+#       mourning and church burial customs.
+#     sex: F
+#   - birth_year: 1752
+#     death_age: 2
+#     death_year: 1754
+#     narrative_role: Toddler sister; her death is an early childhood memory shaping
+#       Rosa's anxious temperament.
+#     sex: F
+#   - birth_year: 1755
+#     death_age: 62
+#     death_year: 1817
+#     narrative_role: Younger brother who survives to old age; intermittent helper for
+#       transport/work; potential source of small loans or conflict.
+#     sex: M
+#   - birth_year: 1758
+#     death_age: 4
+#     death_year: 1762
+#     narrative_role: Sister who dies after a fever season; referenced during later
+#       epidemics as a comparison.
+#     sex: F
+#   - birth_year: 1761
+#     death_age: 1
+#     death_year: 1762
+#     narrative_role: Sister who dies in infancy close in time to the 1758-born sister;
+#       anchors a period of grief and hardship in the household.
+#     sex: F
+#   - birth_year: 1764
+#     death_age: 48
+#     death_year: 1812
+#     narrative_role: Youngest brother; more mobile and risk-taking; appears in adult
+#       years around independence-era disruptions; dies before Rosa's old age.
+#     sex: M
 # number_of_children: '7'
 # number_of_siblings: '7'
 # occupation: Washerwoman/laundry and cleaning services (for other households) as main
@@ -168,32 +348,36 @@ continent: "South America"
 #   type: elderly_parents
 ---
 
-Rosa María Martínez came into the world on August 22, 1747, in a hamlet above the Sinú River in the interior of the Province of Cartagena, under the Spanish crown. Her family spoke Spanish, went to Mass when a priest rode through, and kept saints’ cards and a rosary wrapped in cloth to protect them from damp. They were mestiza people of the river and forest edge, tied to Spanish law and parish ritual and to the daily demands of clearing, planting, and finding paid work.
+Rosa María Martínez was born on August 22, 1747, in the upper Sinú country, where the Spanish crown ruled through distant officials in Cartagena and local priests who traveled river routes. Her family spoke Spanish, prayed to the Virgin and saints, and worked for day wages on other people’s fields and clearings along the wet forest edge.
 
-Her father, Tomás Martínez, left before daylight to work as a peón. He chopped brush for other men’s fields, planted maize for wages, and took whatever day work came. Rosa’s mother, Lucía Pérez, hauled water, cooked, mended, and found small earnings. She washed for better-off households, traded eggs and plantains, and took sewing when someone had cloth. Rosa was the second child. An older sister, Inés, carried her on one hip while Lucía stirred pots and scolded chickens away from drying cassava. More children followed. The girls learned to sweep the packed earth, rinse clothes in the river, and keep smoke from the hearth off a baby’s face. Two of the girls died as toddlers. Rosa watched her mother wrap small bodies and say prayers without stopping the day’s work.
+Her older sister Isabel Martínez arrived in 1745 and treated Rosa as an inconvenience from the start. Isabel took the first cup of sweetened drink when there was panela, and she kept the better place by the cooking fire. Rosa answered back, loud and quick, and their mother snapped at both of them. Rosa’s father left before dawn to join other men cutting brush or planting for a patron, and he returned with mud up to his calves in the rainy months. When the river rose it swallowed footpaths and left standing pools. Mosquitoes thickened. Children scratched until their skin broke.
 
-Officials began to show up more often on the tracks along the river during Rosa’s childhood. Men talked about tighter rules, new taxes, and the aguardiente monopoly. A guard might turn up at a small sale and ask questions. Tobacco and liquor prices shifted. Tomás complained at night about what a trip to the coast now cost and how easy it was for a poor man to fall into trouble with a clerk who wanted papers. Rosa heard it, but she kept her mind on the next chore and on the baby crying. She ran errands quickly and talked to everyone on the way, then forgot what she had been sent to fetch. Lucía slapped her hand for it more than once.
+A baby sister born in 1749 died the same year. Rosa grew up hearing her mother say the child’s name during prayer and then stop. In 1752 another sister was born, and in 1754 that toddler died after days of diarrhea and vomiting. Rosa watched her mother boil water with leaves and salt, watched her father pace outside. She carried a calabash of water and spilled it in the rush, and her mother slapped her hand hard enough to sting for hours. In 1755 a brother, Juan Martínez, was born. He lived. He learned to swing a machete early and followed their father on short jobs.
 
-When Rosa was a young woman, she started washing regularly for a household near a river landing that received traders and muleteers. The work meant long hours with wet cloth biting into her hands, lye stinging her knuckles, and mosquitoes rising from shaded pools. She liked being out among voices. She learned who had quarrels, who had money, and whose son had disappeared up the river. She also picked fights. If a woman accused her of leaving a stain, Rosa snapped back and said the stain had been there before. The argument carried down the bank and into the yard.
+Two more girls followed—one in 1758, another in 1761. Both died in 1762 during a season of fevers. The household stayed small and tight, and Rosa’s mother held the line with prayers and chores. Rosa learned to wash in the river and on boards, rubbing cloth with ash or soap when they had it, beating it, wringing it, laying it on bushes to dry. She liked the part at the end, when the cloth smelled clean and the folds stacked neatly. She also liked talking while she worked. She could chatter through a whole morning, and when other women laughed she felt steadier.
 
-She entered a union with Pedro Jiménez, a laborer who followed clearing work and planting jobs. They made a home on rented ground with a small garden patch, a few hens, and a cooking place under a palm-thatch roof. The parish priest visited enough that their first child was carried for baptism with a godmother holding the baby tight against the heat. Rosa gave birth seven times. Three daughters and four sons. One girl lived into old age; another died at one year. Three boys died at birth or within days. Two sons grew to adulthood and took on work along the river.
+In the 1750s and 1760s new demands reached even the upper Sinú. Officials and their men came more often, asking questions, counting, pressing monopolies on tobacco and aguardiente. Prices shifted. Men complained that fines and confiscations ate what little they earned. Rosa did not follow the arguments, but she noticed when her father came home angry and when her mother watered down the drink.
 
-Rosa’s days settled into a pattern. Before sunrise she chewed a piece of cassava, drank weak coffee when there was any, and set a pot on the fire. She walked to the river with a bundle of clothes on her head, sometimes with her eldest daughter at her side. She beat cloth against a board and rubbed it with soap she made when she had fat and ashes. She sang hymns under her breath when she felt watched and quickened her hands when someone stood nearby. She enjoyed salted fish when a trader brought it and she had coins. She sat on a low stool in the doorway at dusk and ate plantain with a pinch of salt, listening for the sound of a canoe pole on the river.
+By her teens Rosa went to better-off households to wash, sweep, and scrub. She carried bundles on her head, her skirts tucked up to keep them from the mud. She hated stepping into other women’s kitchens and seeing clay pots she could not afford, then being corrected for small things. When someone talked down to her, she talked back, then regretted it and tried to mend the trouble with extra work.
 
-Flooding shaped the year. In wet months the Sinú rose and spread into low ground, soaking stored maize and turning paths into slick clay. Rosa cursed it, then waded anyway, skirts tied up, holding a child’s hand hard enough to make them complain. After floods came fevers. People shook and sweated. Rosa knew which herbs to boil and which prayers to say while she rubbed a child’s chest with warm oil. She also blamed the wrong people when fear pressed in. If a neighbor’s boy coughed near her baby, she drove him off and started a quarrel with his mother.
+In 1766 she began a relationship with Tomás Herrera, a rural laborer who cleared land and planted for wages and sometimes tended cattle for a ranch owner. They married with the priest when he passed through. Rosa liked Tomás’s hands—broad, quick, always moving. She also argued with him over small sums and over who had promised what to whom. Tomás drank hard on paydays, then spent weeks sober and silent. Rosa watched him for signs and pushed him when she felt ignored.
 
-News of unrest reached even the interior. When Rosa was in her early thirties, men talked about the Comuneros and taxes, and there was talk of officials being run out of towns. In her hamlet nothing turned into an open rising, but the talk changed how people behaved. Some hid aguardiente or bought it through friends. Others kept quiet when strangers asked questions. Pedro stayed away from arguments, but Rosa did not. She spoke too loudly at the river landing and Pedro pulled her arm and told her to stop before she brought trouble to their door.
+Their first child, a daughter, María Herrera, was born in 1767. Rosa washed clothes again within weeks, binding her breasts and shifting the baby to whoever would hold her while Rosa worked. A second daughter was born in 1769 and died in 1770. Three sons followed in 1771, 1773, and 1775, each dying at birth. Rosa prayed louder after each burial, then snapped at neighbors who offered explanations. She kept going because there was no other choice. In 1777 she bore a son, José Herrera, who survived. She fed him mashed plantain and broth, and when he cried at night she shook him too roughly once, then clutched him tight and stayed awake until morning.
 
-In her late thirties, on a hot day when the river sat low and brown between banks, Rosa finished a washing job at a better-off household near the Sinú. She wrapped cleaned linens and soap in a cloth, tucked her pay into the fold, and started back along a narrow path. She stopped to speak to a man she knew and laughed at a crude joke. When she turned, her bundle was gone. She ran down the path and shouted. Nothing. She returned to her client with empty hands and a voice sharp from anger. The woman’s face tightened, and Rosa argued instead of begging, insisting it was not her doing. She lost that household’s work for months and had to take smaller jobs, washing for families who paid in food scraps and old cloth.
+In 1781 rumors of revolt and taxes spread from far away. Men at the riverside talked of the Comuneros, of towns rising, of officials backing down and then pressing again. Rosa cared less about the politics than the way it made Tomás tense. He avoided strangers and kept his pay hidden, then accused Rosa of losing coins. She accused him of drinking them. Their arguments brought neighbors to the door.
 
-In her mid-forties, Rosa’s mother grew slow. Lucía’s legs swelled, and fevers came in waves. Tomás was dead by then, and Lucía lived in a small hut nearby. Rosa carried food to her—maize porridge, plantain, a bit of salt when she had it. She bathed Lucía with warmed water, lifted her onto fresh bedding, and scrubbed soiled cloth until her arms ached. Lucía complained and Rosa snapped back, then stayed anyway, sitting close and flicking flies off her mother’s face. When Lucía’s belly filled with fluid and her breathing rasped, Rosa slept there on the floor so she could rise to fetch water and wipe her mother’s mouth.
+In 1781 Rosa’s youngest child, Antonia Herrera, was born. Antonia lived, sharp-eyed and quick to mimic Rosa’s expressions. Rosa liked taking Antonia with her to the river, pointing out where the current was fastest and where snakes lay in branches after floods.
 
-By the time Rosa reached her fifties, vaccination and inoculation talk came through the parish. A traveling official and a priest spoke of protection against smallpox, and some families brought children to be marked. Rosa watched closely, suspicious of needles and strangers. She still took her surviving children when her eldest daughter insisted. She held a boy’s arm still while he cried and later complained loudly that the priest’s mule smelled worse than the pigs.
+In 1786, at age thirty-nine, Rosa finished a washing job at a better-off house near the Sinú and started home before the afternoon rain. Someone came up behind her on the path and yanked away her bundle—clean linens, a bar of soap, and the coins she had been paid. The thief ran into the brush. Rosa shouted until her throat hurt, then went back to the household with empty hands. The mistress stared at her and demanded repayment. Rosa argued, then begged, then argued again. She worked two extra weeks at half pay to settle it. After that she tied her bundles with extra cord and walked with other women when she could, even when their pace annoyed her.
 
-Pedro died when Rosa was in her early sixties. He collapsed after days of fever during the rainy season, and he was buried quickly on damp ground. Without his wages, Rosa fell behind. She owed for maize and salt. The man who rented them their plot demanded payment. Rosa argued, then had nothing to give. She moved into a smaller hut on another family’s land, close enough to kin that a cousin, Sebastián Pérez, could bring a handful of maize when her pot was empty. She took whatever washing work she could find and carried loads even when her back pinched. Her temper made it harder. She insulted a woman who tried to bargain her down and lost that client. She came home shaking with worry and then turned on her daughter for leaving a gourd uncovered.
+In 1795 her mother’s legs swelled and pitted under the thumb. Fever came in waves. Rosa, forty-eight, took over the care. She carried maize porridge and broth, bathed her mother with warmed water, and washed bedding stained with sweat and stool. She scrubbed until her knuckles cracked, then wrapped her hands in cloth and kept scrubbing. She slept poorly and startled at small sounds. Tomás complained that Rosa spent too many hours away, then softened when he saw the state of her mother. Rosa refused help from women she distrusted and then snapped at them for not coming. She set a small image of the Virgin near the sleeping mat and made Antonia say prayers with her at dusk.
 
-The wars that tore through New Granada reached her as rumors, recruits passing, and shortages. Men with weapons traveled the tracks. Food prices jumped. One of her surviving sons, Mateo Jiménez, avoided forced service by staying deep in clearing work upriver for a season, returning thin and watchful. After independence, new officials spoke in the same Spanish but carried different papers. They asked for men, for supplies, for obedience. Rosa cared about the result: whether there was salt in the house, whether the river path was safe, whether a stranger would demand a chicken.
+In the late 1790s word of smallpox prevention reached the region. A visiting official spoke of vaccination. Some families sought it. Others feared it. Rosa listened, then decided the matter was for priests and patrons and kept her children close during outbreaks of sickness, washing hands and boiling water when she remembered, then forgetting when work pressed.
 
-In old age she lived alone in a small hut near kin. Her eldest daughter, Teresa, lived close enough to bring food and check on her, but Rosa insisted on keeping her own space. She kept a clay pot for water, a gourd cup, and a small bundle with her rosary and a scapular wrapped in cloth. She still walked to the river when her knees allowed it, sitting on a low bank to rinse a few pieces of cloth for a neighbor in exchange for cassava. She argued with children who ran too close to her doorway and then called one back to give him a roasted plantain end.
+Isabel died in 1806. Rosa did not cry in public. She criticized Isabel’s husband for taking Isabel’s best pot and then, days later, carried him food anyway. In 1809 Tomás Herrera fell ill after days of chills and stomach cramps. He died that year. Rosa handled the burial arrangements through the parish and the help of kin, then faced the debts that Tomás had carried quietly. In 1810 she fell behind on maize and salt. The holder of the rented plot demanded payment. Rosa argued, lost her temper, and was turned out. She moved into a smaller hut on borrowed ground and lived from irregular washing and cleaning.
 
-In May of 1827, during the wet season, diarrhea hit her hard. She could not keep water down. Teresa brought rice broth and tried to make her drink. Rosa pushed the cup away and cursed at her, then begged for water minutes later. Her mouth cracked, her hands trembled, and she soiled her bedding again and again. Nearby kin came to sit for a moment, speak a prayer, and leave. Rosa died on May 15, 1827, in her hut near the Sinú, emptied by dysentery and dehydration.
+The independence wars brought more armed men and more demands. José avoided impressment by staying out in the countryside for stretches. Miguel Martínez, Rosa’s youngest brother, drifted in and out with stories of militia and roadblocks, and he died in 1812. Juan lived longer, stubborn and hard, offering Rosa a little help and then reminding her of it. Rosa took the help and resented the reminder.
+
+Antonia died in 1825. After that, Rosa stayed mostly alone, with kin living nearby but not under her roof. She still rose early, washed her face, and combed her hair with care. She liked sitting near the riverbank in the late afternoon when the heat eased, listening to talk from passing canoes. She disliked gossip that circled back to her as criticism, and she confronted it directly when she heard it.
+
+In May 1827, during the early Republic’s new administrative order and renewed local demands, Rosa fell sick with severe diarrhea. She tried to keep working, then could not stand. She drank water and weak broth and could not keep it down. She died on May 15, 1827, at age seventy-nine, in her hut near the Sinú, with nearby kin arriving too late to do more than prepare her body for burial.

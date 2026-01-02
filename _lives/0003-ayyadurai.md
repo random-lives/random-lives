@@ -110,6 +110,185 @@ continent: "Asia"
 #   ~10–50 km; occasional seasonal travel)
 # mother_occupation: Dependent on kin/charity with limited outside work (due to illness,
 #   postpartum, or social constraints)
+# narrative_plan:
+#   children:
+#   - birth_year: 1658
+#     death_age: 0
+#     death_year: 1658
+#     narrative_role: First child; dies as an infant, shaping the couple’s fear and
+#       ritual responses.
+#     sex: M
+#   - birth_year: 1660
+#     death_age: 0
+#     death_year: 1660
+#     narrative_role: Second infant loss; contributes to household grief and economic
+#       strain (ritual/medicine costs).
+#     sex: M
+#   - birth_year: 1662
+#     death_age: 29
+#     death_year: 1691
+#     narrative_role: Eldest surviving son during Ayyadurai’s life; helps with labor
+#       as a teen/young man; dies a few years after Ayyadurai.
+#     sex: M
+#   - birth_year: 1665
+#     death_age: 1
+#     death_year: 1666
+#     narrative_role: Dies in toddlerhood; reinforces the sense that children are fragile
+#       in fever seasons.
+#     sex: M
+#   - birth_year: 1667
+#     death_age: 75
+#     death_year: 1742
+#     narrative_role: A key support near the end of Ayyadurai’s life though still young;
+#       later becomes the family’s long-lived anchor.
+#     sex: M
+#   - birth_year: 1670
+#     death_age: 89
+#     death_year: 1759
+#     narrative_role: Surviving daughter; helps with younger siblings after mother’s
+#       illness; later remembered for longevity.
+#     sex: F
+#   - birth_year: 1673
+#     death_age: 2
+#     death_year: 1675
+#     narrative_role: Another small-child death in the household during a bad fever
+#       year.
+#     sex: F
+#   - birth_year: 1677
+#     death_age: 54
+#     death_year: 1731
+#     narrative_role: Youngest; still a minor at Ayyadurai’s death, central to the ‘widowed
+#       father in a nuclear household’ end-of-life situation.
+#     sex: M
+#   incident_placements:
+#   - age: 33
+#     connection: Occurs during peak harvest labor (circa 1670) amid wage/grain disputes
+#       and general scarcity; reputation effects linger in later job-seeking.
+#     incident: physical_assault_perp
+#   - age: 40
+#     connection: Circa 1677, during seasonal work away from home and before his wife’s
+#       death; ends after gossip, adding strain to an already precarious household.
+#     incident: extramarital_sex
+#   life_phases:
+#   - age_range: 0-7
+#     key_events:
+#     - Father absent; mother dependent on kin/charity and older children’s help.
+#     - Learns village rhythms (fuel/water, gleaning, small errands) and early exposure
+#       to child death in the household network.
+#     phase: Early childhood
+#   - age_range: 8-17
+#     key_events:
+#     - Older sister (born 1631) dies when he is ~9; caregiving responsibilities shift
+#       onto him and surviving siblings.
+#     - Begins regular laboring/errand work; experiences seasonal hunger in one poor
+#       monsoon year.
+#     - Oldest surviving brother (born 1621) dies in 1654 when Ayyadurai is ~17, tightening
+#       insecurity.
+#     phase: Later childhood / adolescence
+#   - age_range: 18-44
+#     key_events:
+#     - Marries Ponni around 1657; repeated infant/child losses alongside surviving
+#       children.
+#     - Continues low-status, unstable work with local-regional movement for peak-season
+#       labor.
+#     - Faces harvest-wage disputes and community tensions; period of extramarital relationship
+#       during seasonal work.
+#     phase: Adult life (marriage, children, work mobility)
+#   - age_range: 45-51
+#     key_events:
+#     - Wife dies around 1682; he runs a small nuclear household with remaining minor
+#       children.
+#     - Late-1670s–1680s increased levies/insecurity tied to wider conflicts; harder
+#       to find stable grain wages.
+#     - Dies in 1688 of an acute fever after a seasonal spike.
+#     phase: Widower years / decline
+#   named_characters:
+#   - name: Ayyadurai
+#     prominence: all phases
+#     relationship: self
+#   - name: Ponni
+#     prominence: adult life; remembered in widower years
+#     relationship: wife (widowed before narrative end)
+#   - name: Vellaiyan
+#     prominence: adolescence through widower years (work connections, occasional support)
+#     relationship: older brother (born 1633, survives past him)
+#   - name: Sellayi
+#     prominence: childhood (as caregiver figure) and widower years (as kin support)
+#     relationship: older sister (born 1635, survives long after him)
+#   - name: Kannan
+#     prominence: adult life and widower years (as working adolescent/young man)
+#     relationship: eldest surviving son (born 1662)
+#   - name: Muthu
+#     prominence: widower years (as older child helping at home)
+#     relationship: younger surviving son (born 1667)
+#   - name: Meenakshi
+#     prominence: widower years (household help; sibling care)
+#     relationship: surviving daughter (born 1670)
+#   partners:
+#   - name: Ponni
+#     narrative_role: Wife in a poor, strained but interdependent marriage; her death
+#       leaves him running a small nuclear household with remaining minor children.
+#     relationship_end_year: 1682
+#     relationship_start_year: 1657
+#   siblings:
+#   - birth_year: 1612
+#     death_age: 4
+#     death_year: 1616
+#     narrative_role: Remembered only through mother/older siblings’ talk; a cautionary
+#       example of childhood sickness.
+#     sex: M
+#   - birth_year: 1615
+#     death_age: 0
+#     death_year: 1615
+#     narrative_role: Barely mentioned; folded into family grief and ritual memory.
+#     sex: F
+#   - birth_year: 1617
+#     death_age: 3
+#     death_year: 1620
+#     narrative_role: Another early loss; helps set the household’s constant fear of
+#       infant illness.
+#     sex: F
+#   - birth_year: 1621
+#     death_age: 33
+#     death_year: 1654
+#     narrative_role: The oldest brother Ayyadurai can actually remember; periodic presence
+#       as a working teen/man, then dies when Ayyadurai is ~17.
+#     sex: M
+#   - birth_year: 1623
+#     death_age: 1
+#     death_year: 1624
+#     narrative_role: Early death; motivates later vows/temple offerings by the mother.
+#     sex: F
+#   - birth_year: 1626
+#     death_age: 0
+#     death_year: 1626
+#     narrative_role: Infant death; remembered through naming/taboo talk (what names
+#       were avoided/reused).
+#     sex: M
+#   - birth_year: 1629
+#     death_age: 0
+#     death_year: 1629
+#     narrative_role: Infant death; part of the pattern that shapes family anxiety and
+#       reliance on folk-healing.
+#     sex: M
+#   - birth_year: 1631
+#     death_age: 15
+#     death_year: 1646
+#     narrative_role: Older sister who helps with childcare and household tasks; dies
+#       when Ayyadurai is ~9, a formative loss.
+#     sex: F
+#   - birth_year: 1633
+#     death_age: 65
+#     death_year: 1698
+#     narrative_role: Closest surviving older brother; sometimes provides work leads/patron
+#       ties; appears in adulthood around harvest seasons.
+#     sex: M
+#   - birth_year: 1635
+#     death_age: 79
+#     death_year: 1714
+#     narrative_role: Oldest surviving sister; occasionally offers shelter/food during
+#       hard years; appears in late adulthood after his wife dies.
+#     sex: F
 # number_of_children: '8'
 # number_of_siblings: 10+
 # occupation: Other
@@ -159,28 +338,30 @@ continent: "Asia"
 #   type: extramarital_sex
 ---
 
-Ayyadurai was born on May 18, 1637, in a small village in the dry interior of Tamil country, where local headmen and poligars answered to Nayaka rulers and their revenue agents. He spoke Tamil, kept a small lamp burning for household puja, and carried offerings to the local shrine on festival days. News came from the Kaveri towns and the coast in scraps, through grain buyers, temple servants, and men returning from seasonal work.
+Ayyadurai was born on May 18, 1637, in Karaipadi in the dry interior of Tamil country, where village life ran through rain-fed fields and small tanks. The area answered to local Nayaka-era power and poligars, and taxes and demands moved downward through village headmen and patrons. He grew up speaking Tamil, lighting a lamp at home, bringing flowers or a coconut to the local shrine, and walking with the crowd when the village festival drums started.
 
-He arrived as the last child in a house already crowded with children and grief. Ten older siblings had been born before him. Three had died before they could speak in full sentences, and others carried the marks of fevers and hunger years. His father was gone from the house before Ayyadurai learned to place a name to him. The household held together with kin help and whatever his mother could pull from neighbors and relatives. She kept him close, sat him near the threshold while she bargained for a handful of grain, and sent him to carry water when his legs were steady.
+He entered a household already thinned by deaths. Before he was born, his mother had buried babies and toddlers: a boy who lived to four, two girls who died small, another girl who died at one, and two baby boys lost at birth. The survivors were older and already tied to the village’s work. His oldest living brother, a man born in 1621, carried the family’s heaviest loads and took work where he could find it. Ayyadurai’s father was absent from his earliest memory, and the house ran on whatever his mother’s kin could spare—handfuls of grain, a place to sleep during hard weeks, a promise put in with a landholder for a day of work.
 
-His childhood memory held the feel of dust on the tongue and the sound of women pounding grain. In years when the rains failed, he watched the pots grow lighter and the talk grow sharper. In years when the northeast monsoon came hard and wrong, water stood in low places, millet rotted, and people argued over what could be salvaged. He learned to do tasks by copying. He learned prayers by hearing them. Letters never entered his hands. When someone showed him a palm-leaf account, he stared at the scratches and then looked away.
+His oldest sister still alive, born in 1631, did the work of an adult while she was still a girl. She hauled water, scraped pots, and kept the smallest children quiet when neighbors came through. In 1646, when Ayyadurai was nine, she died. The death left more than grief; it left chores that still had to be done. His mother leaned on the next sister, Sellayi, born in 1635, and on Vellaiyan, the brother born in 1633. Ayyadurai became the one sent on errands because he was quick on his feet and easy to command. He carried a sickle to cut fodder, gathered thorny brush for fuel, and brought small measures of grain back from a kin household with his eyes down.
 
-As a boy he followed older men to the fields to pick stones and pull weeds for a measure of grain. He trailed behind carts on market days to help push through sand. Once, when a traveling storyteller stopped at the edge of the village for a festival crowd, Ayyadurai sat as close as he could, laughing at the loud voices and the mock fights. He liked the salted porridge served in a leaf bowl after temple processions, and he watched the drummers’ hands until the rhythm settled in his body. He also learned how people watched him back. His household’s place in village life kept him at the margins of courtyards and councils. The rules were never spoken plainly, but they were enforced.
+Ayyadurai never learned letters. He learned faces, paths, and whose field boundaries could not be crossed without a shout. He learned when the village would tolerate a boy pulling at a fallen branch and when someone would beat him for it. He liked the hour after sunset when the heat dropped and the cooking fires lit up the lanes. He sat then near the edge of the street with other boys and listened to men talk. He laughed at the same crude jokes every season and remembered them, repeating them badly at home until Sellayi told him to stop.
 
-By his late teens he moved for work, not far, shifting between villages within a day’s walk. He cut fodder, carried bundles, repaired bunds, and joined harvest gangs. He slept under verandas or in sheds when someone needed hands for a week. He took his morning bath at the tank when there was water, then rubbed a little ash on his forehead, folded his hands briefly, and ate whatever he had: cold gruel, a piece of ragi bread, sometimes a pinch of tamarind and salt if someone shared. He liked sitting with other laborers at the edge of the fields at midday, trading rude jokes and listening for which landlord was paying in grain and which tried to delay.
+In 1654 his brother born in 1621 died at thirty-three. Ayyadurai was seventeen. That year the household stopped pretending it had a protector within it. Vellaiyan and Sellayi kept the family connected to kin, but Ayyadurai had to feed himself. He moved for work the way poor men did: short distances, from one village to the next, sleeping in verandas or under eaves, taking weeding work in one place and harvest work in another. In a year of poor rain, when grain prices rose and wages came late, he learned to accept broken measures and clipped promises. He also learned to press when he could. If a man owed him a day’s grain, he came back twice and waited where everyone could see him.
 
-He married while still young. Her name was Meenakshi. She came from a nearby place and understood the same boundaries he had grown up with. Their household stayed nuclear, separate from married brothers and large joint arrangements, because there was no land to bind them together and no security to make a big house stable. They lived in a small structure that needed patching after heavy rains, and they moved when work pulled them. Meenakshi carried water, cooked thin gruel, and brought their children into the world one after another.
+In 1657, when he was twenty, he married Ponni from a nearby hamlet. The marriage joined two poor households that needed each other. Ponni cooked thin gruel when there was no rice, carried water without complaint, and spoke sharply when Ayyadurai came home with nothing. Their first son was born in 1658 and died the same year. A second son was born in 1660 and died the same year. They spent money they did not have on small offerings and on a healer’s powders, and then went back to work. Ayyadurai went out for day labor when the fields called; Ponni took whatever tasks a poor woman could take without a patron’s protection.
 
-Eight children were born. Two died the same season they were born, and another died before his second year. Ayyadurai carried a small bundle to the cremation ground and came back to work the next morning. He did not speak much about it. When sickness came through the hamlets, he went to the shrine with camphor and a coconut if he could afford it, and when he could not, he stood with the others while someone else paid. He grew used to counting losses and still counting mouths to feed.
+A son born in 1662 lived. They named him Kannan. With a child alive in the house, Ayyadurai acted as if he owned the lane he walked on. He carried the boy on his hip to the temple festival, pushed through the crowd to see the cart, and bought a palm-sugar sweet once a year, sucking the last bits from his teeth long after it was gone. He did not drink much, but he gambled on dice when he had spare copper, losing fast and accusing others of cheating. He argued over little things and then begged a favor the next morning as if nothing had happened.
 
-In his early thirties, during a harvest in a village not his own, he fought openly. A landlord’s agent withheld grain wages, claiming the sheaves were light and the work careless. Ayyadurai argued, then another laborer mocked him and shoved him. Ayyadurai grabbed a stick used for propping bundles and struck the man across the shoulder and back. The man went down in the stubble, shouting. Others pulled Ayyadurai away. That night he kept to the edge of the shed, alert for retaliation. The next day he left before sunrise and did not return to that village for a long time.
+Another son was born in 1665 and died in 1666. In 1667 a son lived, later called Muthu, and in 1670 a daughter, Meenakshi. Ponni kept the children fed by stretching grain and by sending them out to pick up fallen heads of millet after the threshing. Ayyadurai worked where Vellaiyan could place him, and Vellaiyan did it because kin were expected to do it, and because Ayyadurai did not understand what was safe to say to a landholder and what brought trouble.
 
-He worked best when a stronger man set the pace and told him what to do first. When left to plan work on his own, he started tasks in the wrong order, forgot tools, and lost track of small obligations that mattered to landlords. He also took what he could when he thought he could get away with it—an extra handful of grain when measuring, a bundle of firewood from land he did not own. He did it quickly and without apology. With people he liked, he was easy company. He laughed at simple teasing. He shared tobacco when he had it and took it when someone offered. His closest friend in his moving years was a laborer named Karuppan, who could bargain with agents without raising his voice. Ayyadurai followed Karuppan’s lead when wages were being set.
+In 1670, when he was thirty-three, Ayyadurai fought a man over wages. The harvest had ended, and the landholder’s agent tried to pay laborers in grain with a short measure. Ayyadurai shouted, the other laborer shouted back, and Ayyadurai swung a stick he kept for dogs. The blow landed on the man’s shoulder and split the skin. Men dragged Ayyadurai away, and the agent docked him the rest of his pay. For months after, he found doors closed when he asked for work. Vellaiyan cursed him for it, then quietly brought him to a different village where the story was thinner.
 
-In his late thirties, during irrigation and weeding seasons away from home, he began meeting a married woman from a neighboring hamlet. Her name was Ponnammal. They met where the field paths narrowed, near a clump of scrub and a shallow channel. It started with talk and small touches while others worked nearby, then became a secret pattern. He brought her a little salt fish once, wrapped in leaf, and she laughed at how proud he looked carrying it. The meetings continued through parts of three seasons until gossip hardened into accusation. Someone’s aunt confronted Ponnammal at a water place, and Ayyadurai heard from Karuppan that the husband had begun asking questions. Ayyadurai stopped going near that hamlet.
+In 1673 a daughter was born and died in 1675. By then the household counted deaths the way it counted sacks of grain: with bitterness and tiredness. Ayyadurai’s mornings started with a quick wash, a lamp lit at the corner of the room, and a muttered promise to bring something to the shrine if the day went well. He walked out before sunrise in the cool hour, liked the smell of damp earth when the northeast monsoon rains came, and hated the days after cyclonic storms when roads turned to mud and grain movement stopped. When rain failed, he watched the market with narrowed eyes, hearing numbers but not grasping how quickly they would ruin him.
 
-Meenakshi died before Ayyadurai reached old age. After her death he kept the household with the youngest children. By then one son was grown enough to work, another was nearing manhood, and two daughters survived into adulthood, but their lives were tied to other households and arrangements. Ayyadurai’s home at the end held only him and a small number of unmarried children. He cooked when he had to, stirring gruel with a stick and burning it often, and relied on neighbors to trade him a bit of tamarind or greens. When a child fell sick, he sat close through the night, warming water and pressing cloths, then went out at dawn to find work anyway. He took pride in getting a son placed in a harvest gang without having to beg loudly for it.
+In 1677, at forty, a son was born, the last child, and he lived. That year Ayyadurai spent long stretches away from home for seasonal work, moving between villages with other laborers. During irrigation and weeding, he began meeting a married woman from a neighboring hamlet at the edge of the fields. They spoke little. They used the cover of work and the paths between bunds. It continued until gossip reached Ponni’s ears and reached the woman’s household too. The meetings stopped. Ayyadurai did not apologize. He argued, then went silent for days, eating without taste and sitting outside at dusk with his back against a wall.
 
-The wider world pressed harder as he aged. Grain prices jumped in bad years when the rains failed, and laborers fought for work. In years when storms damaged crops and washed out paths, he walked farther to find employment. In the late 1670s and into the 1680s, talk of Maratha forces and war pressure reached even inland villages. Revenue demands rose. Agents came through more often, and villages argued over what could be paid. Markets became jumpy; buyers offered less and demanded more. Ayyadurai kept his head down, moved when a place turned hostile, and returned to familiar tanks and shrines when he needed kin help.
+In the late 1670s, news traveled with merchants and with frightened men: Maratha forces pushing south, raids and war pressures in the Kaveri–Thanjavur region, levies rising, grain moving under guard. Even in the interior, village demands grew. Headmen wanted more labor, more fees, more compliance. For a man in Ayyadurai’s position, it meant fewer choices and more punishment when he spoke out.
 
-In October 1688, after the rains, fever took him. It began with chills and a pounding headache. He stopped going out for work and lay on a mat while one of the older children fetched water. Sweat soaked his cloth. On October 20, 1688, the fever ended his life in his house. The body was carried out the same day, and the household turned back to finding grain for the next meal.
+In 1682 Ponni died. Ayyadurai was forty-five. Her illness dragged on, and he depended on Sellayi’s help and on Meenakshi’s hands to keep the household running. After Ponni’s death he kept a small nuclear household: Kannan already a grown worker, Muthu and Meenakshi still at home, and the youngest boy still small. He worked when he could, but he also stayed near the children more than he had before, watching for fevers and for the petty cruelties of neighbors. He took pride in small order: a swept patch of floor, a pot filled before night, a child washed before the festival.
+
+In October 1688, fever swept through the area after the rains. Ayyadurai fell sick on October 20, 1688, and died that day in Karaipadi, at fifty-one. His household had no surplus, no land to pass down, and no written mark of his name. The people who knew him remembered a man who fought over grain and still carried his children when the drums started.

@@ -100,6 +100,187 @@ continent: "Asia"
 #   village or remained with natal household)
 # mother_occupation: Household manager + food processing/childcare (primary role), with
 #   some seasonal farm work support
+# narrative_plan:
+#   children:
+#   - birth_year: 940
+#     death_age: 0
+#     death_year: 940
+#     narrative_role: First live birth during early marriage; neonatal death shapes
+#       household tensions and blame.
+#     sex: F
+#   - birth_year: 942
+#     death_age: 47
+#     death_year: 989
+#     narrative_role: Surviving daughter who remains in the natal household after separation;
+#       a central caregiving responsibility and motive for petty theft.
+#     sex: F
+#   - birth_year: 943
+#     death_age: 0
+#     death_year: 943
+#     narrative_role: Third live birth; neonatal death intensifies conflict with husband/affines
+#       over 'failure' to produce a surviving son.
+#     sex: M
+#   incident_placements:
+#   - age: 19
+#     connection: After the neonatal deaths (ages 16 and 19) and disputes over dowry/household
+#       obligations, husband’s beatings escalate; leads to her returning to natal kin
+#       by age 20.
+#     incident: domestic_violence
+#   - age: 22
+#     connection: Occurs while she is serving as an attendant in a patron household
+#       because natal kin need her wages/food; coercion is tied to threats of expulsion
+#       and accusation.
+#     incident: sexual_violence
+#   - age: 23
+#     connection: Develops after the coercive incident into a secret ongoing liaison
+#       with Govinda for protection and grain, while she remains separated from her
+#       husband.
+#     incident: extramarital_sex
+#   - age: 25
+#     connection: During a period of high prices/short rations after weak rains, she
+#       steals small quantities of millet and ghee from the patron’s stores to feed
+#       herself and her surviving daughter.
+#     incident: perpetrator_property_crime
+#   - age: 25
+#     connection: Late miscarriage after fever/bleeding occurs in the same general period
+#       as economic stress and illicit taking; treated with women’s remedies and vows
+#       at the village goddess shrine.
+#     incident: pregnancy_complications
+#   life_phases:
+#   - age_range: 0-6
+#     key_events:
+#     - Raised in an extended patrilocal household with at least one paternal grandparent;
+#       learns daily household puja and village goddess offerings.
+#     - Memories of periodic levy/tax collection visits and preparations (grain measures,
+#       cattle counted) in a notable household.
+#     - Hears stories of the infant brother who died and the household’s protective
+#       rites (neem, turmeric, amulets).
+#     phase: Early childhood
+#   - age_range: 7-14
+#     key_events:
+#     - Eldest sister’s death (938) changes household labor and women’s responsibilities.
+#     - Older brothers increasingly involved in local militia/retainer obligations as
+#       political competition intensifies.
+#     - Betrothal and marriage preparations; learns expected married-woman duties and
+#       ritual fasting/vows.
+#     phase: Later childhood / adolescence
+#   - age_range: 14-20
+#     key_events:
+#     - Marriage and attempts to establish herself in husband’s household while maintaining
+#       ties to natal kin nearby.
+#     - Series of pregnancies/live births with two neonatal deaths; escalating blame
+#       and conflict over dowry and fertility.
+#     - Domestic violence culminating in her flight/return to natal household.
+#     phase: Early adult married life
+#   - age_range: 20-28
+#     key_events:
+#     - Lives in natal extended household with her surviving daughter; status is unstable
+#       (sometimes protected, sometimes burdensome).
+#     - Takes attendant work in a higher-status household to secure food and favor;
+#       navigates vulnerability and coercion.
+#     - Monsoon-related food stress years raise grain prices; contributes to desperation
+#       and petty theft.
+#     phase: 'Separated life: dependence and work'
+#   named_characters:
+#   - name: Bhagavati
+#     prominence: all phases
+#     relationship: self
+#   - name: Rudradeva
+#     prominence: childhood through early adult; especially adolescence and her return
+#       home
+#     relationship: father (warrior-retainer with land rights)
+#   - name: Soma
+#     prominence: childhood through separated life; key support figure
+#     relationship: mother (household manager)
+#   - name: Ajji
+#     prominence: early childhood and later childhood; source of ritual knowledge and
+#       household authority
+#     relationship: paternal grandmother (elder in extended household)
+#   - name: Ganga
+#     prominence: early childhood memory and adolescence turning point
+#     relationship: older sister (born 910; deceased 938)
+#   - name: Vira
+#     prominence: adolescence through ages 20-22; protector/advisor until his death
+#       in 946
+#     relationship: older brother (born 912)
+#   - name: Mahadeva
+#     prominence: ages 20-28; household decision-maker about her work and caregiving
+#       arrangements
+#     relationship: older brother (born 918)
+#   - name: Lila
+#     prominence: adolescence through ages 20-28; confidante and co-caregiver for the
+#       surviving daughter
+#     relationship: older sister (born 921)
+#   - name: Keshava
+#     prominence: ages 14-20; antagonist in domestic violence arc
+#     relationship: husband
+#   - name: Govinda
+#     prominence: ages 22-24
+#     relationship: liaison connected to patron household
+#   - name: Vimala
+#     prominence: ages 18-28 as dependent child and motive for work/theft
+#     relationship: surviving daughter (born 942)
+#   - name: Chandra
+#     prominence: ages 20-28 as helper in natal household
+#     relationship: younger sister (born 927)
+#   partners:
+#   - name: Keshava
+#     narrative_role: Husband from the same village or a nearby hamlet; marriage arranged
+#       by natal kin. Relationship becomes violent and conflictual; separation ends
+#       cohabitation and sends Bhagavati back to her father/brothers.
+#     relationship_end_year: 944
+#     relationship_start_year: 938
+#   - name: Govinda
+#     narrative_role: Man connected to the patron household (a kinsman/retainer). Becomes
+#       a secret liaison that provides grain/protection; relationship is unequal and
+#       risky.
+#     relationship_end_year: 948
+#     relationship_start_year: 946
+#   siblings:
+#   - birth_year: 910
+#     death_age: 28
+#     death_year: 938
+#     narrative_role: Eldest sister who helps raise younger siblings; her early death
+#       is an important childhood memory and shifts more work onto the mother and older
+#       sisters-in-law/kin.
+#     sex: F
+#   - birth_year: 912
+#     death_age: 34
+#     death_year: 946
+#     narrative_role: Older brother who begins training in local militia duties; later
+#       becomes a key natal-kin protector when Bhagavati returns after separation.
+#     sex: M
+#   - birth_year: 915
+#     death_age: 0
+#     death_year: 915
+#     narrative_role: Infant brother whose death is remembered in household ritual talk
+#       (protective rites, vows to the village goddess).
+#     sex: M
+#   - birth_year: 918
+#     death_age: 48
+#     death_year: 966
+#     narrative_role: Older brother who eventually becomes the main household manager
+#       after the father ages; prominent in Bhagavati’s return to the natal home and
+#       decisions about her work as an attendant.
+#     sex: M
+#   - birth_year: 921
+#     death_age: 65
+#     death_year: 986
+#     narrative_role: Older sister close in age to Bhagavati; confidante in adolescence,
+#       later helps care for Bhagavati’s surviving daughter in the natal household.
+#     sex: F
+#   - birth_year: 924
+#     death_age: 28
+#     death_year: 952
+#     narrative_role: Bhagavati (protagonist).
+#     sex: F
+#   - birth_year: 927
+#     death_age: 78
+#     death_year: 1005
+#     narrative_role: Younger sister who grows up watching Bhagavati’s marital troubles;
+#       appears as a young teen when Bhagavati returns home and helps with childcare
+#       and water-carrying.
+#     sex: F
 # number_of_children: '3'
 # number_of_siblings: '6'
 # occupation: Domestic servant/attendant in a higher-status household (due to separation
@@ -168,38 +349,36 @@ continent: "Asia"
 #   type: pregnancy_complications
 ---
 
-Bhagavati was born on the first day of March in 924, in a village on the dry deciduous plateau east of the main Deccan roads. The local order ran through landed families and their ties to a warrior elite under the Rashtrakutas and their feudatories. In her village the language was the local Deccan Indo‑Aryan speech that later generations called Marathi. People marked seasons by the monsoon and by the goddess shrine at the edge of the fields.
+Bhagavati was born on March 1, 924, in a small settlement on the dry plateau east of the big Deccan routes, where fields depended on the monsoon and the village shrine stood closer than any stone temple. The area lay under the reach of Rashtrakuta power and its feudatories. For her family that meant officers arriving for grain and cattle counts, and the village headmen settling demands with measured baskets and promises. Her people spoke the local Deccan Indo‑Aryan tongue at home and in the lanes, and they marked days with household offerings and the goddess’s festival.
 
-She entered an extended household where an older man’s word set the rhythm. Her grandfather, Dhanapala, sat on a low wooden stool near the doorway when visitors came, and he kept the seals and strings for grain measures. Her father, Khandoba, rode out with other retainers when a local chief demanded men. He kept spear and shield hung from a peg inside the front room, away from the cooking smoke. When he returned he brought news of levies and quarrels between lords, and he brought small things: a strip of iron for a sickle, salt wrapped in a leaf.
+She entered an extended household under an old woman’s authority. Her paternal grandmother, Ajji, ran the inner rooms. Ajji kept neem leaves hanging near the grain pots and tied black threads on children’s wrists after a cough went through the houses. Soma, Bhagavati’s mother, woke before sunrise, rinsed the courtyard, and lit a small lamp at the household corner shrine. Bhagavati watched, handed her water, and learned to keep quiet during the first prayers.
 
-Bhagavati was the sixth child. Three brothers came before her, then two sisters. A seventh child followed. The household filled the courtyard with noise: grinding stones in the morning, goats bleating, children chasing each other between the water pots. Her mother, Sona, ran the work without shouting much. She woke before first light, rinsed her mouth at the well, and lit a lamp at the small home shrine. She offered water and a pinch of grain, then set rice or millet to boil. Bhagavati learned to knead dough with her palms, to keep ash from the hearth ready for scrubbing pots, to carry a brass vessel steady on her head.
+Bhagavati was the sixth child. Ganga, the eldest sister, carried infants on her hip and slapped boys’ hands away from the drying millet cakes. Vira and Mahadeva, the older brothers, followed their father Rudradeva to the edge of fields to hear men argue about boundaries and grazing. A third brother had died in 915, long before Bhagavati could remember him, yet his absence stayed present in Ajji’s rules. Soma kept vows at the village goddess’s shrine and talked about what happens when the goddess is not paid what she is owed.
 
-One of the brothers died as a newborn. The women wrapped the small body in cloth and left it where the men said. The household kept working the same day. Another of her brothers survived and grew into a hard young man who handled cattle and argued with others at the boundary stones. Her sisters helped with carding cotton and fetching water. When they rested, they sat under the neem and chewed roasted chickpeas. Bhagavati liked the sound of bangles when the older girls clapped along to a work song. She repeated the refrains even when she did not understand all the words.
+Chandra, the youngest sister, arrived in 927. Bhagavati liked the baby’s smell of oil and smoke and the soft head before hair thickened. She also liked the work that took her out of the women’s rooms: carrying a brass lota to the well, wiping spilled grain off the threshold, and walking with Lila, her older sister born in 921, to collect fallen branches from the scrub and small forest patches. She preferred the early morning for this, before men filled the lanes and before heat pressed down. She teased Lila about her careful braids, and Lila answered by flicking water at Bhagavati’s ankles.
 
-When she was a child the rains failed once. The first showers came thin, then stopped. The millet heads stayed small. Khandoba and Dhanapala met with other village men and talked about what to sell and what to hold. In the women’s corner, Sona stretched the grain by adding more greens and thin gruel. Bhagavati carried water farther each week as the closer pools dried. She watched her mother press turmeric into a cloth and tie it at the doorway, then smear cow dung at the threshold, neat and even, as if the pattern could keep sickness and hunger from stepping in.
+In 938, when Bhagavati was fourteen, Ganga died at twenty‑eight. The death came after a short illness that left Ganga too tired to stand at the grinding stone. Ajji took charge of the funerary rites and Soma did the practical work: water, firewood, food for relatives who arrived and then stayed. After Ganga’s death, Soma shifted tasks to the younger girls. Bhagavati rose earlier, carried heavier loads, and learned to keep count of grain measures by the feel of the basket in her hands.
 
-By the time Bhagavati reached marriageable age, Khandoba’s standing mattered. He held land and had obligations upward, and he wanted a match that kept alliances close. The marriage was arranged within the village so the land and the ties stayed tight. Her husband’s name was Virana. He came from a household that had cattle and a share in the village council, but his temper ran ahead of his judgment. The wedding brought ritual and noise: women drew designs with rice flour, elders offered blessings, and the village goddess shrine received a vow and a coconut.
+That same year, Rudradeva’s militia obligations sharpened. Rivals pressed in from different directions and local chiefs demanded men, grain, and cattle. Rudradeva spent more time away, sometimes sleeping in other villages with other retainers. When he returned, he brought news, a new bruise, and a wary look when strangers entered the courtyard. He counted the family’s animals with Mahadeva and spoke to Ajji in a low voice. The women listened while they worked.
 
-In Virana’s house Bhagavati rose before the others and swept the packed earth floor until it showed no footprints. She kept water pots filled and made sure the cattle were led out at the right time. When Virana returned from meetings with other men, she served him first. She kept her voice even. She avoided quarrels in daylight, because neighbors listened.
+Bhagavati married in 938. Her husband, Keshava, lived close enough that she still heard familiar accents in the lane, but she moved into his household under his mother’s eye. The wedding brought exchanges of cloth and pots and the public tying of obligations between households. Within weeks she learned the rules of another kitchen: where the firewood stacks belonged, how much water to draw, which storage jar was for ghee and which for oil. She kept the floor swept hard and neat. She liked setting out lentils to dry and picking through them for stones, one quick handful at a time.
 
-Virana wanted the prestige of a son who lived. After the first pregnancy she labored long, and the child came out limp and quiet. The women tried oil and warm water, but the baby did not take breath. They gave the child a quick rite and moved on to the next tasks. Virana’s face tightened when he heard the result. He blamed her body. He blamed her family’s dowry. He began to strike her when angry, first with his hand, then with a stick kept by the doorway. Once he kicked her hard enough that she fell against the grain jar and cracked its rim. She cleaned the spilled millet with shaking hands and kept the house silent.
+In 940 she gave birth to a daughter who died the same day. The women washed the infant and wrapped her in cloth. Keshava’s mother muttered about bad luck. Keshava said little in front of others and then, in private, blamed Bhagavati for weakness. The next year brought tight rains and poor yields in some fields, and prices rose in the weekly market. Keshava grew sharper, angry about the household’s obligations and the dowry he said had been too small for what he took on.
 
-A second child came, a girl, and she lived. Bhagavati named her Sita. Sita’s hair grew thick; she cried loudly when hungry and laughed when tickled under the chin. Bhagavati’s mother visited and brought cloth, and for a few hours the house felt steady. Virana watched the child, then turned away, speaking of sons again. The beatings returned when food ran short or when he had been drinking with men after a dispute. Bhagavati stopped pleading. She kept her eyes steady when he raged. When he raised the stick, she covered her head with her arm and waited for the blows to end.
+In 942 Bhagavati bore another daughter, Vimala. The child lived and fed well. Bhagavati carried her high on her hip and learned to hush her with a small rhythm of rocking while keeping her hands free for work. She spoke to Vimala in short phrases, naming objects and tasks, as if teaching the child the household’s order.
 
-The third live birth was a boy. He died the same day, small and blue. Virana shouted until his voice cracked. That night he struck her in front of his mother. When the older woman did not stop him, Bhagavati took Sita at dawn, wrapped her in a cloth, and walked back to her father’s compound without waiting for permission. She crossed the fields with her daughter on her hip, dust sticking to her feet. Khandoba listened when she spoke. Dhanapala said nothing for a long moment, then told her to stay.
+In 943 she gave birth to a son who died at birth. The death brought the household into open conflict. Keshava’s mother demanded vows and offerings, and Keshava demanded money and grain from Bhagavati’s natal household. Bhagavati’s brothers refused. Keshava turned his anger on Bhagavati. In 943 he beat her with a stick after a dispute over grain stored for Vimala’s weaning. In 944 he kicked her hard during another quarrel, shouting that she shamed him by failing to keep a son alive. After that beating, Bhagavati took Vimala and left before dawn, walking back to her father’s courtyard with her hair tied tight and her face set.
 
-Returning did not restore her old place. She slept near the women’s storage pots. Her brothers’ wives watched her carefully. Still, her mother gave her a corner of the hearth and a share of work. Bhagavati carried water, ground grain, and took Sita with her to keep the child from wandering into the cattle pen. When a local notable family needed extra hands, Sona sent Bhagavati to serve there. It was safer than begging and less shame than being idle in her brothers’ yard.
+Rudradeva accepted her without ceremony. Ajji scolded her for returning with trouble attached, then told Soma to make space. Vira stood between her and the men who came from Keshava’s side to demand her return. Bhagavati stayed. She worked as she had before marriage, except now she carried a child and took orders from brothers as well as elders. At times she was treated as protected kin; at times she was treated as an extra mouth. She reacted fast to being pushed, speaking back in plain words, and then settling into silence when she chose.
 
-At the patron’s compound, Bhagavati washed vessels, swept rooms, and carried bundles of fodder. The house had more space, thicker walls, and a storeroom with sealed jars. The men there talked of levies and of a chief’s demand for cattle. Khandoba himself rode out more than once with other retainers, and each time the village felt tighter, watched.
+In 946 Vira died at thirty‑four after an illness that left him thin and coughing. His death reduced Bhagavati’s protection. Mahadeva, now the strongest voice in the household, decided she would earn by serving in a higher-status compound tied to local authority. In 946 she began attending there: sweeping courtyards, carrying water, washing brass, and watching children. She learned who liked their buttermilk thin and who wanted it thick. She avoided the house’s older men by keeping to the women’s spaces and moving briskly with her eyes down.
 
-A male relative of the householder began to corner Bhagavati when she worked away from others. He spoke softly and smiled without warmth. He told her he could have her turned out. He told her servants were blamed when stores went missing. One day he pulled her into a back room where sacks of grain leaned against the wall. He held her wrist and used the threat of accusation and expulsion until she stopped resisting. After that, he came again when he chose. Bhagavati kept her face blank in the courtyard and did not tell the other women.
+In 946, a male relative of the householder cornered her in a back room. He accused her of taking cloth and threatened to have her turned out. He forced sex on her there, with no witness and no recourse. Afterward she returned to work, kept her mouth closed, and learned which doorway to avoid.
 
-Later a different man in the compound, a clerk’s cousin named Narayana, spoke to her like a person rather than a tool. He offered a handful of roasted gram for Sita. He slipped extra oil into her pot when he could. Their arrangement became clear without words: she met him in a shed at the edge of the compound, and in exchange he made sure she received grain and that no one pushed her out. Bhagavati kept the meetings hidden. She returned to her father’s house at night and said she had been kept late by work.
+In 947 she entered a secret liaison with Govinda, a man attached to the patron household’s network. He brought small bundles of grain and sometimes a little salt. He promised protection from accusations and from being cast out. She met him at times when others slept, and she kept the arrangement hidden from her mother and sisters. The liaison lasted through 948, and it bought her food and a narrow margin of safety.
 
-When Sita grew, she followed Bhagavati everywhere, asking questions and tugging at her sari. Bhagavati answered briefly and made the child repeat chores until they stuck. She also laughed with Sona at small things: a neighbor’s goat escaping into a courtyard, a toddler smearing soot on his own face. On festival days they went to the village goddess shrine with turmeric and neem leaves. Bhagavati liked the moment after offerings when drums began and the crowd pressed close, when she could stand still and let the noise cover her thoughts.
+In 949 the rains failed early and the harvest came short. Grain prices rose again. In 949 and 950, when she was sent to grind grain at the patron’s compound, Bhagavati took small measures of millet and a bit of ghee from the store jars on several visits. She hid the millet in the folds of her cloth and carried the ghee in a small wrapped leaf bundle. She fed Vimala first, then ate what remained.
 
-In her mid‑twenties she suffered a late miscarriage after days of fever and bleeding. Older women in the household pressed hot cloths to her belly, gave her bitter decoctions, and made her promise offerings at the shrine if she lived. She lay on a mat and listened to the grinding stones outside. When she could stand, she returned to work. Her strength stayed uneven for months.
+In 949, at age twenty‑five, she became pregnant again. That year she fell ill with fever and then began bleeding. The women of the household treated her with hot compresses, decoctions, and strict rest. Soma and Lila took her to the village goddess’s shrine and made vows with turmeric and flowers. The pregnancy ended in a late miscarriage. Bhagavati returned to work when she could stand without swaying, and she said little about it.
 
-Grain grew dear again after another poor season. The patron’s storeroom stayed fuller than most. Bhagavati began to take small measures of millet while she ground flour, and once she scooped a bit of clarified butter with her fingers and hid it in a folded cloth. She brought it home for Sita. She kept her movements calm and her eyes down. No one spoke to her about it.
-
-In late 952, after the monsoon waters turned the paths slick and the wells tasted of mud, dysentery swept through the village. Bhagavati began passing watery stool and could not keep food down. Sona boiled water and added salt when she had it. Bhagavati’s mouth dried and her skin cooled. She died on September 21, 952, on a mat inside her father’s house, with Sita asleep against Sona’s hip and the courtyard quiet except for flies and the sound of a goat chewing.
+In 952, during the late monsoon season, she developed severe diarrhea. Water came from shared sources and the lanes stank of waste where animals and children moved together. She remained in her natal household courtyard, too weak to work. On September 21, 952, Bhagavati died at twenty‑eight.
