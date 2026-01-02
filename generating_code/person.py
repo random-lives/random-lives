@@ -396,6 +396,10 @@ class Person:
         if hasattr(self, 'historical_context') and self.historical_context:
             output['historical_context'] = self.historical_context
 
+        # Add narrative plan (timeline/family structure from LLM pipeline)
+        if hasattr(self, 'narrative_plan') and self.narrative_plan:
+            output['narrative_plan'] = self.narrative_plan
+
         return output
 
     def to_prompt_string(self):

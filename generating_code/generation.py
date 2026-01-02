@@ -4,9 +4,11 @@ Unified LLM generation pipeline for biographical narratives.
 This module handles the full pipeline for generating person biographies:
 1. Geography refinement (Paleolithic only)
 2. Demographic generation
-3. Life events sampling
-4. Narrative generation
-5. Quality control
+3. Structured incidents sampling
+4. Historical context generation
+5. Naming
+6. Narrative planning (timeline/family structure)
+7. Narrative generation
 
 Usage:
     from generation import generate_person
@@ -280,6 +282,79 @@ For "unnamed" category, return empty list: {{"category": "unnamed", "names": []}
 
 
 # -----------------------------------------------------------------------------
+# Narrative Planning Prompt
+# -----------------------------------------------------------------------------
+
+NARRATIVE_PLAN_PROMPT = '''Before writing the narrative, create a detailed timeline and plan.
+
+TASK: Work out the key facts and timing that the narrative must respect. The demographic data gives you constraints (birth order, sibling sexes, ages at death) but you must decide the specific timing.
+
+CREATE A TIMELINE with these elements:
+
+1. FAMILY TIMELINE
+For each sibling, decide:
+- Their approximate birth year (use realistic spacing: typically 1.5-4 years between births, but can vary)
+- When they died (if before the end of the narrative)
+- Key moments when they appear in the narrative
+
+For spouses/partners (if any):
+- When the relationship began
+- When it ended (death, separation, or end of narrative)
+- Nature of the relationship (eg close, distant)
+
+For each child (if any), decide:
+- Their approximate birth year
+- When they died (if before the end of the narrative)
+
+2. LIFE PHASES
+Break the life into phases with approximate ages:
+- Early childhood (memories, household)
+- Later childhood / adolescence
+- Adult life (work, family, community)
+- Old age / decline (if applicable)
+
+For each phase, note 1-3 key events or details to include.
+
+3. INCIDENTS PLACEMENT
+For each structured incident, decide exactly when it happened (age/year) and how it connects to other events.
+
+4. CHARACTERS
+List the named characters who will appear, with their relationship and when they're most prominent.
+
+IMPORTANT CONSTRAINTS:
+- Siblings must be born in the correct order (birth_order_position tells you where this person falls)
+- Older siblings must be born BEFORE this person; younger siblings AFTER
+- All dates must be internally consistent
+
+Return as JSON:
+{{
+    "siblings": [
+        {{"sex": "M/F", "birth_year": YYYY, "death_year": YYYY, "death_age": N, "narrative_role": "brief description"}},
+        ...
+    ],
+    "partners": [
+        {{"name": "if decided", "relationship_start_year": YYYY, "relationship_end_year": YYYY, "narrative_role": "brief description"}},
+        ...
+        ],
+    "children": [
+        {{"sex": "M/F", "birth_year": YYYY, "death_year": YYYY, "death_age": N, "narrative_role": "brief description"}},
+        ...
+    ],
+    "life_phases": [
+        {{"phase": "name", "age_range": "X-Y", "key_events": ["event1", "event2"]}},
+        ...
+    ],
+    "incident_placements": [
+        {{"incident": "type", "age": N, "connection": "how it relates to other events"}},
+        ...
+    ],
+    "named_characters": [
+        {{"name": "if decided", "relationship": "sister/friend/etc", "prominence": "which life phases"}},
+        ...
+    ]
+}}'''
+
+# -----------------------------------------------------------------------------
 # Narrative Prompts
 # -----------------------------------------------------------------------------
 
@@ -297,6 +372,7 @@ VOICE:
 - Omniscient narrator: state facts confidently
 - No hedging: Do not write "likely", "probably", "perhaps", "may have", "might have", "could have", "about", "around", "approximately"
 - The demographic data may contain hedging language or present a range of options. Make concrete choices in these cases, rather than leaving things vague
+- Events happen at specific times. Do not spread events across year ranges, instead pick one year and state it.
 - Vary sentence rhythm. Mix lengths. Fragments sometimes.
 
 PROSE STYLE:
@@ -310,6 +386,11 @@ PROSE STYLE:
 - Describe what was there, not what wasn't. Avoid defining people or situations by negatives. If a detail only matters as an absence, cut it.
 - Do not introduce or frame events before describing them. Start with the event itself.
 
+FLOW AND CONTINUITY:
+- Write as continuous narrative, not discrete blocks. Each paragraph should connect to the next.
+- Maintain strict chronological order. Do not insert events out of sequence.
+- Connect life phases through causation, not just time passing.
+
 HISTORICAL INTEGRATION:
 - Include historical framing throughout so readers can follow
 - Assume an intelligent reader who can look things up but isn't a specialist
@@ -322,7 +403,7 @@ PERSONALITY:
 - Don't soften negative traits—low agreeableness causes friction, low conscientiousness causes real failures, low intelligence shows in limited understanding and poor decision-making
 
 AVOID THESE PHRASES:
-"life went on", "work continued", "people remembered", "was known for", "in those days", "as was common", "like so many", "he suffered", "it was not X, it was Y", "A did not do X. A did Y"
+"life went on", "work continued", "people remembered", "was known for", "in those days", "as was common", "like so many", "he suffered", "it was not X, it was Y", "A did not do X. A did Y", "no kings ruled"
 '''
 
 # Human particularity section (added for adolescents and adults only)
@@ -419,7 +500,7 @@ PERSONALITY TRAIT CHECK:
 Verify that extreme personality traits are visible and unvarnished. Negative traits should not be reframed as hidden strengths. Dysfunctional, ineffectual, or difficult people must not be bowdlerized into sympathetic eccentrics.
 
 BANNED PHRASES:
-Remove or replace: "life went on", "work continued", "people remembered", "was known for", "in those days", "as was common", "like so many", "he suffered", "it was not X, it was Y", "breathing slowed", "fever rose/burned", "eyes closed", "slipped away", "grew weaker", "stopped breathing"
+Remove or replace: "life went on", "work continued", "people remembered", "was known for", "in those days", "as was common", "like so many", "he suffered", "it was not X, it was Y", "breathing slowed", "fever rose/burned", "eyes closed", "slipped away", "grew weaker", "stopped breathing", "no kings ruled"
 
 REWRITING:
 Fix all identified issues while maintaining consistency with person_data.
@@ -593,10 +674,11 @@ def reset_to_stage(person, stage):
     - 'incidents': Before structured incidents are generated
     - 'historical_context': Before historical context is generated
     - 'name': Before name is generated
+    - 'narrative_plan': Before narrative plan is generated
     - 'narrative': Before narrative is generated
     - 'qc': Before quality check is run
     """
-    stages_order = ['demographics', 'incidents', 'historical_context', 'name', 'narrative', 'qc']
+    stages_order = ['demographics', 'incidents', 'historical_context', 'name', 'narrative_plan', 'narrative', 'qc']
 
     if stage not in stages_order:
         raise ValueError(f"Unknown stage: {stage}. Must be one of {stages_order}")
@@ -608,6 +690,8 @@ def reset_to_stage(person, stage):
         pass  # QC only modifies narrative, handled below
     if stage_idx <= stages_order.index('narrative'):
         person.narrative = None
+    if stage_idx <= stages_order.index('narrative_plan'):
+        person.narrative_plan = None
     if stage_idx <= stages_order.index('name'):
         person.name = None
         person.naming_category = None
@@ -626,6 +710,7 @@ def reset_to_stage(person, stage):
         'incidents': 'estimate the probability that each of the following broad incident categories',
         'historical_context': 'list HISTORICAL and ENVIRONMENTAL CONTEXT events',
         'name': 'Generate 20 possible names',
+        'narrative_plan': 'Before writing the narrative, create a detailed timeline',
         'narrative': 'Write a narrative biography',
     }
 
@@ -1183,6 +1268,99 @@ def generate_name(person, ctx):
         })
 
 
+def generate_narrative_plan(person, ctx):
+    """
+    Generate a narrative plan/timeline before writing the narrative.
+
+    This stage has the LLM work out:
+    - When siblings were born and died
+    - When children were born and died
+    - Life phases and key events
+    - Where to place structured incidents
+    - Which characters get names and prominence
+
+    This ensures temporal consistency in the narrative.
+
+    Modifies person in place, storing results in person.narrative_plan.
+    """
+    # Skip for very short lives (infants/young children) - not enough to plan
+    if person.years_lived() < 3:
+        ctx.log("Too young for narrative planning")
+        person.narrative_plan = None
+        return
+
+    # Build context about what needs to be planned
+    plan_context = []
+
+    # Add sibling info if present
+    if 'sibling_sexes' in person.demographics:
+        sexes = person.demographics['sibling_sexes']
+        ages = person.demographics.get('sibling_ages_at_death', [])
+        birth_order = person.demographics.get('birth_order_position', 1)
+
+        # Get death year from death_date tuple (year, day_of_year)
+        death_year = person.death_date[0] if person.death_date else person.birth_year + person.age_at_death
+
+        plan_context.append(f"SIBLING DATA:")
+        plan_context.append(f"- This person was child #{birth_order} of {len(sexes) + 1} children")
+        plan_context.append(f"- This person was born in {person.birth_year} and died in {death_year} (age {person.age_at_death})")
+        plan_context.append(f"- Siblings (in birth order):")
+
+        for i, (sex, age) in enumerate(zip(sexes, ages)):
+            position = i + 1 if i < birth_order - 1 else i + 2  # Account for person's position
+            relation = "older" if position < birth_order else "younger"
+            sex_word = "sister" if sex == 'F' else "brother"
+            plan_context.append(f"  {position}. {relation} {sex_word} - died at age {age}")
+
+    # Add children info if present
+    if 'children_sexes' in person.demographics:
+        sexes = person.demographics['children_sexes']
+        ages = person.demographics.get('children_ages_at_death', [])
+
+        plan_context.append(f"\nCHILDREN DATA:")
+        plan_context.append(f"- {len(sexes)} children total")
+        for i, (sex, age) in enumerate(zip(sexes, ages)):
+            sex_word = "daughter" if sex == 'F' else "son"
+            plan_context.append(f"  {i+1}. {sex_word} - died at age {age}")
+
+    # Add structured incidents if present
+    if hasattr(person, 'structured_incidents') and person.structured_incidents:
+        plan_context.append(f"\nINCIDENTS TO PLACE:")
+        for inc in person.structured_incidents:
+            plan_context.append(f"- {inc.get('type', 'unknown')}: {inc.get('event', '')} (suggested timing: {inc.get('timing', 'unknown')})")
+
+    # Add historical context if present
+    if hasattr(person, 'historical_context') and person.historical_context:
+        plan_context.append(f"\nHISTORICAL CONTEXT:")
+        for ctx_event in person.historical_context:
+            plan_context.append(f"- {ctx_event.get('event', '')} ({ctx_event.get('timing', '')})")
+
+    ctx.log("Generating narrative plan...")
+
+    full_prompt = NARRATIVE_PLAN_PROMPT
+    if plan_context:
+        full_prompt += "\n\n" + "\n".join(plan_context)
+
+    person.messages.append({"role": "user", "content": full_prompt})
+
+    plan_data, content = call_with_retry(ctx, person.messages)
+
+    if not plan_data:
+        ctx.log("  Failed to generate narrative plan")
+        person.messages.pop()
+        person.narrative_plan = None
+        return
+
+    person.messages.append({"role": "assistant", "content": content})
+    person.narrative_plan = plan_data
+
+    # Log summary
+    siblings = plan_data.get('siblings', [])
+    children = plan_data.get('children', [])
+    phases = plan_data.get('life_phases', [])
+    ctx.log(f"  Plan: {len(siblings)} siblings, {len(children)} children, {len(phases)} life phases")
+
+
 def generate_narrative(person, ctx, extra_prompt=None):
     """
     Generate biographical narrative.
@@ -1209,6 +1387,10 @@ def generate_narrative(person, ctx, extra_prompt=None):
     # Add any experimental modifications
     if extra_prompt:
         full_prompt += "\n\n" + extra_prompt
+
+    # Reference the narrative plan if one exists
+    if hasattr(person, 'narrative_plan') and person.narrative_plan:
+        full_prompt += "\n\nIMPORTANT: Follow the narrative plan you created earlier. Use the exact timeline for siblings, children, and incidents. The plan ensures temporal consistency."
 
     # Structured incidents and historical context (already in conversation history)
     if hasattr(person, 'structured_incidents') and person.structured_incidents:
@@ -1311,7 +1493,11 @@ def run_pipeline(person, model="haiku", quiet=True, show_cost=False):
     generate_name(person, ctx)
 
     ctx.log("\n" + "=" * 50)
-    ctx.log("Step 6: Generating narrative...")
+    ctx.log("Step 6: Generating narrative plan...")
+    generate_narrative_plan(person, ctx)
+
+    ctx.log("\n" + "=" * 50)
+    ctx.log("Step 7: Generating narrative...")
     generate_narrative(person, ctx)
 
     # QC step removed - wasn't adding enough value to justify the cost.
