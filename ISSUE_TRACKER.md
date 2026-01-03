@@ -46,27 +46,20 @@ The following issues were addressed by implementing the **narrative planning sta
 - **Bad example**: Story 0003 (Ayyadurai) - depression in metadata but not in narrative
 - **Fix needed**: Same approach as personality traits - require demonstration
 
-### Medium Priority (Recurring Patterns)
-
-**3. Children introduced as catalog/inventory**
+### ✅ Children Integration (RESOLVED)
 - **Previous issues**: 8, 14, 24, 39
-- **Status**: IMPROVED but still present
-- **Pattern**: "X children were born. Y died as infants. Z survived." Lists rather than integrates.
-- **Current stories**: Still some listing in Rudra, Ayyadurai, but better integration in Rosa María
-- **Fix needed**: Prompt instruction — "Do NOT list children as inventory. Introduce them through scenes."
+- **Status**: Resolved - surviving children now get scenes; compressed handling of infant deaths is appropriate
+- **Examples**: Hinsa copying Baska's cane work, Kannan carried to the festival
 
-**4. Default stoicism for child death**
+### ✅ Grief Variation (RESOLVED)
 - **Previous issues**: 5, 13, 25, 38
-- **Status**: IMPROVED - more variation now
-- **Pattern**: Was defaulting to emotional flatness regardless of personality/culture
-- **Current stories**: More varied - physical grief (Baska), anger (Rosa María), ritual response (Anna)
-- **Fix needed**: Could still use more variation; prompt about grief varying by personality/culture
+- **Status**: Resolved - grief now varies by personality and situation
+- **Examples**: Baska's mother's clenched knuckles, Rosa María snapping at neighbors, Anna's mother keeping swaddling cloth, Jomi refusing food
 
-**5. Spouse death compression**
+### ✅ Spouse Development (RESOLVED)
 - **Previous issues**: 17, 26, 45
-- **Status**: STILL PRESENT in some stories
-- **Pattern**: Wives especially get brief treatment—introduced in a paragraph, die in a sentence
-- **Fix needed**: Prompt instruction about giving long-term partners proportional narrative space
+- **Status**: Resolved - most spouses now get adequate development; some compression acceptable for long lives with much to cover
+- **Examples**: Gauri's illness/death over multiple paragraphs, Jomi learning Baska's habits, Hirpha through affairs and final illness
 
 ### Low Priority (Style Polish)
 
@@ -112,15 +105,10 @@ The following issues were addressed by implementing the **narrative planning sta
 **High Priority**
 1. [ ] **Extreme trait flagging** — Flag traits below 10th or above 90th percentile; require concrete demonstration scenes
 
-**Medium Priority**
-2. [ ] **Children integration** — Add prompt: "Do NOT list children as inventory. Introduce them through scenes."
-3. [ ] **Grief variation** — Add prompt: "Grief for child death should vary by personality and culture."
-4. [ ] **Spouse development** — Add prompt about proportional narrative space for long-term partners
-
 **Low Priority**
-5. [ ] **Banned phrases** — Expand AVOID THESE PHRASES if patterns recur
-6. [ ] **Named deities** — Add instruction to name specific deities where culturally appropriate
-7. [ ] **Specificity** — Add instruction to use specific quantities when data available
+2. [ ] **Banned phrases** — Expand AVOID THESE PHRASES if patterns recur
+3. [ ] **Named deities** — Add instruction to name specific deities where culturally appropriate
+4. [ ] **Specificity** — Add instruction to use specific quantities when data available
 
 ---
 
