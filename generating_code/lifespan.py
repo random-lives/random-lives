@@ -112,7 +112,7 @@ class LifespanCalculator:
                 current_age += 1
                 current_year += 1
 
-            if current_year > 2024:
+            if current_year > 2025:
                 return "alive"
 
         return current_age

@@ -44,18 +44,18 @@ class Raw_Data:
 
         self.cbr = interp1d(self.cbr_xs,self.cbr_ys,fill_value='extrapolate')
 
-hyde_years = np.concatenate(([1600],np.arange(1700,1950,10),np.arange(1950,2025)))
+country_data_years = np.concatenate(([1600],np.arange(1700,1950,10),np.arange(1950,2026)))
 
 class Country_Data:
     def __init__(self, country, LE_1600 = 25, cbr_1600 = 45):
         self.hyde_id   = country.hyde_id
         self.lifetable = country.lifetable
-        self.years = hyde_years
+        self.years = country_data_years
         
         self.pop_data = country.pop(self.years)
 
         #extrapolating births
-        vec_1950 = np.arange(1950,2025)
+        vec_1950 = np.arange(1950,2026)
         births_1950 = country.birth(vec_1950)
 
         vec_1800 = np.arange(1800,1950)
@@ -66,7 +66,7 @@ class Country_Data:
         births_1600 = cbr_intr*country.pop(vec_1600)/1e3
 
         births_vec = np.concatenate((births_1600,births_1800,births_1950))
-        self.birth_data = interp1d(np.arange(1600,2025),births_vec,fill_value='extrapolate')(hyde_years)
+        self.birth_data = interp1d(np.arange(1600,2026),births_vec,fill_value='extrapolate')(country_data_years)
 
         # calculate cbr from births
         self.CBR_data = 1e3*self.birth_data/self.pop_data
@@ -75,7 +75,7 @@ class Country_Data:
         LE_intr = LE_1600 + (vec_1600-1600)/200*(country.LE_ys[0]-LE_1600)
         LE_concat_xs = np.concatenate((vec_1600, country.LE_xs))
         LE_concat_ys = np.concatenate((LE_intr,  country.LE_ys))
-        self.LE_data = interp1d(LE_concat_xs,LE_concat_ys,fill_value='extrapolate')(hyde_years)
+        self.LE_data = interp1d(LE_concat_xs,LE_concat_ys,fill_value='extrapolate')(country_data_years)
 
         self.pop_f    = lambda x : np.exp(interp1d(self.years,np.log(self.pop_data+1))(x))-1
         self.birth_f  = lambda x : np.exp(interp1d(self.years,np.log(self.birth_data+1))(x))-1

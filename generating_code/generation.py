@@ -1409,11 +1409,12 @@ def generate_narrative_plan(person, ctx):
         ages = person.demographics.get('sibling_ages_at_death', [])
         birth_order = person.demographics.get('birth_order_position', 1)
 
-        death_year = person.death_date[0]
-
         plan_context.append(f"SIBLING DATA:")
         plan_context.append(f"- This person was child #{birth_order} of {len(sexes) + 1} children")
-        plan_context.append(f"- This person was born in {person.birth_year} and died in {death_year} (age {person.years_lived()})")
+        if person.is_alive():
+            plan_context.append(f"- This person was born in {person.birth_year} and is still alive at the start of 2026 (age {person.years_lived()})")
+        else:
+            plan_context.append(f"- This person was born in {person.birth_year} and died in {person.death_date[0]} (age {person.years_lived()})")
         plan_context.append(f"- Siblings (in birth order):")
 
         for i, (sex, sib_age) in enumerate(zip(sexes, ages)):

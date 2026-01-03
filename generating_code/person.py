@@ -276,7 +276,7 @@ class Person:
     def years_lived(self):
         """Return years lived (handles 'alive' status)."""
         if self.age_at_death == "alive":
-            return 2025 - self.birth_year
+            return 2026 - self.birth_year
         return self.age_at_death
 
     def is_alive(self):
