@@ -1,103 +1,162 @@
 ---
 layout: life
 title: "Person 0006 (unnamed)"
-birth_year: "1885 AD"
-birth_year_numeric: 1885
-death_year: "1885 AD"
+birth_year: "389 AD"
+birth_year_numeric: 389
+death_year: "389 AD"
 age_at_death: 0
-birth_date: "March 5, 1885 AD"
-death_date: "March 6, 1885 AD"
-location: "Omala, Kogi, Nigeria"
-country: "Nigeria"
-latitude: 7.82
-longitude: 7.38
-map_url: "https://www.google.com/maps/place/7.82,7.38/@7.82,7.38,5z"
+birth_date: "February 20, 389 AD"
+death_date: "February 27, 389 AD"
+location: "岑河镇, 荆州市, 湖北省, 434000, 中国"
+country: "China"
+latitude: 30.23
+longitude: 112.42
+map_url: "https://www.google.com/maps/place/30.23,112.42/@30.23,112.42,5z"
 lifestyle: "Rural"
 era: "Holocene"
-sex: "F"
+sex: "M"
 age_tag: "Infant (0–1)"
-continent: "Africa"
+continent: "Asia"
 
 # Debug information (not displayed on page):
 # Age at death: 0
-# Birth date: March 5, 1885 AD
-# Birth year: 1885 AD
-# Birthplace altitude: 237
-# Birthplace annual precipitation: 1277.0
-# Birthplace biome: Tropical & Subtropical Grasslands, Savannas & Shrublands
-# Birthplace coldest month temp: 19.14900016784668
-# Birthplace cropland percentage: 3.64
-# Birthplace ecotype: Guinean forest-savanna mosaic
+# Agreeableness (% rank): 44
+# Birth date: February 20, 389 AD
+# Birth year: 389 AD
+# Birthplace altitude: 27
+# Birthplace annual precipitation: 1120.0
+# Birthplace biome: Temperate Broadleaf & Mixed Forests
+# Birthplace coldest month temp: 0.19500000774860382
+# Birthplace cropland percentage: 7.63
+# Birthplace ecotype: Changjiang Plain evergreen forests
 # Birthplace irrigated_not_rice percentage: 0.0
 # Birthplace irrigated_rice percentage: 0.0
-# Birthplace latitude: 7.82
-# Birthplace longitude: 7.38
-# Birthplace map url: https://www.google.com/maps/place/7.82,7.38/@7.82,7.38,5z
-# Birthplace mean temp: 26.282875061035156
-# Birthplace modern address: Omala, Kogi, Nigeria
-# Birthplace modern country: Nigeria
-# Birthplace modern region: Kogi
-# Birthplace pasture percentage: 22.92
-# Birthplace population density: 16.780000686645508
-# Birthplace rainfed_not_rice percentage: 3.64
+# Birthplace latitude: 30.23
+# Birthplace longitude: 112.42
+# Birthplace map url: https://www.google.com/maps/place/30.23,112.42/@30.23,112.42,5z
+# Birthplace mean temp: 16.724624633789062
+# Birthplace modern address: 岑河镇, 荆州市, 湖北省, 434000, 中国
+# Birthplace modern country: China
+# Birthplace modern region: Hubei
+# Birthplace pasture percentage: 1.4
+# Birthplace population density: 6.760000228881836
+# Birthplace rainfed_not_rice percentage: 7.63
 # Birthplace rainfed_rice percentage: 0.0
 # Birthplace rangeland percentage: 0.0
 # Birthplace urban_area percentage: 0.0
-# Birthplace warmest month temp: 34.10499954223633
-# Death date: March 6, 1885 AD
+# Birthplace warmest month temp: 31.921998977661133
+# Conscientiousness (% rank): 61
+# Death date: February 27, 389 AD
 # Era: Holocene
+# Extraversion (% rank): 43
+# Honesty-Humility (% rank): 71
+# Intelligence (% rank): 52
 # Lifestyle: Rural
 # Name: (unnamed - died before naming)
 # Naming category: unnamed
-# Sex: F
-# birth_order_position: 5
-# cause_of_death: Birth asphyxia/traumatic delivery (prolonged or obstructed labor,
-#   cord accident, difficult presentation)
-# ethnicity: Idoma (Niger-Benue; Benue valley neighbors)
-# father_occupation: Craft specialist (blacksmith, carpenter, potter, weaver) as primary
-#   occupation (often alongside some farming)
-# household_social_status: Ordinary free commoner smallholder household (typical village
-#   farming family; no special titles)
-# household_structure_at_birth: 'Extended-family patrilocal compound (monogamous or
-#   effectively one resident wife at the time): father, mother, many children, plus
-#   close kin (e.g., father''s brother, elderly parent, unmarried siblings, fostered
-#   children)'
-# language: Idoma + another neighboring Volta–Niger language (e.g., Ebira/Okun Yoruba
-#   in mixed household)
-# mother_occupation: Farming + household food processing/provisioning (primary), with
-#   childcare
-# number_of_siblings: 10+
-# religion: 'Indigenous Idoma/neighboring traditional religion: household ancestor veneration
-#   and offerings (food/drink), farm/land spirits, divination/healing rites; protective
-#   birth rituals'
+# Neuroticism (% rank): 43
+# Openness (% rank): 33
+# Sex: M
+# Sexual orientation: heterosexual
+# birth_order_position: 3
+# cause_of_death: Birth complications/asphyxia/birth trauma with death in the first
+#   week
+# ethnicity: Han (Huaxia/Jin Chinese-speaking agrarian communities of the middle Yangtze)
+# father_occupation: Estate retainer/overseer/security (managing labor, guarding stores,
+#   collecting rent) of a great household
+# household_social_status: Dependent tenants/clients of a local great household (attached
+#   farming household, patron-client ties)
+# household_structure_at_birth: Other arrangements (adoption in/out, fosterage, servile
+#   dependency household, etc.)
+# language: Sinitic vernacular + some household/community bilingualism with a local
+#   non-Sinitic language (likely Kra–Dai or Hmong–Mien family)
+# mother_occupation: Household work plus regular field labor at peak seasons (transplanting/weeding/harvest)
+#   for the tenant holding/estate
+# narrative_plan:
+#   named_characters:
+#   - name: Eldest Brother
+#     prominence: secondary
+#     relationship: 'older brother (child #1)'
+#   - name: Second Brother
+#     prominence: high
+#     relationship: 'older brother (child #2)'
+#   - name: Younger Sister
+#     prominence: low
+#     relationship: 'younger sister (child #5)'
+#   - name: Younger Brother
+#     prominence: secondary
+#     relationship: 'younger brother (child #6)'
+#   - name: Youngest Sister
+#     prominence: secondary
+#     relationship: 'younger sister (child #8)'
+#   siblings:
+#   - birth_year: 384
+#     death_age: 14
+#     death_year: 398
+#     narrative_role: Older brother; alive when the person was born; died in childhood
+#       about 9 years after the person's death.
+#     sex: M
+#   - birth_year: 386
+#     death_age: 50
+#     death_year: 436
+#     narrative_role: Older brother; alive at the person's birth; likely the senior
+#       surviving son afterward and remained alive into middle age long after.
+#     sex: M
+#   - birth_year: 389
+#     death_age: 0
+#     death_year: 389
+#     narrative_role: 'The person (child #3); died in the first week of life.'
+#     sex: M
+#   - birth_year: 392
+#     death_age: 0
+#     death_year: 392
+#     narrative_role: Younger brother; born after the person had died; died at/near
+#       birth.
+#     sex: M
+#   - birth_year: 394
+#     death_age: 1
+#     death_year: 395
+#     narrative_role: Younger sister; born after the person's death; died in early toddlerhood.
+#     sex: F
+#   - birth_year: 397
+#     death_age: 44
+#     death_year: 441
+#     narrative_role: Younger brother; born after the person's death; survived to mature
+#       adulthood.
+#     sex: M
+#   - birth_year: 400
+#     death_age: 0
+#     death_year: 400
+#     narrative_role: Younger brother; born after the person's death; died at/near birth.
+#     sex: M
+#   - birth_year: 402
+#     death_age: 41
+#     death_year: 443
+#     narrative_role: Youngest sister; born after the person's death; survived to adulthood.
+#     sex: F
+# number_of_siblings: '7'
+# religion: Household/lineage ancestral offerings + local land/river/field deity rites
+#   (typical popular ritual mix), little formal temple involvement
 # sibling_ages_at_death:
+# - 14
+# - 50
 # - 0
-# - 6
-# - 3
-# - 32
+# - 1
+# - 44
 # - 0
-# - 36
-# - 1
-# - 63
-# - 1
-# - 61
+# - 41
 # sibling_sexes:
-# - F
 # - M
 # - M
 # - M
 # - F
-# - F
+# - M
 # - M
 # - F
-# - F
-# - M
 ---
 
-On 5 March 1885, a girl was born in a small farming settlement near the Benue in what is now Omala. The compound belonged to an Idoma family under the authority of local elders and lineage heads, with traders moving between the river and the inland markets. Her parents spoke Idoma at home and used a neighboring Volta–Niger tongue with certain relatives by marriage.
+He was born on February 20, 389, in a hamlet on the flat wet ground near the middle Yangtze in what is now Hubei, under the Eastern Jin. His family were Han tenants tied to the estate of a powerful household, and his father, Liang Qiu, carried the landlord’s authority in the fields: he counted bundles at harvest, watched the storehouse, and kept order when men argued over water and boundaries. At home Liang Qiu spoke the local Sinitic tongue, and he traded short phrases in a neighboring hill people’s language when he dealt with carriers and charcoal burners.
 
-Her father, Oche, worked as a craft specialist. He made tools and fittings that farmers brought to him, and he kept a small plot with his brothers for food. Her mother, Ene, farmed and processed what the household ate. She rose before daylight, carried water, pounded grain, and kept infants close while older children ran errands. The household held eleven children in all, spread across years of births and burials. The fifth child arrived after three sons and a daughter.
+Liang Qiu’s wife, Wen, worked the way the season demanded. She spent winter days twisting hemp fiber and mending, then moved into the paddies at planting time to set seedlings in straight lines. Their two sons already filled the yard. The eldest, Liang Ren, was five and followed his father, lifting small tools and imitating his stance. The second, Liang Zhi, was three and stayed close to Wen as she cooked millet gruel and watched the fire.
 
-Ene’s labor started in the afternoon and did not end before night. Women from the compound and a nearby homestead came to assist. They heated water, rubbed Ene’s back, and spoke prayers to the ancestors and to the spirits tied to the family’s land. The child came after a long struggle. Her body did not recover from the delivery.
-
-Before dawn on 6 March 1885, the infant died in the compound.
+On the day of the birth, women from nearby houses came to help. The child came hard and fast. He did not cry strongly afterward, and Wen bled and shook. For seven days he lay wrapped near the hearth while Wen was fed thin broth and salt. On February 27, 389, he died from the injury of the birth.

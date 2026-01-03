@@ -139,28 +139,21 @@ class Person:
         self.birth_date = _sample_birth_date(year)
         self.death_date = _sample_death_date(self.birth_date, self.age_at_death)
 
-        # Sample personality after age_at_death is set
-        if self.years_lived() > 2:
-            self.personality = _sample_personality()
-        else:
-            self.personality = {}
+        # Personality traits (generation.py clears if too young)
+        self.personality = _sample_personality()
 
-        # Sexual orientation (biological base rates, independent of era/culture)
-        # Only sampled for those who reach puberty (age 13+)
+        # Sexual orientation (generation.py clears if too young)
         # Rates based on population surveys: ~92% heterosexual, ~4% bisexual,
         # ~3% homosexual, ~1% asexual
-        if self.years_lived() >= 13:
-            r = np.random.random()
-            if r < 0.92:
-                self.orientation = 'heterosexual'
-            elif r < 0.96:
-                self.orientation = 'bisexual'
-            elif r < 0.99:
-                self.orientation = 'homosexual'
-            else:
-                self.orientation = 'asexual'
+        r = np.random.random()
+        if r < 0.92:
+            self.orientation = 'heterosexual'
+        elif r < 0.96:
+            self.orientation = 'bisexual'
+        elif r < 0.99:
+            self.orientation = 'homosexual'
         else:
-            self.orientation = None  # Died before puberty
+            self.orientation = 'asexual'
 
         # Populated by LLM pipeline
         self.demographics = {}
@@ -290,19 +283,6 @@ class Person:
         """Check if person is still living."""
         return self.age_at_death == "alive"
 
-    def age_category(self):
-        """Get age category for narrative prompts."""
-        age = self.years_lived()
-        if age < 3:
-            return "infant"
-        elif age <= 10:
-            return "child"
-        elif age <= 18:
-            return "adolescent"
-        else:
-            return "adult"
-
-
     def to_dict(self):
         """Export person as flat dict for LLM prompts.
 
@@ -325,7 +305,7 @@ class Person:
         if self.twin:
             output['Twin'] = self.twin
 
-        # Sexual orientation (if person reached puberty)
+        # Sexual orientation (if sampled)
         if self.orientation:
             output['Sexual orientation'] = self.orientation
 
@@ -381,7 +361,9 @@ class Person:
             output.update(self._location_data_cache)
 
         # Add dynamic data (always fresh)
-        output.update(self.personality)
+        # Personality (if sampled)
+        if self.personality:
+            output.update(self.personality)
         output.update(self.demographics)
 
         # Add events if they exist (legacy field)

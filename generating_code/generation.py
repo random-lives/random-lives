@@ -24,6 +24,15 @@ from lifespan import age_at_death
 
 
 # =============================================================================
+# Age Thresholds
+# =============================================================================
+
+AGE_CHILD = 5        # Personality expressible; child-length narrative
+AGE_ADOLESCENT = 13  # Adult queries (marriage, occupation, etc.); adolescent narrative
+AGE_ADULT = 19       # Full adult narrative length
+
+
+# =============================================================================
 # PROMPTS - Compositional structure with base + era-specific additions
 # =============================================================================
 
@@ -132,37 +141,37 @@ DEMOGRAPHIC_QUERIES = [
      "Did this person stay in their birth location or migrate? Consider their occupation, personality, social class, and migration patterns of their era.",
      'Holocene', 5, False),
 
-    # Adult roles
+    # Adult roles (age 13+)
     ("marital_status",
      "What was their likely marital status? Consider their age at death, sex, sexual orientation, marriage customs, social status, and personality. "
      "Note: In most historical periods, people with same-sex attraction often married heterosexually due to social expectations.",
-     'Holocene', 12, False),
+     'Holocene', 13, False),
 
     ("occupation",
      "What was their likely primary occupation? Consider their age, sex, personality, social class, and economic activities of their region.",
-     'Holocene', 12, False),
+     'Holocene', 13, False),
 
     ("adult_standing",
      "What was this person's social standing as an adult? Did it differ from their household's standing at birth?",
-     'Holocene', 12, False),
+     'Holocene', 13, False),
 
     ("partnership_history",
      "What was this person's partnership history? Consider their sexual orientation. "
      "Options: never partnered, one long-term partner, sequential partners, multiple concurrent partners, same-sex partnership.",
-     'Paleolithic', 12, False),
+     'Paleolithic', 13, False),
 
     ("social_standing",
      "What was this person's standing in the band? Options: low status/marginal, ordinary member, respected/influential, senior/elder.",
-     'Paleolithic', 10, False),
+     'Paleolithic', 13, False),
 
     ("special_skills",
      "Did this person have any notable skills or roles? Options: generalist, skilled hunter/tracker, skilled gatherer/plant knowledge, toolmaker, healer/herbalist, storyteller, mediator.",
-     'Paleolithic', 12, False),
+     'Paleolithic', 13, False),
 
-    # Children and family trajectory
+    # Children and family trajectory (age 13+)
     ("number_of_children",
      "How many children did they likely have (live births)? Consider their age at death and sex. Label options as 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10+.",
-     'Both', 15, False),
+     'Both', 13, False),
 
     # Death
     ("cause_of_death",
@@ -171,7 +180,7 @@ DEMOGRAPHIC_QUERIES = [
 
     ("household_structure_at_death",
      "What was the structure of the household this person belonged to when they died?",
-     'Holocene', 12, True),
+     'Holocene', 13, True),
 ]
 
 # -----------------------------------------------------------------------------
@@ -282,77 +291,127 @@ For "unnamed" category, return empty list: {{"category": "unnamed", "names": []}
 
 
 # -----------------------------------------------------------------------------
-# Narrative Planning Prompt
+# Narrative Planning Prompts (tiered by age)
 # -----------------------------------------------------------------------------
 
-NARRATIVE_PLAN_PROMPT = '''Before writing the narrative, create a detailed timeline and plan.
+# Infant (0-4): Only sibling timeline
+NARRATIVE_PLAN_PROMPT_INFANT = '''Before writing the narrative, work out the sibling timeline.
 
-TASK: Work out the key facts and timing that the narrative must respect. The demographic data gives you constraints (birth order, sibling sexes, ages at death) but you must decide the specific timing.
+TASK: Compute birth years for each sibling so the narrative gets older/younger relationships correct.
 
-CREATE A TIMELINE with these elements:
+For each sibling, determine:
+- Birth year (based on typical birth spacing of 2-3 years)
+- Death year (computed from birth year + age at death)
+- Whether they were alive when this person was born and when they died
+- Their narrative role (e.g., "older sister present at birth", "younger brother born during person's life")
 
-1. FAMILY TIMELINE
-For each sibling, decide:
-- Their approximate birth year (use realistic spacing: typically 1.5-4 years between births, but can vary)
-- When they died (if before the end of the narrative)
-- Key moments when they appear in the narrative
-
-For spouses/partners (if any):
-- When the relationship began
-- When it ended (death, separation, or end of narrative)
-- Nature of the relationship (eg close, distant)
-
-For each child (if any), decide:
-- Their approximate birth year
-- When they died (if before the end of the narrative)
-
-2. LIFE PHASES
-Break the life into phases with approximate ages:
-- Early childhood (memories, household)
-- Later childhood / adolescence
-- Adult life (work, family, community)
-- Old age / decline (if applicable)
-
-For each phase, note 1-3 key events or details to include.
-
-3. INCIDENTS PLACEMENT
-For each structured incident, decide exactly when it happened (age/year) and how it connects to other events.
-
-4. CHARACTERS
-List the named characters who will appear, with their relationship and when they're most prominent.
-
-IMPORTANT CONSTRAINTS:
-- Siblings must be born in the correct order (birth_order_position tells you where this person falls)
-- Older siblings must be born BEFORE this person; younger siblings AFTER
+CONSTRAINTS:
+- Siblings must be in correct birth order (birth_order_position shows where this person falls)
 - All dates must be internally consistent
+- Older siblings have earlier birth years than this person
+- Younger siblings have later birth years than this person
 
 Return as JSON:
 {{
-    "siblings": [
-        {{"sex": "M/F", "birth_year": YYYY, "death_year": YYYY, "death_age": N, "narrative_role": "brief description"}},
-        ...
-    ],
-    "partners": [
-        {{"name": "if decided", "relationship_start_year": YYYY, "relationship_end_year": YYYY, "narrative_role": "brief description"}},
-        ...
-        ],
-    "children": [
-        {{"sex": "M/F", "birth_year": YYYY, "death_year": YYYY, "death_age": N, "narrative_role": "brief description"}},
-        ...
-    ],
-    "life_phases": [
-        {{"phase": "name", "age_range": "X-Y", "key_events": ["event1", "event2"]}},
-        ...
-    ],
-    "incident_placements": [
-        {{"incident": "type", "age": N, "connection": "how it relates to other events"}},
-        ...
-    ],
-    "named_characters": [
-        {{"name": "if decided", "relationship": "sister/friend/etc", "prominence": "which life phases"}},
-        ...
-    ]
+    "siblings": [{{"sex": "M/F", "birth_year": YYYY, "death_year": YYYY, "death_age": N, "narrative_role": "..."}}],
+    "named_characters": [{{"name": "...", "relationship": "...", "prominence": "..."}}]
 }}'''
+
+# Child (5-12): Siblings + incidents + traits + characters
+NARRATIVE_PLAN_PROMPT_CHILD = '''Before writing the narrative, create a timeline and plan.
+
+TASK: Work out the key facts and timing that the narrative must respect.
+
+1. SIBLING TIMELINE
+For each sibling, determine:
+- Birth year (based on typical birth spacing of 2-3 years)
+- Death year (computed from birth year + age at death)
+- Their narrative role
+
+2. INCIDENTS PLACEMENT
+For each structured incident: when it happened and how it connects to other events.
+
+3. CHARACTERS
+Named characters with relationship and when they're prominent.
+
+4. TRAIT AND CONDITION MANIFESTATIONS
+Plan how personality appears through concrete behavior.
+- Very high and very low traits require specific scenes showing that trait in action
+- Mental disorders likewise require specific scenes or behavioral patterns
+- Average traits do not need to be included
+
+For each trait or disorder, plan:
+- What concrete behavior shows it?
+- When does it appear?
+- What consequences follow?
+
+CONSTRAINTS:
+- Siblings in correct birth order (birth_order_position shows where this person falls)
+- All dates internally consistent
+
+Return as JSON:
+{{
+    "siblings": [{{"sex": "M/F", "birth_year": YYYY, "death_year": YYYY, "death_age": N, "narrative_role": "..."}}],
+    "incident_placements": [{{"incident": "...", "age": N, "connection": "..."}}],
+    "trait_manifestations": [{{"trait": "...", "scene": "...", "timing": "...", "consequence": "..."}}],
+    "named_characters": [{{"name": "...", "relationship": "...", "prominence": "..."}}]
+}}'''
+
+# Adolescent (13-18): Same as adult
+# Adult (19+): Full planning including partners, children, life phases
+NARRATIVE_PLAN_PROMPT_ADULT = '''Before writing the narrative, create a detailed timeline and plan.
+
+TASK: Work out the key facts and timing that the narrative must respect.
+
+CREATE A TIMELINE:
+
+1. FAMILY TIMELINE
+For siblings: birth year, death year (if before narrative end), key narrative moments.
+For partners: when relationship began/ended, nature of relationship.
+For children: birth year, death year (if before narrative end).
+
+2. LIFE PHASES
+Break life into phases (early childhood, later childhood/adolescence, adult life, old age) with 1-3 key events each.
+
+3. INCIDENTS PLACEMENT
+For each structured incident: when it happened and how it connects to other events.
+
+4. CHARACTERS
+Named characters with relationship and when they're prominent.
+
+5. TRAIT AND CONDITION MANIFESTATIONS
+Plan how personality appears through concrete behavior.
+- The very high and very low traits requires specific scenes or behavioral patterns showing that trait in action
+- Mental disorders likewise require specific scenes or behavioral patterns showing that trait in action
+- Traits that are average do not need to be included
+
+For each trait or disorder, plan:
+- What concrete behavior shows it?
+- When does it appear (which life phase)?
+- What consequences follow?
+
+CONSTRAINTS:
+- Siblings in correct birth order (birth_order_position shows where this person falls)
+- All dates internally consistent
+
+Return as JSON:
+{{
+    "siblings": [{{"sex": "M/F", "birth_year": YYYY, "death_year": YYYY, "death_age": N, "narrative_role": "..."}}],
+    "partners": [{{"name": "...", "relationship_start_year": YYYY, "relationship_end_year": YYYY, "narrative_role": "..."}}],
+    "children": [{{"sex": "M/F", "birth_year": YYYY, "death_year": YYYY, "death_age": N, "narrative_role": "..."}}],
+    "life_phases": [{{"phase": "...", "age_range": "X-Y", "key_events": ["..."]}}],
+    "incident_placements": [{{"incident": "...", "age": N, "connection": "..."}}],
+    "trait_manifestations": [{{"trait": "...", "scene": "...", "timing": "...", "consequence": "..."}}],
+    "named_characters": [{{"name": "...", "relationship": "...", "prominence": "..."}}]
+}}'''
+
+# Map age category to planning prompt
+NARRATIVE_PLAN_PROMPTS = {
+    "infant": NARRATIVE_PLAN_PROMPT_INFANT,
+    "child": NARRATIVE_PLAN_PROMPT_CHILD,
+    "adolescent": NARRATIVE_PLAN_PROMPT_ADULT,
+    "adult": NARRATIVE_PLAN_PROMPT_ADULT,
+}
 
 # -----------------------------------------------------------------------------
 # Narrative Prompts
@@ -642,6 +701,64 @@ TIER2_SUBTYPES = {
 # HELPER FUNCTIONS
 # =============================================================================
 
+def _get_mental_disorder(person):
+    """Get mental disorder if present. Returns None if too young or no disorder."""
+    if person.years_lived() < AGE_CHILD:
+        return None
+
+    disorder = person.demographics.get('mental_disorder', '')
+    if not disorder:
+        return None
+
+    # Filter out "no disorder" responses
+    lower = disorder.lower()
+    no_disorder_patterns = ['no ', 'no:', 'none', 'unlikely', 'no clear', 'no diagnosable',
+                            'no modern', 'not meet', 'would not']
+    if any(p in lower[:50] for p in no_disorder_patterns):
+        return None
+    return disorder
+
+
+def _age_category(person):
+    """Get age category for narrative prompts."""
+    age = person.years_lived()
+    if age < AGE_CHILD:
+        return "infant"
+    elif age < AGE_ADOLESCENT:
+        return "child"
+    elif age < AGE_ADULT:
+        return "adolescent"
+    else:
+        return "adult"
+
+
+def _build_trait_context(person):
+    """Build context string with personality traits (flagging extremes) and any mental disorder."""
+    if person.years_lived() < AGE_CHILD:
+        return ""  # Too young for trait manifestation planning
+
+    lines = ["\nPERSONALITY AND CONDITIONS:"]
+
+    if person.personality:
+        lines.append("Personality traits (percentile ranks, 0-100):")
+        for key, value in person.personality.items():
+            trait_name = key.replace(' (% rank)', '')
+            # Flag extremes (5th percentile threshold)
+            if value <= 5:
+                lines.append(f"- {trait_name}: {value}th percentile ← very low (must be visible)")
+            elif value >= 95:
+                lines.append(f"- {trait_name}: {value}th percentile ← very high (must be visible)")
+            else:
+                lines.append(f"- {trait_name}: {value}th percentile")
+
+    disorder = _get_mental_disorder(person)
+    if disorder:
+        lines.append(f"\nMENTAL DISORDER (must be visible): {disorder}")
+
+    lines.append("")
+    return "\n".join(lines)
+
+
 def _get_demographic_queries(person):
     """Get filtered demographic queries for this person based on era, age, and alive status."""
     results = []
@@ -879,7 +996,7 @@ def generate_structured_incidents(person, ctx, elaborate=True):
 
     Modifies person in place, storing results in person.structured_incidents
     """
-    if person.years_lived() < 5:
+    if person.years_lived() < AGE_CHILD:
         ctx.log("Too young for structured incidents")
         person.structured_incidents = []
         return
@@ -904,7 +1021,7 @@ def generate_structured_incidents(person, ctx, elaborate=True):
     ]
 
     # Add age-conditional category
-    if person.years_lived() >= 13:
+    if person.years_lived() >= AGE_ADOLESCENT:
         tier1_categories.append('nonstandard_sexual_history')
 
     # Add era-conditional category
@@ -1189,7 +1306,7 @@ def generate_historical_context(person, ctx):
 
     Modifies person in place, storing results in person.historical_context.
     """
-    if person.years_lived() < 5:
+    if person.years_lived() < AGE_CHILD:
         ctx.log("Too young for historical context")
         person.historical_context = []
         return
@@ -1272,72 +1389,71 @@ def generate_narrative_plan(person, ctx):
     """
     Generate a narrative plan/timeline before writing the narrative.
 
-    This stage has the LLM work out:
-    - When siblings were born and died
-    - When children were born and died
-    - Life phases and key events
-    - Where to place structured incidents
-    - Which characters get names and prominence
+    Tiered by age category:
+    - Infant (0-4): Sibling timeline only
+    - Child (5-12): Siblings + incidents + traits + characters
+    - Adolescent/Adult (13+): Full planning including partners, children, life phases
 
     This ensures temporal consistency in the narrative.
 
     Modifies person in place, storing results in person.narrative_plan.
     """
-    # Skip for very short lives (infants/young children) - not enough to plan
-    if person.years_lived() < 3:
-        ctx.log("Too young for narrative planning")
-        person.narrative_plan = None
-        return
+    age_cat = _age_category(person)
 
     # Build context about what needs to be planned
     plan_context = []
 
-    # Add sibling info if present
+    # Add sibling info if present (all age tiers)
     if 'sibling_sexes' in person.demographics:
         sexes = person.demographics['sibling_sexes']
         ages = person.demographics.get('sibling_ages_at_death', [])
         birth_order = person.demographics.get('birth_order_position', 1)
 
-        # Get death year from death_date tuple (year, day_of_year)
-        death_year = person.death_date[0] if person.death_date else person.birth_year + person.age_at_death
+        death_year = person.death_date[0]
 
         plan_context.append(f"SIBLING DATA:")
         plan_context.append(f"- This person was child #{birth_order} of {len(sexes) + 1} children")
-        plan_context.append(f"- This person was born in {person.birth_year} and died in {death_year} (age {person.age_at_death})")
+        plan_context.append(f"- This person was born in {person.birth_year} and died in {death_year} (age {person.years_lived()})")
         plan_context.append(f"- Siblings (in birth order):")
 
-        for i, (sex, age) in enumerate(zip(sexes, ages)):
+        for i, (sex, sib_age) in enumerate(zip(sexes, ages)):
             position = i + 1 if i < birth_order - 1 else i + 2  # Account for person's position
             relation = "older" if position < birth_order else "younger"
             sex_word = "sister" if sex == 'F' else "brother"
-            plan_context.append(f"  {position}. {relation} {sex_word} - died at age {age}")
+            plan_context.append(f"  {position}. {relation} {sex_word} - died at age {sib_age}")
 
-    # Add children info if present
-    if 'children_sexes' in person.demographics:
+    # Add children info if present (adolescent/adult only)
+    if age_cat in ["adolescent", "adult"] and 'children_sexes' in person.demographics:
         sexes = person.demographics['children_sexes']
         ages = person.demographics.get('children_ages_at_death', [])
 
         plan_context.append(f"\nCHILDREN DATA:")
         plan_context.append(f"- {len(sexes)} children total")
-        for i, (sex, age) in enumerate(zip(sexes, ages)):
+        for i, (sex, child_age) in enumerate(zip(sexes, ages)):
             sex_word = "daughter" if sex == 'F' else "son"
-            plan_context.append(f"  {i+1}. {sex_word} - died at age {age}")
+            plan_context.append(f"  {i+1}. {sex_word} - died at age {child_age}")
 
-    # Add structured incidents if present
-    if hasattr(person, 'structured_incidents') and person.structured_incidents:
+    # Add structured incidents if present (child and above)
+    if age_cat != "infant" and hasattr(person, 'structured_incidents') and person.structured_incidents:
         plan_context.append(f"\nINCIDENTS TO PLACE:")
         for inc in person.structured_incidents:
             plan_context.append(f"- {inc.get('type', 'unknown')}: {inc.get('event', '')} (suggested timing: {inc.get('timing', 'unknown')})")
 
-    # Add historical context if present
-    if hasattr(person, 'historical_context') and person.historical_context:
+    # Add historical context if present (child and above)
+    if age_cat != "infant" and hasattr(person, 'historical_context') and person.historical_context:
         plan_context.append(f"\nHISTORICAL CONTEXT:")
         for ctx_event in person.historical_context:
             plan_context.append(f"- {ctx_event.get('event', '')} ({ctx_event.get('timing', '')})")
 
-    ctx.log("Generating narrative plan...")
+    # Add personality and mental disorder context (child and above)
+    if age_cat != "infant":
+        trait_context = _build_trait_context(person)
+        if trait_context:
+            plan_context.append(trait_context)
 
-    full_prompt = NARRATIVE_PLAN_PROMPT
+    ctx.log(f"Generating narrative plan ({age_cat})...")
+
+    full_prompt = NARRATIVE_PLAN_PROMPTS[age_cat]
     if plan_context:
         full_prompt += "\n\n" + "\n".join(plan_context)
 
@@ -1372,7 +1488,7 @@ def generate_narrative(person, ctx, extra_prompt=None):
 
     Modifies person in place.
     """
-    age_cat = person.age_category()
+    age_cat = _age_category(person)
 
     # Build prompt: base + age-specific focus + ending
     full_prompt = NARRATIVE_BASE_PROMPT
@@ -1518,7 +1634,19 @@ def generate_person(model="haiku", quiet=True, show_cost=False):
         print("=" * 50)
         print("Sampling person...")
 
+    # Sample year first, then create Person
+    # We need a two-step approach: first sample to get age, then decide on personality/orientation
+    # Since age depends on location/lifestyle (computed in Person.__init__), we create with defaults
+    # and clear if needed
     person = sample_person()
+
+    # Clear personality if died before childhood threshold
+    if person.years_lived() < AGE_CHILD:
+        person.personality = None
+
+    # Clear orientation if died before adolescent threshold
+    if person.years_lived() < AGE_ADOLESCENT:
+        person.orientation = None
 
     return run_pipeline(person, model=model, quiet=quiet, show_cost=show_cost)
 

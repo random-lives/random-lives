@@ -28,23 +28,17 @@ The following issues were addressed by implementing the **narrative planning sta
 
 ## Remaining Issues
 
-### High Priority (Core Features)
-
-**1. Extreme personality traits inconsistently visible**
+### ✅ Extreme Personality Traits (RESOLVED)
 - **Previous issues**: 11, 21, 37, 42
-- **Status**: IMPROVED but inconsistent
-- **Problem**: Traits at extreme percentiles (0th, 1st, 6th, 15th, 98th) sometimes read as mild/moderate
-- **Good example**: Story 0007 (Lataa) - 2nd percentile conscientiousness clearly shown through behavior
-- **Bad example**: Story 0001 (Baska) - 0th percentile extraversion shows as mild shyness, 98th honesty-humility not demonstrated
-- **Fix needed**: Strengthen prompt to require concrete scenes for extreme traits
+- **Problem**: Traits at extreme percentiles sometimes read as mild/moderate
+- **Solution**: Added trait manifestation planning to narrative planning stage. Traits ≤5th or ≥95th percentile flagged as "must be visible" with required concrete behavioral scenes
+- **Implementation**: `_build_trait_context()` in generation.py flags extremes; narrative plan includes `trait_manifestations` section
 
-**2. Mental disorders sometimes invisible**
+### ✅ Mental Disorders Visibility (RESOLVED)
 - **Previous issue**: 22
-- **Status**: PARTIALLY ADDRESSED
-- **Problem**: Some disorders (depression) invisible while others (anxiety) are shown
-- **Good example**: Story 0009 (Ghanshyam) - separation anxiety clearly visible
-- **Bad example**: Story 0003 (Ayyadurai) - depression in metadata but not in narrative
-- **Fix needed**: Same approach as personality traits - require demonstration
+- **Problem**: Some disorders invisible in narrative despite being in metadata
+- **Solution**: Mental disorders now explicitly flagged as "must be visible" in trait context, requiring specific scenes or behavioral patterns
+- **Implementation**: `_get_mental_disorder()` extracts disorder; included in trait context sent to narrative planning
 
 ### ✅ Children Integration (RESOLVED)
 - **Previous issues**: 8, 14, 24, 39
@@ -99,16 +93,14 @@ The following issues were addressed by implementing the **narrative planning sta
 ### Completed
 - [x] **Narrative planning stage** — Added `generate_narrative_plan()` to compute sibling/child timelines before narrative generation
 - [x] **Year-range hedging fix** — Added prompt instruction: "Events happen at specific times. Do not spread events across year ranges"
+- [x] **Trait manifestation planning** — Added `_build_trait_context()` and `_get_mental_disorder()` to flag extreme traits (≤5th/≥95th percentile) and mental disorders as "must be visible"; narrative plan now includes `trait_manifestations` section
 
 ### Remaining (by priority)
 
-**High Priority**
-1. [ ] **Extreme trait flagging** — Flag traits below 10th or above 90th percentile; require concrete demonstration scenes
-
 **Low Priority**
-2. [ ] **Banned phrases** — Expand AVOID THESE PHRASES if patterns recur
-3. [ ] **Named deities** — Add instruction to name specific deities where culturally appropriate
-4. [ ] **Specificity** — Add instruction to use specific quantities when data available
+1. [ ] **Banned phrases** — Expand AVOID THESE PHRASES if patterns recur
+2. [ ] **Named deities** — Add instruction to name specific deities where culturally appropriate
+3. [ ] **Specificity** — Add instruction to use specific quantities when data available
 
 ---
 
