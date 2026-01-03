@@ -279,6 +279,19 @@ This prevents temporal logic errors like siblings appearing at impossible ages o
 
 Different mortality models apply to each lifestyle.
 
+### Naming Policy
+Names must be readable by English speakers:
+
+- **Latin-alphabet languages** (Spanish, Polish, French, Vietnamese, etc.): Keep native diacritics (ł, ń, ü, ç, etc.)
+- **Non-Latin scripts** (Chinese, Arabic, Greek, Hindi, etc.): Use standard English romanization (pinyin for Chinese, etc.)
+- **Inferable/reconstructed names**: Plain romanization only—no scholarly notation (asterisks, IPA symbols, macrons, hyphens between morphemes)
+
+Naming categories:
+- **attested**: Names from written records for that era/region
+- **inferable**: Phonologically plausible names for known language families without written records
+- **unrecoverable**: Simple human-sounding names for languages with no known connections
+- **unnamed**: Infants who died before customary naming age
+
 ### Narrative Style Guidelines
 The project aims for plain, direct prose:
 - Write actively and directly; state facts plainly and concretely
@@ -516,24 +529,6 @@ The system explicitly instructs the LLM to estimate probabilities based on histo
 ### Phase 4: Extensions
 - [ ] MC estimation tool ("what fraction of humans were X?")
 - [ ] Additional content (essays, visualizations)
-
----
-
-## Known Limitations & Future Improvements
-
-### Paleolithic Population Estimates
-- Current: Rough estimates without rigorous sources
-- Needed: Better paleodemographic literature, documented assumptions
-
-### Life Expectancy / Mortality
-- Hunter-Gatherers: Siler model (Gurven & Kaplan 2007) ✅
-- Pre-1600 non-HG: Chilean lifetables as universal proxy (crude)
-- Post-1600: Country-specific data ✅
-- Improvement: Better region-specific lifetable mapping
-
-### Birth Data Coverage
-- Current: HYDE data to 2024
-- Needed: Extend to 2025 for early 2026 release
 
 ---
 

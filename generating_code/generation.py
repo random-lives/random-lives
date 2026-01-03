@@ -268,26 +268,33 @@ NAMING_PROMPT = '''Generate 20 possible names for this person.
 NAMING CATEGORIES:
 First, determine which category applies:
 
-1. **ATTESTED**: Names survive in written records. Use historically authentic names appropriate to era, region, class, and sex. Prioritize common everyday names over famous or prestigious ones. Maximize diversity across the 20 options.
+1. **ATTESTED**: Names survive in written records. Use historically authentic names appropriate to the language, era, region, class, and sex. Prioritize common everyday names over famous or prestigious ones. Maximize diversity across the 20 options.
 
-2. **INFERABLE**: Language family known but no written records. Generate phonologically plausible names for that language family. Use linguistic reconstruction notation where appropriate. Vary phonological patterns and roots.
+2. **INFERABLE**: Language family known but no written records. Generate phonologically plausible names for that language family. Vary phonological patterns and roots.
 
 3. **UNRECOVERABLE**: No linguistic connection to known languages. Generate simple, short names (1-3 syllables) that sound human. CRITICAL: Vary name length substantially - include roughly equal numbers of 1-syllable, 2-syllable, and 3-syllable names across the 20 options. Vary consonants, vowels, and syllable structures.
 
 4. **UNNAMED**: Infant died before customary naming age. Return empty names list.
 
+ROMANIZATION RULES:
+All names must be readable by English speakers:
+
+- **Latin-alphabet languages** (Spanish, Polish, French, Vietnamese, etc.): Keep native diacritics (ł, ń, ü, ç, etc.)
+- **Non-Latin scripts** (Chinese, Arabic, Greek, Hindi, Japanese, Korean, etc.): Use standard English romanization (pinyin for Chinese, etc.)
+- **Inferable/reconstructed names**: Use plain romanization only. NO scholarly notation (no asterisks, no IPA symbols like ə, no macrons for vowel length, no hyphens between morphemes). The name should look like a normal name, not a linguistic reconstruction.
+
 NAMING CONSIDERATIONS:
 - Full name format should match cultural norms (given name only, or with family/clan/patronymic elements)
-- Consider: social class, sex, religious context, regional variation
+- Consider: language, social class, sex, religious context, regional variation
 
 FORMAT:
 Brief reasoning about which category applies and why, then as JSON:
 {{
     "category": "attested" | "inferable" | "unrecoverable" | "unnamed",
-    "names": ["Full Name 1", "Full Name 2", ..., "Full Name 20"]
+    "names": ["Name 1", "Name 2", ..., "Name 20"]
 }}
 
-For "unnamed" category, return empty list: {{"category": "unnamed", "names": []}}'''
+For "unnamed" category: {{"category": "unnamed", "names": []}}'''
 
 
 # -----------------------------------------------------------------------------
