@@ -4,7 +4,35 @@
 
 **Review Process**: Stories in `_lives/` are systematically reviewed after each batch generation.
 
-**Last Review**: Stories 0000-0009 (January 2026) - Post narrative-planning implementation
+**Last Review**: Stories 0000-0036 (January 2026) - Full batch review
+
+---
+
+## Current Batch Summary (0000-0036)
+
+**Overall quality**: Good. The narrative planning stage has resolved most major structural issues. Stories are chronologically coherent, siblings appear at correct ages, and extreme traits are generally visible.
+
+### Strengths Observed
+- Sibling timelines consistently correct (birth order, ages, deaths)
+- Extreme personality traits visible through concrete action (e.g., Səm's very low agreeableness at 1st percentile shown through accusations and quarrels; Elisabetta's intellectual disability shown through learning by imitation)
+- Mental disorders integrated into behavior (Dūno-rīgos's alcohol problem, Səm's depression, Elisabetta's intellectual disability)
+- Good variety in grief responses across cultures and personalities
+- Children appropriately integrated into narratives (not just listed)
+- Spouses developed proportionally to narrative length
+
+### Issues for Monitoring
+
+**1. Occasional AI-slop phrasing (LOW PRIORITY)**
+Some stories contain phrases that feel slightly templated:
+- "The practical meaning for Elisabetta came in..." (0034)
+- Occasional sociological framing ("shaped by wage work, church networks")
+- "X's days settled into a pattern" type transitions
+
+**2. Named deity specificity (LOW PRIORITY)**
+Some religious references remain generic ("household rites to ancestors and local spirits") when specific deity names would be available for the culture/period.
+
+**3. Modern living person (Fatima, 0035)**
+The "alive" narrative format works well—appropriately brief, grounded in concrete present-tense details, ends with current moment rather than projecting forward.
 
 ---
 
@@ -16,75 +44,65 @@ The following issues were addressed by implementing the **narrative planning sta
 - **Previous issues**: 1, 2, 4, 34, 40, 46, 47, 48
 - **Problem**: LLM failed to compute which siblings were older vs younger, which were alive at birth, correct sex ordering
 - **Solution**: Narrative planning stage now computes sibling birth years, death years, and creates explicit timeline before narrative generation
-- **Verification**: Stories 0000-0009 all show correct sibling handling
+- **Verification**: All 37 stories show correct sibling handling
 
 ### ✅ Chronological Sequencing (RESOLVED)
 - **Previous issue**: 12
 - **Problem**: Narrative went backward in time without signaling
 - **Solution**: Narrative planning creates chronological life phases; narrative prompt instructs to follow the plan
-- **Verification**: All 10 reviewed stories maintain strict chronological order
-
----
-
-## Remaining Issues
+- **Verification**: All reviewed stories maintain strict chronological order
 
 ### ✅ Extreme Personality Traits (RESOLVED)
 - **Previous issues**: 11, 21, 37, 42
 - **Problem**: Traits at extreme percentiles sometimes read as mild/moderate
 - **Solution**: Added trait manifestation planning to narrative planning stage. Traits ≤5th or ≥95th percentile flagged as "must be visible" with required concrete behavioral scenes
-- **Implementation**: `_build_trait_context()` in generation.py flags extremes; narrative plan includes `trait_manifestations` section
+- **Verification**: Strong examples in current batch (Səm's 1st percentile agreeableness, Elisabetta's 1st percentile intelligence, To's 0th percentile neuroticism)
 
 ### ✅ Mental Disorders Visibility (RESOLVED)
 - **Previous issue**: 22
 - **Problem**: Some disorders invisible in narrative despite being in metadata
 - **Solution**: Mental disorders now explicitly flagged as "must be visible" in trait context, requiring specific scenes or behavioral patterns
-- **Implementation**: `_get_mental_disorder()` extracts disorder; included in trait context sent to narrative planning
+- **Verification**: Well-handled in current batch (alcohol use disorders, depression, intellectual disability)
 
 ### ✅ Children Integration (RESOLVED)
 - **Previous issues**: 8, 14, 24, 39
-- **Status**: Resolved - surviving children now get scenes; compressed handling of infant deaths is appropriate
-- **Examples**: Hinsa copying Baska's cane work, Kannan carried to the festival
+- **Status**: Resolved - surviving children get scenes; compressed handling of infant deaths is appropriate
+- **Verification**: To's children woven throughout narrative, Elisabetta's children given individual attention
 
 ### ✅ Grief Variation (RESOLVED)
 - **Previous issues**: 5, 13, 25, 38
 - **Status**: Resolved - grief now varies by personality and situation
-- **Examples**: Baska's mother's clenched knuckles, Rosa María snapping at neighbors, Anna's mother keeping swaddling cloth, Jomi refusing food
+- **Examples**: To's drinking after losses, Səm's silence then eruption, Dūno-rīgos's drinking and quarrel after daughter's death
 
 ### ✅ Spouse Development (RESOLVED)
 - **Previous issues**: 17, 26, 45
-- **Status**: Resolved - most spouses now get adequate development; some compression acceptable for long lives with much to cover
-- **Examples**: Gauri's illness/death over multiple paragraphs, Jomi learning Baska's habits, Hirpha through affairs and final illness
+- **Status**: Resolved - spouses get adequate development
+- **Examples**: Seko buffering To's unreliability, Rīna handling negotiations for Dūno-rīgos, Giovanni handling tenancy dealings for Elisabetta
 
-### Low Priority (Style Polish)
+### ✅ Siblings Vanish After Childhood (RESOLVED)
+- **Previous issue**: 20
+- **Status**: Resolved - narrative planning includes sibling prominence across life phases
+- **Examples**: To's brother Men throughout adulthood, Dūno-rīgos's siblings (Branos, Katuros, Sena, Windo) appearing appropriately
 
-**6. AI-slop phrasing and metaphors**
-- **Previous issues**: 16, 23, 29, 31, 35, 36, 41, 43, 44
+---
+
+## Low Priority (Style Polish)
+
+**1. AI-slop phrasing**
 - **Status**: Monitor in future batches
 - **Patterns to avoid**:
-  - "set the rhythm," "body began to betray him," "news reached even the interior"
+  - "set the rhythm," "body began to betray him"
   - Abstract sociological framing ("The local order ran through...")
-  - Weak transition phrases ("Rosa's days settled into a pattern")
+  - Weak transition phrases ("X's days settled into a pattern")
 - **Fix**: Add banned phrases to prompt if patterns recur
 
-**7. Generic religious references**
-- **Previous issues**: 32, 33
+**2. Generic religious references**
 - **Status**: Monitor - may need prompt about naming specific deities
+- **Pattern**: "household rites to ancestors and spirits" without deity names
 
-**8. Vague quantities when data is available**
-- **Previous issues**: 10, 30
+**3. Vague quantities when data is available**
 - **Pattern**: "kin," "a small number of children" when specifics are known
 - **Fix**: Prompt instruction to be specific
-
-**9. Formulaic time markers**
-- **Previous issues**: 6, 7, 15, 28
-- **Pattern**: Repetitive "In his late twenties," "When X was in his mid-thirties"
-- **Fix**: Prompt instruction to vary time markers
-
-**10. Siblings vanish after childhood**
-- **Previous issue**: 20
-- **Status**: IMPROVED - narrative planning includes sibling prominence across life phases
-- **Pattern**: Was mentioning siblings in childhood, absent from adult narrative
-- **Current**: Better in stories with explicit sibling planning (Baska, Rudra)
 
 ---
 

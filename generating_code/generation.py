@@ -1625,6 +1625,24 @@ def run_pipeline(person, model="haiku", quiet=True, show_cost=False):
     return person
 
 
+def _prepare_person_for_generation(person):
+    """Clear age-inappropriate attributes from a sampled person.
+
+    This must be called after sampling and before generation pipeline.
+    Personality and orientation are sampled in Person.__init__ but should
+    be cleared for people who died too young to manifest them.
+    """
+    # Clear personality if died before childhood threshold
+    if person.years_lived() < AGE_CHILD:
+        person.personality = None
+
+    # Clear orientation if died before adolescent threshold
+    if person.years_lived() < AGE_ADOLESCENT:
+        person.orientation = None
+
+    return person
+
+
 def generate_person(model="haiku", quiet=True, show_cost=False):
     """
     Sample a random person and run the full generation pipeline.
@@ -1635,19 +1653,8 @@ def generate_person(model="haiku", quiet=True, show_cost=False):
         print("=" * 50)
         print("Sampling person...")
 
-    # Sample year first, then create Person
-    # We need a two-step approach: first sample to get age, then decide on personality/orientation
-    # Since age depends on location/lifestyle (computed in Person.__init__), we create with defaults
-    # and clear if needed
     person = sample_person()
-
-    # Clear personality if died before childhood threshold
-    if person.years_lived() < AGE_CHILD:
-        person.personality = None
-
-    # Clear orientation if died before adolescent threshold
-    if person.years_lived() < AGE_ADOLESCENT:
-        person.orientation = None
+    _prepare_person_for_generation(person)
 
     return run_pipeline(person, model=model, quiet=quiet, show_cost=show_cost)
 
@@ -1687,7 +1694,7 @@ def generate_batch_parallel(n=10, model="haiku", workers=5):
 
     # Pre-sample all people to ensure data is loaded before threading
     print(f"Sampling {n} people...")
-    people = [sample_person() for _ in range(n)]
+    people = [_prepare_person_for_generation(sample_person()) for _ in range(n)]
 
     def generate_one(person):
         try:

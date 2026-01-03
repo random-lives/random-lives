@@ -26,7 +26,9 @@
       "Bash(git restore:*)",
       "Bash(done)",
       "Bash(cat:*)",
-      "Bash(shuf:*)"
+      "Bash(shuf:*)",
+      "Bash(xargs -I {} sh -c 'echo \"\"\"\"=== {} ===\"\"\"\" && grep -E \"\"\"\"(orientation|partnership|marital|lover|relationship)\"\"\"\" {}')",
+      "Bash(xargs -I {} sh -c 'echo \"\"\"\"=== {} ===\"\"\"\" && grep -E \"\"\"\"(same-sex|homosexual|lover|affair|relationship|partner)\"\"\"\" {} | head -20')"
     ]
   }
 }
