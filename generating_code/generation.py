@@ -192,10 +192,11 @@ GEOGRAPHY_PROMPT = '''For a person born in {region} around {year}, provide a pro
 The sub-regions should be:
 - MUTUALLY EXCLUSIVE and EXHAUSTIVE for inhabited areas
 - Weighted by estimated POPULATION DISTRIBUTION, not archaeological fame
+- Use simple, short names for the different sub-regions. Do not use parentheticals.
 
 Consider:
-- Population density patterns (people clustered near water, resources, climate refugia)
-- Ice sheets during glacial periods (LGM ~26,500-19,000 years ago)
+- Population density patterns
+- Ice sheets during glacial periods
 - Lower sea levels exposing land bridges and coastlines
 
 TECHNICAL REQUIREMENTS:
@@ -208,7 +209,10 @@ Brief reasoning, then as JSON:
 
 SUBSUBREGION_PROMPT = '''For a person living in {subregion} around {year}, provide a probability distribution over more specific locations.
 
-Weighted by estimated POPULATION DISTRIBUTION, not archaeological fame.
+The locations should be:
+- MUTUALLY EXCLUSIVE and EXHAUSTIVE for inhabited areas
+- Weighted by estimated POPULATION DISTRIBUTION, not archaeological fame
+- Use simple, short names for the different sub-regions. Do not use parentheticals.
 
 TECHNICAL REQUIREMENTS:
 - Probabilities must sum to exactly 1.0
@@ -693,6 +697,7 @@ TIER2_SUBTYPES = {
         ('military_service', 'Formal military service, conscription, or militia duty'),
         ('civilian_war_exposure', 'Civilian war exposure (displacement, siege, occupation, bombing)'),
         ('witnessed_atrocity', 'Witnessed killing, torture, or mass violence firsthand'),
+        ('captive', 'Taken prisoner of war, or forceable moved or enslaved as a civilian')
     ],
     'nonstandard_sexual_history': [
         ('premarital_sex', 'Consensual sexual activity before marriage'),
@@ -856,6 +861,9 @@ def generate_geography(person, ctx):
     Refine geographic location for Paleolithic people.
     Only called for Paleolithic era - Holocene has pre-computed locations.
 
+    Builds up a multi-turn conversation internally for context, but stores it
+    separately in person.geo_messages (for debugging) rather than person.messages.
+
     Modifies person in place.
     """
     if person.era != 'Paleolithic':
@@ -864,16 +872,21 @@ def generate_geography(person, ctx):
     region = person.region
     year = person.birth_year_str
 
+    # Initialize geography conversation
+    geo_messages = []
+
     # Step 1: Get subregion
     ctx.log(f"Getting subregion distribution for {region}, {year}...")
 
-    messages = [{"role": "user", "content": GEOGRAPHY_PROMPT.format(region=region, year=year)}]
-    result, _ = call_with_retry(ctx, messages)
+    geo_messages.append({"role": "user", "content": GEOGRAPHY_PROMPT.format(region=region, year=year)})
+    result, content = call_with_retry(ctx, geo_messages)
 
     if result and 'subregions' in result:
         subregion = sample_distribution(result['subregions'])
         person.demographics['Subregion'] = subregion
         ctx.log(f"  Sampled: {subregion}")
+        geo_messages.append({"role": "assistant", "content": content})
+        geo_messages.append({"role": "user", "content": SELECTION_TEXT + subregion})
     else:
         person.demographics['Subregion'] = 'Unknown'
         subregion = region
@@ -881,13 +894,15 @@ def generate_geography(person, ctx):
     # Step 2: Get specific location
     ctx.log(f"Getting location distribution within {subregion}...")
 
-    messages = [{"role": "user", "content": SUBSUBREGION_PROMPT.format(subregion=subregion, year=year)}]
-    result, _ = call_with_retry(ctx, messages)
+    geo_messages.append({"role": "user", "content": SUBSUBREGION_PROMPT.format(subregion=subregion, year=year)})
+    result, content = call_with_retry(ctx, geo_messages)
 
     if result and 'locations' in result:
         subsubregion = sample_distribution(result['locations'])
         person.demographics['Subsubregion'] = subsubregion
         ctx.log(f"  Sampled: {subsubregion}")
+        geo_messages.append({"role": "assistant", "content": content})
+        geo_messages.append({"role": "user", "content": SELECTION_TEXT + subsubregion})
     else:
         person.demographics['Subsubregion'] = subregion
         subsubregion = subregion
@@ -895,8 +910,8 @@ def generate_geography(person, ctx):
     # Step 3: Get environment details
     ctx.log("Getting environment details...")
 
-    messages = [{"role": "user", "content": ENVIRONMENT_PROMPT.format(subsubregion=subsubregion, year=year)}]
-    env_result, _ = call_with_retry(ctx, messages)
+    geo_messages.append({"role": "user", "content": ENVIRONMENT_PROMPT.format(subsubregion=subsubregion, year=year)})
+    env_result, content = call_with_retry(ctx, geo_messages)
 
     if env_result:
         person.demographics['Environment'] = env_result.get('environment', 'Unknown')
@@ -904,6 +919,10 @@ def generate_geography(person, ctx):
         person.demographics['Climate then'] = env_result.get('climate_then', '')
         person.demographics['Climate now'] = env_result.get('climate_now', '')
         ctx.log(f"  Environment: {person.demographics['Environment']}")
+        geo_messages.append({"role": "assistant", "content": content})
+
+    # Store for debugging (not used by main pipeline)
+    person.geo_messages = geo_messages
 
 
 def generate_demographics(person, ctx):
