@@ -142,10 +142,10 @@ continent: "Asia"
 # - M
 ---
 
-In the winter of 1643, late in the Ming dynasty, a Han family in the low fields and waterways of Tongzhou near the mouth of the Yangtze lived under county magistrates and tax collectors while war and famine pressed other provinces. Their household spoke the local speech of the Jiangnan region and kept an incense table for ancestors and nearby gods.
+Tongzhou county on the north bank of the Yangtze lay under the Ming state in 1643, with magistrates in walled towns and village elders handling most disputes. The family spoke a local Jiangnan Sinitic speech with Wu coloring, kept an ancestor tablet on a shelf above the main room, and burned incense at the Earth God shrine on festival days.
 
-The father, Shen Qichang, ran a small processing shop behind the house, pressing oil and arranging deliveries to a market town by boat. Apprentices slept on mats near the vats. His first wife had died, and the woman now managing the household, Lady Shen, kept the keys, watched the grain jars, and spun thread when the cooking was done. A concubine, Yun, nursed Shen Qichang’s eldest son, Shen Shun, born in 1640, and kept him from wandering into the work yard.
+The father, Zhang Shun, ran a small oil-pressing shop beside the lane that led to the market landing. He kept one apprentice and hired day labor when sesame or rapeseed came in by boat. Inside the house, his wife Chen kept the stove fed, spun thread, and set looms running when the older boy slept. Their first child, Zhang Da, had been born in 1640 and still carried the habits of a toddler, clinging to Chen’s sleeve and darting at the apprentice’s tools.
 
-On December 30, 1643, labor began before dawn. A midwife came in from a neighboring lane with her bag of cloths and cord ties. The birth turned hard and long. The child emerged limp, marked by the struggle. Lady Shen and Yun took turns rubbing his back and warming him by the brazier while the midwife cleared his mouth and pressed at his chest.
+By the winter of 1643, Zhang Shun had taken a concubine, Liu, into the household after Chen’s health failed. Liu handled water and firewood and watched Zhang Da while Chen’s belly tightened with the new labor. On December 30, 1643, women from nearby courtyards crowded into the room, heated water, and tied up Chen’s hair. The birth went hard. The boy came out limp and dark, his shoulders bruised from the struggle. They rubbed him with cloth and blew air into his mouth. He made no cry.
 
-He never cried. Before the day ended, the second child died in the women’s room. No formal name was entered in any register.
+Before night, the second child of seven was dead on his birthday.

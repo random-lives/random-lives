@@ -102,12 +102,12 @@ continent: "Asia"
 # - M
 ---
 
-A male infant was born on January 17, 163768 BC on an alluvial terrace above the Lower Jordan River, where a small band kept winter camp near reed beds and a spring-fed side channel. No polity governed the valley. The group answered to older hunters and the women who controlled food sharing and shelter space, and they moved between the lakeshore and the drier slopes as water and game shifted.
+He had no spoken name that carried beyond the hearth. The small band that moved between the Sea of Galilee and the lower Jordan lived by fishing, gathering reeds and seeds, and taking gazelle when the hills opened after winter rains. Authority sat in older men and women and in the force of kin ties, not in any wider polity.
 
-His mother, Tira, already had one son, Karem, born in 163770 BC. Karem slept close to her and carried reeds to the hearth. The child’s father, Nahal, had brought fish and waterfowl through the cool season and had argued sharply with others over meat cuts. After the birth he left camp with two men to check snares in the uplands. A fall on rock killed him before he returned, and his body came back on a travois of branches.
+His mother, Tira, had already raised one boy, Dagan, born three summers earlier. She nursed him through bouts of cough and stomach sickness and carried him on long walks between lakeshore camps and the alluvial terraces. When she was heavy again, her mate Harun kept close to the water and the reed beds, setting traps and watching for other groups along the river corridor.
 
-Tira’s milk came thin and late. She kept the infant tucked against her skin and drank from the river, but her mouth stayed dry and her urine turned dark. Other women gave her sips from skin bags and pressed mashed wetland tubers to her lips. The infant took little and cried in short bursts, then lay still for long stretches.
+Harun died in the cold season before the new baby came. A fall on a stony slope broke his ribs; he lay a day and a night, then stopped moving. Tira’s brother, Salk, took Harun’s digging stick and net weights and came to Tira’s shelter. He slept at the edge of the camp and carried water for her.
 
-On February 17, 163768 BC, in the morning, he died in the shelter while Tira sat upright and tried to feed him.
+The baby was born at the lake margin while geese fed in the shallows. Tira put him to the breast that day. The milk came thin and late. She ate what Salk and the others brought—fish, bitter greens, a little roasted grain—but she did not keep up with the group’s movements, and she missed meals when Dagan wandered and needed pulling back.
 
-Karem lived into adulthood and died in 163708 BC. A younger son, Sulem, was born in 163765 BC and lived until 163675 BC. Another boy, Jor, was born in 163762 BC and died the same year.
+By the fourth week the baby’s mouth stayed dry after nursing, and his skin stayed loose over his ribs. One morning, before the fire was rebuilt, he lay still on the bedding and did not respond when Tira rubbed him with warm water.
