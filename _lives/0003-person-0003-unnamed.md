@@ -142,10 +142,8 @@ continent: "Asia"
 # - M
 ---
 
-On December 30, 1643, in a farming village near Tongzhou in Jiangsu, under the Ming dynasty’s county yamen and tax registers, a boy was delivered in the household of Zhang Shunyi. The family spoke the local river-plain speech shaped by Wu sounds from across the Yangtze. Incense smoke from the family altar clung to the main room, and the Earth God shrine by the lane held fresh ash from morning offerings.
+In December 1643, the Ming dynasty still claimed Jiangsu, but soldiers and tax collectors moved through the lower Yangtze as the state broke apart. In Liuqiao outside Tongzhou near the river routes to the sea, a Han household spoke the local Sinitic speech with Wu sounds from across the water and kept an altar for ancestors, lighting incense and setting out bowls at festival times.
 
-Shunyi ran a small processing workshop beside the house. Apprentices slept on mats in a side room and rose before daylight to turn stone rollers and tend the fire. Bales of fiber and finished cloth moved through the courtyard, and his wife, Li shi, kept the household stores, boiled meals for workers, and spun thread when the children slept. Shunyi kept a concubine, Wang shi, in an inner room. She carried water, watched the children, and answered to Li shi in the women’s quarters.
+The father, Shen Wenxing, ran a small processing shop beside the family house, with a workroom that smelled of pressed oil and damp fiber. Apprentices slept on mats near the tools. He kept accounts on a board and sent his older boy, Shen Dalang, out to carry messages to suppliers and to fetch water from the well. Wenxing had buried his first wife and taken Li Shiniang into the household; she managed the hearth, the store jars, and the spinning basket, turning cotton into thread between cooking and mending.
 
-Their first child, a son, had been born in 1640. He was three that winter and still alive when the second boy came. The birth on December 30 went badly. The child was born limp, and the midwife rubbed him hard and pried his mouth open with a fingernail. Li shi bled and shook on the bed while Wang shi held a lamp close to the infant’s face.
-
-The boy never cried. Before nightfall on the same day, he was dead.
+Dalang was three when Li Shiniang’s labor began, late in the day on December 30. The midwife came from a nearby lane. Women boiled water and set a brazier close to the bed. The delivery dragged. The child came out limp, with bruising at the head and a cord wound tight. The midwife rubbed him hard with cloth and blew air into his mouth. Li Shiniang held him once. Before night, the newborn was dead.
