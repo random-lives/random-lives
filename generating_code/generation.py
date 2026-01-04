@@ -424,48 +424,46 @@ NARRATIVE_PLAN_PROMPTS = {
 # Narrative Prompts
 # -----------------------------------------------------------------------------
 
-NARRATIVE_BASE_PROMPT = '''Write a narrative biography for this historical person.
+NARRATIVE_BASE_PROMPT = '''Write a narrative biography for this historical person, following the demographic information and narrative plan provided.
 
 TASK:
 - Use the provided name
-- Weave demographic details in naturally
+- Weave demographic details in naturally; you don't need to include everything. However, all details included must match the demogrpahics and narrative plan
+- Give names to recurring people (family, spouse, close associates); minor one-off figures can remain unnamed
 - Avoid anachronisms
-- Give names to people who recur in the narrative or have ongoing relationships (family, spouse, close associates). Minor figures who appear once can remain unnamed. Use names appropriate to the time, place, and culture.
-- You do not need to include every piece of demographic information. Select the details that matter for this particular life and let the rest go.
 
 VOICE:
 - Plain contemporary English, no subheadings
-- Omniscient narrator: state facts confidently
-- No hedging: Do not write "likely", "probably", "perhaps", "may have", "might have", "could have", "about", "around", "approximately"
-- The demographic data may contain hedging language or present a range of options. Make concrete choices in these cases, rather than leaving things vague
-- Events happen at specific times. Do not spread events across year ranges, instead pick one year and state it.
+- Omniscient narrator: state facts confidently, no hedging ("likely", "probably", "perhaps", "may have")
+- When data presents options or ranges, make concrete choices
 - Vary sentence rhythm. Mix lengths. Fragments sometimes.
+
+TIME
+- Write as continuous narrative, not discrete blocks, in chronological order
+- Vary how you mark time passing: ages, seasons, life events, relative time, or dates. For people born before 1000 BC, prefer ages and relative time over absolute dates.
+- Discrete events should be assigned to specific times. Never hedge with phrases like  "in [YEAR] or [YEAR]", "around ages X to Y", "sometime in", "through ages X to Y", "X turning Y", instead speak with confidence and choose a specific time.
+- Vary paragraph openings. Avoid too frequently beginning with temporal phrases, and avoid redundant temporal phrases
 
 PROSE STYLE:
 - Write actively and directly. State facts plainly and concretely.
 - Avoid passive, abstract, or distanced descriptions.
 - Include specific details so the reader can see what you mean.
-- No figurative language: no metaphors, similes, or personification.
-- No archaic inversions, poetic flourishes, or proverbs.
+- No figurative language (no metaphors, similes, or personification)
+- No archaic inversions, poetic flourishes, or proverbs
 - State what happened. Do not comment on it, interpret it, or frame it poetically.
 - Do not write lines that exist to sound wise or poignant. If a sentence is reaching for literary effect, cut it or replace it with a plain one.
-- Describe what was there, not what wasn't. Avoid defining people or situations by negatives. If a detail only matters as an absence, cut it.
-- Do not introduce or frame events before describing them. Start with the event itself.
-
-FLOW AND CONTINUITY:
-- Write as continuous narrative, not discrete blocks. Each paragraph should connect to the next.
-- Maintain strict chronological order. Do not insert events out of sequence.
-- Connect life phases through causation, not just time passing.
+- Describe what was there, not what wasn't. Avoid defining people or situations by negatives.
+- When describing multiple similar events (repeated deaths, marriages, births), vary the sentence structure each time. Do not use the same pattern for sequential losses.
 
 HISTORICAL INTEGRATION:
-- Include historical framing throughout so readers can follow
+- Include historical, cultural, and religious framing throughout so readers can follow
 - Assume an intelligent reader who can look things up but isn't a specialist
-- Early in the narrative, briefly orient the reader to the political and cultural situation: what polity or power structure governed this area, what ethnic/linguistic group the person belonged to, and how that world related to larger historical forces. Keep it short and concrete—a sentence or two, not a paragraph of background.
+- Early in the narrative, briefly orient the reader to the political and cultural situation: what polity or power structure governed this area, what ethnic/linguistic group and religion the person belonged to, and how that world related to larger historical forces. Keep it short and concrete—a sentence or two, not a paragraph of background.
+- Prefer specific over generic where specificity is possible (specific languages, gods, kings, etc, over generic terms)
 
 PERSONALITY:
 - Show traits through action, not summary
 - Do not name personality traits. Show the behavior and let the reader infer the trait.
-- Extremes (below 15th or above 85th percentile) should be visible
 - Don't soften negative traits—low agreeableness causes friction, low conscientiousness causes real failures, low intelligence shows in limited understanding and poor decision-making
 
 AVOID THESE PHRASES:
@@ -478,11 +476,11 @@ HUMAN PARTICULARITY:
 Include 2-4 specific human details that bring the person to life:
 - Friendships: Not just family/spouse, but people they chose to spend time with, who made them laugh or who they trusted
 - Small pleasures: What they enjoyed - a particular food, a time of day, a seasonal activity, hobbies, stories they told, gambling, singing, a place they liked to sit
-- Habits or routines: Morning rituals, how they did their work, where they went when troubled
+- Habits or routines: daily rituals, how they did their work, where they went when troubled
 - Things that annoyed them or they avoided
 - Sources of quiet pride or satisfaction
 - Humor: Moments of teasing, jokes, laughter
-These details should feel plausible for the time, place, and personality, but must be made specific and idiosyncratic.
+These details should feel plausible for the time, place, cultural, religion, and personality. Aim to be both specific and idiosyncratic.
 '''
 
 # Age determines length and focus

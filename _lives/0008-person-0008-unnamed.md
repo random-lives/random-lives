@@ -102,10 +102,12 @@ continent: "Asia"
 # - M
 ---
 
-No chiefs or states governed the Jordan Rift then. A small band moved between the reed beds at the lake’s edge and the drier slopes above, tied to a few related families and to other bands met at water and fish runs. They spoke a local tongue with no written trace, and this boy died before a formal name settled on him.
+He was born without a fixed name, in a small band moving between the reed beds of the Lower Jordan and the drier slopes above the lake. There was no chief or temple in this valley; decisions came from elders and capable hunters, and the band’s rules were kept by talk, pressure, and the threat of being left behind. Their speech belonged to no language now recoverable.
 
-His mother had already carried one son to childhood. That older boy, three winters old, followed her to the shallows where she checked woven traps and pulled mussels from mud. His father ranged farther, taking turns with other men along the terraces and into the steppe for gazelle and smaller game, and he came back with thorn scratches on his legs and a sling over his shoulder.
+His mother, Sira, already had one child living, a boy of three named Aru. Aru stayed close while the women cut sedge and gathered small seeds on the terraces. His father, Kalan, carried fish traps of woven reed and helped drive gazelle when the band ranged out from the water.
 
-Near the cool-season rains, she gave birth in camp on an alluvial fan above the marsh. The baby was her second child, a boy, and he fed often. She kept him close under a hide wrap while she gathered bulbs and seeds near the water and brought reeds back for matting. After several days, his father left with others before dawn and did not return. The band brought his body back by late day, laid out on a reed mat, neck broken from a fall on rock.
+Kalan died when his second son was still in the first weeks of life. A sudden storm pushed hard down the rift. The river rose fast. Kalan went into the flooded edge to free a trap line and did not come back out. Men brought him in at dusk, slick with mud and weed.
 
-With fewer hands, her milk thinned. The baby cried, latched, and pulled, then slept long and woke dry-mouthed. On his thirty-first day, at midday, he stopped taking the breast and died on her lap. Two years later she bore another son, and three years after that an infant who also died.
+Sira kept the infant against her skin and tried to feed him through the hot part of the day and the cold nights. Milk did not come steadily. She drank when she could, but the band's water was shared and carried, and her hands had to work. The baby cried, then grew quiet. On his thirtieth day, he died in Sira's arms at the camp on the alluvial fan above the marsh. They buried him in a shallow scrape near the edge of camp with a few flat stones over the place.
+
+Two years later Sira bore another son, Taren. Three years after that she had a fourth boy, who died in his first days. Aru lived into old age, and Taren outlived them all.
