@@ -378,7 +378,7 @@ For partners: when relationship began/ended, nature of relationship.
 For children: birth year, death year (if before narrative end).
 
 2. LIFE PHASES
-Break life into phases (early childhood, later childhood/adolescence, adult life, old age) with 1-3 key events each.
+Break life into phases (early childhood, later childhood/adolescence, adult life, old age) with 1-3 key events each. Key events should occur at specific times.
 
 3. INCIDENTS PLACEMENT
 For each structured incident: when it happened and how it connects to other events.

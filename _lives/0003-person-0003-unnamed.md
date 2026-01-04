@@ -142,8 +142,10 @@ continent: "Asia"
 # - M
 ---
 
-In December 1643, the Ming dynasty still claimed Jiangsu, but soldiers and tax collectors moved through the lower Yangtze as the state broke apart. In Liuqiao outside Tongzhou near the river routes to the sea, a Han household spoke the local Sinitic speech with Wu sounds from across the water and kept an altar for ancestors, lighting incense and setting out bowls at festival times.
+In the winter of 1643, late in the Ming dynasty, a Han family in the low fields and waterways of Tongzhou near the mouth of the Yangtze lived under county magistrates and tax collectors while war and famine pressed other provinces. Their household spoke the local speech of the Jiangnan region and kept an incense table for ancestors and nearby gods.
 
-The father, Shen Wenxing, ran a small processing shop beside the family house, with a workroom that smelled of pressed oil and damp fiber. Apprentices slept on mats near the tools. He kept accounts on a board and sent his older boy, Shen Dalang, out to carry messages to suppliers and to fetch water from the well. Wenxing had buried his first wife and taken Li Shiniang into the household; she managed the hearth, the store jars, and the spinning basket, turning cotton into thread between cooking and mending.
+The father, Shen Qichang, ran a small processing shop behind the house, pressing oil and arranging deliveries to a market town by boat. Apprentices slept on mats near the vats. His first wife had died, and the woman now managing the household, Lady Shen, kept the keys, watched the grain jars, and spun thread when the cooking was done. A concubine, Yun, nursed Shen Qichang’s eldest son, Shen Shun, born in 1640, and kept him from wandering into the work yard.
 
-Dalang was three when Li Shiniang’s labor began, late in the day on December 30. The midwife came from a nearby lane. Women boiled water and set a brazier close to the bed. The delivery dragged. The child came out limp, with bruising at the head and a cord wound tight. The midwife rubbed him hard with cloth and blew air into his mouth. Li Shiniang held him once. Before night, the newborn was dead.
+On December 30, 1643, labor began before dawn. A midwife came in from a neighboring lane with her bag of cloths and cord ties. The birth turned hard and long. The child emerged limp, marked by the struggle. Lady Shen and Yun took turns rubbing his back and warming him by the brazier while the midwife cleared his mouth and pressed at his chest.
+
+He never cried. Before the day ended, the second child died in the women’s room. No formal name was entered in any register.
