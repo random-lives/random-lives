@@ -155,6 +155,15 @@ class Person:
         else:
             self.orientation = 'asexual'
 
+        # Physical attributes
+        # Handedness: ~10% left-handed
+        self.handedness = 'left' if np.random.random() < 0.106 else 'right'
+
+        # Height and attractiveness as percentile ranks (like personality)
+        # generation.py clears these if too young (< 13)
+        self.height_percentile = int(np.random.uniform(0, 100))
+        self.attractiveness_percentile = int(np.random.uniform(0, 100))
+
         # Populated by LLM pipeline
         self.demographics = {}
         self.events = []
@@ -308,6 +317,14 @@ class Person:
         # Sexual orientation (if sampled)
         if self.orientation:
             output['Sexual orientation'] = self.orientation
+
+        # Physical attributes
+        if self.handedness is not None:
+            output['Handedness'] = self.handedness
+        if self.height_percentile is not None:
+            output['Height (% rank)'] = self.height_percentile
+        if self.attractiveness_percentile is not None:
+            output['Physical attractiveness (% rank)'] = self.attractiveness_percentile
 
         # Name (populated by LLM pipeline)
         if self.name:

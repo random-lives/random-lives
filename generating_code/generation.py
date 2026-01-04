@@ -109,7 +109,7 @@ DEMOGRAPHIC_QUERIES = [
      'Both', 0, False),
 
     ("household_structure_at_birth",
-     "What was the household structure when this person was born? Consider mortality rates, marriage customs, household organization patterns.",
+     "What was the household structure when this person was born? Consider mortality rates, marriage customs, household organization patterns, and rates of illegitimate birth.",
      'Holocene', 0, False),
 
     ("household_social_status",
@@ -143,7 +143,7 @@ DEMOGRAPHIC_QUERIES = [
 
     # Adult roles (age 13+)
     ("marital_status",
-     "What was their likely marital status? Consider their age at death, sex, sexual orientation, marriage customs, social status, and personality. "
+     "What was their likely marital status? Consider their age at death, sex, sexual orientation, marriage customs, social status, physical attractiveness, and personality. "
      "Note: In most historical periods, people with same-sex attraction often married heterosexually due to social expectations.",
      'Holocene', 13, False),
 
@@ -313,9 +313,9 @@ TASK: Compute birth years for each sibling so the narrative gets older/younger r
 For each sibling, determine:
 - Name, sex, birth year, death year, death age
 - Whether they were alive when this person was born and when they died
-- Their narrative role (e.g., "older sister present at birth", "younger brother born during person's life")
+- Their narrative role: combine timeline facts with interpersonal texture (how they related, what they meant to each other)
 
-For caretakers (parents, grandparents, or others who raised this person): estimate when each died (if during this person's life) and include below.
+For caretakers (parents, grandparents, or others who raised this person): estimate when each died (if during this person's life) and note their relationship quality with the protagonist.
 
 CONSTRAINTS:
 - Siblings must be in correct birth order (birth_order_position shows where this person falls)
@@ -338,8 +338,8 @@ TASK: Work out the key facts and timing that the narrative must respect.
 1. SIBLING AND CARETAKER TIMELINE
 For each sibling, determine:
 - Name, sex, birth year, death year, death age
-- Their narrative role
-For caretakers (parents, grandparents, or others who raised this person): estimate when each died (if during this person's life) and include below.
+- Their narrative role: combine timeline facts with interpersonal texture (how they related, what they meant to each other)
+For caretakers (parents, grandparents, or others who raised this person): estimate when each died (if during this person's life) and note their relationship quality with the protagonist.
 
 2. INCIDENTS PLACEMENT
 For each structured incident: when it happened and how it connects to other events.
@@ -380,10 +380,10 @@ TASK: Work out the key facts and timing that the narrative must respect.
 CREATE A TIMELINE:
 
 1. FAMILY TIMELINE
-For siblings: name, sex, birth year, death year (if before narrative end), key narrative moments.
-For caretakers (parents, grandparents, or others who raised this person): estimate when each died (if during this person's life).
-For partners: name, when relationship began/ended, nature of relationship.
-For children: name, sex, birth year, death year (if before narrative end).
+For siblings: name, sex, birth year, death year (if before narrative end), narrative role combining timeline with interpersonal texture (how they related, what they meant to each other).
+For caretakers (parents, grandparents, or others who raised this person): estimate when each died (if during this person's life) and note their relationship quality with the protagonist.
+For partners: name, when relationship began/ended, nature and quality of relationship.
+For children: name, sex, birth year, death year (if before narrative end), relationship with protagonist.
 
 2. LIFE PHASES
 Break life into phases (early childhood, later childhood/adolescence, adult life, old age) with 1-3 key events each. Key events should occur at specific times.
@@ -395,8 +395,8 @@ For each structured incident: when it happened and how it connects to other even
 Other named characters (non-family) with relationship and when they're prominent.
 
 5. TRAIT AND CONDITION MANIFESTATIONS
-Plan how personality appears through concrete behavior.
-- The very high and very low traits requires specific scenes or behavioral patterns showing that trait in action
+Plan how traits appears through concrete behavior.
+- The very high and very low personality traits requires specific scenes or behavioral patterns showing that trait in action
 - Mental disorders likewise require specific scenes or behavioral patterns showing that trait in action
 - Traits that are average do not need to be included
 
@@ -773,6 +773,25 @@ def _build_trait_context(person):
     disorder = _get_mental_disorder(person)
     if disorder:
         lines.append(f"\nMENTAL DISORDER (must be visible): {disorder}")
+
+    # Physical attributes (only for adolescents and above)
+    if person.years_lived() >= AGE_ADOLESCENT:
+        physical_lines = []
+        if person.height_percentile is not None:
+            h = person.height_percentile
+            if h <= 5:
+                physical_lines.append(f"- Height: {h}th percentile ← very short (may affect social dynamics)")
+            elif h >= 95:
+                physical_lines.append(f"- Height: {h}th percentile ← very tall (may affect social dynamics)")
+        if person.attractiveness_percentile is not None:
+            a = person.attractiveness_percentile
+            if a <= 5:
+                physical_lines.append(f"- Physical attractiveness: {a}th percentile ← very low (may affect social dynamics)")
+            elif a >= 95:
+                physical_lines.append(f"- Physical attractiveness: {a}th percentile ← very high (may affect social dynamics)")
+        if physical_lines:
+            lines.append("\nPHYSICAL ATTRIBUTES:")
+            lines.extend(physical_lines)
 
     lines.append("")
     return "\n".join(lines)
@@ -1542,17 +1561,6 @@ def generate_narrative(person, ctx, extra_prompt=None):
     if hasattr(person, 'narrative_plan') and person.narrative_plan:
         full_prompt += "\n\nIMPORTANT: Follow the narrative plan you created earlier. Use the exact timeline for siblings, children, and incidents. The plan ensures temporal consistency."
 
-    # Structured incidents and historical context (already in conversation history)
-    if hasattr(person, 'structured_incidents') and person.structured_incidents:
-        incidents_str = "\n".join(f"- {e.get('event', '')} ({e.get('timing', 'unknown')})"
-                                  for e in person.structured_incidents)
-        full_prompt += "\n\nPersonal incidents to incorporate:\n" + incidents_str
-
-    if hasattr(person, 'historical_context') and person.historical_context:
-        context_str = "\n".join(f"- {e.get('event', '')} ({e.get('timing', 'unknown')})"
-                                for e in person.historical_context)
-        full_prompt += "\n\nHistorical context to incorporate:\n" + context_str
-
     person.messages.append({"role": "user", "content": full_prompt})
 
     ctx.log(f"Generating narrative ({age_cat})...")
@@ -1665,13 +1673,17 @@ def _prepare_person_for_generation(person):
     Personality and orientation are sampled in Person.__init__ but should
     be cleared for people who died too young to manifest them.
     """
-    # Clear personality if died before childhood threshold
+    # Clear personality and handedness if died before childhood threshold
     if person.years_lived() < AGE_CHILD:
         person.personality = None
+        person.handedness = None
 
-    # Clear orientation if died before adolescent threshold
+    # Clear orientation and physical attractiveness/height if died before adolescent threshold
+    # (these are about young adult characteristics)
     if person.years_lived() < AGE_ADOLESCENT:
         person.orientation = None
+        person.height_percentile = None
+        person.attractiveness_percentile = None
 
     return person
 
