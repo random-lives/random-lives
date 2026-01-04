@@ -306,15 +306,16 @@ For "unnamed" category: {{"category": "unnamed", "names": []}}'''
 # -----------------------------------------------------------------------------
 
 # Infant (0-4): Only sibling timeline
-NARRATIVE_PLAN_PROMPT_INFANT = '''Before writing the narrative, work out the sibling timeline.
+NARRATIVE_PLAN_PROMPT_INFANT = '''Before writing the narrative, work out the sibling and caretaker timeline.
 
 TASK: Compute birth years for each sibling so the narrative gets older/younger relationships correct.
 
 For each sibling, determine:
-- Birth year (based on typical birth spacing of 2-3 years)
-- Death year (computed from birth year + age at death)
+- Name, sex, birth year, death year, death age
 - Whether they were alive when this person was born and when they died
 - Their narrative role (e.g., "older sister present at birth", "younger brother born during person's life")
+
+For caretakers (parents, grandparents, or others who raised this person): estimate when each died (if during this person's life) and include below.
 
 CONSTRAINTS:
 - Siblings must be in correct birth order (birth_order_position shows where this person falls)
@@ -324,8 +325,9 @@ CONSTRAINTS:
 
 Return as JSON:
 {{
-    "siblings": [{{"sex": "M/F", "birth_year": YYYY, "death_year": YYYY, "death_age": N, "narrative_role": "..."}}],
-    "named_characters": [{{"name": "...", "relationship": "...", "prominence": "..."}}]
+    "siblings": [{{"name": "...", "sex": "M/F", "birth_year": YYYY, "death_year": YYYY, "death_age": N, "narrative_role": "..."}}],
+    "caretakers": [{{"name": "...", "role": "father/mother/grandmother/etc.", "death_year": YYYY or null, "narrative_role": "..."}}],
+    "other_named_characters": [{{"name": "...", "relationship": "...", "prominence": "..."}}]
 }}'''
 
 # Child (5-12): Siblings + incidents + traits + characters
@@ -333,17 +335,17 @@ NARRATIVE_PLAN_PROMPT_CHILD = '''Before writing the narrative, create a timeline
 
 TASK: Work out the key facts and timing that the narrative must respect.
 
-1. SIBLING TIMELINE
+1. SIBLING AND CARETAKER TIMELINE
 For each sibling, determine:
-- Birth year (based on typical birth spacing of 2-3 years)
-- Death year (computed from birth year + age at death)
+- Name, sex, birth year, death year, death age
 - Their narrative role
+For caretakers (parents, grandparents, or others who raised this person): estimate when each died (if during this person's life) and include below.
 
 2. INCIDENTS PLACEMENT
 For each structured incident: when it happened and how it connects to other events.
 
-3. CHARACTERS
-Named characters with relationship and when they're prominent.
+3. OTHER CHARACTERS
+Other named characters (non-family) with relationship and when they're prominent.
 
 4. TRAIT AND CONDITION MANIFESTATIONS
 Plan how personality appears through concrete behavior.
@@ -362,10 +364,11 @@ CONSTRAINTS:
 
 Return as JSON:
 {{
-    "siblings": [{{"sex": "M/F", "birth_year": YYYY, "death_year": YYYY, "death_age": N, "narrative_role": "..."}}],
+    "siblings": [{{"name": "...", "sex": "M/F", "birth_year": YYYY, "death_year": YYYY, "death_age": N, "narrative_role": "..."}}],
+    "caretakers": [{{"name": "...", "role": "father/mother/grandmother/etc.", "death_year": YYYY or null, "narrative_role": "..."}}],
     "incident_placements": [{{"incident": "...", "age": N, "connection": "..."}}],
     "trait_manifestations": [{{"trait": "...", "scene": "...", "timing": "...", "consequence": "..."}}],
-    "named_characters": [{{"name": "...", "relationship": "...", "prominence": "..."}}]
+    "other_named_characters": [{{"name": "...", "relationship": "...", "prominence": "..."}}]
 }}'''
 
 # Adolescent (13-18): Same as adult
@@ -377,9 +380,10 @@ TASK: Work out the key facts and timing that the narrative must respect.
 CREATE A TIMELINE:
 
 1. FAMILY TIMELINE
-For siblings: birth year, death year (if before narrative end), key narrative moments.
-For partners: when relationship began/ended, nature of relationship.
-For children: birth year, death year (if before narrative end).
+For siblings: name, sex, birth year, death year (if before narrative end), key narrative moments.
+For caretakers (parents, grandparents, or others who raised this person): estimate when each died (if during this person's life).
+For partners: name, when relationship began/ended, nature of relationship.
+For children: name, sex, birth year, death year (if before narrative end).
 
 2. LIFE PHASES
 Break life into phases (early childhood, later childhood/adolescence, adult life, old age) with 1-3 key events each. Key events should occur at specific times.
@@ -387,8 +391,8 @@ Break life into phases (early childhood, later childhood/adolescence, adult life
 3. INCIDENTS PLACEMENT
 For each structured incident: when it happened and how it connects to other events.
 
-4. CHARACTERS
-Named characters with relationship and when they're prominent.
+4. OTHER CHARACTERS
+Other named characters (non-family) with relationship and when they're prominent.
 
 5. TRAIT AND CONDITION MANIFESTATIONS
 Plan how personality appears through concrete behavior.
@@ -407,13 +411,14 @@ CONSTRAINTS:
 
 Return as JSON:
 {{
-    "siblings": [{{"sex": "M/F", "birth_year": YYYY, "death_year": YYYY, "death_age": N, "narrative_role": "..."}}],
+    "siblings": [{{"name": "...", "sex": "M/F", "birth_year": YYYY, "death_year": YYYY, "death_age": N, "narrative_role": "..."}}],
+    "caretakers": [{{"name": "...", "role": "father/mother/grandmother/etc.", "death_year": YYYY or null, "narrative_role": "..."}}],
     "partners": [{{"name": "...", "relationship_start_year": YYYY, "relationship_end_year": YYYY, "narrative_role": "..."}}],
-    "children": [{{"sex": "M/F", "birth_year": YYYY, "death_year": YYYY, "death_age": N, "narrative_role": "..."}}],
+    "children": [{{"name": "...", "sex": "M/F", "birth_year": YYYY, "death_year": YYYY, "death_age": N, "narrative_role": "..."}}],
     "life_phases": [{{"phase": "...", "age_range": "X-Y", "key_events": ["..."]}}],
     "incident_placements": [{{"incident": "...", "age": N, "connection": "..."}}],
     "trait_manifestations": [{{"trait": "...", "scene": "...", "timing": "...", "consequence": "..."}}],
-    "named_characters": [{{"name": "...", "relationship": "...", "prominence": "..."}}]
+    "other_named_characters": [{{"name": "...", "relationship": "...", "prominence": "..."}}]
 }}'''
 
 # Map age category to planning prompt
