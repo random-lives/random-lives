@@ -272,33 +272,30 @@ NAMING_PROMPT = '''Generate 20 possible names for this person.
 NAMING CATEGORIES:
 First, determine which category applies:
 
-1. **ATTESTED**: Names survive in written records. Use historically authentic names appropriate to the language, era, region, class, and sex. Prioritize common everyday names over famous or prestigious ones. Maximize diversity across the 20 options.
+1. **ATTESTED**: Written records exist for this population in this era. Use names actually documented from this specific time and place—not names from earlier or later periods, and not names from neighboring but distinct cultures.
 
-2. **INFERABLE**: Language family known but no written records. Generate phonologically plausible names for that language family. Vary phonological patterns and roots.
+2. **INFERABLE**: The language family is known, but no written records survive for this population. Generate names that could plausibly belong to this language family at this time depth. Do NOT use modern forms or names from later folklore/literature.
 
-3. **UNRECOVERABLE**: No linguistic connection to known languages. Generate simple, short names (1-3 syllables) that sound human. CRITICAL: Vary name length substantially - include roughly equal numbers of 1-syllable, 2-syllable, and 3-syllable names across the 20 options. Vary consonants, vowels, and syllable structures.
+3. **UNRECOVERABLE**: No linguistic connection to known languages, OR the time depth is too great to confidently reconstruct naming patterns. Generate simple, human-sounding names (1-3 syllables) without implying any specific linguistic tradition. Use this category when uncertain—it's better than projecting modern names backward.
 
 4. **UNNAMED**: Infant died before customary naming age. Return empty names list.
 
+CRITICAL CONSIDERATIONS:
+ - Names change over time. Use names from the actual era, not later "classical" forms.
+ - Names from related but distinct peoples are not interchangeable. Be precise about which tradition applies to THIS person.
+ - In stratified societies, naming patterns often differed by class. Peasants and laborers typically had simpler names than elites. Consider whether elaborate or prestigious names would have been used by someone of this social status.
+
 ROMANIZATION RULES:
-All names must be readable by English speakers:
-
-- **Latin-alphabet languages** (Spanish, Polish, French, Vietnamese, etc.): Keep native diacritics (ł, ń, ü, ç, etc.)
-- **Non-Latin scripts** (Chinese, Arabic, Greek, Hindi, Japanese, Korean, etc.): Use standard English romanization (pinyin for Chinese, etc.)
-- **Inferable/reconstructed names**: Use plain romanization only. NO scholarly notation (no asterisks, no IPA symbols like ə, no macrons for vowel length, no hyphens between morphemes). The name should look like a normal name, not a linguistic reconstruction.
-
-NAMING CONSIDERATIONS:
-- Full name format should match cultural norms (given name only, or with family/clan/patronymic elements)
-- Consider: language, social class, sex, religious context, regional variation
+- Latin-alphabet languages: Keep native diacritics (ł, ń, ü, ç, etc.)
+- Non-Latin scripts: Use standard English romanization
+- Inferable/reconstructed names: Plain romanization only, no scholarly notation
 
 FORMAT:
-Brief reasoning about which category applies and why, then as JSON:
+Reasoning about which category applies and why (be specific about what sources/traditions you're drawing from), then as JSON:
 {{
     "category": "attested" | "inferable" | "unrecoverable" | "unnamed",
     "names": ["Name 1", "Name 2", ..., "Name 20"]
-}}
-
-For "unnamed" category: {{"category": "unnamed", "names": []}}'''
+}}'''
 
 
 # -----------------------------------------------------------------------------

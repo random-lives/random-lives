@@ -28,7 +28,8 @@
       "Bash(cat:*)",
       "Bash(shuf:*)",
       "Bash(xargs -I {} sh -c 'echo \"\"\"\"=== {} ===\"\"\"\" && grep -E \"\"\"\"(orientation|partnership|marital|lover|relationship)\"\"\"\" {}')",
-      "Bash(xargs -I {} sh -c 'echo \"\"\"\"=== {} ===\"\"\"\" && grep -E \"\"\"\"(same-sex|homosexual|lover|affair|relationship|partner)\"\"\"\" {} | head -20')"
+      "Bash(xargs -I {} sh -c 'echo \"\"\"\"=== {} ===\"\"\"\" && grep -E \"\"\"\"(same-sex|homosexual|lover|affair|relationship|partner)\"\"\"\" {} | head -20')",
+      "Bash(xargs -I {} sh -c 'echo \"\"\"\"=== {} ===\"\"\"\" && grep -E \"\"\"\"(title:|birth_year:|Naming category:|ethnicity:)\"\"\"\" {} | head -10')"
     ]
   }
 }
