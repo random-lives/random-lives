@@ -142,10 +142,8 @@ continent: "Asia"
 # - M
 ---
 
-Tongzhou county on the north bank of the Yangtze lay under the Ming state in 1643, with magistrates in walled towns and village elders handling most disputes. The family spoke a local Jiangnan Sinitic speech with Wu coloring, kept an ancestor tablet on a shelf above the main room, and burned incense at the Earth God shrine on festival days.
+In 1643, the Tongzhou countryside by the canals north of the Yangtze still answered to the Ming county yamen, even as armies and taxes pressed the region. The family in Liuqiao spoke the local Sinitic speech with Wu turns of phrase heard from boatmen and traders coming from across the river. They kept an ancestral tablet in the main room and burned incense to local gods at festival times.
 
-The father, Zhang Shun, ran a small oil-pressing shop beside the lane that led to the market landing. He kept one apprentice and hired day labor when sesame or rapeseed came in by boat. Inside the house, his wife Chen kept the stove fed, spun thread, and set looms running when the older boy slept. Their first child, Zhang Da, had been born in 1640 and still carried the habits of a toddler, clinging to Chen’s sleeve and darting at the apprentice’s tools.
+The father, Shen Yao, ran a small processing shop near the market path, taking in seed and turning it to oil with a press and a stone mill. Apprentices slept on mats behind the work area. He kept a second woman in the household after his first wife died; the stepmother, Madam Wang, managed the cooking, washing, and the endless spinning and mending that kept cloth on growing children.
 
-By the winter of 1643, Zhang Shun had taken a concubine, Liu, into the household after Chen’s health failed. Liu handled water and firewood and watched Zhang Da while Chen’s belly tightened with the new labor. On December 30, 1643, women from nearby courtyards crowded into the room, heated water, and tied up Chen’s hair. The birth went hard. The boy came out limp and dark, his shoulders bruised from the struggle. They rubbed him with cloth and blew air into his mouth. He made no cry.
-
-Before night, the second child of seven was dead on his birthday.
+Their first son, Shen Da, had been born in 1640. In winter of 1643, with Da still a small child underfoot, Madam Wang went into labor again. A midwife came from a nearby hamlet. The baby boy arrived near the end of the day on December 30, 1643. The delivery turned hard and long. When he emerged, he did not cry and did not draw breath. The midwife rubbed him, cleared his mouth, and tried again. Shen Yao waited outside the room, then stepped in when the midwife told him the child was dead.
