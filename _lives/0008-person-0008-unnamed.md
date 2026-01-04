@@ -102,12 +102,10 @@ continent: "Asia"
 # - M
 ---
 
-He had no spoken name that carried beyond the hearth. The small band that moved between the Sea of Galilee and the lower Jordan lived by fishing, gathering reeds and seeds, and taking gazelle when the hills opened after winter rains. Authority sat in older men and women and in the force of kin ties, not in any wider polity.
+No chiefs or states governed the Jordan Rift then. A small band moved between the reed beds at the lake’s edge and the drier slopes above, tied to a few related families and to other bands met at water and fish runs. They spoke a local tongue with no written trace, and this boy died before a formal name settled on him.
 
-His mother, Tira, had already raised one boy, Dagan, born three summers earlier. She nursed him through bouts of cough and stomach sickness and carried him on long walks between lakeshore camps and the alluvial terraces. When she was heavy again, her mate Harun kept close to the water and the reed beds, setting traps and watching for other groups along the river corridor.
+His mother had already carried one son to childhood. That older boy, three winters old, followed her to the shallows where she checked woven traps and pulled mussels from mud. His father ranged farther, taking turns with other men along the terraces and into the steppe for gazelle and smaller game, and he came back with thorn scratches on his legs and a sling over his shoulder.
 
-Harun died in the cold season before the new baby came. A fall on a stony slope broke his ribs; he lay a day and a night, then stopped moving. Tira’s brother, Salk, took Harun’s digging stick and net weights and came to Tira’s shelter. He slept at the edge of the camp and carried water for her.
+Near the cool-season rains, she gave birth in camp on an alluvial fan above the marsh. The baby was her second child, a boy, and he fed often. She kept him close under a hide wrap while she gathered bulbs and seeds near the water and brought reeds back for matting. After several days, his father left with others before dawn and did not return. The band brought his body back by late day, laid out on a reed mat, neck broken from a fall on rock.
 
-The baby was born at the lake margin while geese fed in the shallows. Tira put him to the breast that day. The milk came thin and late. She ate what Salk and the others brought—fish, bitter greens, a little roasted grain—but she did not keep up with the group’s movements, and she missed meals when Dagan wandered and needed pulling back.
-
-By the fourth week the baby’s mouth stayed dry after nursing, and his skin stayed loose over his ribs. One morning, before the fire was rebuilt, he lay still on the bedding and did not respond when Tira rubbed him with warm water.
+With fewer hands, her milk thinned. The baby cried, latched, and pulled, then slept long and woke dry-mouthed. On his thirty-first day, at midday, he stopped taking the breast and died on her lap. Two years later she bore another son, and three years after that an infant who also died.
