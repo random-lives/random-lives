@@ -442,7 +442,9 @@ TIME
 - Write as continuous narrative, not discrete blocks, in chronological order
 - Vary how you mark time passing: ages, seasons, life events, relative time, or dates. For people born before 1000 BC, prefer ages and relative time over absolute dates.
 - Discrete events should be assigned to specific times. Never hedge with phrases like  "in [YEAR] or [YEAR]", "around ages X to Y", "sometime in", "through ages X to Y", "X turning Y", instead speak with confidence and choose a specific time.
-- Vary paragraph openings. Avoid too frequently beginning with temporal phrases, and avoid redundant temporal phrases
+- Avoid redundant temporal phrases, such as "In the year X, when he was Y"
+- Vary paragraph openings, and avoid too frequently beginning with temporal phrases
+- Avoid starting consecutive paragraphs with "In [YEAR]" or "By [AGE]"
 
 PROSE STYLE:
 - Write actively and directly. State facts plainly and concretely.
@@ -459,7 +461,8 @@ HISTORICAL INTEGRATION:
 - Include historical, cultural, and religious framing throughout so readers can follow
 - Assume an intelligent reader who can look things up but isn't a specialist
 - Early in the narrative, briefly orient the reader to the political and cultural situation: what polity or power structure governed this area, what ethnic/linguistic group and religion the person belonged to, and how that world related to larger historical forces. Keep it short and concrete—a sentence or two, not a paragraph of background.
-- Prefer specific over generic where specificity is possible (specific languages, gods, kings, etc, over generic terms)
+- Prefer specific over generic where specificity is possible
+- When depicting religious practice, name specific deities, spirits, or ancestors where culturally appropriate. Describe the contents of offerings and the physical objects used. Avoid generic terms like "the gods" or "religious observances" when specifics are recoverable for the culture and period.
 
 PERSONALITY:
 - Show traits through action, not summary
@@ -533,6 +536,7 @@ ENDING:
 DEAD_PROMPT = """
 ENDING:
 - Include the death concretely
+- If funerary practices are known or inferable for their culture, end with a brief concrete description of burial or memorial (where the body was placed, what was done with it, any offerings or rites). Keep this to 1-2 sentences, and omit if the death circumstances make this impossible
 - Do not dwell on aftermath or sentimentalize
 - Avoid: "breathing slowed", "fever rose/burned", "eyes closed", "slipped away", "grew weaker", "stopped breathing"
 """

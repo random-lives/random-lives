@@ -102,12 +102,10 @@ continent: "Asia"
 # - M
 ---
 
-He was born without a fixed name, in a small band moving between the reed beds of the Lower Jordan and the drier slopes above the lake. There was no chief or temple in this valley; decisions came from elders and capable hunters, and the band’s rules were kept by talk, pressure, and the threat of being left behind. Their speech belonged to no language now recoverable.
+The band camped on an alluvial terrace above the reeds of the Lower Jordan, where freshwater and fish held even in the drier years. No chiefs governed the valley; families clustered around skilled hunters and older women who knew the springs, and they treated the river and the lake edge as places with watchful animal-spirits that had to be handled carefully.
 
-His mother, Sira, already had one child living, a boy of three named Aru. Aru stayed close while the women cut sedge and gathered small seeds on the terraces. His father, Kalan, carried fish traps of woven reed and helped drive gazelle when the band ranged out from the water.
+His mother, Sira, already had one son, Tamm, born three winters earlier. She gave birth again in midwinter, close to the lake where the ground stayed soft and damp. The baby boy lived through his first days, small and quiet in her arms. His father, Karem, carried loads from the marsh and set nets in the shallows. He went out with two men to take gazelle on the steppe slope and did not return; they came back with torn skin and said a cat had taken him in the scrub.
 
-Kalan died when his second son was still in the first weeks of life. A sudden storm pushed hard down the rift. The river rose fast. Kalan went into the flooded edge to free a trap line and did not come back out. Men brought him in at dusk, slick with mud and weed.
+After that, Sira’s milk did not come well. She tried to keep the infant to her breast and chewed bulbs and soft seeds to wet his mouth. Tamm fetched water in a skin from a seep above the camp, and an aunt laid warm stones near the sleeping place at night. The baby’s belly stayed slack. His mouth dried. On the thirty-first day he stopped taking milk.
 
-Sira kept the infant against her skin and tried to feed him through the hot part of the day and the cold nights. Milk did not come steadily. She drank when she could, but the band's water was shared and carried, and her hands had to work. The baby cried, then grew quiet. On his thirtieth day, he died in Sira's arms at the camp on the alluvial fan above the marsh. They buried him in a shallow scrape near the edge of camp with a few flat stones over the place.
-
-Two years later Sira bore another son, Taren. Three years after that she had a fourth boy, who died in his first days. Aru lived into old age, and Taren outlived them all.
+Sira and her sister wrapped him in a reed mat and placed him in a shallow pit in sandy soil above the floodline. They set a handful of fish bones and a smooth lake pebble beside him, pressed the sand down, and covered the spot with cut reeds.
