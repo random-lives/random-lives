@@ -1,88 +1,172 @@
 ---
 layout: life
 title: "Person 0017 (unnamed)"
-birth_year: "1294 AD"
-birth_year_numeric: 1294
-death_year: "1294 AD"
+birth_year: "525 AD"
+birth_year_numeric: 525
+death_year: "525 AD"
 age_at_death: 0
-birth_date: "December 22, 1294 AD"
-death_date: "December 27, 1294 AD"
-location: "金龙湖, 桑植县, 张家界市, 湖南省, 中国"
+birth_date: "June 6, 525 AD"
+death_date: "June 22, 525 AD"
+location: "灵溪镇, 苍南县, 温州市, 浙江省, 325800, 中国"
 country: "China"
-latitude: 29.73
-longitude: 109.84
-map_url: "https://www.google.com/maps/place/29.73,109.84/@29.73,109.84,5z"
+latitude: 27.4
+longitude: 120.34
+map_url: "https://www.google.com/maps/place/27.4,120.34/@27.4,120.34,5z"
 lifestyle: "Rural"
 era: "Holocene"
-sex: "M"
+sex: "F"
 age_tag: "Infant (0–1)"
 continent: "Asia"
 
 # Debug information (not displayed on page):
 # Age at death: 0
-# Agreeableness (% rank): 49
-# Birth date: December 22, 1294 AD
-# Birth year: 1294 AD
-# Birthplace altitude: 838
-# Birthplace annual precipitation: 1455.0
+# Birth date: June 6, 525 AD
+# Birth year: 525 AD
+# Birthplace altitude: 404
+# Birthplace annual precipitation: 1566.0
 # Birthplace biome: Tropical & Subtropical Moist Broadleaf Forests
-# Birthplace coldest month temp: -0.29600000381469727
-# Birthplace cropland percentage: 0.0
-# Birthplace ecotype: Guizhou Plateau broadleaf and mixed forests
+# Birthplace coldest month temp: 2.822000026702881
+# Birthplace cropland percentage: 0.05
+# Birthplace ecotype: Jian Nan subtropical evergreen forests
 # Birthplace irrigated_not_rice percentage: 0.0
 # Birthplace irrigated_rice percentage: 0.0
-# Birthplace latitude: 29.73
-# Birthplace longitude: 109.84
-# Birthplace map url: https://www.google.com/maps/place/29.73,109.84/@29.73,109.84,5z
-# Birthplace mean temp: 14.326541900634766
-# Birthplace modern address: 金龙湖, 桑植县, 张家界市, 湖南省, 中国
+# Birthplace latitude: 27.4
+# Birthplace longitude: 120.34
+# Birthplace map url: https://www.google.com/maps/place/27.4,120.34/@27.4,120.34,5z
+# Birthplace mean temp: 16.176374435424805
+# Birthplace modern address: 灵溪镇, 苍南县, 温州市, 浙江省, 325800, 中国
 # Birthplace modern country: China
-# Birthplace modern region: Hunan
-# Birthplace pasture percentage: 1.11
-# Birthplace population density: 21.579999923706055
-# Birthplace rainfed_not_rice percentage: 0.0
+# Birthplace modern region: Zhejiang
+# Birthplace pasture percentage: 0.97
+# Birthplace population density: 17.06999969482422
+# Birthplace rainfed_not_rice percentage: 0.05
 # Birthplace rainfed_rice percentage: 0.0
 # Birthplace rangeland percentage: 0.0
 # Birthplace urban_area percentage: 0.0
-# Birthplace warmest month temp: 28.777999877929688
-# Conscientiousness (% rank): 42
-# Death date: December 27, 1294 AD
+# Birthplace warmest month temp: 29.069000244140625
+# Death date: June 22, 525 AD
 # Era: Holocene
-# Extraversion (% rank): 25
-# Honesty-Humility (% rank): 75
-# Intelligence (% rank): 82
 # Lifestyle: Rural
 # Name: (unnamed - died before naming)
 # Naming category: unnamed
-# Neuroticism (% rank): 95
-# Openness (% rank): 64
-# Sex: M
-# Sexual orientation: heterosexual
-# cause_of_death: 'Other acute illness/accident (rare at 5 days: injury, exposure event,
-#   etc.)'
-# ethnicity: Han (Chinese) rural settler community
-# father_occupation: 'Smallholder farmer (primary work: cultivating family land; seasonal
-#   agricultural labor)'
-# household_social_status: Ordinary free commoner farming household (smallholder/owner-cultivator;
-#   modest means)
-# household_structure_at_birth: Patrilocal extended household (married couple living
-#   with husband's parents; possibly with other kin)
-# language: Sinitic + other (e.g., Mongolic/Turkic/Semitic contact languages), very
-#   rare
-# mother_occupation: Household domestic work + farm support (cooking, fuel/water, childcare,
-#   kitchen garden, pigs/poultry; fieldwork at busy seasons)
+# Sex: F
+# birth_order_position: 7
+# cause_of_death: Prematurity/low birth weight/weakness (including failure to thrive)
+# ethnicity: Southern Chinese Sinitic ("Han"/Hua-Xia) rural community under the Liang
+#   dynasty
+# father_occupation: Agricultural wage laborer / farm servant (works others' land for
+#   wages/food)
+# household_social_status: 'Ordinary free commoners (peasant household: smallholders
+#   and/or tenants owing rent/tax/labor)'
+# household_structure_at_birth: Married couple with their children (nuclear family household)
+# language: Sinitic (local) + Classical Chinese (Sinitic) as a prestige/written register
+#   in the household milieu
+# mother_occupation: Household labor + textile work (spinning/weaving/needlework), food
+#   processing, childcare (primary)
 # narrative_plan:
-#   named_characters: []
-#   siblings: []
-# number_of_siblings: '0'
-# religion: 'Chinese popular religion: household ancestor rites + local deity offerings
-#   (earth/kitchen/door gods), village temple festivals'
+#   caretakers:
+#   - death_year: null
+#     name: Zhou Shi
+#     narrative_role: 'Agricultural wage laborer/farm servant; often away for work but
+#       central authority of the household. Relationship quality: practical and duty-based—protective
+#       in intent, but constrained by poverty and labor demands; grief expressed through
+#       ritual and worry more than tenderness.'
+#     role: father
+#   - death_year: null
+#     name: Chen Shi
+#     narrative_role: 'Household manager and textile worker (spinning/weaving), responsible
+#       for childcare and postpartum care. Relationship quality: intimate and physically
+#       constant during the infant’s short life; anxious, vigilant, and likely exhausted,
+#       balancing older children and subsistence work.'
+#     role: mother
+#   other_named_characters:
+#   - name: Miao-fa
+#     prominence: minor
+#     relationship: local Buddhist temple chant-leader/monastic contacted for merit-making
+#   - name: Old Woman Lin
+#     prominence: minor
+#     relationship: village midwife/experienced birth attendant
+#   siblings:
+#   - alive_when_protagonist_born: false
+#     birth_year: 500
+#     death_age: 24
+#     death_year: 524
+#     name: Da-lang
+#     narrative_role: Firstborn son; remembered as the capable older brother who had
+#       already taken on adult work and obligations. His recent death (the year before
+#       the protagonist’s birth) still weighs on the household, shaping the family’s
+#       anxieties about survival and fortune.
+#     sex: M
+#   - alive_when_protagonist_born: false
+#     birth_year: 509
+#     death_age: 6
+#     death_year: 515
+#     name: Er-niang
+#     narrative_role: A sister who died in early childhood; more a presence in family
+#       stories and rituals than in living memory for the younger children—an example
+#       the adults cite when speaking of sickness, spirits, and the fragility of infants.
+#     sex: F
+#   - alive_when_protagonist_born: true
+#     birth_year: 511
+#     death_age: 42
+#     death_year: 553
+#     name: San-lang
+#     narrative_role: Adult in the making at 14 when the protagonist is born; an older-brother
+#       figure who helps with heavy labor and errands. Likely the main ‘next man’ in
+#       the household after the eldest brother’s death, carrying expectations and pressure.
+#     sex: M
+#   - alive_when_protagonist_born: true
+#     birth_year: 516
+#     death_age: 19
+#     death_year: 535
+#     name: Si-niang
+#     narrative_role: A teenage sister (about 9 at the protagonist’s birth) who helps
+#       the mother with childcare and household tasks; part playmate, part junior caretaker.
+#       Her later early-adult death makes her another thread of grief in the family’s
+#       narrative.
+#     sex: F
+#   - alive_when_protagonist_born: false
+#     birth_year: 522
+#     death_age: 0
+#     death_year: 522
+#     name: Wu-lang
+#     narrative_role: An infant brother who died the year of birth; invoked as a recent
+#       warning about frailty in newborns. His short life likely influenced postpartum
+#       practices and the family’s resort to protective rites for later births.
+#     sex: M
+#   - alive_when_protagonist_born: true
+#     birth_year: 524
+#     death_age: 80
+#     death_year: 604
+#     name: Liu-lang
+#     narrative_role: Closest-in-age older brother (about 1 at the protagonist’s birth).
+#       Too young to understand, but in family memory he becomes ‘the one who lived’
+#       through a risky infancy; later, as a long-lived elder, he is the keeper of household
+#       recollections and ancestral obligations.
+#     sex: M
+# number_of_siblings: '6'
+# religion: Household ancestor/domestic rites + Buddhist merit-making (temple visits,
+#   chanting/offerings; especially funerary/illness rituals)
+# sibling_ages_at_death:
+# - 24
+# - 6
+# - 42
+# - 19
+# - 0
+# - 80
+# sibling_sexes:
+# - M
+# - F
+# - M
+# - F
+# - M
+# - M
 ---
 
-The boy had no recorded name. He was born on December 22, 1294, in the upland villages north of present-day Zhangjiajie, under the Yuan dynasty’s county offices and tax quotas. His family spoke Chinese at home and dealt in the market speech used by travelers and officials who came through on errands for the state. The household was a patrilocal compound: his father lived under his own father’s roof, sharing stores of grain and tools.
+Chen Shi gave birth to a daughter on June 6, 525, in the hill country above the coast of southern Zhejiang, where the Liang dynasty’s magistrates and tax clerks reached villages through headmen and registered households. Her family spoke the local Sinitic tongue and kept a small altar shelf for the Zhou ancestors; a few times each year they carried incense to a nearby Buddhist temple to ask for merit and protection.
 
-His father, Li Shun, worked small plots carved from slopes and valley edges. Winter work meant repairing terrace walls, splitting firewood, and carrying loads along the mountain paths to a market town. His mother, Zhang Shi, kept the hearth, fed pigs and chickens, and turned beans and millet into meals. She also joined the women at the stream to wash cloth and rinse vegetables, then returned to tend the kitchen garden.
+The house held only the married couple and their children. The eldest son, Da-lang, had died the previous year at twenty-four, leaving his father Zhou Shi without the strong back he had leaned on for hired fieldwork. Of the living children, San-lang was fourteen and already going out before dawn to take day labor where he could. Si-niang, nine, kept watch over little Liu-lang, a toddler still unsteady on his feet. Another baby, Wu-lang, had died in 522, and that memory sat close to Chen Shi’s hands when she washed the newborn and tied the cord.
 
-On the evening of the birth, the women of the household heated water, laid out cloth, and burned incense at the household shrine. In the morning, Li Shun’s mother set a bowl of food before the ancestors and spoke their names. The infant cried, took milk, and slept close to the brazier.
+The infant was never given a settled name. Chen Shi kept her near the cooking place, wrapped and pressed to her breast between turns at the spindle. Zhou Shi burned a pinch of incense to the kitchen god and set out a small bowl of rice, then went to labor in another man’s fields. Old Woman Lin came once to check the child and told Chen Shi to keep her warm and feed her often.
 
-On December 26, a neighbor’s child stumbled near the hearth and knocked the brazier. Coals scattered onto the bedding. The infant was burned. He died the next day, December 27, 1294.
+On June 22 the baby died from weakness after a premature birth. That evening Zhou Shi carried the tiny body to a burial spot on the family’s slope, and Chen Shi set a few coins and a strip of plain cloth with her, then lit incense and recited a short Buddha-name chant taught by Miao-fa at the temple.

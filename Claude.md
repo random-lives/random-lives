@@ -184,6 +184,10 @@ person.lifestyle           # 'Hunter-Gatherer', 'Rural', or 'Urban'
 person.personality         # Dict of percentile ranks (0-100)
 person.twin                # None, 'identical', or 'fraternal' (~1.2% are twins)
 person.orientation         # None (if died <13), or 'heterosexual'/'bisexual'/'homosexual'/'asexual'
+person.handedness          # 'left' or 'right' (~10% left-handed)
+person.height_percentile   # 0-100 percentile rank (None if died <13)
+person.attractiveness_percentile  # 0-100 percentile rank (None if died <13)
+person.birth_conditions    # List of congenital conditions (e.g., ['congenital deafness'])
 
 # Era-specific
 person.region              # Paleolithic: continental region
@@ -232,6 +236,25 @@ Some attributes are sampled directly in `person.py` based on biological base rat
 - None for those who die before puberty
 - This represents underlying biological rates; how/whether orientation manifests depends on era, culture, and circumstances (handled by LLM demographic queries like `marital_status` and `partnership_history`)
 
+**Physical Attributes**:
+- `person.handedness`: ~10% left-handed, ~90% right-handed
+- `person.height_percentile`: 0-100 percentile rank (cleared if died < 13)
+- `person.attractiveness_percentile`: 0-100 percentile rank (cleared if died < 13)
+- Extreme values (≤5th or ≥95th percentile) are flagged in narrative planning as "must be visible"
+
+**Congenital Conditions** (`person.birth_conditions`):
+Sampled independently based on medical base rates. Each condition has its own probability:
+- Physical anomalies: cleft lip/palate (1/700), clubfoot (1/1000), polydactyly (1/800), limb reduction (1/2000)
+- Sensory: congenital deafness (1/1000), congenital blindness (1/2500)
+- Neurological: congenital epilepsy (1/300), cerebral palsy (1/500), stuttering (1/100)
+- Other: albinism (1/17000), dwarfism (1/20000)
+- Intersex: ambiguous genitalia at birth (1/4500), apparent at puberty (1/1500)
+
+When present, congenital conditions are:
+1. Highlighted in the demographics prompt so the LLM considers effects on life trajectory, social status, occupation, and marriage
+2. Included in narrative planning context with "must be visible" flag
+3. Even included for infants (age < 5) in narrative planning, though personality traits are not
+
 ---
 
 ## Key Design Choices
@@ -262,8 +285,12 @@ Before writing the narrative, the LLM creates a detailed timeline ensuring tempo
 - **Life phases**: Age ranges with key events for each phase
 - **Incident placements**: Exactly when each structured incident occurs
 - **Named characters**: Who gets named and when they're prominent
+- **Trait manifestations**: Concrete scenes showing extreme personality traits, mental disorders, and congenital conditions
 
-This prevents temporal logic errors like siblings appearing at impossible ages or children mentioned before they could exist. Skipped for very short lives (age < 3).
+This prevents temporal logic errors like siblings appearing at impossible ages or children mentioned before they could exist. Tiered by age category:
+- **Infant (0-4)**: Sibling/caretaker timeline only (plus congenital conditions if present)
+- **Child (5-12)**: Adds incidents, traits, and other characters
+- **Adolescent/Adult (13+)**: Full planning including partners, children, life phases
 
 **Two-Tier Incident System** (`generate_structured_incidents()`):
 - **Tier 1**: LLM estimates probabilities for 11 broad categories (victim_violence, perpetrator_violence, severe_economic_crisis, serious_health_incident, etc.) based on demographics and personality
@@ -314,9 +341,10 @@ The project aims for plain, direct prose:
 The Python generation pipeline is organized into focused modules with clear responsibilities:
 
 **Core Data Models:**
-- `person.py` (12KB) - Person class, sampling logic, personality traits
+- `person.py` - Person class, sampling logic, biological attributes
   - Handles both Paleolithic and Holocene eras
   - Samples birth years weighted by historical births
+  - Samples biological attributes: sex, twin status, orientation, handedness, height, attractiveness, congenital conditions
   - Manages demographic attributes and LLM-generated content
 
 - `location.py` (8KB) - Location class and geographic data
@@ -337,10 +365,12 @@ The Python generation pipeline is organized into focused modules with clear resp
   - Works with `(year, day_of_year)` tuple format
 
 **Generation Pipeline:**
-- `generation.py` (30KB) - LLM narrative generation
+- `generation.py` - LLM narrative generation
   - Multi-stage pipeline: demographics → incidents → historical_context → name → narrative_plan → narrative
   - Narrative planning stage ensures temporal consistency (sibling/child timelines)
   - Age-appropriate narrative generation (infant/child/adolescent/adult)
+  - Integrates congenital conditions into demographics prompts and narrative planning
+  - Flags extreme personality traits and physical attributes for visibility in narratives
   - Prompt engineering for historical accuracy and plain prose style
 
 - `llm_utils.py` (12KB) - LLM infrastructure

@@ -667,7 +667,10 @@ Return as JSON with nested structure:
 ELABORATE_INCIDENTS_PROMPT = '''The random sampling selected that this person experienced the following incidents:
 {incidents_list}
 
-For each incident, provide a specific, concrete description of what happened (1-2 sentences maximum). Make each specific to this person's time, place, occupation, and circumstances.
+For each incident, provide:
+- Whether this was a single event, recurring pattern, or sustained period
+- A specific, concrete description (1-2 sentences)
+Make each specific to this person's time, place, occupation, and circumstances.
 
 Return as JSON:
 {{
@@ -679,8 +682,9 @@ Return as JSON:
 # Tier 2 subtype definitions
 TIER2_SUBTYPES = {
     'victim_violence': [
+        ('childhood_abuse', 'Physical abuse or severe neglect from parents/caretakers during childhood'),
         ('sexual_violence', 'Sexual assault, rape, or coercion'),
-        ('domestic_violence', 'Physical violence from intimate partner or household member'),
+        ('domestic_violence', 'Physical violence from intimate partner (adult relationships)'),
         ('physical_assault', 'Non-sexual, non-domestic physical violence (assault, beating, serious fight)'),
     ],
     'perpetrator_violence': [
@@ -752,8 +756,15 @@ def _age_category(person):
 
 
 def _build_trait_context(person):
-    """Build context string with personality traits (flagging extremes) and any mental disorder."""
+    """Build context string with personality traits (flagging extremes), mental disorder, and congenital conditions."""
     if person.years_lived() < AGE_CHILD:
+        # Even for infants, include congenital conditions if present
+        if hasattr(person, 'birth_conditions') and person.birth_conditions:
+            lines = ["\nCONGENITAL CONDITIONS (must be visible):"]
+            for condition in person.birth_conditions:
+                lines.append(f"- {condition}")
+            lines.append("")
+            return "\n".join(lines)
         return ""  # Too young for trait manifestation planning
 
     lines = ["\nPERSONALITY AND CONDITIONS:"]
@@ -773,6 +784,12 @@ def _build_trait_context(person):
     disorder = _get_mental_disorder(person)
     if disorder:
         lines.append(f"\nMENTAL DISORDER (must be visible): {disorder}")
+
+    # Congenital conditions
+    if hasattr(person, 'birth_conditions') and person.birth_conditions:
+        lines.append("\nCONGENITAL CONDITIONS (must be visible):")
+        for condition in person.birth_conditions:
+            lines.append(f"- {condition}")
 
     # Physical attributes (only for adolescents and above)
     if person.years_lived() >= AGE_ADOLESCENT:
@@ -958,6 +975,12 @@ def generate_demographics(person, ctx):
     # Build context prompt
     context = DEMOGRAPHIC_CONTEXT_BASE + DEMOGRAPHIC_CONTEXT_ERA[person.era]
     context += "\n\nHere are the basic facts for the person:\n" + person.to_prompt_string()
+
+    # Add prominent note about congenital conditions if present
+    if hasattr(person, 'birth_conditions') and person.birth_conditions:
+        conditions_str = ', '.join(person.birth_conditions)
+        context += f"\n\nIMPORTANT - CONGENITAL CONDITIONS: This person was born with: {conditions_str}. "
+        context += "Consider how these conditions would affect their life trajectory, social status, occupation options, and marriage prospects in this time and place."
 
     person.messages = [
         {"role": "user", "content": context},

@@ -1,17 +1,17 @@
 ---
 layout: life
 title: "Person 0026 (unnamed)"
-birth_year: "389 AD"
-birth_year_numeric: 389
-death_year: "389 AD"
+birth_year: "1294 AD"
+birth_year_numeric: 1294
+death_year: "1294 AD"
 age_at_death: 0
-birth_date: "February 20, 389 AD"
-death_date: "February 27, 389 AD"
-location: "岑河镇, 荆州市, 湖北省, 434000, 中国"
-country: "China"
-latitude: 30.23
-longitude: 112.42
-map_url: "https://www.google.com/maps/place/30.23,112.42/@30.23,112.42,5z"
+birth_date: "December 15, 1294 AD"
+death_date: "December 16, 1294 AD"
+location: "Pongam, Chalakkudy, Thrissur, Kerala, 683576, India"
+country: "India"
+latitude: 10.24
+longitude: 76.36
+map_url: "https://www.google.com/maps/place/10.24,76.36/@10.24,76.36,5z"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "M"
@@ -20,143 +20,131 @@ continent: "Asia"
 
 # Debug information (not displayed on page):
 # Age at death: 0
-# Agreeableness (% rank): 44
-# Birth date: February 20, 389 AD
-# Birth year: 389 AD
-# Birthplace altitude: 27
-# Birthplace annual precipitation: 1120.0
-# Birthplace biome: Temperate Broadleaf & Mixed Forests
-# Birthplace coldest month temp: 0.19500000774860382
-# Birthplace cropland percentage: 7.63
-# Birthplace ecotype: Changjiang Plain evergreen forests
+# Birth date: December 15, 1294 AD
+# Birth year: 1294 AD
+# Birthplace altitude: 34
+# Birthplace annual precipitation: 3189.0
+# Birthplace biome: Tropical & Subtropical Moist Broadleaf Forests
+# Birthplace coldest month temp: 21.972999572753906
+# Birthplace cropland percentage: 2.88
+# Birthplace ecotype: Malabar Coast moist forests
 # Birthplace irrigated_not_rice percentage: 0.0
 # Birthplace irrigated_rice percentage: 0.0
-# Birthplace latitude: 30.23
-# Birthplace longitude: 112.42
-# Birthplace map url: https://www.google.com/maps/place/30.23,112.42/@30.23,112.42,5z
-# Birthplace mean temp: 16.724624633789062
-# Birthplace modern address: 岑河镇, 荆州市, 湖北省, 434000, 中国
-# Birthplace modern country: China
-# Birthplace modern region: Hubei
-# Birthplace pasture percentage: 1.4
-# Birthplace population density: 6.760000228881836
-# Birthplace rainfed_not_rice percentage: 7.63
+# Birthplace latitude: 10.24
+# Birthplace longitude: 76.36
+# Birthplace map url: https://www.google.com/maps/place/10.24,76.36/@10.24,76.36,5z
+# Birthplace mean temp: 27.34833335876465
+# Birthplace modern address: Pongam, Chalakkudy, Thrissur, Kerala, 683576, India
+# Birthplace modern country: India
+# Birthplace modern region: Kerala
+# Birthplace pasture percentage: 0.54
+# Birthplace population density: 91.02999877929688
+# Birthplace rainfed_not_rice percentage: 2.88
 # Birthplace rainfed_rice percentage: 0.0
 # Birthplace rangeland percentage: 0.0
 # Birthplace urban_area percentage: 0.0
-# Birthplace warmest month temp: 31.921998977661133
-# Conscientiousness (% rank): 61
-# Death date: February 27, 389 AD
+# Birthplace warmest month temp: 33.64899826049805
+# Death date: December 16, 1294 AD
 # Era: Holocene
-# Extraversion (% rank): 43
-# Honesty-Humility (% rank): 71
-# Intelligence (% rank): 52
 # Lifestyle: Rural
 # Name: (unnamed - died before naming)
 # Naming category: unnamed
-# Neuroticism (% rank): 43
-# Openness (% rank): 33
 # Sex: M
-# Sexual orientation: heterosexual
-# birth_order_position: 3
-# cause_of_death: Birth complications/asphyxia/birth trauma with death in the first
-#   week
-# ethnicity: Han (Huaxia/Jin Chinese-speaking agrarian communities of the middle Yangtze)
-# father_occupation: Estate retainer/overseer/security (managing labor, guarding stores,
-#   collecting rent) of a great household
-# household_social_status: Dependent tenants/clients of a local great household (attached
-#   farming household, patron-client ties)
-# household_structure_at_birth: Other arrangements (adoption in/out, fosterage, servile
-#   dependency household, etc.)
-# language: Sinitic vernacular + some household/community bilingualism with a local
-#   non-Sinitic language (likely Kra–Dai or Hmong–Mien family)
-# mother_occupation: Household work plus regular field labor at peak seasons (transplanting/weeding/harvest)
-#   for the tenant holding/estate
+# birth_order_position: 2
+# cause_of_death: Congenital anomaly (major defect incompatible with survival)
+# ethnicity: Malayalam-speaking Hindu (non-Brahmin agrarian/artisan/service castes of
+#   Malabar/Kerala)
+# father_occupation: Agricultural wage laborer (field work for landlords/tenants; seasonal
+#   farm tasks)
+# household_social_status: Low status (land-poor laboring household; high dependency
+#   on patrons/landlords; frequent food insecurity)
+# household_structure_at_birth: Patrifocal nuclear household (mother, father, children;
+#   possibly a small dependent like a widowed relative)
+# language: 'Dravidian: Malayalam + limited Sanskrit (ritual/prestige exposure; basic
+#   phrases/recitations)'
+# mother_occupation: Household labor + agricultural field labor (weeding/planting/harvest,
+#   gleaning; seasonal wage work)
 # narrative_plan:
-#   named_characters:
-#   - name: Eldest Brother
-#     prominence: secondary
-#     relationship: 'older brother (child #1)'
-#   - name: Second Brother
-#     prominence: high
-#     relationship: 'older brother (child #2)'
-#   - name: Younger Sister
-#     prominence: low
-#     relationship: 'younger sister (child #5)'
-#   - name: Younger Brother
-#     prominence: secondary
-#     relationship: 'younger brother (child #6)'
-#   - name: Youngest Sister
-#     prominence: secondary
-#     relationship: 'younger sister (child #8)'
+#   caretakers:
+#   - death_year: 1322
+#     name: Madhavan
+#     narrative_role: 'Agricultural wage laborer; present at the time of birth but limited
+#       by work demands. Relationship quality: steady and protective in intent, often
+#       exhausted and anxious after repeated infant losses; channeled grief into temple
+#       offerings and practical efforts to keep the household fed.'
+#     role: father
+#   - death_year: 1338
+#     name: Devaki
+#     narrative_role: 'Household manager and frequent field laborer. Relationship quality:
+#       intensely attentive during births and early infancy, carrying the emotional
+#       weight of repeated losses; after the protagonist''s death she would have been
+#       the central figure arranging cleansing rites, visiting the temple, and later
+#       raising the surviving daughter.'
+#     role: mother
+#   other_named_characters:
+#   - name: Kunjan
+#     prominence: minor
+#     relationship: temple-side ritual specialist/priest who occasionally served the
+#       village
+#   - name: Narayanan
+#     prominence: minor
+#     relationship: landlord/field overseer who hired the father for seasonal work
+#   - name: Ammu
+#     prominence: supporting
+#     relationship: experienced village midwife/elder woman who assisted at births
 #   siblings:
-#   - birth_year: 384
-#     death_age: 14
-#     death_year: 398
-#     narrative_role: Older brother; alive when the person was born; died in childhood
-#       about 9 years after the person's death.
-#     sex: M
-#   - birth_year: 386
-#     death_age: 50
-#     death_year: 436
-#     narrative_role: Older brother; alive at the person's birth; likely the senior
-#       surviving son afterward and remained alive into middle age long after.
-#     sex: M
-#   - birth_year: 389
+#   - birth_year: 1292
 #     death_age: 0
-#     death_year: 389
-#     narrative_role: 'The person (child #3); died in the first week of life.'
-#     sex: M
-#   - birth_year: 392
-#     death_age: 0
-#     death_year: 392
-#     narrative_role: Younger brother; born after the person had died; died at/near
-#       birth.
-#     sex: M
-#   - birth_year: 394
-#     death_age: 1
-#     death_year: 395
-#     narrative_role: Younger sister; born after the person's death; died in early toddlerhood.
+#     death_year: 1292
+#     name: Kalyani
+#     narrative_role: Firstborn daughter who died in infancy; remembered only through
+#       the parents' grief and as a quiet shadow over later births, making the household
+#       anxious and watchful around newborns.
 #     sex: F
-#   - birth_year: 397
-#     death_age: 44
-#     death_year: 441
-#     narrative_role: Younger brother; born after the person's death; survived to mature
-#       adulthood.
-#     sex: M
-#   - birth_year: 400
+#   - birth_year: 1294
 #     death_age: 0
-#     death_year: 400
-#     narrative_role: Younger brother; born after the person's death; died at/near birth.
+#     death_year: 1294
+#     name: Devan
+#     narrative_role: 'Protagonist (child #2). Lived only a day; his brief life became
+#       another wound that shaped how the family approached pregnancy, vows, and temple
+#       offerings afterward.'
 #     sex: M
-#   - birth_year: 402
-#     death_age: 41
-#     death_year: 443
-#     narrative_role: Youngest sister; born after the person's death; survived to adulthood.
+#   - birth_year: 1296
+#     death_age: 49
+#     death_year: 1345
+#     name: Parvathi
+#     narrative_role: Only sibling to reach adulthood. Grew up hearing fragmentary family
+#       memory of the infants who died before and after her; later became the keeper
+#       of household stories and the one who performed remembrance rites when parents
+#       aged or died.
 #     sex: F
-# number_of_siblings: '7'
-# religion: Household/lineage ancestral offerings + local land/river/field deity rites
-#   (typical popular ritual mix), little formal temple involvement
+#   - birth_year: 1299
+#     death_age: 0
+#     death_year: 1299
+#     name: Raman
+#     narrative_role: Last-born son who also died in infancy; reinforced the sense in
+#       the household that male infants were especially vulnerable, prompting further
+#       temple petitions and protective rituals around future pregnancies (even if no
+#       more children followed).
+#     sex: M
+# number_of_siblings: '3'
+# religion: Hindu temple-oriented practice (visits/offerings to a local Shiva/Vishnu/Bhagavati
+#   temple; festival attendance; occasional priest-mediated rites, hearing Sanskrit
+#   mantras)
 # sibling_ages_at_death:
-# - 14
-# - 50
 # - 0
-# - 1
-# - 44
+# - 49
 # - 0
-# - 41
 # sibling_sexes:
-# - M
-# - M
-# - M
+# - F
 # - F
 # - M
-# - M
-# - F
 ---
 
-He was born on February 20, 389, in a hamlet on the flat wet ground near the middle Yangtze in what is now Hubei, under the Eastern Jin. His family were Han tenants tied to the estate of a powerful household, and his father, Liang Qiu, carried the landlord’s authority in the fields: he counted bundles at harvest, watched the storehouse, and kept order when men argued over water and boundaries. At home Liang Qiu spoke the local Sinitic tongue, and he traded short phrases in a neighboring hill people’s language when he dealt with carriers and charcoal burners.
+Devan was born on 15 December 1294 in a small hamlet near Chalakkudy in the wet lowlands of the Malabar Coast. Local chiefs and temple estates governed the area through landlords and overseers. His family spoke Malayalam at home and heard Sanskrit mantras in the temple courtyard during festivals. They belonged to a low-status Hindu laboring caste tied to fieldwork and temple-centered village life.
 
-Liang Qiu’s wife, Wen, worked the way the season demanded. She spent winter days twisting hemp fiber and mending, then moved into the paddies at planting time to set seedlings in straight lines. Their two sons already filled the yard. The eldest, Liang Ren, was five and followed his father, lifting small tools and imitating his stance. The second, Liang Zhi, was three and stayed close to Wen as she cooked millet gruel and watched the fire.
+His father, Madhavan, hired out by the day, cutting bunds and transplanting seedlings in flooded plots when the rains allowed. His mother, Devaki, worked beside him at harvest and carried home sheaves to thresh, then cooked rice gruel over a clay hearth. Their first child, Kalyani, had been born two years earlier and died before she took to breast well; Devaki kept a small lamp for Bhagavati on a shelf and fed it oil on Fridays.
 
-On the day of the birth, women from nearby houses came to help. The child came hard and fast. He did not cry strongly afterward, and Wen bled and shook. For seven days he lay wrapped near the hearth while Wen was fed thin broth and salt. On February 27, 389, he died from the injury of the birth.
+The midwife Ammu came when Devaki’s pains tightened. A neighbor fetched hot water; Madhavan waited outside, then paid Ammu with a measure of rice. Devan arrived with a visible malformation and did not take milk. Before dawn Madhavan walked to the nearby temple and set a coconut, plantains, and a little jaggery before the shrine while the priest Kunjan recited.
+
+Devan died on 16 December 1294. Ammu washed the body, and the family wrapped him in clean cloth and carried him to a quiet spot at the edge of the compound to bury him, placing a few grains of rice beside him and lighting a small wick-lamp.

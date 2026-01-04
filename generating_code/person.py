@@ -91,6 +91,32 @@ HYDE_LAND_USE_FIELDS = ['cropland', 'pasture', 'rangeland', 'urban_area',
                         'irrigated_not_rice', 'irrigated_rice',
                         'rainfed_not_rice', 'rainfed_rice']
 
+# Congenital conditions: (name, probability)
+BIRTH_CONDITIONS = [
+    # Physical anomalies
+    ('congenital cleft lip/palate', 1/700),
+    ('congenital clubfoot', 1/1000),
+    ('congenital polydactyly', 1/800),
+    ('congenital limb reduction', 1/2000),
+
+    # Sensory
+    ('congenital deafness', 1/1000),
+    ('congenital blindness', 1/2500),
+
+    # Neurological
+    ('congenital epilepsy', 1/300),
+    ('cerebral palsy', 1/500),
+    ('stuttering', 1/100),
+
+    # Other
+    ('albinism', 1/17000),
+    ('dwarfism', 1/20000),
+
+    # Intersex
+    ('intersex (ambiguous genitalia at birth)', 1/4500),
+    ('intersex (apparent at puberty)', 1/1500),
+]
+
 def _sample_personality():
     """Sample personality traits (percentile ranks)."""
     return {f'{trait} (% rank)': np.random.randint(0, 101) for trait in PERSONALITY_TRAITS}
@@ -163,6 +189,12 @@ class Person:
         # generation.py clears these if too young (< 13)
         self.height_percentile = int(np.random.uniform(0, 100))
         self.attractiveness_percentile = int(np.random.uniform(0, 100))
+
+        # Congenital conditions
+        self.birth_conditions = [
+            name for name, prob in BIRTH_CONDITIONS
+            if np.random.random() < prob
+        ]
 
         # Populated by LLM pipeline
         self.demographics = {}
@@ -325,6 +357,10 @@ class Person:
             output['Height (% rank)'] = self.height_percentile
         if self.attractiveness_percentile is not None:
             output['Physical attractiveness (% rank)'] = self.attractiveness_percentile
+
+        # Congenital conditions (if any)
+        if hasattr(self, 'birth_conditions') and self.birth_conditions:
+            output['Congenital conditions'] = ', '.join(self.birth_conditions)
 
         # Name (populated by LLM pipeline)
         if self.name:
