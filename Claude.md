@@ -17,6 +17,22 @@ The sampling is **truly random** weighted by historical birth rates, which means
 
 ---
 
+## Current Status (January 2026)
+
+**Pipeline**: Production-ready. The generation pipeline (`person.py`, `generation.py`) is stable and produces good quality narratives. Further refinement has diminishing returns.
+
+**Stories**: 30 generated stories in `_lives/`. These need post-generation review/editing before launch.
+
+**Next steps**:
+1. Develop post-generation editing workflow (Claude Code reviews and edits stories)
+2. Generate 100 stories (MVP target)
+3. Website design and methodology page
+4. Launch
+
+See [Roadmap](#roadmap) for full details.
+
+---
+
 ## Current Project Structure
 
 ```
@@ -399,29 +415,32 @@ The Python generation pipeline is organized into focused modules with clear resp
 
 ### File Editing Policy
 
-**IMPORTANT: Do not directly edit generated markdown files in `_lives/`**
+The markdown files in `_lives/` are **generated outputs** from the Python pipeline, but undergo **post-generation editing** before launch.
 
-The markdown files in `_lives/` are **generated outputs** from the Python pipeline. They should only be modified by:
-1. Re-running `export.py` with updated pickle files
-2. Modifying the export script itself to change the output format
+**Two-phase workflow:**
+
+1. **Generation phase**: Stories are generated via the Python pipeline and exported to `_lives/`. During this phase, don't edit the markdown files directly—fix issues in the pipeline instead.
+
+2. **Post-generation editing phase**: Once a batch is generated and exported, Claude Code reviews and edits stories for:
+   - AI-slop phrases
+   - Naming issues
+   - Trait visibility
+   - Other quality issues flagged in ISSUE_TRACKER.md
 
 **DO:**
-- Edit Python scripts in `generating_code/` (person.py, export.py, generation.py, etc.)
-- Edit Jekyll templates in `_layouts/` (life.html, default.html)
+- Edit Python scripts in `generating_code/` for systemic issues
+- Edit Jekyll templates in `_layouts/` for display changes
+- Edit individual `.md` files in `_lives/` during post-generation review
 - Edit site-wide files (CSS, index.html, about.md, _config.yml)
-- Re-generate markdown files by running export scripts
 
 **DON'T:**
-- Manually edit individual `.md` files in `_lives/`
-- Create one-off scripts to patch generated files
-- Try to fix data issues by editing the output instead of the source
+- Edit `.md` files before the batch is finalized (they'll be overwritten)
+- Try to fix systemic generation issues by editing output files
 
-**If you need to change how biographical pages are structured or what data they display:**
+**If you need to change how biographical pages are structured:**
 1. Modify `export.py` to change the frontmatter/content generation
-2. Modify `_layouts/life.html` to change how data is displayed on the page
-3. Re-run the export script to regenerate all files with the new format
-
-**Rationale**: The `_lives/` directory will eventually contain hundreds of generated files. Any manual edits will be lost when the export script is re-run. Changes must be made at the source (Python pipeline or Jekyll templates) to be permanent and apply to all files consistently.
+2. Modify `_layouts/life.html` to change how data is displayed
+3. Re-run the export script to regenerate all files
 
 ---
 
@@ -528,37 +547,33 @@ Each biographical page (`_layouts/life.html`) includes navigation buttons:
 - [x] Narrative generation
 - [x] Jekyll website setup
 - [x] Export script
-- [ ] Batch generation and refinement ← current focus
+- [x] Batch generation and refinement
 
-### Phase 2: Context & Metadata
+### Phase 2: Context & Metadata ✅
 - [x] Tagging system (continent, age buckets, lifestyle, sex)
 - [x] Filtering/search functionality on website
+- [x] Two-tier structured incident system for life events
+- [x] Improved naming prompt (temporal/ethnic/class precision)
 
-### Phase 2b: Demographic Coverage ✅
+### Phase 3: MVP Launch ← CURRENT FOCUS
+- [ ] Post-generation editing workflow (Claude Code review/edit of stories)
+- [ ] Dry run: edit existing 30 stories
+- [ ] Generate 100 stories (MVP target)
+- [ ] Edit 100 stories via post-generation workflow
+- [ ] Website design improvements (landing page, navigation)
+- [ ] Methodology page (for credibility at launch)
+- [ ] Data visualizations (timeline, map) - nice to have
 
-The two-tier structured incident system now probabilistically samples life events that were previously underrepresented. Tier 1 categories include:
-- `victim_violence` (sexual, domestic, physical assault)
-- `victim_property_crime`
-- `perpetrator_violence`
-- `perpetrator_property_crime`
-- `severe_economic_crisis`
-- `serious_health_incident`
-- `major_caregiving`
-- `warfare_impact`
-- `major_achievement`
-- `religious_change`
-- `nonstandard_sexual_history` (premarital, extramarital, sex work, same-sex; female-specific: pregnancy outside marriage, complications, abortion)
+### Phase 4: Post-Launch Content
+- [ ] Blog series:
+  - "How many people have ever lived?"
+  - "How many people have been/done X?" (religious beliefs, ridden an aeroplane, etc.)
+  - Deeper methodology posts
+- [ ] Consider user-generated stories (bring-your-own-API-key or rate-limited hosted)
 
-The system explicitly instructs the LLM to estimate probabilities based on historical base rates without sanitizing.
-
-### Phase 3: Presentation
-- [ ] Cross-story editing pass (review for clichés/repetition)
-- [ ] Methodology write-up
-- [ ] Data visualizations (timeline, map, distributions)
-
-### Phase 4: Extensions
+### Phase 5: Extensions
 - [ ] MC estimation tool ("what fraction of humans were X?")
-- [ ] Additional content (essays, visualizations)
+- [ ] Additional visualizations and analysis
 
 ---
 
@@ -618,7 +633,6 @@ The `CostTracker` class in `llm_utils.py` tracks token usage and costs across pr
 - Cached tokens receive 90% discount (charged at 10% of normal input rate)
 - `print_summary()` shows cache hit rate when caching is active
 
-**Estimated cost per person** (GPT-5.2 with caching, without QC):
-- ~14K input tokens, ~3.7K output tokens per narrative generation
-- With prompt caching: ~$0.04-0.05 per person
-- Full pipeline (demographics + events + narrative): ~$0.10-0.15 per person
+**Estimated cost per person** (GPT-5.2 with caching, full pipeline):
+- ~$0.23 per story (as of January 2026)
+- 100 stories (MVP) ≈ $23

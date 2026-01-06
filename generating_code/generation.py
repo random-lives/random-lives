@@ -547,59 +547,6 @@ ENDING:
 - Avoid: "breathing slowed", "fever rose/burned", "eyes closed", "slipped away", "grew weaker", "stopped breathing"
 """
 
-# -----------------------------------------------------------------------------
-# Quality Control Prompts
-# -----------------------------------------------------------------------------
-
-QC_PROMPT_BASE = """Review this narrative for issues and provide a corrected version.
-
-Person details:
-{person_data}
-
-Original narrative:
-{narrative}
-
-PROSE STYLE:
-- Write actively and directly. State facts plainly and concretely.
-- No figurative language: no metaphors, similes, or personification.
-- No archaic inversions, poetic flourishes, or lines reaching for literary effect.
-- Describe what was there, not what wasn't. Cut negatives that only matter as absences.
-- Do not comment on events or interpret them for the reader.
-
-NARRATOR HEDGING:
-Remove uncertain language: "likely," "probably," "perhaps," "X or Y," "some kind of."
-Replace with specific facts. The narrator knows what happened.
-
-PERSONALITY TRAIT CHECK:
-Verify that extreme personality traits are visible and unvarnished. Negative traits should not be reframed as hidden strengths. Dysfunctional, ineffectual, or difficult people must not be bowdlerized into sympathetic eccentrics.
-
-BANNED PHRASES:
-Remove or replace: "life went on", "work continued", "people remembered", "was known for", "in those days", "as was common", "like so many", "he suffered", "it was not X, it was Y", "breathing slowed", "fever rose/burned", "eyes closed", "slipped away", "grew weaker", "stopped breathing", "no kings ruled"
-
-REWRITING:
-Fix all identified issues while maintaining consistency with person_data.
-
-Return as JSON:
-{{
-    "issues_found": ["list of issues"],
-    "revised_narrative": "the corrected narrative"
-}}"""
-
-QC_CHECKS_ERA = {
-    'Holocene': """
-Check for:
-1. ANACHRONISMS: Things that couldn't exist in this time/place
-2. HISTORICAL IMPOSSIBILITIES: Events, technologies, or social situations that contradict history
-3. CULTURAL CONTRADICTIONS: Behaviors that wouldn't occur in this culture/period
-""",
-    'Paleolithic': """
-Check for:
-1. ANACHRONISMS: Agriculture, metal, pottery before it existed, domesticated animals other than dogs
-2. OVERSPECIFICITY: Claims about beliefs, rituals, or language that we can't know
-3. MECHANICAL DESCRIPTIONS: "with high openness..." style personality descriptions
-"""
-}
-
 SELECTION_TEXT = "The random number generator selected for this person: "
 
 # -----------------------------------------------------------------------------
@@ -1591,35 +1538,6 @@ def generate_narrative(person, ctx, extra_prompt=None):
     ctx.log(f"  Generated {len(person.narrative.split())} words")
 
 
-def quality_check(person, ctx):
-    """
-    Review and revise narrative for issues.
-
-    Modifies person in place.
-    Returns list of issues found.
-    """
-    qc_prompt = QC_CHECKS_ERA[person.era] + QC_PROMPT_BASE.format(
-        person_data=person.to_prompt_string(),
-        narrative=person.narrative
-    )
-
-    ctx.log("Running quality check on narrative...")
-
-    messages = [{"role": "user", "content": qc_prompt}]
-    result, _ = call_with_retry(ctx, messages)
-
-    if result:
-        issues = result.get('issues_found', [])
-        person.narrative = result.get('revised_narrative', person.narrative)
-
-        count = len(issues) if isinstance(issues, list) else sum(len(v) for v in issues.values() if isinstance(v, list))
-        ctx.log(f"  Fixed {count} issues")
-        return issues
-    else:
-        ctx.log("  QC failed, keeping original")
-        return []
-
-
 # =============================================================================
 # MAIN PIPELINE
 # =============================================================================
@@ -1677,9 +1595,6 @@ def run_pipeline(person, model="haiku", quiet=True, show_cost=False):
     ctx.log("\n" + "=" * 50)
     ctx.log("Step 7: Generating narrative...")
     generate_narrative(person, ctx)
-
-    # QC step removed - wasn't adding enough value to justify the cost.
-    # quality_check() is still available if needed for spot-checking.
 
     ctx.finish()
 
