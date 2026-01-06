@@ -1,87 +1,54 @@
-# Narrative Generation Issue Tracker
+# Narrative Review Guide
 
-**Purpose**: Track recurring issues and patterns in generated narratives to inform prompt improvements and manual review.
-
-**Last Review**: Stories 0000-0014 (January 2026)
+**Purpose**: Guide for reviewing generated narratives before publication.
 
 ---
 
 ## Review Process
 
-Manual review in batches of 10-15 stories. For each batch, check:
-1. **AI-slop phrases** - metaphors, meaning-making, banned phrases (see list below)
-2. **Repetitive patterns** - same phrase appearing across multiple stories
-3. **Political/historical vagueness** - claims that could be more specific for the time/place
-4. **Trait visibility** - extreme personality/physical traits should show in action
-5. **Chronicle vs scene** - long lives should dwell on moments, not just list events
-
-Quick grep for worst offenders:
-```bash
-grep -Ei "rhythm of|tapestry|journey|testament to|would prove|little did|shaped by|marked by|cut deeper|filled quickly" _lives/*.md
-```
+Review stories in batches of 10-15. Read each narrative and flag issues in the categories below. Use web search to verify historical/political claims when uncertain.
 
 ---
 
-## Current Issues
+## What to Look For
 
-### High Priority
+### 1. Metaphors and Figurative Language
+The style should be plain, direct prose. Flag and rewrite:
+- Metaphors and similes
+- Poetic or purple prose descriptions
+- Personification of abstractions
 
-**1. Metaphors and figurative language**
-The style guide calls for plain prose, but some metaphors slip through:
-- "the loss cut away a thread that had held him to childhood" (0002-deva)
-- "cut deeper" (0000-zhang-wei) — cliché
-- "dark, wet sheen of birth" (0001-saraswati) — purple prose
-
-**Action**: Flag and rewrite any metaphors, similes, or poetic descriptions.
-
-### Medium Priority
-
-**2. AI-slop phrasing**
-Phrases that feel templated or reach for literary effect:
-- "The house filled quickly" / "filled and emptied quickly" (appears in multiple stories)
-- "X's days settled into a pattern"
-- "Old age tightened around him"
-- "The household reorganized under X's authority"
-- "rhythm of [labor/seasons/life]"
-- "death had shaped the household" — abstract, should be concrete
-
-**Banned phrase patterns:**
-- "rhythm of"
+### 2. AI-Slop Phrases
+Flag templated or meaning-making phrases:
+- "rhythm of [X]"
 - "settled into a pattern"
 - "tightened around"
-- "filled quickly" / "filled and emptied"
-- "cut deeper"
 - "would prove to be"
 - "little did [X] know"
+- "shaped by" / "marked by" / "defined by" (when abstract)
+- Abstract summaries like "death had shaped the household" (should be concrete)
 
-**3. Political vagueness in contested periods**
-Some stories use vague political descriptions when more specificity is possible:
-- 1791 Raichur: "Deccan rulers" could specify Nizam Ali Khan of Hyderabad
-- Some periods (e.g., 975 AD Western Ghats during Rashtrakuta collapse) are appropriately vague
+### 3. Political/Historical Claims
+When a story mentions rulers, political situations, or historical events:
+- If vague (e.g., "local rulers"), check if more specificity is possible for that time/place
+- Some periods are genuinely murky (e.g., political collapses, contested frontiers) - vagueness is fine there
+- Use web search to verify when uncertain
 
-**Action**: Web search to verify whether political specificity is possible for flagged stories.
+### 4. Repetitive Patterns Across Stories
+Watch for the same phrases or structures appearing in multiple stories within a batch. These suggest generation templates leaking through.
 
-### Low Priority
+### 5. Trait Visibility
+For characters with extreme personality traits (below 10th or above 90th percentile) or physical attributes, check that these manifest in concrete actions or descriptions, not just implied.
 
-**4. Physical appearance extremes underutilized**
-Characters with extreme height or attractiveness (≤5th or ≥95th percentile) sometimes lack concrete visible details.
-
-**5. Infant death descriptions may become repetitive**
-Current pattern: born → didn't nurse/breathe → quick death → wrapped → burial. Consider varying the specific cause and timeline.
-
-**6. Chronicle tendency in longer lives**
-Narratives for 60+ year lives sometimes read as event lists. Best moments are when prose lingers on specific scenes.
-
----
-
-## Resolved Issues
-
-(None currently tracked)
+### 6. Chronicle vs Scene (Long Lives)
+Narratives for people who lived 50+ years should dwell on specific moments, not just list events chronologically. Flag if it reads like a timeline rather than a life.
 
 ---
 
-## Stories Reviewed
+## What NOT to Flag
 
-| Batch | Stories | Date | Issues Found |
-|-------|---------|------|--------------|
-| 1 | 0000-0014 | Jan 2026 | Minor: repeated phrases, one metaphor (0002), political vagueness (0001) |
+- Omniscient narrator stating feelings, thoughts, preferences directly ("He liked X", "She hated Y") - this is correct
+- Specific dates - these are generated by the system
+- Named minor characters (midwives, healers, neighbors)
+- Modern geographic terms for reader orientation
+- Detailed scenes showing specific moments
