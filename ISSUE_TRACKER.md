@@ -1,39 +1,76 @@
 # Narrative Generation Issue Tracker
 
-**Purpose**: Track recurring issues and patterns in generated narratives to inform prompt improvements and quality control.
+**Purpose**: Track recurring issues and patterns in generated narratives to inform prompt improvements and manual review.
 
-**Last Review**: Stories 0024-0029 (January 2026)
+**Last Review**: Stories 0000-0014 (January 2026)
+
+---
+
+## Review Process
+
+Manual review in batches of 10-15 stories. For each batch, check:
+1. **AI-slop phrases** - metaphors, meaning-making, banned phrases (see list below)
+2. **Repetitive patterns** - same phrase appearing across multiple stories
+3. **Political/historical vagueness** - claims that could be more specific for the time/place
+4. **Trait visibility** - extreme personality/physical traits should show in action
+5. **Chronicle vs scene** - long lives should dwell on moments, not just list events
+
+Quick grep for worst offenders:
+```bash
+grep -Ei "rhythm of|tapestry|journey|testament to|would prove|little did|shaped by|marked by|cut deeper|filled quickly" _lives/*.md
+```
 
 ---
 
 ## Current Issues
 
+### High Priority
+
+**1. Metaphors and figurative language**
+The style guide calls for plain prose, but some metaphors slip through:
+- "the loss cut away a thread that had held him to childhood" (0002-deva)
+- "cut deeper" (0000-zhang-wei) — cliché
+- "dark, wet sheen of birth" (0001-saraswati) — purple prose
+
+**Action**: Flag and rewrite any metaphors, similes, or poetic descriptions.
+
 ### Medium Priority
 
-**1. AI-slop phrasing**
-Some stories contain phrases that feel templated or reach for literary effect:
-- "Old age tightened around him" (0024) — figurative
-- "The household reorganized under X's authority" — administrative
-- "His mind wandered more after the head injury" — could be shown more concretely
-- "Chronic illness wasted him" — generic
-- "X's days settled into a pattern" type transitions
+**2. AI-slop phrasing**
+Phrases that feel templated or reach for literary effect:
+- "The house filled quickly" / "filled and emptied quickly" (appears in multiple stories)
+- "X's days settled into a pattern"
+- "Old age tightened around him"
+- "The household reorganized under X's authority"
+- "rhythm of [labor/seasons/life]"
+- "death had shaped the household" — abstract, should be concrete
 
-**Candidate banned phrases:**
-- "reorganized under [X's] authority"
-- "tightened around him/her"
+**Banned phrase patterns:**
+- "rhythm of"
 - "settled into a pattern"
-- "the practical meaning for X came in..."
+- "tightened around"
+- "filled quickly" / "filled and emptied"
+- "cut deeper"
+- "would prove to be"
+- "little did [X] know"
+
+**3. Political vagueness in contested periods**
+Some stories use vague political descriptions when more specificity is possible:
+- 1791 Raichur: "Deccan rulers" could specify Nizam Ali Khan of Hyderabad
+- Some periods (e.g., 975 AD Western Ghats during Rashtrakuta collapse) are appropriately vague
+
+**Action**: Web search to verify whether political specificity is possible for flagged stories.
 
 ### Low Priority
 
-**2. Physical appearance extremes underutilized**
-Characters with extreme height or attractiveness percentiles (≤5th or ≥95th) rarely have specific visible details in the narrative. Kumara (1st percentile attractiveness) is mentioned as "mocked for his face/skin" but without concrete description. Peldzom (89th percentile attractiveness) has no visible manifestation.
+**4. Physical appearance extremes underutilized**
+Characters with extreme height or attractiveness (≤5th or ≥95th percentile) sometimes lack concrete visible details.
 
-**3. Infant death descriptions may become repetitive across corpus**
-Current pattern: born → visible issue/didn't nurse → quick death → wrapped → burial. Historically accurate but risks feeling formulaic at scale. Consider varying: stillbirth, fever after days, refused milk, breathing difficulties, etc.
+**5. Infant death descriptions may become repetitive**
+Current pattern: born → didn't nurse/breathe → quick death → wrapped → burial. Consider varying the specific cause and timeline.
 
-**4. Chronicle tendency in longer lives**
-Some narratives for long-lived people (60+ years) read as event lists rather than dwelling on scenes. The strongest moments are when the prose lingers (Peldzom arguing about butter, Pachompsais sorting tools). Consider prompting for 2-3 "dwelling" moments per adult narrative.
+**6. Chronicle tendency in longer lives**
+Narratives for 60+ year lives sometimes read as event lists. Best moments are when prose lingers on specific scenes.
 
 ---
 
@@ -43,11 +80,8 @@ Some narratives for long-lived people (60+ years) read as event lists rather tha
 
 ---
 
-## Notes for Future Reviews
+## Stories Reviewed
 
-When reviewing new batches, check:
-1. Are extreme personality traits (below 10th / above 90th percentile) visible through action?
-2. Are mental disorders demonstrated in behavior?
-3. Any new AI-slop phrases to add to banned list?
-4. For long lives: does the narrative dwell on specific scenes or just list events?
-5. For extreme physical attributes: is there at least one concrete detail?
+| Batch | Stories | Date | Issues Found |
+|-------|---------|------|--------------|
+| 1 | 0000-0014 | Jan 2026 | Minor: repeated phrases, one metaphor (0002), political vagueness (0001) |
