@@ -174,7 +174,7 @@ continent: "Europe"
 # - F
 ---
 
-The village lay on the flat ground between the Sava and the Danube, where Avar power reached into farming settlements and demanded dues through local men who negotiated on behalf of kin groups. Vladislav’s household spoke an early Slavic tongue and kept the older rites: grain set by the hearth for the dead, bread and salt placed at the threshold, and small offerings at a spring beyond the fields.
+The village lay on the flat ground between the Sava and the Danube, where Avar power reached into farming settlements and demanded dues through local men who negotiated on behalf of their families. Vladislav’s household spoke an early Slavic tongue and kept the older rites: grain set by the hearth for the dead, bread and salt placed at the threshold, and small offerings at a spring beyond the fields.
 
 His father, Radogost, worked the cereal plots with other men of the compound and stored sheaves in a shared yard. Milena rose before light to milk and strain, feed pigs with kitchen scraps, and turn curds while an older woman watched the fire. Three sons had been born to them—Milorad in 657, Dragomir in 659, Radovan in 661—and each had died before reaching his first winter. When Milena went into labor again in early November 665, Dobroslava, the senior woman in the household, laid a clean cloth and warmed water, then tied a red thread at the doorpost and set a little bowl of milk by the hearth for the household spirits.
 

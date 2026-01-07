@@ -204,7 +204,7 @@ continent: "Asia"
 # - F
 ---
 
-Temir was born on December 1, 1031, in the high cold forests and open valleys north of Khövsgöl, where Turkic-speaking kin camps moved between hunting grounds and pasture edges. News came in with visitors: Khitan power to the south pressed on alliances and tribute, and men watched for raids and for chances to trade iron and salt.
+Temir was born on December 1, 1031, in the high cold forests and open valleys north of Khövsgöl, where Turkic-speaking families moved between hunting grounds and pasture edges. News came in with visitors: Khitan power to the south pressed on alliances and tribute, and men watched for raids and for chances to trade iron and salt.
 
 His father, Köktemir, kept a mixed life—watching the animals, cutting poles, setting snares, and going out with Kendir to hunt. Temir stayed near camp with his mother, Ögül, who assisted births, treated sickness, and kept the small rites in order. She fed the hearth fire with pinches of fat and drops of milk, and tied narrow strips of cloth to a branch near a stony rise where the camp greeted the local master-spirit. Temir learned the sequence without being taught twice. He pointed when something was out of place and waited until Ögül nodded before he moved.
 
@@ -212,4 +212,4 @@ Two children had already died: Aylun at three, and the boy Kuchuk in the days of
 
 In the winter of his fourth year, a hard sickness took him. He lay quiet, sweating under felt while Ögül steamed him with hot stones and herbs and asked Bögüchi to beat a drum and call back his strength. After weeks he walked again, thin and steady, following instructions without fuss.
 
-On July 3, 1038, during summer camp work near water, Temir went onto slick shore-ice to fetch something that had drifted close. He fell, struck hard, and was hauled out shocked and still. Ögül washed him, combed his hair, and his kin wrapped him in felt and set him on a hillside away from the water, with a small strip of cloth tied to a nearby branch and a morsel of fat placed by the bundle.
+On July 3, 1038, during summer camp work near a river, Temir climbed onto wet rocks at the water's edge to fetch a wooden bowl that had drifted close. He slipped, fell into the current, and was hauled out cold and still. Ögül washed him, combed his hair, and his family wrapped him in felt and set him on a hillside away from the water, with a small strip of cloth tied to a nearby branch and a morsel of fat placed by the bundle.

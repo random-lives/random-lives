@@ -314,7 +314,7 @@ His father, Aondohemba, traded on market days, moving yams, rice, and small hous
 
 When school began to matter, Ioryina turned it into a set of rules. Before dawn he swept the yard corners until the dirt lines looked straight, then packed his books the same way each day. If a younger child spilled water, he snapped instructions and made them wipe it again. At school Mr. Ikyur put him in front to collect exercise books because he counted twice and never “forgot” change from errands. He copied words carefully, reading better than he wrote; spelling took him three tries, and he stayed to practice.
 
-During the COVID closures in 2020, he sat on a low bench and repeated lessons aloud while Shior cried on a mat nearby. The rains shifted in later years, and planting dates argued about in the evenings.
+When he started school in 2022, he found that routines suited him. The rains shifted in those years, and adults argued about planting dates in the evenings.
 
 One evening in August 2023, after Aondohemba returned from market, the family discovered his phone and some cash missing from the room where he kept trading money. Mama Aker at the market warned Mker to stop leaving money where visitors could see it. Aondohemba began locking the door and storing cash inside a tin placed under grain sacks.
 
