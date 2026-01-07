@@ -134,10 +134,10 @@ continent: "Europe"
 # - M
 ---
 
-Nadiia was born on July 13, 1920, in Antoniv village in the Kyiv region, on land newly folded into the Ukrainian Soviet republic after years of war and upheaval. Her family spoke Ukrainian at home and lived as middle peasants, farming their own strips with a cow, poultry, and a kitchen garden. Prayer stayed mostly inside the house. In the main room, Marfa, her paternal grandmother, kept an icon corner with a small lamp; she crossed herself before it and taught Kateryna, Nadiia’s mother, to do the same quietly.
+Nadiia was born on July 13, 1920, in Antoniv village in the Kyiv region, on land newly folded into the Ukrainian Soviet republic after years of war and upheaval. Her family spoke Ukrainian at home and lived as middle peasants, farming their own strips with a cow, poultry, and a kitchen garden. They kept their faith quiet. In the main room, Marfa, her paternal grandmother, maintained an icon corner with a small lamp; she crossed herself before it and taught Kateryna, Nadiia's mother, to do the same without drawing attention.
 
 The household held three generations. Hryhorii, Nadiia’s father, left early with his own father Andrii to check the animals and walk to the fields. The women baked rye bread, hauled water, scrubbed cloth, and watched the children. Nadiia grew up between the stove bench and the yard. She learned words quickly and copied gestures: a hand to the forehead before meals, fingers touching an icon’s frame, a head turned when adults spoke.
 
 Kateryna had lost her first baby, Mykola, in 1918. She counted Nadiia’s health daily, checking her throat and listening for cough. In 1922 Kateryna delivered a son, Petro, and Nadiia became the child who handed rags for diapers and tried to quiet him when he cried. Another boy, Ivan, was born in 1924 and died the same year; after that, Marfa kept the icon lamp lit longer at night.
 
-In early March 1925 measles spread through nearby houses. Nadiia broke out in rash, then developed chest trouble and high heat. She died on March 16, 1925. The family washed her body, dressed her in a clean shirt, and set her before the icons until burial in the village cemetery after prayers.
+In early March 1925 measles spread through nearby houses. Nadiia broke out in rash, then developed chest trouble and high fever. She died on March 16, 1925. The family washed her body, dressed her in a clean shirt, and set her before the icons until burial in the village cemetery after prayers.
