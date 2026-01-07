@@ -365,7 +365,7 @@ continent: "Europe"
 #   type: religious_change
 ---
 
-Mikhail Alekseyevich was born on January 11, 1862 in Davydkovo on the western edge of Moscow province, in the Russian Empire under Alexander II. His family were Great Russians, spoke Russian at home, and lived by Orthodox rhythms: an icon corner with a lamp, crossing themselves before eating, and the long singsong of Church Slavonic heard in church on feast days.
+Mikhail Alekseyevich was born on January 11, 1862 in Davydkovo on the western edge of Moscow province, in the Russian Empire under Alexander II. His family belonged to the Great Russian community, spoke Russian at home, and lived by Orthodox rhythms: an icon corner with a lamp, crossing themselves before eating, and the long singsong of Church Slavonic heard in church on feast days.
 
 His father, Aleksey, worked for wages in a factory and came home with soot on his sleeves and the smell of oil in his hair. His mother, Darya, kept the stove going, patched clothing, salted cabbage, and watched the children. Mikhail was the third of five. Ivan, born in 1858, took on the authority of an eldest even when he was still a boy; he grabbed Mikhail’s collar when he got bold and told him to shut his mouth in front of adults. Petr, born in 1860, stayed closer to Mikhail in everything—games, chores, and later in the city the same streets and the same kind of work. Anna followed in 1864, quick to cry and quick to laugh; she clung to their mother and took offense at Mikhail’s mocking. Sergey came in 1866 and grew up watching the older boys test each other and then deny they cared.
 

@@ -28,11 +28,14 @@ The reader should be able to follow the narrative without confusion. Flag:
 - Relationships not established before they matter (e.g., grandma's closeness to child should be shown before her death scene)
 - Birth order unclear when relevant
 - Household arrangements not explained (who lives where, why)
+- Family members mentioned mid-narrative without earlier establishment (e.g., "His brother Yusuf" appearing without prior mention)
 
 **Logical gaps**
 - Unexplained transitions ("The household tried again" — what does this mean?)
 - Cause and effect not connected ("apologized afterward" — for what exactly?)
 - Events mentioned without showing how they were discovered or resolved
+- Random topic shifts within paragraphs (e.g., transitioning from managing household to herb paste preferences without connection)
+- Unclear information delivery (e.g., deaths years apart but ambiguous whether news was received separately or together)
 
 **Vague references**
 - Phrases like "the settled side" or "service caste duties" that assume reader knowledge
@@ -48,17 +51,19 @@ The reader should be able to follow the narrative without confusion. Flag:
 **Unnecessary repetition of time markers**
 - Starting and ending a paragraph with the same date/month
 - Example: "In July of 1005... He died on July 24" — redundant
+- Too many year numbers clustered together, making narrative feel chronology-heavy
 
 **Character introductions out of order**
 - Mentioning someone in passing before properly introducing them
 - Example: "her small son Isidro—born that same year" appearing mid-action scene
 
-### 3. Anachronisms
+### 3. Anachronisms (HIGH PRIORITY)
 
 Flag items that didn't exist in the time/place:
 - Foods (chilies in 10th century India — they're from the Americas)
 - Technologies
 - Political terms or structures
+- **Future events/people**: References to events, people, or developments that occurred after the character's death (MAJOR ISSUE - narratives must end at character's death)
 - When uncertain, use web search to verify
 
 ### 4. Stylistic Issues
@@ -70,6 +75,7 @@ Flag items that didn't exist in the time/place:
 **Paragraphs that don't flow**
 - Multiple unrelated topics crammed together
 - Second half feels "tacked on" to first half
+- Abrupt interludes that break narrative flow (e.g., literacy mentioned mid-childbearing discussion)
 
 **Artificial patterns**
 - All names following the same phonetic structure (all CVCV, all two syllables)
@@ -103,6 +109,10 @@ When a story mentions rulers, political situations, or historical events:
 ### 8. Repetitive Patterns Across Stories
 
 Watch for the same phrases or structures appearing in multiple stories within a batch. These suggest generation templates leaking through.
+
+**LLM checklist feeling**
+- Stories that feel stilted, like the LLM was trying to tick off items from a checklist
+- Mechanical inclusion of details without smooth integration into narrative flow
 
 ### 9. Trait Visibility
 
