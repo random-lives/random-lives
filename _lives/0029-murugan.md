@@ -1,6 +1,6 @@
 ---
 layout: life
-title: "Rajkumar"
+title: "Murugan"
 birth_year: "1985 AD"
 birth_year_numeric: 1985
 death_year: "present"
@@ -53,7 +53,7 @@ continent: "Asia"
 # Honesty-Humility (% rank): 21
 # Intelligence (% rank): 3
 # Lifestyle: Rural
-# Name: Rajkumar
+# Name: Murugan
 # Naming category: attested
 # Neuroticism (% rank): 58
 # Openness (% rank): 83
@@ -115,11 +115,11 @@ continent: "Asia"
 #     narrative_role: Casual manual laborer who kept the household afloat; emotionally
 #       blunt and often absent for work. Relationship is duty-based and strained by
 #       money and the son’s unreliability, but they remain tied by obligation; later
-#       he becomes dependent on Rajkumar for care.
+#       he becomes dependent on Murugan for care.
 #     role: father
 #   - death_year: 1985
 #     name: Ponni
-#     narrative_role: Died in or shortly after Rajkumar’s birth; her absence shapes
+#     narrative_role: Died in or shortly after Murugan’s birth; her absence shapes
 #       the household—more neglect, less supervision, and a persistent sense that he
 #       was 'born into loss.'
 #     role: mother
@@ -135,14 +135,14 @@ continent: "Asia"
 #     death_year: null
 #     name: Arun
 #     narrative_role: Older son who remembers his mother; becomes quietly responsible
-#       early, sometimes acting as a check on Rajkumar’s drinking and spending.
+#       early, sometimes acting as a check on Murugan’s drinking and spending.
 #     sex: M
 #   - birth_year: 2016
 #     death_age: null
 #     death_year: null
 #     name: Karthik
 #     narrative_role: Younger son; experiences his mother’s illness and death mostly
-#       as disruption. Needs steadiness and routine that Rajkumar struggles to provide,
+#       as disruption. Needs steadiness and routine that Murugan struggles to provide,
 #       increasing reliance on the sister’s household.
 #     sex: M
 #   incident_placements:
@@ -206,12 +206,12 @@ continent: "Asia"
 #     key_events:
 #     - '2015–2017: Flood disruptions and demonetization destabilize cash wages; periods
 #       of irregular work; drinking escalates and petty theft begins.'
-#     - '2018: Lakshmi’s prolonged illness culminates in death; Rajkumar becomes widower
+#     - '2018: Lakshmi’s prolonged illness culminates in death; Murugan becomes widower
 #       with two young boys.'
 #     - '2018–2020: Severe debt cycle; COVID compounds job loss and repayment stress;
 #       housing downgraded, assets pawned.'
 #     - '2021: Serious loading-bay accident limits heavy work for months.'
-#     - '2022–2024: Father develops disabling complications; Rajkumar juggles wage labor,
+#     - '2022–2024: Father develops disabling complications; Murugan juggles wage labor,
 #       children, and elder care with help from Meena.'
 #     phase: Mid-adulthood (economic shocks, illness, widowhood, debt, injury, caregiving)
 #   other_named_characters:
@@ -369,34 +369,34 @@ continent: "Asia"
 #   type: premarital_sex
 ---
 
-Rajkumar was born on December 15, 1985, in Kattangulathur, on the flat coastal plain south of Madras, in the Indian state of Tamil Nadu. The area sat under India’s Congress-led central governments and Tamil Nadu’s shifting state politics, but the things that reached his street were concrete: ration rice, school uniforms, day-wage rates, and the rules of caste and reputation. His family spoke Tamil at home, with Rajkumar picking up a little Hindi later from men who came down for work. The house kept a small corner shrine: a framed picture of Mariamman and a cheap brass lamp, with flowers when they had them. The big religious days were the village temple festival and the nights of drumming and procession, when men tied red cloth to their wrists and promised offerings if a sickness lifted.
+Murugan was born on December 15, 1985, in Kattangulathur, on the flat coastal plain south of Madras, in the Indian state of Tamil Nadu. The area sat under India’s Congress-led central governments and Tamil Nadu’s shifting state politics, but the things that reached his street were concrete: ration rice, school uniforms, day-wage rates, and the rules of caste and reputation. His family spoke Tamil at home, with Murugan picking up a little Hindi later from men who came down for work. The house kept a small corner shrine: a framed picture of Mariamman and a cheap brass lamp, with flowers when they had them. The big religious days were the village temple festival and the nights of drumming and procession, when men tied red cloth to their wrists and promised offerings if a sickness lifted.
 
-His mother, Ponni, died in the hours after childbirth. Everyone in the family knew the date. His father, Rangan, went back to labor quickly, because there was no choice. Meena, his older sister, was three years older and old enough to remember the smell of the boiled water and the women talking in the courtyard. When Rajkumar was small she fed him rice mashed with watery sambar and carried him on her hip while she tried to keep her own school attendance. Their maternal aunt Sellammal, who lived nearby, arrived often in the first years, bringing idlis wrapped in cloth, checking if the kerosene was finished, and telling Rangan when the children needed notebooks.
+His mother, Ponni, died in the hours after childbirth. The story sat in the family like a fixed date. His father, Rangan, went back to labor quickly, because there was no choice. Meena, his older sister, was three years older and old enough to remember the smell of the boiled water and the women talking in the courtyard. When Murugan was small she fed him rice mashed with watery sambar and carried him on her hip while she tried to keep her own school attendance. Their maternal aunt Sellammal, who lived nearby, arrived often in the first years, bringing idlis wrapped in cloth, checking if the kerosene was finished, and telling Rangan when the children needed notebooks.
 
-Rajkumar grew up small for his age, all collarbones and thin arms. At the government primary school he learned to write his name and to read short Tamil sentences, but he couldn’t keep up when the lessons piled up into steps. Teachers sent notes home; he lost them. He forgot to bring slates and pencils. When asked to copy a paragraph, he copied the first line again and again without noticing. At home, Meena would slap his hand away from the lamp if he played with it, then sit him down and point at letters until she had to run to fetch water. Rangan did not talk much. When he was angry, he used his hand.
+Murugan grew up small for his age, all collarbones and thin arms. At the government primary school he learned to write his name and to read short Tamil sentences, but he couldn’t keep up when the lessons piled up into steps. Teachers sent notes home; he lost them. He forgot to bring slates and pencils. When asked to copy a paragraph, he copied the first line again and again without noticing. At home, Meena would slap his hand away from the lamp if he played with it, then sit him down and point at letters until she had to run to fetch water. Rangan did not talk much. When he was angry, he used his hand.
 
-By the time Rajkumar was twelve he spent more days running errands than studying. He carried tea in steel tumblers to men sitting under a neem tree, fetched cigarettes, and learned which shopkeeper would give a packet of biscuits on credit. He liked the noise of the road and the talk around the tea stall. He listened hard when men argued about film songs and cricket, and he remembered lines even when he couldn’t remember instructions. He avoided anything that required reading. If a bus destination board confused him, he followed someone else.
+By the time Murugan was twelve he spent more days running errands than studying. He carried tea in steel tumblers to men sitting under a neem tree, fetched cigarettes, and learned which shopkeeper would give a packet of biscuits on credit. He liked the noise of the road and the talk around the tea stall. He listened hard when men argued about film songs and cricket, and he remembered lines even when he couldn’t remember instructions. He avoided anything that required reading. If a bus destination board confused him, he followed someone else.
 
 In his mid-teens he started going with older boys to drink, first cheap brandy in plastic cups behind a wall, then more openly at a liquor shop. He became loose-tongued after a few drinks, quick to laugh and then quick to pick at someone’s words. When sober he stayed quiet, watching, letting others talk. Meena complained to their aunt; their aunt complained to Rangan; Rangan shouted and then left for work before the anger could settle into anything lasting.
 
-At eighteen Rajkumar moved into the commuting life that spread with the growing Chennai corridor after the 1990s. He got day work as a helper and then as a loader in godown areas around Chengalpattu and nearer the city, lifting sacks of rice, bundles of cardboard, and crates of soft drinks. The pay arrived in cash, sometimes late. He learned the routine: morning tea, the first lorry arrivals, the arguments over whose turn it was to lift, the evening queues for cheap food. When the 2004 tsunami hit the coast, it didn’t sweep through his inland room, but it shook the labor market. For months there were men talking about relief work and rebuilding, and trucks moved in odd patterns.
+At eighteen Murugan moved into the commuting life that spread with the growing Chennai corridor after the 1990s. He got day work as a helper and then as a loader in godown areas around Chengalpattu and nearer the city, lifting sacks of rice, bundles of cardboard, and crates of soft drinks. The pay arrived in cash, sometimes late. He learned the rhythm of morning tea, the first lorry arrivals, the arguments over whose turn it was to lift, and the evening queues for cheap food. When the 2004 tsunami hit the coast, it didn’t sweep through his inland room, but it shook the labor market. For months there were men talking about relief work and rebuilding, and trucks moved in odd patterns.
 
-He liked sitting on a low wall outside the godown after shifts, eating parotta with salna, watching buses and scooters go by. Shankar, a coworker who slept in the same shared room at times, made him laugh by imitating supervisors and film comedians. Rajkumar laughed hard when he was in the mood. He also got irritated fast. If Shankar teased him too long, Rajkumar would snap and walk away.
+He liked sitting on a low wall outside the godown after shifts, eating parotta with salna, watching buses and scooters go by. Shankar, a coworker who slept in the same shared room at times, made him laugh by imitating supervisors and film comedians. Murugan laughed hard when he was in the mood. He also got irritated fast. If Shankar teased him too long, Murugan would snap and walk away.
 
-At twenty-two, in 2007, he began a brief relationship with a young woman he met near his commuting route. They met in the evenings away from family eyes, spoke quietly, and had sex more than once. He never brought her to the village. When her family started asking questions, she ended it. Rajkumar didn’t fight it; he disappeared into extra shifts and drink.
+At twenty-two, in 2007, he began a brief relationship with a young woman he met near his commuting route. They met in the evenings away from family eyes, spoke quietly, and had sex more than once. He never brought her to the village. When her family started asking questions, she ended it. Murugan didn’t fight it; he disappeared into extra shifts and drink.
 
-The 2008–2009 slowdown cut into wages. Work became patchy, and the men around him argued more. Rajkumar could not follow the big economic talk, but he understood when wages came late and meals got smaller. In 2011 he married Lakshmi, from a nearby community. They set up in a rented room close to the labor areas, with a single fan and a steel trunk. Lakshmi kept the floor clean, kept a little shrine with a lemon and turmeric for protection, and took him to the Mariamman temple during the annual festival. He carried a pot of milk once as a vow, walking barefoot for part of the procession.
+The 2008–2009 slowdown tightened everything. Work became patchy, and the men around him argued more. Murugan could not follow the big economic talk, but he understood when wages came late and meals got smaller. In 2011 he married Lakshmi, from a nearby community. They set up in a rented room close to the labor areas, with a single fan and a steel trunk. Lakshmi kept the floor clean, kept a little shrine with a lemon and turmeric for protection, and took him to the Mariamman temple during the annual festival. He carried a pot of milk once as a vow, walking barefoot for part of the procession.
 
-Their first son, Arun, was born in 2013. Rajkumar felt satisfaction bringing home sweets for the naming and standing with the baby in the temple crowd while drums beat. He didn’t change diapers much. He did take the child outside in the evenings, bouncing him while eating roasted peanuts. A year later, in 2014, someone stole his phone and a small bundle of that week’s wages from his bag while he slept in a shared room near the godown. He cursed, shouted at the men around him, and then went quiet. He didn’t go to the police station. He borrowed money, bought a cheap replacement phone, and pretended he hadn’t been scared.
+Their first son, Arun, was born in 2013. Murugan felt satisfaction bringing home sweets for the naming and standing with the baby in the temple crowd while drums beat. He didn’t change diapers much. He did take the child outside in the evenings, bouncing him while eating roasted peanuts. A year later, in 2014, someone stole his phone and a small bundle of that week’s wages from his bag while he slept in a shared room near the godown. He cursed, shouted at the men around him, and then went quiet. He didn’t go to the police station. He borrowed money, bought a cheap replacement phone, and pretended he hadn’t been scared.
 
-Heavy rain and the Chennai floods disrupted work in late 2015. Roads flooded, lorries stopped, and the places he depended on shut for days. Lakshmi was pregnant again and tired. Their second son, Karthik, was born in 2016. That year demonetization hit cash work hard. Rajkumar stood in bank lines he didn’t understand, holding notes that suddenly felt useless, watching men argue with guards. Work resumed, but payments got messier.
+Heavy rain and the Chennai floods disrupted work in late 2015. Roads flooded, lorries stopped, and the places he depended on shut for days. Lakshmi was pregnant again and tired. Their second son, Karthik, was born in 2016. That year demonetization hit cash work hard. Murugan stood in bank lines he didn’t understand, holding notes that suddenly felt useless, watching men argue with guards. Work resumed, but payments got messier.
 
-His drinking increased. He would promise Lakshmi he would come home early and then show up late, smelling of liquor, irritated if she asked about money. Shankar introduced him to Babu, a man who bought “extra” goods for cash. In 2016 and 2017, when wages were irregular and Rajkumar wanted money for drink and small pleasures, he took small items from the loading area—packaged goods that could be carried out without much notice—and sold them. It wasn’t one big theft; it was bits over weeks. When Mari, a supervisor, warned the workers about thefts and said the police would be called next time, Rajkumar stopped. He blamed others when Meena heard rumors and challenged him.
+His drinking increased. He would promise Lakshmi he would come home early and then show up late, smelling of liquor, irritated if she asked about money. Shankar introduced him to Babu, a man who bought “extra” goods for cash. In 2016 and 2017, when wages were irregular and Murugan wanted money for drink and small pleasures, he took small items from the loading area—packaged goods that could be carried out without much notice—and sold them. It wasn’t one big theft; it was bits over weeks. When Mari, a supervisor, warned the workers about thefts and said the police would be called next time, Murugan stopped. He blamed others when Meena heard rumors and challenged him.
 
-Lakshmi fell ill in 2017 and worsened through 2018. The household spent on clinic visits and medicines, and Rajkumar kept losing days to hangovers. Lakshmi died in 2018. The funeral costs landed hard. Rajkumar borrowed from coworkers and then from a local moneylender. Interest piled up quickly. From 2018 into 2020 he lived inside repayments: shifting to cheaper rooms, pawning small items, making excuses. When COVID-19 lockdowns began in 2020, day work collapsed. He couldn’t keep up with debt, and he argued with lenders at his door while his sons watched.
+Lakshmi fell ill in 2017 and worsened through the next year. The household spent on clinic visits and medicines, and Murugan kept losing days to hangovers. She died in 2018. The funeral costs landed hard. Murugan borrowed from coworkers and then from a local moneylender. Interest piled up quickly. He lived inside repayments: shifting to cheaper rooms, pawning small items, making excuses. When COVID-19 lockdowns began, day work collapsed. He couldn't keep up with debt, and he argued with lenders at his door while his sons watched.
 
 In 2021, back at the loading bay, a shifting load pinned his lower leg and ankle against the platform edge. Pain came sharp and immediate. He spent weeks limping between his room and a government hospital, waiting in lines with a paper file clutched in his hand. The injury healed slowly and left him with lingering pain that limited the heaviest lifting. He drank to sleep.
 
-His father, Rangan, grew weaker in 2022, with diabetic complications and a stroke-like weakness that made him unsteady. Rajkumar became the one arranging clinic visits, buying tablets, helping with bathing and meals. Without Lakshmi, the childcare leaned more on Meena and a neighbor named Selvi who watched the boys sometimes and reported everything to everyone. Rajkumar hated the gossip, but he accepted the help. Arun, serious for his age, learned to heat leftovers and keep his brother from wandering.
+His father, Rangan, grew weaker in 2022, with diabetic complications and a stroke-like weakness that made him unsteady. Murugan became the one arranging clinic visits, buying tablets, helping with bathing and meals. Without Lakshmi, the childcare leaned more on Meena and a neighbor named Selvi who watched the boys sometimes and reported everything to everyone. Murugan hated the gossip, but he accepted the help. Arun, serious for his age, learned to heat leftovers and keep his brother from wandering.
 
-By late 2025 Rajkumar lives between work and obligations. He takes whatever loading jobs he can get, avoiding paperwork and letting others read notices and calculate. Some evenings he goes to the temple with a small offering—flowers and a coconut—more out of habit than calm. He still drinks, though he has stretches where he stays sober for a week, especially when his father’s condition worsens. He sits outside at dusk with tea, listening to other men’s talk, and then goes back to the room where his two sons do schoolwork on the floor while he counts crumpled notes and tries to plan the next day.
+By late 2025 Murugan lives between work and obligations. He takes whatever loading jobs he can get, avoiding paperwork and letting others read notices and calculate. Some evenings he goes to the temple with a small offering—flowers and a coconut—more out of habit than calm. He still drinks, though he has stretches where he stays sober for a week, especially when his father’s condition worsens. He sits outside at dusk with tea, listening to other men’s talk, and then goes back to the room where his two sons do schoolwork on the floor while he counts crumpled notes and tries to plan the next day.

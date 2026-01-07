@@ -67,14 +67,14 @@ continent: "Asia"
 # narrative_plan:
 #   caretakers:
 #   - death_year: 1322
-#     name: Madhavan
+#     name: Kannan
 #     narrative_role: 'Agricultural wage laborer; present at the time of birth but limited
 #       by work demands. Relationship quality: steady and protective in intent, often
 #       exhausted and anxious after repeated infant losses; channeled grief into temple
 #       offerings and practical efforts to keep the household fed.'
 #     role: father
 #   - death_year: 1338
-#     name: Devaki
+#     name: Ponna
 #     narrative_role: 'Household manager and frequent field laborer. Relationship quality:
 #       intensely attentive during births and early infancy, carrying the emotional
 #       weight of repeated losses; after the protagonist''s death she would have been
@@ -96,7 +96,7 @@ continent: "Asia"
 #   - birth_year: 1292
 #     death_age: 0
 #     death_year: 1292
-#     name: Kalyani
+#     name: Chelli
 #     narrative_role: Firstborn daughter who died in infancy; remembered only through
 #       the parents' grief and as a quiet shadow over later births, making the household
 #       anxious and watchful around newborns.
@@ -112,7 +112,7 @@ continent: "Asia"
 #   - birth_year: 1296
 #     death_age: 49
 #     death_year: 1345
-#     name: Parvathi
+#     name: Podi
 #     narrative_role: Only sibling to reach adulthood. Grew up hearing fragmentary family
 #       memory of the infants who died before and after her; later became the keeper
 #       of household stories and the one who performed remembrance rites when parents
@@ -121,7 +121,7 @@ continent: "Asia"
 #   - birth_year: 1299
 #     death_age: 0
 #     death_year: 1299
-#     name: Raman
+#     name: Muthu
 #     narrative_role: Last-born son who also died in infancy; reinforced the sense in
 #       the household that male infants were especially vulnerable, prompting further
 #       temple petitions and protective rituals around future pregnancies (even if no
@@ -143,8 +143,8 @@ continent: "Asia"
 
 Devan was born on 15 December 1294 in a small hamlet near Chalakkudy in the wet lowlands of the Malabar Coast. Local chiefs and temple estates governed the area through landlords and overseers. His family spoke Malayalam at home and heard Sanskrit mantras in the temple courtyard during festivals. They belonged to a low-status Hindu laboring caste tied to fieldwork and temple-centered village life.
 
-His father, Madhavan, hired out by the day, cutting bunds and transplanting seedlings in flooded plots when the rains allowed. His mother, Devaki, worked beside him at harvest and carried home sheaves to thresh, then cooked rice gruel over a clay hearth. Their first child, Kalyani, had been born two years earlier and died before she took to breast well; Devaki kept a small lamp for Bhagavati on a shelf and fed it oil on Fridays.
+His father, Kannan, hired out by the day, cutting bunds and transplanting seedlings in flooded plots when the rains allowed. His mother, Ponna, worked beside him at harvest and carried home sheaves to thresh, then cooked rice gruel over a clay hearth. Their first child, Chelli, had been born two years earlier and died before she took to breast well; Ponna kept a small lamp for Bhagavati on a shelf and fed it oil on Fridays.
 
-The midwife Ammu came when Devaki’s pains tightened. A neighbor fetched hot water; Madhavan waited outside, then paid Ammu with a measure of rice. Devan arrived with a visible malformation and did not take milk. Before dawn Madhavan walked to the nearby temple and set a coconut, plantains, and a little jaggery before the shrine while the priest Kunjan recited.
+The midwife Ammu came when Ponna’s pains tightened. A neighbor fetched hot water; Kannan waited outside, then paid Ammu with a measure of rice. Devan arrived with a visible malformation and did not take milk. Before dawn Kannan walked to the nearby temple and set a coconut, plantains, and a little jaggery before the shrine while the priest Kunjan recited.
 
 Devan died on 16 December 1294. Ammu washed the body, and the family wrapped him in clean cloth and carried him to a quiet spot at the edge of the compound to bury him, placing a few grains of rice beside him and lighting a small wick-lamp.

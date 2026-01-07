@@ -1,6 +1,6 @@
 ---
 layout: life
-title: "Abigail"
+title: "Hadiya"
 birth_year: "748 BC"
 birth_year_numeric: -747
 death_year: "674 BC"
@@ -55,7 +55,7 @@ continent: "Asia"
 # Honesty-Humility (% rank): 33
 # Intelligence (% rank): 25
 # Lifestyle: Rural
-# Name: Abigail
+# Name: Hadiya
 # Naming category: attested
 # Neuroticism (% rank): 83
 # Openness (% rank): 53
@@ -124,25 +124,25 @@ continent: "Asia"
 #   - death_year: -700
 #     name: Gadday
 #     narrative_role: Mixed farmer-herder; generally steady but endorses harsh discipline
-#       during crisis years; dies when Abigail is an established adult, prompting shifts
+#       during crisis years; dies when Hadiya is an established adult, prompting shifts
 #       in household authority.
 #     role: father
 #   - death_year: -690
 #     name: Rimta
 #     narrative_role: Core domestic manager; after multiple infant losses becomes anxious
-#       and punitive, especially with Abigail (ages 6–10), then softens once grandchildren
+#       and punitive, especially with Hadiya (ages 6–10), then softens once grandchildren
 #       arrive.
 #     role: mother
 #   - death_year: -720
 #     name: Yatna
-#     narrative_role: Compound patriarch in Abigail’s early years; enforces obligations
+#     narrative_role: Compound patriarch in Hadiya’s early years; enforces obligations
 #       and work discipline; his death loosens some control and changes inheritance
 #       expectations.
 #     role: paternal grandfather (co-resident elder)
 #   - death_year: -710
 #     name: Ninsun
 #     narrative_role: Women’s work organizer and ritual memory-keeper; sometimes shields
-#       Abigail from her mother’s temper by assigning her to spinning/weaving beside
+#       Hadiya from her mother’s temper by assigning her to spinning/weaving beside
 #       her.
 #     role: paternal grandmother (co-resident elder)
 #   children:
@@ -150,7 +150,7 @@ continent: "Asia"
 #     death_age: 9
 #     death_year: -722
 #     name: Mika
-#     narrative_role: First child; bright and helpful, her death is Abigail’s first
+#     narrative_role: First child; bright and helpful, her death is Hadiya’s first
 #       major maternal grief and shapes her later protectiveness toward younger children.
 #     sex: F
 #   - birth_year: -729
@@ -165,15 +165,15 @@ continent: "Asia"
 #     death_age: 52
 #     death_year: -675
 #     name: Nariah
-#     narrative_role: Capable daughter tied closely to Abigail’s textile work; becomes
+#     narrative_role: Capable daughter tied closely to Hadiya’s textile work; becomes
 #       an adult partner in production and household negotiations; dies shortly before/around
-#       Abigail’s final year.
+#       Hadiya’s final year.
 #     sex: F
 #   - birth_year: -725
 #     death_age: 0
 #     death_year: -725
 #     name: Samu
-#     narrative_role: Infant loss during early childbearing years; heightens Abigail’s
+#     narrative_role: Infant loss during early childbearing years; heightens Hadiya’s
 #       fear around births and offerings.
 #     sex: M
 #   - birth_year: -723
@@ -181,20 +181,20 @@ continent: "Asia"
 #     death_year: -723
 #     name: Illa
 #     narrative_role: Second infant loss; remembered in brief rituals and as a source
-#       of tension between Abigail and older women who judge maternal care.
+#       of tension between Hadiya and older women who judge maternal care.
 #     sex: F
 #   - birth_year: -721
 #     death_age: 7
 #     death_year: -714
 #     name: Padi
 #     narrative_role: Son who dies in childhood illness; his death marks the end of
-#       a cluster of losses and changes how Abigail bonds with subsequent babies.
+#       a cluster of losses and changes how Hadiya bonds with subsequent babies.
 #     sex: M
 #   - birth_year: -719
 #     death_age: 1
 #     death_year: -718
 #     name: Tala
-#     narrative_role: Dies in infancy; becomes part of Abigail’s private tally of ‘names
+#     narrative_role: Dies in infancy; becomes part of Hadiya’s private tally of ‘names
 #       the hearth remembers,’ influencing later caregiving toward other children in
 #       the compound.
 #     sex: F
@@ -203,7 +203,7 @@ continent: "Asia"
 #     death_year: -672
 #     name: Raqa
 #     narrative_role: Youngest and longest-lived daughter; likely remains closely tied
-#       to the compound; becomes Abigail’s principal helper in old age and a key emotional
+#       to the compound; becomes Hadiya’s principal helper in old age and a key emotional
 #       bond.
 #     sex: F
 #   incident_placements:
@@ -214,7 +214,7 @@ continent: "Asia"
 #     incident: childhood_abuse
 #   - age: 27
 #     connection: During harvest coordination when women’s textile goods and grain stores
-#       are in flux; reinforces Abigail’s later cautiousness and community gossip management.
+#       are in flux; reinforces Hadiya’s later cautiousness and community gossip management.
 #     incident: victim_property_crime
 #   - age: 34
 #     connection: Triggered by poor rains + dues; directly pressures household exchange
@@ -240,7 +240,7 @@ continent: "Asia"
 #       while being trained for textile work.
 #     - Imperial troop movements and requisition seasons create heightened vigilance
 #       in the village; family hides surplus or rearranges stores.
-#     - Older sister Hamut dies at 17 when Abigail is ~? (Abigail age 15), marking a
+#     - Older sister Hamut dies at 17 when Hadiya is ~? (Hadiya age 15), marking a
 #       transition into adult expectations and marriageability.
 #     phase: Later childhood and adolescence
 #   - age_range: 16-45
@@ -280,7 +280,7 @@ continent: "Asia"
 #       seasons
 #   partners:
 #   - name: Hanan
-#     narrative_role: Husband from the same village network; marriage begins when Abigail
+#     narrative_role: Husband from the same village network; marriage begins when Hadiya
 #       is ~15. Relationship is functional and mostly stable, with periodic conflict
 #       around scarcity years and household reputation; he survives her.
 #     relationship_end_year: -674
@@ -290,7 +290,7 @@ continent: "Asia"
 #     death_age: 45
 #     death_year: -706
 #     name: Narya
-#     narrative_role: Eldest sister who helped parent the younger children; Abigail
+#     narrative_role: Eldest sister who helped parent the younger children; Hadiya
 #       experiences her as both a protector and a rival for approval in the compound.
 #     sex: F
 #   - birth_year: -749
@@ -311,7 +311,7 @@ continent: "Asia"
 #   - birth_year: -747
 #     death_age: 73
 #     death_year: -674
-#     name: Abigail
+#     name: Hadiya
 #     narrative_role: Protagonist; a sociable, talkative weaver with a vigilant, worry-prone
 #       temperament who eventually becomes a respected household matron.
 #     sex: F
@@ -328,14 +328,14 @@ continent: "Asia"
 #     death_year: -711
 #     name: Zakkur
 #     narrative_role: Younger brother who grows into a capable field-and-herd man; as
-#       adults he is Abigail’s conduit to village news and later a painful bereavement.
+#       adults he is Hadiya’s conduit to village news and later a painful bereavement.
 #     sex: M
 #   - birth_year: -741
 #     death_age: 28
 #     death_year: -713
 #     name: Ahiya
-#     narrative_role: Younger sister who shares women’s work with Abigail (spinning,
-#       water carrying); her early adult death reinforces Abigail’s sense that security
+#     narrative_role: Younger sister who shares women’s work with Hadiya (spinning,
+#       water carrying); her early adult death reinforces Hadiya’s sense that security
 #       is fragile.
 #     sex: F
 #   - birth_year: -740
@@ -348,7 +348,7 @@ continent: "Asia"
 #   trait_manifestations:
 #   - consequence: Builds social capital that later supports the household’s rise and
 #       provides early warning about officials, prices, and reputations.
-#     scene: At the well and during communal grinding/spinning, Abigail talks easily,
+#     scene: At the well and during communal grinding/spinning, Hadiya talks easily,
 #       gathers news, negotiates exchanges, and mediates small disputes between women
 #       from different household branches.
 #     timing: most visible ages 16-45
@@ -439,36 +439,36 @@ continent: "Asia"
 #   type: childhood_abuse
 ---
 
-Abigail was born into an Aramean-speaking farming compound on the dry side of the Orontes country, where the reach of the Neo-Assyrian kings showed up in measures, demands, and fear of officials. Her family kept the old household rites: a small clay stand near the hearth for oil and incense, a bowl for grain, and a place where a lock of hair from the dead could be wrapped and tucked away. Her grandmother Ninsun managed that corner of the house, whispering names while she pinched resin onto the coals.
+Hadiya was born into an Aramean-speaking farming compound on the dry side of the Orontes country, where the reach of the Neo-Assyrian kings showed up in measures, demands, and fear of officials. Her family kept the old household rites: a small clay stand near the hearth for oil and incense, a bowl for grain, and a place where a lock of hair from the dead could be wrapped and tucked away. Her grandmother Ninsun managed that corner of the house, whispering names while she pinched resin onto the coals.
 
-Abigail arrived as the fourth child. Narya, the eldest sister, already carried water and watched the smaller ones, and she watched Abigail too, tugging her by the wrist when she wandered. Hamut, only two years older, made space for her on the sleeping mat and taught her to twist wool between wet fingers. Shima, born the year before, had lived only long enough to be washed and wrapped. When Abigail was a toddler, another baby, Tappuya, died. The women rubbed salt into the floor and swept it out beyond the compound wall. Rimta, Abigail’s mother, stopped laughing after that. She counted bread portions with a hard face and listened for every cough.
+Hadiya arrived as the fourth child. Narya, the eldest sister, already carried water and watched the smaller ones, and she watched Hadiya too, tugging her by the wrist when she wandered. Hamut, only two years older, made space for her on the sleeping mat and taught her to twist wool between wet fingers. Shima, born the year before, had lived only long enough to be washed and wrapped. When Hadiya was a toddler, another baby, Tappuya, died. The women rubbed salt into the floor and swept it out beyond the compound wall. Rimta, Hadiya’s mother, stopped laughing after that. She counted bread portions with a hard face and listened for every cough.
 
-Yatna, Abigail’s grandfather, ran the compound like a work line. He set the men to the rainfed fields and the sheep paths, and he set the women to grinding, baking, and cloth. A visiting official could appear with an escort and demand a tally of sacks or animals, and Yatna wanted his household ready. He inspected storage jars and the mud sealings on their lids. Abigail learned to stand still when he spoke. Her father, Gadday, followed his lead: a steady man in the fields, quiet at the hearth, sharp when the grain was low.
+Yatna, Hadiya’s grandfather, ran the compound like a work line. He set the men to the rainfed fields and the sheep paths, and he set the women to grinding, baking, and cloth. A visiting official could appear with an escort and demand a tally of sacks or animals, and Yatna wanted his household ready. He inspected storage jars and the mud sealings on their lids. Hadiya learned to stand still when he spoke. Her father, Gadday, followed his lead: a steady man in the fields, quiet at the hearth, sharp when the grain was low.
 
-When Abigail was eight, the year’s rains were thin. The older children missed meals so the youngest could have a little more, and then the youngest still died. Rimta’s hands turned heavy. A spilled bowl of cracked wheat brought a slap that knocked Abigail sideways; a missed chore brought a beating with a switch cut from scrub. Rimta also took food away, sending Abigail to sleep with an empty belly. Abigail started hiding bits of flatbread in her belt when she could, and she learned to chew quickly in corners. She watched adults’ faces for warning signs and jumped at sudden voices. Ninsun pulled her close at the loom and gave her small tasks there, where Rimta’s eyes were elsewhere: teasing fiber apart, wetting it, keeping the twist even.
+When Hadiya was eight, the year’s rains were thin. The older children missed meals so the youngest could have a little more, and then the youngest still died. Rimta’s hands turned heavy. A spilled bowl of cracked wheat brought a slap that knocked Hadiya sideways; a missed chore brought a beating with a switch cut from scrub. Rimta also took food away, sending Hadiya to sleep with an empty belly. Hadiya started hiding bits of flatbread in her belt when she could, and she learned to chew quickly in corners. She watched adults’ faces for warning signs and jumped at sudden voices. Ninsun pulled her close at the loom and gave her small tasks there, where Rimta’s eyes were elsewhere: teasing fiber apart, wetting it, keeping the twist even.
 
-Hamut died when Abigail was fifteen. The girl had been old enough to grind grain and carry water without spilling, and she had started to talk of a marriage arrangement. Then she got sick and died within days. Rimta washed the body and cut a piece of Hamut’s hair. Abigail did not sleep properly for a long time after that. She woke and listened for the scratch of mice in the grain and the movement of animals. At the well she talked too much, pressing women for news—who had a child with a cough, whose man had gone with a corvée team, who had quarrelled with whom. Her voice came out fast, and people answered because she was cheerful in the moment even when her eyes stayed tense.
+Hamut died when Hadiya was fifteen. The girl had been old enough to grind grain and carry water without spilling, and she had started to talk of a marriage arrangement. Then she got sick and died within days. Rimta washed the body and cut a piece of Hamut’s hair. Hadiya did not sleep properly for a long time after that. She woke and listened for the scratch of mice in the grain and the movement of animals. At the well she talked too much, pressing women for news—who had a child with a cough, whose man had gone with a corvée team, who had quarrelled with whom. Her voice came out fast, and people answered because she was cheerful in the moment even when her eyes stayed tense.
 
-At fifteen she married Hanan, from a household tied to her own through fields and grazing rights. The marriage brought her into his branch of the same village network, still within a patrilocal compound arrangement where elders expected obedience. Abigail took her mother-in-law’s instructions in the morning and carried them out in the afternoon, but she also made friends. She laughed with Eshmuni, an older woman with ritual knowledge who kept track of festival days. They sat together after the evening meal while the men talked, picking burrs from wool and sharing salted goat cheese. Abigail liked the first figs of summer, eaten warm, before they were carried to the drying mats.
+At fifteen she married Hanan, from a household tied to her own through fields and grazing rights. The marriage brought her into his branch of the same village network, still within a patrilocal compound arrangement where elders expected obedience. Hadiya took her mother-in-law’s instructions in the morning and carried them out in the afternoon, but she also made friends. She laughed with Eshmuni, an older woman with ritual knowledge who kept track of festival days. They sat together after the evening meal while the men talked, picking burrs from wool and sharing salted goat cheese. Hadiya liked the first figs of summer, eaten warm, before they were carried to the drying mats.
 
-Her first child, Mika, came when Abigail was seventeen. She kept the baby close, and she argued with older women about when to wean. Two years later she bore a son, Yashub, and then a daughter, Nariah. When Mika was nine, she fell ill and died. Abigail scrubbed the sleeping mat and the child's cup and then scrubbed them again. After that she became strict about water jars and food scraps, snapping at children when they put dirty hands into a bowl. Yashub and Nariah survived, and Abigail relaxed just enough to sing while she spun, an ordinary work-song with a steady beat so her hands could keep pace.
+Her first child, Mika, came when Hadiya was sixteen. She kept the baby close, and she argued with older women about when to wean. Mika lived to nine and died anyway. Hadiya scrubbed the sleeping mat and the baby’s cup and then scrubbed them again. After that she became strict about water jars and food scraps, snapping at children when they put dirty hands into a bowl. Two years later, she bore a son, Yashub, and then a daughter, Nariah. Those children survived, and Hadiya relaxed just enough to sing while she spun, an ordinary work-song with a steady beat so her hands could keep pace.
 
 She became, day by day, a textile maker more than anything else. She spun in the early light before the compound was fully awake, keeping her spindle balanced, listening to the sheep bells. She wove on a simple loom fixed to the ground, beating the weft tight with a comb. Her cloth went to clothe the household first, and then to exchange—cloth for a pot, cloth for a little oil, cloth for grain in a lean week. She paid attention to who paid honestly and who did not. She spoke easily to men and women at the market and remembered everyone’s kin ties.
 
-When Abigail was twenty-seven, the compound worked the harvest hard. Men cut and bound; women carried and stacked; children chased birds from the piles. A drover named Qaynu passed through with animals and a story about trouble on the road. While the compound bustled, a bundle of Abigail’s spun yarn and a small amount of grain disappeared from the storage area. It came to light when the yarn was not there for a planned exchange. Abigail’s anger was immediate. She demanded to see who had been near the jars; she questioned a boy until he cried. She carried the missing bundle’s tie-string in her palm and stared at it, as if staring could produce the thief. Nothing came back. After that she insisted on tighter seals and kept her best thread tucked away where only she and Hanan knew.
+When Hadiya was twenty-seven, the compound worked the harvest hard. Men cut and bound; women carried and stacked; children chased birds from the piles. A drover named Qaynu passed through with animals and a story about trouble on the road. While the compound bustled, a bundle of Hadiya’s spun yarn and a small amount of grain disappeared from the storage area. It came to light when the yarn was not there for a planned exchange. Hadiya’s anger was immediate. She demanded to see who had been near the jars; she questioned a boy until he cried. She carried the missing bundle’s tie-string in her palm and stared at it, as if staring could produce the thief. Nothing came back. After that she insisted on tighter seals and kept her best thread tucked away where only she and Hanan knew.
 
-Her childbearing continued. An infant son, Samu, died at birth when she was twenty-two. A daughter, Illa, followed two years later and died just as quickly. Then Padi lived seven years, long enough to chase lambs and drag a reed mat into the sun, and died after an illness that left him thin and thirsty. Another baby, Tala, lived a year. Each loss brought more offerings: oil poured on coals, a pinch of flour at the household stand, a small cup of beer tipped out onto the ground for the ancestors. Abigail did the gestures in the correct order, watched the smoke, and listened for the crackle that older women said meant the offering was accepted.
+Her childbearing continued. An infant son, Samu, died at birth when she was twenty-two. A daughter, Illa, followed two years later and died just as quickly. Then Padi lived seven years, long enough to chase lambs and drag a reed mat into the sun, and died after an illness that left him thin and thirsty. Another baby, Tala, lived a year. Each loss brought more offerings: oil poured on coals, a pinch of flour at the household stand, a small cup of beer tipped out onto the ground for the ancestors. Hadiya did the gestures in the correct order, watched the smoke, and listened for the crackle that older women said meant the offering was accepted.
 
-Her younger brother Zakkur grew into a strong worker and died at thirty-three when Abigail was thirty-six. Before that, he had been the one who carried messages between households and brought news of prices and officials. Her younger sister Ahiya died when Abigail was twenty-eight, leaving a gap at the well and at the spinning circle. Narya, the eldest sister, died when Abigail was forty-one; by then Narya had married and moved within the same region, and Abigail had used her sister as a source of blunt advice. After Narya’s death, Abigail took over more of the arguing and the arranging for her own household.
+Her younger brother Zakkur grew into a strong worker and died at thirty-three when Hadiya was thirty-six. Before that, he had been the one who carried messages between households and brought news of prices and officials. Her younger sister Ahiya died when Hadiya was twenty-eight, leaving a gap at the well and at the spinning circle. Narya, the eldest sister, died when Hadiya was forty-one; by then Narya had married and moved within the same region, and Hadiya had used her sister as a source of blunt advice. After Narya’s death, Hadiya took over more of the arguing and the arranging for her own household.
 
-A run of poor rains hit when Abigail was thirty-four. The cereal yield dropped and the dues did not. Men talked about corvée teams and inspection visits. Hanan and the other men of the compound met a creditor, Barakku, and pledged part of the next year’s harvest. They sold goats to keep access to fields. Abigail responded with her own kind of calculation. When she was thirty-five, she short-measured cloth in an exchange and kept back the best thread, calling it normal wastage. She did it with a straight face and spoke quickly to distract the other woman, asking after her children and the last locust sightings. The household’s needs came first, and Abigail protected her own line inside the compound.
+A run of poor rains hit when Hadiya was thirty-four. The cereal yield dropped and the dues did not. Men talked about corvée teams and inspection visits. Hanan and the other men of the compound met a creditor, Barakku, and pledged part of the next year’s harvest. They sold goats to keep access to fields. Hadiya responded with her own kind of calculation. When she was thirty-five, she short-measured cloth in an exchange and kept back the best thread, calling it normal wastage. She did it with a straight face and spoke quickly to distract the other woman, asking after her children and the last locust sightings. The household’s needs came first, and Hadiya protected her own line inside the compound.
 
-Her surviving children grew into adults. Yashub took on field decisions and handled men from other households with a calm face. Nariah stayed close to Abigail’s textile work; mother and daughter worked side by side, and Abigail trusted her with thread she would not have given to anyone else. The youngest daughter, Raqa, born when Abigail was thirty, stayed in the household network and became the helper Abigail relied on. Raqa teased her mother for talking too much at the well, and Abigail snapped back, then laughed, then told Raqa to keep her eyes open and her mouth shut when a stranger approached.
+Her surviving children grew into adults. Yashub took on field decisions and handled men from other households with a calm face. Nariah stayed close to Hadiya’s textile work; mother and daughter worked side by side, and Hadiya trusted her with thread she would not have given to anyone else. The youngest daughter, Raqa, born when Hadiya was thirty, stayed in the household network and became the helper Hadiya relied on. Raqa teased her mother for talking too much at the well, and Hadiya snapped back, then laughed, then told Raqa to keep her eyes open and her mouth shut when a stranger approached.
 
-As the household’s standing rose, Abigail participated in it directly. She pushed for visible hospitality on festival days, sending bowls of stew and bread to neighbors and to Eshmuni, whose tongue shaped reputations. She kept cloth ready as gifts when a dispute needed smoothing. She also grew more controlling inside the compound, checking storage and scolding younger women over wasting thread.
+As the household’s standing rose, Hadiya participated in it directly. She pushed for visible hospitality on festival days, sending bowls of stew and bread to neighbors and to Eshmuni, whose tongue shaped reputations. She kept cloth ready as gifts when a dispute needed smoothing. She also grew more controlling inside the compound, checking storage and scolding younger women over wasting thread. Her worry never left; it changed shape.
 
-In her fifties she began to cough in the mornings. The hearth smoke bothered her, and she started sitting near the doorway after meals. In winter her chest tightened. She still worked, but she took more breaks, and she leaned on Raqa for the heavy steps of loom work. She became the one who cared for others: nursing children with fevers, washing an injured man’s leg, feeding an old in-law softened grain and broth. When Yashub died at forty-seven, Abigail ran the women’s side of the mourning and then went back to sorting wool the next day because meals still had to be made. Nariah lived past fifty and died two years before Abigail, leaving Abigail short of her most capable partner.
+In her fifties she began to cough in the mornings. The hearth smoke bothered her, and she started sitting near the doorway after meals. In winter her chest tightened. She still worked, but she took more breaks, and she leaned on Raqa for the heavy steps of loom work. She became the one who cared for others: nursing children with fevers, washing an injured man’s leg, feeding an old in-law softened grain and broth. When Yashub died at forty-seven, Hadiya ran the women’s side of the mourning and then went back to sorting wool the next day because meals still had to be made. Nariah lived past fifty and died two years before Hadiya, leaving Hadiya short of her most capable partner.
 
-Hanan lived into old age with her. They argued about stores and about who owed what to whom, and they sat together in the evenings when the heat left the courtyard, listening to grandchildren talk. Abigail kept her offerings. Oil, grain, incense. A muttered list of names. She liked the quiet just after sunrise, when she could sit with a spindle and hear only sheep and a distant call from the well.
+Hanan lived into old age with her. They argued about stores and about who owed what to whom, and they sat together in the evenings when the heat left the courtyard, listening to grandchildren talk. Hadiya kept her offerings. Oil, grain, incense. A muttered list of names. She liked the quiet just after sunrise, when she could sit with a spindle and hear only sheep and a distant call from the well.
 
 At seventy-three her cough turned into days when she could not finish a sentence without stopping. Her chest rattled and she could not keep food down. Raqa and other women washed her and rubbed oil into her skin. She died in the compound where she had been born and where she had spent her whole life. Her family wrapped her in cloth from the household stores and placed her in a grave outside the village bounds, setting a small jar of oil and a pinch of grain beside her and burning incense at the edge of the pit before sealing it.

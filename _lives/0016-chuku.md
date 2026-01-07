@@ -1,6 +1,6 @@
 ---
 layout: life
-title: "Rati"
+title: "Chuku"
 birth_year: "1932 BC"
 birth_year_numeric: -1931
 death_year: "1891 BC"
@@ -54,7 +54,7 @@ continent: "Asia"
 # Honesty-Humility (% rank): 44
 # Intelligence (% rank): 83
 # Lifestyle: Rural
-# Name: Rati
+# Name: Chuku
 # Naming category: unrecoverable
 # Neuroticism (% rank): 62
 # Openness (% rank): 79
@@ -115,26 +115,26 @@ continent: "Asia"
 #   caretakers:
 #   - death_year: -1932
 #     name: Bel
-#     narrative_role: Died shortly before or around Rati’s birth; remembered through
+#     narrative_role: Died shortly before or around Chuku’s birth; remembered through
 #       tools, route knowledge, and stories. His absence is a quiet hole in the household
-#       and a reason Rati grows up hyper-responsible.
+#       and a reason Chuku grows up hyper-responsible.
 #     role: father (biological)
 #   - death_year: -1931
 #     name: Tala
-#     narrative_role: Died in childbirth or soon after; Rati grows up with only second-hand
+#     narrative_role: Died in childbirth or soon after; Chuku grows up with only second-hand
 #       stories, which contributes to anxious rumination and an intense attachment to
 #       protective household rituals.
 #     role: mother (biological)
 #   - death_year: -1905
 #     name: Benato
 #     narrative_role: Primary caregiver and household manager. Affection is practical
-#       rather than demonstrative; she rewards diligence and order, shaping Rati’s extreme
+#       rather than demonstrative; she rewards diligence and order, shaping Chuku’s extreme
 #       conscientiousness, but her strictness also feeds his anxiety about mistakes
 #       and impurity/omens.
 #     role: stepmother/co-wife primary caregiver
 #   - death_year: -1896
 #     name: Haruno
-#     narrative_role: Visits periodically; offers Rati a wider view beyond the valley
+#     narrative_role: Visits periodically; offers Chuku a wider view beyond the valley
 #       and later helps broker his first contacts with plains-bound caravans. Relationship
 #       is supportive but intermittent.
 #     role: maternal uncle (caretaker/advocate)
@@ -151,7 +151,7 @@ continent: "Asia"
 #     death_age: 2
 #     death_year: -1906
 #     name: Beko
-#     narrative_role: Toddler death; intensifies ritual precautions and Rati’s fear
+#     narrative_role: Toddler death; intensifies ritual precautions and Chuku’s fear
 #       that he brings danger home from the road.
 #     sex: F
 #   - birth_year: -1906
@@ -166,7 +166,7 @@ continent: "Asia"
 #     death_age: 0
 #     death_year: -1892
 #     name: Jin
-#     narrative_role: Neonatal death shortly before Rati’s own death; reinforces the
+#     narrative_role: Neonatal death shortly before Chuku’s own death; reinforces the
 #       household’s sense of a ‘bad season’ and heightens anxiety and ritual activity.
 #     sex: M
 #   incident_placements:
@@ -251,7 +251,7 @@ continent: "Asia"
 #     name: Kan
 #     narrative_role: Oldest brother and early model of competence; alternates between
 #       protective and critical. Inherits/anchors the natal household, which later becomes
-#       the ‘home tie’ Rati measures himself against after migrating.
+#       the ‘home tie’ Chuku measures himself against after migrating.
 #     sex: M
 #   - birth_year: -1930
 #     death_age: 1
@@ -265,7 +265,7 @@ continent: "Asia"
 #     death_year: -1862
 #     name: Marani
 #     narrative_role: Closest long-lived sister; steady, practical presence. Serves
-#       as messenger between Rati and the birth-village after his migration; later becomes
+#       as messenger between Chuku and the birth-village after his migration; later becomes
 #       keeper of family stories.
 #     sex: F
 #   - birth_year: -1926
@@ -273,7 +273,7 @@ continent: "Asia"
 #     death_year: -1902
 #     name: Seno
 #     narrative_role: Warm but fragile sister; her early adult death becomes one of
-#       the events that sharpens Rati’s anxious preoccupation with omens, illness, and
+#       the events that sharpens Chuku’s anxious preoccupation with omens, illness, and
 #       household safety.
 #     sex: F
 #   - birth_year: -1924
@@ -281,7 +281,7 @@ continent: "Asia"
 #     death_year: -1883
 #     name: Duma
 #     narrative_role: Strong-willed sister who pushes against expectations; intermittent
-#       rivalry with Rati over resources and attention from caretakers, later reconciled
+#       rivalry with Chuku over resources and attention from caretakers, later reconciled
 #       through mutual concern for younger siblings.
 #     sex: F
 #   - birth_year: -1922
@@ -295,7 +295,7 @@ continent: "Asia"
 #     death_age: 18
 #     death_year: -1902
 #     name: Tomo
-#     narrative_role: Adored ‘late’ sister; her death at 18 (around when Rati is already
+#     narrative_role: Adored ‘late’ sister; her death at 18 (around when Chuku is already
 #       moving along routes) deepens his sense that leaving home invites misfortune
 #       and fuels recurrent worry.
 #     sex: F
@@ -303,8 +303,8 @@ continent: "Asia"
 #     death_age: 55
 #     death_year: -1863
 #     name: Tor
-#     narrative_role: Youngest brother; as a child he idolizes Rati. In adulthood he
-#       becomes the sibling most likely to meet Rati on journeys or host him briefly
+#     narrative_role: Youngest brother; as a child he idolizes Chuku. In adulthood he
+#       becomes the sibling most likely to meet Chuku on journeys or host him briefly
 #       when he returns.
 #     sex: M
 #   trait_manifestations:
@@ -385,40 +385,40 @@ continent: "Asia"
 #   type: severe_economic_crisis
 ---
 
-Rati was born in a small settlement of the western Himalaya, where steep terraces rose above goat paths and mixed forest. The households around him answered to elders and leading lineages rather than distant kings, and their ties to the lowlands ran through salt, copper, and grain moving by foot along river corridors. Rati’s people spoke a local hill language that outsiders did not understand, and in every house the hearth and threshold mattered: offerings went to ancestor names and to the beings of slope, spring, and forest edge.
+Chuku was born in a small settlement of the western Himalaya, where steep terraces, goat paths, and mixed forest set the rhythm of work. The households around him answered to elders and leading lineages rather than distant kings, and their ties to the lowlands ran through salt, copper, and grain moving by foot along river corridors. Chuku’s people spoke a local hill language that outsiders did not understand, and in every house the hearth and threshold mattered: offerings went to ancestor names and to the beings of slope, spring, and forest edge.
 
-His father, Bel, died as the winter ended. His mother, Tala, died with the birth. Rati grew up under Benato’s authority. Benato had come into the household through remarriage after Bel’s death, and she carried herself like the person who kept everyone fed and uninjured. She ran the storeroom, counted jars by touch, and woke before light to rake coals into a clean circle. Rati learned early that she rewarded careful hands. If he stacked fuelwood with the bark turned the same way, she let him take a second piece of dried apricot from the basket. If he left a gate unlatched, she made him stand and listen while she recited all the losses a loose latch could invite.
+His father, Bel, died as the winter ended. His mother, Tala, died with the birth. Chuku grew up under Benato’s authority. Benato had come into the household through remarriage after Bel’s death, and she carried herself like the person who kept everyone fed and uninjured. She ran the storeroom, counted jars by touch, and woke before light to rake coals into a clean circle. Chuku learned early that she rewarded careful hands. If he stacked fuelwood with the bark turned the same way, she let him take a second piece of dried apricot from the basket. If he left a gate unlatched, she made him stand and listen while she recited all the losses a loose latch could invite.
 
-He was the second child. Kan, the older brother, moved like he already owned the terraces. As a boy Kan pulled Rati along the narrow edges and showed him where the soil held and where it slid. Kan teased him for checking knots twice. He also took him into the trees to cut a straight staff and said, once, that a man who paid attention came home.
+He was the second child. Kan, the older brother, moved like he already owned the terraces. As a boy Kan pulled Chuku along the narrow edges and showed him where the soil held and where it slid. Kan teased him for checking knots twice. He also took him into the trees to cut a straight staff and said, once, that a man who paid attention came home.
 
-Girls filled the house. Lapa died when Rati was small enough that he took his cue from faces rather than understanding words. Benato put a smear of flour on the threshold and pinned a sprig of aromatic leaf over the doorway after the funeral. Later came Marani, then Seno, then Duma. Rati grew up with their noise and their demands. He fetched water with Marani, who never hurried and never spilled. Seno liked to test him by hiding small things—a bone needle, a sling stone—and laughing when he searched in the wrong corner. Duma watched those games and learned where his temper lived; she could make him snap with a single remark about his fussy ways.
+Girls filled the house. Lapa died when Chuku was small enough that he took his cue from faces rather than understanding words. Benato put a smear of flour on the threshold and pinned a sprig of aromatic leaf over the doorway after the funeral. Later came Marani, then Seno, then Duma. Chuku grew up with their noise and their demands. He fetched water with Marani, who never hurried and never spilled. Seno liked to test him by hiding small things—a bone needle, a sling stone—and laughing when he searched in the wrong corner. Duma watched those games and learned where his temper lived; she could make him snap with a single remark about his fussy ways.
 
-Two births ended quickly. Ruk lived only a breath. Benato cut a lock of hair from her own head and tied it to the handle of the grain scoop after that, saying it kept the store safe. Another girl, Tomo, arrived when Rati could already carry a small load. Tomo followed him everywhere, begging for stories about the next ridge and the river bends below. The last child was Tor, a younger brother with quick hands and a grin that made adults forgive him.
+Two births ended quickly. Ruk lived only a breath. Benato cut a lock of hair from her own head and tied it to the handle of the grain scoop after that, saying it kept the store safe. Another girl, Tomo, arrived when Chuku could already carry a small load. Tomo followed him everywhere, begging for stories about the next ridge and the river bends below. The last child was Tor, a younger brother with quick hands and a grin that made adults forgive him.
 
-Rati grew tall early and stayed tall, and people noticed. At gatherings he kept his eyes down because stares turned into talk. He learned to stand close to Benato when strangers came through, and to speak only when asked. He listened more than he spoke. Travelers from lower valleys sat near the fire and traded news for cups of thin beer. Rati hovered near the edge of those circles and remembered what he heard: which villages wanted salt, which had grain after a good year, which river crossings took lives when the rains came.
+Chuku grew tall early and stayed tall, and people noticed. At gatherings he kept his eyes down because stares turned into talk. He learned to stand close to Benato when strangers came through, and to speak only when asked. He listened more than he spoke. Travelers from lower valleys sat near the fire and traded news for cups of thin beer. Chuku hovered near the edge of those circles and remembered what he heard: which villages wanted salt, which had grain after a good year, which river crossings took lives when the rains came.
 
 By twelve he handled goats and the smallest terrace plots. He liked the part of the day when shadows still cut clean lines across the fields. He checked the same stones in the retaining wall each time he passed, pressing them with his palm. When clouds piled up and the wind shifted, his belly tightened and he went back to the house to count ropes and lashings, then count them again. Benato saw the restlessness and gave him tasks that had clear endings: grind this basket of grain, twist these cords, shape these pegs.
 
-When Rati was sixteen, Seno began to cough and keep to the corner by the hearth. Kan and Duma argued about whether to spend a goat on a healer from a neighboring valley. Rati carried Seno water, sat with her while Benato burned resin on a shard of pottery, and watched the smoke curl toward the roof beams. Seno died at twenty-four, when Rati was already away often enough that he returned to hear it rather than see it.
+When Chuku was sixteen, Seno began to cough and keep to the corner by the hearth. Kan and Duma argued about whether to spend a goat on a healer from a neighboring valley. Chuku carried Seno water, sat with her while Benato burned resin on a shard of pottery, and watched the smoke curl toward the roof beams. Seno died at twenty-four, when Chuku was already away often enough that he returned to hear it rather than see it.
 
-At seventeen he left the valley for good. Kan did not forbid it, but he counted out a small share of grain and a pair of sandals, and he said Rati would not be coming back to claim terraces. Rati accepted it without bargaining. He had already decided. He followed Haruno, a maternal uncle, down to a route where loads moved more steadily and strangers paid in salt and grain. There he met Kumel, a seasoned route leader with scarred shins from years of bad paths. Kumel watched Rati tie a pack frame, then untie it, then tie it again more evenly. He put Rati in charge of the mule that carried breakable pots.
+At seventeen he left the valley for good. Kan did not forbid it, but he counted out a small share of grain and a pair of sandals, and he said Chuku would not be coming back to claim terraces. Chuku accepted it without bargaining. He had already decided. He followed Haruno, a maternal uncle, down to a route where loads moved more steadily and strangers paid in salt and grain. There he met Kumel, a seasoned route leader with scarred shins from years of bad paths. Kumel watched Chuku tie a pack frame, then untie it, then tie it again more evenly. He put Chuku in charge of the mule that carried breakable pots.
 
 The work fit him. He kept the load balanced, chose the firmer line on a slope, and insisted on starting before heat rose. He also carried trouble inside his body. In crowded stopping places his heart kicked hard and his breath came shallow. He stepped outside, put his hand against a wall, and waited until the shaking eased. Then he went back in and drank water slowly, as if it was part of a plan.
 
-The world he moved through changed as he learned it. Some towns demanded different goods than they had a few years earlier. Certain contacts disappeared; older men spoke of fewer seals and fewer fine beads coming from far cities. Rati adjusted without fanfare. He shifted to what moved: salt blocks, dried fish from rivers, bundles of resin, skins, small amounts of copper. He learned the spoken measures of grain and the feel of a fair weight in his hand.
+The world he moved through changed as he learned it. Some towns demanded different goods than they had a few years earlier. Certain contacts disappeared; older men spoke of fewer seals and fewer fine beads coming from far cities. Chuku adjusted without fanfare. He shifted to what moved: salt blocks, dried fish from rivers, bundles of resin, skins, small amounts of copper. He learned the spoken measures of grain and the feel of a fair weight in his hand.
 
-At nineteen he married Kiran in a destination community where the route widened into easier ground. Kiran’s kin had fields and a few animals; they wanted a husband who brought goods back without trouble. Rati brought them carefulness, and Kiran brought him steadiness. Their first daughter, Rena, was born the next year. Rati held her once, awkwardly, then went out to check the roof lashings. Kiran laughed at him for that, and he laughed too, a short sound that surprised him.
+At nineteen he married Kiran in a destination community where the route widened into easier ground. Kiran’s kin had fields and a few animals; they wanted a husband who brought goods back without trouble. Chuku brought them carefulness, and Kiran brought him steadiness. Their first daughter, Rena, was born the next year. Chuku held her once, awkwardly, then went out to check the roof lashings. Kiran laughed at him for that, and he laughed too, a short sound that surprised him.
 
 He built a small home with Kiran and kept it orderly. When he returned from travel he washed at the threshold, then placed a pinch of grain and a drop of beer beside the hearth stone for the house spirits. He liked thick porridge with sour curd and salt, and on good days he ate it outside, sitting on a flat rock with Rena leaning against his leg. He avoided drinking too much at night gatherings; a fuzzy head made him feel unsafe.
 
-Two more daughters followed: Beko, then Maru. Beko died at two, in the season when fevers went through children. Rati responded with rules. He insisted on boiling water longer, on keeping strangers from touching the baby’s sleeping place, on extra offerings—flowers when he could get them, otherwise grains and resin. Kiran did what she could and told him to stop shouting at Rena for leaving a cup in the wrong place.
+Two more daughters followed: Beko, then Maru. Beko died at two, in the season when fevers went through children. Chuku responded with rules. He insisted on boiling water longer, on keeping strangers from touching the baby’s sleeping place, on extra offerings—flowers when he could get them, otherwise grains and resin. Kiran did what she could and told him to stop shouting at Rena for leaving a cup in the wrong place.
 
-Losses came in clusters. When Rati was twenty-six, Benato died back in the hill village. Marani carried the news along a chain of travelers. Rati sat by his own hearth after hearing it, set down a small cup of beer for Benato's name, and stared until his chest loosened. The next year Tomo died at eighteen, and Seno's death had come before that. The news made him more exacting and more brittle.
+At thirty-three, during a long trip, the bad crossing happened. The river had risen, and a slide had turned the approach into loose stone. Chuku argued to wait. Taleko, another porter who liked speed, pushed to go. They crossed. The mule stumbled where the bank crumbled, and part of the load went into the water. Chuku jumped after it, came out bruised and shaking, and saved only the lighter bundles. The patron who owned the cargo, Shed, demanded payment anyway. Chuku had none. Shed advanced grain and tools on terms that cut deep, and for two seasons Chuku worked under him, hauling heavier loads for less. Kiran sold goats and a few small valuables to keep the household fed. Chuku counted every measure of grain, every debt portion, until the numbers chased him at night.
 
-At thirty-three, during a long trip, the bad crossing happened. The river had risen, and a slide had turned the approach into loose stone. Rati argued to wait. Taleko, another porter who liked speed, pushed to go. They crossed. The mule stumbled where the bank crumbled, and part of the load went into the water. Rati jumped after it, came out bruised and shaking, and saved only the lighter bundles. The patron who owned the cargo, Shed, demanded payment anyway. Rati had none. Shed advanced grain and tools on terms that cut deep, and for two seasons Rati worked under him, hauling heavier loads for less. Kiran sold goats and a few small valuables to keep the household fed. Rati counted every measure of grain, every debt portion, until the numbers chased him at night.
+Benato died during those years, back in the hill village, and Marani carried the news along a chain of travelers. Chuku sat by his own hearth after hearing it, set down a small cup of beer for Benato’s name, and stared until his chest loosened. Not long after, Tomo died at eighteen. That news came the same way, and it made him more exacting and more brittle.
 
-At thirty-nine Kiran bore a son, Jin, who lived no day. Rati stayed home longer than usual after that, repairing harnesses and refusing offers of easy coin. But debt, obligations, and the need to restock grain pushed him back onto the route as the cold season deepened.
+At thirty-nine Kiran bore a son, Jin, who lived no day. Chuku stayed home longer than usual after that, repairing harnesses and refusing offers of easy coin. But debt, obligations, and the need to restock grain pushed him back onto the route as the cold season deepened.
 
-On the last journey, a storm pinned the caravan high on an exposed stretch. The wind cut through their wraps. Supplies ran short. Rati gave his last dried grain cake to a younger man and kept walking. He separated from the others at a junction, trying to reach a settlement he had visited before. He did not reach it. Searchers found his body days later near a stand of trees, partly sheltered from the wind.
+On the last journey, a storm pinned the caravan high on an exposed stretch. The wind cut through their wraps. Supplies ran short. Chuku gave his last dried grain cake to a younger man and kept walking. He separated from the others at a junction, trying to reach a settlement he had visited before. He did not reach it. Searchers found his body days later near a stand of trees, partly sheltered from the wind.
 
 Kiran’s kin recovered him and burned resin beside the body before burial. They placed him in the ground outside the settlement boundary with a small clay cup, a pinch of grain, and a strip of cloth from Kiran’s loom tied around his wrist.

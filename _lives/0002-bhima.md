@@ -1,6 +1,6 @@
 ---
 layout: life
-title: "Deva"
+title: "Bhima"
 birth_year: "975 AD"
 birth_year_numeric: 975
 death_year: "1005 AD"
@@ -54,7 +54,7 @@ continent: "Asia"
 # Honesty-Humility (% rank): 70
 # Intelligence (% rank): 63
 # Lifestyle: Rural
-# Name: Deva
+# Name: Bhima
 # Naming category: inferable
 # Neuroticism (% rank): 90
 # Openness (% rank): 92
@@ -104,25 +104,25 @@ continent: "Asia"
 #   caretakers:
 #   - death_year: 1003
 #     name: Khema
-#     narrative_role: Shifting-cultivation farmer who expects Deva to work steadily;
-#       relationship is tense because Deva is bright but unreliable, yet his father
+#     narrative_role: Shifting-cultivation farmer who expects Bhima to work steadily;
+#       relationship is tense because Bhima is bright but unreliable, yet his father
 #       still helps him secure a small separate plot when he marries.
 #     role: father
 #   - death_year: null
 #     name: Soma
 #     narrative_role: Main stabilizing caretaker; affectionate but easily worried, reinforcing
-#       Deva's anxious style while also protecting him from harsher discipline when
+#       Bhima's anxious style while also protecting him from harsher discipline when
 #       he is sick or overwhelmed.
 #     role: mother
 #   - death_year: 989
 #     name: Dhola
 #     narrative_role: Elder voice in the extended patrilocal household; teaches boundary
-#       lore and burning/clearing timing, praises Deva's quick mind but scolds his inattention.
+#       lore and burning/clearing timing, praises Bhima's quick mind but scolds his inattention.
 #     role: paternal grandfather
 #   - death_year: 995
 #     name: Hira
 #     narrative_role: Household ritual and healing knowledge (offerings, fever herbs);
-#       close bond with Deva during his adolescent illnesses, but also quick to interpret
+#       close bond with Bhima during his adolescent illnesses, but also quick to interpret
 #       misfortune as offended spirits.
 #     role: paternal grandmother
 #   children:
@@ -130,7 +130,7 @@ continent: "Asia"
 #     death_age: 55
 #     death_year: 1053
 #     name: Lakhya
-#     narrative_role: Surviving child; Deva is tender with her in calm moments and tries
+#     narrative_role: Surviving child; Bhima is tender with her in calm moments and tries
 #       to teach her small observational skills (plants, tracks), but his recurrent
 #       fevers and eventual death leave her mainly raised by her mother and kin.
 #     sex: F
@@ -139,11 +139,11 @@ continent: "Asia"
 #     death_year: 1004
 #     name: Raghu
 #     narrative_role: Infant son who dies shortly after birth; the loss intensifies
-#       household offerings and adds to Deva's sense that fate/spirits are against him.
+#       household offerings and adds to Bhima's sense that fate/spirits are against him.
 #     sex: M
 #   incident_placements:
 #   - age: 23
-#     connection: Occurs soon after marriage when Deva is trying to secure/defend a
+#     connection: Occurs soon after marriage when Bhima is trying to secure/defend a
 #       forest-edge patch for his new nuclear household; ties directly to broader pressure
 #       on land/forest boundaries from expanding settlement.
 #     incident: physical_assault
@@ -167,8 +167,8 @@ continent: "Asia"
 #     - 'c. 982-989: Increasing talk of outsiders (headmen/intermediaries) asking for
 #       forest produce and occasional labor as agrarian edges expand.'
 #     - '989: Paternal grandfather Dhola dies; household authority shifts, father becomes
-#       stricter, Deva feels less buffered.'
-#     - 'c. 991-992: Deva starts doing more independent tasks (guarding burn lines,
+#       stricter, Bhima feels less buffered.'
+#     - 'c. 991-992: Bhima starts doing more independent tasks (guarding burn lines,
 #       carrying, small trapping) but is inconsistent and forgetful, creating friction.'
 #     phase: Later childhood and adolescence under expanding outside demands
 #   - age_range: 17-22
@@ -178,13 +178,13 @@ continent: "Asia"
 #     - 'c. 994 onward: First recurrent monsoon fevers; family increases offerings and
 #       consults ritual specialists.'
 #     - '995: Paternal grandmother Hira dies; loss of a trusted healer/comfort figure
-#       as Deva''s fevers intensify.'
+#       as Bhima''s fevers intensify.'
 #     phase: Young adult cultivator; illness begins
 #   - age_range: 23-29
 #     key_events:
 #     - '996: Marries Kanta; sets up a separate nuclear household on/near a small plot
 #       while remaining tied to paternal kin.'
-#     - '998: Daughter Lakhya is born; Deva is proud but anxious about provisioning.'
+#     - '998: Daughter Lakhya is born; Bhima is proud but anxious about provisioning.'
 #     - '1004: Son Raghu is born and dies shortly after; household performs intensified
 #       propitiation rites and seeks explanations.'
 #     - '1005: Fatal accident in mid-monsoon season while working (terminal event to
@@ -200,7 +200,7 @@ continent: "Asia"
 #     relationship: Local ritual specialist/healer consulted for fevers and infant-loss
 #       propitiation
 #   - name: Manga
-#     prominence: Ages 15-29 (intermittent), often the one criticizing Deva’s inconsistency
+#     prominence: Ages 15-29 (intermittent), often the one criticizing Bhima’s inconsistency
 #     relationship: Older kinsman/field companion who sometimes supervises work parties
 #   - name: Kalu
 #     prominence: Ages 10-29 (background pressure), appears when obligations/taxes/corvee
@@ -210,7 +210,7 @@ continent: "Asia"
 #   partners:
 #   - name: Kanta
 #     narrative_role: Wife from a nearby hamlet; the marriage is practical and sometimes
-#       strained by Deva's moodiness and unreliable work rhythm, but she is loyal and
+#       strained by Bhima's moodiness and unreliable work rhythm, but she is loyal and
 #       becomes the competent manager of the small nuclear household.
 #     relationship_end_year: 1005
 #     relationship_start_year: 996
@@ -220,7 +220,7 @@ continent: "Asia"
 #     death_year: 1001
 #     name: Rupa
 #     narrative_role: Eldest sibling and the only one to reach adulthood; alternates
-#       between protective and exasperated toward Deva, later becomes an important source
+#       between protective and exasperated toward Bhima, later becomes an important source
 #       of practical help and news between households after his marriage.
 #     sex: F
 #   - birth_year: 972
@@ -235,8 +235,8 @@ continent: "Asia"
 #     death_age: 2
 #     death_year: 976
 #     name: Balu
-#     narrative_role: The brother Deva was supposed to grow up alongside; invoked by
-#       elders when discussing lineage luck and the need for Deva (last son) to survive
+#     narrative_role: The brother Bhima was supposed to grow up alongside; invoked by
+#       elders when discussing lineage luck and the need for Bhima (last son) to survive
 #       and marry.
 #     sex: M
 #   trait_manifestations:
@@ -308,34 +308,34 @@ continent: "Asia"
 #   type: chronic_illness
 ---
 
-Deva was born on December 26, 975, in the forested hills east of the coastal plain where the Western Ghats rose into moist deciduous country. Chiefs and kings in the wider region changed names and banners, but in his hamlet the order of life came through headmen and intermediaries who carried demands for grain, labor, and forest goods from the settled edges. Deva’s people spoke a Bhil-related Western Indo-Aryan tongue and kept their own rites: offerings at stones under trees, meals shared with ancestors, and healing work done through herbs, drumming, and trance when sickness returned with the rains.
+Bhima was born on December 26, 975, in the forested hills east of the coastal plain where the Western Ghats rose into moist deciduous country. Chiefs and kings in the wider region changed names and banners, but in his hamlet the order of life came through headmen and intermediaries who carried demands for grain, labor, and forest goods from the settled edges. Bhima’s people spoke a Bhil-related Western Indo-Aryan tongue and kept their own rites: offerings at stones under trees, meals shared with ancestors, and healing work done through herbs, drumming, and trance when sickness returned with the rains.
 
-He arrived as the fourth child, after death had already shaped the household. His sister Moti died at three before he could remember her; the story was fixed in the family as a monsoon illness that took her quickly. His brother Balu lived only into 976, small and feverish. Their eldest sister Rupa, born in 971, grew up with the knowledge that she had outlasted the others. When Deva was a toddler she carried him on her hip as she fetched water and firewood, scolding him sharply when he grabbed at her hair, then laughing when he copied her words in his soft child voice.
+He arrived as the fourth child, after death had already shaped the household. His sister Moti died at three before he could remember her; the story was fixed in the family as a monsoon illness that took her quickly. His brother Balu lived only into 976, small and feverish. Their eldest sister Rupa, born in 971, grew up with the knowledge that she had outlasted the others. When Bhima was a toddler she carried him on her hip as she fetched water and firewood, scolding him sharply when he grabbed at her hair, then laughing when he copied her words in his soft child voice.
 
-The household was an extended one, centered on Deva’s father Khema and his parents, Dhola and Hira. Khema cleared patches at the forest edge and burned them at the right time, working with other men to keep fire from running into the wrong grove. He expected a son to watch, to learn, then to do. Deva watched but did not keep his eyes where Khema wanted them. He followed ants across the ash, pulled apart seed pods, and asked why one tree leaf stayed green longer than another. When Khema sent him to bring a stone adze or a coil of rope, Deva brought the wrong one and tried to talk his way out of it. Hira stepped between them more than once. She had a hard manner but she kept her hand light on Deva’s shoulders and fed him first when there was thin porridge.
+The household was an extended one, centered on Bhima’s father Khema and his parents, Dhola and Hira. Khema cleared patches at the forest edge and burned them at the right time, working with other men to keep fire from running into the wrong grove. He expected a son to watch, to learn, then to do. Bhima watched but did not keep his eyes where Khema wanted them. He followed ants across the ash, pulled apart seed pods, and asked why one tree leaf stayed green longer than another. When Khema sent him to bring a stone adze or a coil of rope, Bhima brought the wrong one and tried to talk his way out of it. Hira stepped between them more than once. She had a hard manner but she kept her hand light on Bhima’s shoulders and fed him first when there was thin porridge.
 
-At five he began to go with the adults to the fields and the streams. Monsoon seasons came heavy. People spoke about fever as if it traveled in the air over low water. When someone in the hamlet shook with chills, Hira set out a small leaf plate with rice, salt, and a splash of liquor at the base of a tree near the edge of the clearing. She named ancestors in a low voice, then the local spirit of the place, and brushed Deva’s forehead with neem leaves. Deva watched every motion and later repeated it behind the house, with pebbles and a torn leaf, arranging and rearranging until Rupa found him and teased him for “feeding stones.”
+At five he began to go with the adults to the fields and the streams. Monsoon seasons came heavy. People spoke about fever as if it traveled in the air over low water. When someone in the hamlet shook with chills, Hira set out a small leaf plate with rice, salt, and a splash of liquor at the base of a tree near the edge of the clearing. She named ancestors in a low voice, then the local spirit of the place, and brushed Bhima’s forehead with neem leaves. Bhima watched every motion and later repeated it behind the house, with pebbles and a torn leaf, arranging and rearranging until Rupa found him and teased him for “feeding stones.”
 
-The 980s brought more outsiders along the paths. Men like Kalu, a headman who dealt with lowland traders and tax collectors, came to speak with Dhola and Khema about bamboo, timber, and bundles of leaves. Sometimes they asked for hands to carry loads or to clear a path. Deva kept away from the talk; he sat at the edge of the group and picked at a strip of bark, listening. Dhola noticed this and, when he was in a patient mood, pulled Deva close and pointed out how boundaries worked—where one hamlet’s clearing ended, where another’s began, and which trees were treated as markers. Deva learned quickly when he cared to.
+The 980s brought more outsiders along the paths. Men like Kalu, a headman who dealt with lowland traders and tax collectors, came to speak with Dhola and Khema about bamboo, timber, and bundles of leaves. Sometimes they asked for hands to carry loads or to clear a path. Bhima kept away from the talk; he sat at the edge of the group and picked at a strip of bark, listening. Dhola noticed this and, when he was in a patient mood, pulled Bhima close and pointed out how boundaries worked—where one hamlet’s clearing ended, where another’s began, and which trees were treated as markers. Bhima learned quickly when he cared to.
 
-Dhola died in 989. The funeral brought relatives from nearby hamlets; there was rice beer and meat, and the elders spoke the lineage names over the body. Afterward Khema spoke more and listened less. Deva felt the change. He avoided the loud evening gatherings and took paths into the forest to sit alone on a flat rock above a stream, where he could hear water and watch light shift through the canopy. He liked the clean feeling of early morning, when smoke from cooking fires rose straight and the ground still held night coolness. He liked stories with trickster turns, too, and laughed quietly when Rupa described a man from another hamlet who bragged about his hunt and returned with nothing but a scuffed knee.
+Dhola died in 989. The funeral brought relatives from nearby hamlets; there was rice beer and meat, and the elders spoke the lineage names over the body. Afterward Khema spoke more and listened less. Bhima felt the change. He avoided the loud evening gatherings and took paths into the forest to sit alone on a flat rock above a stream, where he could hear water and watch light shift through the canopy. He liked the clean feeling of early morning, when smoke from cooking fires rose straight and the ground still held night coolness. He liked stories with trickster turns, too, and laughed quietly when Rupa described a man from another hamlet who bragged about his hunt and returned with nothing but a scuffed knee.
 
-Khema pushed him into heavier work by his mid-teens: cutting, clearing, carrying, guarding burn lines. Deva could plan a route through thick growth and return faster than older boys, and he remembered where certain tubers grew after a fire. He also left tasks half-done. He forgot to mend an edge fence and goats got in. He delayed weeding until the field looked rough, then worked in frantic bursts, sweating and irritated when his hands cramped. Khema shouted at him, and Deva answered back in a quick voice, then fell silent for days, moving through the house with his head lowered and his jaw tight.
+Khema pushed him into heavier work by his mid-teens: cutting, clearing, carrying, guarding burn lines. Bhima could plan a route through thick growth and return faster than older boys, and he remembered where certain tubers grew after a fire. He also left tasks half-done. He forgot to mend an edge fence and goats got in. He delayed weeding until the field looked rough, then worked in frantic bursts, sweating and irritated when his hands cramped. Khema shouted at him, and Bhima answered back in a quick voice, then fell silent for days, moving through the house with his head lowered and his jaw tight.
 
-At nineteen, in the monsoon of 994, Deva’s first serious fevers came. He shook hard enough that Hira and Rupa had to hold him to keep him from sliding off the sleeping mat. After the sweating broke, he stood up thin and unsteady and tried to go out anyway, and Khema stopped him by grabbing his arm. The fevers returned the next rains, and the next. Between episodes he worked, but he tired sooner than other men. He grew wary of streamside tasks and then did them anyway, because the fields needed water and the forest edge needed tending. A healer named Jiva was called more than once. Jiva sang to the drum and used smoke from burning leaves; he marked Deva’s skin with ash and spoke the names of spirits that lived at crossings and water.
+At nineteen, in the monsoon of 994, Bhima’s first serious fevers came. He shook hard enough that Hira and Rupa had to hold him to keep him from sliding off the sleeping mat. After the sweating broke, he stood up thin and unsteady and tried to go out anyway, and Khema stopped him by grabbing his arm. The fevers returned the next rains, and the next. Between episodes he worked, but he tired sooner than other men. He grew wary of streamside tasks and then did them anyway, because the fields needed water and the forest edge needed tending. A healer named Jiva was called more than once. Jiva sang to the drum and used smoke from burning leaves; he marked Bhima’s skin with ash and spoke the names of spirits that lived at crossings and water.
 
-Hira died in 995. Deva had leaned on her sharp comfort more than he admitted. After her death he became faster to anger and faster to fear. He lay awake during heavy rains, listening for the sound of wind and water, counting his breath, then getting up to check the roof lashings even when nothing had shifted.
+Hira died in 995. Bhima had leaned on her sharp comfort more than he admitted. After her death he became faster to anger and faster to fear. He lay awake during heavy rains, listening for the sound of wind and water, counting his breath, then getting up to check the roof lashings even when nothing had shifted.
 
-He married Kanta in 996. She came from a nearby hamlet and arrived with a small bundle of household things and a steady way of watching people before she spoke. Khema helped Deva secure a small plot near the forest edge, and the new couple set up a separate hearth. Deva liked the privacy at first. He could sit outside after supper and listen to insects and the distant calls of men crossing a stream. Kanta wanted clear routines—grain stored properly, tools kept in one place, weeds pulled before they went to seed. She confronted him when he drifted. Deva answered with excuses and then with silence. They still worked together, and when his fevers hit, she brewed bitter decoctions and kept the child away from his sweat-soaked bedding.
+He married Kanta in 996. She came from a nearby hamlet and arrived with a small bundle of household things and a steady way of watching people before she spoke. Khema helped Bhima secure a small plot near the forest edge, and the new couple set up a separate hearth. Bhima liked the privacy at first. He could sit outside after supper and listen to insects and the distant calls of men crossing a stream. Kanta wanted clear routines—grain stored properly, tools kept in one place, weeds pulled before they went to seed. She confronted him when he drifted. Bhima answered with excuses and then with silence. They still worked together, and when his fevers hit, she brewed bitter decoctions and kept the child away from his sweat-soaked bedding.
 
-Early in the monsoon of 998, after their daughter Lakhya was born, Deva began pushing harder on the boundary of his patch. Another hamlet’s men claimed that his clearing line had crept. Deva argued, uneasy and stubborn, and did not gather allies for the dispute. In the first weeks of rains he walked to the contested edge and was met by a group led by Nathu. They hit him with sticks and fists, driving him down into wet leaf litter. Deva crawled back with bruised ribs and swelling on one cheek. Kanta cleaned him and said little, but her face stayed hard for days. Deva avoided the path near Nathu’s hamlet afterward, taking longer routes through denser growth.
+Early in the monsoon of 998, after their daughter Lakhya was born, Bhima began pushing harder on the boundary of his patch. Another hamlet’s men claimed that his clearing line had crept. Bhima argued, uneasy and stubborn, and did not gather allies for the dispute. In the first weeks of rains he walked to the contested edge and was met by a group led by Nathu. They hit him with sticks and fists, driving him down into wet leaf litter. Bhima crawled back with bruised ribs and swelling on one cheek. Kanta cleaned him and said little, but her face stayed hard for days. Bhima avoided the path near Nathu’s hamlet afterward, taking longer routes through denser growth.
 
 He loved Lakhya in short, intense ways. He held her on his forearm and pointed out birds and tracks in damp soil, speaking softly. When she cried at night he sometimes snapped, then took her outside and walked until she quieted. He did not like crowds, but he took her to a small shrine spot under a tree near the clearing, where stones marked the place of offerings. He set down rice and a few flowers, then poured a thin line of liquor onto the ground, naming his grandfather and grandmother and the spirit of the grove.
 
 The fevers kept returning each monsoon. They left him thin and easily exhausted, and Kanta began to treat their household as if it might stand without him. In 1001 Rupa died at thirty, and the loss cut away a thread that had held him to childhood. He did not speak much at her rites; he sat apart, rubbing his hands together and staring at the ground.
 
-Their son Raghu was born in 1004 and lived only hours. Deva and Kanta carried small offerings—grain, salt, and liquor—to the old place under the tree and asked for protection. Deva grew jumpy afterward, quick to imagine signs in minor mishaps: a cracked pot, a sudden gust, a bird call at the wrong time. He tried to work harder, then collapsed into irritability when his body gave out.
+Their son Raghu was born in 1004 and lived only hours. Bhima and Kanta carried small offerings—grain, salt, and liquor—to the old place under the tree and asked for protection. Bhima grew jumpy afterward, quick to imagine signs in minor mishaps: a cracked pot, a sudden gust, a bird call at the wrong time. He tried to work harder, then collapsed into irritability when his body gave out.
 
-In July of 1005 the rains were strong. Deva went out to cut and drag a long bamboo pole from a wet slope above a stream, intending to use it for repairs. The ground was slick. His foot slid, and he fell hard against a cut stump and stones. He made it back to the house, bleeding and shaking. Infection followed quickly in the heat and damp. He was dead within days, at twenty-nine.
+In July of 1005 the rains were strong. Bhima went out to cut and drag a long bamboo pole from a wet slope above a stream, intending to use it for repairs. The ground was slick. His foot slid, and he fell hard against a cut stump and stones. He made it back to the house, bleeding and shaking. Infection followed quickly in the heat and damp. He was dead within days, at twenty-nine.
 
 Kanta and his kin washed his body and laid it out near the clearing. They placed rice and a small cup of liquor beside him and spoke ancestor names before carrying him to a cremation spot used by the hamlet, where the fire was fed with dry wood brought down from higher ground.
