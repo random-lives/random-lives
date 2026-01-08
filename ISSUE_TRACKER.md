@@ -139,6 +139,19 @@ This should be a last resort, not a first instinct. Most debug data is correct a
    - If not mentioned: ADD IT
 3. Common misses: parents, grandparents, uncles/aunts who raised them, older siblings
 
+**Dead characters referenced as alive**:
+- After adding a death, search for any later references to that character
+- Characters who died cannot be mentioned as doing things after their death
+- Example problem: Grandmother Rauko dies at protagonist age 25, but at age 34 the narrative says "Rauko made them bring offerings more often"
+- Example problem: Son Dandu dies at age 88, but at protagonist's death (age 93) the narrative has "Kanni and Dandu kept him inside"
+- Example fix: Change all post-death references to surviving characters, or remove entirely
+
+**Unnamed infants**:
+- Check the `naming_category` in debug data
+- If it says "unnamed" (died before naming ceremony), the narrative should NOT give the infant a name
+- Use "the child", "the baby", "the infant" instead
+- The title can still say "Person XXXX (unnamed)"
+
 
 ### 2. Clarity and Comprehension (HIGH PRIORITY)
 
