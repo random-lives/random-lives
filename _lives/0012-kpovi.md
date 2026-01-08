@@ -135,4 +135,4 @@ Her father, Gbenon, cleared brush and tended yam mounds and other staples, and h
 
 At the start of the rains, Kpovi began to cough. She stopped feeding well and struggled for air. Gbenon went for Dosi, a healer and diviner, who listened, warmed herbs over the hearth, and had Kpome pour water at the ancestor place with a pinch of meal. The cough stayed. Kpovi died on September 18, 800.
 
-They washed her, wrapped her in cloth, and buried her in the compound ground near the household’s ancestors, with a small calabash of water set down as an offering.
+The women prepared her body and buried her in the compound ground near the household's ancestors, setting a calabash of water beside the grave.

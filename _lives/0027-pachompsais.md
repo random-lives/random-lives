@@ -360,4 +360,4 @@ Tathotes died two years later. She had married and tied her life into a network 
 
 He reached fifty with his joints stiff and his hands thickened from rope and soil. In the heat of midsummer, he worked with a gang clearing and strengthening a canal bank. He climbed onto a slick section of packed mud to pass up a basket, slipped, and fell hard. The cut on his leg looked small at first. Over the next days it swelled and darkened, and he could not put weight on it. He died in his village in July of the ninth year after the birth of the new era the Romans counted.
 
-His body was washed, wrapped in linen, and carried to a burial place outside the settled ground. Tachonsis placed bread, onions, and a small cup of beer beside him, and what remained of the family spoke the names of Osiris and Anubis over the grave.
+His body was prepared and bound in linen, then carried to a burial place outside the settled ground. Tachonsis placed bread, onions, and a cup of beer beside him, and the family spoke the names of Osiris and Anubis over the grave.

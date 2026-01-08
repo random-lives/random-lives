@@ -395,4 +395,4 @@ From 487 onward, Kandan’s body began to fail. Each rainy season brought fevers
 
 That temporary separation hardened into a pattern. Debt and illness pulled him out of the joint rhythm; some nights he stayed at a patron’s outbuilding to be close when labor was demanded at dawn, and some days he lay alone in the field shed because he did not want his weakness displayed.
 
-In late October of 494, an acute fever took him quickly. Selvi and Arivan brought water and thin gruel; Tiruvan came with ash and a small lamp. Kandan died on November 1, 494. His family washed the body, marked it with ash, and carried it beyond the village edge for cremation, placing a small offering of rice and flowers beside the fire before they left him to burn.
+In late October of 494, an acute fever took him quickly. Selvi and Arivan brought water and thin gruel; Tiruvan came with ash and a lamp. Kandan died on November 1, 494. His family marked his body with ash and carried it beyond the village for cremation, placing rice and flowers beside the fire before they left him to burn.

@@ -522,4 +522,4 @@ Nankula himself died in 1432. With him gone, Nathono stood as one of the last of
 
 In 1433, after the start of the hot season, diarrhea spread through the compound. Nathono began passing watery stool and could not keep down water. Her mouth dried, and she lay in her hut while Nankaya tried to feed her thin gruel. Mulapwa came and gave herbs and instructions, but Nathono continued to lose fluid until she died on November 5.
 
-Women washed her body and wrapped it in cloth. They placed her in the burial ground used by her maternal lineage and set a calabash of beer and a small measure of grain beside the grave before covering it.
+The women prepared her body. They placed her in the burial ground used by her maternal lineage and set a calabash of beer and grain beside the grave before covering it.

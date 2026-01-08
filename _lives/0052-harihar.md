@@ -324,4 +324,4 @@ Late in the monsoon of 1822, Mukunda sent him to carry a small bundle tied in cl
 
 In September 1824, an eruptive sickness spread through nearby households. Spots rose on Harihar’s skin and his eyes reddened. Dinanath the priest came to chant and to mark the threshold with paste and ash; Nilambar placed a lamp and neem leaves near the sleeping mat and kept a pot of water beside him. He died on October 8, 1824, still unmarried, in the smaller partitioned household where he had spent his life.
 
-His body was washed and wrapped in cloth, and Mukunda and Damodar carried it for cremation, leaving offerings of rice and flowers and a small lamp placed near the rites.
+Mukunda and Damodar carried his body for cremation, leaving rice and flowers and a lamp near the pyre.

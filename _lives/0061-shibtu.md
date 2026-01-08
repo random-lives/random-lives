@@ -359,7 +359,7 @@ Shibtu was born in a terraced upland settlement above the coast of what is now M
 
 Her mother, Ilat-ummi, died on the day Shibtu entered the world. The women washed the newborn, rubbed her skin with oil, and passed her to another breast. Her father, Hanni, did not remarry. He kept his goats and small plots and returned each evening smelling of smoke and animals, setting down bundles of brush or a sack of barley. Shibtu grew up in his compound under the authority of her grandparents, Ayyab and Nura.
 
-There had already been two small graves near the edge of the settlement. Yabni, Hanni’s firstborn, had died at two. Tappu, the next child, had lasted a year. Their names were spoken in quick, careful ways, then dropped. Shibtu learned early that adults lowered their voices when they walked past the stones.
+There had already been two graves beyond the houses. Yabni, Hanni's firstborn, had died at two. Tappu, the next child, had lasted a year. Their names were spoken in quick, careful ways, then dropped. Shibtu learned early that adults lowered their voices when they walked past the stones.
 
 When she was two, another baby cried in the house. Her father’s sister-in-law, Miri, held the child close while Nura warmed water and muttered prayers. The baby, Yatrum, died before Shibtu learned to speak her name clearly. A year later Abi was born and also died before her second winter ended. Shibtu’s memories of those seasons stayed as broken pieces: smoke thick in the doorway, the rasp of grinding stones stopping mid-morning, women’s hands in her hair pushing her back from the mat.
 
@@ -391,4 +391,4 @@ The tribute demands did not stop. Ili-malik still called for measures, still spo
 
 In her twenty-ninth year the cough deepened and her weight fell away. Rimay slept near her and kept the fire low. Damaru came with broth and sat in the courtyard to spin so the house would not be silent. Shibtu died in early autumn, after several days when she could not rise from the mat.
 
-They washed her body, wrapped it in cloth, and carried it to a family burial place near the settlement. A small lamp with oil and a piece of bread were set beside her, and a short prayer was spoken to El for shelter and to Ashtart for guarding Tirzah.
+They prepared her body and bound it in cloth, then carried it to the family burial place. A lamp with oil and a piece of bread were set beside her, and a short prayer was spoken to El for shelter and to Ashtart for guarding Tirzah.

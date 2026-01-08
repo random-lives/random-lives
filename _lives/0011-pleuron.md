@@ -489,4 +489,4 @@ Varis died when Pleuron was fifty-eight plus two years, after a long decline, an
 
 Old age came as narrowing strength. He remained in his solitary dwelling, close enough to hear voices from the main yard, far enough to keep control over his space. In his seventy-sixth year, after a season of cold mornings and short days, he stopped rising before dawn. He died at home during a period of frailty and exhaustion.
 
-His family washed him, wrapped him in cloth and hide, and carried him to the burial place near the grove. They placed small offerings—beer poured onto the ground, a piece of meat, and a simple iron knife—before covering him with earth.
+His family prepared his body, bound it in cloth and hide, and carried him to the burial place near the grove. They poured beer onto the ground, left a piece of meat and a simple iron knife beside him, and covered him with earth.

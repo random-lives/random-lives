@@ -425,4 +425,4 @@ Old age limited him more. His mind wandered more after the head injury, and his 
 
 Chronic illness wasted him in his seventy-fifth year. In early autumn he stayed on the sleeping platform, coughing and refusing food one day, demanding it the next, angry at being washed like a child. He died under Vali’s roof.
 
-They washed him and wrapped him in cloth, then carried him to a burial place on higher ground near their grove edge. A small portion of dried fish and a bead were left with him, and the household made a final offering at the spring before returning to the work of storing food for winter.
+They prepared his body and carried him to higher ground near their grove. Dried fish and a bead were left with him, and the household poured water at the spring before returning to the work of storing food for winter.

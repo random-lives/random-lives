@@ -132,4 +132,4 @@ Her father, Ranga, worked for wages in other men's fields. The household belonge
 
 When labor started, Timmamma sent for Basavva the dai. The women heated water and laid out clean cloth. The delivery dragged through the night. When Nagamma came, her skin held the dark, wet sheen of birth, but she did not cry. Basavva rubbed her back with oil, cleared her mouth with a finger, and tugged gently at her feet. Timmamma held a small brass lamp near the baby's face. No breath came.
 
-Before sunset, Ranga dug a small pit beyond the houses at the edge of cultivation. They wrapped Nagamma in cloth, placed her in the earth, and set a pinch of rice and a dab of ghee at the spot before smoothing it closed.
+Before sunset, Ranga dug a pit beyond the houses where the fields began. They wrapped Nagamma in cloth, placed her in the earth, and set rice and ghee at the spot before smoothing it closed.
