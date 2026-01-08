@@ -334,8 +334,10 @@ He loved Lakhya in short, intense ways. He held her on his forearm and pointed o
 
 The fevers kept returning each monsoon. They left him thin and easily exhausted, and Kanta began to treat their household as if it might stand without him. In 1001 Rupa died at thirty, and the loss cut away a thread that had held him to childhood. He did not speak much at her rites; he sat apart, rubbing his hands together and staring at the ground.
 
+Khema died in 1003, worn down by years of clearing and burning. Bhima stood at the cremation and watched the flames take his father's body. Afterward he walked to the contested edge of his own plot and stood there until dark, saying nothing.
+
 Their son Raghu was born in 1004 and lived only hours. Bhima and Kanta carried small offerings—grain, salt, and liquor—to the old place under the tree and asked for protection. Bhima grew jumpy afterward, quick to imagine signs in minor mishaps: a cracked pot, a sudden gust, a bird call at the wrong time. He tried to work harder, then collapsed into irritability when his body gave out.
 
 In July of 1005 the rains were strong. Bhima went out to cut and drag a long bamboo pole from a wet slope above a stream, intending to use it for repairs. The ground was slick. His foot slid, and he fell hard against a cut stump and stones. He made it back to the house, bleeding and shaking. Infection followed quickly in the heat and damp. He was dead within days, at twenty-nine.
 
-Kanta and his kin washed his body and laid it out near the clearing. They placed rice and a small cup of liquor beside him and spoke ancestor names before carrying him to a cremation spot used by the hamlet, where the fire was fed with dry wood brought down from higher ground.
+Kanta and his family washed his body and laid it out near the clearing. They placed rice and a small cup of liquor beside him and spoke ancestor names before carrying him to a cremation spot used by the hamlet, where the fire was fed with dry wood brought down from higher ground.
