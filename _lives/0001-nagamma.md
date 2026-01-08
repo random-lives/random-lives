@@ -126,7 +126,7 @@ continent: "Asia"
 # - F
 ---
 
-Nagamma was born before dawn on March 12, 1791, in Virapura near Lingasugur, in the dry thorn-scrub country of the Raichur plain. The village answered to Deccan rulers and their revenue men, but her household lived by the seasons and the demands of the village headman. They spoke Kannada at home and used Telugu in the market and with neighbors from the east.
+Nagamma was born before dawn on March 12, 1791, in Virapura near Lingasugur, in the dry thorn-scrub country of the Raichur plain. Revenue men came through for the Deccan rulers, but her household lived by the seasons and the demands of the village headman. They spoke Kannada at home and Telugu in the market.
 
 Her father, Ranga, worked for wages in other men's fields. The household belonged to a weaver caste, and Timma kept a loom, but weaving brought less than field labor and Ranga only sat at the loom when patrons sent cotton. Her mother, Venkamma, carried water from the well, ground grain, cooked ragi porridge, and went out for weeding and harvest when labor was hired. They lived in a patrilocal joint compound with Ranga’s parents, Timma and Timmamma. A tulasi plant stood in the courtyard, and Venkamma fed it with water each morning. On Ekadashi days she kept a fast and whispered Rama’s name while turning a small strand of beads.
 

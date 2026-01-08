@@ -414,7 +414,7 @@ continent: "Asia"
 #   type: pregnancy_complications
 ---
 
-He Gui was born in January of 224 in a hamlet of fields and mixed woodland on the middle Yangtze plain, where Han families spoke the local Sinitic tongue and paid taxes to officials who now answered to Eastern Wu. The household compound held several branches of the He lineage under one roofline: her father He Qiang, her mother, and the older generation who decided how much grain to store and how much to turn over when the registration men came.
+He Gui was born in January of 224 in a hamlet of fields and mixed woodland on the middle Yangtze plain. Eastern Wu had taken over from the Han collapse, and officials came through for grain and labor counts. The household compound held several branches of the He lineage under one roofline: her father He Qiang, her mother, and the older generation who decided how much grain to store and how much to turn over when the registration men came.
 
 The compound ran on routine. Before she could carry a full bucket, Gui learned the paths between well, hearth, and threshing ground. Her grandmother set out the morning bowl for the Kitchen Lord near the stove—steamed grain, a bit of broth when there was meat—and Gui was told to keep small hands away from the fire. At the new year her grandfather poured a little wine on the packed earth before the family tablets and called the ancestors by generation name, his voice flat and practiced.
 

@@ -210,7 +210,7 @@ continent: "Asia"
 # - M
 ---
 
-Walwata was born the youngest child in a Luwic-speaking farming household near the wooded ridges above the lakes of northwest Anatolia, where local leaders answered to greater powers to the east and carried tribute along established tracks. Her family followed the old local cults shaped by Hittite influence: Storm-god Tarḫunta and the Sun goddess received bread, beer, and lamb fat at the hearth and at a village shrine.
+Walwata was born the youngest child in a Luwic-speaking farming household near the wooded ridges above the lakes of northwest Anatolia. Local leaders sent tribute east along established tracks. Her family followed the old cults shaped by Hittite influence: Storm-god Tarḫunta and the Sun goddess received bread, beer, and lamb fat at the hearth and at a village shrine.
 
 Her father, Armawi, managed pack animals and agreements for moving grain, wool, and jars of oil between hamlets and larger storehouses. He lived with his wife Anniya in his father’s compound under the authority of Hantiliya, with Suppiya directing much of the women’s work. Walwata’s brothers filled the yard. Tarhuntiya and Runtiya handled animals and loads; Zidanta ran messages. Piyama, eight years old, stayed close to the newborn and had to be pulled away from her sleeping place.
 

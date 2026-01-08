@@ -108,7 +108,7 @@ continent: "Asia"
 #   calendrical festivals; sanctioned rites when available)
 ---
 
-Hormizd was born on November 17, 361, in a high, dry valley of Zābul where eastern Iranian-speaking herders moved sheep and goats between winter shelter and summer pasture. The district answered to officials tied to the Sasanian world, and men who dealt with tax and market matters used Middle Persian words along with local speech. His family kept formal Zoroastrian practice. A village priest, Tirdad, came for calendrical rites and purity rules were enforced in the household.
+Hormizd was born on November 17, 361, in a high, dry valley of Zābul where eastern Iranian-speaking herders moved sheep and goats between winter shelter and summer pasture. Sasanian officials collected taxes through local intermediaries, and men who dealt with tax and market matters used Middle Persian words along with local speech. His family kept formal Zoroastrian practice. A village priest, Tirdad, came for calendrical rites and purity rules were enforced in the household.
 
 He was the first child in a patrilocal compound. His grandfather Farrukh led the men’s dealings outside the household and kept order among the family. Wahram, Hormizd’s father, left before daylight with the flock, carrying a sling and a skin of water. He returned with dust on his leggings and the smell of animals. Hormizd’s mother, Dukht, spent mornings milking and straining into clay bowls, then churning in a skin bag hung from a beam. When she worked, Mihraban, the grandmother, kept the boy near the hearth and wiped his hands before food.
 

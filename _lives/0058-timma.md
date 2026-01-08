@@ -159,7 +159,7 @@ continent: "Asia"
 # - M
 ---
 
-Timma was born on October 15, 1148, in a dryland village near Rayadurg in the Telugu country of the Deccan. The area answered to local chiefs and tax collectors tied into the larger powers of the eastern Deccan; in the village, authority sat with elders, headmen, and lineage councils. His household spoke Telugu and centered its protection on the grāma-devata, the village goddess, with household lamps and offerings and communal rites at the shrine beyond the houses.
+Timma was born on October 15, 1148, in a dryland village near Rayadurg in the Telugu country of the Deccan. Tax collectors came through for chiefs tied into the larger powers of the east, but daily authority sat with elders and headmen. His household centered its protection on the village goddess, with household lamps, offerings, and communal rites at the shrine beyond the houses.
 
 His father, Kondanna, worked his own rainfed plots and left for seasonal labor when wages were offered for earthworks or other men’s fields. Timma's mother, Bommamma, kept the hearth and loom work going, twisting cotton into thread and trading small bundles through relatives and neighbors. They lived in a joint compound with Kondanna’s parents, Komanna and Peddamma, and with his brother Narayya and Narayya’s wife Chennamma.
 

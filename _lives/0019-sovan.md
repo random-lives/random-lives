@@ -211,7 +211,7 @@ continent: "Asia"
 # - M
 ---
 
-Sovan was born on September 18, 302, in a Monic-speaking village on the low, wet edge of the forested plain in what is now Bago. The village answered to local headmen and tribute collectors tied into wider lowland networks where Pyu towns and Indian traders moved goods and ideas. Her household kept the old ways close: offerings at the house post, rice and betel set out for the spirits of the place, and food placed for named ancestors.
+Sovan was born on September 18, 302, in a Monic-speaking village on the wet edge of the forested plain in what is now Bago. Headmen collected tribute that moved toward Pyu towns and river ports, where Indian traders brought goods and ideas. Her household kept the old ways: offerings at the house post, rice and betel set out for the spirits of the place, and food placed for named ancestors.
 
 Her father, Ratha, organized transport and exchange. He sent carts and porters along tracks toward river landings, moving salt, dried fish, resin, and cloth, and he kept a small store of goods under the eaves. Her mother, Kanda, ran the cooking fire, pounded grain, and worked the fields when the water stood right, then returned to nurse. A senior woman, Dara, watched Kanda’s postpartum rules and tied protective cords at the baby’s wrist; she set a small dish of rice and a pinch of salt at the threshold each morning. Htun, the old man of the compound, pressed for quick offerings whenever a child cried too long.
 

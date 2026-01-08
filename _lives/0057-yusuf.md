@@ -168,7 +168,7 @@ continent: "Africa"
 # - M
 ---
 
-Yusuf was born on September 16, 1880, in the upland fields near Gelemso in Hararghe, where local Oromo-speaking villages answered to shifting chiefs and tax collectors as Menelik’s power pushed east. His household spoke Oromo outside the gate, and another language inside, carried from an older migration. The family prayed in Muslim ways—washed hands, murmured Qur’anic verses, kept a leather amulet tied to a child’s neck—and they also went to a sacred tree for vows when sickness stayed.
+Yusuf was born on September 16, 1880, in the upland fields near Gelemso in Hararghe, as Menelik's power pushed east and shifting chiefs and tax collectors pressed the local Oromo-speaking villages. His household spoke Oromo outside the gate, and another language inside, carried from an older migration. The family prayed in Muslim ways—washed hands, murmured Qur'anic verses, kept a leather amulet tied to a child's neck—and they also went to a sacred tree for vows when sickness stayed.
 
 His father, Abdullahi, farmed rented strips of land and bartered grain when the stores ran low. Hawa, Yusuf’s stepmother, managed goats and chickens, skimmed milk, and turned it into butter for market days. The compound had children everywhere. Amina, born in 1872, kept watch when adults worked. Ali, born in 1874, walked out with animals or a hoe and came back dusty. Hassan, born in 1877, stayed close to Yusuf, pulling him by the hand toward the threshing place.
 

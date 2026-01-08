@@ -391,7 +391,7 @@ continent: "Asia"
 #   type: sick_relative
 ---
 
-Anandi was born on May 3, 1178, in a farming hamlet in the Awadh/Kosala country of the middle Ganga plain. The land answered to local chiefs and revenue men in the Gahadavala sphere centered on Kannauj and Banaras; village decisions ran through headmen, caste councils, and the men who controlled plough-oxen and seed. Her people spoke a Middle Ganga vernacular, and her household kept its days with ancestor offerings, purity rules, and temple visits when there was grain to spare.
+Anandi was born on May 3, 1178, in a farming hamlet in the Awadh country of the middle Ganga plain. Revenue men came through for chiefs in the Gahadavala sphere centered on Kannauj and Banaras; village decisions ran through headmen, caste councils, and the men who controlled plough-oxen and seed. Her household kept its days with ancestor offerings, purity rules, and temple visits when there was grain to spare.
 
 Her father, Jagan, held a modest plot and ploughed it with a pair of oxen he guarded carefully. Her mother, Sona, ground grain, cooked, and worked in the fields when weeds rose fast after the rains. Before Anandi’s birth, Sona had carried children who did not stay: Gauri, a daughter born in 1168, died in 1173 at five years old; Mahesh was born in 1171 and died the same day. When Anandi was little, those deaths lived in the courtyard in the way Sona watched for coughs and loose stools and in the way she kept a small corner of the house for ritual scraps—rice grains, a wick stub, a pinch of ash.
 

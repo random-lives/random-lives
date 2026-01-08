@@ -87,7 +87,7 @@ continent: "Europe"
 #   rites, seasonal fertility rites for crops/herds; informal prayers/charms'
 ---
 
-The boy had no name. He was born into an early Neolithic farming village in the inland hills above the Turia, where families spoke a local tongue and answered to elders and kin rather than any distant ruler. His parents lived in a small house of timber and mud-plaster near other dwellings and pens, taking part in household rites at the hearth: a pinch of ground grain and a splash of water set down before eating, and whispered words addressed to the family dead.
+The boy had no name. He was born into an early Neolithic farming village in the inland hills above the Turia. No distant rulers collected grain or gave orders; elders and family heads settled what needed settling. His parents lived in a small house of timber and mud-plaster near other dwellings and pens, taking part in household rites at the hearth: ground grain and water set down before eating, and whispered words addressed to the family dead.
 
 His father, an able herder, spent much of the year moving sheep and goats between scrubby slopes and better pasture, sleeping out with other men and returning with cheese and hides. His mother ran the house when he was away. She shaped clay into wide-mouthed jars, smoothing them with a stone, and traded pots and woven bands of fiber for grain and dried meat. She kept a small fire going for cooking and for drying vessels, and stored food in baskets hung from rafters.
 
