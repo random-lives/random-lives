@@ -260,7 +260,9 @@ The style should be plain, direct prose. Flag and rewrite:
 
 ### 7. Pseudosociological Language
 
-Avoid academic/anthropological jargon that sounds clinical. The word "kin" is almost always wrong:
+Avoid academic/anthropological jargon that sounds clinical.
+
+**"Kin" is almost always wrong:**
 - "kin camps" → "families"
 - "kin" → "family" (in most contexts)
 - "kin groups" → "their families" or "the families"
@@ -270,7 +272,13 @@ Avoid academic/anthropological jargon that sounds clinical. The word "kin" is al
 - "Her kin washed her body" → "The women of the household washed her body" or name them
 - "his kin wrapped him" → "his family wrapped him"
 
-**How to check**: Search the narrative for "kin" - if found, replace with specific people or "family"
+**Household structure jargon:**
+- "joint" (describing households) → describe concretely: "crowded with relatives" or "his married sons and their families filled the compound"
+- "patrilocal" → just describe who lives there: "she moved into her husband's family's home"
+- "nuclear" → avoid; describe the household composition directly
+- "The household was joint and patrilocal" → "The household was crowded" or "His married sons and their wives and children lived with him"
+
+**How to check**: Search the narrative for "kin", "joint", "patrilocal", "nuclear" - if found in narrative text (not debug sections), replace with plain language
 
 ### 8. AI-Slop Phrases
 

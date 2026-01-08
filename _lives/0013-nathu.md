@@ -202,7 +202,7 @@ continent: "Asia"
 
 Nathu was born in December 340 in the low, wet plains of north Bihar, where Gupta officials collected revenue through local headmen and towns drew people in for work. His family spoke an Indo-Aryan vernacular at home and kept ties to a nearby Buddhist monastery; monks came on alms rounds, and his mother, Malli, set out a pinch of cooked rice or a small ladle of lentils when she had it.
 
-The household was joint and crowded. Nathu’s father, Budha, left before daylight to find carrying work—lifting bundles in the market, hauling bricks, walking behind an ox cart for a day’s wage. Malli washed other people’s cloth at a pond edge and scrubbed courtyards for coins and leftover food. Paternal grandmother Masu ran the cooking fire and stored water in a clay pot; grandfather Kalu argued about which well to use and when to ask the monastery for gruel.
+The household was crowded with relatives. Nathu’s father, Budha, left before daylight to find carrying work—lifting bundles in the market, hauling bricks, walking behind an ox cart for a day’s wage. Malli washed other people’s cloth at a pond edge and scrubbed courtyards for coins and leftover food. Paternal grandmother Masu ran the cooking fire and stored water in a clay pot; grandfather Kalu argued about which well to use and when to ask the monastery for gruel.
 
 Nathu spent his first years on hips and in laps. He was fed thin porridge and bits of rice, and he gnawed on a cloth strip while Malli worked. In 342 his sister Munni was born and died the same year, and the women tied a protective thread on Nathu’s wrist after the funeral.
 

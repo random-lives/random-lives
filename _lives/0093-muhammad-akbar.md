@@ -459,6 +459,6 @@ His mother, Bibi Shaista, died in 1968. The next year the princely order ended a
 
 In 1970 his older sister Bibi Amina died. She had lived in her husband's village for decades, but she had returned for visits and funerals, and her absence left Akbar more quiet than usual for months.
 
-By the 1970s his household had become joint and patrilocal. Married sons and grandchildren filled the compound. Akbar’s role was to keep tempers down and promises intact. When grandchildren fought, he separated them without shouting and made them share a piece of bread. He spent evenings in the same spot near the doorway, where he could see who came and went. He enjoyed dried apricots in season and fresh yogurt when the animals gave enough milk.
+By the 1970s his married sons and their wives and children filled the compound. Akbar’s role was to keep tempers down and promises intact. When grandchildren fought, he separated them without shouting and made them share a piece of bread. He spent evenings in the same spot near the doorway, where he could see who came and went. He enjoyed dried apricots in season and fresh yogurt when the animals gave enough milk.
 
 On February 21, 1982, heart pain struck hard and did not pass. The men washed his body, wrapped it in a plain shroud, and carried him to the graveyard. They recited the funeral prayer and buried him facing the qibla, packing earth down firm and leaving the grave unadorned.
