@@ -121,6 +121,8 @@ Each story appears once with all issues found and changes made across all review
 - [Missing event] Nisa (mother) dies 1404 - significant since she sheltered Tana
 - [Chronology] Sana's death (1396) was placed before Rati's death (1383) - wrong order
 - [Pseudosociological] "The kin washed her body"
+- [Chronology - second review] "At twenty-nine, in 1378" appeared confusingly after "Bera died the following year, in 1378" making it unclear if assault was same year as father's death
+- [Stylistic] Repetitive "At age X, in year Y" time marker pattern throughout story
 
 **Changes made:**
 - Changed "Bera had died the year before, in 1378" → "Bera died the following year, in 1378"
@@ -129,6 +131,8 @@ Each story appears once with all issues found and changes made across all review
 - Fixed chronological order: moved Rati/Ansa deaths before Sana's death
 - Added Nisa's death: "Nisa, her mother, died in 1404..."
 - Changed "The kin washed her body" → "The women of the household washed her body"
+- Changed "At twenty-nine, in 1378" → "That same year, before the autumn" (clarifying assault happens same year as Bera's death)
+- Varied time markers: "At forty-one, in 1390" → "Twelve years after her separation"; "By forty-five, in 1394" → "Four years later"; "At sixty, in 1409" → "The following year"
 
 ---
 
@@ -503,11 +507,16 @@ Each story appears once with all issues found and changes made across all review
 - [Logical impossibility] Mother dies at birth, but younger brother born 2 years later
 - [Missing identification] Kondayya introduced without identifying as father
 - [Unclear sibling ordering] Siblings introduced in confusing order
+- [Chronology - second review] Accident paragraph (1179) placed after Sītamma's death (1181), creating confusing back-and-forth timeline
+- [Stylistic - second review] Awkward date repetition in death paragraph: "In May 1188... died on May 24, 1188"
 
 **Changes made:**
 - Fixed by adding father's remarriage: "Kondayya remarried, and two years after Venkamma's birth, his new wife bore a son..."
 - Changed "Kondayya's sister" → "her father Kondayya's sister"
 - Rewrote family introduction to introduce all siblings in birth order
+- Improved sibling ordering clarity: "Bhairava, the eldest at nine... Ranga, seven... Between them had been Sattamma, who died as an infant. Mallamma, three years older than Venkamma..."
+- Moved accident paragraph to correct chronological position: now placed between Sītamma's birth (1178) and death (1181), changed "In 1179" → "The following year"
+- Fixed date repetition: "died on May 24, 1188" → "died on the twenty-fourth"
 
 ---
 
@@ -590,11 +599,23 @@ Each story appears once with all issues found and changes made across all review
 - [Pseudosociological] "with kin sharing tools"
 - [Vague hedging] "washed at the handpump or well" - handpumps anachronistic for 1654
 - [Figurative] "acted as if the wind had done it"
+- [Missing younger sibling births] Kanhaiya, Mohan, and Shivram births not clearly shown as happening after Sitaram
+- [Chronology] Affair with Kallu mentioned late in narrative (during debt crisis) rather than when it began (after marriage in 1654)
+- [Clarity] Kallu not introduced - appeared without context
+- [Clarity] First sexual encounter at age 17 used "youth" (ambiguous gender) rather than clearly identifying as male
+- [Clarity] Marriage to Rukmini didn't address lack of romantic/sexual attraction, making the affair context unclear
 
 **Changes made:**
 - Fixed "kin" → "relatives"
 - Fixed "handpump or well" → "well"
 - Removed the simile
+- Rewrote sibling paragraph: "After Sitaram came more children. Kanhaiya was born in 1632 and died within days. Mohan arrived in 1634 and lasted less than a month. Shivram, born in 1636, lived a full year before fever took him in 1637."
+- Moved Kallu relationship to immediately after marriage (1654) where it chronologically belongs
+- Added continuity reference during debt crisis years (1668-1670)
+- Added ending of relationship in 1676 after Ramcharan's death
+- Introduced Kallu as "a man from another village" on first mention
+- Changed "a youth from a neighboring hamlet" → "another young man from a neighboring hamlet"
+- Added to marriage paragraph: "Sitaram treated her with steady courtesy but without desire" and "They shared a bed when the household expected it, and children came"
 
 ---
 
