@@ -3,280 +3,32 @@ layout: default
 title: Home
 ---
 
-<div class="home">
-  <h1>Random Lives</h1>
-  <p class="intro">
-    Biographical stories of randomly sampled people from across all of human history,
-    weighted by actual birth numbers. Explore lives from 200,000 BCE to present.
-  </p>
+<div class="landing">
+  <div class="landing-content">
+    <h1 class="landing-title">Random Lives</h1>
 
-  <div class="filters">
-    <h3>Filter by:</h3>
-    <div class="filter-row">
-      <label>
-        Born after:
-        <input type="text" id="filter-year-start" placeholder="e.g. 10000 BC" style="width: 100px;">
-      </label>
+    <a href="#" class="landing-btn landing-btn-primary" id="random-life-btn">Random life</a>
 
-      <label>
-        Born before:
-        <input type="text" id="filter-year-end" placeholder="e.g. 500 AD" style="width: 100px;">
-      </label>
-
-      <div class="filter-tags" id="filter-sex">
-        <span class="filter-label">Sex:</span>
-        <button type="button" class="tag" data-value="M">Male</button>
-        <button type="button" class="tag" data-value="F">Female</button>
-      </div>
-    </div>
-
-    <div class="filter-row">
-      <div class="filter-tags" id="filter-continent">
-        <span class="filter-label">Continent:</span>
-        <button type="button" class="tag" data-value="Africa">Africa</button>
-        <button type="button" class="tag" data-value="Asia">Asia</button>
-        <button type="button" class="tag" data-value="Europe">Europe</button>
-        <button type="button" class="tag" data-value="North America">N. America</button>
-        <button type="button" class="tag" data-value="South America">S. America</button>
-        <button type="button" class="tag" data-value="Oceania">Oceania</button>
-      </div>
-    </div>
-
-    <div class="filter-row">
-      <div class="filter-tags" id="filter-age">
-        <span class="filter-label">Age:</span>
-        <button type="button" class="tag" data-value="Alive">Alive</button>
-        <button type="button" class="tag" data-value="Infant (0–1)">Infant</button>
-        <button type="button" class="tag" data-value="Child (2–10)">Child</button>
-        <button type="button" class="tag" data-value="Adolescent (11–18)">Adolescent</button>
-        <button type="button" class="tag" data-value="Adult (19–49)">Adult</button>
-        <button type="button" class="tag" data-value="Elder (50+)">Elder</button>
-      </div>
-    </div>
-
-    <div class="filter-row">
-      <div class="filter-tags" id="filter-lifestyle">
-        <span class="filter-label">Lifestyle:</span>
-        <button type="button" class="tag" data-value="Hunter-Gatherer">Hunter-Gatherer</button>
-        <button type="button" class="tag" data-value="Rural">Rural</button>
-        <button type="button" class="tag" data-value="Urban">Urban</button>
-      </div>
-    </div>
-
-    <div class="filter-row">
-      <div class="filter-tags filter-tags-single" id="sort-order">
-        <span class="filter-label">Sort:</span>
-        <button type="button" class="tag selected" data-value="default">Default</button>
-        <button type="button" class="tag" data-value="chronological">Oldest first</button>
-        <button type="button" class="tag" data-value="reverse">Newest first</button>
-        <button type="button" class="tag" data-value="random">Random</button>
-      </div>
-    </div>
-    <div class="filter-stats">
-      Showing <span id="visible-count">0</span> of <span id="total-count">0</span> lives
-    </div>
-  </div>
-
-  <div class="lives-list">
-    <h2>Lives</h2>
-    {% for life in site.lives %}
-      <article class="life-preview"
-               data-birth-year="{{ life.birth_year_numeric }}"
-               data-continent="{{ life.continent }}"
-               data-age="{{ life.age_tag }}"
-               data-sex="{{ life.sex }}"
-               data-lifestyle="{{ life.lifestyle }}"
-               data-country="{{ life.country }}">
-        <h3><a href="{{ life.url | relative_url }}">{{ life.title }}</a></h3>
-        <div class="meta">
-          <span class="years">{% if life.birth_year == life.death_year %}{{ life.birth_year }}{% else %}{{ life.birth_year }} – {{ life.death_year }}{% endif %}</span>
-          {% if life.region %}<span class="region">{{ life.region }}</span>{% endif %}
-          {% if life.country %}<span class="country">{{ life.country }}</span>{% endif %}
-          <span class="lifestyle">{{ life.lifestyle }}</span>
-        </div>
-        <p class="excerpt">{{ life.excerpt | strip_html | truncatewords: 50 }}</p>
-      </article>
-    {% endfor %}
+    <a href="{{ '/lives' | relative_url }}" class="landing-link">See all lives</a>
   </div>
 </div>
 
 <script>
 (function() {
-  const filters = {
-    yearStart: document.getElementById('filter-year-start'),
-    yearEnd: document.getElementById('filter-year-end')
-  };
+  // Collect all life URLs
+  const lifeUrls = [
+    {% for life in site.lives %}
+      "{{ life.url | relative_url }}"{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
 
-  // Tag filter groups (multi-select)
-  const tagFilters = {
-    sex: document.getElementById('filter-sex'),
-    continent: document.getElementById('filter-continent'),
-    age: document.getElementById('filter-age'),
-    lifestyle: document.getElementById('filter-lifestyle')
-  };
-
-  // Single-select tag group for sorting
-  const sortOrderContainer = document.getElementById('sort-order');
-
-  // Get selected values from a tag group
-  function getSelectedTags(container) {
-    const selected = container.querySelectorAll('.tag.selected');
-    return Array.from(selected).map(btn => btn.dataset.value);
-  }
-
-  // Get selected value from single-select tag group
-  function getSelectedTag(container) {
-    const selected = container.querySelector('.tag.selected');
-    return selected ? selected.dataset.value : null;
-  }
-
-  // Setup tag filter click handlers
-  function setupTagFilters() {
-    Object.values(tagFilters).forEach(container => {
-      container.querySelectorAll('.tag').forEach(btn => {
-        btn.addEventListener('click', () => {
-          btn.classList.toggle('selected');
-          applyFilters();
-        });
-      });
-    });
-  }
-
-  // Setup single-select sort buttons
-  function setupSortButtons() {
-    sortOrderContainer.querySelectorAll('.tag').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const wasSelected = btn.classList.contains('selected');
-        const isRandom = btn.dataset.value === 'random';
-
-        // Remove selected from all
-        sortOrderContainer.querySelectorAll('.tag').forEach(b => b.classList.remove('selected'));
-        // Select clicked one
-        btn.classList.add('selected');
-
-        // Apply sorting (re-randomize if clicking random again)
-        if (isRandom || !wasSelected) {
-          applySorting();
-        }
-      });
-    });
-  }
-  const livesList = document.querySelector('.lives-list');
-  const articles = Array.from(document.querySelectorAll('.life-preview'));
-  const originalOrder = articles.slice(); // Preserve original DOM order
-  const visibleCount = document.getElementById('visible-count');
-  const totalCount = document.getElementById('total-count');
-
-  totalCount.textContent = articles.length;
-
-  // Parse year string like "500 AD", "10000 BC", "1990" into numeric year
-  function parseYear(str) {
-    if (!str || !str.trim()) return null;
-    str = str.trim().toUpperCase();
-
-    // Handle plain numbers (assume AD if positive)
-    const plainNum = parseInt(str, 10);
-    if (!isNaN(plainNum) && str.match(/^-?\d+$/)) {
-      return plainNum;
+  // Random life button
+  document.getElementById('random-life-btn').addEventListener('click', function(e) {
+    e.preventDefault();
+    if (lifeUrls.length > 0) {
+      const randomIndex = Math.floor(Math.random() * lifeUrls.length);
+      window.location.href = lifeUrls[randomIndex];
     }
-
-    // Handle "X BC" or "X BCE"
-    const bcMatch = str.match(/^(\d+)\s*(BC|BCE)$/i);
-    if (bcMatch) {
-      return -parseInt(bcMatch[1], 10);
-    }
-
-    // Handle "X AD" or "X CE"
-    const adMatch = str.match(/^(\d+)\s*(AD|CE)$/i);
-    if (adMatch) {
-      return parseInt(adMatch[1], 10);
-    }
-
-    return null;
-  }
-
-  // Get birth year for sorting
-  function getBirthYear(article) {
-    return parseInt(article.dataset.birthYear, 10);
-  }
-
-  // Shuffle array (Fisher-Yates)
-  function shuffle(array) {
-    const arr = array.slice();
-    for (let i = arr.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [arr[i], arr[j]] = [arr[j], arr[i]];
-    }
-    return arr;
-  }
-
-  function applySorting() {
-    const order = getSelectedTag(sortOrderContainer) || 'default';
-    let sorted;
-
-    if (order === 'default') {
-      sorted = originalOrder;
-    } else if (order === 'random') {
-      sorted = shuffle(articles);
-    } else {
-      sorted = articles.slice().sort((a, b) => {
-        const yearA = getBirthYear(a);
-        const yearB = getBirthYear(b);
-        if (isNaN(yearA) && isNaN(yearB)) return 0;
-        if (isNaN(yearA)) return 1;
-        if (isNaN(yearB)) return -1;
-        return order === 'chronological' ? yearA - yearB : yearB - yearA;
-      });
-    }
-
-    sorted.forEach(article => livesList.appendChild(article));
-  }
-
-  function applyFilters() {
-    let visible = 0;
-
-    const yearStart = parseYear(filters.yearStart.value);
-    const yearEnd = parseYear(filters.yearEnd.value);
-
-    // Get selected tag values (empty array means "all")
-    const selectedSexes = getSelectedTags(tagFilters.sex);
-    const selectedContinents = getSelectedTags(tagFilters.continent);
-    const selectedAges = getSelectedTags(tagFilters.age);
-    const selectedLifestyles = getSelectedTags(tagFilters.lifestyle);
-
-    articles.forEach(article => {
-      const birthYear = parseInt(article.dataset.birthYear, 10);
-
-      const matchYearStart = yearStart === null || isNaN(birthYear) || birthYear >= yearStart;
-      const matchYearEnd = yearEnd === null || isNaN(birthYear) || birthYear <= yearEnd;
-      const matchSex = selectedSexes.length === 0 || selectedSexes.includes(article.dataset.sex);
-      const matchContinent = selectedContinents.length === 0 || selectedContinents.includes(article.dataset.continent);
-      const matchAge = selectedAges.length === 0 || selectedAges.includes(article.dataset.age);
-      const matchLifestyle = selectedLifestyles.length === 0 || selectedLifestyles.includes(article.dataset.lifestyle);
-
-      if (matchYearStart && matchYearEnd && matchContinent && matchAge && matchSex && matchLifestyle) {
-        article.style.display = '';
-        visible++;
-      } else {
-        article.style.display = 'none';
-      }
-    });
-
-    visibleCount.textContent = visible;
-  }
-
-  // Initial state
-  applyFilters();
-
-  // Add event listeners for text input filters
-  Object.values(filters).forEach(filter => {
-    filter.addEventListener('input', applyFilters);
   });
-
-  // Setup tag filter click handlers
-  setupTagFilters();
-
-  // Setup sort button click handlers
-  setupSortButtons();
 })();
 </script>

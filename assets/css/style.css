@@ -51,7 +51,57 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Home page */
+/* Landing page */
+.landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  text-align: center;
+}
+
+.landing-content {
+  max-width: 600px;
+}
+
+.landing-title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.landing-btn {
+  display: inline-block;
+  padding: 14px 32px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: all 0.2s;
+  margin-bottom: 20px;
+}
+
+.landing-btn-primary {
+  background: #0066cc;
+  color: white;
+}
+
+.landing-btn-primary:hover {
+  background: #0052a3;
+}
+
+.landing-link {
+  display: block;
+  font-size: 0.95rem;
+  color: #666;
+  text-decoration: none;
+}
+
+.landing-link:hover {
+  color: #0066cc;
+  text-decoration: underline;
+}
+
+/* Home page (lives list) */
 .home {
   max-width: 900px;
 }

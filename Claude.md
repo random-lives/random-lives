@@ -21,13 +21,13 @@ The sampling is **truly random** weighted by historical birth rates, which means
 
 **Pipeline**: Production-ready. The generation pipeline (`person.py`, `generation.py`) is stable and produces good quality narratives. Further refinement has diminishing returns.
 
-**Stories**: 30 generated stories in `_lives/`. These need post-generation review/editing before launch.
+**Stories**: 100 generated and reviewed stories in `_lives/`. The review skill (`.claude/skills/review-stories.md`) is working well.
 
 **Next steps**:
-1. Develop post-generation editing workflow (Claude Code reviews and edits stories)
-2. Generate 100 stories (MVP target)
-3. Website design and methodology page
-4. Launch
+1. Website design improvements (landing page, navigation)
+2. Methodology page (for credibility at launch)
+3. Launch
+4. Consider scaling to more stories post-launch
 
 See [Roadmap](#roadmap) for full details.
 
@@ -43,12 +43,15 @@ RandomLivesWebsite/
 │   ├── default.html         # Base page template
 │   └── life.html            # Template for individual biographical pages
 ├── _lives/                  # Biographical stories (Markdown files)
-│   └── example-person.md
+│   ├── example-person.md
+│   └── REVIEW_LOG.md        # Log of story reviews and edits
 ├── assets/css/
 │   └── style.css            # Site styling
 ├── index.html               # Homepage (lists all lives)
 ├── about.md                 # About page
-├── ISSUE_TRACKER.md         # Narrative review patterns and recurring issues
+├── .claude/
+│   └── skills/
+│       └── review-stories.md  # Story review workflow skill
 ├── generating_code/         # Python generation pipeline
 │   ├── person.py            # Person sampling and representation
 │   ├── location.py          # Geographic utilities
@@ -421,11 +424,12 @@ The markdown files in `_lives/` are **generated outputs** from the Python pipeli
 
 1. **Generation phase**: Stories are generated via the Python pipeline and exported to `_lives/`. During this phase, don't edit the markdown files directly—fix issues in the pipeline instead.
 
-2. **Post-generation editing phase**: Once a batch is generated and exported, Claude Code reviews and edits stories for:
-   - AI-slop phrases
-   - Naming issues
-   - Trait visibility
-   - Other quality issues flagged in ISSUE_TRACKER.md
+2. **Post-generation editing phase**: Once a batch is generated and exported, Claude Code reviews and edits stories using the `review-stories` skill:
+   - Family structure and death coverage
+   - Chronology and temporal consistency
+   - AI-slop phrases and figurative language
+   - Naming issues and trait visibility
+   - See `.claude/skills/review-stories.md` for full checklist
 
 **DO:**
 - Edit Python scripts in `generating_code/` for systemic issues
@@ -532,10 +536,11 @@ Each biographical page (`_layouts/life.html`) includes navigation buttons:
 - `generating_code/export.py` - Export to markdown
 
 ### Quality Control
-- `ISSUE_TRACKER.md` - Tracks recurring narrative issues and patterns found during batch review
-  - Check before generating new batches to review current priorities
-  - Update after reviewing generated narratives
-  - Prioritizes issues (high/medium/low) and tracks resolution across batches
+- `.claude/skills/review-stories.md` - Story review workflow skill
+  - Invoke by asking Claude Code to "review a story" or "check a story for issues"
+  - Comprehensive checklist for family structure, chronology, AI-slop, anachronisms, etc.
+  - Creates/updates `_lives/REVIEW_LOG.md` with issues found and changes made
+  - See the skill file for full documentation of what to look for
 
 ---
 
@@ -556,10 +561,10 @@ Each biographical page (`_layouts/life.html`) includes navigation buttons:
 - [x] Improved naming prompt (temporal/ethnic/class precision)
 
 ### Phase 3: MVP Launch ← CURRENT FOCUS
-- [ ] Post-generation editing workflow (Claude Code review/edit of stories)
-- [ ] Dry run: edit existing 30 stories
-- [ ] Generate 100 stories (MVP target)
-- [ ] Edit 100 stories via post-generation workflow
+- [x] Post-generation editing workflow (Claude Code review/edit of stories)
+- [x] Dry run: edit existing 30 stories
+- [x] Generate 100 stories (MVP target)
+- [x] Edit 100 stories via post-generation workflow
 - [ ] Website design improvements (landing page, navigation)
 - [ ] Methodology page (for credibility at launch)
 - [ ] Data visualizations (timeline, map) - nice to have
