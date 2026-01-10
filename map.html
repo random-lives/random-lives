@@ -53,9 +53,57 @@ title: Map View
   font-size: 0.85rem;
 }
 
+.map-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.map-controls label {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.map-controls select {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  background: #fff;
+  cursor: pointer;
+}
+
+.legend {
+  display: flex;
+  gap: 16px;
+  font-size: 0.85rem;
+  color: #555;
+  margin-left: 16px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
 @media (max-width: 600px) {
   #world-map {
     height: 400px;
+  }
+  .legend {
+    margin-left: 0;
+    margin-top: 8px;
+    width: 100%;
   }
 }
 </style>
@@ -63,6 +111,16 @@ title: Map View
 <div class="map-view">
   <h1>Map View</h1>
   <p class="intro">Explore all {{ site.lives.size }} lives by location. Click a marker to read their story.</p>
+
+  <div class="map-controls">
+    <label>Color by:</label>
+    <select id="color-by">
+      <option value="none">None (all black)</option>
+      <option value="age">Age at death</option>
+      <option value="era">Era</option>
+    </select>
+    <div id="legend" class="legend"></div>
+  </div>
 
   <div id="world-map"></div>
 </div>
@@ -92,12 +150,49 @@ title: Map View
       lng: {{ life.longitude }},
       url: "{{ life.url | relative_url }}",
       years: "{% if life.birth_year == life.death_year %}{{ life.birth_year }}{% else %}{{ life.birth_year }} – {{ life.death_year }}{% endif %}",
-      country: "{{ life.country | escape }}"
+      country: "{{ life.country | escape }}",
+      birthYear: {{ life.birth_year_numeric }},
+      ageTag: "{{ life.age_tag }}"
     }
     {% endif %}
     {% endfor %}
   ];
 
+  // Color schemes
+  const ageColors = {
+    'Alive': '#22c55e',
+    'Infant (0–1)': '#ef4444',
+    'Child (2–10)': '#f97316',
+    'Adolescent (11–18)': '#eab308',
+    'Adult (19–49)': '#3b82f6',
+    'Elder (50+)': '#8b5cf6'
+  };
+
+  const eraColors = {
+    'Ancient': '#a855f7',      // before 500 AD
+    'Medieval': '#6366f1',     // 500-1500
+    'Early Modern': '#0ea5e9', // 1500-1800
+    'Modern': '#22c55e'        // 1800+
+  };
+
+  function getEra(birthYear) {
+    if (birthYear < 500) return 'Ancient';
+    if (birthYear < 1500) return 'Medieval';
+    if (birthYear < 1800) return 'Early Modern';
+    return 'Modern';
+  }
+
+  function getColor(life, colorBy) {
+    if (colorBy === 'age') {
+      return ageColors[life.ageTag] || '#000';
+    } else if (colorBy === 'era') {
+      return eraColors[getEra(life.birthYear)] || '#000';
+    }
+    return '#000';
+  }
+
+  // Create markers
+  const markers = [];
   lives.forEach(life => {
     const marker = L.circleMarker([life.lat, life.lng], {
       radius: 5,
@@ -117,6 +212,37 @@ title: Map View
     `);
 
     marker.bindPopup(popup);
+    markers.push({ marker, life });
+  });
+
+  // Update colors
+  function updateColors(colorBy) {
+    markers.forEach(({ marker, life }) => {
+      marker.setStyle({ fillColor: getColor(life, colorBy) });
+    });
+    updateLegend(colorBy);
+  }
+
+  // Update legend
+  function updateLegend(colorBy) {
+    const legend = document.getElementById('legend');
+    if (colorBy === 'none') {
+      legend.innerHTML = '';
+      return;
+    }
+
+    const colors = colorBy === 'age' ? ageColors : eraColors;
+    legend.innerHTML = Object.entries(colors).map(([label, color]) => `
+      <div class="legend-item">
+        <span class="legend-dot" style="background: ${color}"></span>
+        <span>${label}</span>
+      </div>
+    `).join('');
+  }
+
+  // Event listener
+  document.getElementById('color-by').addEventListener('change', (e) => {
+    updateColors(e.target.value);
   });
 })();
 </script>
