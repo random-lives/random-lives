@@ -21,13 +21,17 @@ The sampling is **truly random** weighted by historical birth rates, which means
 
 **Pipeline**: Production-ready. The generation pipeline (`person.py`, `generation.py`) is stable and produces good quality narratives. Further refinement has diminishing returns.
 
-**Stories**: 100 generated and reviewed stories in `_lives/`. The review skill (`.claude/skills/review-stories.md`) is working well.
+**Stories**: 250 total stories generated:
+- 100 reviewed stories in `_lives/` (0000-0099)
+- 150 pending review in `_lives_pending/` (0100-0249)
+
+The review skill (`.claude/skills/review-stories.md`) is working well.
 
 **Next steps**:
-1. Website design improvements (landing page, navigation)
-2. Methodology page (for credibility at launch)
-3. Launch
-4. Consider scaling to more stories post-launch
+1. Review stories 0100-0249 using the review skill
+2. Website design improvements (landing page, navigation)
+3. Methodology page (for credibility at launch)
+4. Launch
 
 See [Roadmap](#roadmap) for full details.
 
@@ -42,9 +46,10 @@ RandomLivesWebsite/
 ├── _layouts/
 │   ├── default.html         # Base page template
 │   └── life.html            # Template for individual biographical pages
-├── _lives/                  # Biographical stories (Markdown files)
+├── _lives/                  # Reviewed biographical stories (0000-0099)
 │   ├── example-person.md
 │   └── REVIEW_LOG.md        # Log of story reviews and edits
+├── _lives_pending/          # Stories pending review (0100-0249)
 ├── assets/css/
 │   └── style.css            # Site styling
 ├── index.html               # Homepage (lists all lives)
@@ -540,7 +545,9 @@ The map page (`map.html`) displays all Holocene lives on a world map using Leafl
 - `_layouts/life.html` - Template for biographical pages
 - `assets/css/style.css` - All styling
 - `index.html` - Homepage layout
+- `lives.html` - Lives list with filtering
 - `map.html` - Map view with Leaflet.js
+- `timeline.html` - Timeline view with zoom/pan
 - `about.md` - About page
 
 ### Generation Scripts
@@ -578,9 +585,12 @@ The map page (`map.html`) displays all Holocene lives on a world map using Leafl
 - [x] Dry run: edit existing 30 stories
 - [x] Generate 100 stories (MVP target)
 - [x] Edit 100 stories via post-generation workflow
+- [x] Generate 150 more stories (0100-0249) - pending review in `_lives_pending/`
+- [ ] Review stories 0100-0249
 - [ ] Website design improvements (landing page, navigation)
 - [ ] Methodology page (for credibility at launch)
 - [x] Map view (Leaflet world map with era/age coloring)
+- [x] Timeline view (interactive zoom/pan timeline)
 
 ### Phase 4: Post-Launch Content
 - [ ] Blog series:
