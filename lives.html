@@ -10,67 +10,55 @@ title: All Lives
   </p>
 
   <div class="filters">
-    <h3>Filter by:</h3>
-    <div class="filter-row">
-      <label>
+    <div class="filter-row" id="filter-sex">
+      <span class="filter-label">Sex:</span>
+      <button type="button" class="tag" data-value="M">Male</button>
+      <button type="button" class="tag" data-value="F">Female</button>
+      <label style="margin-left: 16px;">
         Born after:
         <input type="text" id="filter-year-start" placeholder="e.g. 10000 BC" style="width: 100px;">
       </label>
-
       <label>
         Born before:
         <input type="text" id="filter-year-end" placeholder="e.g. 500 AD" style="width: 100px;">
       </label>
-
-      <div class="filter-tags" id="filter-sex">
-        <span class="filter-label">Sex:</span>
-        <button type="button" class="tag" data-value="M">Male</button>
-        <button type="button" class="tag" data-value="F">Female</button>
-      </div>
     </div>
 
-    <div class="filter-row">
-      <div class="filter-tags" id="filter-continent">
-        <span class="filter-label">Continent:</span>
-        <button type="button" class="tag" data-value="Africa">Africa</button>
-        <button type="button" class="tag" data-value="Asia">Asia</button>
-        <button type="button" class="tag" data-value="Europe">Europe</button>
-        <button type="button" class="tag" data-value="North America">N. America</button>
-        <button type="button" class="tag" data-value="South America">S. America</button>
-        <button type="button" class="tag" data-value="Oceania">Oceania</button>
-      </div>
+    <div class="filter-row" id="filter-continent">
+      <span class="filter-label">Continent:</span>
+      <button type="button" class="tag" data-value="Africa">Africa</button>
+      <button type="button" class="tag" data-value="Asia">Asia</button>
+      <button type="button" class="tag" data-value="Europe">Europe</button>
+      <button type="button" class="tag" data-value="North America">N. America</button>
+      <button type="button" class="tag" data-value="South America">S. America</button>
+      <button type="button" class="tag" data-value="Oceania">Oceania</button>
     </div>
 
-    <div class="filter-row">
-      <div class="filter-tags" id="filter-age">
-        <span class="filter-label">Age:</span>
-        <button type="button" class="tag" data-value="Alive">Alive</button>
-        <button type="button" class="tag" data-value="Infant (0–1)">Infant</button>
-        <button type="button" class="tag" data-value="Child (2–10)">Child</button>
-        <button type="button" class="tag" data-value="Adolescent (11–18)">Adolescent</button>
-        <button type="button" class="tag" data-value="Adult (19–49)">Adult</button>
-        <button type="button" class="tag" data-value="Elder (50+)">Elder</button>
-      </div>
+    <div class="filter-row" id="filter-age">
+      <span class="filter-label">Age:</span>
+      <button type="button" class="tag" data-value="Alive">Alive</button>
+      <button type="button" class="tag" data-value="Infant (0–1)">Infant</button>
+      <button type="button" class="tag" data-value="Child (2–10)">Child</button>
+      <button type="button" class="tag" data-value="Adolescent (11–18)">Adolescent</button>
+      <button type="button" class="tag" data-value="Adult (19–49)">Adult</button>
+      <button type="button" class="tag" data-value="Elder (50+)">Elder</button>
     </div>
 
-    <div class="filter-row">
-      <div class="filter-tags" id="filter-lifestyle">
-        <span class="filter-label">Lifestyle:</span>
-        <button type="button" class="tag" data-value="Hunter-Gatherer">Hunter-Gatherer</button>
-        <button type="button" class="tag" data-value="Rural">Rural</button>
-        <button type="button" class="tag" data-value="Urban">Urban</button>
-      </div>
+    <div class="filter-row" id="filter-lifestyle">
+      <span class="filter-label">Lifestyle:</span>
+      <button type="button" class="tag" data-value="Hunter-Gatherer">Hunter-Gatherer</button>
+      <button type="button" class="tag" data-value="Rural">Rural</button>
+      <button type="button" class="tag" data-value="Urban">Urban</button>
     </div>
 
-    <div class="filter-row">
-      <div class="filter-tags filter-tags-single" id="sort-order">
-        <span class="filter-label">Sort:</span>
-        <button type="button" class="tag selected" data-value="default">Default</button>
-        <button type="button" class="tag" data-value="chronological">Oldest first</button>
-        <button type="button" class="tag" data-value="reverse">Newest first</button>
-        <button type="button" class="tag" data-value="random">Random</button>
-      </div>
+    <div class="filter-row" id="sort-order">
+      <span class="filter-label">Sort:</span>
+      <button type="button" class="tag selected" data-value="default">Default</button>
+      <button type="button" class="tag" data-value="chronological">Oldest first</button>
+      <button type="button" class="tag" data-value="reverse">Newest first</button>
+      <button type="button" class="tag" data-value="random">Random</button>
     </div>
+
     <div class="filter-stats">
       Showing <span id="visible-count">0</span> of <span id="total-count">0</span> lives
     </div>
@@ -105,7 +93,7 @@ title: All Lives
     yearEnd: document.getElementById('filter-year-end')
   };
 
-  // Tag filter groups (multi-select)
+  // Tag filter groups (multi-select) - now directly on the filter-row elements
   const tagFilters = {
     sex: document.getElementById('filter-sex'),
     continent: document.getElementById('filter-continent'),
@@ -113,7 +101,7 @@ title: All Lives
     lifestyle: document.getElementById('filter-lifestyle')
   };
 
-  // Single-select tag group for sorting
+  // Single-select tag group for sorting - now directly on filter-row
   const sortOrderContainer = document.getElementById('sort-order');
 
   // Get selected values from a tag group
