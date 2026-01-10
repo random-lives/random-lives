@@ -8,7 +8,6 @@ age_at_death: 3
 birth_date: "December 13, 340 AD"
 death_date: "December 7, 344 AD"
 location: "Motipur, Darbhanga, Bihar, India"
-location_original: "Motipur, Alinagar, Darbhanga, Bihar, 847201, India"
 country: "India"
 latitude: 26.07
 longitude: 86.19
@@ -48,7 +47,7 @@ continent: "Asia"
 # Death date: December 7, 344 AD
 # Era: Holocene
 # Lifestyle: Urban
-# Name: Nathu
+# Name: Harsha
 # Naming category: attested
 # Sex: M
 # birth_order_position: 1
@@ -68,117 +67,116 @@ continent: "Asia"
 # narrative_plan:
 #   caretakers:
 #   - death_year: null
-#     name: Budha
-#     narrative_role: Casual laborer/porter; often exhausted and sometimes away for
-#       day work, but emotionally invested in the firstborn. Relationship likely practical
-#       and affectionate in brief moments (carrying Nathu, bringing small treats),
-#       constrained by poverty and irregular employment.
+#     name: Deva
+#     narrative_role: Casual urban laborer/porter; affectionate in short bursts (lifting
+#       Harsha, bringing scraps of food), otherwise constrained by fatigue and the need
+#       to secure day wages.
 #     role: father
 #   - death_year: null
-#     name: Malli
-#     narrative_role: Laundry/cleaning worker; primary day-to-day caregiver. Relationship
-#       likely close and tactile (constant holding, feeding, bathing), with high anxiety
-#       about illness given prior/ongoing infant losses.
+#     name: Gauri
+#     narrative_role: Laundry/cleaning worker; primary caregiver, nursing and weaning
+#       Harsha while working. Sets out small food offerings for monks when possible
+#       and seeks remedies quickly when illness starts.
 #     role: mother
 #   - death_year: null
-#     name: Masu
-#     narrative_role: Senior woman in the joint household; manages routine domestic
-#       order, traditional remedies, and protective rites. Likely a steady presence
-#       and authority figure in Nathu’s early life.
+#     name: Soma
+#     narrative_role: 'Runs household routines (hearth, water storage, basic remedies).
+#       Handles protective rites: tying threads, applying soot-dot, keeping Harsha close
+#       when outsiders visit.'
 #     role: paternal grandmother (co-resident)
 #   - death_year: null
-#     name: Kalu
-#     narrative_role: Elder male with limited earning capacity; provides supervision,
-#       social connections, and decisions about seeking help (monastery alms, healer,
-#       water source). Relationship with Nathu likely indulgent but less hands-on.
+#     name: Bhima
+#     narrative_role: Supervises and decides practical steps in crises (which healer,
+#       whether to seek monastery gruel). Warm but brusque; the toddler learns to avoid
+#       his hands when he is angry.
 #     role: paternal grandfather (co-resident)
+#   developmental_moments:
+#   - age: 1 year (341)
+#     detail: Harsha pulls up on a storage jar, toddles between Soma’s knees and Gauri’s
+#       outstretched hands, then sits hard and laughs; Soma claps once and warns him
+#       away from the cooking fire.
+#     moment: Learning to walk in the shared courtyard
+#   - age: 2 years (342)
+#     detail: At the pond edge where Gauri washes cloth, Harsha grips a smooth broken
+#       potsherd, taps it against a stone, and repeats a clipped word for water; he
+#       points insistently at the clay pot when he wants a drink.
+#     moment: A favorite object and early words at the washing place
 #   other_named_characters:
 #   - name: Ananda
 #     prominence: medium
-#     relationship: local monk/alms-contact at a nearby monastery or stupa site
+#     relationship: monk who receives alms nearby and recites protective verses when
+#       asked
 #   - name: Kala
 #     prominence: low
-#     relationship: neighbor woman who sometimes shares water/child-minding or gossip
-#       in the washing area
+#     relationship: neighbor washerwoman who sometimes watches Harsha while Gauri scrubs
+#   personality_manifestations: []
 #   siblings:
-#   - alive_when_protagonist_born: true
-#     alive_when_protagonist_died: false
+#   - alive_during_harsha_life: true
 #     birth_year: 340
 #     death_age: 3
 #     death_year: 344
-#     name: Nathu
-#     narrative_role: Eldest child; briefly the focus of the household’s hopes. As a
-#       toddler he would have been carried everywhere, soothed by women’s work rhythms
-#       (washing, water-drawing), and watched by younger aunts/uncles in the joint home.
-#       His death becomes a reference point for the family’s later births and losses.
+#     name: Harsha
+#     narrative_role: Firstborn; the household’s main small child for three years, carried
+#       between work sites and home. His needs and illnesses set the rhythm for the
+#       adults’ choices about food, water, and seeking help.
 #     sex: M
-#   - alive_when_protagonist_born: false
-#     alive_when_protagonist_died: false
+#   - alive_during_harsha_life: true
 #     birth_year: 342
 #     death_age: 0
 #     death_year: 342
-#     name: Munni
-#     narrative_role: Infant sister born after Nathu; died in infancy. Not a remembered
-#       companion, but her brief life would have shaped the mother’s fears and protective
-#       rituals around Nathu.
+#     name: Kamala
+#     narrative_role: Infant sister whose birth and quick death tighten the family’s
+#       fear of childhood sickness; prompts protective threads/charms and more frequent
+#       monastery visits.
 #     sex: F
-#   - alive_when_protagonist_born: false
-#     alive_when_protagonist_died: true
+#   - alive_during_harsha_life: true
 #     birth_year: 343
 #     death_age: 16
 #     death_year: 359
-#     name: Gehuli
-#     narrative_role: Younger sister born when Nathu was about three. Too young to
-#       have real memories of him, but she grows up hearing stories about the firstborn.
-#       Later she likely helps raise younger siblings in the household before dying
-#       as a teenager.
+#     name: Sita
+#     narrative_role: New baby in Harsha’s last year; becomes a point of attention and
+#       mild rivalry (being shooed away from nursing, being told to be quiet). Too young
+#       to remember him clearly, but her infancy overlaps his final months.
 #     sex: F
-#   - alive_when_protagonist_born: false
-#     alive_when_protagonist_died: false
+#   - alive_during_harsha_life: false
 #     birth_year: 345
 #     death_age: 0
 #     death_year: 345
-#     name: Chunnu
-#     narrative_role: Brother born after Nathu’s death; dies in infancy. His loss reinforces
-#       the family’s sense of fragile childhood and repeated mourning.
+#     name: Nanda
+#     narrative_role: Born after Harsha’s death; another infant loss that reinforces
+#       a household pattern of short lives and repeated postpartum mourning.
 #     sex: M
-#   - alive_when_protagonist_born: false
-#     alive_when_protagonist_died: true
+#   - alive_during_harsha_life: false
 #     birth_year: 346
 #     death_age: 57
 #     death_year: 403
-#     name: Dhanu
-#     narrative_role: Surviving brother who becomes a long-lived anchor of the sibling
-#       set. In later family memory, he is the one who 'carried forward' what the firstborn
-#       could not—work, obligations, and care for aging parents.
+#     name: Datta
+#     narrative_role: Born into a family already marked by Harsha’s death; later becomes
+#       the long-lived working son who supports remaining kin and carries family obligations.
 #     sex: M
-#   - alive_when_protagonist_born: false
-#     alive_when_protagonist_died: false
+#   - alive_during_harsha_life: false
 #     birth_year: 348
 #     death_age: 4
 #     death_year: 352
-#     name: Tiku
-#     narrative_role: Younger brother born years after Nathu; dies at four. Another
-#       child death that would have kept household practices focused on protective rites,
-#       food taboos, and seeking help from monks/healers.
+#     name: Bala
+#     narrative_role: Later child who survives toddlerhood briefly; his death keeps
+#       the household focused on water safety, food scarcity, and ritual protections.
 #     sex: M
-#   - alive_when_protagonist_born: false
-#     alive_when_protagonist_died: false
+#   - alive_during_harsha_life: false
 #     birth_year: 350
 #     death_age: 0
 #     death_year: 350
-#     name: Tulsi
-#     narrative_role: Infant sister who dies very young. Her existence may be marked
-#       only by a brief period of postpartum confinement and mourning among the women.
+#     name: Lalita
+#     narrative_role: Infant sister born years later; short life, remembered mainly
+#       through women’s labor disruptions and mourning rites.
 #     sex: F
-#   - alive_when_protagonist_born: false
-#     alive_when_protagonist_died: false
+#   - alive_during_harsha_life: false
 #     birth_year: 352
 #     death_age: 15
 #     death_year: 367
-#     name: Phula
-#     narrative_role: Youngest sister; grows up in the shadow of multiple early deaths.
-#       Likely takes on chores early in a poor joint household before dying in adolescence.
+#     name: Maya
+#     narrative_role: Youngest; grows up with older sister Sita as her main sibling
+#       companion and helper before dying in adolescence.
 #     sex: F
 # number_of_siblings: '7'
 # religion: Buddhist lay practice (visiting stupas/monasteries, giving alms to monks,
@@ -201,12 +199,16 @@ continent: "Asia"
 # - F
 ---
 
-Nathu was born in December 340 in the low, wet plains of north Bihar, where Gupta officials collected revenue through local headmen and towns drew people in for work. His family spoke an Indo-Aryan vernacular at home and kept ties to a nearby Buddhist monastery; monks came on alms rounds, and his mother, Malli, set out a pinch of cooked rice or a small ladle of lentils when she had it.
+Nathu was born in December 340 in the towns and market villages of north Bihar under Gupta rule, where taxes and disputes moved through local officials and patrons. His family spoke an Indo-Aryan vernacular and lived as Buddhist laypeople. When a monk passed with his bowl, Malli put out a pinch of cooked rice, and Kalu touched his forehead to the ground before going back to arguing over the price of firewood.
 
-The household was crowded with relatives. Nathu’s father, Budha, left before daylight to find carrying work—lifting bundles in the market, hauling bricks, walking behind an ox cart for a day’s wage. Malli washed other people’s cloth at a pond edge and scrubbed courtyards for coins and leftover food. Paternal grandmother Masu ran the cooking fire and stored water in a clay pot; grandfather Kalu argued about which well to use and when to ask the monastery for gruel.
+The house held several generations. Budha slept near the doorway so he could leave early for day work, taking loads on his back or pushing carts for other men. Masu ran the hearth and guarded the water pot. Malli earned a little by washing cloth and scrubbing other people's courtyards, her hands rough from ash and sand.
 
-Nathu spent his first years on hips and in laps. He was fed thin porridge and bits of rice, and he gnawed on a cloth strip while Malli worked. In 342 his sister Munni was born and died the same year, and the women tied a protective thread on Nathu’s wrist after the funeral.
+Nathu spent most days on someone's hip. At a year old, he hauled himself upright on a storage jar in the shared courtyard and stepped toward Malli's open hands. He sat down hard when his feet slid, then laughed and tried again. Masu clapped once and dragged him back from the cooking fire by his upper arm.
 
-A younger sister, Gehuli, arrived in 343. Late in November 344, Nathu began passing watery stool. Malli carried him to a monk named Ananda for a blessing and then to a local healer for a bitter drink, but he died on December 7.
+The next year, Malli carried him to the pond edge where she beat laundry on a stone. Nathu kept a smooth broken potsherd in his fist, tapping it against the rock while he watched the water. When he wanted a drink he pointed at the clay pot and repeated his clipped word for water until someone gave in.
 
-Budha and Kalu took the small body to the riverbank, wrapped it in plain cloth, and burned it on a simple wood pyre. Malli placed a few grains of rice beside the ashes before they were pushed into the water.
+A daughter, Munni, arrived in 342 and died the same year. After the cremation Masu tied a dark thread around Nathu's wrist and marked his forehead with soot. Gehuli was born in 343. When Malli nursed the baby, Nathu pushed at her shoulder and tried to wedge his head under her arm, then accepted a scrap of bread from Budha and followed him to the doorway.
+
+Late in November 344, Nathu developed sudden diarrhea. Budha carried him to Ananda, a monk who recited protective verses, and then to a healer for a bitter drink. Nathu died on December 7.
+
+Budha and Kalu wrapped him in plain cloth, carried him to the riverbank, and burned the body on a small wood pyre. Malli placed a few grains of rice beside the ashes before they were pushed into the water.

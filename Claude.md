@@ -48,6 +48,7 @@ RandomLivesWebsite/
 ├── assets/css/
 │   └── style.css            # Site styling
 ├── index.html               # Homepage (lists all lives)
+├── map.html                 # Map view (Leaflet world map)
 ├── about.md                 # About page
 ├── .claude/
 │   └── skills/
@@ -272,7 +273,7 @@ Sampled independently based on medical base rates. Each condition has its own pr
 When present, congenital conditions are:
 1. Highlighted in the demographics prompt so the LLM considers effects on life trajectory, social status, occupation, and marriage
 2. Included in narrative planning context with "must be visible" flag
-3. Even included for infants (age < 5) in narrative planning, though personality traits are not
+3. Included for all ages in narrative planning; personality traits included for toddlers (2-4) and above
 
 ---
 
@@ -307,7 +308,8 @@ Before writing the narrative, the LLM creates a detailed timeline ensuring tempo
 - **Trait manifestations**: Concrete scenes showing extreme personality traits, mental disorders, and congenital conditions
 
 This prevents temporal logic errors like siblings appearing at impossible ages or children mentioned before they could exist. Tiered by age category:
-- **Infant (0-4)**: Sibling/caretaker timeline only (plus congenital conditions if present)
+- **Infant (0-1)**: Sibling/caretaker timeline only (plus congenital conditions if present)
+- **Toddler (2-4)**: Adds developmental moments and emerging personality traits
 - **Child (5-12)**: Adds incidents, traits, and other characters
 - **Adolescent/Adult (13+)**: Full planning including partners, children, life phases
 
@@ -346,7 +348,7 @@ The project aims for plain, direct prose:
 - Describe what was there, not what wasn't (avoid negatives that only matter as absences)
 - Variable sentence rhythm; mix lengths; fragments sometimes
 - Show personality through action, not summary; don't name traits
-- Length scaled to lifespan: 150-300 words (ages 0-2), 200-400 (3-10), 400-700 (11-18), 600-1000 (19+)
+- Length scaled to lifespan: 150-300 words (ages 0-1), 200-350 (ages 2-4 toddlers), 200-400 (ages 5-12), 400-700 (ages 13-18), 600-1000 (19+)
 - Early in narrative, orient reader to political/cultural situation (polity, ethnic group, broader forces)
 - Omniscient narrator: state facts confidently, no hedging ("likely", "perhaps", "may have")
 - Give names to recurring people; minor one-off figures can remain unnamed
@@ -519,6 +521,16 @@ Each biographical page (`_layouts/life.html`) includes navigation buttons:
 - **Random life**: Jump to random biography
 - **Later life →**: Next person chronologically
 
+### Map View
+The map page (`map.html`) displays all Holocene lives on a world map using Leaflet.js:
+- **Tile layer**: CartoDB light_nolabels (clean map without text labels)
+- **Markers**: Circle markers at birth coordinates, clickable to view name/dates and link to story
+- **Color by**: Dropdown to color markers by Era or Age at death
+  - **Era colors**: Prehistoric (10,000–3000 BC), Ancient (3000 BC–500 AD), Medieval (500–1500), Early Modern (1500–1800), Modern (1800+)
+  - **Age colors**: Alive, Infant, Child, Adolescent, Adult, Elder
+- **Legend**: Appears inline with dropdown when coloring is active
+- **Paleolithic exclusion**: People born before 10,000 BC are not shown (no fixed coordinates)
+
 ---
 
 ## Important Files
@@ -528,6 +540,7 @@ Each biographical page (`_layouts/life.html`) includes navigation buttons:
 - `_layouts/life.html` - Template for biographical pages
 - `assets/css/style.css` - All styling
 - `index.html` - Homepage layout
+- `map.html` - Map view with Leaflet.js
 - `about.md` - About page
 
 ### Generation Scripts
@@ -567,7 +580,7 @@ Each biographical page (`_layouts/life.html`) includes navigation buttons:
 - [x] Edit 100 stories via post-generation workflow
 - [ ] Website design improvements (landing page, navigation)
 - [ ] Methodology page (for credibility at launch)
-- [ ] Data visualizations (timeline, map) - nice to have
+- [x] Map view (Leaflet world map with era/age coloring)
 
 ### Phase 4: Post-Launch Content
 - [ ] Blog series:

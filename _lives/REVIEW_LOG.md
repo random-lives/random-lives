@@ -319,18 +319,26 @@ Each story appears once with all issues found and changes made across all review
 ---
 
 ## 0057-yusuf
-**Issues found:** None
+**Note:** Story regenerated with toddler-specific prompts (January 2026) to add developmental moments.
 
-**Changes made:** None
+**Issues found (post-regeneration):**
+- [AI-slop] "set the rhythm of daily life"
+
+**Changes made:**
+- Fixed "set the rhythm of daily life" → "farmed the hills and traded at local markets"
 
 ---
 
 ## 0058-timma
-**Issues found:**
-- [Pseudosociological] "trading small bundles through kin"
+**Note:** Story regenerated with toddler-specific prompts (January 2026) to add developmental moments.
+
+**Issues found (post-regeneration):**
+- [Confusing names] Sibling "Peddamma" shares name with grandmother - confusing for reader
+- [Pseudosociological] "patrilocal joint household"
 
 **Changes made:**
-- Fixed "through kin" → "through relatives and neighbors"
+- Changed sibling reference "then Peddamma and Chinnamma in 1141 and 1143" → "a second daughter in 1141, and Chinnamma in 1143"
+- Fixed "patrilocal joint household with" → "shared the compound with"
 
 ---
 
@@ -565,11 +573,11 @@ Each story appears once with all issues found and changes made across all review
 ---
 
 ## 0082-tari
-**Issues found:**
-- [Pseudosociological] "tied together by kin"
+**Note:** Story regenerated with toddler-specific prompts (January 2026) to add developmental moments.
 
-**Changes made:**
-- Fixed "by kin" → "by family"
+**Issues found (post-regeneration):** None
+
+**Changes made:** None
 
 ---
 
@@ -640,7 +648,9 @@ Each story appears once with all issues found and changes made across all review
 ---
 
 ## 0089-soma
-**Issues found:** None
+**Note:** Story regenerated with toddler-specific prompts (January 2026) to add developmental moments.
+
+**Issues found (post-regeneration):** None
 
 **Changes made:** None
 
@@ -845,7 +855,9 @@ This pass reviewed each story one-by-one, with special attention to:
 
 **0005-tako**: Clean (after earlier "kin ties" fix)
 
-**0006-nadiia**: Clean - no issues found
+**0006-nadiia**: Regenerated with toddler-specific prompts (January 2026). Post-regeneration review:
+- [AI-slop] "grew into the routine of" → "The yard was busy:"
+- [AI-slop] "shaped the way she handled" → "After that loss she watched Nadiia closely"
 
 **0007-kandan**: Clean (after earlier "kin" and vague hedging fixes)
 
@@ -874,7 +886,9 @@ This pass reviewed each story one-by-one, with special attention to:
 
 **0012-kpovi**: Clean - no issues found
 
-**0013-nathu**: Clean - no issues found
+**0013-nathu**: Regenerated with toddler-specific prompts (January 2026). Post-regeneration review:
+- [Vague hedging] "rice or a spoon of thin lentils" → "rice"
+- Note: Regenerated narrative used different names (Harsha→Nathu, etc.) - restored original names to match existing story
 
 **0014-hadiya**:
 - [Missing deaths] 5 deaths missing:
@@ -886,9 +900,8 @@ This pass reviewed each story one-by-one, with special attention to:
 - [Kin] "kin ties" → "family connections"
 - Fixed: Added all five deaths in correct chronological positions
 
-**0015-hormizd**:
-- [Kin] Fixed earlier
-- Clean after fix
+**0015-hormizd**: Regenerated with toddler-specific prompts (January 2026). Post-regeneration review:
+- [AI-slop] "grew into the rhythms of dairy and smoke" → "The household ran on milk and fire"
 
 **0016-chuku**:
 - [Missing death] Uncle Haruno's death missing
@@ -963,8 +976,34 @@ This pass reviewed each story one-by-one, with special attention to:
 - 1 anachronism (reference to dead character as if alive)
 - Multiple "kin" → "family/relatives" substitutions
 
-**Stories that were clean on all passes**: 0000, 0001, 0005-0007 (after earlier fixes), 0012, 0013, 0017, 0019, 0020, 0022
+**Stories that were clean on all passes**: 0000, 0001, 0005, 0012, 0017, 0019, 0020, 0022
 
 ## Overall Assessment
 
 Stories 0000-0029 are now fully reviewed. The main systematic issue was missing deaths of characters who died during the protagonist's lifetime. This has been comprehensively fixed across all 30 stories.
+
+---
+
+# Toddler Story Regeneration (January 2026)
+
+Seven stories featuring children aged 2-4 were regenerated with new toddler-specific prompts to add developmental moments and richer personality expression. These stories now include:
+- Concrete developmental milestones (first words, early walking, favorite objects)
+- Emerging personality shown through behavior
+- Caretaker interactions specific to toddler age
+
+**Regenerated stories:**
+- 0006-nadiia (age 4)
+- 0013-nathu (age 3)
+- 0015-hormizd (age 3)
+- 0057-yusuf (age 3)
+- 0058-timma (age 4)
+- 0082-tari (age 4)
+- 0089-soma (age 2)
+
+**Common issues found in regenerated stories:**
+- AI-slop phrases: "rhythm of", "routine of", "grew into" patterns
+- One instance of vague hedging ("X or Y")
+- One confusing name collision (sibling sharing grandmother's name)
+- One pseudosociological term ("patrilocal joint household")
+
+All issues were fixed during post-regeneration review. The regenerated stories are now in `_lives_pending/` awaiting final transfer to `_lives/`.

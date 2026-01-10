@@ -8,7 +8,6 @@ age_at_death: 4
 birth_date: "July 13, 1920 AD"
 death_date: "March 16, 1925 AD"
 location: "Antoniv, Bila Tserkva, Kyiv Oblast, Ukraine"
-location_original: "Антонів, Сквирська міська громада, Білоцерківський район, Київська область, 09052, Україна"
 country: "Ukraine"
 latitude: 49.64
 longitude: 29.79
@@ -67,60 +66,69 @@ continent: "Europe"
 #   caretakers:
 #   - death_year: null
 #     name: Hryhorii
-#     narrative_role: Peasant farmer working the family land and livestock; present
-#       in the home but often away in the fields. Affection expressed through practical
-#       care (bringing bread, checking on fever) more than talk; steady authority in
-#       an extended household.
+#     narrative_role: Present, working daily in fields and with livestock; affectionate
+#       in practical ways (bringing food, lifting her onto a cart), expects quiet obedience
+#       indoors.
 #     role: father
 #   - death_year: null
 #     name: Kateryna
-#     narrative_role: 'Primary day-to-day caregiver: feeding, washing, soothing, and
-#       managing illness at home with prayers and folk remedies. Relationship likely
-#       close and physical (carrying, co-sleeping, constant supervision) given Nadiia’s
-#       young age.'
+#     narrative_role: Primary caregiver; constant physical care and supervision, especially
+#       after prior infant loss; uses home remedies, keeps the child clean, fed, and
+#       close.
 #     role: mother
 #   - death_year: null
 #     name: Andrii
-#     narrative_role: Senior male in the extended household; helped organize farm work
-#       and childcare boundaries. Warmth shown through small treats, storytelling, and
-#       teaching simple chores; a stabilizing presence.
+#     narrative_role: Co-head of the farm household; a steady adult presence who minds
+#       small safety rules (near the well, near animals) and sometimes distracts her
+#       with simple tasks.
 #     role: paternal grandfather
 #   - death_year: null
 #     name: Marfa
-#     narrative_role: Key domestic co-caretaker alongside the mother, especially with
-#       multiple small children. Likely led the ‘private’ Orthodox practices at home
-#       (icon corner, whispered prayers) and provided practical nursing during sickness.
+#     narrative_role: Daily co-caretaker and household religious anchor; maintains the
+#       icon corner, leads quiet crossing and whispered prayers, and helps nurse children
+#       during illness.
 #     role: paternal grandmother
+#   developmental_moments:
+#   - age: '2'
+#     detail: In spring 1923 Nadiia follows her grandmother to feed the hens, picks
+#       up a warm egg, and later insists on carrying grain in her own small cup; she
+#       calls a yellow chick 'Kurka' and checks it each morning.
+#     moment: Naming and tending a chick
+#   - age: '3'
+#     detail: In late summer 1924 she brings a folded cloth diaper to her mother, tries
+#       to hush Petro by patting his back the way adults do, and then drags him by the
+#       hand to the doorway to watch carts pass on the road.
+#     moment: Helping with her baby brother
 #   other_named_characters:
 #   - name: Batiushka Oleksii
 #     prominence: minor
-#     relationship: local Orthodox priest (intermittent contact due to low-visibility
-#       practice)
+#     relationship: local Orthodox priest (intermittent contact; baptisms and occasional
+#       visits)
+#   personality_manifestations: []
 #   siblings:
 #   - birth_year: 1918
 #     death_age: 0
 #     death_year: 1918
 #     name: Mykola
-#     narrative_role: The firstborn who died in infancy before Nadiia was born; mostly
-#       a quiet absence in family memory, sometimes mentioned by the mother or grandmother
-#       when speaking about loss and baptisms.
+#     narrative_role: Firstborn who died in infancy before Nadiia’s birth; a reference
+#       point for the mother’s vigilance and the household’s quiet, private prayers
+#       for children’s health.
 #     sex: M
 #   - birth_year: 1922
 #     death_age: 87
 #     death_year: 2009
 #     name: Petro
-#     narrative_role: Nadiia’s closest-age sibling and main child companion in the household.
-#       As a toddler he would have followed her, shared food and play, and later carried
-#       her memory into adulthood as the sister who died when he was very small.
+#     narrative_role: Younger brother and closest companion during Nadiia’s ages 2–4;
+#       a toddler she tries to include in play and small chores, creating brief scenes
+#       of sibling attachment.
 #     sex: M
 #   - birth_year: 1924
 #     death_age: 0
 #     death_year: 1924
 #     name: Ivan
-#     narrative_role: The youngest, born after Petro and after Nadiia had already become
-#       ‘the big sister’ in the children’s room/bench. His death in infancy would have
-#       intensified the family’s fear of illness and made Nadiia’s own later sickness
-#       feel like part of a run of bad fortune.
+#     narrative_role: Youngest sibling who dies in infancy during Nadiia’s fourth year
+#       of life; his short life changes the household mood and raises anxiety about
+#       sickness before measles reaches Nadiia.
 #     sex: M
 # number_of_siblings: '3'
 # religion: Eastern Orthodox but mostly private/low-visibility practice (icons/prayers
@@ -135,10 +143,14 @@ continent: "Europe"
 # - M
 ---
 
-Nadiia was born on July 13, 1920, in Antoniv village in the Kyiv region, on land newly folded into the Ukrainian Soviet republic after years of war and upheaval. Her family spoke Ukrainian at home and lived as middle peasants, farming their own strips with a cow, poultry, and a kitchen garden. Prayer stayed mostly inside the house. In the main room, Marfa, her paternal grandmother, kept an icon corner with a small lamp; she crossed herself before it and taught Kateryna, Nadiia’s mother, to do the same quietly.
+Nadiia was born on July 13, 1920, in Antoniv village in the Kyiv countryside, under the new Soviet order that followed the collapse of empire and civil war. Her family were Ukrainian-speaking middle peasants. They farmed their own land and kept livestock. The house held three generations: her parents, Hryhorii and Kateryna, and Hryhorii’s parents, Andrii and Marfa.
 
-The household held three generations. Hryhorii, Nadiia’s father, left early with his own father Andrii to check the animals and walk to the fields. The women baked rye bread, hauled water, scrubbed cloth, and watched the children. Nadiia grew up between the stove bench and the yard. She learned words quickly and copied gestures: a hand to the forehead before meals, fingers touching an icon’s frame, a head turned when adults spoke.
+Kateryna had already buried a first baby, Mykola, in 1918. After that loss she watched Nadiia closely: quick hands for wiping a runny nose, a palm on the child's chest at night to feel her breathing. Religion stayed quiet and indoors. Marfa kept an icon corner with a small oil lamp and images of Christ and the Mother of God. Before meals she crossed herself and murmured short prayers, then set bread on the table.
 
-Kateryna had lost her first baby, Mykola, in 1918. She counted Nadiia’s health daily, checking her throat and listening for cough. In 1922 Kateryna delivered a son, Petro, and Nadiia became the child who handed rags for diapers and tried to quiet him when he cried. Another boy, Ivan, was born in 1924 and died the same year; after that, Marfa kept the icon lamp lit longer at night.
+The yard was busy: hens underfoot, a cow to be milked, water carried from the well. In spring 1923, at two, she followed Marfa to scatter grain and insisted on bringing her own little cup of feed. She named a yellow chick “Kurka” and checked it each morning, pushing past the threshold to peer into the nesting box.
 
-In early March 1925 measles spread through nearby houses. Nadiia broke out in rash, then developed chest trouble and high heat. She died on March 16, 1925. The family washed her body, dressed her in a clean shirt, and set her before the icons until burial in the village cemetery after prayers.
+Petro was born in 1922, and Nadiia treated him as a toy and a duty. By late summer 1924 she brought folded cloths when Kateryna asked, then patted Petro’s back too hard while trying to hush him. She dragged him by the hand to the doorway to watch carts creak along the road.
+
+That same year Kateryna delivered another son, Ivan. He died as an infant, and Marfa kept the icon lamp lit longer after dark.
+
+Measles reached Antoniv in early March 1925. Nadiia broke out in rash and then developed serious chest trouble. She died on March 16, 1925. Kateryna and Marfa washed her, dressed her in a clean shirt, and laid her before the icon corner until the burial in the village cemetery after prayers.

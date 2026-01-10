@@ -8,7 +8,6 @@ age_at_death: 3
 birth_date: "November 17, 361 AD"
 death_date: "May 19, 365 AD"
 location: "Saygaz, Arghandab, Zabul Province, Afghanistan"
-location_original: "سایگز, ارغنداب ولسوالۍ, زابل ولايت, افغانستان"
 country: "Afghanistan"
 latitude: 32.56
 longitude: 67.03
@@ -67,52 +66,67 @@ continent: "Asia"
 #   caretakers:
 #   - death_year: null
 #     name: Wahram
-#     narrative_role: 'Primarily a sheep/goat herder who spent long days moving flocks
-#       between seasonal pastures. In a patrilocal household he was present but often
-#       away from the hearth during daylight; affectionate in brief, practical ways
-#       (carrying the boy, bringing bits of milk or fat-tail, checking his breathing
-#       when he fell ill). Relationship quality: steady and protective, shaped by work
-#       and duty more than talk.'
+#     narrative_role: Father and primary herder of the household’s sheep/goats; present
+#       at night and at major rites, away with the flock most days. Affection shown
+#       through practical attention (lifting the child onto a pack animal, bringing
+#       warmed milk, checking him during sickness).
 #     role: father
 #   - death_year: null
 #     name: Dukht
-#     narrative_role: 'Ran domestic work and dairy processing (milking, straining, churning,
-#       drying curds) while caring for Hormizd. Relationship quality: closest bond;
-#       constant physical care, soothing, feeding, and night-watches during illness.'
+#     narrative_role: Mother and main domestic worker with dairy processing; constant
+#       caretaker, responsible for feeding, washing, and settling the child, and the
+#       one who stayed closest during illness.
 #     role: mother
 #   - death_year: null
 #     name: Farrukh
-#     narrative_role: 'Senior man of the compound, coordinating pasture rights, disputes,
-#       and obligations to officials/markets (source of the household''s occasional
-#       Middle Persian exposure). Relationship quality: somewhat stern, but proud of
-#       the first grandchild; allowed small indulgences (a lamb to follow, a warm spot
-#       by the fire).'
+#     narrative_role: Senior male managing pasture arrangements and obligations to officials/markets;
+#       sets household rules and hosts the priest for calendrical rites. Warm but disciplined
+#       with the toddler.
 #     role: paternal grandfather (household head)
 #   - death_year: null
 #     name: Mihraban
-#     narrative_role: 'Experienced caretaker who helped with child-minding, food preparation,
-#       and ritual cleanliness around hearth and water. Relationship quality: nurturing
-#       and competent; likely the one to hold him when his mother had to work, and to
-#       murmur short prayers over him when he coughed.'
+#     narrative_role: Secondary caretaker who watches the child while the mother works;
+#       handles many cleanliness routines and small soothing rituals (washing hands,
+#       keeping him near the hearth, murmured prayers).
 #     role: paternal grandmother
+#   developmental_moments:
+#   - age: 1 year 8 months
+#     detail: In July 363, while Dukht strained milk into a clay bowl, Hormizd tugged
+#       her sleeve and said a clear single word for milk; after that he repeated it
+#       whenever he saw the skin bag of curds or the churn hanging from the beam.
+#     moment: First clear word used for a daily need
+#   - age: 2 years 6 months
+#     detail: In May 364, he followed a lamb out of the compound gate and climbed onto
+#       a low stone wall to keep it in sight; Mihraban pulled him down by the belt and
+#       set him to patting the lamb’s neck inside the yard while she watched his hands
+#       for bites and dirt.
+#     moment: Following animals and testing boundaries
 #   other_named_characters:
 #   - name: Tirdad
 #     prominence: minor
-#     relationship: local Zoroastrian priest (mobad/ritual specialist) serving the wider
-#       community
+#     relationship: local Zoroastrian priest (ritual specialist) serving the community
 #   - name: Rostam
 #     prominence: minor
-#     relationship: paternal uncle (father's brother) in the same extended household
+#     relationship: paternal uncle in the same extended household
+#   personality_manifestations:
+#   - behavior: No explicit personality parameters were provided; the planned moments
+#       show ordinary toddler individuality through attachment to routine objects (milk-making)
+#       and brief, physical boundary-testing around animals.
+#     trait: Not specified
 #   siblings: []
 # number_of_siblings: '0'
 # religion: More formal Zoroastrian-style community practice (regular priest involvement;
 #   calendrical festivals; sanctioned rites when available)
 ---
 
-Hormizd was born on November 17, 361, in a high, dry valley of Zābul where eastern Iranian-speaking herders moved sheep and goats between winter shelter and summer pasture. Sasanian officials collected taxes through local intermediaries, and men who dealt with tax and market matters used Middle Persian words along with local speech. His family kept formal Zoroastrian practice. A village priest, Tirdad, came for calendrical rites and purity rules were enforced in the household.
+Hormizd was born on November 17, 361, in the upland valleys of Zābul, among Eastern Iranian-speaking pastoral families tied by tax and market obligations to the Sasanian world. Men who dealt with officials used some Middle Persian words; at home the household spoke its local tongue. The compound belonged to Wahram’s patriline, with Farrukh as the senior man. Sheep and goats were the family’s wealth, and the hearth was kept clean for worship.
 
-He was the first child in a patrilocal compound. His grandfather Farrukh led the men’s dealings outside the household and kept order among the family. Wahram, Hormizd’s father, left before daylight with the flock, carrying a sling and a skin of water. He returned with dust on his leggings and the smell of animals. Hormizd’s mother, Dukht, spent mornings milking and straining into clay bowls, then churning in a skin bag hung from a beam. When she worked, Mihraban, the grandmother, kept the boy near the hearth and wiped his hands before food.
+Dukht gave birth inside the family rooms while Mihraban heated water and laid out clean cloth. Farrukh sent for Tirdad, the community priest, to mark the birth with prayers to Ohrmazd and the yazatas. A small fire was fed with dry brush, and clarified butter was set near it as an offering. When Wahram returned from the flock he lifted the child once, briefly, then placed him back in Dukht’s arms and went to see to the animals.
 
-At the spring festivals Farrukh brought dried curds and clarified butter to the fire, and Tirdad recited prayers to Ohrmazd and the yazatas while the household stood washed and quiet.
+The household ran on milk and fire. Hormizd crawled under the hanging skin bag used for churning and watched it sway. In July 363, while Dukht strained milk into a clay bowl, he tugged at her sleeve and said a clear word for milk. After that he repeated it whenever the bowl came out or the curds were pressed.
 
-In early May of 365, Hormizd developed a hard cough and fast breathing after a cold night. On May 19 he died in the compound. The family washed his body, wrapped it, and set it apart on a rocky rise outside the living space while Tirdad spoke the prayers, then covered the remains in a small stone-lined place.
+By May 364 he followed animals with purpose. He trailed a lamb through the compound gate and climbed onto a low stone wall to keep it in sight. Mihraban caught him by the belt, pulled him down, and set him inside the yard with the lamb’s neck under his small hands while she checked his fingers for dirt and bites.
+
+At the spring rites Farrukh brought dried curds and butter to the fire. The adults washed, kept silence, and listened as Tirdad recited the prayers.
+
+A cold night in early May 365 left Hormizd coughing hard, breathing fast, and refusing milk. Dukht kept him on her lap; Wahram stayed close after dark. Hormizd died on May 19, 365. Tirdad spoke the funeral prayers, and the family washed and wrapped the body, laying it on a rocky rise outside the living space with a small offering of butter beside it.

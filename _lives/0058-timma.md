@@ -68,80 +68,90 @@ continent: "Asia"
 #   caretakers:
 #   - death_year: null
 #     name: Kondanna
-#     narrative_role: 'Dryland cultivator who also did seasonal wage labor (field labor,
-#       carting, earthworks). Likely present through Timma’s short life, away during
-#       peak labor days. Relationship: affectionate but practical—providing food, protection,
-#       and arranging rituals/offerings when illness struck.'
+#     narrative_role: Primary provider; rainfed cultivator who left periodically for
+#       seasonal wage labor. Warm but busy; his involvement shows in practical decisions
+#       (food, water, calling help) and ritual spending when a child fell ill.
 #     role: father
 #   - death_year: null
 #     name: Bommamma
-#     narrative_role: 'Managed the home and contributed supplementary production (spinning/weaving
-#       or dairy processing) alongside childcare. Relationship: primary caregiver, especially
-#       during sickness; likely led household remedies and vows to the village goddess,
-#       and would have felt repeated anxiety due to earlier infant deaths.'
+#     narrative_role: Primary day-to-day caregiver; ran the hearth and managed supplementary
+#       production (spinning/weaving and small exchanges). After earlier infant deaths,
+#       she was vigilant with amulets, diet rules, and quick resort to home remedies.
 #     role: mother
 #   - death_year: null
-#     name: Peddamma (father's mother)
-#     narrative_role: 'Senior woman in the patrilocal joint household; supervised food
-#       storage, ritual observances, and postpartum/childcare practices. Relationship:
-#       firm, protective; may have insisted on amulets, dietary rules, and calling in
-#       older women during Timma’s illness.'
+#     name: Peddamma
+#     narrative_role: Senior woman in the joint household; enforced postpartum and child-protection
+#       practices, kept neem and ash on hand, and directed offerings to the village
+#       goddess. Firm, hands-on, often the one who physically restrained or soothed
+#       Timma during squabbles or illness.
 #     role: paternal grandmother
 #   - death_year: null
-#     name: Komanna (father's father)
-#     narrative_role: 'Elder male with authority in the compound; guided farming decisions
-#       and negotiations with other villagers. Relationship: somewhat distant due to
-#       age/role, but a source of security; likely present at communal village rituals
-#       and decisions during the child’s final illness.'
+#     name: Komanna
+#     narrative_role: Household elder; controlled grain storage decisions and labor
+#       arrangements. More distant in daily childcare, but present as authority during
+#       crises, including deciding when to call a ritual specialist.
 #     role: paternal grandfather
+#   - death_year: null
+#     name: Chennamma
+#     narrative_role: Frequent secondary caretaker in the joint household; watched Timma
+#       when Bommamma spun or cooked, and handled practical tasks during bouts of sickness.
+#     role: paternal aunt (uncle's wife)
+#   developmental_moments:
+#   - age: '2'
+#     detail: Timma followed Mallanna into the yard and called out short family words—"amma"
+#       for Bommamma and "anna" for Mallanna—then repeated the same calls at the cattle
+#       shed until someone answered.
+#     moment: First clear words used at home
+#   - age: '3'
+#     detail: He kept a small clay pellet and a bit of string from his grandmother’s
+#       amulet-making; he tried to loop the string onto a goat kid’s neck and shouted
+#       when Mallanna pulled him back from the animal’s horns, then returned to attempt
+#       it again as soon as attention shifted.
+#     moment: A stubborn game with the household animals and a favorite object
 #   other_named_characters:
 #   - name: Narayya
 #     prominence: medium
 #     relationship: paternal uncle (father's brother) in the joint household
-#   - name: Chennamma
-#     prominence: medium
-#     relationship: paternal aunt (uncle's wife), frequent childcare helper
 #   - name: Basavayya
 #     prominence: low
-#     relationship: village ritual specialist/healer consulted during illness (herbal
-#       remedies, protective rites)
+#     relationship: village ritual specialist/healer consulted during Timma’s fatal
+#       diarrhea episode
+#   personality_manifestations:
+#   - behavior: 'The planned moments portray an active, persistent toddler: repeating
+#       calls for attention and returning to the same risky game with animals even after
+#       being stopped.'
+#     trait: unknown (no provided traits)
 #   siblings:
 #   - birth_year: 1138
 #     death_age: 1
 #     death_year: 1139
 #     name: Lakshamma
-#     narrative_role: Firstborn who died in toddlerhood; remembered mainly through the
-#       mother’s grief and the household’s lingering caution around infant illness (protective
-#       rituals to the grāma-devata). Timma never met her, but her brief life shaped
-#       how elders watched later babies.
+#     narrative_role: First child whose short life set the household’s baseline fear
+#       of infant sickness; invoked in later protective vows and amulets. Not alive
+#       during Timma’s life.
 #     sex: F
 #   - birth_year: 1141
 #     death_age: 0
 #     death_year: 1141
 #     name: Peddamma
-#     narrative_role: Stillborn or died within the first months; a loss spoken of indirectly
-#       (as bad fortune/evil eye). Her death contributed to vows and offerings made
-#       for subsequent pregnancies. Timma did not know her, but her absence was part
-#       of family memory.
+#     narrative_role: Second child, died in infancy (within the first year). Not alive
+#       during Timma’s life; her death reinforced postpartum taboos and goddess-centered
+#       protection.
 #     sex: F
 #   - birth_year: 1143
 #     death_age: 0
 #     death_year: 1143
 #     name: Chinnamma
-#     narrative_role: Another infant loss soon after birth; reinforced the household’s
-#       reliance on protective amulets, goddess worship, and strict postpartum taboos.
-#       For Timma, she exists only as a story of why certain rituals were done 'so this
-#       child will live.'
+#     narrative_role: Third child, died in infancy (within the first year). Not alive
+#       during Timma’s life; folded into family memory as repeated loss.
 #     sex: F
 #   - birth_year: 1144
 #     death_age: 32
 #     death_year: 1176
 #     name: Mallanna
-#     narrative_role: Only surviving older sibling and the closest companion figure
-#       Timma actually knew. About four years older, he would have been old enough to
-#       herd goats/cattle, fetch water, and imitate adult work; he likely carried Timma
-#       on his hip, kept him near during errands, and later remembered him as the little
-#       brother who died after a sudden bout of diarrhea.
+#     narrative_role: Only sibling alive during Timma’s life; acted as playmate and
+#       junior caretaker, carrying him, keeping him close around animals and water pots,
+#       and later serving as the household’s living link to Timma.
 #     sex: M
 # number_of_siblings: '4'
 # religion: 'Folk-local deity centered practice: village goddess/guardian (ammā/grāma-devata),
@@ -159,10 +169,12 @@ continent: "Asia"
 # - M
 ---
 
-Timma was born on October 15, 1148, in a dryland village near Rayadurg in the Telugu country of the Deccan. Tax collectors came through for chiefs tied into the larger powers of the east, but daily authority sat with elders and headmen. His household centered its protection on the village goddess, with household lamps, offerings, and communal rites at the shrine beyond the houses.
+Timma was born on October 15, 1148, in a Telugu-speaking village in the dry scrub country near Rayadurg on the Deccan plateau. The village paid dues through local chiefs tied into the larger powers of the eastern Deccan, but daily order came from elders and the village assembly. In his compound the family kept a small shrine space near the hearth and leaned on the grāma-devata, the village goddess, for protection, with lamps, neem leaves at the threshold, and bowls of cooked grain set out on vow days.
 
-His father, Kondanna, worked his own rainfed plots and left for seasonal labor when wages were offered for earthworks or other men’s fields. Timma's mother, Bommamma, kept the hearth and loom work going, twisting cotton into thread and trading small bundles through relatives and neighbors. They lived in a joint compound with Kondanna’s parents, Komanna and Peddamma, and with his brother Narayya and Narayya’s wife Chennamma.
+His father, Kondanna, held a small rainfed plot and went out for seasonal wage work when other landholders hired hands or when earthworks needed labor. Bommamma, his mother, spun thread and did small exchanges through relatives and neighbors while she cooked and watched children. They shared the compound with Kondanna's parents, Komanna and Peddamma, and with his brother Narayya and Narayya's wife Chennamma.
 
-Three older sisters had died as infants—Lakshamma at one year, then Peddamma and Chinnamma soon after birth—so Peddamma tied black threads and small beads on Timma’s wrist and kept neem leaves at the doorway. Mallanna, four years older, carried Timma to the threshing floor, fed him bits of cooked millet, and kept him near when goats were taken to scrub pasture.
+Three girls had come before Timma and died young: Lakshamma in 1139 at one year, a second daughter in 1141, and Chinnamma in 1143. Their surviving child was Mallanna, born in 1144. Mallanna carried Timma on his hip to the threshing floor and set him down beside the grain baskets while he helped with goats and errands. When Timma was two, he trailed after him into the yard calling “anna, anna,” then turned and called “amma” toward the cooking place until Bommamma answered.
 
-After the rains of 1152, Timma began passing watery stool through a day and night. Bommamma spooned him thin gruel and water, and Basavayya was called for herbs and warding rites, but he dehydrated and died on November 10. The men carried his body outside the settlement, and the household made a small offering of cooked grain and a lamp at the village goddess shrine.
+At three, Timma kept a small clay pellet and a bit of string that Peddamma used for amulets. He crouched near a goat kid and tried to loop the string at its neck. Mallanna yanked him back by the arm; Timma yelled, then returned to the same goat as soon as attention shifted.
+
+After the rains of 1152, he developed severe diarrhea. Bommamma gave thin millet gruel and water; Peddamma rubbed ash on his forehead and hung neem again at the door. Basavayya, a village ritual specialist, came with herbs and a warding rite at the goddess shrine. Timma died on November 10, 1152. The men carried his body to the ground beyond the houses and covered it, and that evening a lamp and cooked grain were set before the grāma-devata.

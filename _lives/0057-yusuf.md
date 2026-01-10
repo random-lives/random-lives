@@ -8,7 +8,6 @@ age_at_death: 3
 birth_date: "September 16, 1880 AD"
 death_date: "November 1, 1883 AD"
 location: "Gelemso, West Harerghe, Oromia, Ethiopia"
-location_original: "Gelemso, West Harerghe, ኦሮሚያ ክልል Oromia أوروميا, ኢትዮጵያ"
 country: "Ethiopia"
 latitude: 8.82
 longitude: 40.54
@@ -67,90 +66,97 @@ continent: "Africa"
 #   caretakers:
 #   - death_year: null
 #     name: Abdullahi
-#     narrative_role: Resident male provider, a poor smallholder/tenant cultivator.
-#       Likely emotionally reserved but invested; focused on keeping the household fed.
-#       His role during Yusuf’s illness would have been organizing help (healer, prayers/amulets),
-#       sourcing food/medicine, and making decisions about ritual responses.
+#     narrative_role: 'Provides through tenant cultivation and seasonal field work;
+#       limited day-to-day caregiving but directs responses to sickness (calling Sheikh
+#       Nur, arranging offerings/vows). Relationship: authoritative, practical, expects
+#       obedience once Yusuf can walk.'
 #     role: father (stepfather; household head)
 #   - death_year: null
 #     name: Hawa
-#     narrative_role: 'Main hands-on caregiver: nursing, carrying, calming, and managing
-#       goats/chickens and milk/butter work. Relationship likely practical and steady;
-#       in a stepfamily context, care could be affectionate but also stretched thin,
-#       especially after the birth of Yusuf’s younger brother in 1882.'
-#     role: mother (likely stepmother; primary day-to-day caregiver)
+#     narrative_role: 'Primary hands-on caretaker; combines childcare with goats/chickens
+#       and dairying. Relationship: close and physical (carrying, feeding), but strained
+#       by workload and by the birth of her baby in 1882.'
+#     role: mother (stepmother; primary caregiver)
 #   - death_year: 1879
 #     name: Fatuma
-#     narrative_role: Not present in Yusuf’s remembered life. Setting her death shortly
-#       before Yusuf’s birth is a common pathway into a stepfamily household; her absence
-#       would have shaped Yusuf’s early care arrangements and family storytelling.
-#     role: biological mother (absent by 1880; deceased or separated)
+#     narrative_role: Her death triggers remarriage and stepfamily structure; Yusuf’s
+#       care is shaped by stepmother and older sister rather than a biological mother.
+#     role: biological mother (deceased before Yusuf’s birth)
 #   - death_year: null
 #     name: Zaynab
-#     narrative_role: An older woman in or near the compound who could supervise children,
-#       advise on ritual/healing steps, and maintain mixed practice traditions (protective
-#       charms, offerings/vows at sacred sites) alongside Muslim prayers.
-#     role: paternal grandmother or senior female kin (occasional caretaker)
+#     narrative_role: 'Supervises children when Hawa is busy; oversees protective practices
+#       (amulet, Qur''anic water, and a vow-offering at a sacred tree). Relationship:
+#       firm, calming presence; quick to scold older boys if Yusuf is knocked over.'
+#     role: grandmother or senior female kin (frequent helper in compound)
+#   developmental_moments:
+#   - age: 18-22 months
+#     detail: Yusuf calls Hassan 'Hasso' and reaches up for him at the threshing place;
+#       he uses 'aayyo' for Hawa and repeats a short greeting phrase in Oromo that Amina
+#       prompts when neighbors pass the gate.
+#     moment: First clear words and naming people
+#   - age: 2 years 6 months
+#     detail: He follows Hawa to the goat pen with a small gourd cup, tries to squat
+#       beside her while she milks, and then runs after a chicken that steals grain;
+#       Amina catches him before he trips into the ash near the cooking spot.
+#     moment: Copying chores with animals
 #   other_named_characters:
 #   - name: Sheikh Nur
 #     prominence: minor
-#     relationship: local religious specialist who provides Qur'anic recitation/amulets
+#     relationship: local religious specialist who recites Qur'an and prepares amulets
 #   - name: Aster
 #     prominence: minor
-#     relationship: neighbor woman/kin who helps during measles illness (water, food,
-#       childcare)
+#     relationship: neighbor woman who helps with water/food during illness
+#   personality_manifestations:
+#   - behavior: No formal personality data provided; toddler individuality is shown
+#       through concrete behavior—seeking older brother Hassan, insisting on carrying
+#       the small gourd, and approaching goats and chickens without hesitation.
+#     trait: not specified
 #   siblings:
 #   - birth_year: 1872
 #     death_age: 86
 #     death_year: 1958
 #     name: Amina
-#     narrative_role: Oldest sibling and early helper in the household; by the time
-#       Yusuf was a toddler she was old enough to carry him, watch him while adults
-#       worked, and soothe him during illness. She would later be the main family memory-keeper
-#       of Yusuf’s short life.
+#     narrative_role: Oldest sibling; during Yusuf’s life she is a steady helper who
+#       carries him, watches him near the cooking area, and keeps him from bothering
+#       the goats. Alive throughout Yusuf’s life.
 #     sex: F
 #   - birth_year: 1874
 #     death_age: 82
 #     death_year: 1956
 #     name: Ali
-#     narrative_role: Older brother close to adulthood-in-training when Yusuf was small;
-#       likely out herding or helping in fields/market errands. His relationship with
-#       Yusuf would have been intermittent but affectionate—bringing small treats, teasing,
-#       and serving as a protector figure.
+#     narrative_role: Older brother often away herding or doing field errands; brings
+#       back small treats (roasted grain, bits of sugarcane/fruit when available) and
+#       roughhouses briefly with Yusuf. Alive throughout Yusuf’s life.
 #     sex: M
 #   - birth_year: 1877
 #     death_age: 11
 #     death_year: 1888
 #     name: Hassan
-#     narrative_role: Nearest older brother in age; most of Yusuf’s day-to-day sibling
-#       contact. A playmate and companion around the homestead who also shared childhood
-#       vulnerabilities; his later early death suggests the household endured repeated
-#       loss.
+#     narrative_role: Closest older playmate; shares games, pulls Yusuf along, teaches
+#       him words and simple tasks. Alive throughout Yusuf’s life; later dies young,
+#       reinforcing the household’s pattern of childhood loss.
 #     sex: M
 #   - birth_year: 1880
 #     death_age: 3
 #     death_year: 1883
 #     name: Yusuf
-#     narrative_role: Protagonist; a small child whose brief life was centered on the
-#       home compound, being carried, fed, and watched by women and older siblings until
-#       his measles illness.
+#     narrative_role: Protagonist; toddler life centered in the compound, fields edge,
+#       and nearby paths.
 #     sex: M
 #   - birth_year: 1882
 #     death_age: 51
 #     death_year: 1933
 #     name: Abdullahi
-#     narrative_role: Younger brother born while Yusuf was still alive; an infant-toddler
-#       overlap. Yusuf would have experienced him mostly as a new baby in the household
-#       competing for attention, while later Abdullahi would grow up hearing family
-#       stories about Yusuf’s death.
+#     narrative_role: Younger brother born when Yusuf is nearly 2; initially a newborn
+#       competitor for adult attention, later an infant Yusuf is expected not to touch
+#       roughly. Alive for the last year of Yusuf’s life.
 #     sex: M
 #   - birth_year: 1884
 #     death_age: 72
 #     death_year: 1956
 #     name: Omar
-#     narrative_role: Youngest brother, born after Yusuf died; knows Yusuf only through
-#       others’ recollections. His later long life makes him one of the carriers of
-#       secondhand family memory.
+#     narrative_role: Youngest sibling; born after Yusuf’s death. Not alive during Yusuf’s
+#       life.
 #     sex: M
 # number_of_siblings: '5'
 # religion: 'Mixed household: Islam + local Oromo spirit/healing rites (e.g., possession/healing
@@ -169,10 +175,14 @@ continent: "Africa"
 # - M
 ---
 
-Yusuf was born on September 16, 1880, in the upland fields near Gelemso in Hararghe, as Menelik's power pushed east and shifting chiefs and tax collectors pressed the local Oromo-speaking villages. His household spoke Oromo outside the gate, and another language inside, carried from an older migration. The family prayed in Muslim ways—washed hands, murmured Qur'anic verses, kept a leather amulet tied to a child's neck—and they also went to a sacred tree for vows when sickness stayed.
+Yusuf was born on September 16, 1880, in the high country near Gelemso in Hararghe. Oromo-speaking villages farmed the hills and traded at local markets, while power in the wider region shifted between local authorities and the expanding court of Shewa. His household was poor and land-short. They rented strips to plant grain and kept a few goats and chickens. They spoke Oromo with neighbors and a second home language inside the compound.
 
-His father, Abdullahi, farmed rented strips of land and bartered grain when the stores ran low. Hawa, Yusuf’s stepmother, managed goats and chickens, skimmed milk, and turned it into butter for market days. The compound had children everywhere. Amina, born in 1872, kept watch when adults worked. Ali, born in 1874, walked out with animals or a hoe and came back dusty. Hassan, born in 1877, stayed close to Yusuf, pulling him by the hand toward the threshing place.
+His biological mother, Fatuma, had died the year before, and the household ran on the work of his stepmother, Hawa. She carried Yusuf against her side while she milked, skimmed the foam, and set calabashes in the shade. When Abdullahi, Yusuf’s father, went out to hoe rented fields or bargain for grain, Amina took over. Amina, born in 1872, tied Yusuf onto her back and kept him away from the ash by the cooking place. Ali, born in 1874, came and went with herding and field errands. Hassan, born in 1877, stayed close. He tugged Yusuf by the wrist to the threshing place and laughed when Yusuf tried to copy the older boys’ steps.
 
-A baby brother, also called Abdullahi, arrived in 1882. Yusuf still sat on Hawa’s hip when she fed the goats, then reached for the newborn’s cloth wrap.
+Before Yusuf turned two he had a small set of clear words. He called Hassan “Hasso,” reached up for him, and repeated a short greeting phrase that Amina drilled into him when neighbors passed the gate.
 
-After the rains in 1883 measles moved through the neighborhood. Yusuf broke out in spots, then coughed hard and stopped taking food. Abdullahi brought Sheikh Nur to recite over water and write verses for a new amulet; Hawa rubbed butter into Yusuf’s dry lips and took a little grain and coffee husks to the sacred tree as a vowed offering. Yusuf died on November 1, 1883. Before dusk the men washed him and wrapped him in cloth, and they buried him in the ground near the settlement with a brief Muslim prayer.
+At two and a half he followed Hawa to the goat pen with a tiny gourd cup clutched in both hands. He squatted beside her, then sprang up to chase a chicken that grabbed spilled grain. Amina caught him by the shoulder before he stumbled into the cooking ashes.
+
+A baby brother, Abdullahi, arrived in 1882. Yusuf pushed close to Hawa’s lap whenever the newborn cried, then wandered back to the animals and the older children.
+
+After the rains in 1883, measles spread through nearby households. Yusuf’s skin broke out, his cough turned harsh, and he stopped eating. Abdullahi brought Sheikh Nur to recite Qur’an over water and write verses for a fresh leather amulet. Zaynab took coffee husks and a handful of grain to a sacred tree as a vowed offering. Yusuf died on November 1, 1883. Men washed and wrapped his body and buried him near the settlement, with a brief Muslim prayer said over the grave.

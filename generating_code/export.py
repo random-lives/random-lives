@@ -237,8 +237,15 @@ birth_date: "{_format_date_tuple(person.birth_date)}"
     return filename, frontmatter + person.narrative
 
 
-def export_to_jekyll(pickle_path, output_dir):
-    """Export all people from pickle file to Jekyll markdown files."""
+def export_to_jekyll(pickle_path, output_dir, start_index=0, clear_existing=True):
+    """Export all people from pickle file to Jekyll markdown files.
+
+    Args:
+        pickle_path: Path to pickle file containing Person objects
+        output_dir: Directory to write markdown files
+        start_index: Starting index for filenames (default 0)
+        clear_existing: If True, remove existing .md files first (default True)
+    """
 
     # Load people
     print(f"Loading people from {pickle_path}...")
@@ -251,20 +258,24 @@ def export_to_jekyll(pickle_path, output_dir):
     output_path = Path(output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
 
-    # Remove all existing markdown files
-    print(f"Removing existing markdown files from {output_dir}...")
-    removed = 0
-    for md_file in output_path.glob('*.md'):
-        md_file.unlink()
-        removed += 1
-    print(f"  Removed {removed} files")
+    # Optionally remove existing markdown files
+    if clear_existing:
+        print(f"Removing existing markdown files from {output_dir}...")
+        removed = 0
+        for md_file in output_path.glob('*.md'):
+            md_file.unlink()
+            removed += 1
+        print(f"  Removed {removed} files")
+    else:
+        print(f"Appending to {output_dir} (not clearing existing files)")
 
     # Export each person
     exported = 0
     for i, person in enumerate(people):
         # Only export if narrative exists
         if person.narrative:
-            filename, content = person_to_markdown(person, i)
+            index = start_index + i
+            filename, content = person_to_markdown(person, index)
             filepath = output_path / filename
 
             with open(filepath, 'w', encoding='utf-8') as f:
@@ -275,21 +286,45 @@ def export_to_jekyll(pickle_path, output_dir):
                 print(f"  Exported {exported} people...")
 
     print(f"\nSuccessfully exported {exported} people to {output_dir}")
+    print(f"  Index range: {start_index:04d} - {start_index + exported - 1:04d}")
     return exported
 
 
 if __name__ == '__main__':
-    if len(sys.argv) < 2:
-        print("Usage: python export.py <pickle_file>")
-        print("\nExample:")
-        print("  python export.py test_examples.pkl")
+    import argparse
+
+    parser = argparse.ArgumentParser(
+        description='Export generated person objects to Jekyll markdown files.',
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  # Export to default _lives_pending directory
+  python export.py batch.pkl
+
+  # Export to main _lives directory (e.g., after review)
+  python export.py batch.pkl --output ../_lives
+
+  # Append to existing directory without clearing
+  python export.py batch.pkl --no-clear
+"""
+    )
+    parser.add_argument('pickle_file', help='Path to pickle file containing Person objects')
+    parser.add_argument('--output', '-o', default='../_lives_pending',
+                        help='Output directory (default: ../_lives_pending)')
+    parser.add_argument('--start-index', '-s', type=int, default=0,
+                        help='Starting index for filenames (default: 0)')
+    parser.add_argument('--no-clear', action='store_true',
+                        help='Do not remove existing .md files before exporting')
+
+    args = parser.parse_args()
+
+    if not Path(args.pickle_file).exists():
+        print(f"Error: {args.pickle_file} not found")
         sys.exit(1)
 
-    pickle_file = sys.argv[1]
-    output_dir = '../_lives'  # Jekyll lives directory
-
-    if not Path(pickle_file).exists():
-        print(f"Error: {pickle_file} not found")
-        sys.exit(1)
-
-    export_to_jekyll(pickle_file, output_dir)
+    export_to_jekyll(
+        args.pickle_file,
+        args.output,
+        start_index=args.start_index,
+        clear_existing=not args.no_clear
+    )

@@ -16,7 +16,8 @@
       "Bash(ls:*)",
       "Bash(/bin/rm:*)",
       "Bash(export PATH=\"/opt/homebrew/opt/ruby/bin:/usr/bin:/bin:$PATH\")",
-      "Bash(cat:*)"
+      "Bash(cat:*)",
+      "Bash(xargs -I{} sh -c 'echo \"\"=== {} ===\"\" && head -10 {}')"
     ],
     "deny": []
   }

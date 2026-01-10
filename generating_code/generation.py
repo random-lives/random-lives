@@ -27,7 +27,8 @@ from lifespan import age_at_death
 # Age Thresholds
 # =============================================================================
 
-AGE_CHILD = 5        # Personality expressible; child-length narrative
+AGE_TODDLER = 2      # Toddlers can show emerging personality; slightly richer narrative
+AGE_CHILD = 5        # Full personality expressible; child-length narrative
 AGE_ADOLESCENT = 13  # Adult queries (marriage, occupation, etc.); adolescent narrative
 AGE_ADULT = 19       # Full adult narrative length
 
@@ -302,7 +303,7 @@ Reasoning about which category applies and why (be specific about what sources/t
 # Narrative Planning Prompts (tiered by age)
 # -----------------------------------------------------------------------------
 
-# Infant (0-4): Only sibling timeline
+# Infant (0-1): Only sibling timeline
 NARRATIVE_PLAN_PROMPT_INFANT = '''Before writing the narrative, work out the sibling and caretaker timeline.
 
 TASK: Compute birth years for each sibling so the narrative gets older/younger relationships correct.
@@ -324,6 +325,52 @@ Return as JSON:
 {{
     "siblings": [{{"name": "...", "sex": "M/F", "birth_year": YYYY, "death_year": YYYY, "death_age": N, "narrative_role": "..."}}],
     "caretakers": [{{"name": "...", "role": "father/mother/grandmother/etc.", "death_year": YYYY or null, "narrative_role": "..."}}],
+    "other_named_characters": [{{"name": "...", "relationship": "...", "prominence": "..."}}]
+}}'''
+
+# Toddler (2-4): Siblings + developmental milestones + emerging personality
+NARRATIVE_PLAN_PROMPT_TODDLER = '''Before writing the narrative, work out the sibling/caretaker timeline and plan developmental moments.
+
+TASK: Create a timeline and plan 1-2 developmental milestones or small events that give this short life some texture.
+
+1. SIBLING AND CARETAKER TIMELINE
+For each sibling, determine:
+- Name, sex, birth year, death year, death age
+- Whether they were alive during this toddler's life
+- Their narrative role
+
+For caretakers: estimate when each died (if during this person's life) and note their relationship.
+
+2. DEVELOPMENTAL MOMENTS
+Plan 1-2 small moments that show this child as an individual. These should be age-appropriate for a toddler (ages 2-4):
+- First words or early speech patterns
+- Learning to walk, run, or climb
+- A favorite object, game, or activity
+- Interaction with siblings, animals, or other children
+- A moment of fear, curiosity, joy, or stubbornness
+- Early signs of temperament (bold vs cautious, sociable vs solitary, active vs calm)
+
+These should be brief, concrete moments—not achievements or milestones that would be unusual.
+
+3. EMERGING PERSONALITY
+If personality traits are provided, note how they might show in age-appropriate ways:
+- High extraversion: noisy, seeks attention, approaches strangers
+- Low extraversion: quiet, plays alone, clings to caretakers
+- High openness: curious, explores, asks questions
+- Low openness: prefers familiar things, cautious with new experiences
+- High agreeableness: shares, gentle with others
+- Low agreeableness: tantrums, bites, refuses to share
+
+CONSTRAINTS:
+- Siblings in correct birth order (birth_order_position shows where this person falls)
+- All dates internally consistent
+
+Return as JSON:
+{{
+    "siblings": [{{"name": "...", "sex": "M/F", "birth_year": YYYY, "death_year": YYYY, "death_age": N, "narrative_role": "..."}}],
+    "caretakers": [{{"name": "...", "role": "father/mother/grandmother/etc.", "death_year": YYYY or null, "narrative_role": "..."}}],
+    "developmental_moments": [{{"moment": "...", "age": "...", "detail": "..."}}],
+    "personality_manifestations": [{{"trait": "...", "behavior": "..."}}],
     "other_named_characters": [{{"name": "...", "relationship": "...", "prominence": "..."}}]
 }}'''
 
@@ -421,6 +468,7 @@ Return as JSON:
 # Map age category to planning prompt
 NARRATIVE_PLAN_PROMPTS = {
     "infant": NARRATIVE_PLAN_PROMPT_INFANT,
+    "toddler": NARRATIVE_PLAN_PROMPT_TODDLER,
     "child": NARRATIVE_PLAN_PROMPT_CHILD,
     "adolescent": NARRATIVE_PLAN_PROMPT_ADULT,
     "adult": NARRATIVE_PLAN_PROMPT_ADULT,
@@ -501,6 +549,17 @@ FOCUS:
 - The infant cannot express personality—focus on parents, household, circumstances
 - Can be told entirely from the parents' perspective
 - A few vivid details about the household and the infant's brief life
+""",
+
+    "toddler": """
+LENGTH: 200-350 words
+
+FOCUS:
+- Include 1-2 small developmental moments or events that show this child as an individual
+- Personality can show in age-appropriate ways: temperament, preferences, how they reacted to things
+- These are not achievements—just ordinary moments that make the child feel real (a favorite game, a fear, a habit, an interaction with a sibling or animal)
+- Still primarily told through the household and family context, but the child should have some presence as an individual
+- Follow the developmental moments and personality manifestations from the narrative plan
 """,
 
     "child": """
@@ -689,8 +748,10 @@ def _get_mental_disorder(person):
 def _age_category(person):
     """Get age category for narrative prompts."""
     age = person.years_lived()
-    if age < AGE_CHILD:
+    if age < AGE_TODDLER:
         return "infant"
+    elif age < AGE_CHILD:
+        return "toddler"
     elif age < AGE_ADOLESCENT:
         return "child"
     elif age < AGE_ADULT:
@@ -701,8 +762,8 @@ def _age_category(person):
 
 def _build_trait_context(person):
     """Build context string with personality traits (flagging extremes), mental disorder, and congenital conditions."""
-    if person.years_lived() < AGE_CHILD:
-        # Even for infants, include congenital conditions if present
+    if person.years_lived() < AGE_TODDLER:
+        # True infants (0-1): only include congenital conditions if present
         if hasattr(person, 'birth_conditions') and person.birth_conditions:
             lines = ["\nCONGENITAL CONDITIONS (must be visible):"]
             for condition in person.birth_conditions:
@@ -714,7 +775,11 @@ def _build_trait_context(person):
     lines = ["\nPERSONALITY AND CONDITIONS:"]
 
     if person.personality:
-        lines.append("Personality traits (percentile ranks, 0-100):")
+        # For toddlers, frame personality as "emerging" traits
+        if person.years_lived() < AGE_CHILD:
+            lines.append("Emerging personality traits (percentile ranks, 0-100) - show in age-appropriate ways:")
+        else:
+            lines.append("Personality traits (percentile ranks, 0-100):")
         for key, value in person.personality.items():
             trait_name = key.replace(' (% rank)', '')
             # Flag extremes (5th percentile threshold)
@@ -1608,8 +1673,9 @@ def _prepare_person_for_generation(person):
     Personality and orientation are sampled in Person.__init__ but should
     be cleared for people who died too young to manifest them.
     """
-    # Clear personality and handedness if died before childhood threshold
-    if person.years_lived() < AGE_CHILD:
+    # Clear personality and handedness if died before toddler threshold (age 2)
+    # Toddlers (2-4) can show emerging personality traits
+    if person.years_lived() < AGE_TODDLER:
         person.personality = None
         person.handedness = None
 
