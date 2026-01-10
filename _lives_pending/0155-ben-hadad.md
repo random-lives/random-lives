@@ -7,7 +7,8 @@ death_year: "668 BC"
 age_at_death: 80
 birth_date: "October 4, 749 BC"
 death_date: "July 28, 668 BC"
-location: "تل أغبر, شعينة, ناحية الغندورة, منطقة جرابلس‎‎, محافظة حلب, سوريا"
+location: "Jarabulus, Aleppo, Syria"
+location_original: "تل أغبر, شعينة, ناحية الغندورة, منطقة جرابلس‎‎, محافظة حلب, سوريا"
 country: "Syria"
 latitude: 36.73
 longitude: 37.79
@@ -467,6 +468,6 @@ Then Atar-ʿatti died at twenty-five, when Ben-Hadad was fifty-two. Her children
 
 His health shifted at fifty-five. A chronic cough took hold, worst in winter when smoke hung in low rooms and damp air rose from the river. Breathlessness made plowing and heavy lifting difficult. He moved into supervision: deciding when to thresh, checking jar seals, settling small disputes, and receiving visitors as an elder. When the levy collector, Nabu-šarra, came with his tablets and attendants, Ben-Hadad stayed seated and let Zakkur and Yamlik speak. He answered only when asked and did not contradict himself.
 
-By sixty-seven his hearing dulled and his eyes failed at dusk. He misheard names at meetings and turned his head to catch words. In markets he could not pick out faces across the crowd. Yapaʿ stood close and repeated what others said. Yamlik spoke for him when needed. Their household became centered on the daughter’s line: Yamlik and the grandchildren living with or supporting the old couple in the same compound.
+By sixty-seven his hearing dulled and his eyes failed at dusk. He misheard names at meetings and turned his head to catch words. In markets he could not pick out faces across the crowd. Yapaʿ stood close and repeated what others said. Yamlik spoke for him when needed. Their household became centered on the daughter’s line: Yamlik and the grandchildren supporting the old couple in the same compound.
 
 Ben-Hadad reached eighty still in his birthplace. In the hot season after a day of sitting in the courtyard shade, he ate bread and lentils, drank a cup of beer, and rose to adjust his cloak. He fell hard onto the packed earth and could not speak. Before sunrise his body was washed, wrapped, and carried to a family burial place near the village, and Yapaʿ placed bread and a small cup of beer beside him for the household rites.

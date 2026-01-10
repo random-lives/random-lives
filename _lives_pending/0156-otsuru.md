@@ -7,7 +7,8 @@ death_year: "1741 AD"
 age_at_death: 86
 birth_date: "July 26, 1654 AD"
 death_date: "May 19, 1741 AD"
-location: "哲西町大野部, 新見市, 岡山県, 719-3701, 日本"
+location: "Niimi, Okayama, Japan"
+location_original: "哲西町大野部, 新見市, 岡山県, 719-3701, 日本"
 country: "Japan"
 latitude: 34.9
 longitude: 133.33
@@ -410,7 +411,7 @@ Her first son, Takesaburō, was born in 1673. Three years later Kichinosuke arri
 
 A daughter, Oito, was born in 1679. Otsuru brought her to the village shrine at the first opportunity, paid respect, and later at home placed a few grains of rice before the memorial shelf for safe growth. Oito died in 1682 at three years old. The child’s fever and loose stool lasted days. Otsuru held her and tried to keep her lips wet with water. After the funeral at the temple, Otsuru kept Oito’s small garment folded in a box and did not let anyone throw it out.
 
-Late that year, Otsuru became pregnant again. In 1683 she worked in the fields through the heavy season, and one day pain took her while she was bent over pulling weeds. The pregnancy ended with a late miscarriage or stillbirth. She bled heavily and shook with fever for days. Okane, the village birth attendant, came with boiled water, cloths, and herbs. Otsune traveled from Otsuru’s natal village and stayed long enough to cook, to wash, and to keep Heisuke from forcing Otsuru back to labor too soon. Otsuru survived and returned to work thinner and quieter, with a habit of pausing to press a hand to her lower belly when she thought no one watched.
+Late that year, Otsuru became pregnant again. In 1683 she worked in the fields through the heavy season, and one day pain took her while she was bent over pulling weeds. The pregnancy ended with a stillbirth. She bled heavily and shook with fever for days. Okane, the village birth attendant, came with boiled water, cloths, and herbs. Otsune traveled from Otsuru’s natal village and stayed long enough to cook, to wash, and to keep Heisuke from forcing Otsuru back to labor too soon. Otsuru survived and returned to work thinner and quieter, with a habit of pausing to press a hand to her lower belly when she thought no one watched.
 
 Okiku was born in 1684 and died the next year. Another daughter, Oume, lived only a short time after birth in 1686. By then Otsuru’s offerings at the butsudan were routine and exact: a small cup of water replaced each morning; rice when there was rice; incense on memorial days. She also went to the village shrine festival and clapped her hands in front of the honden with the others, praying for harvest and children who stayed alive.
 

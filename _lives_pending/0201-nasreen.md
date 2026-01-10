@@ -6,7 +6,8 @@ birth_year_numeric: 1973
 death_year: "present"
 age_at_death: alive
 birth_date: "September 27, 1973 AD"
-location: "Hayatabad, تحصیل پشاور شہر, ضلع پشاور‎, پشاور ڈویژن, خیبر پختونخوا, 25100, پاکستان"
+location: "Hayatabad, Peshawar, Khyber Pakhtunkhwa, Pakistan"
+location_original: "Hayatabad, تحصیل پشاور شہر, ضلع پشاور‎, پشاور ڈویژن, خیبر پختونخوا, 25100, پاکستان"
 country: "Pakistan"
 latitude: 33.98
 longitude: 71.44
@@ -440,7 +441,7 @@ In 2010, Saeed died, suddenly and without the long preparation a household expec
 
 A year later, violence reached closer. After an evening security incident—an explosion and gunfire on a road people used—neighbors poured into the lane, shouting questions and accusations. A dispute flared between households. Nasreen grabbed Shazia, her husband’s younger sister, by the wrist to pull her back inside. Gul Bano from the next house struck Nasreen and shoved her hard against a wall. Nasreen did not hit back. She steadied herself, dragged Shazia indoors, and shut the door. Bruises bloomed on her arm and shoulder. She told no police, only her brother Fazal, who came the next day and stood in the lane with his jaw clenched.
 
-In 2012, a bombing or shooting hit near a market road she used. She arrived soon after, thinking of errands, and saw bodies and wounded people being loaded into cars and pickups. A child’s face was gray with dust. That night she washed her hands again and again and said ayat al-kursi under her breath. For months she refused that route and snapped at anyone who suggested it was safe.
+In 2012, a bombing hit near a market road she used. She arrived soon after, thinking of errands, and saw bodies and wounded people being loaded into cars and pickups. A child’s face was gray with dust. That night she washed her hands again and again and said ayat al-kursi under her breath. For months she refused that route and snapped at anyone who suggested it was safe.
 
 Diabetes and high blood pressure were diagnosed in 2014. Dr. Farah told her to cut down on sweets and stop tobacco. Nasreen nodded, kept the paper, and asked her son to read it aloud later because she did not like filling forms at the clinic. She followed the medicine schedule precisely for a week, then slipped back into old eating patterns when guests came or stress rose. She took her pills most days, though, counted them, and scolded the children if a bottle was moved.
 
