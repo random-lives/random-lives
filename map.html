@@ -133,6 +133,7 @@ title: Map View
     <label>Color by:</label>
     <button type="button" class="color-btn" data-value="era">Era</button>
     <button type="button" class="color-btn" data-value="age">Age at death</button>
+    <button type="button" class="color-btn" data-value="lifestyle">Lifestyle</button>
     <div id="legend" class="legend"></div>
   </div>
 
@@ -166,7 +167,8 @@ title: Map View
       years: "{% if life.birth_year == life.death_year %}{{ life.birth_year }}{% else %}{{ life.birth_year }} – {{ life.death_year }}{% endif %}",
       country: "{{ life.country | escape }}",
       birthYear: {{ life.birth_year_numeric }},
-      ageTag: "{{ life.age_tag }}"
+      ageTag: "{{ life.age_tag }}",
+      lifestyle: "{{ life.lifestyle | escape }}"
     }
     {% endif %}
     {% endfor %}
@@ -201,6 +203,12 @@ title: Map View
     'Modern (1800+)': '#22c55e'
   };
 
+  const lifestyleColors = {
+    'Hunter-Gatherer': '#8b5cf6',
+    'Rural': '#22c55e',
+    'Urban': '#3b82f6'
+  };
+
   function getEra(birthYear) {
     if (birthYear < -3000) return 'Prehistoric (10,000 – 3000 BC)';
     if (birthYear < 500) return 'Ancient (3000 BC – 500 AD)';
@@ -214,6 +222,8 @@ title: Map View
       return ageColors[life.ageTag] || '#000';
     } else if (colorBy === 'era') {
       return eraColors[getEra(life.birthYear)] || '#000';
+    } else if (colorBy === 'lifestyle') {
+      return lifestyleColors[life.lifestyle] || '#000';
     }
     return '#000';
   }
@@ -258,7 +268,7 @@ title: Map View
       return;
     }
 
-    const colors = colorBy === 'age' ? ageLegendColors : eraColors;
+    const colors = colorBy === 'age' ? ageLegendColors : colorBy === 'lifestyle' ? lifestyleColors : eraColors;
     legend.innerHTML = Object.entries(colors).map(([label, color]) => `
       <div class="legend-item">
         <span class="legend-dot" style="background: ${color}"></span>
