@@ -7,7 +7,8 @@ death_year: "946 AD"
 age_at_death: 74
 birth_date: "December 28, 871 AD"
 death_date: "August 30, 946 AD"
-location: "Gande, Giridih, Jharkhand, 815352, India"
+location: "Gande, Giridih, Jharkhand, India"
+location_original: "Gande, Giridih, Jharkhand, 815352, India"
 country: "India"
 latitude: 24.07
 longitude: 86.52

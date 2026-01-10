@@ -8,6 +8,7 @@ age_at_death: 49
 birth_date: "April 17, 1601 AD"
 death_date: "October 17, 1650 AD"
 location: "Surada, Ganjam, Odisha, India"
+location_original: "Surada, Ganjam, Odisha, India"
 country: "India"
 latitude: 19.82
 longitude: 84.44

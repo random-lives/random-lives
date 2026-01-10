@@ -7,7 +7,8 @@ death_year: "882 AD"
 age_at_death: 29
 birth_date: "March 5, 853 AD"
 death_date: "June 8, 882 AD"
-location: "Illuru, Yerraguntla, YSR Kadapa, Andhra Pradesh, 516360, India"
+location: "Illuru, Kadapa, Andhra Pradesh, India"
+location_original: "Illuru, Yerraguntla, YSR Kadapa, Andhra Pradesh, 516360, India"
 country: "India"
 latitude: 14.74
 longitude: 78.52

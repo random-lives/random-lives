@@ -57,6 +57,9 @@ layout: default
       opacity: 1,
       fillOpacity: 1
     }).addTo(map);
+    map.on('click', function() {
+      window.open('{{ page.map_url }}', '_blank');
+    });
   </script>
   {% endif %}
 
@@ -91,9 +94,9 @@ layout: default
     {% if current_index > 0 %}
       {% assign prev_index = current_index | minus: 1 %}
       {% assign prev_life = sorted_lives[prev_index] %}
-      <a href="{{ prev_life.url | relative_url }}" class="nav-btn">← Earlier life</a>
+      <a href="{{ prev_life.url | relative_url }}" class="nav-btn">← Previous life</a>
     {% else %}
-      <span class="nav-btn disabled">← Earlier life</span>
+      <span class="nav-btn disabled">← Previous life</span>
     {% endif %}
 
     <a href="#" class="nav-btn" id="random-life-btn">Random life</a>
@@ -101,9 +104,9 @@ layout: default
     {% assign next_index = current_index | plus: 1 %}
     {% if next_index < sorted_lives.size %}
       {% assign next_life = sorted_lives[next_index] %}
-      <a href="{{ next_life.url | relative_url }}" class="nav-btn">Later life →</a>
+      <a href="{{ next_life.url | relative_url }}" class="nav-btn">Next life →</a>
     {% else %}
-      <span class="nav-btn disabled">Later life →</span>
+      <span class="nav-btn disabled">Next life →</span>
     {% endif %}
   </nav>
 

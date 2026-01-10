@@ -77,23 +77,25 @@ title: Map View
 
 .legend {
   display: flex;
-  gap: 16px;
-  font-size: 0.85rem;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  font-size: 0.8rem;
   color: #555;
-  margin-left: 16px;
+  margin-left: 20px;
 }
 
 .legend-item {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 5px;
+  white-space: nowrap;
 }
 
 .legend-dot {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  border: 1px solid #fff;
+  flex-shrink: 0;
 }
 
 @media (max-width: 600px) {
@@ -110,14 +112,14 @@ title: Map View
 
 <div class="map-view">
   <h1>Map View</h1>
-  <p class="intro">Explore all {{ site.lives.size }} lives by location. Click a marker to read their story.</p>
+  <p class="intro">Explore lives by location. Paleolithic people (before 10,000 BC) are not shown as they predate fixed geographic coordinates. Click a marker to read their story.</p>
 
   <div class="map-controls">
     <label>Color by:</label>
     <select id="color-by">
-      <option value="none">None (all black)</option>
-      <option value="age">Age at death</option>
+      <option value="none">None</option>
       <option value="era">Era</option>
+      <option value="age">Age at death</option>
     </select>
     <div id="legend" class="legend"></div>
   </div>
@@ -134,7 +136,7 @@ title: Map View
     attributionControl: false
   }).setView([20, 0], 2);
 
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
     maxZoom: 19
   }).addTo(map);
 
@@ -165,21 +167,34 @@ title: Map View
     'Child (2–10)': '#f97316',
     'Adolescent (11–18)': '#eab308',
     'Adult (19–49)': '#3b82f6',
+    'Elder (50+)': '#8b5cf6',
+    'Elder (70+)': '#8b5cf6'
+  };
+
+  // Legend only shows canonical age categories
+  const ageLegendColors = {
+    'Alive': '#22c55e',
+    'Infant (0–1)': '#ef4444',
+    'Child (2–10)': '#f97316',
+    'Adolescent (11–18)': '#eab308',
+    'Adult (19–49)': '#3b82f6',
     'Elder (50+)': '#8b5cf6'
   };
 
   const eraColors = {
-    'Ancient': '#a855f7',      // before 500 AD
-    'Medieval': '#6366f1',     // 500-1500
-    'Early Modern': '#0ea5e9', // 1500-1800
-    'Modern': '#22c55e'        // 1800+
+    'Prehistoric (10,000 – 3000 BC)': '#7c3aed',
+    'Ancient (3000 BC – 500 AD)': '#dc2626',
+    'Medieval (500 – 1500)': '#f59e0b',
+    'Early Modern (1500 – 1800)': '#0ea5e9',
+    'Modern (1800+)': '#22c55e'
   };
 
   function getEra(birthYear) {
-    if (birthYear < 500) return 'Ancient';
-    if (birthYear < 1500) return 'Medieval';
-    if (birthYear < 1800) return 'Early Modern';
-    return 'Modern';
+    if (birthYear < -3000) return 'Prehistoric (10,000 – 3000 BC)';
+    if (birthYear < 500) return 'Ancient (3000 BC – 500 AD)';
+    if (birthYear < 1500) return 'Medieval (500 – 1500)';
+    if (birthYear < 1800) return 'Early Modern (1500 – 1800)';
+    return 'Modern (1800+)';
   }
 
   function getColor(life, colorBy) {
@@ -231,7 +246,7 @@ title: Map View
       return;
     }
 
-    const colors = colorBy === 'age' ? ageColors : eraColors;
+    const colors = colorBy === 'age' ? ageLegendColors : eraColors;
     legend.innerHTML = Object.entries(colors).map(([label, color]) => `
       <div class="legend-item">
         <span class="legend-dot" style="background: ${color}"></span>

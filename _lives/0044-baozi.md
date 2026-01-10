@@ -7,7 +7,8 @@ death_year: "1847 AD"
 age_at_death: 1
 birth_date: "June 4, 1845 AD"
 death_date: "February 2, 1847 AD"
-location: "屏边苗族自治县, 红河哈尼族彝族自治州, 云南省, 中国"
+location: "Pingbian County, Honghe, Yunnan, China"
+location_original: "屏边苗族自治县, 红河哈尼族彝族自治州, 云南省, 中国"
 country: "China"
 latitude: 22.99
 longitude: 103.93

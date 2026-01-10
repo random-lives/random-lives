@@ -7,7 +7,8 @@ death_year: "1038 AD"
 age_at_death: 6
 birth_date: "December 1, 1031 AD"
 death_date: "July 3, 1038 AD"
-location: "Рэнчинлхүмбэ ᠷᠢᠨᠴᠢᠨ ᡀᠦᠮᠪᠦ, Хөвсгөл ᠬᠥᠪᠰᠦᠭᠦᠯ, Монгол улс ᠮᠤᠩᠭᠤᠯ ᠤᠯᠤᠰ"
+location: "Renchinlhumbe, Khovsgol, Mongolia"
+location_original: "Рэнчинлхүмбэ ᠷᠢᠨᠴᠢᠨ ᡀᠦᠮᠪᠦ, Хөвсгөл ᠬᠥᠪᠰᠦᠭᠦᠯ, Монгол улс ᠮᠤᠩᠭᠤᠯ ᠤᠯᠤᠰ"
 country: "Mongolia"
 latitude: 51.31
 longitude: 100.01

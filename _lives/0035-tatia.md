@@ -7,7 +7,8 @@ death_year: "365 AD"
 age_at_death: 58
 birth_date: "August 27, 307 AD"
 death_date: "December 30, 365 AD"
-location: "Lucín, Olveira, Dumbría, Fisterra, A Coruña, Galicia, 15151, España"
+location: "Lucin, Dumbria, A Coruna, Galicia, Spain"
+location_original: "Lucín, Olveira, Dumbría, Fisterra, A Coruña, Galicia, 15151, España"
 country: "Spain"
 latitude: 42.98
 longitude: -9.03

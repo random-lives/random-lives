@@ -7,7 +7,8 @@ death_year: "1298 AD"
 age_at_death: 55
 birth_date: "November 26, 1242 AD"
 death_date: "May 1, 1298 AD"
-location: "صيدا, قضاء صيدا, محافظة الجنوب, لبنان"
+location: "Sidon, South Governorate, Lebanon"
+location_original: "صيدا, قضاء صيدا, محافظة الجنوب, لبنان"
 country: "Lebanon"
 latitude: 33.56
 longitude: 35.37

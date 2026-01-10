@@ -6,7 +6,8 @@ birth_year_numeric: 1985
 death_year: "present"
 age_at_death: alive
 birth_date: "December 15, 1985 AD"
-location: "Kattangulathur, Chengalpattu, Tamil Nadu, 603203, India"
+location: "Kattangulathur, Chengalpattu, Tamil Nadu, India"
+location_original: "Kattangulathur, Chengalpattu, Tamil Nadu, 603203, India"
 country: "India"
 latitude: 12.82
 longitude: 80.02

@@ -7,7 +7,8 @@ death_year: "721 AD"
 age_at_death: 42
 birth_date: "May 18, 679 AD"
 death_date: "October 19, 721 AD"
-location: "Vejendla, Chebrolu, Guntur, Andhra Pradesh, 522213, India"
+location: "Vejendla, Guntur, Andhra Pradesh, India"
+location_original: "Vejendla, Chebrolu, Guntur, Andhra Pradesh, 522213, India"
 country: "India"
 latitude: 16.24
 longitude: 80.52

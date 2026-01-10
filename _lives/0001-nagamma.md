@@ -7,7 +7,8 @@ death_year: "1791 AD"
 age_at_death: 0
 birth_date: "March 12, 1791 AD"
 death_date: "March 12, 1791 AD"
-location: "Virapura, Lingasuguru taluku, Raichur, Karnataka, 584115, India"
+location: "Virapura, Raichur, Karnataka, India"
+location_original: "Virapura, Lingasuguru taluku, Raichur, Karnataka, 584115, India"
 country: "India"
 latitude: 16.15
 longitude: 76.69

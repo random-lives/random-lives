@@ -7,7 +7,8 @@ death_year: "1981 AD"
 age_at_death: 29
 birth_date: "December 12, 1951 AD"
 death_date: "March 7, 1981 AD"
-location: "Zümrüt, Azdavay, Kastamonu, Karadeniz Bölgesi, Türkiye"
+location: "Zumrut, Azdavay, Kastamonu, Turkey"
+location_original: "Zümrüt, Azdavay, Kastamonu, Karadeniz Bölgesi, Türkiye"
 country: "Turkey"
 latitude: 41.73
 longitude: 33.21

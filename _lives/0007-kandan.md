@@ -7,7 +7,8 @@ death_year: "494 AD"
 age_at_death: 54
 birth_date: "October 6, 440 AD"
 death_date: "November 1, 494 AD"
-location: "Ammachatram, Keelammachatram, Thiruvidaimarudur, Thanjavur, Tamil Nadu, 612103, India"
+location: "Ammachatram, Thanjavur, Tamil Nadu, India"
+location_original: "Ammachatram, Keelammachatram, Thiruvidaimarudur, Thanjavur, Tamil Nadu, 612103, India"
 country: "India"
 latitude: 10.99
 longitude: 79.44

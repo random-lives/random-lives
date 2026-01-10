@@ -7,7 +7,8 @@ death_year: "800 AD"
 age_at_death: 0
 birth_date: "March 25, 800 AD"
 death_date: "September 18, 800 AD"
-location: "Toéhoudé Kondji, Gléta, Lokossa, Mono, Bénin"
+location: "Toehoude Kondji, Lokossa, Mono, Benin"
+location_original: "Toéhoudé Kondji, Gléta, Lokossa, Mono, Bénin"
 country: "Benin"
 latitude: 6.66
 longitude: 1.64

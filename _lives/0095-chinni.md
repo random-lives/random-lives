@@ -7,7 +7,8 @@ death_year: "1654 AD"
 age_at_death: 0
 birth_date: "July 27, 1654 AD"
 death_date: "August 6, 1654 AD"
-location: "Thikri, Sohagpur Tahsil, Narmadapuram, Madhya Pradesh, India"
+location: "Thikri, Sohagpur, Narmadapuram, Madhya Pradesh, India"
+location_original: "Thikri, Sohagpur Tahsil, Narmadapuram, Madhya Pradesh, India"
 country: "India"
 latitude: 22.82
 longitude: 78.19

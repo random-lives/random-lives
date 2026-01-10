@@ -7,7 +7,8 @@ death_year: "365 AD"
 age_at_death: 3
 birth_date: "November 17, 361 AD"
 death_date: "May 19, 365 AD"
-location: "سایگز, ارغنداب ولسوالۍ, زابل ولايت, افغانستان"
+location: "Saygaz, Arghandab, Zabul Province, Afghanistan"
+location_original: "سایگز, ارغنداب ولسوالۍ, زابل ولايت, افغانستان"
 country: "Afghanistan"
 latitude: 32.56
 longitude: 67.03

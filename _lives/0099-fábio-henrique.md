@@ -6,7 +6,8 @@ birth_year_numeric: 1983
 death_year: "present"
 age_at_death: alive
 birth_date: "November 19, 1983 AD"
-location: "Timbaúba, Região Geográfica Imediata de Goiana-Timbaúba, Região Geográfica Intermediária do Recife, Pernambuco, Região Nordeste, 55870-000, Brasil"
+location: "Timbaúba, Pernambuco, Brazil"
+location_original: "Timbaúba, Região Geográfica Imediata de Goiana-Timbaúba, Região Geográfica Intermediária do Recife, Pernambuco, Região Nordeste, 55870-000, Brasil"
 country: "Brazil"
 latitude: -7.5
 longitude: -35.35

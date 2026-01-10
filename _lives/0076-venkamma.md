@@ -7,7 +7,8 @@ death_year: "1188 AD"
 age_at_death: 31
 birth_date: "October 28, 1156 AD"
 death_date: "May 24, 1188 AD"
-location: "Pedakadimi, Pedavegi, Eluru, Andhra Pradesh, 534003, India"
+location: "Pedakadimi, Eluru, Andhra Pradesh, India"
+location_original: "Pedakadimi, Pedavegi, Eluru, Andhra Pradesh, 534003, India"
 country: "India"
 latitude: 16.74
 longitude: 81.02

@@ -7,7 +7,8 @@ death_year: "1483 AD"
 age_at_death: 0
 birth_date: "January 14, 1483 AD"
 death_date: "April 1, 1483 AD"
-location: "ناحية السعن, منطقة السلمية, محافظة حماة, سوريا"
+location: "Al-Saen, Al-Salamiyah, Hama Governorate, Syria"
+location_original: "ناحية السعن, منطقة السلمية, محافظة حماة, سوريا"
 country: "Syria"
 latitude: 35.4
 longitude: 37.54

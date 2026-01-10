@@ -7,7 +7,8 @@ death_year: "1005 AD"
 age_at_death: 29
 birth_date: "December 26, 975 AD"
 death_date: "July 24, 1005 AD"
-location: "Vansda Taluka, Navsari, Gujarat, India"
+location: "Vansda, Navsari, Gujarat, India"
+location_original: "Vansda Taluka, Navsari, Gujarat, India"
 country: "India"
 latitude: 20.65
 longitude: 73.36

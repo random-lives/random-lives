@@ -7,7 +7,8 @@ death_year: "1198 AD"
 age_at_death: 0
 birth_date: "July 12, 1198 AD"
 death_date: "July 12, 1198 AD"
-location: "Röblingen am See, Seegebiet Mansfelder Land, Mansfeld-Südharz, Sachsen-Anhalt, 06317, Deutschland"
+location: "Roblingen am See, Mansfeld-Sudharz, Saxony-Anhalt, Germany"
+location_original: "Röblingen am See, Seegebiet Mansfelder Land, Mansfeld-Südharz, Sachsen-Anhalt, 06317, Deutschland"
 country: "Germany"
 latitude: 51.47
 longitude: 11.71

@@ -7,7 +7,8 @@ death_year: "1998 AD"
 age_at_death: 62
 birth_date: "October 31, 1935 AD"
 death_date: "January 7, 1998 AD"
-location: "坂仔镇, 平和县, 漳州市, 福建省, 中国"
+location: "Banzai, Pinghe County, Fujian, China"
+location_original: "坂仔镇, 平和县, 漳州市, 福建省, 中国"
 country: "China"
 latitude: 24.32
 longitude: 117.26

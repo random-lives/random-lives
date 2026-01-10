@@ -7,7 +7,8 @@ death_year: "41 AD"
 age_at_death: 10
 birth_date: "February 6, 31 AD"
 death_date: "December 16, 41 AD"
-location: "Guir كير, Caïdat de Gourrama, Cercle d'Er-Rich, Province de Midelt إقليم ميدلت, Drâa-Tafilalet ⴷⴰⵔⵄⴰ-ⵜⴰⴼⵉⵍⴰⵍⵜ درعة تافيلالت, Maroc ⵍⵎⵖⵔⵉⴱ المغرب"
+location: "Guir, Midelt Province, Draa-Tafilalet, Morocco"
+location_original: "Guir كير, Caïdat de Gourrama, Cercle d'Er-Rich, Province de Midelt إقليم ميدلت, Drâa-Tafilalet ⴷⴰⵔⵄⴰ-ⵜⴰⴼⵉⵍⴰⵍⵜ درعة تافيلالت, Maroc ⵍⵎⵖⵔⵉⴱ المغرب"
 country: "Morocco"
 latitude: 32.23
 longitude: -4.03

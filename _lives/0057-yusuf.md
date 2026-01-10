@@ -7,7 +7,8 @@ death_year: "1883 AD"
 age_at_death: 3
 birth_date: "September 16, 1880 AD"
 death_date: "November 1, 1883 AD"
-location: "Gelemso, West Harerghe, ኦሮሚያ ክልል Oromia أوروميا, ኢትዮጵያ"
+location: "Gelemso, West Harerghe, Oromia, Ethiopia"
+location_original: "Gelemso, West Harerghe, ኦሮሚያ ክልል Oromia أوروميا, ኢትዮጵያ"
 country: "Ethiopia"
 latitude: 8.82
 longitude: 40.54

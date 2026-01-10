@@ -7,7 +7,8 @@ death_year: "1337 AD"
 age_at_death: 6
 birth_date: "December 7, 1330 AD"
 death_date: "February 11, 1337 AD"
-location: "下大蒲原, 五泉市, 新潟県, 日本"
+location: "Shimo-Okanbara, Gosen, Niigata, Japan"
+location_original: "下大蒲原, 五泉市, 新潟県, 日本"
 country: "Japan"
 latitude: 37.65
 longitude: 139.16

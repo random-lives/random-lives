@@ -7,7 +7,8 @@ death_year: "344 AD"
 age_at_death: 3
 birth_date: "December 13, 340 AD"
 death_date: "December 7, 344 AD"
-location: "Motipur, Alinagar, Darbhanga, Bihar, 847201, India"
+location: "Motipur, Darbhanga, Bihar, India"
+location_original: "Motipur, Alinagar, Darbhanga, Bihar, 847201, India"
 country: "India"
 latitude: 26.07
 longitude: 86.19

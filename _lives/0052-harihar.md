@@ -7,7 +7,8 @@ death_year: "1824 AD"
 age_at_death: 13
 birth_date: "March 13, 1811 AD"
 death_date: "October 8, 1824 AD"
-location: "Nuagaon, Ganjam, Odisha, 761042, India"
+location: "Nuagaon, Ganjam, Odisha, India"
+location_original: "Nuagaon, Ganjam, Odisha, 761042, India"
 country: "India"
 latitude: 19.32
 longitude: 84.44

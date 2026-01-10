@@ -7,7 +7,8 @@ death_year: "674 BC"
 age_at_death: 73
 birth_date: "November 20, 748 BC"
 death_date: "August 26, 674 BC"
-location: "السلمية, ناحية مركز السلمية, منطقة السلمية, محافظة حماة, سوريا"
+location: "Al-Salamiyah, Hama Governorate, Syria"
+location_original: "السلمية, ناحية مركز السلمية, منطقة السلمية, محافظة حماة, سوريا"
 country: "Syria"
 latitude: 35.06
 longitude: 37.04

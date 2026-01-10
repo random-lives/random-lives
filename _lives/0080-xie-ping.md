@@ -7,7 +7,8 @@ death_year: "1857 AD"
 age_at_death: 0
 birth_date: "January 26, 1857 AD"
 death_date: "May 21, 1857 AD"
-location: "程庄镇, 宿州市, 安徽省, 中国"
+location: "Chengzhuang, Suzhou, Anhui, China"
+location_original: "程庄镇, 宿州市, 安徽省, 中国"
 country: "China"
 latitude: 34.31
 longitude: 116.59

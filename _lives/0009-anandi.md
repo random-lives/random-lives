@@ -7,7 +7,8 @@ death_year: "1215 AD"
 age_at_death: 37
 birth_date: "May 3, 1178 AD"
 death_date: "June 2, 1215 AD"
-location: "Shivtara, Allapur, Ambedkar Nagar, Uttar Pradesh, India"
+location: "Shivtara, Ambedkar Nagar, Uttar Pradesh, India"
+location_original: "Shivtara, Allapur, Ambedkar Nagar, Uttar Pradesh, India"
 country: "India"
 latitude: 26.4
 longitude: 82.85

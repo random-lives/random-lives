@@ -7,7 +7,8 @@ death_year: "274 AD"
 age_at_death: 50
 birth_date: "January 21, 224 AD"
 death_date: "July 19, 274 AD"
-location: "刘河镇, 黄冈市, 湖北省, 中国"
+location: "Liuhe, Huanggang, Hubei, China"
+location_original: "刘河镇, 黄冈市, 湖北省, 中国"
 country: "China"
 latitude: 30.32
 longitude: 115.59

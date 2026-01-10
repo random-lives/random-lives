@@ -7,7 +7,8 @@ death_year: "1693 AD"
 age_at_death: 23
 birth_date: "June 16, 1669 AD"
 death_date: "March 25, 1693 AD"
-location: "Itigi, Singida, Central Zone, Tanzania"
+location: "Itigi, Singida, Tanzania"
+location_original: "Itigi, Singida, Central Zone, Tanzania"
 country: "Tanzania"
 latitude: -6.42
 longitude: 34.54

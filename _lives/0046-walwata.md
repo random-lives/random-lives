@@ -7,7 +7,8 @@ death_year: "1314 BC"
 age_at_death: 0
 birth_date: "July 20, 1315 BC"
 death_date: "May 6, 1314 BC"
-location: "Aydınlar, İznik, Bursa, Marmara Bölgesi, Türkiye"
+location: "Aydinlar, Iznik, Bursa, Turkey"
+location_original: "Aydınlar, İznik, Bursa, Marmara Bölgesi, Türkiye"
 country: "Turkey"
 latitude: 40.39
 longitude: 29.62

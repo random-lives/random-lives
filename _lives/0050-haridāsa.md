@@ -7,7 +7,8 @@ death_year: "1145 AD"
 age_at_death: 62
 birth_date: "June 6, 1083 AD"
 death_date: "November 22, 1145 AD"
-location: "Pandaul, Madhubani, Bihar, 847234, India"
+location: "Pandaul, Madhubani, Bihar, India"
+location_original: "Pandaul, Madhubani, Bihar, 847234, India"
 country: "India"
 latitude: 26.23
 longitude: 86.1

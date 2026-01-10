@@ -7,7 +7,8 @@ death_year: "1912 AD"
 age_at_death: 50
 birth_date: "January 11, 1862 AD"
 death_date: "March 2, 1912 AD"
-location: "Давыдково, район Фили-Давыдково, Москва, Центральный федеральный округ, 121352, Россия"
+location: "Davydkovo, Moscow, Russia"
+location_original: "Давыдково, район Фили-Давыдково, Москва, Центральный федеральный округ, 121352, Россия"
 country: "Russia"
 latitude: 55.72
 longitude: 37.45

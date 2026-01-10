@@ -7,7 +7,8 @@ death_year: "1304 BC"
 age_at_death: 29
 birth_date: "December 30, 1334 BC"
 death_date: "October 6, 1304 BC"
-location: "الدامور, قضاء الشوف, محافظة جبل لبنان, لبنان"
+location: "Damour, Chouf, Mount Lebanon, Lebanon"
+location_original: "الدامور, قضاء الشوف, محافظة جبل لبنان, لبنان"
 country: "Lebanon"
 latitude: 33.73
 longitude: 35.46

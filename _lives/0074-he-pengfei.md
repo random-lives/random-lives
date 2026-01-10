@@ -6,7 +6,8 @@ birth_year_numeric: 1982
 death_year: "present"
 age_at_death: alive
 birth_date: "January 22, 1982 AD"
-location: "十字路园, 青岛市, 山东省, 266000, 中国"
+location: "Shiziluyuan, Qingdao, Shandong, China"
+location_original: "十字路园, 青岛市, 山东省, 266000, 中国"
 country: "China"
 latitude: 36.06
 longitude: 120.17

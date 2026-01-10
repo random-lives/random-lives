@@ -7,7 +7,8 @@ death_year: "141 AD"
 age_at_death: 38
 birth_date: "April 26, 102 AD"
 death_date: "April 4, 141 AD"
-location: "قرية حسين عبد خضير, الحلة, ناحية مرکز قضاء الحلة, قضاء الحلة, محافظة بابل, 51003, العراق"
+location: "Qariyat Hussein Abd Khudair, Hillah, Babil Governorate, Iraq"
+location_original: "قرية حسين عبد خضير, الحلة, ناحية مرکز قضاء الحلة, قضاء الحلة, محافظة بابل, 51003, العراق"
 country: "Iraq"
 latitude: 32.48
 longitude: 44.37

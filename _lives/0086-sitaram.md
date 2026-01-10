@@ -7,7 +7,8 @@ death_year: "1683 AD"
 age_at_death: 52
 birth_date: "September 23, 1630 AD"
 death_date: "August 20, 1683 AD"
-location: "Raipur, Narmadapuram Tahsil, Narmadapuram, Madhya Pradesh, India"
+location: "Raipur, Narmadapuram, Madhya Pradesh, India"
+location_original: "Raipur, Narmadapuram Tahsil, Narmadapuram, Madhya Pradesh, India"
 country: "India"
 latitude: 22.74
 longitude: 77.77

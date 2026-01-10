@@ -7,7 +7,8 @@ death_year: "1937 AD"
 age_at_death: 29
 birth_date: "September 3, 1907 AD"
 death_date: "July 15, 1937 AD"
-location: "Kothe Dhab Sher Singwala, Faridkot Tahsil, Faridkot, Punjab, India"
+location: "Kothe Dhab Sher Singwala, Faridkot, Punjab, India"
+location_original: "Kothe Dhab Sher Singwala, Faridkot Tahsil, Faridkot, Punjab, India"
 country: "India"
 latitude: 30.65
 longitude: 74.61

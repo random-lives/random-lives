@@ -7,7 +7,8 @@ death_year: "666 AD"
 age_at_death: 0
 birth_date: "November 2, 665 AD"
 death_date: "October 24, 666 AD"
-location: "Буђановци, Општина Рума, Сремски управни округ, Војводина, Србија"
+location: "Budanovci, Ruma, Vojvodina, Serbia"
+location_original: "Буђановци, Општина Рума, Сремски управни округ, Војводина, Србија"
 country: "Serbia"
 latitude: 44.89
 longitude: 19.88

@@ -7,7 +7,8 @@ death_year: "9 AD"
 age_at_death: 50
 birth_date: "November 22, 43 BC"
 death_date: "July 17, 9 AD"
-location: "كفر الشيخ, مصر"
+location: "Kafr El Sheikh, Egypt"
+location_original: "كفر الشيخ, مصر"
 country: "Egypt"
 latitude: 31.23
 longitude: 31.29

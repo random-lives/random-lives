@@ -7,7 +7,8 @@ death_year: "1055 AD"
 age_at_death: 21
 birth_date: "May 16, 1034 AD"
 death_date: "September 7, 1055 AD"
-location: "俄久乡, 尼玛县 ཉི་མ་རྫོང།, 那曲市 ནག་ཆུ་ས་ཁུལ།, 西藏自治区 བོད་རང་སྐྱོང་ལྗོངས།, 中国"
+location: "Ejiu, Nyima County, Nagqu, Tibet, China"
+location_original: "俄久乡, 尼玛县 ཉི་མ་རྫོང།, 那曲市 ནག་ཆུ་ས་ཁུལ།, 西藏自治区 བོད་རང་སྐྱོང་ལྗོངས།, 中国"
 country: "China"
 latitude: 31.9
 longitude: 86.35

@@ -7,7 +7,8 @@ death_year: "1433 AD"
 age_at_death: 53
 birth_date: "December 22, 1379 AD"
 death_date: "November 5, 1433 AD"
-location: "Murrupula, Nampula, Zona Norte, Moçambique"
+location: "Murrupula, Nampula, Mozambique"
+location_original: "Murrupula, Nampula, Zona Norte, Moçambique"
 country: "Mozambique"
 latitude: -15.42
 longitude: 38.87

@@ -7,7 +7,8 @@ death_year: "1925 AD"
 age_at_death: 4
 birth_date: "July 13, 1920 AD"
 death_date: "March 16, 1925 AD"
-location: "Антонів, Сквирська міська громада, Білоцерківський район, Київська область, 09052, Україна"
+location: "Antoniv, Bila Tserkva, Kyiv Oblast, Ukraine"
+location_original: "Антонів, Сквирська міська громада, Білоцерківський район, Київська область, 09052, Україна"
 country: "Ukraine"
 latitude: 49.64
 longitude: 29.79

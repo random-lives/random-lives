@@ -7,7 +7,8 @@ death_year: "1473 BC"
 age_at_death: 16
 birth_date: "March 21, 1490 BC"
 death_date: "March 11, 1473 BC"
-location: "Onikişubat, Kahramanmaraş, Akdeniz Bölgesi, Türkiye"
+location: "Onikisubat, Kahramanmaras, Turkey"
+location_original: "Onikişubat, Kahramanmaraş, Akdeniz Bölgesi, Türkiye"
 country: "Turkey"
 latitude: 37.73
 longitude: 36.79

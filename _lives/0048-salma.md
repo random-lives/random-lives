@@ -6,7 +6,8 @@ birth_year_numeric: 1968
 death_year: "present"
 age_at_death: alive
 birth_date: "November 10, 1968 AD"
-location: "Damera, Elkathurthi mandal, Hanumakonda, Telangana, 505476, India"
+location: "Damera, Hanumakonda, Telangana, India"
+location_original: "Damera, Elkathurthi mandal, Hanumakonda, Telangana, 505476, India"
 country: "India"
 latitude: 18.07
 longitude: 79.44

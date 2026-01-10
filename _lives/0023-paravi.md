@@ -7,7 +7,8 @@ death_year: "5461 BC"
 age_at_death: 83
 birth_date: "November 16, 5544 BC"
 death_date: "December 27, 5461 BC"
-location: "Nijgadh-03, निजगढ नगरपालिका, बारा जिल्ला, मधेश प्रदेश, नेपाल"
+location: "Nijgadh, Bara District, Madhesh Province, Nepal"
+location_original: "Nijgadh-03, निजगढ नगरपालिका, बारा जिल्ला, मधेश प्रदेश, नेपाल"
 country: "Nepal"
 latitude: 27.15
 longitude: 85.19

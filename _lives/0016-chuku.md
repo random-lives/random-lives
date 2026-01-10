@@ -7,7 +7,8 @@ death_year: "1891 BC"
 age_at_death: 40
 birth_date: "April 20, 1932 BC"
 death_date: "January 13, 1891 BC"
-location: "Dijuli, Jakholi, Rudraprayag, Uttarakhand, India"
+location: "Dijuli, Rudraprayag, Uttarakhand, India"
+location_original: "Dijuli, Jakholi, Rudraprayag, Uttarakhand, India"
 country: "India"
 latitude: 30.48
 longitude: 78.94

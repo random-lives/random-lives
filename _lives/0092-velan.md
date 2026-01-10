@@ -7,7 +7,8 @@ death_year: "399 BC"
 age_at_death: 0
 birth_date: "August 12, 400 BC"
 death_date: "June 24, 399 BC"
-location: "Basavarajupalem, Atmakur, Sri Potti Sriramulu Nellore, Andhra Pradesh, India"
+location: "Basavarajupalem, Atmakur, Nellore, Andhra Pradesh, India"
+location_original: "Basavarajupalem, Atmakur, Sri Potti Sriramulu Nellore, Andhra Pradesh, India"
 country: "India"
 latitude: 14.66
 longitude: 79.52

@@ -7,7 +7,8 @@ death_year: "525 AD"
 age_at_death: 0
 birth_date: "June 6, 525 AD"
 death_date: "June 22, 525 AD"
-location: "灵溪镇, 苍南县, 温州市, 浙江省, 325800, 中国"
+location: "Lingxi, Cangnan County, Zhejiang, China"
+location_original: "灵溪镇, 苍南县, 温州市, 浙江省, 325800, 中国"
 country: "China"
 latitude: 27.4
 longitude: 120.34

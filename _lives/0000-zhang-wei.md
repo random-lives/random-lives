@@ -6,7 +6,8 @@ birth_year_numeric: 1995
 death_year: "present"
 age_at_death: alive
 birth_date: "October 21, 1995 AD"
-location: "狗场, 织金县, 毕节市, 贵州省, 中国"
+location: "Gouchang, Zhijin County, Guizhou, China"
+location_original: "狗场, 织金县, 毕节市, 贵州省, 中国"
 country: "China"
 latitude: 26.48
 longitude: 105.43

@@ -7,7 +7,8 @@ death_year: "1738 AD"
 age_at_death: 0
 birth_date: "November 12, 1737 AD"
 death_date: "April 30, 1738 AD"
-location: "San Pedro Chacabal, Motul, Yucatán, México"
+location: "San Pedro Chacabal, Yucatan, Mexico"
+location_original: "San Pedro Chacabal, Motul, Yucatán, México"
 country: "Mexico"
 latitude: 21.15
 longitude: -89.16

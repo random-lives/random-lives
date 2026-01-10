@@ -7,7 +7,8 @@ death_year: "4135 BC"
 age_at_death: 0
 birth_date: "March 17, 4135 BC"
 death_date: "March 17, 4135 BC"
-location: "Calles, La Serranía, València / Valencia, Comunitat Valenciana, España"
+location: "Calles, Valencia, Spain"
+location_original: "Calles, La Serranía, València / Valencia, Comunitat Valenciana, España"
 country: "Spain"
 latitude: 39.73
 longitude: -0.95

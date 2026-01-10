@@ -7,7 +7,8 @@ death_year: "1982 AD"
 age_at_death: 71
 birth_date: "March 20, 1910 AD"
 death_date: "February 21, 1982 AD"
-location: "میاندام, تحصیل خوازہ خیلہ, ضلع سوات, مالاکنڈ ڈویژن, خیبر پختونخوا, پاکستان"
+location: "Miandam, Khwaza Khela, Swat District, Khyber Pakhtunkhwa, Pakistan"
+location_original: "میاندام, تحصیل خوازہ خیلہ, ضلع سوات, مالاکنڈ ڈویژن, خیبر پختونخوا, پاکستان"
 country: "Pakistan"
 latitude: 35.06
 longitude: 72.61

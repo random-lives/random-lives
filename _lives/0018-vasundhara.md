@@ -7,7 +7,8 @@ death_year: "763 BC"
 age_at_death: 24
 birth_date: "May 18, 787 BC"
 death_date: "December 13, 763 BC"
-location: "Aurangnagar Rardhana, Sardhana, Meerut, Uttar Pradesh, 224168, India"
+location: "Aurangnagar Rardhana, Meerut, Uttar Pradesh, India"
+location_original: "Aurangnagar Rardhana, Sardhana, Meerut, Uttar Pradesh, 224168, India"
 country: "India"
 latitude: 29.23
 longitude: 77.61

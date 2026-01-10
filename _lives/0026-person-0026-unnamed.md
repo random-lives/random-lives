@@ -7,7 +7,8 @@ death_year: "1294 AD"
 age_at_death: 0
 birth_date: "December 15, 1294 AD"
 death_date: "December 16, 1294 AD"
-location: "Pongam, Chalakkudy, Thrissur, Kerala, 683576, India"
+location: "Pongam, Thrissur, Kerala, India"
+location_original: "Pongam, Chalakkudy, Thrissur, Kerala, 683576, India"
 country: "India"
 latitude: 10.24
 longitude: 76.36

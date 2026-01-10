@@ -7,7 +7,8 @@ death_year: "519 BC"
 age_at_death: 76
 birth_date: "June 3, 596 BC"
 death_date: "January 2, 519 BC"
-location: "Krajna, Općina Čačinci, Virovitičko-podravska županija, Hrvatska"
+location: "Krajna, Virovitica-Podravina County, Croatia"
+location_original: "Krajna, Općina Čačinci, Virovitičko-podravska županija, Hrvatska"
 country: "Croatia"
 latitude: 45.56
 longitude: 17.8

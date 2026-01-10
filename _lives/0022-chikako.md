@@ -7,7 +7,8 @@ death_year: "1103 AD"
 age_at_death: 57
 birth_date: "February 1, 1046 AD"
 death_date: "May 23, 1103 AD"
-location: "長寿ガ丘, 宝塚市, 兵庫県, 665-0845, 日本"
+location: "Choju-ga-oka, Takarazuka, Hyogo, Japan"
+location_original: "長寿ガ丘, 宝塚市, 兵庫県, 665-0845, 日本"
 country: "Japan"
 latitude: 34.81
 longitude: 135.33

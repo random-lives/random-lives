@@ -7,7 +7,8 @@ death_year: "1938 AD"
 age_at_death: 0
 birth_date: "June 29, 1938 AD"
 death_date: "July 1, 1938 AD"
-location: "Cata de Juanes, Guadalupito, Vetagrande, Zacatecas, México"
+location: "Cata de Juanes, Zacatecas, Mexico"
+location_original: "Cata de Juanes, Guadalupito, Vetagrande, Zacatecas, México"
 country: "Mexico"
 latitude: 22.82
 longitude: -102.57

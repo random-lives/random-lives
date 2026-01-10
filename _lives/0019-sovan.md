@@ -7,7 +7,8 @@ death_year: "303 AD"
 age_at_death: 0
 birth_date: "September 18, 302 AD"
 death_date: "August 13, 303 AD"
-location: "ပင်းယကွင်း, အုတ်တွင်းမြို့နယ်, တောင်ငူခရိုင်, မြန်မာ"
+location: "Pinyakwin, Ottwin, Taungoo District, Myanmar"
+location_original: "ပင်းယကွင်း, အုတ်တွင်းမြို့နယ်, တောင်ငူခရိုင်, မြန်မာ"
 country: "Myanmar"
 latitude: 18.82
 longitude: 96.35

@@ -7,7 +7,8 @@ death_year: "820 BC"
 age_at_death: 75
 birth_date: "November 23, 896 BC"
 death_date: "September 26, 820 BC"
-location: "Пухновская волость, Куньинский район, Псковская область, Северо-Западный федеральный округ, Россия"
+location: "Pukhnovskaya, Kunyinsky District, Pskov Oblast, Russia"
+location_original: "Пухновская волость, Куньинский район, Псковская область, Северо-Западный федеральный округ, Россия"
 country: "Russia"
 latitude: 55.97
 longitude: 31.29

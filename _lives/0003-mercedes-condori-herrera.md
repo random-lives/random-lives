@@ -7,7 +7,8 @@ death_year: "1896 AD"
 age_at_death: 39
 birth_date: "August 29, 1857 AD"
 death_date: "October 8, 1896 AD"
-location: "Pumararanra, Paucará, Acobamba, Huancavelica, Perú"
+location: "Pumararanra, Acobamba, Huancavelica, Peru"
+location_original: "Pumararanra, Paucará, Acobamba, Huancavelica, Perú"
 country: "Peru"
 latitude: -12.67
 longitude: -74.75
