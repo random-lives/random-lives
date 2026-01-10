@@ -100,12 +100,12 @@ title: Map View
 
   lives.forEach(life => {
     const marker = L.circleMarker([life.lat, life.lng], {
-      radius: 8,
+      radius: 5,
       fillColor: "#000",
       color: "#fff",
-      weight: 2,
+      weight: 1,
       opacity: 1,
-      fillOpacity: 0.8
+      fillOpacity: 0.9
     }).addTo(map);
 
     const popup = L.popup().setContent(`
