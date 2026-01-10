@@ -211,12 +211,16 @@ nav a:hover {
 
 /* Life preview cards */
 .life-preview {
+  display: block;
   border: 1px solid #e0e0e0;
   padding: 24px;
   margin-bottom: 16px;
   border-radius: 4px;
   background: #fff;
   transition: border-color 0.15s ease;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 
 .life-preview:hover {
@@ -227,15 +231,7 @@ nav a:hover {
   margin-bottom: 12px;
   font-size: 1.25rem;
   font-weight: 600;
-}
-
-.life-preview h3 a {
   color: #000;
-  text-decoration: none;
-}
-
-.life-preview h3 a:hover {
-  text-decoration: underline;
 }
 
 .meta {

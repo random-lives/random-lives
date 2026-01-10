@@ -78,14 +78,14 @@ title: All Lives
 
   <div class="lives-list">
     {% for life in site.lives %}
-      <article class="life-preview"
+      <a href="{{ life.url | relative_url }}" class="life-preview"
                data-birth-year="{{ life.birth_year_numeric }}"
                data-continent="{{ life.continent }}"
                data-age="{{ life.age_tag }}"
                data-sex="{{ life.sex }}"
                data-lifestyle="{{ life.lifestyle }}"
                data-country="{{ life.country }}">
-        <h3><a href="{{ life.url | relative_url }}">{{ life.title }}</a></h3>
+        <h3>{{ life.title }}</h3>
         <div class="meta">
           <span class="years">{% if life.birth_year == life.death_year %}{{ life.birth_year }}{% else %}{{ life.birth_year }} – {{ life.death_year }}{% endif %}</span>
           {% if life.region %}<span class="region">{{ life.region }}</span>{% endif %}
@@ -93,7 +93,7 @@ title: All Lives
           <span class="lifestyle">{{ life.lifestyle }}</span>
         </div>
         <p class="excerpt">{{ life.excerpt | strip_html | truncatewords: 50 }}</p>
-      </article>
+      </a>
     {% endfor %}
   </div>
 </div>
