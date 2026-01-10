@@ -183,8 +183,8 @@ nav a:hover {
 }
 
 .tag.selected {
-  background: #0066cc;
-  border-color: #0066cc;
+  background: #000;
+  border-color: #000;
   color: white;
 }
 
@@ -213,7 +213,7 @@ nav a:hover {
 }
 
 .life-preview h3 a {
-  color: #0066cc;
+  color: #000;
   text-decoration: none;
 }
 
