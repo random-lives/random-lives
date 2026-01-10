@@ -3,6 +3,63 @@ layout: default
 title: Map View
 ---
 
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+
+<style>
+#world-map {
+  height: 600px;
+  width: 100%;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  background: #f5f5f5;
+}
+
+.map-view {
+  max-width: 1200px;
+}
+
+.map-view h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.map-view .intro {
+  font-size: 1.1rem;
+  margin: 0 0 24px;
+  color: #555;
+}
+
+.map-popup {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.map-popup a {
+  color: #000;
+  text-decoration: none;
+}
+
+.map-popup a:hover {
+  text-decoration: underline;
+}
+
+.popup-years {
+  color: #666;
+}
+
+.popup-country {
+  color: #888;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 600px) {
+  #world-map {
+    height: 400px;
+  }
+}
+</style>
+
 <div class="map-view">
   <h1>Map View</h1>
   <p class="intro">Explore all {{ site.lives.size }} lives by location. Click a marker to read their story.</p>
@@ -10,7 +67,6 @@ title: Map View
   <div id="world-map"></div>
 </div>
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
 <script>
@@ -64,57 +120,3 @@ title: Map View
   });
 })();
 </script>
-
-<style>
-.map-view {
-  max-width: 1200px;
-}
-
-.map-view h1 {
-  font-size: 2rem;
-  font-weight: 600;
-  margin-bottom: 8px;
-}
-
-.map-view .intro {
-  font-size: 1.1rem;
-  margin: 0 0 24px;
-  color: #555;
-}
-
-#world-map {
-  height: 600px;
-  width: 100%;
-  border: 1px solid #e0e0e0;
-  border-radius: 4px;
-}
-
-.map-popup {
-  font-size: 0.9rem;
-  line-height: 1.5;
-}
-
-.map-popup a {
-  color: #000;
-  text-decoration: none;
-}
-
-.map-popup a:hover {
-  text-decoration: underline;
-}
-
-.popup-years {
-  color: #666;
-}
-
-.popup-country {
-  color: #888;
-  font-size: 0.85rem;
-}
-
-@media (max-width: 600px) {
-  #world-map {
-    height: 400px;
-  }
-}
-</style>
