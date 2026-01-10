@@ -23,7 +23,7 @@ title: Timeline View
 .timeline-controls {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 8px;
   margin-bottom: 16px;
   flex-wrap: wrap;
 }
@@ -31,15 +31,30 @@ title: Timeline View
 .timeline-controls label {
   font-size: 0.9rem;
   color: #666;
+  margin-right: 4px;
 }
 
-.timeline-controls select {
-  padding: 6px 10px;
-  border: 1px solid #ccc;
+.color-btn {
+  padding: 5px 12px;
+  border: 1px solid #ddd;
   border-radius: 4px;
-  font-size: 0.9rem;
   background: #fff;
+  color: #555;
+  font-size: 0.85rem;
   cursor: pointer;
+  transition: all 0.15s;
+  font-family: inherit;
+}
+
+.color-btn:hover {
+  border-color: #bbb;
+  background: #f5f5f5;
+}
+
+.color-btn.selected {
+  background: #333;
+  border-color: #333;
+  color: #fff;
 }
 
 .timeline-legend {
@@ -184,12 +199,8 @@ title: Timeline View
 
   <div class="timeline-controls">
     <label>Color by:</label>
-    <select id="color-by">
-      <option value="none">None</option>
-      <option value="continent">Continent</option>
-      <option value="age">Age at death</option>
-      <option value="lifestyle">Lifestyle</option>
-    </select>
+    <button type="button" class="color-btn" data-value="continent">Continent</button>
+    <button type="button" class="color-btn" data-value="lifestyle">Lifestyle</button>
     <div id="legend" class="timeline-legend"></div>
   </div>
 
@@ -525,11 +536,23 @@ title: Timeline View
     `).join('');
   }
 
-  // Event listeners
-  document.getElementById('color-by').addEventListener('change', (e) => {
-    colorBy = e.target.value;
-    updateLegend();
-    renderTimeline();
+  // Event listeners for color buttons
+  document.querySelectorAll('.color-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const value = btn.dataset.value;
+      // Toggle: if already selected, deselect (go to none)
+      if (btn.classList.contains('selected')) {
+        btn.classList.remove('selected');
+        colorBy = 'none';
+      } else {
+        // Deselect all, select this one
+        document.querySelectorAll('.color-btn').forEach(b => b.classList.remove('selected'));
+        btn.classList.add('selected');
+        colorBy = value;
+      }
+      updateLegend();
+      renderTimeline();
+    });
   });
 
   // Mouse wheel zoom
