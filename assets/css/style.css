@@ -252,6 +252,26 @@ nav a:hover {
   border-bottom: 1px solid #e0e0e0;
 }
 
+.life-header-with-map {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.life-header-with-map .life-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.life-header-with-map .life-map {
+  flex: 0 0 240px;
+  margin: 0;
+}
+
+.life-header-with-map #map {
+  height: 160px;
+}
+
 .life-header h1 {
   margin-bottom: 16px;
   font-size: 1.75rem;
@@ -365,31 +385,31 @@ nav a:hover {
 
 /* Life map */
 .life-map {
-  margin: 32px 0;
+  margin: 0;
   padding: 0;
   background: transparent;
 }
 
 #map {
-  height: 280px;
+  height: 160px;
   width: 100%;
-  margin-bottom: 8px;
 }
 
-.map-caption {
-  text-align: center;
-  font-size: 0.85rem;
-  color: #666;
-}
+/* Responsive: stack on mobile */
+@media (max-width: 600px) {
+  .life-header-with-map {
+    flex-direction: column;
+    gap: 20px;
+  }
 
-.map-caption a {
-  color: #666;
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
+  .life-header-with-map .life-map {
+    flex: none;
+    width: 100%;
+  }
 
-.map-caption a:hover {
-  color: #000;
+  .life-header-with-map #map {
+    height: 200px;
+  }
 }
 
 /* Footer */

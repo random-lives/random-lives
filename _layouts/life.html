@@ -3,44 +3,45 @@ layout: default
 ---
 
 <article class="life">
-  <header class="life-header">
-    <h1>{{ page.title }}</h1>
-    <div class="life-meta">
-      <p><strong>Born:</strong> {{ page.birth_date }}</p>
-      {% if page.death_year != "present" %}<p><strong>Died:</strong> {{ page.death_date }} (Age {{ page.age_at_death }})</p>{% endif %}
-      {% if page.region %}
-        <p><strong>Birthplace:</strong>
-          {% if page.subsubregion %}
-            {{ page.subsubregion }}, {{ page.subregion }}, {{ page.region }}
-          {% elsif page.subregion %}
-            {{ page.subregion }}, {{ page.region }}
-          {% else %}
-            {{ page.region }}
-          {% endif %}
-        </p>
-      {% elsif page.location %}
-        <p><strong>Birthplace:</strong>
-          <a href="{{ page.map_url }}" target="_blank" rel="noopener noreferrer">
-            {{ page.location }}
-          </a>
-        </p>
-      {% elsif page.country %}
-        <p><strong>Birthplace:</strong>
-          <a href="{{ page.map_url }}" target="_blank" rel="noopener noreferrer">
-            {{ page.country }}
-          </a>
-        </p>
-      {% endif %}
+  <header class="life-header {% if page.latitude and page.longitude %}life-header-with-map{% endif %}">
+    <div class="life-info">
+      <h1>{{ page.title }}</h1>
+      <div class="life-meta">
+        <p><strong>Born:</strong> {{ page.birth_date }}</p>
+        {% if page.death_year != "present" %}<p><strong>Died:</strong> {{ page.death_date }} (Age {{ page.age_at_death }})</p>{% endif %}
+        {% if page.region %}
+          <p><strong>Birthplace:</strong>
+            {% if page.subsubregion %}
+              {{ page.subsubregion }}, {{ page.subregion }}, {{ page.region }}
+            {% elsif page.subregion %}
+              {{ page.subregion }}, {{ page.region }}
+            {% else %}
+              {{ page.region }}
+            {% endif %}
+          </p>
+        {% elsif page.location %}
+          <p><strong>Birthplace:</strong>
+            <a href="{{ page.map_url }}" target="_blank" rel="noopener noreferrer">
+              {{ page.location }}
+            </a>
+          </p>
+        {% elsif page.country %}
+          <p><strong>Birthplace:</strong>
+            <a href="{{ page.map_url }}" target="_blank" rel="noopener noreferrer">
+              {{ page.country }}
+            </a>
+          </p>
+        {% endif %}
+      </div>
     </div>
+    {% if page.latitude and page.longitude %}
+    <div class="life-map">
+      <div id="map"></div>
+    </div>
+    {% endif %}
   </header>
 
   {% if page.latitude and page.longitude %}
-  <div class="life-map">
-    <div id="map"></div>
-    <p class="map-caption">
-      <a href="{{ page.map_url }}" target="_blank" rel="noopener noreferrer">View on Google Maps</a>
-    </p>
-  </div>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   <script>
