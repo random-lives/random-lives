@@ -61,6 +61,7 @@ title: All Lives
 
     <div class="filter-stats">
       Showing <span id="visible-count">0</span> of <span id="total-count">0</span> lives
+      <button type="button" class="reset-btn" id="reset-filters">Reset filters</button>
     </div>
   </div>
 
@@ -264,5 +265,25 @@ title: All Lives
 
   // Setup sort button click handlers
   setupSortButtons();
+
+  // Reset button
+  document.getElementById('reset-filters').addEventListener('click', () => {
+    // Clear text inputs
+    filters.yearStart.value = '';
+    filters.yearEnd.value = '';
+
+    // Deselect all filter tags
+    Object.values(tagFilters).forEach(container => {
+      container.querySelectorAll('.tag.selected').forEach(btn => btn.classList.remove('selected'));
+    });
+
+    // Reset sort to default
+    sortOrderContainer.querySelectorAll('.tag').forEach(btn => btn.classList.remove('selected'));
+    sortOrderContainer.querySelector('[data-value="default"]').classList.add('selected');
+
+    // Apply changes
+    applySorting();
+    applyFilters();
+  });
 })();
 </script>
