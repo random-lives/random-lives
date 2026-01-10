@@ -28,7 +28,7 @@ nav {
 }
 
 nav h1 {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 500;
   letter-spacing: 0.02em;
 }
@@ -47,7 +47,7 @@ nav ul {
 nav a {
   color: #666;
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 1.25rem;
 }
 
 nav a:hover {
@@ -103,24 +103,34 @@ nav a:hover {
   max-width: 900px;
 }
 
+.home h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
 .intro {
-  font-size: 1.2rem;
-  margin: 20px 0 40px;
+  font-size: 1.1rem;
+  margin: 0 0 32px;
   color: #555;
 }
 
 /* Filter controls */
 .filters {
-  margin-bottom: 30px;
-  padding: 20px;
-  background: #f5f5f5;
-  border-radius: 5px;
+  margin-bottom: 32px;
+  padding: 24px;
+  background: #f8f8f8;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
 }
 
 .filters h3 {
-  margin-bottom: 15px;
-  font-size: 1rem;
+  margin-bottom: 16px;
+  font-size: 0.9rem;
+  font-weight: 500;
   color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .filter-row {
@@ -201,15 +211,22 @@ nav a:hover {
 
 /* Life preview cards */
 .life-preview {
-  border: 1px solid #ddd;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  background: #fafafa;
+  border: 1px solid #e0e0e0;
+  padding: 24px;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  background: #fff;
+  transition: border-color 0.15s ease;
+}
+
+.life-preview:hover {
+  border-color: #999;
 }
 
 .life-preview h3 {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
+  font-size: 1.25rem;
+  font-weight: 600;
 }
 
 .life-preview h3 a {
@@ -223,26 +240,29 @@ nav a:hover {
 
 .meta {
   display: flex;
-  gap: 15px;
-  margin-bottom: 10px;
-  font-size: 0.9rem;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 12px;
+  font-size: 0.85rem;
   color: #666;
 }
 
 .meta span {
-  padding: 2px 8px;
-  background: #e0e0e0;
+  padding: 3px 10px;
+  background: #f0f0f0;
   border-radius: 3px;
 }
 
 .excerpt {
-  color: #555;
-  margin-top: 10px;
+  color: #444;
+  margin-top: 12px;
+  font-size: 0.95rem;
+  line-height: 1.6;
 }
 
 /* Individual life page */
 .life {
-  max-width: 900px;
+  max-width: 680px;
   margin: 0 auto;
 }
 
@@ -253,8 +273,13 @@ nav a:hover {
 }
 
 .life-header-with-map {
+  max-width: none;
+  width: calc(100vw - 40px);
+  max-width: 1100px;
+  margin-left: 50%;
+  transform: translateX(-50%);
   display: flex;
-  gap: 40px;
+  gap: 48px;
   align-items: flex-start;
 }
 
@@ -264,24 +289,25 @@ nav a:hover {
 }
 
 .life-header-with-map .life-map {
-  flex: 0 0 340px;
+  flex: 0 0 550px;
   margin: 0;
 }
 
 .life-header-with-map #map {
-  height: 180px;
+  height: 320px;
+  cursor: pointer;
 }
 
 .life-header h1 {
   margin-bottom: 16px;
-  font-size: 1.75rem;
+  font-size: 2.1rem;
   font-weight: 600;
   letter-spacing: -0.01em;
 }
 
 .life-meta {
   color: #666;
-  font-size: 0.95rem;
+  font-size: 1.1rem;
 }
 
 .life-meta p {
