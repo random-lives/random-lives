@@ -242,7 +242,7 @@ nav a:hover {
 
 /* Individual life page */
 .life {
-  max-width: 680px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -254,7 +254,7 @@ nav a:hover {
 
 .life-header-with-map {
   display: flex;
-  gap: 32px;
+  gap: 40px;
   align-items: flex-start;
 }
 
@@ -264,12 +264,12 @@ nav a:hover {
 }
 
 .life-header-with-map .life-map {
-  flex: 0 0 240px;
+  flex: 0 0 340px;
   margin: 0;
 }
 
 .life-header-with-map #map {
-  height: 160px;
+  height: 180px;
 }
 
 .life-header h1 {
@@ -299,6 +299,7 @@ nav a:hover {
 }
 
 .life-narrative {
+  max-width: 680px;
   font-size: 1.05rem;
   line-height: 1.85;
   margin-bottom: 40px;
