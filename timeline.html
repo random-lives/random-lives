@@ -462,7 +462,9 @@ title: Timeline View
       const color = getColor(life, colorBy);
       const top = verticalOffset + life.permanentRow * (barHeight + gap);
       const width = life.endPct - life.startPct;
-      const ageText = life.ageAtDeath !== null ? `Died at ${life.ageAtDeath}` : 'Still alive';
+      const ageText = life.ageAtDeath !== null
+        ? `Died at ${life.ageAtDeath}`
+        : `Age ${maxYear - life.birthYear} (alive)`;
 
       // Skip if bar would be outside canvas
       if (top > CANVAS_HEIGHT) return '';
@@ -551,14 +553,14 @@ title: Timeline View
     let newStart = mouseYear - newRange * mousePercent;
     let newEnd = mouseYear + newRange * (1 - mousePercent);
 
-    // If zooming in and we're near the right edge (within 10% of max),
-    // anchor to maxYear instead of following mouse
-    const nearRightEdge = viewEnd >= maxYear - (currentRange * 0.1);
+    // If zooming in and mouse cursor is near the right edge (within 20% of container width),
+    // preserve the current right-hand year instead of following mouse
+    const nearRightEdge = mousePercent > 0.8;
     const zoomingIn = zoomFactor < 1;
 
     if (nearRightEdge && zoomingIn) {
-      newEnd = maxYear;
-      newStart = maxYear - newRange;
+      newEnd = viewEnd;
+      newStart = viewEnd - newRange;
     }
 
     // Clamp to bounds
