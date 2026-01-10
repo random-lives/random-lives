@@ -370,13 +370,9 @@ nav a:hover {
   background: transparent;
 }
 
-.life-map h2 {
-  margin-bottom: 15px;
-  font-size: 1.1rem;
-  font-weight: 500;
-}
-
-.life-map iframe {
+#map {
+  height: 280px;
+  width: 100%;
   margin-bottom: 8px;
 }
 
