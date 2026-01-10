@@ -25,8 +25,11 @@ title: Map View
   }).addTo(map);
 
   const lives = [
+    {% assign first = true %}
     {% for life in site.lives %}
     {% if life.latitude and life.longitude %}
+    {% unless first %},{% endunless %}
+    {% assign first = false %}
     {
       name: "{{ life.title | escape }}",
       lat: {{ life.latitude }},
@@ -34,7 +37,7 @@ title: Map View
       url: "{{ life.url | relative_url }}",
       years: "{% if life.birth_year == life.death_year %}{{ life.birth_year }}{% else %}{{ life.birth_year }} – {{ life.death_year }}{% endif %}",
       country: "{{ life.country | escape }}"
-    }{% unless forloop.last %},{% endunless %}
+    }
     {% endif %}
     {% endfor %}
   ];
