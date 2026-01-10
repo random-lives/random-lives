@@ -242,37 +242,51 @@ nav a:hover {
 
 /* Individual life page */
 .life {
-  max-width: 800px;
+  max-width: 680px;
   margin: 0 auto;
 }
 
 .life-header {
   margin-bottom: 40px;
   padding-bottom: 20px;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 .life-header h1 {
-  margin-bottom: 20px;
-  font-size: 2rem;
+  margin-bottom: 16px;
+  font-size: 1.75rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
 }
 
 .life-meta {
   color: #666;
+  font-size: 0.95rem;
 }
 
 .life-meta p {
-  margin: 5px 0;
+  margin: 4px 0;
+}
+
+.life-meta a {
+  color: #666;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.life-meta a:hover {
+  color: #000;
 }
 
 .life-narrative {
-  font-size: 1.1rem;
-  line-height: 1.8;
+  font-size: 1.05rem;
+  line-height: 1.85;
   margin-bottom: 40px;
+  color: #222;
 }
 
 .life-narrative p {
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.3rem;
 }
 
 .life-events {
@@ -297,108 +311,118 @@ nav a:hover {
 }
 
 .life-navigation {
-  margin-top: 40px;
-  padding-top: 20px;
-  border-top: 1px solid #ddd;
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid #e0e0e0;
 }
 
 .life-navigation a {
-  color: #0066cc;
+  color: #666;
   text-decoration: none;
+  font-size: 0.9rem;
 }
 
 .life-navigation a:hover {
-  text-decoration: underline;
+  color: #000;
 }
 
 /* Life navigation buttons */
 .life-nav-buttons {
   display: flex;
   justify-content: center;
-  gap: 15px;
-  margin-top: 30px;
+  gap: 12px;
+  margin-top: 24px;
   flex-wrap: wrap;
 }
 
 .nav-btn {
   display: inline-block;
   padding: 10px 20px;
-  background: #0066cc;
-  color: white;
+  background: transparent;
+  color: #000;
   text-decoration: none;
-  border-radius: 5px;
-  font-size: 0.95rem;
-  transition: background-color 0.2s;
+  border: 1px solid #000;
+  font-size: 0.9rem;
+  transition: all 0.15s ease;
 }
 
 .nav-btn:hover {
-  background: #0052a3;
-  text-decoration: none;
+  background: #000;
+  color: #fff;
 }
 
 .nav-btn.disabled {
-  background: #ccc;
-  color: #888;
+  background: transparent;
+  border-color: #ccc;
+  color: #999;
   cursor: not-allowed;
+}
+
+.nav-btn.disabled:hover {
+  background: transparent;
+  color: #999;
 }
 
 /* Life map */
 .life-map {
-  margin: 40px 0;
-  padding: 20px;
-  background: #f5f5f5;
-  border-radius: 5px;
+  margin: 32px 0;
+  padding: 0;
+  background: transparent;
 }
 
 .life-map h2 {
   margin-bottom: 15px;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
 .life-map iframe {
-  border-radius: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .map-caption {
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: #666;
 }
 
 .map-caption a {
-  color: #0066cc;
-  text-decoration: none;
+  color: #666;
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 .map-caption a:hover {
-  text-decoration: underline;
+  color: #000;
 }
 
 /* Historical notes */
 .historical-notes {
-  margin: 40px 0;
-  padding: 20px;
-  background: #f5f5f5;
-  border-radius: 5px;
-  border-left: 4px solid #0066cc;
+  margin: 48px 0;
+  padding: 24px;
+  background: #fafafa;
+  border-left: 3px solid #000;
 }
 
 .historical-notes h2 {
-  margin-bottom: 15px;
-  font-size: 1.3rem;
-  color: #333;
+  margin-bottom: 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #000;
 }
 
 .historical-notes ul {
   list-style-position: outside;
-  padding-left: 25px;
+  padding-left: 20px;
 }
 
 .historical-notes li {
-  margin: 12px 0;
+  margin: 10px 0;
   line-height: 1.6;
-  color: #555;
+  color: #444;
+  font-size: 0.95rem;
 }
 
 /* Footer */
