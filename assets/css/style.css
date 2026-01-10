@@ -16,9 +16,9 @@ body {
 
 /* Header and navigation */
 header {
-  border-bottom: 2px solid #ddd;
+  border-bottom: 1px solid #e0e0e0;
   margin-bottom: 40px;
-  padding-bottom: 20px;
+  padding-bottom: 16px;
 }
 
 nav {
@@ -28,27 +28,30 @@ nav {
 }
 
 nav h1 {
-  font-size: 1.8rem;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 nav h1 a {
-  color: #333;
+  color: #000;
   text-decoration: none;
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 24px;
 }
 
 nav a {
-  color: #0066cc;
+  color: #666;
   text-decoration: none;
+  font-size: 0.9rem;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  color: #000;
 }
 
 /* Landing page */
@@ -56,7 +59,7 @@ nav a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 60vh;
+  min-height: 70vh;
   text-align: center;
 }
 
@@ -64,41 +67,35 @@ nav a:hover {
   max-width: 600px;
 }
 
-.landing-title {
-  font-size: 3rem;
-  margin-bottom: 20px;
-  font-weight: 700;
-}
-
 .landing-btn {
   display: inline-block;
-  padding: 14px 32px;
-  font-size: 1.1rem;
+  padding: 16px 40px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
   text-decoration: none;
-  border-radius: 6px;
-  transition: all 0.2s;
-  margin-bottom: 20px;
+  border: 2px solid #000;
+  background: transparent;
+  color: #000;
+  transition: all 0.15s ease;
 }
 
-.landing-btn-primary {
-  background: #0066cc;
-  color: white;
-}
-
-.landing-btn-primary:hover {
-  background: #0052a3;
+.landing-btn:hover {
+  background: #000;
+  color: #fff;
 }
 
 .landing-link {
   display: block;
-  font-size: 0.95rem;
+  margin-top: 32px;
+  font-size: 0.9rem;
   color: #666;
   text-decoration: none;
+  letter-spacing: 0.01em;
 }
 
 .landing-link:hover {
-  color: #0066cc;
-  text-decoration: underline;
+  color: #000;
 }
 
 /* Home page (lives list) */
@@ -407,9 +404,9 @@ nav a:hover {
 /* Footer */
 footer {
   margin-top: 60px;
-  padding-top: 20px;
-  border-top: 2px solid #ddd;
+  padding-top: 16px;
+  border-top: 1px solid #e0e0e0;
   text-align: center;
-  color: #666;
-  font-size: 0.9rem;
+  color: #999;
+  font-size: 0.8rem;
 }
