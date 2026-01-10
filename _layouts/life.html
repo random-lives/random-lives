@@ -45,13 +45,13 @@ layout: default
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   <script>
     var map = L.map('map', { zoomControl: false, attributionControl: false }).setView([{{ page.latitude }}, {{ page.longitude }}], 4);
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
       maxZoom: 19
     }).addTo(map);
     L.circleMarker([{{ page.latitude }}, {{ page.longitude }}], {
       radius: 6,
-      fillColor: "#000",
-      color: "#000",
+      fillColor: "#fff",
+      color: "#fff",
       weight: 1,
       opacity: 1,
       fillOpacity: 1
