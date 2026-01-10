@@ -100,60 +100,82 @@ nav a:hover {
 
 /* Home page (lives list) */
 .home {
-  max-width: 900px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .home h1 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 600;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
+  letter-spacing: -0.02em;
 }
 
 .intro {
   font-size: 1.1rem;
   margin: 0 0 32px;
   color: #555;
+  line-height: 1.5;
 }
 
 /* Filter controls */
 .filters {
-  margin-bottom: 32px;
-  padding: 24px;
-  background: #f8f8f8;
-  border: 1px solid #e0e0e0;
-  border-radius: 4px;
+  margin-bottom: 28px;
+  padding: 20px 24px;
+  background: #fafafa;
+  border: 1px solid #eee;
+  border-radius: 8px;
 }
 
 .filters h3 {
-  margin-bottom: 16px;
-  font-size: 0.9rem;
-  font-weight: 500;
-  color: #666;
+  margin-bottom: 14px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #888;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
 }
 
 .filter-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 12px 20px;
   align-items: center;
+  margin-bottom: 10px;
+}
+
+.filter-row:last-of-type {
+  margin-bottom: 0;
 }
 
 .filter-row label {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: #555;
+}
+
+.filter-row input[type="text"] {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+  font-size: 0.85rem;
+  transition: border-color 0.15s;
+}
+
+.filter-row input[type="text"]:focus {
+  outline: none;
+  border-color: #999;
 }
 
 .filter-row select {
   padding: 6px 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #ddd;
   border-radius: 4px;
   background: white;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   cursor: pointer;
 }
 
@@ -165,95 +187,150 @@ nav a:hover {
 .filter-tags {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 5px;
   flex-wrap: wrap;
 }
 
 .filter-label {
-  font-size: 0.9rem;
-  color: #666;
-  margin-right: 4px;
+  font-size: 0.85rem;
+  color: #777;
+  margin-right: 3px;
+  font-weight: 500;
 }
 
 .tag {
-  padding: 3px 10px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  background: transparent;
+  padding: 4px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
   color: #555;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   cursor: pointer;
-  transition: all 0.1s;
+  transition: all 0.15s;
   font-family: inherit;
 }
 
 .tag:hover {
-  border-color: #999;
-  color: #333;
+  border-color: #bbb;
+  background: #f5f5f5;
 }
 
 .tag.selected {
-  background: #000;
-  border-color: #000;
+  background: #333;
+  border-color: #333;
   color: white;
 }
 
 .filter-stats {
-  margin-top: 15px;
-  font-size: 0.9rem;
-  color: #666;
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid #eee;
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.lives-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
 }
 
 .lives-list h2 {
   margin-bottom: 30px;
   font-size: 1.5rem;
+  grid-column: 1 / -1;
 }
 
 /* Life preview cards */
 .life-preview {
-  display: block;
+  display: flex;
+  flex-direction: column;
   border: 1px solid #e0e0e0;
-  padding: 24px;
-  margin-bottom: 16px;
-  border-radius: 4px;
+  padding: 20px 22px;
+  border-radius: 6px;
   background: #fff;
-  transition: border-color 0.15s ease;
+  transition: all 0.2s ease;
   text-decoration: none;
   color: inherit;
   cursor: pointer;
+  min-height: 180px;
 }
 
 .life-preview:hover {
-  border-color: #999;
+  border-color: #bbb;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
 }
 
 .life-preview h3 {
-  margin-bottom: 12px;
-  font-size: 1.25rem;
+  margin-bottom: 10px;
+  font-size: 1.15rem;
   font-weight: 600;
   color: #000;
+  line-height: 1.3;
 }
 
 .meta {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 6px;
   margin-bottom: 12px;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   color: #666;
 }
 
 .meta span {
-  padding: 3px 10px;
-  background: #f0f0f0;
+  padding: 3px 8px;
+  background: #f5f5f5;
   border-radius: 3px;
+  white-space: nowrap;
+}
+
+.meta .years {
+  background: #e8f4e8;
+  color: #2d5a2d;
+  font-weight: 500;
+}
+
+.meta .country,
+.meta .region {
+  background: #e8f0f8;
+  color: #2d4a5a;
+}
+
+.meta .lifestyle {
+  background: #f8f0e8;
+  color: #5a4a2d;
 }
 
 .excerpt {
-  color: #444;
-  margin-top: 12px;
-  font-size: 0.95rem;
-  line-height: 1.6;
+  color: #555;
+  margin-top: auto;
+  font-size: 0.9rem;
+  line-height: 1.55;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Responsive adjustments for lives list */
+@media (max-width: 700px) {
+  .lives-list {
+    grid-template-columns: 1fr;
+  }
+
+  .life-preview {
+    min-height: auto;
+  }
+
+  .filters {
+    padding: 16px;
+  }
+
+  .filter-row {
+    gap: 8px 12px;
+  }
 }
 
 /* Individual life page */

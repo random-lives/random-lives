@@ -1,0 +1,636 @@
+---
+layout: default
+title: Timeline View
+---
+
+<style>
+.timeline-view {
+  max-width: 1200px;
+}
+
+.timeline-view h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.timeline-view .intro {
+  font-size: 1.1rem;
+  margin: 0 0 24px;
+  color: #555;
+}
+
+.timeline-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.timeline-controls label {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.timeline-controls select {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  background: #fff;
+  cursor: pointer;
+}
+
+.timeline-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  font-size: 0.8rem;
+  color: #555;
+  margin-left: 20px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+}
+
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.timeline-container {
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  background: #fafafa;
+  position: relative;
+  cursor: grab;
+}
+
+.timeline-container.dragging {
+  cursor: grabbing;
+}
+
+.timeline-axis {
+  height: 32px;
+  background: #fff;
+  border-bottom: 1px solid #e0e0e0;
+  position: relative;
+  overflow: hidden;
+}
+
+.axis-label {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.7rem;
+  color: #666;
+  white-space: nowrap;
+}
+
+.axis-tick {
+  position: absolute;
+  bottom: 0;
+  width: 1px;
+  height: 8px;
+  background: #ccc;
+  transform: translateX(-50%);
+}
+
+.timeline-canvas {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+
+.grid-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: #eee;
+  pointer-events: none;
+}
+
+.life-bar {
+  position: absolute;
+  border-radius: 1px;
+  cursor: pointer;
+  transition: opacity 0.1s ease;
+  min-width: 4px;
+}
+
+.life-bar:hover {
+  opacity: 0.8;
+  z-index: 100;
+}
+
+.timeline-tooltip {
+  position: fixed;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px 10px;
+  font-size: 0.8rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  pointer-events: none;
+  z-index: 1000;
+  max-width: 220px;
+  display: none;
+}
+
+.timeline-tooltip .tooltip-name {
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 3px;
+}
+
+.timeline-tooltip .tooltip-years {
+  color: #666;
+  margin-bottom: 2px;
+}
+
+.timeline-tooltip .tooltip-location {
+  color: #888;
+  font-size: 0.75rem;
+}
+
+.timeline-tooltip .tooltip-age {
+  color: #888;
+  font-size: 0.75rem;
+}
+
+@media (max-width: 600px) {
+  .timeline-legend {
+    margin-left: 0;
+    margin-top: 8px;
+    width: 100%;
+  }
+  .timeline-canvas {
+    height: 300px;
+  }
+}
+</style>
+
+<div class="timeline-view">
+  <h1>Timeline View</h1>
+  <p class="intro">Explore lives across time. Each bar shows a person's lifespan. Hover for details, click to read their story. Scroll to zoom, drag to pan.</p>
+
+  <div class="timeline-controls">
+    <label>Color by:</label>
+    <select id="color-by">
+      <option value="none">None</option>
+      <option value="continent">Continent</option>
+      <option value="age">Age at death</option>
+      <option value="lifestyle">Lifestyle</option>
+    </select>
+    <div id="legend" class="timeline-legend"></div>
+  </div>
+
+  <div class="timeline-container" id="timeline-container">
+    <div class="timeline-axis" id="timeline-axis"></div>
+    <div class="timeline-canvas" id="timeline-canvas"></div>
+  </div>
+</div>
+
+<div class="timeline-tooltip" id="tooltip"></div>
+
+<script>
+(function() {
+  // Parse death year from string like "1791 AD", "500 BC", "present"
+  function parseDeathYear(deathYearStr, birthYear, ageAtDeath) {
+    if (!deathYearStr || deathYearStr === 'present') {
+      return 2026;
+    }
+    if (ageAtDeath !== null && ageAtDeath !== 'alive') {
+      return birthYear + parseInt(ageAtDeath);
+    }
+    const str = deathYearStr.trim().toUpperCase();
+    const bcMatch = str.match(/^(\d+)\s*(BC|BCE)$/i);
+    if (bcMatch) {
+      return -parseInt(bcMatch[1], 10);
+    }
+    const adMatch = str.match(/^(\d+)\s*(AD|CE)?$/i);
+    if (adMatch) {
+      return parseInt(adMatch[1], 10);
+    }
+    return birthYear;
+  }
+
+  // Shuffle array
+  function shuffle(array) {
+    const arr = array.slice();
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  }
+
+  const lives = [
+    {% assign first = true %}
+    {% for life in site.lives %}
+    {% unless first %},{% endunless %}
+    {% assign first = false %}
+    {
+      name: "{{ life.title | escape }}",
+      url: "{{ life.url | relative_url }}",
+      birthYear: {{ life.birth_year_numeric }},
+      deathYearStr: "{{ life.death_year | escape }}",
+      ageAtDeathRaw: "{{ life.age_at_death }}",
+      years: "{% if life.birth_year == life.death_year %}{{ life.birth_year }}{% else %}{{ life.birth_year }} – {{ life.death_year }}{% endif %}",
+      location: "{% if life.country %}{{ life.country | escape }}{% elsif life.region %}{{ life.region | escape }}{% endif %}",
+      continent: "{{ life.continent | escape }}",
+      ageTag: "{{ life.age_tag }}",
+      lifestyle: "{{ life.lifestyle | escape }}"
+    }
+    {% endfor %}
+  ];
+
+  // Compute deathYear and ageAtDeath for each life
+  lives.forEach(life => {
+    life.ageAtDeath = life.ageAtDeathRaw === 'alive' ? null : parseInt(life.ageAtDeathRaw);
+    life.deathYear = parseDeathYear(life.deathYearStr, life.birthYear, life.ageAtDeath);
+  });
+
+  // Shuffle for random order and assign permanent rows
+  const shuffledLives = shuffle(lives);
+
+  // Sort by birth year for stable row assignment
+  const sortedForRows = shuffledLives.slice().sort((a, b) => a.birthYear - b.birthYear);
+
+  // Assign permanent rows based on full timeline (not just visible portion)
+  // This prevents bars from rearranging when panning/zooming
+  const permanentRows = [];
+  sortedForRows.forEach(life => {
+    // Find first row where this bar fits (using absolute years)
+    let rowIndex = 0;
+    while (rowIndex < permanentRows.length) {
+      // Check if there's enough gap (50 years minimum visual separation)
+      if (permanentRows[rowIndex] + 50 <= life.birthYear) {
+        break;
+      }
+      rowIndex++;
+    }
+
+    if (rowIndex >= permanentRows.length) {
+      permanentRows.push(0);
+    }
+
+    life.permanentRow = rowIndex;
+    permanentRows[rowIndex] = life.deathYear;
+  });
+
+  const totalPermanentRows = permanentRows.length;
+
+  // Color schemes
+  const continentColors = {
+    'Africa': '#22c55e',
+    'Asia': '#ef4444',
+    'Europe': '#3b82f6',
+    'North America': '#f59e0b',
+    'South America': '#8b5cf6',
+    'Oceania': '#06b6d4'
+  };
+
+  const ageColors = {
+    'Alive': '#22c55e',
+    'Infant (0–1)': '#ef4444',
+    'Child (2–10)': '#f97316',
+    'Adolescent (11–18)': '#eab308',
+    'Adult (19–49)': '#3b82f6',
+    'Elder (50+)': '#8b5cf6',
+    'Elder (70+)': '#8b5cf6'
+  };
+
+  const ageLegendColors = {
+    'Alive': '#22c55e',
+    'Infant (0–1)': '#ef4444',
+    'Child (2–10)': '#f97316',
+    'Adolescent (11–18)': '#eab308',
+    'Adult (19–49)': '#3b82f6',
+    'Elder (50+)': '#8b5cf6'
+  };
+
+  const lifestyleColors = {
+    'Hunter-Gatherer': '#8b5cf6',
+    'Rural': '#22c55e',
+    'Urban': '#3b82f6'
+  };
+
+  function getColor(life, colorBy) {
+    if (colorBy === 'continent') {
+      return continentColors[life.continent] || '#666';
+    } else if (colorBy === 'age') {
+      return ageColors[life.ageTag] || '#666';
+    } else if (colorBy === 'lifestyle') {
+      return lifestyleColors[life.lifestyle] || '#666';
+    }
+    return '#555';
+  }
+
+  // Timeline bounds
+  const minYear = -200000;
+  const maxYear = 2026;
+  const totalRange = maxYear - minYear;
+
+  let colorBy = 'none';
+
+  // View state - what portion of the timeline is visible
+  // Start with a reasonable view (last 3000 years) instead of all 200k years
+  let viewStart = -1000;
+  let viewEnd = maxYear;
+
+  const tooltip = document.getElementById('tooltip');
+  const timelineContainer = document.getElementById('timeline-container');
+  const timelineAxis = document.getElementById('timeline-axis');
+  const timelineCanvas = document.getElementById('timeline-canvas');
+
+  const CANVAS_HEIGHT = 400;
+
+  function yearToPercent(year) {
+    return ((year - viewStart) / (viewEnd - viewStart)) * 100;
+  }
+
+  function formatYear(year, viewRange) {
+    const absYear = Math.abs(Math.round(year));
+    if (year <= -10000) {
+      // Show more precision when zoomed in on prehistoric times
+      if (viewRange < 5000) {
+        // Show full number with commas for small ranges
+        return absYear.toLocaleString() + ' BC';
+      } else if (viewRange < 20000) {
+        // Show decimal k for medium ranges (e.g., "61.5k BC")
+        const kYear = (absYear / 1000).toFixed(1);
+        return kYear + 'k BC';
+      } else {
+        // Round to whole k for large ranges
+        const kYear = Math.round(absYear / 1000);
+        return kYear + 'k BC';
+      }
+    } else if (year < 0) {
+      return absYear.toLocaleString() + ' BC';
+    } else if (year < 1000) {
+      return Math.round(year) + ' AD';
+    }
+    return Math.round(year).toString();
+  }
+
+  function getAxisTicks() {
+    const viewRange = viewEnd - viewStart;
+    let interval;
+
+    // Use larger intervals for very large ranges to avoid duplicate "k BC" labels
+    // Each interval should produce visually distinct labels
+    if (viewRange > 150000) interval = 50000;
+    else if (viewRange > 80000) interval = 25000;
+    else if (viewRange > 40000) interval = 10000;
+    else if (viewRange > 15000) interval = 5000;
+    else if (viewRange > 8000) interval = 2000;
+    else if (viewRange > 4000) interval = 1000;
+    else if (viewRange > 1500) interval = 500;
+    else if (viewRange > 500) interval = 100;
+    else if (viewRange > 200) interval = 50;
+    else if (viewRange > 50) interval = 10;
+    else interval = 5;
+
+    const ticks = [];
+    const start = Math.ceil(viewStart / interval) * interval;
+
+    for (let year = start; year <= viewEnd; year += interval) {
+      ticks.push(year);
+    }
+
+    // Limit number of ticks to prevent overcrowding
+    if (ticks.length > 12) {
+      const step = Math.ceil(ticks.length / 10);
+      return ticks.filter((_, i) => i % step === 0);
+    }
+
+    return ticks;
+  }
+
+  function renderTimeline() {
+    const viewRange = viewEnd - viewStart;
+    const containerWidth = timelineContainer.clientWidth;
+
+    // Render axis
+    const ticks = getAxisTicks();
+    timelineAxis.innerHTML = ticks.map(year => {
+      const pct = yearToPercent(year);
+      if (pct < 0 || pct > 100) return '';
+      return `
+        <span class="axis-label" style="left: ${pct}%">${formatYear(year, viewRange)}</span>
+        <span class="axis-tick" style="left: ${pct}%"></span>
+      `;
+    }).join('');
+
+    // Filter visible lives
+    const visibleLives = shuffledLives.filter(life =>
+      life.deathYear >= viewStart && life.birthYear <= viewEnd
+    );
+
+    // Render grid lines
+    const gridHtml = ticks.map(year => {
+      const pct = yearToPercent(year);
+      if (pct < 0 || pct > 100) return '';
+      return `<div class="grid-line" style="left: ${pct}%"></div>`;
+    }).join('');
+
+    // Calculate bar height based on total permanent rows (not just visible)
+    // This keeps bar sizes consistent when panning/zooming
+    const barHeight = Math.max(3, Math.min(16, Math.floor(CANVAS_HEIGHT / Math.max(totalPermanentRows, 1) * 0.7)));
+    const gap = Math.max(1, Math.min(3, Math.floor(barHeight / 4)));
+
+    // Calculate positions using permanent rows
+    visibleLives.forEach(life => {
+      life.startPct = Math.max(0, yearToPercent(life.birthYear));
+      life.endPct = Math.min(100, yearToPercent(life.deathYear));
+    });
+
+    const totalBarSpace = totalPermanentRows * (barHeight + gap);
+    const verticalOffset = Math.max(0, (CANVAS_HEIGHT - totalBarSpace) / 2);
+
+    // Render bars
+    const barsHtml = visibleLives.map(life => {
+      const color = getColor(life, colorBy);
+      const top = verticalOffset + life.permanentRow * (barHeight + gap);
+      const width = life.endPct - life.startPct;
+      const ageText = life.ageAtDeath !== null ? `Died at ${life.ageAtDeath}` : 'Still alive';
+
+      // Skip if bar would be outside canvas
+      if (top > CANVAS_HEIGHT) return '';
+
+      return `
+        <a href="${life.url}" class="life-bar"
+           style="left: ${life.startPct}%; width: ${Math.max(0.1, width)}%; top: ${top}px; height: ${barHeight}px; background: ${color};"
+           data-name="${life.name}"
+           data-years="${life.years}"
+           data-location="${life.location}"
+           data-age="${ageText}">
+        </a>
+      `;
+    }).join('');
+
+    timelineCanvas.innerHTML = gridHtml + barsHtml;
+
+    // Add hover handlers
+    document.querySelectorAll('.life-bar').forEach(bar => {
+      bar.addEventListener('mouseenter', (e) => {
+        tooltip.innerHTML = `
+          <div class="tooltip-name">${bar.dataset.name}</div>
+          <div class="tooltip-years">${bar.dataset.years}</div>
+          <div class="tooltip-age">${bar.dataset.age}</div>
+          <div class="tooltip-location">${bar.dataset.location}</div>
+        `;
+        tooltip.style.display = 'block';
+      });
+
+      bar.addEventListener('mousemove', (e) => {
+        tooltip.style.left = (e.clientX + 12) + 'px';
+        tooltip.style.top = (e.clientY + 12) + 'px';
+      });
+
+      bar.addEventListener('mouseleave', () => {
+        tooltip.style.display = 'none';
+      });
+    });
+  }
+
+  function updateLegend() {
+    const legend = document.getElementById('legend');
+    if (colorBy === 'none') {
+      legend.innerHTML = '';
+      return;
+    }
+
+    let colors;
+    if (colorBy === 'continent') colors = continentColors;
+    else if (colorBy === 'age') colors = ageLegendColors;
+    else if (colorBy === 'lifestyle') colors = lifestyleColors;
+
+    legend.innerHTML = Object.entries(colors).map(([label, color]) => `
+      <div class="legend-item">
+        <span class="legend-dot" style="background: ${color}"></span>
+        <span>${label}</span>
+      </div>
+    `).join('');
+  }
+
+  // Event listeners
+  document.getElementById('color-by').addEventListener('change', (e) => {
+    colorBy = e.target.value;
+    updateLegend();
+    renderTimeline();
+  });
+
+  // Mouse wheel zoom
+  timelineContainer.addEventListener('wheel', (e) => {
+    e.preventDefault();
+
+    const rect = timelineCanvas.getBoundingClientRect();
+    const mouseX = e.clientX - rect.left;
+    const mousePercent = mouseX / rect.width;
+    const mouseYear = viewStart + (viewEnd - viewStart) * mousePercent;
+
+    // Zoom factor
+    const zoomFactor = e.deltaY > 0 ? 1.3 : 0.7;
+    const currentRange = viewEnd - viewStart;
+    let newRange = currentRange * zoomFactor;
+
+    // Clamp range
+    newRange = Math.max(50, Math.min(totalRange, newRange));
+
+    // Calculate new view centered on mouse position
+    let newStart = mouseYear - newRange * mousePercent;
+    let newEnd = mouseYear + newRange * (1 - mousePercent);
+
+    // If zooming in and we're near the right edge (within 10% of max),
+    // anchor to maxYear instead of following mouse
+    const nearRightEdge = viewEnd >= maxYear - (currentRange * 0.1);
+    const zoomingIn = zoomFactor < 1;
+
+    if (nearRightEdge && zoomingIn) {
+      newEnd = maxYear;
+      newStart = maxYear - newRange;
+    }
+
+    // Clamp to bounds
+    if (newStart < minYear) {
+      viewStart = minYear;
+      viewEnd = minYear + newRange;
+    } else if (newEnd > maxYear) {
+      viewEnd = maxYear;
+      viewStart = maxYear - newRange;
+    } else {
+      viewStart = newStart;
+      viewEnd = newEnd;
+    }
+
+    renderTimeline();
+  }, { passive: false });
+
+  // Drag to pan horizontally
+  let isDragging = false;
+  let dragStartX = 0;
+  let dragStartViewStart = 0;
+  let dragStartViewEnd = 0;
+
+  timelineContainer.addEventListener('mousedown', (e) => {
+    // Don't start drag if clicking on a life bar link
+    if (e.target.classList.contains('life-bar')) return;
+
+    isDragging = true;
+    dragStartX = e.clientX;
+    dragStartViewStart = viewStart;
+    dragStartViewEnd = viewEnd;
+    timelineContainer.classList.add('dragging');
+    e.preventDefault();
+  });
+
+  document.addEventListener('mousemove', (e) => {
+    if (!isDragging) return;
+
+    const rect = timelineCanvas.getBoundingClientRect();
+    const deltaX = e.clientX - dragStartX;
+    const deltaPercent = deltaX / rect.width;
+    const viewRange = dragStartViewEnd - dragStartViewStart;
+    const deltaYears = -deltaPercent * viewRange; // Negative because drag right = move earlier in time
+
+    let newStart = dragStartViewStart + deltaYears;
+    let newEnd = dragStartViewEnd + deltaYears;
+
+    // Clamp to bounds
+    if (newStart < minYear) {
+      newStart = minYear;
+      newEnd = minYear + viewRange;
+    } else if (newEnd > maxYear) {
+      newEnd = maxYear;
+      newStart = maxYear - viewRange;
+    }
+
+    viewStart = newStart;
+    viewEnd = newEnd;
+    renderTimeline();
+  });
+
+  document.addEventListener('mouseup', () => {
+    if (isDragging) {
+      isDragging = false;
+      timelineContainer.classList.remove('dragging');
+    }
+  });
+
+  // Initial render
+  renderTimeline();
+
+  // Handle resize
+  window.addEventListener('resize', renderTimeline);
+})();
+</script>
