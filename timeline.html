@@ -21,10 +21,13 @@ title: Timeline View
 }
 
 .timeline-controls {
+  margin-bottom: 16px;
+}
+
+.timeline-controls-row {
   display: flex;
   align-items: center;
   gap: 8px;
-  margin-bottom: 16px;
   flex-wrap: wrap;
 }
 
@@ -63,7 +66,8 @@ title: Timeline View
   gap: 6px 14px;
   font-size: 0.8rem;
   color: #555;
-  margin-left: 20px;
+  margin-top: 10px;
+  min-height: 20px;
 }
 
 .legend-item {
@@ -182,11 +186,6 @@ title: Timeline View
 }
 
 @media (max-width: 600px) {
-  .timeline-legend {
-    margin-left: 0;
-    margin-top: 8px;
-    width: 100%;
-  }
   .timeline-canvas {
     height: 300px;
   }
@@ -198,9 +197,11 @@ title: Timeline View
   <p class="intro">Explore lives across time. Each bar shows a person's lifespan. Hover for details, click to read their story. Scroll to zoom, drag to pan.</p>
 
   <div class="timeline-controls">
-    <label>Color by:</label>
-    <button type="button" class="color-btn" data-value="continent">Continent</button>
-    <button type="button" class="color-btn" data-value="lifestyle">Lifestyle</button>
+    <div class="timeline-controls-row">
+      <label>Color by:</label>
+      <button type="button" class="color-btn" data-value="continent">Continent</button>
+      <button type="button" class="color-btn" data-value="lifestyle">Lifestyle</button>
+    </div>
     <div id="legend" class="timeline-legend"></div>
   </div>
 
