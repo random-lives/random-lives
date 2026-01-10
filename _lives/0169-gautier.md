@@ -7,12 +7,14 @@ death_year: "869 AD"
 age_at_death: 0
 birth_date: "October 13, 869 AD"
 death_date: "October 17, 869 AD"
-location: "Talmay, Dijon, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21270, France"
+location: "Talmay, Cote-d'Or, France"
+location_original: "Talmay, Dijon, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21270, France"
 country: "France"
 latitude: 47.39
 longitude: 5.47
 map_url: "https://www.google.com/maps/place/47.39,5.47/@47.39,5.47,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Infant (0–1)"

@@ -7,12 +7,14 @@ death_year: "2019 AD"
 age_at_death: 0
 birth_date: "November 26, 2018 AD"
 death_date: "June 22, 2019 AD"
-location: "Hulikere, Mandya taluk, Mandya, Karnataka, India"
+location: "Hulikere, Mandya, Karnataka, India"
+location_original: "Hulikere, Mandya taluk, Mandya, Karnataka, India"
 country: "India"
 latitude: 12.57
 longitude: 76.77
 map_url: "https://www.google.com/maps/place/12.57,76.77/@12.57,76.77,5z"
-lifestyle: "Urban"
+old_lifestyle: "Urban"
+lifestyle: "Rural Non-Farm"
 era: "Holocene"
 sex: "F"
 age_tag: "Infant (0–1)"
@@ -124,6 +126,6 @@ Pranavi was born on November 26, 2018, in Hulikere in Mandya taluk, in India’s
 
 A small shrine stood on a shelf in the main room. Lakshmi lit a lamp in front of a framed picture of Lakshmi and a small Ganesha, set a pinch of turmeric and kumkum in metal cups, and placed a few flowers or a banana when she could. After Pranavi’s birth she tied a black thread at the baby’s waist and dabbed kohl at the edge of her eye before relatives came to see her.
 
-Karthik, born in 2015, had started going out for play and early schooling. He tried to touch the baby’s cheeks with fingers that had just been in the dust outside. Lakshmi watched him while balancing Pranavi on her hip, shifting the baby from shoulder to shoulder when her breathing turned fast after feeds. Ramesh paid for formula and clinic visits when breastfeeds failed and the baby did not gain weight.
+Karthik, born in 2015, had started going out for play and early schooling. He tried to touch the baby’s cheeks with fingers that had just been in the dust outside. Lakshmi watched him while balancing Pranavi on her hip, shifting the baby from shoulder to shoulder when her breathing turned fast after feeds. Ramesh paid for formula and clinic visits when breastfeeding failed and the baby did not gain weight.
 
 On June 22, 2019, Pranavi died from complications linked to prematurity and low birthweight. That afternoon the family took her to a local cremation ground, where an elder relative guided the rites, and Lakshmi placed a small handful of flowers before they left.

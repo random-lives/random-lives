@@ -7,12 +7,14 @@ death_year: "1331 AD"
 age_at_death: 20
 birth_date: "November 5, 1310 AD"
 death_date: "January 29, 1331 AD"
-location: "Küti, Küti küla, Vinni vald, Lääne-Viru maakond, 46626, Eesti"
+location: "Kuti, Vinni, Laane-Viru, Estonia"
+location_original: "Küti, Küti küla, Vinni vald, Lääne-Viru maakond, 46626, Eesti"
 country: "Estonia"
 latitude: 59.22
 longitude: 26.54
 map_url: "https://www.google.com/maps/place/59.22,26.54/@59.22,26.54,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Adult (19–49)"
@@ -356,7 +358,7 @@ Petrus was born on November 5, 1310, in a small settlement in the forests and fi
 
 His parents, Henricus and Margareta, lived in an extended household with Henricus’s mother, Liisa. The family had already buried one baby, Johannes, born the year before Petrus and dead before the first winter ended. Petrus’s baptism came quickly. Margareta took him to the parish church wrapped in a wool cloth, and the priest, Vend Dietrich, poured water and named him in Latin. At home, Liisa watched the fire, kept a place for drying mittens and footcloths, and took Petrus on her knee to repeat the Pater noster and the Ave as best a small child could manage.
 
-Food and weather shaped his earliest memories. The mid-1310s brought poor years. Bread thinned with chaff, and in spring the adults watched the grain bin like a living thing that could vanish. Henricus tightened discipline when stores ran low. Petrus learned to stop asking for second helpings and to carry water without spilling. He also learned small tricks. If he brought in kindling before anyone asked, the older men gave him a heel of bread without the usual scolding.
+Food and weather shaped his earliest memories. The mid-1310s brought poor years. Bread thinned with chaff, and in spring the adults checked the grain bin each morning. Henricus tightened discipline when stores ran low. Petrus learned to stop asking for second helpings and to carry water without spilling. He also learned small tricks. If he brought in kindling before anyone asked, the older men gave him a heel of bread without the usual scolding.
 
 Andreas was born in 1312 and lived. Petrus treated him as a shadow in the yard, dragging him away from the well or the pigs’ trough when Margareta’s back was turned. Two more births followed. Martinus came in 1314 and died the same year. Petrus never saw him walking, only the bundled shape carried out and the hush that followed. Katerina arrived in 1316 and grew into a thin-legged girl who could run errands and laugh at jokes she barely understood. Nicolaus was born in 1319, a winter baby, and Petrus remembered that one clearly: the small cry, the rush of warm water, then silence, and Margareta sitting stiff on the bed while Liisa said prayers in a low voice.
 
@@ -364,7 +366,7 @@ When Petrus was six, he began going out with the men for small work. He pulled b
 
 Winters in the 1320s cut hard. Snow crusted over the fields and the forest track turned to ice. Petrus, short for a man even when he reached his full height, learned to take larger steps to keep up and to keep his hands busy so he would not be mocked for moving slowly. He took teasing badly when it touched his looks. Men joked about his face and his thin frame; he answered with sharp words and then made sure his own tasks were done before theirs. When the adults wanted to send a boy to a nearby holding with a message or a tool to lend, Petrus was chosen because he brought things back and did not lose them.
 
-By fifteen he was doing work beyond his family’s plot, pushed into the manor’s obligations and the web of favors among peasants. In 1326 Henricus’s wife’s brother, Jaan, arranged a place for him as a farmhand in the household of Toomas, a better-off peasant within the same parish. Petrus moved there with a rolled blanket, a spare shirt, and his knife. The sleeping bench in Toomas’s house held servants shoulder to shoulder, and the air smelled of smoke, damp wool, and sour ale.
+By fifteen he was doing work beyond his family’s plot, pushed into the manor’s obligations and the web of favors among peasants. In 1326 his mother's brother, Jaan, arranged a place for him as a farmhand in the household of Toomas, a better-off peasant within the same parish. Petrus moved there with a rolled blanket, a spare shirt, and his knife. The sleeping bench in Toomas’s house held servants shoulder to shoulder, and the air smelled of smoke, damp wool, and sour ale.
 
 Toomas set rules early. Petrus rose before dawn, fed animals, hauled water, and went to the fields or the forest as ordered. He found quiet pride in keeping things in order. He hung tack where it would dry, rubbed a tool handle with fat so it would not split, and counted tasks in his head the way other boys counted coins they did not have. When he went to Rakvere with a cart, the town’s walls and the German voices in the streets meant little to him, but he watched how traders looked at hides and counted sacks. He understood that more goods moving through the towns did not lighten his load; it made the manor press harder for what could be sold.
 

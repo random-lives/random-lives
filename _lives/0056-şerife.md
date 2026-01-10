@@ -13,7 +13,8 @@ country: "Turkey"
 latitude: 41.73
 longitude: 33.21
 map_url: "https://www.google.com/maps/place/41.73,33.21/@41.73,33.21,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Rural Non-Farm"
 era: "Holocene"
 sex: "F"
 age_tag: "Adult (19–49)"

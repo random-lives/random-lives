@@ -7,12 +7,14 @@ death_year: "1646 AD"
 age_at_death: 8
 birth_date: "February 7, 1638 AD"
 death_date: "December 25, 1646 AD"
-location: "郑郭镇, 项城市, 周口市, 河南省, 中国"
+location: "Xiangcheng, Zhoukou, Henan, China"
+location_original: "郑郭镇, 项城市, 周口市, 河南省, 中国"
 country: "China"
 latitude: 33.4
 longitude: 115.01
 map_url: "https://www.google.com/maps/place/33.4,115.01/@33.4,115.01,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Child (2–10)"
@@ -243,12 +245,12 @@ continent: "Asia"
 #   type: chronic_illness
 ---
 
-Zhao Yong was born on February 7, 1638, in a farming hamlet on the plains of eastern Henan, where Han families spoke the local Mandarin speech and lived under Ming county offices that pressed hard for grain and labor. His household kept a small ancestor shelf in the main room; on festival days his grandmother set out bowls of millet gruel, a few coins, and incense, and the men bowed toward the tablets of the Zhao forebears. When sickness lingered, his mother burned paper and asked Guanyin for help, and she tied a small red-thread charm to a child’s jacket.
+Zhao Yong was born on February 7, 1638, in a farming hamlet on the plains of eastern Henan, where Han families spoke the local Mandarin speech and lived under Ming county offices that pressed hard for grain and labor. His household kept a small ancestor shelf in the main room; on festival days his grandmother set out bowls of millet gruel, a few coins, and incense, and the men bowed toward the tablets of the Zhao forebears. His grandmother was a firm woman who taught the children household rites and practical taboos. When sickness lingered, his mother burned paper and asked Guanyin for help, and she tied a small red-thread charm to a child's jacket.
 
-He grew up in a stem family. His grandfather Zhao Shouye sat on the kang and watched work. Zhao Yong learned to sweep the courtyard until every line pleased the old man, and he counted eggs and bean measures without being told. He spoke little with other children. At the temple fair he stayed close to adults and listened to talk from travelers, then repeated stiff official phrases at home as if they were spells.
+He grew up in a stem family. His grandfather Zhao Shouye sat on the kang and watched work. Zhao Yong learned to sweep the courtyard until every line pleased the old man, and he counted eggs and bean measures without being told. He spoke little with other children. At the temple fair he stayed close to adults and listened to talk from travelers, then repeated stiff official phrases at home.
 
 His older brother Zhao Chang, born in 1636, pulled him into games and field errands, then cursed when Yong reported small rule-breaking to win praise. Yong also hid the best bits of steamed cake during hunger weeks and blamed missing food on the toddler. The younger brother, Zhao Shun, born in 1641, coughed through winters and died in 1644, three years old. After the mourning, work tightened. Grain was dear, and Elder Guo, the village headman, came around with lists.
 
-Mid–late 1644, Yong helped haul water by the ditches and slipped off a muddy bank. He was dragged out choking, and he lay weak for weeks, kept warm under quilts while his mother fed him thin rice-water and ginger. In 1645 Teacher Qian took him for primer recitation, but Yong’s attention broke whenever the lines grew hard. That spring his cough returned with fevers, then came again with the first cold winds, leaving him tired and short of breath. A Daoist, Chen, pasted talismans by the door and gave ashes to mix in water.
+Mid–late 1644, Yong helped haul water by the ditches and slipped off a muddy bank. He was dragged out choking, and he lay weak for weeks, kept warm under quilts while his mother and grandmother took turns feeding him thin rice-water and ginger. In 1645 Teacher Qian took him for primer recitation, but Yong's attention broke whenever the lines grew hard. In spring 1645 his cough returned with fevers. His grandfather died that spring, worn down by a hard winter. The cough came again with the first cold winds, leaving Yong tired and short of breath. A Daoist, Chen, pasted talismans by the door and gave ashes to mix in water. His grandmother checked his forehead each morning and scolded him to stay warm.
 
-His grandfather died in 1645, and the house ran with fewer hands. On December 25, 1646, an acute fever took Zhao Yong. His body was washed, dressed, and laid out on a plank; his family burned paper money and set incense before the ancestors before burial outside the village.
+On December 25, 1646, an acute fever took Zhao Yong. His body was washed, dressed, and laid out on a plank; his family burned paper money and set incense before the ancestors before burial outside the village.

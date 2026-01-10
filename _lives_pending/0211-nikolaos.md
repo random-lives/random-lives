@@ -7,12 +7,14 @@ death_year: "624 AD"
 age_at_death: 65
 birth_date: "March 24, 559 AD"
 death_date: "April 5, 624 AD"
-location: "Ahmetağa, Pınarbaşı, Kastamonu, Karadeniz Bölgesi, Türkiye"
+location: "Pinarbasi, Kastamonu, Turkey"
+location_original: "Ahmetağa, Pınarbaşı, Kastamonu, Karadeniz Bölgesi, Türkiye"
 country: "Turkey"
 latitude: 41.64
 longitude: 32.96
 map_url: "https://www.google.com/maps/place/41.64,32.96/@41.64,32.96,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Elder (50+)"
@@ -436,17 +438,17 @@ An infant sister, Maria, died at birth in 572. Euphemia kept the baby’s cloth 
 
 War talk grew louder when Nikolaos reached his teens. Men passed through with news of fighting against the Persians and of officials demanding grain and beasts for the emperor’s needs. Theodoros dealt with collectors by feeding them and speaking softly, and Nikolaos copied him. He learned to offer a stool, to pour watered wine, to agree quickly, then bargain in small steps. He liked the talk itself, the chance to ask questions, to trade jokes, to hear what was happening on the roads.
 
-Theodoros died in 586. Nikolaos took on the heavier work without ceremony: plowing behind a small team, pruning, hauling wood. His mother leaned on him. He did not refuse her anything, but he also watched his own advantage. When a neighbor offered to swap a goat kid for a worn plowshare, Nikolaos pressed until he got an extra skin of cheese with it, smiling as if it were friendly insistence.
+Theodoros died in 586. Nikolaos took on the heavier work without ceremony: plowing behind a small team, pruning, hauling wood. His mother leaned on him. He did not refuse her anything, but he also watched his own advantage. When a neighbor offered to swap a goat kid for a worn plowshare, Nikolaos pressed until he got an extra skin of cheese with it, smiling the whole time.
 
 He married his first wife, also named Eirene, in 580 when he was twenty-one. Her family brought a modest dowry—woven cloth, a jar of oil, a few copper pieces. Their household stood on its own edge of the village, close enough to hear church bells, far enough that the goats could be penned by the scrub. Nikolaos enjoyed sitting with friends after work, especially with a man named Doros from a nearby hamlet who could imitate the local tax agent’s voice and make everyone laugh. Nikolaos laughed loudest, then remembered himself and glanced around to see who might repeat the joke.
 
-Their first child, a daughter, was born in 581. Nikolaos named her Euphemia after his mother. He took pride in the baby’s steady gaze and in how quickly his wife learned to soothe her. A son, Theodoros, arrived in 585 and died the same day. Nikolaos washed his hands, went to the church, and stood in the narthex while Father Stephanos read prayers; he returned home and carried water as if the weight could keep him still. Another son, Georgios, was born in 588 and died soon after birth. Nikolaos began keeping small scraps—extra kindling, a bit of smoked meat—hidden in a clay jar behind stacked firewood, telling himself it was for emergencies.
+Their first child, a daughter, was born in 581. Nikolaos named her Euphemia after his mother. He took pride in the baby’s steady gaze and in how quickly his wife learned to soothe her. A son, Theodoros, arrived in 585 and died the same day. Nikolaos washed his hands, went to the church, and stood in the narthex while Father Stephanos read prayers; he returned home and carried water until dark. Another son, Georgios, was born in 588 and died soon after birth. Nikolaos began keeping small scraps—extra kindling, a bit of smoked meat—hidden in a clay jar behind stacked firewood, telling himself it was for emergencies.
 
-Markos, his third son, was born in 590 and lived. Nikolaos watched the boy’s chest each night for months. He brought Father Stephanos a small gift of oil at Easter and asked for a blessing for the child, then complained about the priest’s slow chanting to Doros later, smiling as if it were harmless talk.
+Markos, his third son, was born in 590 and lived. Nikolaos watched the boy’s chest each night for months. He brought Father Stephanos a small gift of oil at Easter and asked for a blessing for the child, then complained about the priest's slow chanting to Doros later.
 
 Bad weather ruined crops in 592. Then illness came through the village, taking strength from adults and leaving fields untended. Nikolaos fell behind on dues. He went to a local estate manager, Komēs Leon, and took advances of grain and oil. In exchange he gave up control of his family’s plot and entered Leon’s service as a dependent retainer. He carried loads, mended fences, guarded animals, and answered when called. The arrangement kept his household fed, but it tightened every season into obligation.
 
-A daughter, Anna, was born in 596 and died the following year. The next winter was hard. In 598, with stores already low, someone cut the lashings on the pen at the edge of the estate’s animal yard and drove off one of Nikolaos’s goats. A small sack of dried legumes vanished too. Nikolaos confronted Doros with a smile that held no warmth, asking questions as if out of curiosity. Doros swore and laughed it off. Nikolaos carried the complaint to Komēs Leon, who scolded the workers in public and did nothing else. After that, Nikolaos slept lightly and woke at small noises outside.
+A daughter, Anna, was born in 596 and died the following year. The next winter was hard. In 598, with stores already low, someone cut the lashings on the pen at the edge of the estate’s animal yard and drove off one of Nikolaos’s goats. A small sack of dried legumes vanished too. Nikolaos confronted Doros with a smile that held no warmth, asking questions in a casual tone. Doros swore and laughed it off. Nikolaos carried the complaint to Komēs Leon, who scolded the workers in public and did nothing else. After that, Nikolaos slept lightly and woke at small noises outside.
 
 His youngest daughter, Helena, was born in 598. She grew quickly into a capable child who did not cry much and learned to turn bread at the oven with steady hands. Nikolaos’s older daughter Euphemia helped her mother with grinding and water-carrying. When Nikolaos had a good day, he brought home roasted chestnuts or a bit of honeycomb from a trader. He liked eating in the yard at dusk, sitting on a flat stone by the wall where he could see the path.
 

@@ -13,7 +13,8 @@ country: "Mexico"
 latitude: 21.15
 longitude: -89.16
 map_url: "https://www.google.com/maps/place/21.15,-89.16/@21.15,-89.16,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Infant (0–1)"

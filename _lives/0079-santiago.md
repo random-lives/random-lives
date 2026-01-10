@@ -13,7 +13,8 @@ country: "Mexico"
 latitude: 22.82
 longitude: -102.57
 map_url: "https://www.google.com/maps/place/22.82,-102.57/@22.82,-102.57,5z"
-lifestyle: "Urban"
+old_lifestyle: "Urban"
+lifestyle: "Rural Non-Farm"
 era: "Holocene"
 sex: "M"
 age_tag: "Infant (0–1)"

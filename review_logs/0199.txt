@@ -1,0 +1,11 @@
+Review complete for **0199-yama.md**.
+
+**Summary of issues found and fixed:**
+
+1. **Chronology error**: The narrative said Ruma died when Yama was "twenty-nine" but debug data shows Ruma died in -6778 and Yama was born in -6805, making her 27 at Ruma's death. Fixed by changing to "that same year" since the assault also happened at age 27.
+
+2. **Repetition**: Two consecutive paragraphs would have both started with "When Yama was twenty-seven" - avoided by using "that same year" instead.
+
+3. **Pseudosociological language**: "greeting every adult by kin term" used anthropological jargon. Changed to "by name or relation."
+
+All deaths during Yama's lifetime are properly mentioned (Tala at age 2, Ruma, Hanu, baby Nari). The sibling (Kenu) is properly introduced as younger and his birth is mentioned. The story is well-written with good trait visibility and specific scenes.

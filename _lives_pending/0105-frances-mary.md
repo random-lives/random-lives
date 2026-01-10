@@ -12,6 +12,7 @@ country: "United States"
 latitude: 43.98
 longitude: -91.33
 map_url: "https://www.google.com/maps/place/43.98,-91.33/@43.98,-91.33,5z"
+old_lifestyle: "Urban"
 lifestyle: "Urban"
 era: "Holocene"
 sex: "F"
@@ -387,13 +388,13 @@ That same year, 1939, her first baby, Robert, was born and died in infancy. She 
 
 James arrived in 1941, as the country entered the war and ration books came into kitchens. Walter’s job steadied, but nothing felt certain. Frances kept track of coupons poorly, mislaid the booklet once and found it in a drawer under towels, then laughed in a sharp burst that made Walter stare. She did her part: saving bacon fat in a tin, stretching leftovers, lining up for sugar. In 1944 she gave birth to Patricia, and this time she stayed home longer, worn out by the combination of babies and work.
 
-Letters went back to Wisconsin. Dorothy’s death in 1937 had already shaken her; Evelyn’s death in 1948 hit differently. Evelyn had been the one who knew the household rhythms and could tell Frances, without softness, what she owed the family. After Evelyn was gone, Frances’s visits back felt looser, more like stops than returns. Joseph wrote in a steady hand about the farm. Helen kept everyone informed. Irene, by then a young woman, wrote to Frances like a niece writes to an aunt, asking about city life.
+Letters went back to Wisconsin. Dorothy’s death in 1937 had already shaken her; Evelyn’s death in 1948 hit differently. Evelyn had been the one who knew the household routines and could tell Frances, without softness, what she owed the family. After Evelyn was gone, Frances’s visits back felt looser, more like stops than returns. Joseph wrote in a steady hand about the farm. Helen kept everyone informed. Irene, by then a young woman, wrote to Frances like a niece writes to an aunt, asking about city life.
 
 The late 1940s and 1950s brought steadier money and a better address. Frances and Walter bought furniture on credit. She liked a kitchen with matching canisters and a table that didn’t wobble. She still misplaced bills, and James, as a teenager, learned to find the envelopes on the mantel and set them in a row for her. Frances worked again in service jobs—waitressing, then retail—where her looks helped and her quick talk soothed customers, even when she forgot an order and had to correct it on the fly. She enjoyed small pleasures that fit her schedule: coffee with a slice of pie after a shift, a radio program she never missed, sitting by a window in late afternoon light while she peeled apples for a pan of baked slices with cinnamon.
 
 In 1955 she stopped going to Mass every week. It began with missed Sundays when she was tired, then stretched into months. Her parish had a stricter tone than the one she grew up with, and she clashed with Father O’Malley when he corrected her about confession and duties. She kept a small routine anyway. She made the sign of the cross before sleep. She kept holy water by the bed for a while. At Christmas and Easter she turned up, dressed well, hair pinned, and let the familiar words carry her through.
 
-Vaccines and antibiotics changed what people feared and what they expected from doctors. Frances took her children for shots, complained about the waiting room, and then insisted they go. She talked about sickness in a practical way. The infant death stayed lodged in her, but she did not build a shrine around it.
+Vaccines and antibiotics changed what people feared and what they expected from doctors. Frances took her children for shots, complained about the waiting room, and then insisted they go. She talked about sickness in a practical way. The infant death stayed with her, but she did not build a shrine around it.
 
 When Vatican II reached parish life in the 1960s—English in the Mass, new music, new ways of speaking—Frances did not take it as liberation. It felt like another set of changes that required attention and patience. She returned more often after 1965, but she never regained the older habit of confession. She sat in the back with Mrs. Ramirez, a neighbor who had swapped childcare with her for years, and whispered comments that made them both snort once, quickly, before they composed themselves.
 

@@ -1,0 +1,14 @@
+Review of 0130-saya.md is complete.
+
+**Summary of changes made:**
+
+1. **Fixed Nala's death timing**: The narrative incorrectly placed Nala's death at age 40 (same paragraph as Lina's death). Debug data shows Nala died in -1023 BC when Saya was 26. Moved to correct chronological position after the early child deaths.
+
+2. **Added missing father's death**: Maki died in -1018 BC (when Saya was 31). The narrative only mentioned "had already died years earlier" at age 41. Added a proper death paragraph showing the event.
+
+3. **Added missing mother's death**: Chani died in -1007 BC (when Saya was 42). The narrative showed her declining at age 41 but never mentioned her death. Added "Chani died the following year."
+
+4. **Fixed pseudosociological "kin" language** (3 instances):
+   - "Authority sat in kin groups" → "Authority sat in family compounds"
+   - "by kin cluster" → "by family group"
+   - "visiting kin" → "visiting relatives"

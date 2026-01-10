@@ -1,0 +1,7 @@
+Review of **0173-zhou-guorong.md** is complete.
+
+**Summary:**
+- **Issue found:** The mother Lin Xiuying's death (2024) was missing from the narrative. The story ended in late 2025 and referenced keeping her photo on the shelf (implying she was dead), but the death itself was never stated.
+- **Fix applied:** Added "Lin Xiuying died in 2024, and Guorong arranged the funeral and the offerings." to the paragraph about caregiving for his parents.
+
+The story was otherwise well-written with good chronology, clear family introductions, no AI-slop phrases, no vague hedging, and all other deaths properly covered (grandfather 1978, grandmother 1986, brother Guoming 2013, wife Suhua 2016, father Shoude 2021).

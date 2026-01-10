@@ -7,12 +7,14 @@ death_year: "1969 AD"
 age_at_death: 3
 birth_date: "June 20, 1966 AD"
 death_date: "December 13, 1969 AD"
-location: "Kotra Lehal, Lehra Tahsil, Sangrur, Punjab, 148031, India"
+location: "Kotra Lehal, Sangrur, Punjab, India"
+location_original: "Kotra Lehal, Lehra Tahsil, Sangrur, Punjab, 148031, India"
 country: "India"
 latitude: 29.9
 longitude: 75.77
 map_url: "https://www.google.com/maps/place/29.9,75.77/@29.9,75.77,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "F"
 age_tag: "Child (2–10)"
@@ -146,7 +148,7 @@ continent: "Asia"
 
 Kaushalya was born on June 20, 1966, in Kotra Lehal in Lehra tahsil, Sangrur district, in the Indian state of Punjab, governed by the Republic of India. Her parents, Suresh and Kamla, were Punjabi-speaking Hindus in the Malwa countryside, in a nuclear household that lived off Suresh’s small and uncertain cultivation and Kamla’s domestic work.
 
-Their courtyard held the ordinary things: a clay chulha, metal lotas, sacks for grain, and a small wall shelf where Kamla kept a picture of Lakshmi and a tin for sindoor. On auspicious days she lit a diya with mustard oil, set down a pinch of rice and a few marigold petals, and touched Kaushalya’s forehead with a dot before feeding her a bit of prasad. Kaushalya stayed close during visitors. When women from nearby houses came to talk, she leaned against her mother’s leg, watching faces, answering in a small voice.
+Their courtyard held the ordinary things: a clay chulha, metal lotas, sacks for grain, and a small wall shelf where Kamla kept a picture of Lakshmi and a tin for sindoor. On auspicious days she lit a diya with mustard oil, set down a pinch of rice and a few marigold petals, and touched Kaushalya’s forehead with a dot before feeding her a bit of prasad. Kaushalya stayed close when visitors came. When women from nearby houses came to talk, she leaned against her mother’s leg, watching faces, answering in a small voice.
 
 By the hot season of 1968 she walked with quick, careful steps and stopped to examine whatever caught her eye. At the handpump she squatted beside Kamla, ran wet fingers along the ridges of a bucket, and repeated words under her breath—pānī, lotā—adding her own sounds until Kamla corrected her. She liked putting things back where she had found them: her small sandals near the doorway, a cup near the grain tin. If someone moved them, she argued, then went quiet and fixed it.
 

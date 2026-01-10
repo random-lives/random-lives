@@ -7,12 +7,14 @@ death_year: "1041 AD"
 age_at_death: 0
 birth_date: "September 22, 1041 AD"
 death_date: "September 22, 1041 AD"
-location: "香鹿山镇, 宜阳县, 洛阳市, 河南省, 中国"
+location: "Yiyang, Luoyang, Henan, China"
+location_original: "香鹿山镇, 宜阳县, 洛阳市, 河南省, 中国"
 country: "China"
 latitude: 34.56
 longitude: 112.17
 map_url: "https://www.google.com/maps/place/34.56,112.17/@34.56,112.17,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Infant (0–1)"

@@ -1,0 +1,16 @@
+## Review Complete: 0191-kima
+
+**Summary:** This is a well-crafted story about Kima, a Central Andean highland hunter-gatherer woman who lived from 8721 BC to 8647 BC (74 years).
+
+**Issues found:** Only one minor issue:
+- [Pseudosociological] "Mara's kin stepped in" - changed to "Mara and her brothers stepped in"
+
+**What the story does well:**
+- All family deaths are properly covered (Tanu, Piru, Saku, Mara, Lami, Yako)
+- Younger sibling Piru's birth is mentioned appropriately
+- Chronology flows smoothly from childhood through old age
+- Personality traits (low agreeableness, high conscientiousness) manifest naturally through actions
+- PTSD symptoms from childhood abuse, raid exposure, and domestic violence are woven throughout
+- No figurative language or AI-slop phrases
+- Clear family structure and character introductions
+- The narrative captures the texture of high-altitude forager life without romanticizing it

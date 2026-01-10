@@ -7,12 +7,14 @@ death_year: "1834 AD"
 age_at_death: 55
 birth_date: "November 7, 1779 AD"
 death_date: "December 4, 1834 AD"
-location: "窑家, 吉安市, 江西省, 中国"
+location: "Ji'an, Jiangxi, China"
+location_original: "窑家, 吉安市, 江西省, 中国"
 country: "China"
 latitude: 27.73
 longitude: 115.34
 map_url: "https://www.google.com/maps/place/27.73,115.34/@27.73,115.34,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Rural Non-Farm"
 era: "Holocene"
 sex: "F"
 age_tag: "Elder (50+)"
@@ -439,9 +441,11 @@ Her grandfather died in 1792, and the house shifted. Men talked longer at night,
 
 Marriage negotiations started when she was fifteen. Her father cared about distance and rent terms, not about romance. In 1796, at seventeen, she left her natal village for a nearby one, moving into the Li household and taking a new set of elders. Her husband was Li Shengde, a tenant farmer who carried grain to market when he could and did day labor in slack seasons. The household head was his mother, Madam Deng. Jinfang arrived with bolts of cloth and a chest, and her mother-in-law inspected the stitching and nodded once.
 
-Jinfang’s first pregnancy came quickly. Midwife Chen attended the birth in 1798. A son survived, and he was named Li Changshun. The baby’s existence changed Jinfang’s place in the courtyard. She still rose before daylight to sweep and start the fire, but she spoke more directly to her mother-in-law and did not lower her eyes when corrected. She liked sitting on the doorstep with the baby on her knee while she worked fiber between her fingers; she preferred the early morning, when the yard was cool and the men had not begun to complain about prices.
+Jinfang's first pregnancy came quickly. Midwife Chen attended the birth in 1798. A son survived, and he was named Li Changshun. The baby's existence changed Jinfang's place in the courtyard. She still rose before daylight to sweep and start the fire, but she spoke more directly to her mother-in-law and did not lower her eyes when corrected. She liked sitting on the doorstep with the baby on her knee while she worked fiber between her fingers; she preferred the early morning, when the yard was cool and the men had not begun to complain about prices.
 
-A second son, Li Ershun, was born in 1801 and died at two in 1803, during a season when children in neighboring houses also had loose stools and fever. Jinfang washed the cloths in cold water and did not stop to wail. She boiled rice into thin gruel, fed him with a spoon, and sent a child to fetch herbs. When he died, she supervised the packing of his small clothing bundle and corrected her husband when he tied it wrong.
+Her grandmother, Madam Qiu, died in 1801, ten years after her husband. Jinfang had outlived the woman who once slapped the table and told her to swallow her words; she did not weep at the funeral, only stood straight as she had been taught.
+
+A second son, Li Ershun, was also born in 1801 and died at two in 1803, during a season when children in neighboring houses also had loose stools and fever. Jinfang washed the cloths in cold water and did not stop to wail. She boiled rice into thin gruel, fed him with a spoon, and sent a child to fetch herbs. When he died, she supervised the packing of his small clothing bundle and corrected her husband when he tied it wrong.
 
 Her third son, Li Sanshun, arrived in 1804. By then Jinfang moved through her tasks with a strict rhythm. She measured thread by armspan and tied knots at the same count each time. In 1806, when her eldest boy Changshun was eight, he fell sick and died after a short struggle. News reached her that same year that her older sister Xiulan had died back in her natal village. Jinfang traveled home for the rites and watched her father’s face tighten as he spoke to lineage elders. She offered paper money at Xiulan’s grave and went back to the Li household without lingering. In 1808 her youngest, Sanshun, died at four after repeated bouts of cough and diarrhea. After that the courtyard women’s talk grew pointed. Jinfang answered bluntly when pressed and ended conversations by returning to the loom.
 
@@ -451,7 +455,7 @@ The broader world pressed in through taxes, rent, and price shifts. Cash grew ti
 
 In the autumn of 1813, during harvest, someone entered the house-yard at night and stole a bundle of spun cotton thread and a little stored rice from a chest. Jinfang found the latch lifted in the morning and counted what was missing without shouting. She walked to Auntie Sun’s door and demanded to know who had been prowling. Sun denied knowledge. Jinfang replied that liars always denied, then returned home and barred the chest with a rope and a wedge. After that, she slept lighter and checked corners before dawn.
 
-Her father, Zeng Mingyuan, died in 1818. The funeral in her natal village was plain. She burned incense, bowed, and watched her brothers-in-law talk about rent as if death were only another expense line. She returned to the Li household with less to fall back on.
+Her father, Zeng Mingyuan, died in 1818. The funeral in her natal village was plain. She burned incense, bowed, and listened to her brothers-in-law argue about rent before the body was cold. She returned to the Li household with less to fall back on.
 
 Li Shengde died in 1821. The funeral costs hit hard, and the next years brought a bad rice year and rent pressure. By 1822 the household owed arrears to Steward Huang, the landlord’s manager. Jinfang pawned bedding and extra clothing, and she spun late into the night with a small oil lamp, turning her face away from smoke. When Huang demanded additional fees, she met him at the gate and corrected his numbers in front of witnesses, using pebbles on the ground to count. Huang raised his voice. Jinfang raised hers higher, without trembling.
 
@@ -461,4 +465,4 @@ In 1825 she developed a winter cough that returned each cold season, with breath
 
 From 1828 into 1831, her mother-in-law Madam Deng declined with weakness and swelling. Jinfang prepared thin rice gruel, changed bedding, and rubbed the old woman’s legs with warmed oil. When Deng’s breathing grew rough, Jinfang sent for Ritual Master Peng, who recited and burned talismans, and for an herbalist who left bitter packets to boil. Deng complained, and Jinfang answered with clipped patience. She did the work anyway.
 
-On December 4, 1834, at fifty-five, Jinfang collapsed in the courtyard after speaking to a sister-in-law about grain measures. One side of her body went slack, and her speech turned thick. The household laid her on a mat and sent for help, but her mind did not return and she died that day. Her husband’s kin washed her body, dressed her in plain clean clothes, and placed her in a coffin; incense and paper money were burned before the ancestor table, and she was buried in the family plot with food set out for her spirit.
+On December 4, 1834, at fifty-five, Jinfang collapsed in the courtyard after speaking to a sister-in-law about grain measures. One side of her body went slack, and her speech turned thick. The household laid her on a mat and sent for help, but her mind did not return and she died that day. The women of her husband's household washed her body, dressed her in plain clean clothes, and placed her in a coffin; incense and paper money were burned before the ancestor table, and she was buried in the family plot with food set out for her spirit.

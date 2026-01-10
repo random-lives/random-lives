@@ -1,0 +1,21 @@
+Review of **0160-ismail** is complete.
+
+**Summary:**
+
+This is a short, well-written infant death story (7 days old) set in 13th century Shirvan under Mongol rule.
+
+**Issues found:**
+1. Missing context about Yahya, an older brother who died in 1266 before Ismail's birth - this would have shaped the family's anxiety about male infants
+2. Amina's age (7) was not specified while Fatima's age (10) was
+
+**Changes made:**
+- Added: "Khadija had already lost a son, Yahya, who died in 1266 at one year old. That loss made her watchful."
+- Changed "her sister Amina" → "her younger sister Amina, seven"
+
+The story passed all other checks:
+- No deaths to track during Ismail's 7-day lifetime (all caretakers and siblings still alive)
+- No "kin" language
+- No vague hedging or figurative language
+- No AI-slop phrases
+- Chronology is clear and correct
+- Family structure properly introduced

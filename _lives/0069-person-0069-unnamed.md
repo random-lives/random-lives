@@ -13,7 +13,8 @@ country: "Spain"
 latitude: 39.73
 longitude: -0.95
 map_url: "https://www.google.com/maps/place/39.73,-0.95/@39.73,-0.95,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Pastoralist"
 era: "Holocene"
 sex: "M"
 age_tag: "Infant (0–1)"

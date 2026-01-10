@@ -7,12 +7,14 @@ death_year: "1868 AD"
 age_at_death: 1
 birth_date: "May 3, 1867 AD"
 death_date: "September 27, 1868 AD"
-location: "บ้านป่าตาน, บ้านสะปุ๋ง, ม่วงน้อย, อำเภอป่าซาง, จังหวัดลำพูน, ประเทศไทย"
+location: "Pa Sang, Lamphun, Thailand"
+location_original: "บ้านป่าตาน, บ้านสะปุ๋ง, ม่วงน้อย, อำเภอป่าซาง, จังหวัดลำพูน, ประเทศไทย"
 country: "Thailand"
 latitude: 18.49
 longitude: 98.93
 map_url: "https://www.google.com/maps/place/18.49,98.93/@18.49,98.93,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "F"
 age_tag: "Infant (0–1)"

@@ -17,7 +17,15 @@
       "Bash(/bin/rm:*)",
       "Bash(export PATH=\"/opt/homebrew/opt/ruby/bin:/usr/bin:/bin:$PATH\")",
       "Bash(cat:*)",
-      "Bash(xargs -I{} sh -c 'echo \"\"=== {} ===\"\" && head -10 {}')"
+      "Bash(xargs -I{} sh -c 'echo \"\"=== {} ===\"\" && head -10 {}')",
+      "Bash(xargs:*)",
+      "Bash(echo:*)",
+      "Bash(for f in 0071 0072 0073 0074 0075 0076 0077 0078 0079 0080 0081 0082 0083 0084 0085 0086 0087 0088 0089 0090 0091 0092 0093 0094 0095 0096 0097 0098 0099)",
+      "Bash(for i in 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99)",
+      "Bash(do grep \"^# father_occupation:\" /Users/damonbinder/Documents/RandomLivesWebsite/_lives/00$i-*.md)",
+      "Skill(classify-lifestyles)",
+      "Edit(_lives_pending/*)",
+      "Edit(_lives/*)"
     ],
     "deny": []
   }

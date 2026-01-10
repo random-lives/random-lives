@@ -7,11 +7,13 @@ death_year: "1711 AD"
 age_at_death: 21
 birth_date: "December 28, 1689 AD"
 death_date: "January 23, 1711 AD"
-location: "Mhalsar, Shindkheda Taluka, Dhule, Maharashtra, 425403, India"
+location: "Mhalsar, Dhule, Maharashtra, India"
+location_original: "Mhalsar, Shindkheda Taluka, Dhule, Maharashtra, 425403, India"
 country: "India"
 latitude: 21.24
 longitude: 74.94
 map_url: "https://www.google.com/maps/place/21.24,74.94/@21.24,74.94,5z"
+old_lifestyle: "Urban"
 lifestyle: "Urban"
 era: "Holocene"
 sex: "F"
@@ -289,11 +291,11 @@ Govindpant’s parents ran a stem-family household. His mother, Radhabai, watche
 
 Govindpant treated her as a junior member of a ranked house. He spoke to her about reputation, about who might be listening. She answered him directly, without softening. Their nights were duty, not tenderness. Once, after she argued with Radhabai over the quality of ghee purchased, Govindpant seized her arm and shoved her toward the inner rooms. His grip left bruises on her short forearm. He told her she would not shame his mother again. Tarabai stared at him and said, “Then buy your own ghee.” He struck her across the shoulder. In the morning she went to the market anyway.
 
-In 1707 Aurangzeb died, and the town heard news carried by travelers and officials. The names of new claimants were spoken carefully. Govindpant’s household received visitors more often, men with dust on their clothes and worry in their eyes. Demands shifted: a different collector, a different set of guards, a new expectation of gifts. Tarabai listened from behind curtains and learned which men lied by the way they asked for water.
-
-That year she survived a severe fever that kept her in bed for days, her mouth dry and her head aching. Radhabai brought remedies and ordered additional prayers. Sakharam came from Tarabai’s natal home with rice water and a little tamarind, and sat close enough to see her daughter’s eyes. Tarabai recovered and returned to her errands with a narrower patience.
+In 1707 Aurangzeb died, and the town heard news carried by travelers and officials. The names of new claimants were spoken carefully. Govindpant's household received visitors more often, men with dust on their clothes and worry in their eyes. Demands shifted: a different collector, a different set of guards, a new expectation of gifts. Tarabai listened from behind curtains and learned which men lied by the way they asked for water.
 
 At seventeen she was cheated in the bazaar while buying grain for the household. A seller mixed chaff into a sack and tied it tight. Tarabai felt the difference by the way it settled when she set it down. She cut the knot, dug her hand in, and flung a fistful onto the ground. The seller protested; she shouted back. A passerby laughed. The seller refunded part of the price to stop the scene. Tarabai took the coins and left without thanks. From then on she checked every sack and made the porters wait.
+
+The following year she survived a severe fever that kept her in bed for days, her mouth dry and her head aching. Radhabai brought remedies and ordered additional prayers. Sakharam came from Tarabai's natal home with rice water and a little tamarind, and sat close enough to see her daughter's eyes. Tarabai recovered and returned to her errands with a narrower patience.
 
 In 1709, armed men began appearing more frequently on the road. Once, returning from market, she saw a group of soldiers and retainers camped near a water point, their animals crowding the bank. The household restricted women’s movement for days. Radhabai ordered Tarabai to stay inside; Tarabai obeyed and sulked, pressing her thumb along the edge of a brass plate until it shone. When the road cleared, she went out at dawn, earlier than before.
 

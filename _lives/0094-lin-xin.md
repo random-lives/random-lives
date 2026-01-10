@@ -13,7 +13,8 @@ country: "China"
 latitude: 41.73
 longitude: 97.01
 map_url: "https://www.google.com/maps/place/41.73,97.01/@41.73,97.01,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Elder (70+)"

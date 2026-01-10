@@ -7,12 +7,14 @@ death_year: "1201 AD"
 age_at_death: 0
 birth_date: "March 9, 1201 AD"
 death_date: "March 9, 1201 AD"
-location: "Supaul, Bihar, 852131, India"
+location: "Supaul, Bihar, India"
+location_original: "Supaul, Bihar, 852131, India"
 country: "India"
 latitude: 26.07
 longitude: 86.6
 map_url: "https://www.google.com/maps/place/26.07,86.6/@26.07,86.6,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Infant (0–1)"
@@ -214,4 +216,4 @@ The births had come close together. Sītā, the first, lay in the ground since 1
 
 On March 9, 1201, Nirmalā, an experienced village midwife, squatted beside Sundarī on the packed earth floor. Jasodā heated water and set a small lamp near the doorway. The labor dragged. Sundarī strained, and the baby came out limp. Nirmalā rubbed him hard and cleared his mouth; Keshava waited outside the room, listening for a cry that did not come.
 
-The infant, a son, was called Nandana in the moment, for a hopeful name. He died before midday. That evening Deva Miśra spoke brief Sanskrit over a pinch of rice and a spoon of ghee, and Dīnarāyaṇa carried the small body to the riverbank and set it into the moving water.
+The infant was a son. He never cried. Nirmalā kept rubbing, but the baby stayed limp and blue. He died before midday, unnamed. That evening Deva Miśra spoke brief Sanskrit over a pinch of rice and a spoon of ghee, and Dīnarāyaṇa carried the small body to the riverbank and set it into the moving water.

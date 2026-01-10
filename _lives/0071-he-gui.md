@@ -13,7 +13,8 @@ country: "China"
 latitude: 30.32
 longitude: 115.59
 map_url: "https://www.google.com/maps/place/30.32,115.59/@30.32,115.59,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "F"
 age_tag: "Elder (50+)"

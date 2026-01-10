@@ -13,7 +13,8 @@ country: "Ukraine"
 latitude: 51.06
 longitude: 30.79
 map_url: "https://www.google.com/maps/place/51.06,30.79/@51.06,30.79,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "F"
 age_tag: "Elder (50+)"

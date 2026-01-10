@@ -7,11 +7,13 @@ death_year: "3001 BC"
 age_at_death: 0
 birth_date: "June 23, 3001 BC"
 death_date: "June 23, 3001 BC"
-location: "الجبلين, النيل الأبيض, السودان"
+location: "Al-Jabalin, White Nile, Sudan"
+location_original: "الجبلين, النيل الأبيض, السودان"
 country: "Sudan"
 latitude: 12.24
 longitude: 33.04
 map_url: "https://www.google.com/maps/place/12.24,33.04/@12.24,33.04,5z"
+old_lifestyle: "Hunter-Gatherer"
 lifestyle: "Hunter-Gatherer"
 era: "Holocene"
 sex: "M"

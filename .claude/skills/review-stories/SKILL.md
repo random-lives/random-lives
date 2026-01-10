@@ -20,7 +20,7 @@ Review stories in `_lives/` following the workflow below.
 3. **Create issue log** - list ALL issues found with quoted text in `_lives/REVIEW_LOG.md`
 4. **Make edits** - fix all issues in the markdown file
 5. **Document changes** - update log with what was changed
-6. **Report to user** - summarize what you found and changed, then wait for approval before proceeding
+6. **Move to next story** - proceed automatically without waiting for approval
 
 ## Quick Checklist (Most Common Issues)
 

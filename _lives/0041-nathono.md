@@ -13,7 +13,8 @@ country: "Mozambique"
 latitude: -15.42
 longitude: 38.87
 map_url: "https://www.google.com/maps/place/-15.42,38.87/@-15.42,38.87,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "F"
 age_tag: "Elder (50+)"

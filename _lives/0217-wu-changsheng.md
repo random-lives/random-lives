@@ -7,12 +7,14 @@ death_year: "1856 AD"
 age_at_death: 57
 birth_date: "September 24, 1798 AD"
 death_date: "March 22, 1856 AD"
-location: "八桥镇, 扬中市, 镇江市, 江苏省, 212200, 中国"
+location: "Yangzhong, Zhenjiang, Jiangsu, China"
+location_original: "八桥镇, 扬中市, 镇江市, 江苏省, 212200, 中国"
 country: "China"
 latitude: 32.06
 longitude: 119.92
 map_url: "https://www.google.com/maps/place/32.06,119.92/@32.06,119.92,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Elder (50+)"
@@ -413,7 +415,7 @@ The household was three generations. His paternal grandfather Wu Shoulin held au
 
 His father Wu Fusheng farmed the family’s plots and rented a little extra when the rent was fair. Changsheng followed him into the paddies before he could carry a full bucket, first to pull weeds and later to transplant seedlings in straight rows. In the slack season he ran errands with Ershun—salt, oil, a coil of rope, sometimes a message to an uncle across a canal. He liked the market days more than the fields. He remembered faces, enjoyed the talk at the teahouse stall, and could trade jokes with porters and ferrymen until his mother Zhang-shi called him back, angry that he had forgotten the bean cakes she had sent him to buy.
 
-In 1810, when Changsheng was eleven, his grandfather died. The funeral brought Daoist ritual specialists to chant and ring bells, and the family set out steamed buns, fish, and bowls of rice wine before the coffin. After that, the house loosened. His father still worked hard, but he let Changsheng slip away to the river landing more often. Changsheng never held fear close. When a summer storm knocked down stalks, he waded in without complaint, calm and talkative, giving orders as if the work were easy.
+In 1810, when Changsheng was eleven, his grandfather died. The funeral brought Daoist ritual specialists to chant and ring bells, and the family set out steamed buns, fish, and bowls of rice wine before the coffin. After that, the house loosened. His father still worked hard, but he let Changsheng slip away to the river landing more often. Changsheng never held fear close. When a summer storm knocked down stalks, he waded in without complaint, calm and talkative, giving orders to the others.
 
 Five years later Ershun died at twenty-one. The village spoke of a fever that took him quickly. Changsheng helped wash the body and stood through the rites with incense burning in his hands, then went back to the fields because seedlings did not wait. The death changed how others looked at him. He became the only surviving son, the one who had to carry the line and keep the tablets supplied with offerings.
 
@@ -425,7 +427,7 @@ In 1831 his sister Wu Lanhua died at thirty-nine. Changsheng went to her husband
 
 The mid-1830s brought pressure that did not come from any one storm. Rent collectors demanded payment in good silver. Prices shifted in ways Changsheng did not understand, and pawnbrokers grew more important in the town. Changsheng kept his temper and tried to smooth every conversation, but his household accounts were loose. He mislaid a pawn ticket once and spent a day searching under mats and jars while Chen-shi looked at him with hard eyes.
 
-In the winter of 1833, after the harvest had been stored and the paddies lay quiet, someone came at night by the riverside path. The latch on the grain chest was cut. Several dou of rice were gone, and a small string of copper cash that Changsheng had tied in cloth for spring seed and rent had vanished with it. He confronted no one directly. He went from house to house asking calmly, half-joking, as if the thief might confess for shame. Shen Laosi avoided his eyes. Changsheng never proved anything.
+In the winter of 1833, after the harvest had been stored and the paddies lay quiet, someone came at night by the riverside path. The latch on the grain chest was cut. Several dou of rice were gone, and a small string of copper cash that Changsheng had tied in cloth for spring seed and rent had vanished with it. He confronted no one directly. He went from house to house asking calmly, half-joking. Shen Laosi avoided his eyes. Changsheng never proved anything.
 
 By 1839, talk of war reached the river towns. Salt boats and grain boats moved differently, and people repeated rumors about foreign ships and coastal fighting. The changes came to Changsheng in the form of uncertainty: traders offered worse terms, the landlord’s agent demanded payment on stricter dates, and small debts grew teeth. Qian Youtong, the rent-collector, came more often. Changsheng spoke politely to him and offered tea, promising payment after the next threshing. Qian listened without warmth and wrote marks in a book Changsheng could not read.
 

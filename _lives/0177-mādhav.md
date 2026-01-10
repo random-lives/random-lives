@@ -7,12 +7,14 @@ death_year: "1337 AD"
 age_at_death: 0
 birth_date: "February 10, 1337 AD"
 death_date: "May 11, 1337 AD"
-location: "Rajagram, Bankura - I, Bankura, West Bengal, 722102, India"
+location: "Rajagram, Bankura, West Bengal, India"
+location_original: "Rajagram, Bankura - I, Bankura, West Bengal, 722102, India"
 country: "India"
 latitude: 23.24
 longitude: 87.02
 map_url: "https://www.google.com/maps/place/23.24,87.02/@23.24,87.02,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Rural Non-Farm"
 era: "Holocene"
 sex: "M"
 age_tag: "Infant (0–1)"
@@ -114,7 +116,7 @@ continent: "Asia"
 # - M
 ---
 
-Bankura’s dry forest country lay under the revenue reach of the Bengal Sultanate, where villages paid dues through local intermediaries and spoke an eastern Indo-Aryan vernacular. In Rajagram, Śrīdhār the potter and his wife Saraswatī lived in a small thatched house beside their clay pit and drying yard. Their first child, Kamolā, had been born in 1335 and died the same year, and the loss stayed close to the household’s daily decisions.
+Bankura's dry forest country lay at the western edge of Bengal, where the Hindu Malla kings of Bishnupur held local authority while distant Muslim sultans in Delhi claimed nominal dominion. Villages paid dues through intermediaries and spoke an eastern Indo-Aryan vernacular. In Rajagram, Śrīdhār the potter and his wife Saraswatī lived in a small thatched house beside their clay pit and drying yard. Their first child, Kamolā, had been born in 1335 and died the same year, and the loss stayed close to the household’s daily decisions.
 
 On February 10, 1337, Saraswatī delivered a boy. They called him Mādhav. For the first weeks she kept him near the hearth while she wedged clay with her feet, shaped small jars on a low wheel, and set them in the sun. Śrīdhār brought water from the tank and gathered fuel for firing. When neighbors passed, Saraswatī pressed a pinch of rice and a flower at the household corner shrine, then tied a thread at the local pīr’s dargah and left a small earthen lamp and a few coins.
 

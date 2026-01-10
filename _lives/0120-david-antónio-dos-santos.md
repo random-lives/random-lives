@@ -11,6 +11,7 @@ country: "Angola"
 latitude: -8.75
 longitude: 13.21
 map_url: "https://www.google.com/maps/place/-8.75,13.21/@-8.75,13.21,5z"
+old_lifestyle: "Urban"
 lifestyle: "Urban"
 era: "Holocene"
 sex: "M"
@@ -213,8 +214,8 @@ continent: "Africa"
 
 David António dos Santos was born on January 18, 2023, in Luanda, Angola’s crowded coastal capital, under the government of the MPLA and a cash economy shaped by oil money and constant price swings. His family moved easily through Portuguese, and his parents also kept English in the house, the kind used for work and school ambition. They were mestiço and mainline Protestant, the sort of household that went to church on Sundays and prayed in short phrases at home.
 
-His father, António dos Santos, supervised shifts for a firm and came home tired but orderly, greeting each child and asking who had done what. His mother, Márcia Pereira dos Santos, sold goods in informal retail and left early for the market, where stall neighbors like Sr. Tomás watched over the day’s small bargains and gossip. Eight children made noise in their apartment, but David, the fourth, stayed inside the edges of it. Daniel, born in 2014, could run errands. Sara, born in 2016, talked to everyone, including adults at church. Cláudia, born in 2018, hovered closest to David and fought him over toys.
+His father, António dos Santos, supervised shifts for a firm and came home tired but orderly, greeting each child and asking who had done what. His mother, Márcia Pereira dos Santos, sold goods in informal retail and left early for the market, where stall neighbors like Sr. Tomás watched over the day’s small bargains and gossip. Six children made noise in their apartment, but David, the fourth, stayed inside the edges of it. Daniel, born in 2014, could run errands. Sara, born in 2016, talked to everyone, including adults at church. Cláudia, born in 2018, hovered closest to David and fought him over toys.
 
-Mid-2025, David began a private habit: he sat apart from the arguments and pointed at objects, naming them softly in pairs—“carro… car,” “água… water”—then looked up at Márcia for a nod, not applause. When his younger brother Mateus arrived in 2024 and cried often, David brought a cloth without being asked and then slipped away to the quiet corner near the door.
+When his younger brother Mateus arrived in 2024 and cried often, David brought a cloth without being asked and then slipped away to the quiet corner near the door. By mid-2025, he had developed a private habit: he sat apart from the arguments and pointed at objects, naming them softly in pairs—"carro… car," "água… water"—then looked up at Márcia for a nod, not applause.
 
-By late 2025 the house held another baby, Rafael, born that year. The older children chased and shouted through the rooms. David took the flip-flops and lined them into pairs by size, adult sandals first, then children’s, restoring the line each time a foot scattered it. On Sundays he stands close to António in church, listening to the familiar hymns, whispering a few words along, and keeping his hands on his own small order of things.
+By late 2025 the house held another baby, Rafael, born that year. The older children chased and shouted through the rooms. David took the flip-flops and lined them into pairs by size, adult sandals first, then children’s, restoring the line each time a foot scattered it. On Sundays he stood close to António in church, listening to the familiar hymns, whispering a few words along, and keeping his hands on his own small order of things.

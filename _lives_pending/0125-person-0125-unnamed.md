@@ -7,16 +7,18 @@ death_year: "1315 AD"
 age_at_death: 0
 birth_date: "May 8, 1315 AD"
 death_date: "May 8, 1315 AD"
-location: "Dlouhá Lhota u Dobříše, Dlouhá Lhota, okres Příbram, Středočeský kraj, Střední Čechy, Česko"
+location: "Dlouha Lhota, Pribram, Central Bohemia, Czechia"
+location_original: "Dlouhá Lhota u Dobříše, Dlouhá Lhota, okres Příbram, Středočeský kraj, Střední Čechy, Česko"
 country: "Czechia"
 latitude: 49.72
 longitude: 14.13
 map_url: "https://www.google.com/maps/place/49.72,14.13/@49.72,14.13,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Infant (0–1)"
-continent: "Unknown"
+continent: "Europe"
 
 # Debug information (not displayed on page):
 # Age at death: 0
@@ -145,10 +147,10 @@ continent: "Unknown"
 # - F
 ---
 
-Prokop was born on 8 May 1315 in Dlouhá Lhota, a small village in central Bohemia under the rule of the Kingdom of Bohemia and the wider order of the Holy Roman Empire. His parents, Matěj and Dorota, spoke the Bohemian Czech vernacular and lived by Latin-rite Catholic parish custom, owing their place in the village to labor more than land.
+The child was born on 8 May 1315 in Dlouhá Lhota, a small village in central Bohemia under the rule of the Kingdom of Bohemia and the wider order of the Holy Roman Empire. His parents, Matěj and Dorota, spoke the Bohemian Czech vernacular and lived by Latin-rite Catholic parish custom, owing their place in the village to labor more than land.
 
 Matěj worked where work could be found: spring digging and manuring on a neighbor’s holding, haymaking when the weather held, and demesne days when the reeve called for hands. Dorota kept the house and took field work when hiring opened, bending for weeding and then for harvest, trading sweat for grain, peas, and small coins. Their home held a chest for linen, a cooking pot, and a small crucifix, and Dorota kept a pinch of blessed salt wrapped in cloth for sickness and storms.
 
-Dorota went into labor before dawn. The midwife, Bába Zdislava, came from the next yard and set water to warm. By midday the child was delivered, a boy, motionless. Zdislava rubbed him with cloth and tried to rouse him while Dorota lay staring at the rafters, her hands still clenched.
+Dorota went into labor before dawn. The midwife, Bába Zdislava, came from the next yard and set water to warm. By midday the child was delivered, motionless. Zdislava rubbed the body with cloth and tried to rouse it while Dorota lay staring at the rafters, her hands still clenched.
 
 Kněz Mikuláš was told, but there was no baptism. Before evening Matěj carried the small body to the churchyard and put it into the earth at the edge of the consecrated ground used for infants. The priest spoke a short prayer over it, and Matěj crossed himself once before walking back to the village.

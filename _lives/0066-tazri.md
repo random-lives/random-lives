@@ -13,7 +13,8 @@ country: "Morocco"
 latitude: 32.23
 longitude: -4.03
 map_url: "https://www.google.com/maps/place/32.23,-4.03/@32.23,-4.03,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Rural Non-Farm"
 era: "Holocene"
 sex: "F"
 age_tag: "Child (2–10)"

@@ -7,12 +7,14 @@ death_year: "216 AD"
 age_at_death: 19
 birth_date: "October 8, 196 AD"
 death_date: "October 3, 216 AD"
-location: "Oed in Bergen, Hartkirchen, Bezirk Eferding, Oberösterreich, 4081, Österreich"
+location: "Hartkirchen, Upper Austria, Austria"
+location_original: "Oed in Bergen, Hartkirchen, Bezirk Eferding, Oberösterreich, 4081, Österreich"
 country: "Austria"
 latitude: 48.39
 longitude: 13.96
 map_url: "https://www.google.com/maps/place/48.39,13.96/@48.39,13.96,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Urban"
 era: "Holocene"
 sex: "M"
 age_tag: "Adult (19–49)"
@@ -285,7 +287,7 @@ continent: "Europe"
 #   type: elderly_parents
 ---
 
-Tiberius was born on October 8, 196, on a smallholding in the wooded farmland of Noricum, under Roman rule. The people around Hartkirchen spoke a local Celtic tongue at home and used Latin for dealing with tax collectors, merchants, and the military posts along the Danube. In his parents’ house, the old ways and the Roman ones sat on the same shelf. A small wooden shrine stood near the hearth. On ordinary days his mother set out a pinch of grain, or a bit of cheese, and tipped a small pour of beer or watered wine into the fire. On the household’s harder days, they carried offerings to a nearby spring shrine: bread, a strip of fat, a small coin if there was one, and a written vow scratched by someone who could manage letters.
+Tiberius was born on October 8, 196, on a smallholding in the wooded farmland of Noricum, under Roman rule. The people around Hartkirchen spoke a local Celtic tongue at home and used Latin for dealing with tax collectors, merchants, and the military posts along the Danube. In his parents’ house, the old ways and the Roman ones sat on the same shelf. A small wooden shrine stood near the hearth. On ordinary days his mother set out a pinch of grain and tipped a small pour of watered wine into the fire. On the household’s harder days, they carried offerings to a nearby spring shrine: bread, a strip of fat, a small coin if there was one, and a written vow scratched by someone who could manage letters.
 
 His father, Aurelius Vindex, worked his own land with the help of neighbors at harvest and a few animals that needed constant attention. His mother, Vibia Secunda, ran the inside of the house and much of the food work that made the farm run: grinding, baking, dairy, gardens, and spinning. Tiberius grew tall early, strong-limbed, and striking enough that visitors looked at him twice before speaking. He answered with a lowered gaze and short words. When he was upset he stayed quiet, then washed his hands and set something in order.
 
@@ -315,4 +317,4 @@ In 214, after a wet season, prices rose again. Grain dealers held back stock. Ti
 
 By 215, a sickness passed through the town and the fort area and touched the countryside. People stayed away from crowds when they could and still had to go to market when they could not. Tiberius kept to the edge of gatherings, carried his own cup, and boiled water when he returned to the farm. He worried over what he had already written and what might still be demanded. He took pride in keeping the household from falling into arrears and in making sure Priscus’ accounts matched the goods in the storehouse.
 
-Early in 216, he returned to Priscus’ house more steadily, boarding there again. In late summer, as carts moved in and out and soldiers and traders crowded the roads, he caught an acute infection. It began with a sudden illness and quickly turned severe. He died on October 3, 216, in the town/fort settlement where he worked. Priscus paid for a simple cremation outside the settlement boundary; a small portion of the ash was placed in a jar, and Flavia Iusta set bread and a coin beside it before it was sealed.
+Early in 216, he returned to Priscus’ house more steadily, boarding there again. In late summer, as carts moved in and out and soldiers and traders crowded the roads, he caught an acute infection. It began with a sudden illness and quickly turned severe. He died on October 3, 216, in the settlement near the fort where he worked. Priscus paid for a simple cremation outside the settlement boundary; a small portion of the ash was placed in a jar, and Flavia Iusta set bread and a coin beside it before it was sealed.

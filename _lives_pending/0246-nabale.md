@@ -7,16 +7,18 @@ death_year: "1670 AD"
 age_at_death: 30
 birth_date: "August 24, 1639 AD"
 death_date: "June 25, 1670 AD"
-location: "Tshopo, République démocratique du Congo"
+location: "Tshopo, Democratic Republic of Congo"
+location_original: "Tshopo, République démocratique du Congo"
 country: "Democratic Republic of Congo"
 latitude: -1.26
 longitude: 25.54
 map_url: "https://www.google.com/maps/place/-1.26,25.54/@-1.26,25.54,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "F"
 age_tag: "Adult (19–49)"
-continent: "Unknown"
+continent: "Africa"
 
 # Debug information (not displayed on page):
 # Age at death: 30

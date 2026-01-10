@@ -1,0 +1,12 @@
+Review of **0134-tari** is complete.
+
+**Summary:**
+- **Issues found:** 2
+  - Pseudosociological "kin groups" language
+  - Missing sibling birth (Rumo appears without introduction)
+  
+- **Changes made:** 2
+  - Changed "small kin groups farmed rainfed plots" → "families farmed rainfed plots"
+  - Added Rumo's birth: "Two years after Tari, a boy, Rumo, was born."
+
+The story is relatively clean overall. It's a short child life (age 7), well-structured with proper sibling ordering, and the family deaths all check out: Kalo died before Tari's birth (properly noted), and parents/siblings who survive Tari are correctly shown as alive at her death. The review log has been updated.

@@ -1,0 +1,14 @@
+Review complete for **0184-khadija**.
+
+**Summary:**
+- **Issues found:** 3
+  - AI-slop/figurative: "the rhythms of the week and year"
+  - Awkward phrasing: "Late 2025 finds her"
+  - Missing trait visibility: High honesty-humility (93rd percentile) not shown
+
+- **Changes made:**
+  - Rewrote "the rhythms of the week and year—Friday prayers, Ramadan, the two Eids—organized the household" → "Friday prayers, Ramadan, and the two Eids set the shape of each week and year"
+  - Changed "Late 2025 finds her" → "By late 2025, she is"
+  - Added honesty-humility scene: "When her grandmother caught her reaching for the sugar bowl, she froze, then slowly pushed it back without being told."
+
+This is a relatively clean story overall. It's about an Algerian toddler still alive in 2025, so there are no deaths to track. The family structure is clear, traits are visible (very low extraversion, low openness, low agreeableness, very low intelligence are all shown through concrete behaviors), and chronology is straightforward.

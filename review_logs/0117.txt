@@ -1,0 +1,19 @@
+Review complete for story 0117-tiberius.
+
+**Summary:**
+
+I reviewed the story at `_lives_pending/0117-tiberius.md` and found it to be quite clean overall. This is a well-structured story about a young Roman provincial clerk in Noricum (modern Austria) who died at age 19 from an acute infection.
+
+**Issues found and fixed:**
+1. **Vague hedging**: "a pinch of grain, or a bit of cheese" → "a pinch of grain"
+2. **Vague hedging**: "beer or watered wine" → "watered wine"  
+3. **Awkward phrasing**: "in the town/fort settlement" → "in the settlement near the fort"
+
+**Verified as correct:**
+- All deaths properly covered (grandmother Materna in 204, brother Caius in 212)
+- Both parents alive at story's end (consistent with debug data)
+- Trait visibility: low extraversion, high conscientiousness, high physical attractiveness, and low intelligence with learned literacy all clearly shown through concrete actions
+- No pseudosociological "kin" language in narrative
+- No figurative language (similes/metaphors)
+- Chronology is clear and flows well
+- Family structure properly introduced

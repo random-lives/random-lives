@@ -13,7 +13,8 @@ country: "Egypt"
 latitude: 31.23
 longitude: 31.29
 map_url: "https://www.google.com/maps/place/31.23,31.29/@31.23,31.29,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Elder (50+)"

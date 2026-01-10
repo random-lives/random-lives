@@ -7,12 +7,14 @@ death_year: "192 AD"
 age_at_death: 49
 birth_date: "May 1, 143 AD"
 death_date: "December 11, 192 AD"
-location: "代字营镇, 渭南市, 陕西省, 中国"
+location: "Daiziying, Weinan, Shaanxi, China"
+location_original: "代字营镇, 渭南市, 陕西省, 中国"
 country: "China"
 latitude: 34.56
 longitude: 110.34
 map_url: "https://www.google.com/maps/place/34.56,110.34/@34.56,110.34,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Adult (19–49)"
@@ -343,17 +345,17 @@ A daughter, Zhao E, was born in 170. Shun held her with care, and then with worr
 
 In the 160s and 170s, the county’s mood shifted. Officials changed, runners grew rougher, and talk spread of men arrested for factional disputes far away. None of it put books in Shun’s hands. He could not read, and the written proclamations posted at the yamen gate meant nothing until someone recited them. What he felt was the tightening: more inspections, sharper collection, less patience. He met it by trying to offend no one. When a boundary dispute rose with a neighbor, Shun offered a strip of land rather than argue. When a cousin, Zhao Bo, teased him for giving in, Shun shrugged and said he needed quiet to sleep.
 
-By 176, Chen Shi left the Zhao household. The break happened in stages, but it ended that year. A quarrel over stored grain—Shun had promised part of it to a cousin who had helped with harvest and then could not remember how much—turned into shouting in front of the yard. Chen Shi took her remaining cloth and returned to her brother Chen Ru’s house. There was no formal repudiation, no neat settlement. Shun did not chase her or fight her kin. He agreed to whatever Chen Ru demanded just to end the confrontation. Zhao E stayed with Shun, small enough to be carried on his hip when he went to the fields.
+By 176, Chen Shi left the Zhao household. The break happened in stages, but it ended that year. A quarrel over stored grain—Shun had promised part of it to a cousin who had helped with harvest and then could not remember how much—turned into shouting in front of the yard. Chen Shi took her remaining cloth and returned to her brother Chen Ru’s house. There was no formal repudiation, no neat settlement. Shun did not chase her or argue with her brother. He agreed to whatever Chen Ru demanded just to end the confrontation. Zhao E stayed with Shun, small enough to be carried on his hip when he went to the fields.
 
 Qiu died in 176. Shun dug the grave with help from Zhao Bo and a few neighbors. At the funeral meal he poured ale for the ancestors and for his father’s spirit, hands shaking as he steadied the cup. After that, the household was smaller and quieter, but the work did not get easier. He kept planting the same way his father had taught, refusing advice to shift the sowing when the rains were late. When drought came and grain prices rose, he tried to calculate how long the stored millet would last, then woke in the night and checked the jars again.
 
-Liu Shi died in 184. The same year, rumors of rebellion reached their villages and then became facts: men with yellow cloths, soldiers moving through commanderies, demands for grain and labor. Shun’s anxiety tightened into habit. His stomach clenched before every knock at the gate. He avoided the market when he could, sending Zhao Bo instead, and when he did go he walked the edges and kept his eyes down.
+In the years that followed, thefts began to bite. Grain disappeared from the storage jars after busy market days when strangers moved through. A piglet vanished from the yard. Once, a plow-iron left at the field edge was gone by morning. Shun noticed patterns—who passed by, who lingered—but he did not confront anyone. He borrowed a replacement from Zhao Bo and paid back with labor, digging and hauling until his shoulders ached. He tried new jar seals and checked them too often, touching each knot, then touching again, then lying awake imagining footsteps outside.
 
-Between 173 and 181, thefts began to bite. Grain disappeared from the storage jars after busy market days when strangers moved through. A piglet vanished from the yard. Once, a plow-iron left at the field edge was gone by morning. Shun noticed patterns—who passed by, who lingered—but he did not confront anyone. He borrowed a replacement from Zhao Bo and paid back with labor, digging and hauling until his shoulders ached. He tried new jar seals and checked them too often, touching each knot, then touching again, then lying awake imagining footsteps outside.
+He found small pleasures that did not cost him anything. In late autumn he liked roasted millet cakes browned on a clay griddle, eaten outside while the air turned cold. He sat on a low stone by the threshing floor at dusk, listening to other households' laughter carry across the yard lines. He let Zhao E braid rushes into simple mats and praised her work with a few words, then fell silent.
 
-He found small pleasures that did not cost him anything. In late autumn he liked roasted millet cakes browned on a clay griddle, eaten outside while the air turned cold. He sat on a low stone by the threshing floor at dusk, listening to other households’ laughter carry across the yard lines. He let Zhao E braid rushes into simple mats and praised her work with a few words, then fell silent.
+Liu Shi died in 184. The same year, rumors of rebellion reached their villages and then became facts: men with yellow cloths, soldiers moving through commanderies, demands for grain and labor. His stomach clenched before every knock at the gate. He avoided the market when he could, sending Zhao Bo instead, and when he did go he walked the edges and kept his eyes down.
 
-At forty-one, in 184, he began to cough in the mornings. By the next winter the cough came at night. He sweated through his shirt and woke shivering. He still went to the fields, but he stopped often, hands on knees, catching his breath. Zhao E carried water and took over tasks he could no longer keep pace with, and Zhao Bo came more frequently, cutting stalks and lifting loads without being asked. Shun paid him back with what he could: a share of grain, a repaired handle when his hands were steady, a promise remembered at last.
+That same year, he began to cough in the mornings. By the next winter the cough came at night. He sweated through his shirt and woke shivering. He still went to the fields, but he stopped often, hands on knees, catching his breath. Zhao E carried water and took over tasks he could no longer keep pace with, and Zhao Bo came more frequently, cutting stalks and lifting loads without being asked. Shun paid him back with what he could: a share of grain, a repaired handle when his hands were steady, a promise remembered at last.
 
 Old Meng gave him another talisman and told him to avoid cold foods and spirits that came with damp wind. Shun obeyed. He also worried more. He worried about requisitions from troops, about rumors of bandits, about the next winter, about the cough that would not leave. He spoke little, but when he did, it was to ask if the gate was barred, if the jars were sealed, if Zhao E had stayed away from sick children.
 

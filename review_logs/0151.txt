@@ -1,0 +1,12 @@
+Review of 0151-ollin is complete.
+
+**Summary of review for 0151-ollin:**
+
+**Issues found and fixed:**
+1. **Missing deaths**: Added grandmother Iztac's death (1207) and uncle Coatl's death (1228), both of which occurred during Ollin's lifetime but weren't mentioned
+2. **Dead character referenced as alive**: Fixed "Coatl began trading away cloth" in 1230 → "The household began trading away cloth" (Coatl died in 1228)
+3. **Pseudosociological "kin" language**: Changed 3 instances of "kin" to "relatives" or "family"
+4. **Minor figurative language**: Changed "Each death tightened the compound" → "Each death weighed on the compound"
+5. **Clarity issue**: Fixed Acatl's relationship (was confusingly called "his mother's brother" when Coatl was already introduced as mother's brother; changed to "an older cousin")
+
+The story is now consistent with the debug data timeline and uses clearer, plainer language.

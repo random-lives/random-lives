@@ -13,7 +13,8 @@ country: "China"
 latitude: 31.9
 longitude: 86.35
 map_url: "https://www.google.com/maps/place/31.9,86.35/@31.9,86.35,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Pastoralist"
 era: "Holocene"
 sex: "F"
 age_tag: "Adult (19–49)"

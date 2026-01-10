@@ -6,12 +6,14 @@ birth_year_numeric: 2018
 death_year: "present"
 age_at_death: alive
 birth_date: "July 5, 2018 AD"
-location: "تحصیل سوراب, ضلع سوراب, قلات ڈویژن, پاکستان"
+location: "Surab, Kalat Division, Pakistan"
+location_original: "تحصیل سوراب, ضلع سوراب, قلات ڈویژن, پاکستان"
 country: "Pakistan"
 latitude: 28.32
 longitude: 66.28
 map_url: "https://www.google.com/maps/place/28.32,66.28/@28.32,66.28,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Alive"
@@ -289,9 +291,11 @@ continent: "Asia"
 #   type: sick_relative
 ---
 
-Shahzad was born on 5 July 2018 in the dry uplands of Surab in Pakistan’s Baluchistan, in a Pashtun household that prayed at the village mosque and lived by rainfed fields and a few animals. The state was Pakistan’s, but daily authority sat with elders, kin, and the men who controlled land, water turns, and access to wage work. At home he heard Pashto; in shops and school he used Urdu.
+Shahzad was born on 5 July 2018 in the dry uplands of Surab in Pakistan's Baluchistan, in a Pashtun household that prayed at the village mosque and lived by rainfed fields and a few animals. The state was Pakistan's, but daily authority sat with elders, landowners, and the men who controlled water turns and access to wage work. At home he heard Pashto; in shops and school he used Urdu.
 
-He was the second child. Amina, two years older, carried him on her hip when their mother, Gul Bibi, was busy with bread and tea and washing. Their father, Abdul Wahid, worked a small plot and took day labor when seed and diesel prices jumped. Shahzad learned early to bring back exact change. If a shopkeeper handed him too much, he pushed the notes back across the counter and waited until the count matched. When a cup broke, he said it plainly before anyone asked.
+He was the second child. Amina, two years older, carried him on her hip when their mother, Gul Bibi, was busy with bread and tea and washing. Their father, Abdul Wahid, worked a small plot and took day labor when seed and diesel prices jumped. They lived in a joint household with Abdul Wahid's parents—his grandfather Haji Karim, who still held authority over family decisions, and his grandmother Bibi Shirin, who shared childcare and taught the children their prayers. Uncle Rahim, Abdul Wahid's brother, also lived under the same roof.
+
+Shahzad learned early to bring back exact change. If a shopkeeper handed him too much, he pushed the notes back across the counter and waited until the count matched. When a cup broke, he said it plainly before anyone asked.
 
 School started in 2024, after months when COVID closures had already made routines uncertain. He copied neatly from the blackboard and could write his name and numbers, but he stared at sentences and guessed at words. Ustad Nasir made him stand and read; Amina later sounded out the same lines with him at home, pointing under each word with a fingertip.
 

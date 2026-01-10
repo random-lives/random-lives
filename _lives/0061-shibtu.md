@@ -13,7 +13,8 @@ country: "Lebanon"
 latitude: 33.73
 longitude: 35.46
 map_url: "https://www.google.com/maps/place/33.73,35.46/@33.73,35.46,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "F"
 age_tag: "Adult (19–49)"

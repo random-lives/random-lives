@@ -1,0 +1,18 @@
+Review complete. Here's the summary:
+
+## Review of 0192-shahzad
+
+**Issues found:**
+1. **Pseudosociological language**: "elders, kin, and the men who controlled" - replaced "kin" with more concrete language
+2. **Missing family members**: The debug data shows this is a joint/extended household with co-resident grandparents (Haji Karim and Bibi Shirin) and an uncle (Rahim), but none were introduced in the narrative
+
+**Changes made:**
+1. Changed "elders, kin, and the men who controlled land, water turns, and access to wage work" → "elders, landowners, and the men who controlled water turns and access to wage work"
+2. Added the grandparents and uncle to the family introduction paragraph
+3. Split a long paragraph for better flow
+
+**Notes:**
+- The narrative is short (ends at age 7, late 2025) but this is appropriate since Shahzad is currently alive and only 7 years old as of the story's present (January 2026)
+- The tense shift to present at the end ("In late 2025 he is seven...") is intentional and appropriate for a story about someone still living
+- All sibling births and the infant death (Zahra) are properly mentioned
+- The grandfather Haji Karim dies in 2036 per debug data, but this is in the future so doesn't need to be mentioned yet

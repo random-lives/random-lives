@@ -1,0 +1,14 @@
+Review complete for **0166-pārvatī.md**.
+
+**Summary:**
+- **Issues found:** 1 issue - Height at 8th percentile (extremely short) was not mentioned in the narrative
+- **Changes made:** Added height visibility in the marriage paragraph: "She was short, her head barely reaching Rājā's shoulder."
+
+The story is otherwise well-constructed:
+- All deaths during Pārvatī's lifetime are accounted for (grandfather Gautama in 640, grandmother Sumitrā in 641)
+- Family structure is clear with siblings introduced properly
+- Younger sister Jayā's birth is mentioned
+- No pseudosociological "kin" language
+- No vague hedging or figurative language
+- All extreme personality traits are visible in the narrative (low intelligence, high extraversion, low agreeableness, high neuroticism, high conscientiousness, high openness)
+- Chronology is correct throughout

@@ -6,12 +6,14 @@ birth_year_numeric: 1967
 death_year: "present"
 age_at_death: alive
 birth_date: "December 5, 1967 AD"
-location: "臺灣"
+location: "Taiwan"
+location_original: "臺灣"
 country: "Taiwan"
 latitude: 23.98
 longitude: 120.25
 map_url: "https://www.google.com/maps/place/23.98,120.25/@23.98,120.25,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Urban"
 era: "Holocene"
 sex: "M"
 age_tag: "Alive"
@@ -400,6 +402,6 @@ Suhua’s cancer appeared the next year. She ignored symptoms until she couldn�
 
 Suhua died in 2016. After the funeral rites, Guorong stopped attending most gatherings. He still went to the local temple and placed oranges and a small cup of rice wine before Guandi, then bowed and left. Yuting finished high school and moved out soon after, calling him “Uncle” in Mandarin, not “Dad,” but sending messages on holidays.
 
-In 2019 his father began falling and forgetting. Guorong became the one who showed up. He helped Shoude to the toilet, cleaned him, argued with him over medicine, then did it again. After Shoude died in 2021, his mother’s health declined quickly. Guorong took her to clinics, kept her meals soft, and learned the sequence of hospital counters and stamps. His siblings contributed money, but they didn’t sit through the long waiting hours. During COVID-19 restrictions, he stood outside hospital entrances with a mask and a folder of documents, waiting for permission to go in.
+In 2019 his father began falling and forgetting. Guorong became the one who showed up. He helped Shoude to the toilet, cleaned him, argued with him over medicine, then did it again. After Shoude died in 2021, his mother's health declined quickly. Guorong took her to clinics, kept her meals soft, and learned the sequence of hospital counters and stamps. His siblings contributed money, but they didn't sit through the long waiting hours. During COVID-19 restrictions, he stood outside hospital entrances with a mask and a folder of documents, waiting for permission to go in. Lin Xiuying died in 2024, and Guorong arranged the funeral and the offerings.
 
 Late in 2025, Guorong lives in central Taiwan in a modest place near the old factory belt. He rises early, buys soy milk and youtiao from a street stall, and drinks tea while looking at the day’s light. He still lights incense on festival days, and he keeps his mother’s photo near his grandmother’s on a small shelf. He works when work is available, avoids long conversations, and answers calls from his sister about family matters with short replies. Some evenings he sits outside the temple after making an offering, watching scooters pass, waiting until it feels like time to go home.

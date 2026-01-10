@@ -7,12 +7,14 @@ death_year: "1657 AD"
 age_at_death: 51
 birth_date: "April 29, 1606 AD"
 death_date: "July 1, 1657 AD"
-location: "宝清县, 双鸭山市, 黑龙江省, 155100, 中国"
+location: "Baoqing, Shuangyashan, Heilongjiang, China"
+location_original: "宝清县, 双鸭山市, 黑龙江省, 155100, 中国"
 country: "China"
 latitude: 46.31
 longitude: 133.0
 map_url: "https://www.google.com/maps/place/46.31,133.0/@46.31,133.0,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "FLAG: Hunter-Gatherer"
 era: "Holocene"
 sex: "M"
 age_tag: "Elder (50+)"
@@ -386,7 +388,7 @@ In the winter of 1633 their daughter, Ejen, was born. The child lived only a sho
 
 Lean winters followed. The 1630s brought hard cold and thin yields from the gardens. Game shifted, and men argued more about whose forest and whose river bend held the better spots. Erdeni began crossing lines that he understood well. Starting in 1634 he set traps for sable and marten in a stretch of forest used by a neighboring clan group. He pulled up other men’s trap stakes and reset them farther off. When he carried the pelts to exchange, he used Sonde, a riverside intermediary who asked no questions and took a cut. Erdeni kept his own hands clean at the meeting places, staying quiet while Sonde spoke.
 
-That choice fed the household, but it also sharpened suspicion. At a midwinter gathering in 1637, with drink passed around and accusations spoken loudly, Yanggū from the neighboring settlement called him a thief and said his traps stole from other men’s children. Erdeni had been silent through the first words. When Yanggū repeated the charge, Erdeni stood, took up a wooden pole used for carrying loads, and struck him across the shoulder and head. Yanggū went down. Erdeni grappled him and pinned him until others pulled them apart. Blood ran from Yanggū’s scalp onto the snow. An elder kinsman, Hūlun, demanded compensation. Erdeni paid in pelts and dried fish, and he stayed away from the next two gatherings.
+That choice fed the household, but it also sharpened suspicion. At a midwinter gathering in 1637, with drink passed around and accusations spoken loudly, Yanggū from the neighboring settlement called him a thief and said his traps stole from other men’s children. Erdeni had been silent through the first words. When Yanggū repeated the charge, Erdeni stood, took up a wooden pole used for carrying loads, and struck him across the shoulder and head. Yanggū went down. Erdeni grappled him and pinned him until others pulled them apart. Blood ran from Yanggū’s scalp onto the snow. An uncle, Hūlun, demanded compensation. Erdeni paid in pelts and dried fish, and he stayed away from the next two gatherings.
 
 Two years later, returning from a winter fishing camp in 1639, he was met on a path by several men from another settlement. They accused him of cutting nets and stealing catch. They knocked him down and kicked him, bruising his ribs and swelling his face. He walked home bent forward, breathing shallow, and sat by the fire without speaking while Alun dabbed snowmelt water on the bruises. In the days that followed, he moved with care. He still checked traps. He still set the net line. He spoke less than before.
 

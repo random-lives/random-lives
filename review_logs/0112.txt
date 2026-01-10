@@ -1,0 +1,25 @@
+The review of story 0112-sena.md is complete. Here's a summary of what was found and fixed:
+
+## Review Summary: 0112-sena
+
+**Major Issues Found:**
+
+1. **Impossible timeline**: The narrative showed Sena witnessing the deaths of his children Toku (at age 34) and Saku (at age 23), but according to the debug data, both died AFTER Sena's death. Sena died in 4862 BC; Toku died in 4852 BC and Saku in 4857 BC.
+
+2. **Chronology error**: Taro's death was described as occurring "when Sena was forty-three" but the debug data shows Taro died in 4885 BC, when Sena would have been ~36.
+
+3. **Missing deaths**: Three family members who died during Sena's lifetime were not mentioned:
+   - Uncle Naro (died when Sena was ~23)
+   - Co-wife Rima (died when Sena was 51)
+   - Brother Danu (died when Sena was 55)
+
+4. **Pseudosociological language**: Six instances of "kin" in the narrative text were replaced with plainer language ("family", "group", "relatives").
+
+**Changes Made:**
+
+- Rewrote the final paragraphs to show Toku and Saku as alive when Sena dies (deviated from debug data for narrative accuracy)
+- Fixed Taro's death timing from age 43 to age 36
+- Added uncle Naro's death in the violence section
+- Added Rima's death at age 51
+- Added Danu's death at age 55
+- Fixed all "kin" usages in the narrative

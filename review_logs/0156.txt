@@ -1,0 +1,17 @@
+The review is complete. Let me provide a summary of what was found and fixed:
+
+## Review Complete: 0156-otsuru
+
+**Issues found:**
+1. **Missing death** - Omasa (mother) dies 1680 - not mentioned
+2. **Missing death** - Oba Kiyo (aunt) dies 1672 - not mentioned (same year as marriage)  
+3. **Missing death** - Otsune (sister) dies 1719 - death not mentioned despite appearing in narrative
+4. **Pseudosociological** - "natal kin connection" used "kin"
+5. **Clarity** - "bound to an adult child's household through earlier marriage arrangements and affinal ties" was unclear given all her children died
+
+**Changes made:**
+- Added Omasa's death (1680) after Oito's birth and before her death
+- Added Oba Kiyo's death (1672) connected to Otsuru's marriage
+- Added Otsune's death (1719) between Oshino's death (1713) and Heisuke's death (1726)
+- Changed "natal kin connection" → "connection to her natal family"
+- Replaced the confusing "affinal ties" explanation with a concrete explanation: Takesaburō had married before dying, and his widow remarried within the village while keeping her mother-in-law Otsuru

@@ -13,7 +13,8 @@ country: "Mongolia"
 latitude: 51.31
 longitude: 100.01
 map_url: "https://www.google.com/maps/place/51.31,100.01/@51.31,100.01,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Pastoralist"
 era: "Holocene"
 sex: "M"
 age_tag: "Child (2–10)"

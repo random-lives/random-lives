@@ -6,12 +6,14 @@ birth_year_numeric: 1990
 death_year: "present"
 age_at_death: alive
 birth_date: "June 12, 1990 AD"
-location: "Khairi kalan, Saikheda Tahsil, Narsinghpur, Madhya Pradesh, India"
+location: "Khairi Kalan, Narsinghpur, Madhya Pradesh, India"
+location_original: "Khairi kalan, Saikheda Tahsil, Narsinghpur, Madhya Pradesh, India"
 country: "India"
 latitude: 22.99
 longitude: 78.77
 map_url: "https://www.google.com/maps/place/22.99,78.77/@22.99,78.77,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Rural Non-Farm"
 era: "Holocene"
 sex: "F"
 age_tag: "Alive"
@@ -319,9 +321,9 @@ continent: "Asia"
 
 Kusum was born on 12 June 1990 in Khairi Kalan, in the Narsinghpur area of Madhya Pradesh, where the state government and the local panchayat ran the ration shop, the school, and the paperwork that decided who counted as poor. Her family belonged to an Adivasi community that kept its own village rites while also joining the wider Hindu calendar. At home they spoke Hindi mixed with their own community language, switching without thinking depending on who stood in the doorway.
 
-Her father, Dilip, worked as an agricultural wage laborer. When there was no work nearby he went off with other men, sleeping on floors in other villages. Her mother, Jamni, did the housework, cooked, fetched water, and took wage work when it was available—cutting, weeding, carrying bundles, whatever the landowners offered. They lived in a separate small house rather than under a joint roof, though kin were close enough to appear when there was news.
+Her father, Dilip, worked as an agricultural wage laborer. When there was no work nearby he went off with other men, sleeping on floors in other villages. Her mother, Jamni, did the housework, cooked, fetched water, and took wage work when it was available—cutting, weeding, carrying bundles, whatever the landowners offered. They lived in a separate small house rather than under a joint roof, though relatives were close enough to appear when there was news.
 
-Kusum was the third child. Sarla, born in 1985, ran the morning more than Jamni did: she lit the chulha, shook ash from the pots, and tugged Kusum’s hair into a tight parting. Champa, two years younger than Sarla, had a softer way with Kusum. If Kusum sat silent with a face like stone, Champa still talked to her, as if words could be laid gently on someone’s lap. After Kusum came Ramesh in 1993, then Mohan in 1996.
+Kusum was the third child. Sarla, born in 1985, ran the morning more than Jamni did: she lit the chulha, shook ash from the pots, and tugged Kusum’s hair into a tight parting. Champa, two years younger than Sarla, had a softer way with Kusum. If Kusum sat silent with a blank face, Champa still talked to her anyway. After Kusum came Ramesh in 1993, then Mohan in 1996.
 
 Her earliest memories were of waiting. Waiting for Jamni to return from the fields, for Dilip to come back from a work trip, for the neighbor’s radio to finish the news so the song program started. She sat near her grandmother Hira’s courtyard in the evenings. Hira did not live with them, but she drew Kusum in, offering a steel cup of thin tea and telling stories that moved between spirits and relatives as if they were part of the same family. Hira kept a corner for household offerings: grains of rice, a smear of vermilion, a few flowers when they had them. On certain nights she poured a little mahua liquor onto the earth before drinking, touching her fingers to her forehead after. Kusum watched every movement. She asked too many questions. Hira answered, or told her to listen and stop frowning.
 
@@ -333,7 +335,7 @@ Kusum spoke little in groups. At weddings she sat near the wall and ate quickly,
 
 The 2002 drought tightened the village. Jamni took more days of wage work when any appeared. Dilip’s trips became longer. Kusum listened to adults arguing about grain prices, about debt, about whether the ration shop would open on time. She began waking at night with her heart racing. She lay still and counted breaths so no one would hear. In 2008, when grandmother Hira died, Kusum’s sleep broke apart again. After the funeral she started sitting outside alone at dusk, near the spot where the neem tree threw its shade. When someone called her name suddenly, she startled hard enough to spill whatever she carried.
 
-As Kusum reached her late teens, Jamni and Dilip pushed toward marriage arrangements. The family had little land and little leverage; marriage was their form of security. Kusum avoided the talks. She stayed inside, or went to draw water even when the pots were full. When relatives came to look her over, she kept her eyes down and her face blank. Sarla scolded her for it in the way Sarla scolded everyone: direct, as if shame was a tool to get results.
+As Kusum reached her late teens, Jamni and Dilip pushed toward marriage arrangements. The family had little land and little leverage; marriage was their form of security. Kusum avoided the talks. She stayed inside, or went to draw water even when the pots were full. When relatives came to look her over, she kept her eyes down and her face blank. Sarla scolded her for it in the way Sarla scolded everyone: direct, to get results.
 
 Kusum married Suresh in 2011. The ceremony blended local practice with mainstream Hindu rites—turmeric on skin, red powder, a garland, and a small puja with incense and offerings. Her family made sure the ancestors were remembered too, a few grains and a splash of liquor in the courtyard before the women ate. After the wedding she moved to Suresh’s place, still rural, still within the same world of fields, contractors, and panchayat decisions.
 
@@ -345,10 +347,10 @@ The marriage broke in 2016. It was not a single argument. It was a pile of them.
 
 That same year cash became hard to find after demonetization. The family’s work was paid in crumpled notes; suddenly nobody had the right notes. A bad agricultural season followed and wages thinned. From 2016 to 2019 they leaned on a moneylender, Babulal, borrowing for ration grain when the shop’s supply ran out, for a doctor visit when Jamni’s back pain flared, for school expenses for younger relatives. Babulal came to the door and spoke in a calm voice that made Kusum’s stomach twist. Even when Sarla or Ramesh handled the negotiation, Kusum heard every word. At night she counted how many rupees were owed and how many days of work would never cover it. When she thought of facing Babulal herself, her breath shortened and her hands went cold.
 
-During one migration season in 2018, Kusum met Lalita at a worksite camp. Lalita was quick with jokes and had a way of touching Kusum’s wrist as if it were nothing. They sat together after dinner, backs against a wall, sharing peanuts and the last of the tea. Kusum felt steadier near her than she had felt near any man. Their closeness became physical, kept hidden in the dark and in the gaps between other people’s attention. Kusum’s fear of gossip rose with her attachment. In 2019 Lalita moved with another group. The connection ended with no fight, just silence, and Kusum carried it like a private bruise.
+During one migration season in 2018, Kusum met Lalita at a worksite camp. Lalita was quick with jokes and had a way of touching Kusum’s wrist as if it were nothing. They sat together after dinner, backs against a wall, sharing peanuts and the last of the tea. Kusum felt steadier near her than she had felt near any man. Their closeness became physical, kept hidden in the dark and in the gaps between other people’s attention. Kusum’s fear of gossip rose with her attachment. In 2019 Lalita moved with another group. The connection ended with no fight, just silence, and Kusum carried it without speaking of it.
 
 The pandemic lockdown in 2020 pushed everyone back onto the village’s thin supports. Ration grain mattered more. People argued over names on lists. Meera, the local health worker, brought instructions and judgment in equal measure. Kusum needed help with Aadhaar-linked steps and benefit messages that came to phones she could not read. She waited for Champa or Ramesh to interpret, then grew angry when they took too long. Sometimes she accused them of hiding things from her. Sometimes she apologized the same evening, voice flat, eyes fixed on the floor.
 
 Dilip died in 2022. After the funeral rites, Kusum felt the household tilt. A man’s presence had been a shield in small village matters, even for a woman who fought and argued. Now decisions ran through Sarla and Ramesh. Kusum took on more cooking and cleaning, more water trips, more childcare for visiting nieces and nephews. When Jamni’s joints hurt, Kusum rubbed oil into them, then snapped at her mother for not resting. Jamni snapped back. They made peace by morning because there was work to do.
 
-By late 2025 Kusum lives in the natal area, moving between her mother’s house and nearby kin. She keeps her hair oiled and tied tight. She avoids the busiest market hours. She sits in the doorway at dusk and watches the road, listening to the shift of voices as people pass, catching both Hindi and the older words that stay inside the community. When her chest tightens, she steps into the courtyard, splashes water on her face from the handpump bucket, and waits until her breath slows. Then she goes back inside to roll rotis for the evening meal.
+By late 2025 Kusum lives in the natal area, moving between her mother's house and her sisters' houses nearby. She keeps her hair oiled and tied tight. She avoids the busiest market hours. She sits in the doorway at dusk and watches the road, listening to the shift of voices as people pass, catching both Hindi and the older words that stay inside the community. When her chest tightens, she steps into the courtyard, splashes water on her face from the handpump bucket, and waits until her breath slows. Then she goes back inside to roll rotis for the evening meal.

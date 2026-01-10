@@ -7,12 +7,14 @@ death_year: "1263 AD"
 age_at_death: 0
 birth_date: "November 26, 1263 AD"
 death_date: "November 26, 1263 AD"
-location: "新园东区, 虎门镇, 东莞市, 广东省, 523061, 中国"
+location: "Humen, Dongguan, Guangdong, China"
+location_original: "新园东区, 虎门镇, 东莞市, 广东省, 523061, 中国"
 country: "China"
 latitude: 22.82
 longitude: 113.67
 map_url: "https://www.google.com/maps/place/22.82,113.67/@22.82,113.67,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "F"
 age_tag: "Infant (0–1)"

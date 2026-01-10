@@ -6,11 +6,13 @@ birth_year_numeric: 2001
 death_year: "present"
 age_at_death: alive
 birth_date: "May 10, 2001 AD"
-location: "Aapakudal, Bhavani, Erode, Tamil Nadu, 638315, India"
+location: "Bhavani, Erode, Tamil Nadu, India"
+location_original: "Aapakudal, Bhavani, Erode, Tamil Nadu, 638315, India"
 country: "India"
 latitude: 11.49
 longitude: 77.61
 map_url: "https://www.google.com/maps/place/11.49,77.61/@11.49,77.61,5z"
+old_lifestyle: "Urban"
 lifestyle: "Urban"
 era: "Holocene"
 sex: "F"

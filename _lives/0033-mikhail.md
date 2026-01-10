@@ -13,6 +13,7 @@ country: "Russia"
 latitude: 55.72
 longitude: 37.45
 map_url: "https://www.google.com/maps/place/55.72,37.45/@55.72,37.45,5z"
+old_lifestyle: "Urban"
 lifestyle: "Urban"
 era: "Holocene"
 sex: "M"

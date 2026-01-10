@@ -7,7 +7,8 @@ death_year: "1859 AD"
 age_at_death: 30
 birth_date: "July 3, 1828 AD"
 death_date: "February 18, 1859 AD"
-location: "Quba rayonu, Azərbaycan"
+location: "Quba, Azerbaijan"
+location_original: "Quba rayonu, Azərbaycan"
 country: "Azerbaijan"
 latitude: 41.31
 longitude: 48.78
@@ -388,7 +389,7 @@ Marriage repaired parts of his standing. In 1848 he married Nabat, the daughter 
 
 Their first son, Ali, was born in 1849. Mahammad held the infant briefly, then handed him back to the women and went outside to speak with a visiting elder about a boundary dispute. He took pride in Ali’s health and in the fact that the child fixed his place in the household more firmly than any spoken promise. He enjoyed sitting with the boy in the early morning, when the yard was still cool, breaking bread into small pieces and letting Ali grab at his fingers.
 
-A daughter, Zahra, was born in 1851 and died the same day. Nabat stayed quiet afterward. Gülsüm spoke to the midwife, Bibi-Peri, in a low voice about timing, about herbs, about keeping the room warm. Mahammad made sure the burial payment was handled and returned to work quickly, as if speed could pin down the household’s respectability.
+A daughter, Zahra, was born in 1851 and died the same day. Nabat stayed quiet afterward. Gülsüm spoke to the midwife, Bibi-Peri, in a low voice about timing, about herbs, about keeping the room warm. Mahammad made sure the burial payment was handled and returned to work the next day.
 
 That winter, late in 1851, he rode between villages to check tenants and collect dues. The track was rough with frozen ruts. His horse stumbled, and he went down hard. The knee swelled and would not take weight. His ribs ached with every breath. For weeks he stayed inside, unable to ride or walk the fields. Rashid, a cousin with a quick tongue, took over the rounds. Rashid brought back sums and stories, each one a reminder that Mahammad’s authority depended on being visible. When Mahammad finally hobbled into the yard with a stick, Rashid grinned and asked if the great manager would now conduct business from a cushion like an old man. Mahammad answered by demanding the ledger and checking every figure, line by line, until Rashid stopped smiling.
 

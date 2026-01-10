@@ -1,0 +1,16 @@
+Review complete for story 0102-nari.
+
+**Summary of changes made:**
+
+1. **Added missing deaths:**
+   - Mother's death (356): "Nari's mother died that same year, in 356, before the quarrels with Wero ended."
+   - Uncle Palo's death (372): "Palo, his father's brother who had helped him rebuild after the drought, died in 372."
+
+2. **Fixed pseudosociological "kin" language (4 instances):**
+   - "ordered life through kin" → "ordered life through family"
+   - "which kin to approach" → "which relatives to approach"
+   - "her natal kin" → "her natal family"
+   - "His kin placed" → "His family placed"
+
+3. **Fixed clarity issue:**
+   - "They tried again and had Suma in 310" → "Suma followed in 310" (the original phrasing was confusing about birth order)

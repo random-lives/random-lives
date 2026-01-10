@@ -7,12 +7,14 @@ death_year: "1833 AD"
 age_at_death: 60
 birth_date: "July 1, 1773 AD"
 death_date: "November 5, 1833 AD"
-location: "သီပေါ, ကျောက်မဲခရိုင်, ရှမ်းပြည်နယ်, မြန်မာ"
+location: "Hsipaw, Shan State, Myanmar"
+location_original: "သီပေါ, ကျောက်မဲခရိုင်, ရှမ်းပြည်နယ်, မြန်မာ"
 country: "Myanmar"
 latitude: 22.15
 longitude: 97.76
 map_url: "https://www.google.com/maps/place/22.15,97.76/@22.15,97.76,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Rural Non-Farm"
 era: "Holocene"
 sex: "F"
 age_tag: "Elder (50+)"

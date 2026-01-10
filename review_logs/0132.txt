@@ -1,0 +1,12 @@
+**Review complete for 0132-caiubi**
+
+This was a clean story overall. The only issue found was the pseudosociological "kin" language in the final line. The story is:
+- An infant (age 0) who lived 8 months in 921 AD
+- Born in the Atlantic Forest region of what is now Brazil
+- Part of an extended Tupi-Guarani household
+- Family structure and deaths are correctly handled (only one older sibling Araí alive at birth, Potyra correctly noted as dying before his birth)
+- Death by drowning at water's edge is appropriately described
+- Caretakers (father Ibyra, mother Anumã, grandmother Guarí) all introduced with clear roles
+
+**Change made:**
+- "His kin washed him" → "His family washed him"

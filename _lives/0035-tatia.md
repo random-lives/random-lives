@@ -13,7 +13,8 @@ country: "Spain"
 latitude: 42.98
 longitude: -9.03
 map_url: "https://www.google.com/maps/place/42.98,-9.03/@42.98,-9.03,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Rural Non-Farm"
 era: "Holocene"
 sex: "F"
 age_tag: "Elder (50+)"

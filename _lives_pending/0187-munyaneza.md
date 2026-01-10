@@ -12,7 +12,8 @@ country: "Rwanda"
 latitude: -2.17
 longitude: 29.79
 map_url: "https://www.google.com/maps/place/-2.17,29.79/@-2.17,29.79,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Infant (0–1)"

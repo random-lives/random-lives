@@ -13,7 +13,8 @@ country: "Japan"
 latitude: 37.65
 longitude: 139.16
 map_url: "https://www.google.com/maps/place/37.65,139.16/@37.65,139.16,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Child (2–10)"

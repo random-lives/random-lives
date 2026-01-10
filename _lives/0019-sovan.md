@@ -13,7 +13,8 @@ country: "Myanmar"
 latitude: 18.82
 longitude: 96.35
 map_url: "https://www.google.com/maps/place/18.82,96.35/@18.82,96.35,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Rural Non-Farm"
 era: "Holocene"
 sex: "F"
 age_tag: "Infant (0–1)"

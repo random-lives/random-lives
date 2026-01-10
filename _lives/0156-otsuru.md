@@ -7,12 +7,14 @@ death_year: "1741 AD"
 age_at_death: 86
 birth_date: "July 26, 1654 AD"
 death_date: "May 19, 1741 AD"
-location: "哲西町大野部, 新見市, 岡山県, 719-3701, 日本"
+location: "Niimi, Okayama, Japan"
+location_original: "哲西町大野部, 新見市, 岡山県, 719-3701, 日本"
 country: "Japan"
 latitude: 34.9
 longitude: 133.33
 map_url: "https://www.google.com/maps/place/34.9,133.33/@34.9,133.33,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "F"
 age_tag: "Elder (50+)"
@@ -404,13 +406,13 @@ Oharu died in 1670, at twenty-four. The household brought her body to the temple
 
 Oba Kiyo also pressed Otsuru to learn letters. She traced kana with a brush on scraps of paper used once before. Otsuru copied the shapes carefully, then forgot them, then learned them again. She could write a few words for a note to a neighbor and could read simple lines in kana, especially when they were prayers or familiar phrases. Numbers gave her trouble. When someone said “two mon” or “five shō,” she repeated it, then looked to Otsune or Shōsuke to confirm.
 
-At seventeen, Otsuru married Heisuke from a nearby village, and in 1672 she walked a short distance to his household. The marriage was arranged around labor and tenancy more than affection. Heisuke expected obedience and quiet. Otsuru gave it. When he spoke sharply, she lowered her eyes and answered softly. When he pushed her or grabbed her arm hard enough to leave marks, she cleaned herself up before anyone outside could see. She avoided scenes that drew attention from other households or the headman Gorōbei.
+Oba Kiyo died in 1672, after a fever that would not break. That same year, at seventeen, Otsuru married Heisuke from a nearby village and walked a short distance to his household. The marriage was arranged around labor and tenancy more than affection. Heisuke expected obedience and quiet. Otsuru gave it. When he spoke sharply, she lowered her eyes and answered softly. When he pushed her or grabbed her arm hard enough to leave marks, she cleaned herself up before anyone outside could see. She avoided scenes that drew attention from other households or the headman Gorōbei.
 
-Her first son, Takesaburō, was born in 1673. Three years later Kichinosuke arrived. She carried both boys on her back while she weeded, then set them near the field edge and fed them rice gruel from a small wooden bowl. The household’s duties to the domain did not pause for childbirth. She returned to work quickly each time, tying her hair up, stepping into mud again.
+Her first son, Takesaburō, was born in 1673. Three years later Kichinosuke arrived. She carried both boys on her back while she weeded, then set them near the field edge and fed them rice gruel from a small wooden bowl. The household's duties to the domain did not pause for childbirth. She returned to work quickly each time, tying her hair up, stepping into mud again.
 
-A daughter, Oito, was born in 1679. Otsuru brought her to the village shrine at the first opportunity, paid respect, and later at home placed a few grains of rice before the memorial shelf for safe growth. Oito died in 1682 at three years old. The child’s fever and loose stool lasted days. Otsuru held her and tried to keep her lips wet with water. After the funeral at the temple, Otsuru kept Oito’s small garment folded in a box and did not let anyone throw it out.
+A daughter, Oito, was born in 1679. Otsuru brought her to the village shrine at the first opportunity, paid respect, and later at home placed a few grains of rice before the memorial shelf for safe growth. Omasa died in 1680. Otsuru walked back to her natal village for the funeral, stood before the incense, and returned to her own household the next day. Oito died in 1682 at three years old. The child’s fever and loose stool lasted days. Otsuru held her and tried to keep her lips wet with water. After the funeral at the temple, Otsuru kept Oito’s small garment folded in a box and did not let anyone throw it out.
 
-Late that year, Otsuru became pregnant again. In 1683 she worked in the fields through the heavy season, and one day pain took her while she was bent over pulling weeds. The pregnancy ended with a late miscarriage or stillbirth. She bled heavily and shook with fever for days. Okane, the village birth attendant, came with boiled water, cloths, and herbs. Otsune traveled from Otsuru’s natal village and stayed long enough to cook, to wash, and to keep Heisuke from forcing Otsuru back to labor too soon. Otsuru survived and returned to work thinner and quieter, with a habit of pausing to press a hand to her lower belly when she thought no one watched.
+Late that year, Otsuru became pregnant again. In 1683 she worked in the fields through the heavy season, and one day pain took her while she was bent over pulling weeds. The pregnancy ended with a stillbirth. She bled heavily and shook with fever for days. Okane, the village birth attendant, came with boiled water, cloths, and herbs. Otsune traveled from Otsuru’s natal village and stayed long enough to cook, to wash, and to keep Heisuke from forcing Otsuru back to labor too soon. Otsuru survived and returned to work thinner and quieter, with a habit of pausing to press a hand to her lower belly when she thought no one watched.
 
 Okiku was born in 1684 and died the next year. Another daughter, Oume, lived only a short time after birth in 1686. By then Otsuru’s offerings at the butsudan were routine and exact: a small cup of water replaced each morning; rice when there was rice; incense on memorial days. She also went to the village shrine festival and clapped her hands in front of the honden with the others, praying for harvest and children who stayed alive.
 
@@ -420,9 +422,11 @@ In 1691 the harvest failed again after earlier poor years, and rent and village 
 
 Genroku-era cash dealings reached even their valley. There were more transactions, more small obligations, more chances to be short by a few mon. Otsuru made simple notes in kana—who had borrowed a hoe, who had promised a measure of barley—but if there was a sum to tally, she asked someone else to check it. Osei, a neighbor woman, sometimes sat with her after dusk to spin thread. They traded small comforts: a handful of pickled greens, gossip about a headman’s scolding, a story about a pilgrim who had passed through.
 
-Takesaburō died in 1700 at twenty-seven. Kichinosuke followed in 1702, twenty-six years old. Two adult sons gone in two years left a hole in the household’s labor and in its plans for continuity. Otsuru leaned on her brother Shōsuke for help negotiating and for protection in disputes, but Shōsuke died in 1703. After that, her older sister Otsune became her strongest natal kin connection, offering practical help when she could and scolding Otsuru when Otsuru gave away too much to keep peace.
+Takesaburō died in 1700 at twenty-seven. Kichinosuke followed in 1702, twenty-six years old. Two adult sons gone in two years left a hole in the household’s labor and in its plans for continuity. Otsuru leaned on her brother Shōsuke for help negotiating and for protection in disputes, but Shōsuke died in 1703. After that, her older sister Otsune became her strongest connection to her natal family, offering practical help when she could and scolding Otsuru when Otsuru gave away too much to keep peace.
 
-Oshino married out young and died in 1713 at twenty-four. Otsuru attended the funeral rites and returned home to a household that had already been rearranged by necessity, bound to an adult child’s household through earlier marriage arrangements and affinal ties. She focused on tasks she could still do well: cooking, cleaning, watching children, spinning when her fingers cooperated.
+Oshino married out young and died in 1713 at twenty-four. Otsuru attended the funeral rites and returned home to a household that had already been rearranged by necessity. Before Takesaburō died, he had married, and his widow remained in the household. She remarried within the village and kept her mother-in-law. It was through this arrangement that Otsuru stayed.
+
+Otsune died in 1719. She had been the last of Otsuru's siblings, and after that funeral Otsuru had no one left from her natal household. She focused on tasks she could still do well: cooking, cleaning, watching children, spinning when her fingers cooperated.
 
 Heisuke died in 1726. Otsuru, now an old widow, lived within a stem-family household headed by the next generation. She rose before dawn, put water before the memorial tablets, and folded her bedding away neatly. She minded grandchildren, told them to stay quiet during official visits, and taught them to bow properly at the temple on memorial days. When she did errands, she chose paths where she would not have to argue with anyone.
 

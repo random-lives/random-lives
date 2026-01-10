@@ -11,7 +11,8 @@ country: "Nigeria"
 latitude: 7.24
 longitude: 9.8
 map_url: "https://www.google.com/maps/place/7.24,9.8/@7.24,9.8,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Urban"
 era: "Holocene"
 sex: "M"
 age_tag: "Alive"

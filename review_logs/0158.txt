@@ -1,0 +1,14 @@
+The review of story 0158-mara is complete. Here's the summary:
+
+## Review Complete: 0158-mara
+
+**Issues found:**
+1. **Missing death**: Mother Pina dies 636 - the narrative showed her becoming frail by 630 and being cared for, but never explicitly stated her death
+2. **Pseudosociological language**: "Her kin washed her body" and "whose own kin ties ran thin" - two instances of "kin"
+
+**Changes made:**
+1. Added Pina's death after the caregiving paragraph: "Pina died in 636, having outlived both her daughters."
+2. Changed "Her kin washed her body" → "Nara and the women of the camp washed her body"
+3. Changed "whose own kin ties ran thin" → "whose own family ties ran thin"
+
+The story was otherwise well-constructed with good family timeline coverage (father Toma's death in 625, grandmother Kuna's death in 604, sisters Sena and Luma's deaths, children's births and infant deaths all properly mentioned). The narrative has strong chronological flow and good detail.

@@ -13,7 +13,8 @@ country: "India"
 latitude: 10.99
 longitude: 79.44
 map_url: "https://www.google.com/maps/place/10.99,79.44/@10.99,79.44,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Elder (50+)"

@@ -12,7 +12,8 @@ country: "Ethiopia"
 latitude: 8.82
 longitude: 40.54
 map_url: "https://www.google.com/maps/place/8.82,40.54/@8.82,40.54,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Child (2–10)"

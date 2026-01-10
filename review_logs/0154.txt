@@ -1,0 +1,16 @@
+The review of **0154-pilla** is complete. Here's a summary:
+
+## Review Summary: 0154-pilla
+
+**Issues found:**
+1. **Missing death - Father Kodan** (died -12, when Pilla was 33): Never mentioned despite being a key figure in her childhood
+2. **Missing death - Aunt Periya** (died -30, same year Pilla married): Introduced in childhood as a supportive figure, then disappeared without mention of her death
+3. **Pseudosociological "kin" language**: Two instances - "kin close enough to help" and "Korra's male kin pressed their own claims"
+
+**Changes made:**
+1. Added Kodan's death after the women's groups paragraph, before Korra's death: "Her father Kodan had died in -12, during a dry year that left the fields cracked. She was thirty-three. Rakki was alone now, and Pilla walked over more often..."
+2. Added Periya's death in the marriage paragraph: "Periya died that same year, before the wedding, taken by a fever that came late in the season."
+3. Changed "kin close enough to help" → "family close enough to help"
+4. Changed "Korra's male kin pressed their own claims" → "Korra's brothers pressed their own claims"
+
+The story now properly accounts for all deaths of caretakers during Pilla's lifetime and uses plain language instead of pseudosociological jargon.

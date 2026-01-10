@@ -13,7 +13,8 @@ country: "China"
 latitude: 22.99
 longitude: 103.93
 map_url: "https://www.google.com/maps/place/22.99,103.93/@22.99,103.93,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Infant (0–1)"

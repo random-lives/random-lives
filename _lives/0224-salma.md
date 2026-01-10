@@ -7,12 +7,14 @@ death_year: "1352 AD"
 age_at_death: 2
 birth_date: "August 29, 1349 AD"
 death_date: "July 4, 1352 AD"
-location: "فتح پور, تعلقہ گھوٹکی, ضلع گھوٹکی, سکھر ڈویژن, سندھ, پاکستان"
+location: "Ghotki, Sukkur Division, Sindh, Pakistan"
+location_original: "فتح پور, تعلقہ گھوٹکی, ضلع گھوٹکی, سکھر ڈویژن, سندھ, پاکستان"
 country: "Pakistan"
 latitude: 28.07
 longitude: 69.44
 map_url: "https://www.google.com/maps/place/28.07,69.44/@28.07,69.44,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Rural Non-Farm"
 era: "Holocene"
 sex: "F"
 age_tag: "Child (2–10)"

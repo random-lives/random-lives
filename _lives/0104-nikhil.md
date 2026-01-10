@@ -6,11 +6,13 @@ birth_year_numeric: 1998
 death_year: "present"
 age_at_death: alive
 birth_date: "May 8, 1998 AD"
-location: "Quresh Nagar Society, vejalpur, Ahmedabad, Vejalpur Taluka, Ahmedabad, Gujarat, 380051, India"
+location: "Vejalpur, Ahmedabad, Gujarat, India"
+location_original: "Quresh Nagar Society, vejalpur, Ahmedabad, Vejalpur Taluka, Ahmedabad, Gujarat, 380051, India"
 country: "India"
 latitude: 22.99
 longitude: 72.52
 map_url: "https://www.google.com/maps/place/22.99,72.52/@22.99,72.52,5z"
+old_lifestyle: "Urban"
 lifestyle: "Urban"
 era: "Holocene"
 sex: "M"
@@ -283,7 +285,7 @@ continent: "Asia"
 #   type: chronic_illness
 ---
 
-Nikhil was born on 8 May 1998 in Vejalpur, on the western side of Ahmedabad, in the Indian state of Gujarat. The city sat under India’s national government and Gujarat’s state government, with neighborhood politics shaped by municipal services and party networks. His family spoke Gujarati at home, switched to Hindi when needed, and treated English as a school and office language. They were Hindu and kept their religion practical: a small shrine in the flat, a few framed pictures, a brass diya, and the rhythm of festivals.
+Nikhil was born on 8 May 1998 in Vejalpur, on the western side of Ahmedabad, in the Indian state of Gujarat. The city sat under India's national government and Gujarat's state government, with neighborhood politics that turned on municipal services and party networks. His family spoke Gujarati at home, switched to Hindi when needed, and treated English as a school and office language. They were Hindu and kept their religion practical: a small shrine in the flat, a few framed pictures, a brass diya, and festivals when they came.
 
 His father, Suresh, left each morning in a tucked-in shirt and carried himself like a man who had passed exams that mattered. He worked as a professional—an engineer in a private firm with a steady salary, deadlines, and colleagues who talked in acronyms. His mother, Meena, worked in a clerical job where files moved from desk to desk and pay came on time. They lived as a nuclear family. Nikhil’s older brother Jayesh, born in 1995, took up space in the house the way older siblings do: louder, faster, always sure he knew the better way to do something.
 
@@ -315,4 +317,4 @@ In 2022 his family arranged meetings with a woman named Pooja. She spoke Gujarat
 
 Married life gave his days more structure. Pooja kept a list on the refrigerator: electricity bill, rent, his clinic follow-up. Nikhil resented the list for about an hour and then used it, crossing items out with a pen. When his allergies flared, she reminded him to take the spray instead of pretending it would go away. He still checked the door more than once, especially on days when he was rushed, but he learned to do it faster. Jayesh visited on weekends and brought snacks, sometimes a packet of fafda-jalebi in the morning. He still acted like an older brother, but with warmth: advice about saving, a warning about a scam call, an extra helmet when Nikhil’s strap broke.
 
-By late 2025 Nikhil sits at his desk in an accounts role he understands. He speaks softly in the office, gets along with people, and keeps his files neat when he remembers to file them. In the evenings he stops at a tea stall for cutting chai, then heads home through traffic and dust. At the door he checks the lock, once and once more, and steps inside to the sound of Pooja’s voice from the kitchen.
+Now, in early 2026, Nikhil sits at his desk in an accounts role he understands. He speaks softly in the office, gets along with people, and keeps his files neat when he remembers to file them. In the evenings he stops at a tea stall for cutting chai, then heads home through traffic and dust. At the door he checks the lock, once and once more, and steps inside to the sound of Pooja’s voice from the kitchen.

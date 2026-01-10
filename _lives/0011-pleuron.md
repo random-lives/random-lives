@@ -13,7 +13,8 @@ country: "Croatia"
 latitude: 45.56
 longitude: 17.8
 map_url: "https://www.google.com/maps/place/45.56,17.8/@45.56,17.8,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Elder (50+)"

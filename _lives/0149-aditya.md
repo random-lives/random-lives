@@ -6,12 +6,14 @@ birth_year_numeric: 2021
 death_year: "present"
 age_at_death: alive
 birth_date: "May 28, 2021 AD"
-location: "Pimpalkhunta Mahadeo, Malkapur, Buldhana, Maharashtra, India"
+location: "Malkapur, Buldhana, Maharashtra, India"
+location_original: "Pimpalkhunta Mahadeo, Malkapur, Buldhana, Maharashtra, India"
 country: "India"
 latitude: 20.9
 longitude: 76.11
 map_url: "https://www.google.com/maps/place/20.9,76.11/@20.9,76.11,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Rural Non-Farm"
 era: "Holocene"
 sex: "M"
 age_tag: "Alive"
@@ -205,7 +207,7 @@ continent: "Asia"
 #   type: victim_property_crime
 ---
 
-Aditya was born on May 28, 2021, in Pimpalkhunta Mahadeo in Buldhana district, Maharashtra, under India’s national government and Maharashtra’s state administration. His family spoke Marathi at home and lived as Hindus in a patrilocal household, with his paternal grandparents Shantabai and Dattatray in the same courtyard house.
+Aditya was born on May 28, 2021, in Pimpalkhunta Mahadeo in Buldhana district, Maharashtra, under India’s national government and Maharashtra’s state administration. His family spoke Marathi at home and lived as Hindus with his paternal grandparents Shantabai and Dattatray in the same courtyard house.
 
 The first years were shaped by COVID-19 rules. His father, Mahesh, kept a small shop running with shortened hours and sanitizer bottles on the counter; his mother, Sunita, managed the house and quieted Aditya when he grew restless indoors. Shantabai kept the daily routine steady. A small shrine near the kitchen held framed pictures and a brass lamp; Sunita lit a diya in the mornings, placed flowers, and offered a pinch of sugar and a banana before the family ate. On Tuesdays Shantabai insisted on a quick visit to the Hanuman image at the edge of the lane, with coconuts broken on festival days.
 
@@ -213,4 +215,4 @@ Aditya learned to smooth things over early. When older cousins grabbed his toy c
 
 Heat waves came hard in his early childhood. The afternoons moved indoors, and Dattatray slept near the fan, reminding Aditya to fill the earthen pot and drink water. In 2024, Vedant was born. Aditya hovered close to the cradle, bringing Sunita diapers and a steel tumbler of water, then stepping back when Shantabai clicked her tongue and told him not to crowd the baby.
 
-By 2025, Aditya reads and writes Marathi easily. He copies prayers from a small notebook, and he helps Mahesh count change at the shop, sometimes losing focus and needing reminders. In the evenings he sits on the floor beside Vedant, showing him picture books while Sunita folds clothes and the incense smoke from the shrine drifts into the room.
+By 2025, Aditya recognizes a few Marathi letters and can trace his name. He helps Mahesh count change at the shop, sometimes losing focus and needing reminders. In the evenings he sits on the floor beside Vedant, showing him picture books while Sunita folds clothes and the incense smoke from the shrine drifts into the room.

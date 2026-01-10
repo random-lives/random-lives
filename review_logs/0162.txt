@@ -1,0 +1,11 @@
+The review is complete. 
+
+**Summary of review for 0162-luo-fugen.md:**
+
+**Issue found:**
+- [Missing death] Grandmother Liu Shi died in 1827 (when Fugen was 19) but her death was never mentioned in the narrative. The text said "When his grandmother Liu Shi was alive" but never stated when she died.
+
+**Change made:**
+- Added Liu Shi's death at the end of the education paragraph: "His grandmother Liu Shi died in 1827, leaving the household without her steady hand at small tasks."
+
+This places her death in the correct chronological position—the same year as Fugen's marriage—and connects to her earlier characterization as someone who helped him with small tasks.

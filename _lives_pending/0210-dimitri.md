@@ -7,12 +7,14 @@ death_year: "819 AD"
 age_at_death: 38
 birth_date: "May 23, 780 AD"
 death_date: "April 30, 819 AD"
-location: "Uğurdalı, Karayazı, Erzurum, Doğu Anadolu Bölgesi, Türkiye"
+location: "Karayazi, Erzurum, Turkey"
+location_original: "Uğurdalı, Karayazı, Erzurum, Doğu Anadolu Bölgesi, Türkiye"
 country: "Turkey"
 latitude: 39.65
 longitude: 42.37
 map_url: "https://www.google.com/maps/place/39.65,42.37/@39.65,42.37,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Pastoralist"
 era: "Holocene"
 sex: "M"
 age_tag: "Adult (19–49)"
@@ -446,7 +448,7 @@ Dimitri married Elene in 802. She entered the joint household with the confidenc
 
 The family shifted its grazing circuits in 803, leaving the valley that had held the graves of Dimitri’s grandparents and settling among kin farther west along the frontier routes. Dimitri enjoyed the movement: new water points, new neighbors, different ways of tying packs. He spoke first when others hesitated, and he offered help loudly. He also misjudged distances and once pushed the flock too far late in the day, bringing them into camp with animals limping and men cursing.
 
-Elene bore a daughter in 804. The infant lived only a few hours. Father Mikheil was sent for and came in haste; he performed the baptism quickly and spoke the prayers over the tiny body. Dimitri dug in frozen ground with a borrowed iron spade until his palms bled. Two years later, in 806, another daughter died at birth. That same year his sister Eka died at twenty after a short illness, and Nana sat silent at the hearth with her hands in her lap, staring at the churn as if she had forgotten what it was for.
+Elene bore a daughter in 804. The infant lived only a few hours. Father Mikheil was sent for and came in haste; he performed the baptism quickly and spoke the prayers over the tiny body. Dimitri dug in frozen ground with a borrowed iron spade until his palms bled. Two years later, in 806, another daughter died at birth. That same year his sister Eka died at twenty after a short illness, and Nana sat silent at the hearth with her hands in her lap, staring at the churn.
 
 A living child finally came in 808. They named her Salome. Dimitri treated her like a helper from the first year she could walk, putting a handful of salt in her palm to scatter for the animals and letting her carry a small skin of water. He enjoyed showing her off at gatherings, holding her up so relatives could see her face. When she fell and scraped her knee, he laughed and said she would walk it off. Elene scolded him, then tended the wound with warm water and cloth.
 

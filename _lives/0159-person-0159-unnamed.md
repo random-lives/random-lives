@@ -12,6 +12,7 @@ country: "Nigeria"
 latitude: 5.74
 longitude: 7.22
 map_url: "https://www.google.com/maps/place/5.74,7.22/@5.74,7.22,5z"
+old_lifestyle: "Hunter-Gatherer"
 lifestyle: "Hunter-Gatherer"
 era: "Holocene"
 sex: "M"
@@ -121,7 +122,7 @@ continent: "Africa"
 # - M
 ---
 
-A small camp of rainforest foragers lived along the creeks and higher ground of the Cross‑Niger forest, bound by kin and by the obligations of sharing. They spoke an early Niger‑Congo tongue and kept household rites for the dead and for the spirits in the water and trees.
+A small camp of rainforest foragers lived along the creeks and higher ground of the Cross‑Niger forest, bound by family and by the obligations of sharing. They spoke an early Niger‑Congo tongue and kept household rites for the dead and for the spirits in the water and trees.
 
 The father rose before light to check woven fish traps and pull nets in the slow channels. The mother carried baskets and a digging stick to the wet edges of the stream, lifting shellfish from mud and cutting greens, her older child already gone: the firstborn girl who had died as a newborn two seasons earlier. After that loss they kept a little ash from the hearth in a gourd and rubbed it on their wrists before they slept, and they left a pinch of pounded nuts on the ground at the edge of camp for the ancestor they named only as Grandmother.
 

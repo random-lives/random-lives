@@ -1,0 +1,9 @@
+Review of **0136-mira** is complete.
+
+**Summary:**
+- This is a short infant story (age 0) about a hunter-gatherer girl born in 3761 BC in north-central Mexico who died of gastrointestinal illness before her first birthday.
+- The story is well-structured and appropriate for the infant age category: it establishes the cultural/geographic context, shows the parents' daily work with the infant, and describes the illness and death with proper weight.
+- **One issue found:** Pseudosociological "kin" language on line 145 ("older kin nearby") — changed to "elders nearby"
+- No missing deaths (all siblings were born after Mira died; parents survive)
+- No figurative language, no vague hedging, no chronology issues
+- The naming category is "unrecoverable" (language family unknown), which is appropriate for this time/place, and "Mira" is a suitable simple human-sounding name

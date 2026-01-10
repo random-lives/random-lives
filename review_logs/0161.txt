@@ -1,0 +1,13 @@
+Review complete. Here's the summary:
+
+## 0161-zeng-jinfang Review Complete
+
+**Issues found:**
+1. **Missing death**: Grandmother Madam Qiu died in 1801 (when Jinfang was 22) - not mentioned in narrative despite being established as a key disciplinarian figure who "slapped the table and told her to swallow her words"
+2. **Pseudosociological language**: "Her husband's kin washed her body" - uses "kin"
+
+**Changes made:**
+1. Added Madam Qiu's death in the correct chronological position (1801, the same year as the second son's birth): "Her grandmother, Madam Qiu, died in 1801, ten years after her husband. Jinfang had outlived the woman who once slapped the table and told her to swallow her words; she did not weep at the funeral, only stood straight as she had been taught."
+2. Changed "Her husband's kin washed her body" → "The women of her husband's household washed her body"
+
+The story is otherwise well-structured with good coverage of family deaths (father, mother, husband, mother-in-law, older sister, younger sister, all three children), clear chronology, and no figurative language or vague hedging.

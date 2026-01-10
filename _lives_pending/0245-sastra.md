@@ -7,12 +7,14 @@ death_year: "1599 AD"
 age_at_death: 26
 birth_date: "September 21, 1572 AD"
 death_date: "March 26, 1599 AD"
-location: "Deresan, Susukan, Kabupaten Semarang, Jawa Tengah, Jawa, 50775, Indonesia"
+location: "Susukan, Semarang Regency, Central Java, Indonesia"
+location_original: "Deresan, Susukan, Kabupaten Semarang, Jawa Tengah, Jawa, 50775, Indonesia"
 country: "Indonesia"
 latitude: -7.42
 longitude: 110.59
 map_url: "https://www.google.com/maps/place/-7.42,110.59/@-7.42,110.59,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Adult (19–49)"

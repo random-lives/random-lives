@@ -13,7 +13,8 @@ country: "India"
 latitude: 22.74
 longitude: 77.77
 map_url: "https://www.google.com/maps/place/22.74,77.77/@22.74,77.77,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Elder (50+)"

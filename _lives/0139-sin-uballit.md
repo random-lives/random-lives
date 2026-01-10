@@ -7,12 +7,14 @@ death_year: "490 BC"
 age_at_death: 0
 birth_date: "May 10, 490 BC"
 death_date: "May 24, 490 BC"
-location: "ناحية مرکز قضاء عين التمر, قضاء عين التمر, محافظة كربلاء, العراق"
+location: "Ain al-Tamr, Karbala, Iraq"
+location_original: "ناحية مرکز قضاء عين التمر, قضاء عين التمر, محافظة كربلاء, العراق"
 country: "Iraq"
 latitude: 32.31
 longitude: 43.62
 map_url: "https://www.google.com/maps/place/32.31,43.62/@32.31,43.62,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Infant (0–1)"
@@ -179,9 +181,9 @@ continent: "Asia"
 # - M
 ---
 
-Achaemenid officials governed Babylonia from distant courts, but in the desert-edge farms near Ayn al-Tamr the rhythms came from canals, dates, and grain. Remut spoke Akkadian in his house and worked fields and a small orchard plot under obligations to a local landholder. Balassu ran the hearth and yard: grinding grain on a stone, baking flat loaves, keeping a few goats and chickens close, hauling water in jars. On festival days they stayed home and laid out bread and a little beer before small figures and charms, asking Sîn and protective spirits to keep sickness away.
+Achaemenid officials governed Babylonia from distant courts, but in the desert-edge farms near Ayn al-Tamr the seasons turned on canals, dates, and grain. Remut spoke Akkadian in his house and worked fields and a small orchard plot under obligations to a local landholder. Balassu ran the hearth and yard: grinding grain on a stone, baking flat loaves, keeping a few goats and chickens close, hauling water in jars. On festival days they stayed home and laid out bread and a little beer before small figures and charms, asking Sîn and protective spirits to keep sickness away.
 
-Their first child, Amat-Sîn, came when Balassu was young; years later Belesunu followed. Both girls learned to carry water and watch the cooking while Balassu’s hands were busy. When Balassu labored again, she called Mullissu, an older woman from a nearby hamlet who knew births and the knots of cord.
+Their first child, Amat-Sîn, was now fourteen; Belesunu was eight. Both helped with water and cooking when Balassu's hands were busy. When Balassu labored again, she called Mullissu, an older woman from a nearby hamlet who knew births and the knots of cord.
 
 Sîn-uballiṭ was born in late spring. He was the third child and the first son. The birth left him slow to cry, and for days Balassu kept him wrapped tight, feeding him often, rubbing salt and oil at his skin, and hanging a small protective amulet near where he slept. Belesunu lifted him to Balassu’s breast when Balassu’s arms shook from tiredness; Amat-Sîn spoke prayers over a bowl of water set by the doorway.
 

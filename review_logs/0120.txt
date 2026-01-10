@@ -1,0 +1,11 @@
+Review complete for **0120-david-antónio-dos-santos.md**.
+
+**Summary of issues found and fixed:**
+
+1. **Factual error**: "Eight children" → "Six children" (the narrative is set in early 2026, but two siblings aren't born until 2027 and 2029)
+
+2. **Chronology fix**: Reordered the third paragraph so Mateus's arrival in 2024 is mentioned before the mid-2025 bilingual labeling habit, maintaining chronological order
+
+3. **Tense consistency**: "he stands close" → "he stood close" to maintain past tense throughout
+
+The story is otherwise well-constructed - it's a toddler story (age ~3) with good developmental moments showing David's introverted personality, his bilingual home environment, and his quiet rituals.

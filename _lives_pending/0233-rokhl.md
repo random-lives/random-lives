@@ -7,7 +7,8 @@ death_year: "1911 AD"
 age_at_death: 0
 birth_date: "October 19, 1910 AD"
 death_date: "March 2, 1911 AD"
-location: "Brooklyn, Kings County, City of New York, New York, United States"
+location: "Brooklyn, New York, United States"
+location_original: "Brooklyn, Kings County, City of New York, New York, United States"
 country: "United States"
 latitude: 40.64
 longitude: -74.0

@@ -6,12 +6,14 @@ birth_year_numeric: 2019
 death_year: "present"
 age_at_death: alive
 birth_date: "July 25, 2019 AD"
-location: "Dobem, لوقون الغربية Logone Occidental, Tchad تشاد"
+location: "Dobem, Logone Occidental, Chad"
+location_original: "Dobem, لوقون الغربية Logone Occidental, Tchad تشاد"
 country: "Chad"
 latitude: 8.49
 longitude: 15.96
 map_url: "https://www.google.com/maps/place/8.49,15.96/@8.49,15.96,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Alive"

@@ -7,12 +7,14 @@ death_year: "1737 AD"
 age_at_death: 2
 birth_date: "March 15, 1735 AD"
 death_date: "September 3, 1737 AD"
-location: "陈王街道, 鄄城县, 菏泽市, 山东省, 中国"
+location: "Juancheng, Heze, Shandong, China"
+location_original: "陈王街道, 鄄城县, 菏泽市, 山东省, 中国"
 country: "China"
 latitude: 35.56
 longitude: 115.59
 map_url: "https://www.google.com/maps/place/35.56,115.59/@35.56,115.59,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Child (2–10)"
@@ -210,12 +212,12 @@ continent: "Asia"
 # - M
 ---
 
-Zhang Jincai was born on March 15, 1735, in a farming village on the Yellow River plain in southwestern Shandong, under the Qing empire. His family spoke the local Mandarin of Shandong and lived as Han commoners in a patrilineal joint household with his grandparents and an uncle, renting fields and taking day labor when they could get it. On festival days incense burned at the family altar, and his grandmother set out bowls of millet porridge and a few cups of clear liquor for the ancestors; near the New Year she pasted a fresh image of the Kitchen God and offered candy and beans.
+Zhang Jincai was born on March 15, 1735, in a farming village on the Yellow River plain in southwestern Shandong, under the Qing empire. His family spoke the local Mandarin of Shandong and lived as Han commoners in a joint household with his grandparents and an uncle, renting fields and taking day labor when they could get it. On festival days incense burned at the family altar, and his grandmother set out bowls of millet porridge and a few cups of clear liquor for the ancestors; near the New Year she pasted a fresh image of the Kitchen God and offered candy and beans.
 
-His father, Zhang Shouguo, died in 1736. After that, his mother moved through her days with him close: twisting hemp, spinning thread, cooking at the stove, then walking out to the fields in the busy seasons. His older brother Zhang Shunsheng, three years older, trailed after the men and still got pulled back to mind the toddler.
+His father, Zhang Shouguo, died in 1736. That year his mother bore another son, Zhang San'er, but the infant died within weeks. In early 1737 she bore Zhang Si'er, who lived only days. After these losses, his mother moved through her days with Jincai close: twisting hemp, spinning thread, cooking at the stove, then walking out to the fields in the busy seasons. His older brother Zhang Shunsheng, three years older, trailed after the men and still got pulled back to mind the toddler.
 
 By the time Jincai could stand and walk, he stayed in the middle of the courtyard noise. He called out for attention and followed Shunsheng from threshold to kang. One afternoon in late 1736 he laughed and lurched after a chicken that flapped across the yard, one hand skimming the edge of the kang for balance, until an aunt grabbed him before he reached the water jar. When he wanted a toy he took it, and he fought hard when hands tried to pin him still.
 
-His seizures began early. In June 1737, as his mother watched a pot and worked fiber, his eyes fixed and his body went stiff. His grandmother laid him on a straw mat, loosened his collar, and cleared the floor. Shunsheng ran to fetch Zhang Shouyi from outside. When it passed, Jincai sat up and reached for his cracked wooden rattle, calm and impatient to be put down.
+His seizures began early. In June 1737, as his mother watched a pot and twisted hemp, his eyes fixed and his body went stiff. His grandmother laid him on a straw mat, loosened his collar, and cleared the floor. Shunsheng ran to fetch Zhang Shouyi from outside. When it passed, Jincai sat up and reached for his cracked wooden rattle, calm and impatient to be put down.
 
 In August 1737 he developed severe diarrhea. His mother fed him thin rice gruel and boiled water, and his grandfather sent Shunsheng to the market road for Master Zhao’s powders. On September 3, 1737, Jincai died in the house. The family wrapped him in cloth, set him in a small coffin, and burned paper at the graveside while his grandmother placed a pinch of rice and a few copper coins with him.

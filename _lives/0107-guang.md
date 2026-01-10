@@ -7,12 +7,14 @@ death_year: "359 AD"
 age_at_death: 0
 birth_date: "June 1, 358 AD"
 death_date: "May 13, 359 AD"
-location: "潮来港村, 揭阳市, 广东省, 522000, 中国"
+location: "Chaolaigang, Jieyang, Guangdong, China"
+location_original: "潮来港村, 揭阳市, 广东省, 522000, 中国"
 country: "China"
 latitude: 23.48
 longitude: 116.26
 map_url: "https://www.google.com/maps/place/23.48,116.26/@23.48,116.26,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Infant (0–1)"

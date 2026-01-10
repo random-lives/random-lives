@@ -1,0 +1,20 @@
+Review complete for story 0190-person-0190-unnamed.
+
+**Summary of review:**
+
+**Issues found:**
+1. **CRITICAL - Naming error**: The `naming_category` in debug data is "unnamed" (died before naming ceremony), but the narrative incorrectly gave the baby the name "Nandana." This name also conflicted with a younger sibling born in 1210.
+2. **Clarity**: The phrase "called Nandana in the moment, for a hopeful name" was awkward and unclear.
+
+**Changes made:**
+- Removed the name and rewrote the final paragraph to show the baby died unnamed
+- Added concrete details about the birth asphyxia (never cried, stayed limp and blue) that connect better to the cause of death
+- Added "unnamed" explicitly to make clear this baby died before any naming ceremony could occur
+
+The rest of the story was well-constructed:
+- Family structure properly introduced with ages and roles
+- Dead siblings correctly separated (Sītā died 1192, Mallikā died 1199 - both before protagonist's birth)
+- Living siblings introduced with appropriate context
+- Chronology clear and consistent
+- No figurative language or AI-slop phrases
+- Historical context appropriate for 1201 Mithila region

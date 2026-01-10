@@ -7,12 +7,14 @@ death_year: "70 AD"
 age_at_death: 10
 birth_date: "April 25, 59 AD"
 death_date: "March 31, 70 AD"
-location: "Tekpada, Devli Pada, Sakri Taluka, Dhule, Maharashtra, India"
+location: "Tekpada, Dhule, Maharashtra, India"
+location_original: "Tekpada, Devli Pada, Sakri Taluka, Dhule, Maharashtra, India"
 country: "India"
 latitude: 20.99
 longitude: 74.02
 map_url: "https://www.google.com/maps/place/20.99,74.02/@20.99,74.02,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Rural Non-Farm"
 era: "Holocene"
 sex: "F"
 age_tag: "Child (2–10)"
@@ -245,9 +247,9 @@ continent: "Asia"
 # - F
 ---
 
-Bhadrā was born in the hot season of 59 in a village north of the western Deccan routes, where Satavahana-era officials and local headmen drew grain and labor from households tied to patrons. Her family spoke a local Prakrit. They lived in her father’s joint household under his parents’ authority, on the edge of landholding society. Guttā worked rope and hide, taking day labor when a patron called. Sivā carried water, cooked, and went out to weed and harvest for wages.
+Bhadrā was born in the hot season of 59 in a village north of the western Deccan routes, where Satavahana-era officials and local headmen drew grain and labor from households tied to patrons. Her family spoke a local Prakrit. They lived in her father's household, shared with his parents, on the edge of landholding society. Guttā worked rope and hide, taking day labor when a patron called. Sivā carried water, cooked, and went out to weed and harvest for wages.
 
-Devī, the grandmother, kept the household shrine near the threshold: a stone smeared with red earth for the village mother, a pot of water, and a dish for rice and flowers. Bhadrā watched the offerings and then wandered off to the work area where fibers soaked and strips of hide lay weighted by stones. She asked questions at the wrong moments, speaking over adults. When told to fetch water she ran with the other children, came back late, and argued about it.
+Devī, the grandmother, kept the household shrine near the threshold: a stone smeared with red earth for the village mother, a pot of water, and a dish for rice and flowers. Her husband Datta had grown too stiff for heavy work but still held household authority and told stories to children who sat near him. Bhadrā watched the offerings and then wandered off to the work area where fibers soaked and strips of hide lay weighted by stones. Datta let her stay and watch the craft work when she sat quietly; otherwise she asked questions at the wrong moments, speaking over adults. When told to fetch water she ran with the other children, came back late, and argued about it.
 
 Sirimati, three years older, pulled her away from the road when traders came through with bullocks and bales. Bhadrā still pushed forward to stare at colored cloth and listen to a caravan woman, Sumanā, counting goods and calling out prices. She repeated unfamiliar words until Sirimati slapped her arm to stop.
 

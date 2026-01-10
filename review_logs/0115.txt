@@ -1,0 +1,16 @@
+I've completed the review of **0115-kaushalya.md**.
+
+**Summary**: This is a well-written short story about a 3-year-old girl who died from diarrheal disease in 1966 Punjab. The story is clean overall with only one minor grammatical issue found.
+
+**Issues found and fixed:**
+- One awkward phrase: "Kaushalya stayed close during visitors" → "Kaushalya stayed close when visitors came"
+
+**Checklist verified:**
+- ✓ No missing deaths (all family members survive past her death)
+- ✓ Younger brother Rakesh's birth is mentioned
+- ✓ No "kin" language
+- ✓ No vague hedging (" or ")
+- ✓ No figurative language or AI-slop
+- ✓ Personality traits visible (high openness through curiosity, low extraversion through staying close to mother, conscientiousness through putting things back)
+- ✓ Chronology correct
+- ✓ Death scene appropriately detailed for a toddler story

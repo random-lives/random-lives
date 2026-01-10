@@ -7,12 +7,14 @@ death_year: "1746 AD"
 age_at_death: 0
 birth_date: "July 23, 1746 AD"
 death_date: "July 23, 1746 AD"
-location: "Unnao, Uttar Pradesh, 209800, India"
+location: "Unnao, Uttar Pradesh, India"
+location_original: "Unnao, Uttar Pradesh, 209800, India"
 country: "India"
 latitude: 26.65
 longitude: 80.52
 map_url: "https://www.google.com/maps/place/26.65,80.52/@26.65,80.52,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "F"
 age_tag: "Infant (0–1)"

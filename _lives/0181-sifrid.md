@@ -7,12 +7,14 @@ death_year: "1361 AD"
 age_at_death: 0
 birth_date: "September 4, 1361 AD"
 death_date: "September 4, 1361 AD"
-location: "Dachtmissen, Burgdorf, Region Hannover, Niedersachsen, 31303, Deutschland"
+location: "Dachtmissen, Burgdorf, Lower Saxony, Germany"
+location_original: "Dachtmissen, Burgdorf, Region Hannover, Niedersachsen, 31303, Deutschland"
 country: "Germany"
 latitude: 52.47
 longitude: 10.05
 map_url: "https://www.google.com/maps/place/52.47,10.05/@52.47,10.05,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Infant (0–1)"
@@ -140,7 +142,7 @@ continent: "Europe"
 # - M
 ---
 
-Sifrid was born on 4 September 1361 in the village of Dachtmissen, in the Saxon-speaking countryside of the Holy Roman Empire. The lord’s rights and dues shaped his family’s days: Cord held his strips and pasture as a dependent tenant, owing rents and labor services, and he spoke Low Saxon like the rest of the village. The parish church ordered the week and the year. Latin prayers belonged to the priest; at home they used the Pater Noster and Ave Maria, crossed themselves, and called on saints for protection at childbirth.
+Sifrid was born on 4 September 1361 in the village of Dachtmissen, in the Saxon-speaking countryside of the Holy Roman Empire. The lord's rights and dues governed his family's days: Cord held his strips and pasture as a dependent tenant, owing rents and labor services, and he spoke Low Saxon like the rest of the village. The parish church ordered the week and the year. Latin prayers belonged to the priest; at home they used the Pater Noster and Ave Maria, crossed themselves, and called on saints for protection at childbirth.
 
 Cord’s household included his wife Elsabe and Cord’s widowed mother, Grete, who kept a close hand in the byre and kitchen and knew what to fetch when labor began. That morning Elsabe labored in the main room while Grete warmed water and laid out clean cloth. A neighbor went for Herme, the midwife, and another ran to tell the priest.
 

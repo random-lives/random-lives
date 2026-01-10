@@ -13,7 +13,8 @@ country: "India"
 latitude: 30.48
 longitude: 78.94
 map_url: "https://www.google.com/maps/place/30.48,78.94/@30.48,78.94,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Rural Non-Farm"
 era: "Holocene"
 sex: "M"
 age_tag: "Adult (19–49)"

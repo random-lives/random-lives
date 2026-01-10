@@ -13,7 +13,8 @@ country: "Russia"
 latitude: 55.97
 longitude: 31.29
 map_url: "https://www.google.com/maps/place/55.97,31.29/@55.97,31.29,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Rural Non-Farm"
 era: "Holocene"
 sex: "M"
 age_tag: "Elder (50+)"

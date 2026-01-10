@@ -7,12 +7,14 @@ death_year: "1664 AD"
 age_at_death: 64
 birth_date: "January 29, 1600 AD"
 death_date: "July 28, 1664 AD"
-location: "محافظة رنيه, منطقة مكة المكرمة, 18211, السعودية"
+location: "Ranyah, Mecca Province, Saudi Arabia"
+location_original: "محافظة رنيه, منطقة مكة المكرمة, 18211, السعودية"
 country: "Saudi Arabia"
 latitude: 20.65
 longitude: 42.12
 map_url: "https://www.google.com/maps/place/20.65,42.12/@20.65,42.12,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Pastoralist"
 era: "Holocene"
 sex: "M"
 age_tag: "Elder (50+)"

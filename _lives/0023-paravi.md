@@ -13,6 +13,7 @@ country: "Nepal"
 latitude: 27.15
 longitude: 85.19
 map_url: "https://www.google.com/maps/place/27.15,85.19/@27.15,85.19,5z"
+old_lifestyle: "Hunter-Gatherer"
 lifestyle: "Hunter-Gatherer"
 era: "Holocene"
 sex: "F"

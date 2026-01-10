@@ -7,7 +7,8 @@ death_year: "1364 AD"
 age_at_death: 7
 birth_date: "August 7, 1357 AD"
 death_date: "October 14, 1364 AD"
-location: "Şakşak, Yayladağı, Hatay, Akdeniz Bölgesi, Türkiye"
+location: "Yayladagi, Hatay, Turkey"
+location_original: "Şakşak, Yayladağı, Hatay, Akdeniz Bölgesi, Türkiye"
 country: "Turkey"
 latitude: 35.98
 longitude: 36.12

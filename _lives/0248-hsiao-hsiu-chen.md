@@ -6,11 +6,13 @@ birth_year_numeric: 1972
 death_year: "present"
 age_at_death: alive
 birth_date: "December 8, 1972 AD"
-location: "精密機械園區二期, 南屯區, 臺中市, 臺灣"
+location: "Nantun, Taichung, Taiwan"
+location_original: "精密機械園區二期, 南屯區, 臺中市, 臺灣"
 country: "Taiwan"
 latitude: 24.15
 longitude: 120.59
 map_url: "https://www.google.com/maps/place/24.15,120.59/@24.15,120.59,5z"
+old_lifestyle: "Urban"
 lifestyle: "Urban"
 era: "Holocene"
 sex: "F"
@@ -298,13 +300,13 @@ After high school she chose a practical track and moved quickly into work that u
 
 She left Taiwan in 1998 and settled overseas, drawn by the combination of opportunity and distance. She found Taiwanese circles quickly—church basements used for community events, banquet halls that hosted Lunar New Year dinners, small shops that sold dried mushrooms and soy sauce brands she recognized. She met David Chen at a gathering where people switched between Mandarin and Hokkien, laughing at the same old jokes about food and accents. He was attentive in public. He liked making plans. He also cared about status, about who was invited and who wasn’t. They married, and the marriage started as a shared project: steady work, papers in order, money saved.
 
-By 2001 the conflicts sharpened. They fought about how long she stayed chatting with customers, about which friends she kept, about money that he wanted tracked his way. When she argued back, he moved closer than he needed to. On more than one night he shoved her against a wall, or grabbed her arms hard enough to leave bruises that bloomed yellow and purple. She covered them with long sleeves and busied herself with errands. Once, after a worse incident, she packed a bag and stayed with her friend Lina Wu for several nights. Lina made sweet barley soup and talked straight. Hsiu-chen phoned a local community group and asked what help existed, then hung up before giving her full name. She returned home with a new private rule: keep the peace in public, keep the paperwork and the cashbox under her own control, and never let her mother hear details that would turn into family shame.
+By 2001 the conflicts sharpened. They fought about how long she stayed chatting with customers, about which friends she kept, about money that he wanted tracked his way. When she argued back, he moved closer than he needed to. On more than one night he shoved her against a wall and grabbed her arms hard enough to leave bruises that bloomed yellow and purple. She covered them with long sleeves and busied herself with errands. Once, after a worse incident, she packed a bag and stayed with her friend Lina Wu for several nights. Lina made sweet barley soup and talked straight. Hsiu-chen phoned a local community group and asked what help existed, then hung up before giving her full name. She returned home with a new private rule: keep the peace in public, keep the paperwork and the cashbox under her own control, and never let her mother hear details that would turn into family shame.
 
 In 2003, SARS reached Taiwan’s headlines and then the world’s airports. She called Taichung repeatedly, asking her mother what masks cost, whether anyone coughed at the temple, whether her father still went into the office. The fear sharpened her habit of checking and rechecking. She made lists, counted inventory twice, and kept a small bottle of alcohol rub in her bag long after others stopped carrying it.
 
 Her daughter, Grace, was born in 2006. Hsiu-chen used her Mandarin first with the baby and then softened into Hokkien when she got tired, the same way her mother had done. She kept the household altar even overseas, a smaller setup on a shelf: an incense holder, two cups for tea, and a plate for fruit. For Lunar New Year she set out tangerines and pineapple cakes, and she taught Grace to bow, then rewarded her with a red envelope and a dumpling made to look like a gold ingot. David did not hit her during the first years after the birth. He watched the child when he felt like a good husband. He also criticized when she did not meet his standard. Hsiu-chen learned to pivot, to redirect a conversation, to change the subject with a laugh that carried a warning inside it.
 
-She built a business step by step: Taiwan-linked consumer goods and specialty foods, first through small wholesale orders, then regular import shipments. She worked with a mentor from early on, Mr. Kuo, who taught her how to read shipping documents, how to spot a lazy broker, and how to keep relationships warm without giving away the margin. She liked the routine of it: early mornings checking messages from Taiwan, afternoons in the shop, evenings entering numbers into a ledger while a TV drama played quietly in the background.
+She built a business step by step: Taiwan-linked consumer goods and specialty foods, first through small wholesale orders, then regular import shipments. She worked with a mentor from early on, Mr. Kuo, who taught her how to read shipping documents, how to spot a lazy broker, and how to keep relationships warm without giving away the margin. She liked it: early mornings checking messages from Taiwan, afternoons in the shop, evenings entering numbers into a ledger while a TV drama played quietly in the background.
 
 The global financial crisis hit in 2008 and customers pulled back. She stopped ordering novelty items and filled shelves with staples people bought even when they felt nervous. She negotiated smaller batches with suppliers in Taiwan and pushed harder on payment terms. She also leaned into the part she understood best: community. She organized tastings, brought out trays of samples, and remembered which older customers liked less sugar. She set up an online storefront and answered messages quickly, even at night, because response time turned curiosity into sales.
 

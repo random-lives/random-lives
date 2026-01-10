@@ -6,11 +6,13 @@ birth_year_numeric: 1973
 death_year: "present"
 age_at_death: alive
 birth_date: "September 27, 1973 AD"
-location: "Hayatabad, تحصیل پشاور شہر, ضلع پشاور‎, پشاور ڈویژن, خیبر پختونخوا, 25100, پاکستان"
+location: "Hayatabad, Peshawar, Khyber Pakhtunkhwa, Pakistan"
+location_original: "Hayatabad, تحصیل پشاور شہر, ضلع پشاور‎, پشاور ڈویژن, خیبر پختونخوا, 25100, پاکستان"
 country: "Pakistan"
 latitude: 33.98
 longitude: 71.44
 map_url: "https://www.google.com/maps/place/33.98,71.44/@33.98,71.44,5z"
+old_lifestyle: "Urban"
 lifestyle: "Urban"
 era: "Holocene"
 sex: "F"
@@ -426,7 +428,7 @@ Outside the house, Peshawar changed. During Zia-ul-Haq’s rule, sermons about p
 
 Baba Jan died in 1986. The household’s center of gravity shifted, but the joint family remained. Ana Bibi held the keys and made Nasreen stand with her when guests arrived, passing tea and checking that the cups were clean. When Ana Bibi died in 1992, the women’s hierarchy loosened. Nasreen felt it as extra work: more arguing about who would wash dishes, more chances for things to be done badly.
 
-Marriage negotiations began the year before Ana Bibi died. Nasreen was seventeen and had already stopped regular schooling. She could read signs and simple letters, and she could recite and follow Urdu radio dramas, but writing longer passages was slow and tiring. In 1991 she married Saeed Khan, a man from another town in Khyber Pakhtunkhwa. She left Peshawar with a trunk of clothes, quilts, and kitchen items and entered a new joint family with new rules. The first months were a series of tests: how she cooked rice, how she greeted elders, whether she rose before everyone else.
+Marriage negotiations began the year before Ana Bibi died. Nasreen was seventeen, short and plain-faced, and had already stopped regular schooling. She could read signs and simple letters, and she could recite and follow Urdu radio dramas, but writing longer passages was slow and tiring. In 1991 she married Saeed Khan, a man from another town in Khyber Pakhtunkhwa. She left Peshawar with a trunk of clothes, quilts, and kitchen items and entered a new joint family with new rules. The first months were a series of tests: how she cooked rice, how she greeted elders, whether she rose before everyone else. She watched the other women carefully, noted who had the mother-in-law's ear, and made herself useful to the ones who mattered.
 
 Imran arrived in 1993. Bilal followed in 1995, then Ayesha in 1998. Nasreen’s days filled with cooking, washing, and managing children in a house where privacy was limited and quarrels carried. She developed a habit of holding a small tin of tobacco—naswar—wrapped in cloth in the back of a cupboard. After the morning rush she took a pinch, then rinsed her mouth carefully. She told herself it steadied her. Over the years it became a fixed part of her day, and she grew sharp when anyone touched the cupboard.
 
@@ -438,11 +440,13 @@ Swat’s conflict pushed displaced families toward KP’s towns in 2007 and 2008
 
 In 2010, Saeed died, suddenly and without the long preparation a household expects. Nasreen became a widow with five living children. The respect she received was real—women lowered their voices around her, men spoke to her through intermediaries—but dependence came with it. She held her posture straight when in-laws discussed expenses. She also began using tobacco more openly, saying it helped her sleep.
 
-A year later, violence reached closer. After an evening security incident—an explosion and gunfire on a road people used—neighbors poured into the lane, shouting questions and accusations. A dispute flared between households. Nasreen grabbed Shazia, her husband’s younger sister, by the wrist to pull her back inside. Gul Bano from the next house struck Nasreen and shoved her hard against a wall. Nasreen did not hit back. She steadied herself, dragged Shazia indoors, and shut the door. Bruises bloomed on her arm and shoulder. She told no police, only her brother Fazal, who came the next day and stood in the lane with his jaw clenched.
+A year later, violence reached closer. After an evening security incident—an explosion and gunfire on a road people used—neighbors poured into the lane, shouting questions and accusations. A dispute flared between households. Nasreen grabbed Shazia, her husband’s younger sister, by the wrist to pull her back inside. Gul Bano from the next house struck Nasreen and shoved her hard against a wall. Nasreen did not hit back. She steadied herself, dragged Shazia indoors, and shut the door. Bruises darkened on her arm and shoulder. She told no police, only her brother Fazal, who came the next day and stood in the lane with his jaw clenched.
 
-In 2012, a bombing or shooting hit near a market road she used. She arrived soon after, thinking of errands, and saw bodies and wounded people being loaded into cars and pickups. A child’s face was gray with dust. That night she washed her hands again and again and said ayat al-kursi under her breath. For months she refused that route and snapped at anyone who suggested it was safe.
+In 2012, a bombing hit near a market road she used. She arrived soon after, thinking of errands, and saw bodies and wounded people being loaded into cars and pickups. A child’s face was gray with dust. That night she washed her hands again and again and said ayat al-kursi under her breath. For months she refused that route and snapped at anyone who suggested it was safe.
 
 Diabetes and high blood pressure were diagnosed in 2014. Dr. Farah told her to cut down on sweets and stop tobacco. Nasreen nodded, kept the paper, and asked her son to read it aloud later because she did not like filling forms at the clinic. She followed the medicine schedule precisely for a week, then slipped back into old eating patterns when guests came or stress rose. She took her pills most days, though, counted them, and scolded the children if a bottle was moved.
+
+Her mother, Bibi Gul, died in 2016. Nasreen traveled to Peshawar for the funeral and sat with the women again, as she had for her father twelve years before. The house in Hayatabad felt smaller without her mother's voice in the kitchen. Nasreen returned to her own household and resumed her routines.
 
 By 2020 her eyesight blurred. She could no longer read fine print, not even the simple Urdu she once handled. Dr. Farah said the diabetes had reached her eyes. Nasreen began calling Imran to read medicine labels and utility bills. Zara learned to handle phone calls and appointment dates. That loss of control irritated Nasreen; she responded by making more lists in her head, repeating instructions, checking the spice jars and the rice tin as if they might have shifted when she looked away.
 

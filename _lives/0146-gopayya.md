@@ -7,12 +7,14 @@ death_year: "1399 AD"
 age_at_death: 72
 birth_date: "December 22, 1326 AD"
 death_date: "May 15, 1399 AD"
-location: "Turpupalle, Konakanamitla, Prakasam, Andhra Pradesh, 523241, India"
+location: "Turpupalle, Prakasam, Andhra Pradesh, India"
+location_original: "Turpupalle, Konakanamitla, Prakasam, Andhra Pradesh, 523241, India"
 country: "India"
 latitude: 15.65
 longitude: 79.44
 map_url: "https://www.google.com/maps/place/15.65,79.44/@15.65,79.44,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Pastoralist"
 era: "Holocene"
 sex: "M"
 age_tag: "Elder (50+)"

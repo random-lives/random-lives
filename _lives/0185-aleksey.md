@@ -7,12 +7,14 @@ death_year: "1945 AD"
 age_at_death: 47
 birth_date: "December 9, 1897 AD"
 death_date: "February 15, 1945 AD"
-location: "Колюдовское сельское поселение, Красногорский район, Брянская область, Центральный федеральный округ, Россия"
+location: "Kolyudovo, Krasnogorsky District, Bryansk Oblast, Russia"
+location_original: "Колюдовское сельское поселение, Красногорский район, Брянская область, Центральный федеральный округ, Россия"
 country: "Russia"
 latitude: 53.06
 longitude: 31.37
 map_url: "https://www.google.com/maps/place/53.06,31.37/@53.06,31.37,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Adult (19–49)"
@@ -416,18 +418,18 @@ The upheaval from 1917 onward arrived as men with rifles, new orders, and demand
 
 In 1922, with the fighting quieter and the new authorities settled enough to issue papers, Aleksey married Ekaterina from a nearby village. She was steady and direct, and she could read enough to recognize a name. In their home she kept a small icon of Saint Nicholas and the Mother of God on a shelf with a cloth under them. Aleksey still prayed by rote. He liked the simple part of feast days: warm kasha with butter when there was butter, a cup of tea sweetened with a spoonful of jam, singing that ran late into the night. He made friends quickly. A neighbor named Pavel became his drinking companion when there was vodka to be had, and Aleksey’s loud talk and easy laughter drew other men to the bench outside the house in summer evenings.
 
-Ekaterina carried the weight of planning. Aleksey forgot to latch gates and once left a scythe in wet grass to rust. They argued about it, short and sharp. He would sulk, then turn talkative again, making a show of helping, sweeping the floor with too much force, splashing water from the bucket. When their son Nikolay was born in 1926, Aleksey lifted the baby high for others to see and told the same joke to three different visitors. Ekaterina kept the child warm, kept the cow milked, and kept the household fed.
+Ekaterina did the planning. Aleksey forgot to latch gates and once left a scythe in wet grass to rust. They argued about it, short and sharp. He would sulk, then turn talkative again, making a show of helping, sweeping the floor with too much force, splashing water from the bucket. When their son Nikolay was born in 1926, Aleksey lifted the baby high for others to see and told the same joke to three different visitors. Ekaterina kept the child warm, kept the cow milked, and kept the household fed.
 
 A daughter, Tatyana, was born in 1929 and died the same year. Ekaterina sat by the stove for days with a set face, and Aleksey wandered in and out of the room, not knowing what to do, then went to the icon corner and repeated prayers Ulyana had drilled into him as a boy.
 
-Collectivization arrived with meetings, rules, and fear. Aleksey could not follow speeches. He watched faces and copied the words that seemed safe. By 1932 his father Fyodor died. The next year, with hunger tightening and quotas pressing, Aleksey began taking small amounts of grain or fodder after work, tucked into his shirt or a sack. He did it more than once in 1933 and 1934, never speaking of it plainly, only saying, “For the cow,” and looking away. Ekaterina scolded him for the risk, then cooked the grain into thin porridge anyway.
+Collectivization arrived with meetings, rules, and fear. Aleksey could not follow speeches. He watched faces and copied the words that seemed safe. By 1932 his father Fyodor died. The next year, with hunger tightening and quotas pressing, Aleksey began taking small amounts of grain after work, tucked into his shirt or a sack. He did it more than once in 1933 and 1934, never speaking of it plainly, only saying, “For the cow,” and looking away. Ekaterina scolded him for the risk, then cooked the grain into thin porridge anyway.
 
-In 1937 and 1938 the village felt the terror in arrests and in silences. Aleksey avoided the loudest talk. He repeated official phrases without understanding them, as if repeating them made him safe. The next winter, 1938–1939, he hauled wood on a sledge in icy ruts. He slipped, the load shifted, and his lower leg and ankle took the weight. The village set it as best they could. It healed crooked. From then on he walked with a limp, putting weight on the other side, grimacing when he thought no one watched. He could not keep up with the hardest field work and was pushed toward lighter tasks, which lowered his standing more.
+In 1937 and 1938 the village felt the terror in arrests and in silences. Aleksey avoided the loudest talk. He repeated official phrases without understanding them. The next winter, 1938–1939, he hauled wood on a sledge in icy ruts. He slipped, the load shifted, and his lower leg and ankle took the weight. The village set the bone as best they could. It healed crooked. From then on he walked with a limp, putting weight on the other side, grimacing when he thought no one watched. He could not keep up with the hardest field work and was pushed toward lighter tasks, which lowered his standing more.
 
 Praskovya died in 1939. Aleksey stayed near the grave longer than others after the burial, then went home and sat under the icons until Ekaterina told him to eat.
 
-War came again in 1941. The German advance and the fighting around Bryansk turned the countryside into a place of searches and requisitions. Their household slept in the forest on nights when raids were expected, wrapped in coats, listening for engines and shouting. Soldiers came through the village and took what they wanted. Shots sounded from nearby hamlets. The men in the village watched for partisan couriers; one young courier, known as Yura, appeared at dusk and vanished again. That same year Ekaterina died, worn out and ill during the first hard occupation months. Aleksey became a widower, and the household tightened around him and Nikolay, with an aunt-in-law, Galina, taking charge of many practical matters.
+War came again in 1941. The German advance and the fighting around Bryansk turned the countryside into a place of searches and requisitions. Their household slept in the forest on nights when raids were expected, wrapped in coats, listening for engines and shouting. Soldiers came through the village and took what they wanted. Shots sounded from nearby hamlets. The men in the village watched for partisan couriers; one young courier, known as Yura, appeared at dusk and vanished again. That same year Ekaterina died, worn out and ill during the first hard occupation months. Aleksey became a widower, and the household shrank to him and Nikolay, with an aunt-in-law, Galina, taking charge of many practical matters.
 
-Late in 1942 or early winter 1943, while the household was out on kolkhoz work, someone stole stored potatoes and a few tools from their shed. The loss forced them to borrow from kin, and Aleksey’s shame came out as angry talk, blaming strangers, then blaming Pavel, then blaming no one. He returned to taking small amounts from kolkhoz stores through 1944, more often now, to keep food in the house.
+In the winter of 1943, while the household was out on kolkhoz work, someone stole stored potatoes and a few tools from their shed. The loss forced them to borrow from Ivan and Anna, and Aleksey’s shame came out as angry talk, blaming strangers, then blaming Pavel, then blaming no one. He returned to taking small amounts from kolkhoz stores through 1944, more often now, to keep food in the house.
 
 In February 1945, after weeks of coughing and cold, Aleksey died of a respiratory infection. His body was washed at home, laid out beneath the icons, and carried to the village cemetery where Orthodox prayers were read and a simple wooden cross was set at the grave.

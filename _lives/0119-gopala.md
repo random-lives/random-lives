@@ -7,12 +7,14 @@ death_year: "269 BC"
 age_at_death: 0
 birth_date: "August 7, 269 BC"
 death_date: "August 9, 269 BC"
-location: "Raninagar, Raninagar - II, Murshidabad, West Bengal, 742308, India"
+location: "Raninagar, Murshidabad, West Bengal, India"
+location_original: "Raninagar, Raninagar - II, Murshidabad, West Bengal, 742308, India"
 country: "India"
 latitude: 24.23
 longitude: 88.52
 map_url: "https://www.google.com/maps/place/24.23,88.52/@24.23,88.52,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Infant (0–1)"
@@ -152,9 +154,9 @@ continent: "Asia"
 # - F
 ---
 
-Gopala was born into an eastern Indo-Aryan farming family in the wet lowlands of the lower Ganges plain, where Mauryan officials collected grain and monitored river routes. His household lived in a patrilocal joint compound near the fields and waterways, with his father Rudda moving between cultivation and transport work, loading sacks onto carts and hiring boatmen when the channels ran high.
+Gopala was born into an eastern Indo-Aryan farming family in the wet lowlands of the lower Ganges plain, where Mauryan officials collected grain and monitored river routes. His household lived in a joint compound near the fields and waterways, with his father's parents under the same roof. His father Rudda moved between cultivation and transport work, loading sacks onto carts and hiring boatmen when the channels ran high.
 
-Rudda and Lila already had a grave memory inside the house. Their first child, Kanti, had lived only hours three rains earlier. Dhani, the paternal grandmother, ran the women’s work with firm directions: boiling water, keeping ash and oil ready, watching the cooking fire, and enforcing the days of impurity after birth. Bharu, the grandfather, handled visitors and paid Somaka, a local ritual specialist, to recite protective words and set a small offering near the threshold—rice grains, a pinch of salt, and a lamp fed with sesame oil. Lila marked the birth with a simple household rite to Agni at the hearth and a whispered appeal to the family’s ancestors.
+Rudda and Lila already carried grief. Their first child, Kanti, had lived only hours three rains earlier. Dhani, the paternal grandmother, ran the women’s work with firm directions: boiling water, keeping ash and oil ready, watching the cooking fire, and enforcing the days of impurity after birth. Bharu, the grandfather, handled visitors and paid Somaka, a local ritual specialist, to recite protective words and set a small offering near the threshold—rice grains, a pinch of salt, and a lamp fed with sesame oil. Lila marked the birth with a simple household rite to Agni at the hearth and a whispered appeal to the family’s ancestors.
 
 Gopala arrived small. His limbs stayed slack, and he could not keep warmth even when Dhani wrapped him close and Lila tried to feed him through the first night. On the second day he died.
 

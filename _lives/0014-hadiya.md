@@ -13,7 +13,8 @@ country: "Syria"
 latitude: 35.06
 longitude: 37.04
 map_url: "https://www.google.com/maps/place/35.06,37.04/@35.06,37.04,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Rural Non-Farm"
 era: "Holocene"
 sex: "F"
 age_tag: "Elder (50+)"

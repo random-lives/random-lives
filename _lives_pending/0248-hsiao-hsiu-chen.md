@@ -12,6 +12,7 @@ country: "Taiwan"
 latitude: 24.15
 longitude: 120.59
 map_url: "https://www.google.com/maps/place/24.15,120.59/@24.15,120.59,5z"
+old_lifestyle: "Urban"
 lifestyle: "Urban"
 era: "Holocene"
 sex: "F"

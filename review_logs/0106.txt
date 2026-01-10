@@ -1,0 +1,9 @@
+**Review complete for 0106-xiong-gui.**
+
+This is a well-written infant story (age 0, died at ~9 months) with no issues:
+- Family structure clear: stem household with grandparents properly introduced
+- Only sibling (A-jie, age 5) correctly introduced with birth year and role
+- No deaths missing: no caretakers or siblings died during Gui's lifetime
+- No "kin" language, no hedging, no figurative language, no AI-slop
+- Chronology flows logically: birth → winter → new year → early summer → death
+- Appropriate word count (~280 words) for infant age category

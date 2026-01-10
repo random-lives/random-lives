@@ -1,0 +1,19 @@
+The story has been reviewed and edited. Here's a summary of the review:
+
+## 0152-miri Review Complete
+
+**Issues found:**
+1. **Major chronology error**: Tana's death was placed in Miri's "fourth year" but debug shows she died in 1690 BC when Miri was less than 1 year old
+2. **Missing siblings**: Koru (main older brother), Hako (younger brother who died during Miri's lifetime), Poro (youngest sibling), and Daro (brother who died before Miri's earliest memories) were either missing or barely mentioned
+3. **Missing death**: Hako died when Miri was ~4-5 but was never mentioned
+4. **Pseudosociological language**: "calling to dead kin by name" used "kin"
+
+**Changes made:**
+- Fixed Tana's death timing to before Miri's first year ended
+- Added Daro's death as family memory before Miri's earliest recollections
+- Introduced Koru earlier with concrete details (bringing roasted fish bits, reassurance during storms)
+- Added Hako's birth (when Miri was ~2) and death (at age 4 during the monsoon)
+- Added Poro's birth (shortly after Hako's death)
+- Changed "calling to dead kin by name" → "calling to the dead by name"
+
+The story now correctly reflects the family timeline from the debug data, with all deaths during Miri's lifetime properly mentioned.

@@ -7,12 +7,14 @@ death_year: "1432 AD"
 age_at_death: 0
 birth_date: "November 30, 1431 AD"
 death_date: "August 20, 1432 AD"
-location: "洲口镇, 汉寿县, 常德市, 湖南省, 中国"
+location: "Zhoukou, Hanshou County, Changde, Hunan, China"
+location_original: "洲口镇, 汉寿县, 常德市, 湖南省, 中国"
 country: "China"
 latitude: 28.98
 longitude: 112.01
 map_url: "https://www.google.com/maps/place/28.98,112.01/@28.98,112.01,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Infant (0–1)"
@@ -137,7 +139,7 @@ continent: "Asia"
 # - F
 ---
 
-Xiong Gui was born on November 30, 1431, in a hamlet near the waterways and rice fields of today’s Changde in Hunan, under the Ming state’s county officials and tax registers. His family were Han farmers who spoke a Southwestern Mandarin vernacular at home. The household followed patrilineal custom: his father, Xiong Shun, and mother, Xiong Shi, lived under the roof and authority of Xiong Gong and Xiong Po.
+Xiong Gui was born on November 30, 1431, in a hamlet near the waterways and rice fields of today’s Changde in Hunan, under the Ming state’s county officials and tax registers. His family were Han farmers who spoke a Southwestern Mandarin vernacular at home. His father, Xiong Shun, and mother, Xiong Shi, lived under the roof and authority of his grandparents, Xiong Gong and Xiong Po.
 
 The winter after his birth stayed damp and cold in the house, with a packed-earth floor and a stove that burned rice straw and wood. Xiong Shi kept him on her back when she carried water and chopped greens for pigs, and she took him to the field edges when transplanting work began. His older sister, Xiong A-jie, born in 1426, had chores of her own but reached for him when her mother needed both hands, bouncing him on her knee and calling for their grandmother when he fussed.
 

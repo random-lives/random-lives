@@ -7,12 +7,14 @@ death_year: "1208 AD"
 age_at_death: 20
 birth_date: "May 14, 1188 AD"
 death_date: "August 13, 1208 AD"
-location: "集贤村, 柳河县, 通化市, 吉林省, 中国"
+location: "Liuhe, Tonghua, Jilin, China"
+location_original: "集贤村, 柳河县, 通化市, 吉林省, 中国"
 country: "China"
 latitude: 42.14
 longitude: 125.84
 map_url: "https://www.google.com/maps/place/42.14,125.84/@42.14,125.84,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Hunter-Gatherer"
 era: "Holocene"
 sex: "M"
 age_tag: "Adult (19–49)"
@@ -405,17 +407,17 @@ continent: "Asia"
 #   type: sick_relative
 ---
 
-Wanyan Helibo was born in mid-May of 1188 in the forested hills south of Changbai, where the Jurchen Jin dynasty collected taxes and labor but left most daily order to kin groups and village elders. His household spoke Jurchen, made offerings to ancestors at a corner of the hearth, and called on a shaman when sickness lingered. The nearest markets were small and seasonal; men brought furs and dried forest goods, and came back with salt, iron, and cloth.
+Wanyan Helibo was born in mid-May of 1188 in the forested hills south of Changbai, where the Jurchen Jin dynasty collected taxes and labor but left most daily order to families and village elders. His household spoke Jurchen, made offerings to ancestors at a corner of the hearth, and called on a shaman when sickness lingered. The nearest markets were small and seasonal; men brought furs and dried forest goods, and came back with salt, iron, and cloth.
 
 His mother, Wanyan Loushi, had already buried one husband, Wanyan Yelü, when Helibo arrived. Yelü had died the year before, leaving two daughters, Wanyan Sige and Wanyan Pucha, and a household that could not stand without an adult man. Loushi remarried quickly. Her new husband, Wanyan Wolu, moved into the household as the head of it, and Helibo grew up calling him “father” in public even when the word caught in his throat.
 
 As a small child he stayed close to his sisters. Sige, four years older, carried him on her back when their mother’s arms were full. She scolded him for whining, then shared a strip of dried venison from her sleeve. Pucha was quieter. She played finger games with him while Loushi stirred millet gruel and listened for the first crack of ice on the river. Helibo learned early what sounds meant trouble: the scrape of a blade being sharpened, Wolu’s boots on the packed earth, the way adults’ voices dropped when they spoke about debts.
 
-A baby boy, Wanyan Hulie, was born in 1191 and died before the winter was over. Loushi tied small strips of cloth to a branch near the house and burned a pinch of fat in the fire for the household ancestors, asking them to stop taking children. Two years later another infant, Wanyan Alin, came and went even faster. After that, Wolu insisted on stricter taboos. No sweeping at night. No whistling after dark. If a child coughed, Loushi boiled pine needles and forced the bitter water down.
+A baby boy, Wanyan Hulie, was born in 1191 and died before the winter was over. Loushi tied small strips of cloth to a branch near the house and burned a pinch of fat in the fire for the household ancestors, asking them to stop taking children. Two years later another infant, Wanyan Alin, came and went even faster. After that, Wolu insisted on stricter taboos. In 1196 a fourth daughter, Wanyan Ledu, was born. This one lived. Helibo was eight and old enough to fetch water and help keep watch when the baby slept. No sweeping at night. No whistling after dark. If a child coughed, Loushi boiled pine needles and forced the bitter water down.
 
 Helibo took comfort in routines. At the new moon he helped his mother set a small bowl of porridge and a few grains of salt on a flat stone near the hearth. When Shaman Hali visited, Hali shook a rattle over a sick child and tied knotted cords to wrists and doorposts. Helibo watched closely. He liked rules that were clear and old.
 
-By eight he followed Wolu to gather firewood and set crude snares for hare. He worked steadily when he was told what to do, but he kept his own opinions tight in his chest until something pried them loose. If another boy laughed at his small bow or at the way he counted his traps, Helibo shoved first. Then he shook afterward, angry at himself for shaking. Sige learned to catch his wrist before he struck. Pucha spoke softly to him, as if softness could hold him down.
+By eight he followed Wolu to gather firewood and set crude snares for hare. He worked steadily when he was told what to do, but he kept his own opinions tight in his chest until something pried them loose. If another boy laughed at his small bow or at the way he counted his traps, Helibo shoved first. Then he shook afterward, angry at himself for shaking. Sige learned to catch his wrist before he struck. Pucha spoke softly to him, trying to calm him.
 
 The Jin state pressed in at the edges. Men went to a levy point to register hides, or to answer for corvée. Once, when Helibo was twelve, he walked with Wolu to a trading place where a Chinese-speaking clerk, Zhang, sat behind a rough table and marked tallies on a wooden slip. Helibo understood none of Zhang’s words. He watched how Wolu’s jaw tightened when Zhang demanded an extra measure, and he remembered it.
 
@@ -427,18 +429,18 @@ Wolu fell sick after a winter fever in 1204. He lived, but he did not regain his
 
 By seventeen he spent whole stretches in a small hut he maintained near the traplines, a low structure of poles and bark with a packed-earth floor. That winter he began fighting with a neighbor’s son, Wanyan Zongbi, over snares and boundary trees. The first time it was fists and a shove into the snow. The second time Helibo brought a stick. When elders tried to arrange compensation with meat or pelts, Helibo refused to apologize. He insisted Zongbi had stolen first. When he drank with other young men after a hunt, his voice grew loud and his face flushed quickly; he took jokes as challenges.
 
-Late winter of 1206, after days on the trapline, he returned to his hut and found his caches disturbed. Bundles of dried meat were gone. Several prepared pelts—set aside to trade for iron points and salt—had vanished. He tore apart the hut, certain someone had watched him leave and waited. He went straight to Zongbi’s kin and shouted accusations. The denial only made him angrier.
+Late winter of 1206, after days on the trapline, he returned to his hut and found his caches disturbed. Bundles of dried meat were gone. Several prepared pelts—set aside to trade for iron points and salt—had vanished. He tore apart the hut, certain someone had watched him leave and waited. He went straight to Zongbi's family and shouted accusations. The denial only made him angrier.
 
 The loss hit the household hard. That spring, with traps poor and stores low, Helibo and Loushi borrowed grain and a little salt and iron from a better-off household headed by Wanyan Nianhan. Nianhan took his payment in labor and in future shares, and he made sure others saw Helibo hauling loads and cutting extra wood. Helibo obeyed the terms, but he clenched his jaw and counted every basket as humiliation. He ate quickly and slept lightly, waking at small noises to check what little he owned.
 
-He started seeing a young woman named Wanyan Sergen in 1206, an informal tie with no bride-price and no public ceremony. She met him in the woods or near others’ houses where there were witnesses. He wanted her attention and resented how much he wanted it. When her kin warned her away, he took it as another theft.
+He started seeing a young woman named Wanyan Sergen in 1206, an informal tie with no bride-price and no public ceremony. She met him in the woods or near others’ houses where there were witnesses. He wanted her attention and resented how much he wanted it. When her family warned her away, he took it as another theft.
 
 After a successful hunt in 1207 there was drinking and singing among the young men. Helibo drank until his face went blank with it. With his companion Wanyan Dargi he cornered a young woman from a neighboring household who had come with relatives. She resisted and cried out, and he forced her anyway, with Dargi helping keep others away. The matter did not become a public case; it stayed inside whispers, threats, and family pressure. It widened the circle of people willing to see him harmed.
 
 Sergen gave birth to a son, Wanyan Dumu, that same year. The child died at birth. Helibo stood outside the house while the women washed the tiny body. He did not speak. That night he put a small piece of dried meat and a few grains of millet in the fire for the ancestors and for the child’s spirit, then sat in the dark until the embers cooled.
 
-In spring of 1208 a fight near the edge of the trapping grounds turned into a rush of bodies and blades. Helibo stabbed a man in the press, a short deep thrust, and the man died soon after. Word moved fast along kin lines. Compensation was demanded. Anger hardened into plans.
+In spring of 1208 a fight near the edge of the trapping grounds turned into a rush of bodies and blades. Helibo stabbed a man in the press, a short deep thrust, and the man died soon after. Word moved fast among families. Compensation was demanded. Anger hardened into plans.
 
 That summer, on a forest path, several men caught him away from his hut and away from witnesses. They beat him, then cut him with a short blade. He tried to crawl toward the trees, leaving a track in the dirt and needles, and died there.
 
-His kin recovered the body. They wrapped him in a fur, placed him in the ground on a rise above the stream, and set a small offering of millet and salt at the head of the grave before covering it. Shaman Hali spoke over the mound and tied a strip of cloth to a branch to keep the spirit from lingering at the doorway.
+Loushi and his sisters recovered the body. They wrapped him in a fur, placed him in the ground on a rise above the stream, and set a small offering of millet and salt at the head of the grave before covering it. Shaman Hali spoke over the mound and tied a strip of cloth to a branch to keep the spirit from lingering at the doorway.

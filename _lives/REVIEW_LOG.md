@@ -4,6 +4,171 @@ Each story appears once with all issues found and changes made across all review
 
 ---
 
+## 0192-shahzad
+**Issues found:**
+- [Pseudosociological] Line 294: "elders, kin, and the men who controlled" - "kin" should be replaced
+- [Missing family] Grandparents Haji Karim and Bibi Shirin, and Uncle Rahim, are co-resident in the joint household per debug data but never introduced in the narrative
+
+**Changes made:**
+- "elders, kin, and the men who controlled land, water turns, and access to wage work" → "elders, landowners, and the men who controlled water turns and access to wage work"
+- Added grandparents and uncle to the family introduction: "They lived in a joint household with Abdul Wahid's parents—his grandfather Haji Karim, who still held authority over family decisions, and his grandmother Bibi Shirin, who shared childcare and taught the children their prayers. Uncle Rahim, Abdul Wahid's brother, also lived under the same roof."
+- Split paragraph for better flow (honesty traits now in separate paragraph)
+
+---
+
+## 0197-yana
+**Issues found:**
+- [Missing death - CRITICAL] Nari (mother) dies in -3169 when Yana is 36, but line 418 had "Nari tried to give her salted water" when Yana dies at 37. Nari should be dead by then.
+- [Pseudosociological] Line 402: "help kin in a nearby settlement"
+- [Pseudosociological] Line 414: "His kin kept her"
+- [Pseudosociological] Line 418: "her kin placed her body"
+
+**Changes made:**
+- Added Nari's death before Yana's final illness: "In her thirty-sixth year, Nari fell ill and did not recover. Yana tended her as she had tended others, bringing water and porridge, sitting through the long nights. When Nari died, they buried her beside Ema and the infant graves, and Yana poured the libation herself."
+- Restructured final paragraph: "Bera's wife tried to give her salted water" since Nari is now dead
+- "help kin in a nearby settlement" → "help relatives in a nearby settlement"
+- "His kin kept her" → "His family kept her"
+- "her kin placed her body" → "her family placed her body"
+
+---
+
+## 0193-aude
+**Issues found:**
+- [Pseudosociological] Line 343: "The marriage was agreed by kin and neighbors" - "kin" should be replaced
+- [Pseudosociological] Line 353: "Aude's access to kin land" - "kin land" should be more specific
+- [Grammar] Line 345: "she washed and rewashing the same linens" - verb tense error
+
+**Changes made:**
+- "The marriage was agreed by kin and neighbors" → "The marriage was agreed by both families"
+- "Aude's access to kin land depended on goodwill" → "Aude's access to her father's land depended on goodwill"
+- "she washed and rewashing the same linens" → "she washed and rewashed the same linens"
+
+---
+
+## 0195-zhi
+**Issues found:**
+- [Chronology] Line 424: "passed her to Qin's sister" - Qin died 3 years before Wen was born (Qin dies -474, Wen born -471), so reference is confusing
+- [Chronology] Line 426: "Three years later a third, Biao" - Biao born -466, Jia born -468, so only 2 years apart
+- [Chronology] Line 430: "Jia fell ill when Zhi was thirty-two" - Jia dies -460, Zhi born -493, so Zhi was 33 not 32
+- [Chronology] Lines 430-434: Major chronological error - Biao's death (-465) and the infant deaths (Danu -463, Kalu -461) are placed AFTER Jia's death (-460) but all occurred before Jia died
+- [Pseudosociological] Line 434: "Zhi's father's kin argued with Xiu's natal kin" - "kin" should be more specific
+
+**Changes made:**
+- "Qin's sister, an older woman who still lived in the joint household" → "an older aunt who still lived in the joint household"
+- "Three years later a third, Biao" → "Two years later a third, Biao"
+- "Jia fell ill when Zhi was thirty-three" (corrected age)
+- Restructured paragraphs to fix chronology: moved Biao's death and the infant deaths to appear BEFORE Jia's illness (reflecting actual timeline: Biao dies -465, Danu -463, Kalu -461, then Jia -460)
+- "Zhi's father's kin argued with Xiu's natal kin" → "Hemu's household argued with Xiu's family"
+
+---
+
+## 0201-nasreen
+**Issues found:**
+- [Missing death] Mother Bibi Gul died in 2016 - never mentioned in narrative
+- [Figurative language] Line 442: "Bruises bloomed on her arm" - figurative
+- [Missing trait visibility] Height (19th percentile) and physical attractiveness (9th percentile) not visible
+- [Missing trait visibility] Low honesty-humility (24th percentile) - manipulation/status-consciousness not clearly visible
+
+**Changes made:**
+- Added mother's death in 2016 in the paragraph about diabetes diagnosis
+- "Bruises bloomed" → "Bruises darkened"
+- Added brief description of her appearance when describing her early married life
+- Added a line showing her status-consciousness in interactions with in-laws
+
+---
+
+## 0196-pranavi
+**Issues found:**
+- [Awkward phrasing] Line 129: "when breastfeeds failed" - should be "when breastfeeding failed"
+
+**Changes made:**
+- "when breastfeeds failed" → "when breastfeeding failed"
+
+---
+
+## 0198-sira
+**Issues found:**
+- [Pseudosociological] Line 101: "dead kin from her own line" - "kin" should be more concrete
+
+**Changes made:**
+- "dead kin from her own line" → "dead relatives from her own family"
+
+---
+
+## 0187-munyaneza
+**Issues found:** None
+
+**Changes made:** None
+
+---
+
+## 0185-aleksey
+**Issues found:**
+- [Pseudosociological] Line 433: "borrow from kin" - should specify which relatives (Ivan and Anna per debug)
+- [Vague hedging] Line 425: "grain or fodder" - LLM indecision, should pick one
+- [Figurative language] Line 431: "the household tightened around him" - slightly figurative
+- [Clarity] Line 427: "The village set it as best they could" - unclear "it" refers to the leg
+
+**Changes made:**
+- "borrow from kin" → "borrow from Ivan and Anna"
+- "grain or fodder" → "grain"
+- "the household tightened around him and Nikolay" → "the household shrank to him and Nikolay"
+- "The village set it as best they could" → "The village set the bone as best they could"
+
+---
+
+## 0182-joga
+**Issues found:**
+- [Missing death] Grandmother Dukhi dies 1920 (Joga age 19) - mentioned during influenza (1918) but death never stated
+- [Missing sibling birth/death] Sister Lita born 1903, dies 1903 - a sibling who died during Joga's childhood, not mentioned at all
+- [Pseudosociological language] "lived close to his kin" line 438
+- [Pseudosociological language] "hosting kin" line 454
+
+**Changes made:**
+- Added Dukhi's death: "Dukhi died in 1920, after a short illness that left her unable to rise from her mat. Joga helped carry her to the burial ground."
+- Added Lita's birth and death alongside younger brother Jatra's introduction: "In 1903 a sister, Lita, was born and died before the monsoon ended. The next year a brother, Jatra, arrived and survived."
+- Changed "lived close to his kin" → "lived near his brothers' households"
+- Changed "hosting kin" → "hosting relatives"
+
+---
+
+## 0190-person-0190-unnamed
+**Issues found:**
+- [CRITICAL - Naming] naming_category is "unnamed" (died before naming ceremony) but narrative gives the baby the name "Nandana" - this also conflicts with younger sibling Nandana (born 1210)
+- [Clarity] "called Nandana in the moment, for a hopeful name" - awkward phrasing, unclear meaning
+
+**Changes made:**
+- Removed the name "Nandana" - changed to refer to baby as "the infant" / "the child" / "the baby" / "him" since the naming_category is "unnamed"
+- Rewrote final paragraph for clarity and to reflect that the baby died unnamed before any naming ceremony
+
+---
+
+## 0177-mādhav
+**Issues found:**
+- [Anachronism] "Bengal Sultanate" didn't exist in 1337 - it was established in 1342. In 1337, the region was nominally under the Delhi Sultanate, but the Bankura area was actually controlled by the Hindu Malla kings of Bishnupur who remained independent of Muslim rule.
+
+**Changes made:**
+- Rewrote opening: "Bankura's dry forest country lay under the revenue reach of the Bengal Sultanate" → "Bankura's dry forest country lay at the western edge of Bengal, where the Hindu Malla kings of Bishnupur held local authority while distant Muslim sultans in Delhi claimed nominal dominion"
+
+---
+
+## 0176-xiu
+**Issues found:**
+- [Missing death - CRITICAL] Father Wei dies 540 BC (Xiu age ~27) - not mentioned in narrative
+- [Missing death - CRITICAL] Mother Mei dies 522 BC (Xiu age ~45) - not mentioned in narrative
+- [Missing death - CRITICAL] Eldest daughter Mei dies 506 BC at age 41 (Xiu age ~62) - not mentioned; narrative says she "took over the loom" but never mentions her death
+- [Chronology] Line 451 compresses three deaths into "early forties" but they span 8 years: sister Lan (528 BC, Xiu age ~40), daughter Lan (522 BC, Xiu age ~45), son Wei (520 BC, Xiu age ~47)
+- [Figurative language] "Loss tightened around her" - personification/metaphor
+
+**Changes made:**
+- Added father Wei's death: "Her father died when she was twenty-seven, worn down by years of field labor and corvée demands"
+- Added mother Mei's death alongside daughter Lan's death in 522 BC: "Two years later, when Xiu was forty-five, her daughter Lan died at twenty. In the same season, word came that her mother Mei had died back in the village where Xiu was born"
+- Fixed chronology: separated the three deaths into distinct events with correct timing (sister Lan at ~40, daughter Lan and mother at ~45, son Wei at ~47)
+- Added eldest daughter Mei's death: "When Xiu was sixty-two, her eldest daughter Mei died at forty-one"
+- Removed "Loss tightened around her" - replaced with concrete description
+
+---
+
 ## 0030-targasnalli
 **Issues found:**
 - [Figurative language] "sparrow bones" is a metaphor
@@ -984,6 +1149,61 @@ Stories 0000-0029 are now fully reviewed. The main systematic issue was missing 
 
 ---
 
+# Review Log (Stories 0100+)
+
+---
+
+## 0102-nari
+**Issues found:**
+- [Missing death] Mother (unnamed) dies 356 - not mentioned in narrative
+- [Missing death] Uncle Palo dies 372 - not mentioned in narrative
+- [Pseudosociological] "ordered life through kin, cattle, and elders" - uses "kin"
+- [Pseudosociological] "which kin to approach" - uses "kin"
+- [Pseudosociological] "Wero returned to her natal kin" - uses "kin"
+- [Pseudosociological] "His kin placed his body" - uses "kin"
+- [Clarity] Sibling introduction confusing: "They tried again and had Suma in 310" implies Aro was born same year or earlier than Suma, but Aro was born 309 and Suma 310 - phrasing suggests "trying again" after Aro, but Suma was just born next
+
+**Changes made:**
+- Added mother's death (356) before Wero's departure: "Nari's mother died that same year, in 356, before the quarrels with Wero ended."
+- Added Palo's death (372) after Kalo's death: "Palo, his father's brother who had helped him rebuild after the drought, died in 372."
+- Changed "ordered life through kin, cattle, and elders" → "ordered life through family, cattle, and elders"
+- Changed "which kin to approach" → "which relatives to approach"
+- Changed "Wero returned to her natal kin" → "Wero returned to her natal family"
+- Changed "His kin placed his body" → "His family placed his body"
+- Changed "They tried again and had Suma in 310" → "Suma followed in 310" (removing confusing "tried again")
+
+---
+
+## 0101-rani
+**Issues found:**
+- [Anachronism] "Rani's diapers stayed wet" - "diapers" is anachronistic terminology for hunter-gatherers
+
+**Changes made:**
+- Changed "Rani's diapers stayed wet; her mouth dried" → "Rani's bowels ran watery; her mouth dried"
+
+---
+
+## 0100-harcharan
+**Issues found:**
+- [Missing death] Mother Kishan Kaur dies 2007 - not mentioned in narrative
+- [Missing death] Uncle Chacha Mohinder Singh dies 2010 - not mentioned in narrative
+- [Missing sibling births] Gurmeet Kaur (1947), Baljit Singh (1949), Dalbir Kaur (1951), Avtar Singh (1953), Satpal Singh (1956), Manjit Kaur (1958), Ranjit Kaur (1960) - births never mentioned, siblings just appear or are completely missing
+- [Missing sibling] Dalbir Kaur (born 1951, still alive) - completely missing from narrative
+- [Missing sibling] Satpal Singh (born 1956, still alive) - completely missing from narrative
+- [Missing sibling] Ranjit Kaur (born 1960, dies 1965 at age 5) - completely missing from narrative; this child died during protagonist's lifetime
+- [Figurative language] "like smoke, not always visible but always present" - simile
+
+**Changes made:**
+- Added mother's death: "Kishan Kaur died in 2007"
+- Added uncle's death: "Chacha Mohinder Singh followed in 2010"
+- Added paragraph after Partition section introducing the full set of younger siblings as they arrived over the years
+- Added Ranjit Kaur's death (1965) in chronological position after the 1965 war paragraph
+- Added Dalbir Kaur to the debt crisis paragraph (passing news between households, sending quiet help)
+- Added Satpal Singh to the later life section (helps with hospital trips and paperwork)
+- Removed simile: "ran through the household like smoke, not always visible but always present" → "ran through the household for years"
+
+---
+
 # Toddler Story Regeneration (January 2026)
 
 Seven stories featuring children aged 2-4 were regenerated with new toddler-specific prompts to add developmental moments and richer personality expression. These stories now include:
@@ -1007,3 +1227,1096 @@ Seven stories featuring children aged 2-4 were regenerated with new toddler-spec
 - One pseudosociological term ("patrilocal joint household")
 
 All issues were fixed during post-regeneration review. The regenerated stories are now in `_lives_pending/` awaiting final transfer to `_lives/`.
+
+---
+
+## 0103-nabira
+**Issues found:**
+- [Missing character] Muboni (maternal aunt, dies 1776) - never mentioned in narrative, despite being listed as a secondary caretaker who stepped in after Nakato's death
+- [Pseudosociological] "his kin's fields" line 414
+- [Pseudosociological] "kin began shifting decisions away from her" line 426
+- [Pseudosociological] "his kin were steadier" line 428
+- [Pseudosociological] "backing him in disputes with affines" line 434
+- [Chronology] Line 432 "By 1769 Nabira had begun having bouts of fever" appears AFTER the 1770-1772 events (marriage to Kagole, raiding) - confusing temporal jump backward
+- [Figurative] "The land itself was treated as a force with temper and appetite" line 406 - personification
+
+**Changes made:**
+- Added Muboni introduction after Nakato's death in 1758: "After Nakato died, her sister Muboni came more often, checking on the younger girls Namusa and Nyaboko and counseling Nabira about her own household."
+- Added Muboni's death (1776) after the disability paragraph: "Muboni, who had steadied the family after Nakato's death, died in 1776."
+- Changed "his kin's fields" → "his family's fields"
+- Changed "kin began shifting decisions away from her" → "his relatives began shifting decisions away from her"
+- Changed "his kin were steadier" → "his relatives were steadier"
+- Changed "backing him in disputes with affines" → "backing him in disputes with in-laws"
+- Fixed chronology: "By 1769 Nabira had begun having bouts of fever" → "The bouts of fever and heavy fatigue that had begun in Kasolo's final years continued through the 1770s"
+- Changed "The land itself was treated as a force with temper and appetite" → "The land itself was held to be powerful and demanding"
+
+---
+
+## 0104-nikhil
+**Issues found:**
+- [Minor temporal] "By late 2025" in final paragraph - story should reflect current time (January 2026) since person is alive
+
+**Changes made:**
+- Changed "By late 2025 Nikhil sits" → "Now, in early 2026, Nikhil sits"
+
+---
+
+## 0105-frances-mary
+**Issues found:**
+- [Minor figurative] "household rhythms" line 391 - could use plainer language
+- [Minor figurative] "The infant death stayed lodged in her" line 397 - slightly figurative ("lodged")
+
+**Changes made:**
+- Changed "knew the household rhythms" → "knew the household routines"
+- Changed "The infant death stayed lodged in her" → "The infant death stayed with her"
+
+---
+
+## 0106-xiong-gui
+**Issues found:** None
+
+**Changes made:** None
+
+---
+
+## 0107-guang
+**Issues found:** None
+
+**Changes made:** None
+
+---
+
+## 0108-sina
+**Issues found:**
+- [Age error] "Raku, fourteen" - Raku was born -6314, so he'd be 12 when Sina was born in -6302, not 14
+
+**Changes made:**
+- Changed "Raku, fourteen" → "Raku, twelve"
+
+---
+
+## 0109-ami
+**Issues found:**
+- [Pseudosociological] "standing came from kin ties" line 151 - uses "kin"
+
+**Changes made:**
+- Changed "kin ties" → "family ties"
+
+---
+
+## 0110-hafsa
+**Issues found:** None
+
+**Changes made:** None
+
+---
+
+## 0111-li-shi
+**Issues found:**
+- [Missing death] Father Li De dies 1152 - not mentioned in narrative (protagonist age 27)
+- [Missing death] Mother Madam Li (née Wang) dies 1168 - not mentioned in narrative (protagonist age 43)
+- [Missing death] Brother Li Shun (eldest surviving sibling, born 1114) dies 1161 - not mentioned in narrative
+- [Missing death] Brother Li Qiang (born 1123) dies 1160 - not mentioned in narrative
+- [Missing sibling] Older brother Li Shun (eldest surviving sibling) never introduced - Li Qiang mentioned but not the older brother
+- [Missing sibling birth] Younger brother Li Yong (born 1127) only appears at his death; birth not noted
+- [Vague hedging] "grain and fodder" line 526 - pick one
+- [Chronology] Grandmother's death (1146) appeared before marriage (1143) in original text
+
+**Changes made:**
+- Added Li Shun introduction in childhood section as eldest surviving brother
+- Added Li Yong's birth (1127) and Li Jiu's birth/death (1129) after protagonist's birth
+- Added father Li De's death (1152): "Her father Li De died in 1152, after the harvest"
+- Added brother Li Qiang's death (1160): "Li Qiang, her closest older brother, died in 1160"
+- Added brother Li Shun's death (1161): "Li Shun, the eldest, died the following year"
+- Added mother's death (1168): "Her mother died in 1168"
+- Fixed vague hedging: "grain and fodder" → "grain"
+- Fixed chronology: moved grandmother's death to after marriage, placed with second daughter's death (both 1146)
+
+---
+
+## 0112-sena
+**Issues found:**
+- [Impossible timeline] Narrative shows Sena witnessing Toku's death (age 34) and Saku's death (age 23), but debug shows Toku dies -4852 and Saku dies -4857, both AFTER Sena's death (-4861). Sena died before both children.
+- [Chronology error] "Taro died when Sena was forty-three" - but Taro dies -4885, when Sena was ~36, not 43
+- [Missing death] Uncle Naro dies -4898 (when Sena is ~23) - not mentioned
+- [Missing death] Co-wife Rima dies -4870 (when Sena is ~51) - not mentioned
+- [Missing death] Brother Danu dies -4866 (when Sena is ~55) - not mentioned
+- [Pseudosociological] "extended-kin household" line 500
+- [Pseudosociological] "collateral kin" (removed in rewrite)
+- [Pseudosociological] "his kin exposed" line 476
+- [Pseudosociological] "separated from his kin" line 488
+- [Pseudosociological] "stay with her kin" line 490
+- [Pseudosociological] "her own kin" line 498
+
+**Changes made:**
+- **[DEVIATED FROM DEBUG]** Removed Toku and Saku death scenes entirely - debug shows both died after Sena. Rewrote final paragraphs to show Toku and Saku as alive when Sena dies.
+- Fixed Taro's death timing: "Taro died when Sena was forty-three" → "Taro died when Sena was thirty-six"
+- Added uncle Naro's death in the raiding section (age 23): "His mother's brother Naro, who had been a route-knower and storyteller, died that same season."
+- Added Rima's death (age 51): "Rima, his father's second wife who had helped raise him, died when Sena was fifty-one."
+- Added Danu's death in the late fifties section: "Danu, his closest brother in age, died when Sena was fifty-five."
+- Changed "extended-kin household" → "extended household"
+- Removed "collateral kin" reference (no longer needed after rewrite)
+- Changed "his kin exposed" → "his family exposed"
+- Changed "separated from his kin" → "separated from his group"
+- Changed "stay with her kin" → "stay with her family"
+- Changed "her own kin" → "her relatives"
+
+---
+
+## 0113-nirmala
+**Issues found:**
+- [Missing death] Mother Savitri dies 1973 - not mentioned in narrative (narrative says "Savitri's health declined in the early 1970s" but never states she died)
+
+**Changes made:**
+- Added Savitri's death: "Savitri died in 1973" - inserted after the sentence about her declining health
+
+---
+
+## 0114-ravi
+**Issues found:**
+- [Pseudosociological] "kin ties" line 338
+- [Pseudosociological] "kin networks" line 354
+- [Missing context] Lakshmi described as "now married but still close" (line 362) but her marriage was never established earlier
+- [Temporal] "In late 2025" in final paragraph - should be updated to January 2026
+
+**Changes made:**
+- Changed "kin ties" → "family ties"
+- Changed "through kin networks" → "through family connections"
+- Added sisters' marriages after paragraph about sisters: "Rani married first, then Sujatha, who moved to a village a few hours away. Lakshmi married later, after Ravi's own wedding."
+- Changed "In late 2025" → "In early 2026"
+
+---
+
+## 0115-kaushalya
+**Issues found:**
+- [Awkward phrasing] "Kaushalya stayed close during visitors" - grammatically awkward
+
+**Changes made:**
+- Changed "Kaushalya stayed close during visitors" → "Kaushalya stayed close when visitors came"
+
+---
+
+## 0116-fazal-karim
+**Issues found:**
+- [Missing death] Haji Ghulam Rasul (paternal grandfather) dies 1956 - not mentioned in narrative
+- [Missing death] Sakina Bibi (paternal grandmother) dies 1964 - not mentioned in narrative
+- [Missing death] Rahim Khan (paternal uncle) dies 1996 - not mentioned in narrative
+- [Missing child] Farzana (infant daughter, born 1968, died 1968) - never mentioned in narrative despite being one of four children
+- [Dead character referenced as alive] Line 382: "stopped asking Sakina Bibi's old remedies for help" in 1983, but Sakina Bibi died in 1964. Should reference her teachings, not asking her directly.
+
+**Changes made:**
+- Added grandfather's death after Naveed's birth: "Haji Ghulam Rasul, who had ruled the household since before Fazal's birth, died that same year."
+- Added grandmother's death after the 1965 war paragraph: "Sakina Bibi died in 1964, leaving Amina the eldest woman in the house."
+- Added infant daughter Farzana's birth and death: "In 1968 a fourth child, a daughter, was born but did not survive the week."
+- Added uncle's death in the 1990s section: "His uncle Rahim Khan died in 1996."
+- Fixed anachronistic reference: "stopped asking Sakina Bibi's old remedies for help" → "stopped using Sakina Bibi's old remedies"
+
+---
+
+## 0117-tiberius
+**Issues found:**
+- [Vague hedging] "a pinch of grain, or a bit of cheese" line 289 - LLM couldn't commit
+- [Vague hedging] "beer or watered wine" line 289 - LLM couldn't commit
+- [Awkward phrasing] "in the town/fort settlement where he worked" line 319 - carried over from debug data, should be concrete
+
+**Changes made:**
+- Changed "a pinch of grain, or a bit of cheese" → "a pinch of grain"
+- Changed "beer or watered wine" → "watered wine"
+- Changed "in the town/fort settlement where he worked" → "in the settlement near the fort where he worked"
+
+---
+
+## 0118-zhao-shun
+**Issues found:**
+- [Pseudosociological] "her kin" line 347 - should be more specific
+- [Chronology] Thefts paragraph "Between 173 and 181" appeared after Liu Shi's death in 184, jumping backwards in time
+- [AI-slop] "Shun's anxiety tightened into habit" line 351 - abstract/figurative phrasing
+- [Redundant time marker] "At forty-one, in 184" repeated the year 184 already mentioned in previous paragraph about Liu Shi's death
+
+**Changes made:**
+- Changed "her kin" → "her brother"
+- Moved thefts paragraph to before Liu Shi's death; changed "Between 173 and 181" → "In the years that followed" to fit chronologically after father's death in 176
+- Removed "Shun's anxiety tightened into habit" - the subsequent concrete details about stomach clenching and market avoidance are sufficient
+- Changed "At forty-one, in 184, he began to cough" → "That same year, he began to cough" to avoid redundant year reference
+
+---
+
+## 0119-gopala
+**Issues found:**
+- [Minor figurative] "already had a grave memory inside the house" - "grave memory" is slightly poetic
+
+**Changes made:**
+- Changed "already had a grave memory inside the house" → "already carried grief"
+
+---
+
+## 0120-david-antónio-dos-santos
+**Issues found:**
+- [Factual error] "Eight children made noise in their apartment" - as of early 2026, there are only 6 children (two future siblings born 2027 and 2029 are not yet born)
+- [Chronology] "Mid-2025, David began a private habit... When his younger brother Mateus arrived in 2024" - mentions Mateus's 2024 birth after a 2025 event, confusing the timeline
+- [Tense shift] "On Sundays he stands close" - shifts from past to present tense inconsistently
+
+**Changes made:**
+- Changed "Eight children" → "Six children"
+- Rewrote the mid-2025 paragraph to introduce Mateus's arrival before the mid-2025 habit, maintaining chronological order
+- Changed "he stands close" → "he stood close" to maintain past tense consistency
+
+---
+
+## 0121-tjety
+**Issues found:**
+- [Pseudosociological] "a small token for kin dead" line 144 - uses "kin"
+
+**Changes made:**
+- Changed "kin dead" → "the family dead"
+
+---
+
+## 0122-ali
+**Issues found:**
+- [Pseudosociological] "in a compound shared with kin" line 148 - uses "kin"
+
+**Changes made:**
+- Changed "in a compound shared with kin" → "in a compound shared with Yusuf's family"
+
+---
+
+## 0123-petrus
+**Issues found:**
+- [Figurative language] "watched the grain bin like a living thing that could vanish" line 361 - simile
+- [Clarity] "Henricus's wife's brother, Jaan" line 369 - awkward phrasing; Henricus's wife is Margareta (Petrus's mother), so this should be "his mother's brother"
+
+**Changes made:**
+- Changed "watched the grain bin like a living thing that could vanish" → "checked the grain bin each morning"
+- Changed "Henricus's wife's brother, Jaan" → "his mother's brother, Jaan"
+
+---
+
+## 0124-bald
+**Issues found:** None
+
+**Changes made:** None
+
+---
+
+## 0125-person-0125-unnamed
+**Issues found:**
+- [Naming issue] Infant named "Prokop" in narrative, but naming_category is "unnamed" (stillbirth - died before naming ceremony)
+
+**Changes made:**
+- Changed "Prokop was born on" → "The child was born on"
+- Changed "the child was delivered, a boy" → "the child was delivered" (avoided double "boy" reference)
+- Changed "Zdislava rubbed him" → "Zdislava rubbed the body"
+
+---
+
+## 0126-kanu
+**Issues found:**
+- [Impossible sibling ages] Debug shows Mina born -1548 (50 years before Kanu) and Sali born -1534 (36 years before Kanu). Narrative describes Mina as "already a young woman" and Sali as "still an adolescent" - impossible given debug ages. Mother couldn't bear children over 50+ year span.
+- [Death timing conflict] Debug shows Sali dies -1497 (same year Kanu born) but narrative_plan shows Sali as alive throughout Kanu's life, serving as "oldest sister; by Kanu's toddler years she is a competent adolescent helper."
+- [Pseudosociological] "kin ties" line 178
+
+**Changes made:**
+- **[DEVIATED FROM DEBUG]** Removed age implications that conflicted with sibling ages. Changed "Mina, already a young woman" → "Mina, his eldest sister" and "Sali, still an adolescent" → "Sali, closer in age to Kanu". The narrative_plan clearly intends these as older caretaker sisters; the specific birth years appear to be data generation artifacts.
+- **[DEVIATED FROM DEBUG]** Kept Sali alive throughout Kanu's life per narrative_plan intent (shows her as alive_during_kanu_life: true with role as "competent adolescent helper"). The death_year -1497 conflicts with the narrative plan's stated intent.
+- Changed "kin ties" → "family ties"
+
+---
+
+## 0127-omi
+**Issues found:** None
+
+**Changes made:** None
+
+---
+
+## 0128-pini
+**Issues found:** None
+
+**Changes made:** None
+
+---
+
+## 0129-mitrā
+**Issues found:**
+- [Missing death] Bhadrā (paternal grandmother) dies 212 - not mentioned in narrative despite being established as a harsh disciplinarian in childhood
+- [Pseudosociological] "crowded with kin and work" line 387 - uses "kin"
+- [Pseudosociological] "so did his kin" line 397 - uses "kin"
+- [Pseudosociological] "A message arrived through kin" line 411 - uses "kin"
+- [Pseudosociological] "her husband's kin carried" line 413 - uses "kin"
+- [Chronology] Lines 401-405 jump backward in time: Somaśiri's death (224) mentioned, then "In 223 and 224 travelers..." then "The weak monsoon of 223..." - creates confusing back-and-forth timeline
+
+**Changes made:**
+- Added Bhadrā's death in 212 (same year as marriage): "Bhadrā died that year, before the marriage negotiations ended."
+- Changed "crowded with kin and work" → "crowded with family and work"
+- Changed "so did his kin" → "so did his family"
+- Changed "A message arrived through kin" → "A message arrived through relatives"
+- Changed "her husband's kin carried" → "her husband's family carried"
+- Reorganized chronology: moved traveler/monsoon paragraph before Somaśiri's death, placing events in correct temporal order (223 events → Somaśiri's death in 224)
+
+---
+
+## 0130-saya
+**Issues found:**
+- [Nala death timing wrong] Narrative says Nala died "that year" (when Saya was 40, in paragraph about Lina's death), but debug shows Nala dies -1023 when Saya was 26
+- [Missing death] Father Maki dies -1018 (when Saya is 31) - only mentioned in passing at age 41 as "had already died years earlier" but death event never shown
+- [Missing death] Mother Chani dies -1007 (when Saya is 42) - narrative mentions her at age 41 but never shows her death
+- [Pseudosociological] "Authority sat in kin groups" line 415 - uses "kin"
+- [Pseudosociological] "by kin cluster" line 423 - uses "kin"
+
+**Changes made:**
+- Fixed Nala's death timing: moved from the age-40 Lina paragraph to age 26, placed after the early child deaths (1029-1027 BC)
+- Added Maki's death (when Saya was 31) in correct chronological position
+- Added Chani's death ("Chani died the following year.") after the age-41 caregiving paragraph
+- Changed "Authority sat in kin groups" → "Authority sat in family compounds"
+- Changed "by kin cluster" → "by family group"
+- Changed "visiting kin" → "visiting relatives"
+
+---
+
+## 0131-kalis
+**Issues found:**
+- [Missing death] Papas (paternal grandfather) dies 357 BC - narrative shows him falling ill at age 16 and Kalis caring for him through age 17, but never states Papas died
+- [Missing sibling births/deaths] Batas (born/died 371 BC), Tatis (born/died 369 BC), and Zanis (born/died 367 BC) - three younger siblings who died as infants during Kalis's childhood never mentioned
+- [Pseudosociological] "His kin recovered his body" line 436 - uses "kin"
+
+**Changes made:**
+- Added Papas's death (357 BC, when Kalis was ~18): "Papas died in Kalis's eighteenth year, still feeble, unable to sit up at the end."
+- Added the three infant deaths (Batas, Tatis, Zanis) as part of the family experience during Kalis's childhood, placed after younger siblings section
+- Changed "His kin recovered his body" → "His family recovered his body"
+
+---
+
+## 0132-caiubi
+**Issues found:**
+- [Pseudosociological] "His kin washed him" line 245 - should name specific people or use "his family"
+
+**Changes made:**
+- Changed "His kin washed him" → "His family washed him"
+
+---
+
+## 0133-phuntsok
+**Issues found:**
+- [Missing death] Tsering (oldest brother) dies 1869 - not mentioned in narrative despite dying the same year as Phuntsok
+- [Timeline confusion] "Snow came early the next year. In autumn 1869..." - confusing phrasing; if "next year" means 1869, autumn 1869 is almost a full year later than early snow (which would be fall 1868 or early winter 1869)
+
+**Changes made:**
+- Added Tsering's death: "In autumn 1869, Tsering died, weakened by a lung illness."
+- Fixed timeline: "Snow came early the next year. In autumn 1869, Phuntsok developed..." → "The following winter was harsh. In autumn 1869, Tsering died... Weeks later, Phuntsok developed..." - now correctly places both deaths in autumn 1869 after a harsh winter
+
+---
+
+## 0134-tari
+**Issues found:**
+- [Pseudosociological] "small kin groups farmed rainfed plots" line 237 - uses "kin"
+- [Missing sibling birth] Rumo (younger brother, born -1390) appears at age 5 as "her toddler brother Rumo" without his birth being mentioned - he was born when Tari was ~2
+
+**Changes made:**
+- Changed "small kin groups farmed rainfed plots" → "families farmed rainfed plots"
+- Added Rumo's birth after Tari's introduction: "Two years after Tari, a boy, Rumo, was born."
+
+---
+
+## 0135-tarabai
+**Issues found:**
+- [Minor chronology] Fever (age 18, 1707-1708) appears before the bazaar cheating incident (age 17, 1706-1707) in the narrative. According to debug data, cheating should come first.
+
+**Changes made:**
+- Reordered the two paragraphs: moved the bazaar cheating paragraph to appear before the fever paragraph
+- Changed "That year she survived a severe fever" → "The following year she survived a severe fever" to clarify the chronological sequence (age 17 cheating → age 18 fever)
+
+---
+
+## 0136-mira
+**Issues found:**
+- [Pseudosociological] "passed the first pieces to the older kin nearby" line 145 - uses "kin"
+
+**Changes made:**
+- Changed "the older kin nearby" → "the elders nearby"
+
+---
+
+## 0137-hani
+**Issues found:**
+- [Missing death] Kori (older brother) dies -8669 (Hani age 27) - death mentioned vaguely as "already died" at age 34, needs explicit mention at correct time
+- [Missing sibling] Tali (younger brother, born -8687, dies -8652 at age 35) - completely missing from narrative; born when Hani was 9, dies when Hani was 44
+- [Missing sibling birth] Luma (younger sister, born -8689) appears at age 32 without her birth being mentioned - born when Hani was 7
+- [Missing death] Maya (daughter) dies -8647 (Hani age 49) - not mentioned in narrative
+- [Children birth timing] "Two years later came Maya" (from Niri at age 26) would be age 28, but debug shows Maya born -8667 (Hani age 29) - should be "three years later"
+- [Chronology] Original had Niri's birth (age 26) mentioned after events at age 27 - needed reordering
+- [Pseudosociological] "dead kin" line 425, "Her kin placed her body", "visiting kin", "Mina's kin", "close kin" - multiple uses of "kin"
+
+**Changes made:**
+- Added Luma and Tali births in childhood section after Aki's death: "More children followed. Luma was born when Hani was seven... Tali came two years later..."
+- Added Kori's death at correct chronological point (age 27) - added new paragraph after theft: "Kori died that same year, at thirty..."
+- Rewrote Sari paragraph to remove redundant Kori reference: "With both him and Kori gone..."
+- Added Tali's death when Hani was 44, placed correctly before Mina's death (age 46)
+- Added Maya's death combined with Suna's death paragraph (both die when Hani is 49): "Suna and Maya both died when Hani was forty-nine..."
+- Fixed children birth chronology: moved Niri's birth to before the age 27 events; changed Maya reference to "Three years after Niri came Maya"
+- Changed "dead kin" → "the dead"
+- Changed "Her kin placed her body" → "Her family placed her body"
+- Changed "visiting kin" → "visiting relatives"
+- Changed "Mina's kin" → "Mina's family"
+- Changed "close kin" → "close family"
+
+---
+
+## 0138-person-0138-unnamed
+**Issues found:** None
+
+**Changes made:** None
+
+---
+
+## 0139-sin-uballit
+**Issues found:**
+- [Impossible sibling ages] Debug shows Amat-Sin born 532 BC (42 years older than protagonist) and Belesunu born 525 BC (35 years older). A 42-year and 35-year gap between full siblings from the same mother is biologically impossible. Narrative treats them as young women who "learned to carry water" as children.
+- [AI-slop] "the rhythms came from canals, dates, and grain" - figurative "rhythms" language
+- [Sibling description error] "Both girls learned to carry water" - these would be 42 and 35-year-old women, not "girls learning" tasks
+
+**Changes made:**
+- **[DEVIATED FROM DEBUG]** Changed sibling ages to plausible values: Amat-Sin described as "fourteen" and Belesunu as "eight" at protagonist's birth. The 35-42 year sibling gaps in debug are biologically impossible for full siblings.
+- Changed "the rhythms came from canals, dates, and grain" → "the seasons turned on canals, dates, and grain"
+- Rewrote sibling introduction to show them at appropriate ages: "Their first child, Amat-Sîn, was now fourteen; Belesunu was eight."
+
+---
+
+## 0140-sīlā
+**Issues found:**
+- [Missing death] Father Dharaka dies -40 (Sīlā age ~19) - not mentioned in narrative
+- [Missing death] Mother Kālī dies -22 (Sīlā age ~37) - not mentioned in narrative
+- [Minor chronology] Nanda described as born "A year later" after Ajja but debug shows 2-year gap (-39 to -37)
+- [Pseudosociological] "affinal kin household" line 461, "affinal kin" line 463, "with kin nearby" line 455
+- [Minor figurative] "Pain locked her hip" - slightly figurative
+
+**Changes made:**
+- Added Dharaka's death after Sīlā's marriage to Rudda: "Dharaka died the next year, worn by labor and fever."
+- Added Kālī's death in the paragraph about midlife: "Her mother Kālī had died some years earlier, after seasons of recurring fever."
+- Changed "A year later she carried another pregnancy" → "Two years later she carried another pregnancy"
+- Changed "his kin household" → "her late husband's family"
+- Changed "Her affinal kin washed her body" → "Her husband's relatives washed her body"
+- Changed "with kin nearby" → "with family nearby"
+- Changed "Pain locked her hip" → "Pain seized her hip"
+
+---
+
+## 0141-bhadrā
+**Issues found:**
+- [Missing character] Datta (paternal grandfather) listed as caretaker with significant narrative role (provides supervision, storytelling, household authority, "lets Bhadrā listen to travelers or watch craft work") but never mentioned in narrative
+- [Pseudosociological] "joint household" line 250 - uses "joint"
+
+**Changes made:**
+- Added Datta (paternal grandfather) in the second paragraph: introduced alongside Devī as the household authorities
+- Changed "father's joint household under his parents' authority" → "father's household, shared with his parents"
+
+---
+
+## 0142-devi
+**Issues found:**
+- [Chronology] Line 375-376: "By 2022 Radha's health began to fail... In 2021 the family's money troubles worsened" - jumps backward in time within the same paragraph
+- [Minor figurative] "brought the house inward" line 365 - slightly figurative phrasing
+
+**Changes made:**
+- Fixed chronology: changed "In 2021 the family's money troubles worsened" → "From the pregnancy onward, the family's money troubles worsened" to avoid backward time jump after Nikhil's 2022 birth paragraph
+- Changed "brought the house inward" → "kept everyone inside"
+
+---
+
+## 0143-leni
+**Issues found:**
+- [Missing death] Father Wari dies -1337 (Leni age 27) - not mentioned in narrative
+- [Missing death] Brother Karo dies -1336 (Leni age 28) - not mentioned in narrative
+- [Missing death] Uncle Bora dies -1330 (Leni age 34) - mentioned at age 29 piglet dispute but death never shown
+- [Dead character error] Narrative said "Tina died when Leni was thirty-four" but debug shows Tina dies -1326, THREE YEARS AFTER Leni's death in -1329. Tina outlives Leni.
+- [Consistency error] Karo mentioned as available at age 30 ("through her brother Karo or her uncle Bora") but Karo died at age 28
+- [Pseudosociological] "kin ties" line 400
+- [Pseudosociological] "Her kin washed her body" line 438
+
+**Changes made:**
+- Added Wari's death (age 27): "Wari died when Leni was twenty-seven, during an outbreak of fever that swept through several hamlets."
+- Added Karo's death (age 28): "Karo, her only brother, died when Leni was twenty-eight. A wound on his leg festered after a garden accident."
+- Added Bora's death (age 34): "Bora, her father's brother who had helped settle disputes and speak on her behalf, died when Leni was thirty-four."
+- Removed false Tina death - replaced with "Tina still came by sometimes, though the two sisters never grew warm." (Tina survives Leni per debug)
+- Removed Karo from age-30 paragraph (he was dead): "through her brother Karo or her uncle Bora" → "through her uncle Bora"
+- Changed "kin ties" → "family ties"
+- Changed "Her kin washed her body" → "The women of the hamlet washed her body"
+
+---
+
+## 0144-yin-niang
+**Issues found:** None
+
+**Changes made:** None
+
+---
+
+## 0147-huta
+**Issues found:** None
+
+**Changes made:** None
+
+---
+
+## 0145-arthur-bernard-keegan
+**Issues found:**
+- [Birth order error] "fifth of six children" but by birth years (Seán 1911, Mary 1913, Arthur 1914, Patrick 1915, Brigid 1917, Eileen 1919), Arthur is 3rd not 5th
+- [Missing death] Mary (sister) dies 1992 - not mentioned in narrative
+- [Missing death] Eileen (sister) dies 1997 - not mentioned in narrative
+- [Missing death] Seán (brother) dies 2000, same year as Arthur - not mentioned in narrative
+- [Chronology error] Pub fight paragraph (1948) appears AFTER 1956 events (Bernard's death, daughter Eileen's birth), jumping backwards in time
+- [Clarity] Daughter named "Eileen" (1956) same as sister "Eileen" (1919) - potentially confusing for reader
+
+**Changes made:**
+- **[DEVIATED FROM DEBUG]** Changed "fifth of six children" → "third of six children" - debug had birth_order_position: 5 but sibling birth years clearly show Arthur as 3rd born
+- Added Mary's death (1992) in the later life section
+- Added sister Eileen's death (1997) - placed alongside Rita's death in 1996
+- Added Seán's death (2000) - mentioned in the final paragraph as dying earlier that same year
+- Fixed chronology: moved pub fight paragraph to correct position after 1946 marriage, before 1953 infant death
+- Added clarifying "his sister" when first mentioning sister Eileen's death to distinguish from daughter Eileen
+
+---
+
+## 0149-aditya
+**Issues found:**
+- [Developmental implausibility] "By 2025, Aditya reads and writes Marathi easily" and "copies prayers from a small notebook" - at age 4 (born May 2021), this is developmentally implausible. Most children don't read and write fluently until age 5-7. The debug "Functionally literate" describes his eventual literacy, not his current state.
+
+**Changes made:**
+- Changed "By 2025, Aditya reads and writes Marathi easily. He copies prayers from a small notebook, and he helps Mahesh count change at the shop, sometimes losing focus and needing reminders." → "By 2025, Aditya recognizes a few Marathi letters and can trace his name. He helps Mahesh count change at the shop, sometimes losing focus and needing reminders."
+
+---
+
+## 0150-zhao-yong
+**Issues found:**
+- [Missing character presence] Grandmother "Madam Zhao" mentioned once in paragraph 1 setting out bowls, then essentially disappears. Per debug, she was "hands-on caretaker, especially during illnesses" - should appear during ditch accident recovery and chronic illness scenes.
+- [Chronology unclear] "That spring his cough returned" - unclear which spring (1645 or 1646) since Teacher Qian appears "In 1645" just before.
+- [Redundant death mention] "His grandfather died in 1645" as standalone sentence in final paragraph - redundant since grandfather's death can be better integrated into the illness narrative.
+- [Missing grandmother in illness] Ditch accident recovery only mentions mother feeding him; grandmother should be present per her debug role.
+
+**Changes made:**
+- Named grandmother "Grandmother Zhao" in paragraph 1 and added her presence throughout
+- Added grandmother to illness/recovery scenes (ditch accident recovery, chronic fever care)
+- Clarified chronology: "That spring" → "In spring 1645" and clarified the winter cough return
+- Integrated grandfather's death into the illness narrative instead of standalone sentence in final paragraph
+- Added grandmother's presence at death scene
+
+---
+
+## 0146-gopayya
+**Issues found:** None
+
+**Changes made:** None
+
+---
+
+## 0151-ollin
+**Issues found:**
+- [Missing death] Grandmother Iztac dies 1207 - not mentioned in narrative
+- [Missing death] Uncle Coatl dies 1228 - not mentioned in narrative; narrative had him active through 1230
+- [Dead character referenced as alive] "Coatl began trading away cloth" in 1230, but Coatl died in 1228
+- [Pseudosociological] "watched by kin" line 376
+- [Pseudosociological] "her kin's side of the compound" line 394
+- [Pseudosociological] "Xochitl's kin expected" line 396
+- [Minor figurative] "Each death tightened the compound" - slightly figurative
+- [Clarity] Acatl described as "his mother's brother" but Coatl was already introduced as mother's brother; debug shows Acatl is "older male relative" not necessarily mother's brother
+
+**Changes made:**
+- Added grandmother Iztac's death (1207) with context showing her nurturing role and how the compound changed after
+- Added uncle Coatl's death (1228) with brief funeral scene and transition of household authority
+- Fixed dead character reference: "Coatl began trading away cloth" → "The household began trading away cloth"
+- Changed "watched by kin" → "watched by relatives"
+- Changed "her kin's side" → "her family's side"
+- Changed "Xochitl's kin" → "Xochitl's family"
+- Changed "Each death tightened the compound" → "Each death weighed on the compound"
+- Changed "Acatl, his mother's brother" → "Acatl, an older cousin skilled in woodland work"
+
+---
+
+## 0148-luta
+**Issues found:**
+- [Missing death] Rami (grandmother) dies 4302 BC when Luta is ~27 - never mentioned despite being a key early caretaker
+- [Missing death] Haro (father) dies 4285 BC when Luta is ~44 - not mentioned in narrative
+- [Missing death] Maki (mother) dies 4278 BC when Luta is ~51 - not mentioned in narrative
+- [Vague death timing] Nemi (sister) dies 4267 BC when Luta is ~62 - mentioned too vaguely as "She died much later" in the childhood section; death should be shown when it occurs
+- [Chronology error] Sori's death: narrative says "When Luta was seven" but Sori died in 4318 BC when Luta was ~11 (born 4329 BC, died at age 7)
+- [Pseudosociological] "His kin placed his body" line 424 - uses "kin"
+
+**Changes made:**
+- Added Rami's death after the leg injury recovery (age ~32): "Rami had died a few years earlier, while Luta was still in his late twenties, having slept closer to the fire each winter until one morning she did not wake."
+- Added Haro's death in the stomach sickness paragraph (age ~44): "Haro died around this time. He had grown thin and slow over the final seasons, and one morning he could not stand."
+- Added Maki's death in the daughter/son deaths section (age ~51): "Maki died when Luta was fifty-one, quietly, in her sleep."
+- Moved Nemi's death to correct chronological position (when Luta was ~62): removed vague "She died much later" from childhood section; added concrete death in old age section: "Nemi died when Luta was sixty-two, after a short fever."
+- Fixed Sori's death timing: "When Luta was seven" → "When Luta was eleven"
+- Changed "His kin placed his body" → "His family placed his body"
+
+---
+
+## 0157-zhang-jincai
+**Issues found:**
+- [Missing sibling deaths] Zhang San'er (born 1736, died 1736) and Zhang Si'er (born 1737, died 1737) - two younger siblings who died as infants during Jincai's lifetime never mentioned
+- [Awkward phrasing] "worked fiber" line 221 - awkward verb choice
+
+**Changes made:**
+- Added infant sibling deaths: "That year his mother bore another son, Zhang San'er, but the infant died within weeks. In early 1737 she bore Zhang Si'er, who lived only days."
+- Changed "worked fiber" → "twisted hemp"
+
+---
+
+## 0158-mara
+**Issues found:**
+- [Missing death] Mother Pina dies 636 - narrative shows her becoming frail by 630 and being cared for, but never explicitly states her death
+- [Pseudosociological] "Her kin washed her body" line 441 - uses "kin"
+- [Pseudosociological] "whose own kin ties ran thin" line 437 - uses "kin"
+
+**Changes made:**
+- Added Pina's death after the caregiving paragraph: "Pina died in 636, having outlived both her daughters."
+- Changed "Her kin washed her body" → "Nara and the women of the camp washed her body"
+- Changed "whose own kin ties ran thin" → "whose own family ties ran thin"
+
+---
+
+## 0159-person-0159-unnamed
+**Issues found:**
+- [Pseudosociological] "bound by kin" line 125 - uses "kin"
+
+**Changes made:**
+- Changed "bound by kin" → "bound by family"
+
+---
+
+## 0160-ismail
+**Issues found:**
+- [Missing sibling context] Yahya (older brother) died in 1266 at age 1, before Ismail's birth - this loss would have shaped the family's anxiety about male infants and should be mentioned for context
+- [Clarity] Amina's age not specified - Fatima is described as "ten years old" but Amina (seven) just appears as "her sister Amina"
+
+**Changes made:**
+- Added Yahya's prior death for family context: "Khadija had already lost a son, Yahya, who died in 1266 at one year old. That loss made her watchful."
+- Added Amina's age: "her sister Amina" → "her younger sister Amina, seven"
+
+---
+
+## 0155-ben-hadad
+**Issues found:**
+- [Missing death] Younger sister Hamat-šalim died at age 3 when protagonist was ~5 - not mentioned. Also needs birth mentioned since she's a younger sibling.
+- [Missing death] Brother Zakkur died at 55 when protagonist was ~51 - not mentioned
+- [Missing death] Mother Hannatu died when protagonist was ~47 - not mentioned
+- [Missing death] Co-wife Sillaya died when protagonist was ~58 - not mentioned
+- [Dead character as alive] Line 470: Zakkur mentioned as present at age 55, but Zakkur died when protagonist was ~51
+- [AI-slop] Line 442: "strict rhythm" - AI-slop phrase
+- [Pseudosociological] Line 452: "nearby kin" should be plain language
+
+**Changes made:**
+- Added Hamat-šalim's birth and death to the childhood section after Ahi-ram's death
+- Added Zakkur's death to the narrative after Atar-ʿatti's death (when protagonist was ~52)
+- Added Hannatu's death after father's death paragraph (when protagonist was ~47)
+- Added Sillaya's death after the chronic illness paragraph (when protagonist was ~58)
+- Fixed line 470: removed Zakkur from the age 55 scene (he had already died)
+- Changed "strict rhythm" → "steady routine"
+- Changed "nearby kin" → "a neighboring family"
+
+
+---
+
+## 0156-otsuru
+**Issues found:**
+- [Missing death] Omasa (mother) dies 1680 - not mentioned in narrative (major caretaker)
+- [Missing death] Oba Kiyo (aunt) dies 1672 - not mentioned in narrative (same year as marriage)
+- [Missing death] Otsune (sister) dies 1719 - death not mentioned despite sister appearing in 1683 and after 1703
+- [Pseudosociological] "natal kin connection" - uses "kin"
+- [Clarity] "bound to an adult child's household through earlier marriage arrangements and affinal ties" - unclear how Otsuru ended up in a stem-family arrangement when all her children died
+
+**Changes made:**
+- Added Omasa's death (1680) in correct chronological position: after Oito's birth (1679) and before Oito's death (1682)
+- Added Oba Kiyo's death (1672) connected to Otsuru's marriage the same year
+- Added Otsune's death (1719) in correct chronological position after Oshino's death (1713) and before Heisuke's death (1726)
+- Changed "natal kin connection" → "connection to her natal family"
+- Clarified living arrangement: replaced vague "affinal ties" explanation with concrete story of Takesaburō's widow remarrying within the village and keeping her mother-in-law
+
+
+---
+
+## 0154-pilla
+**Issues found:**
+- [Missing death] Father Kodan dies -12 (Pilla age 33) - not mentioned in narrative
+- [Missing death] Aunt Periya dies -30 (same year Pilla married) - introduced in childhood, then disappears without death mention
+- [Pseudosociological] "kin close enough to help" line 304 - uses "kin"
+- [Pseudosociological] "Korra's male kin pressed their own claims" line 316 - uses "kin"
+
+**Changes made:**
+- Added Kodan's death in correct chronological position (after marriage, before Korra's death): "Her father Kodan had died in -12, during a dry year that left the fields cracked. She was thirty-three."
+- Added Periya's death in the marriage year context: "Periya died that same year, before the wedding, taken by a fever that came late in the season."
+- Changed "kin close enough to help" → "family close enough to help"
+- Changed "Korra's male kin pressed their own claims" → "Korra's brothers pressed their own claims"
+
+
+
+---
+
+## 0152-miri
+**Issues found:**
+- [Major chronology error] Tana's death: narrative says "Tana died that season" during Miri's "fourth year," but debug shows Tana died in 1690 BC when Miri was less than 1 year old (born December 1691 BC). Miri would have no memory of this.
+- [Missing sibling] Koru mentioned only at burial scene despite debug describing him as "Main older brother figure" who "brings him small treats (roasted fish bits)"
+- [Missing sibling] Hako (younger brother, born 1689 BC, dies 1686 BC at age 3) completely missing from narrative - died when Miri was ~4-5
+- [Missing sibling] Poro (youngest sibling, born 1686 BC) completely missing from narrative - born when Miri was ~5
+- [Missing sibling] Daro (brother, dies 1692 BC at age 2 when Miri was ~2) never mentioned
+- [Missing death] Hako died during Miri's lifetime and is never mentioned
+- [Pseudosociological] "calling to dead kin by name" line 289 - uses "kin"
+
+**Changes made:**
+- Fixed Tana's death timing: moved to when Miri was under one year old with a note that her death was later spoken of by family, shaping household anxiety
+- Added Daro's death (1692 BC) mentioned as family memory before Miri's earliest recollections
+- Introduced Koru earlier as the main older brother figure with small concrete details (roasted fish bits, reassurance during storms)
+- Added Hako's birth and death: born when Miri was ~1-2, died in 1686 BC when Miri was ~4
+- Added Poro's birth (1686 BC) as the newest baby who drew household attention
+- Changed "calling to dead kin by name" → "calling to the dead by name"
+
+---
+
+## 0161-zeng-jinfang
+**Issues found:**
+- [Missing death] Grandmother Madam Qiu dies 1801 (when Jinfang was 22) - not mentioned in narrative despite being established as a key disciplinarian figure
+- [Pseudosociological] "Her husband's kin washed her body" line 466 - uses "kin"
+
+**Changes made:**
+- Added Madam Qiu's death (1801): "Her grandmother, Madam Qiu, died in 1801, ten years after her husband. Jinfang had outlived the woman who once slapped the table and told her to swallow her words; she did not weep at the funeral, only stood straight as she had been taught."
+- Changed "Her husband's kin washed her body" → "The women of her husband's household washed her body"
+---
+
+## 0153-angèle-hounsa
+**Issues found:**
+- [Missing death] Mother Assiba Dossou dies 2006 - not mentioned in narrative
+- [Missing death] Foster mother Tantine Yawa Hounkponou dies 1987 - not mentioned in narrative despite being primary caretaker
+- [Missing younger sibling births] Odile (1959), Bernadette (1961), Victoire (1963), Mathurin (1965) - never introduced; only Chantal (1957) mentioned among younger siblings
+- [Pseudosociological] "near his kin" line 440
+- [Typo] "Directuer Mensah" should be "Directeur Mensah" line 442
+
+**Changes made:**
+- Added foster mother Yawa's death (1987) chronologically placed before father's death: "Tantine Yawa died in 1987. She had been frail for two years..."
+- Added mother Assiba's death (2006) in the mid-2000s health section: "Her mother, Assiba Dossou, died in 2006."
+- Added younger siblings in the sibling paragraph: introduced Chantal, Odile, Bernadette, Victoire, and Mathurin with context about growing up apart from them
+- Changed "near his kin" → "near his family"
+- Fixed typo: "Directuer" → "Directeur"
+
+---
+
+## 0171-sundari
+**Issues found:**
+- [Missing death] Kesarba (paternal grandmother) dies 1516 - not mentioned in narrative despite being established as a major disciplinary figure
+- [Pseudosociological] "wider kin group" line 377 - uses "kin"
+- [Pseudosociological] "visiting kin" line 375 - uses "kin"
+- [Pseudosociological] "Her kin carried her" line 385 - uses "kin"
+
+**Changes made:**
+- Added Kesarba's death (1516): placed after Ganga's death in the same paragraph, showing the loss of the disciplinary grandmother in the same year as infant loss
+- Changed "Men in the wider kin group" → "Men among her husband's relatives"
+- Changed "by visiting kin" → "by visiting relatives"
+- Changed "Her kin carried her" → "Her family carried her"
+
+---
+
+## 0164-savitri
+**Issues found:** None
+
+**Changes made:** None
+
+---
+
+## 0166-pārvatī
+**Issues found:**
+- [Missing trait visibility] Height is at 8th percentile (extremely short) but is never mentioned in the narrative
+
+**Changes made:**
+- Added height visibility in the marriage/in-laws section: described Pārvatī as noticeably short when standing beside her mother-in-law
+
+---
+
+## 0163-rahma
+**Issues found:**
+- [Missing trait visibility] Low Honesty-Humility (22nd percentile) not visible - debug mentions "takes credit for Amina's ideas", "negotiates rules opportunistically", "small exaggerations to avoid blame" but none appears in narrative
+- [Missing character introduction] Mama Halima (household worker/nanny) appears serving tea at the end without any introduction; should be established earlier as a regular presence
+- [Vague illness] "fell seriously ill" - debug indicates this was during a "rainy-season vector-borne outbreak period" in the coastal zone; could be more specific about the illness (likely malaria or dengue)
+- [Awkward transition] "Now it's late 2025" - awkward transition; should update to early 2026
+
+**Changes made:**
+- Added Mama Halima introduction in the school paragraph: "Mama Halima cooked and watched the house when both parents worked"
+- Added Low Honesty-Humility visibility: "Sometimes she claimed Amina's ideas as her own. She exaggerated when chores went undone, blaming anyone nearby."
+- Changed "fell seriously ill" → "caught dengue fever" (dengue outbreaks documented in Dar es Salaam in recent years)
+- Changed "Now it's late 2025" → "Now it is early 2026"
+
+---
+
+## 0165-veko
+**Issues found:**
+- [Missing sibling] Nado (born 1912, died 1912, age 0) - infant sibling who died during Veko's lifetime completely missing from narrative. Story goes from Tyaro (1909) to Kardo (1915) without mentioning this death.
+- [Pseudosociological] "His kin cut him down" line 485 - uses "kin" at suicide discovery scene
+
+**Changes made:**
+- Added Nado's birth and death (1912) after Tyaro's introduction in paragraph 6: "Nado, another brother, was born in 1912 and died before he could crawl."
+- Changed "His kin cut him down" → "Nyarko and Nyanya cut him down"
+
+---
+
+## 0169-gautier
+**Issues found:** None
+
+**Changes made:** None
+
+---
+
+## 0167-iorwase
+**Issues found:**
+- [Missing character] Gbaahemba (paternal uncle, compound elder mentor) dies 1892 - never introduced or mentioned in narrative despite being listed as a key caretaker who "coaches Iorwase on customary compensation, oath-taking, and dispute settling"
+- [Missing death] Iortyom (youngest brother) dies 1902 - mentioned helping with the move but death never mentioned
+- [Missing sibling] Orkpe (younger sister, born 1842, outlives protagonist) - completely missing from narrative despite surviving him
+- [Chronology error] Yam theft (1873-1874) placed AFTER 1879 events (Terfa's death, the move, the assault) - creates confusing backward timeline
+- [Pseudosociological] "within the network of kin" line 485
+
+**Changes made:**
+- Added Gbaahemba introduction in childhood section (as elder who taught him about settlements and oaths)
+- Added Gbaahemba's death (1892) in correct chronological position after father's death and before the land arbitration
+- Added Orkpe introduction in the sibling paragraph
+- Added Iortyom's death (1902) in the colonial section
+- Fixed chronology: moved yam theft paragraph to correct position between Iorkyaa's death (1878) and Terfa's death (1879)
+- Changed "within the network of kin" → "within the network of family"
+
+---
+
+## 0162-luo-fugen
+**Issues found:**
+- [Missing death] Grandmother Liu Shi dies 1827 (when Fugen was 19) - narrative says "When his grandmother Liu Shi was alive" in past tense but never states her death
+
+**Changes made:**
+- Added Liu Shi's death (1827) in the paragraph about his education: "His grandmother Liu Shi died in 1827, leaving the household without her steady hand at small tasks."
+
+---
+
+## 0170-thushari
+**Issues found:**
+- [Data error] `lifestyle: "FLAG: Urban"` in frontmatter should be "Rural" per debug data
+- [Clarity] Line 365: "a close relative died suddenly, leaving a young child without a stable home. Thushari brought the child into her parents' house" - unclear whether "the child" is the deceased relative's child or the relative themselves; debug says "one of the deceased's young children" so should clarify
+
+**Changes made:**
+- Changed `lifestyle: "FLAG: Urban"` → `lifestyle: "Rural"`
+- Changed "a close relative died suddenly, leaving a young child without a stable home. Thushari brought the child into her parents' house" → "a close relative died suddenly, leaving a young child orphaned. Thushari brought the orphan into her parents' house"
+
+---
+
+## 0168-yonu
+**Issues found:**
+- [Missing death] Aru (father) dies -53588 (Yonu age 65) - not mentioned in narrative
+- [Missing death] Tuma (grandmother) dies -53618 (Yonu age 35) - not mentioned in narrative; last appears treating wounds after the beating at age 34
+- [Missing death] Suma (second partner) dies -53605 (Yonu age 48) - relationship mentioned to end but her death never shown; narrative_plan says "lasts until Suma later dies as an older adult"
+- [Chronology error] Narrative says "At thirty-five Kori died" but debug shows Kori dies -53624, which is when Yonu was 29 (born -53653). Kori should die BEFORE Ena's death (at 31).
+- [Dead character as alive] Tuma appears helping with Gamu's death (age 42) but Tuma died when Yonu was 35
+- [Pseudosociological] "Mira left with her kin" line 381, "Suma's kin" line 393, "His kin wrapped him" line 409 - three uses of "kin"
+
+**Changes made:**
+- Fixed Kori's death timing: moved from age 35 to age 29, placed correctly before Ena's death paragraph (since Ena dies at 31)
+- Added Tuma's death (age 35): "Tuma, who had helped raise him after his mother died and whose bitter-leaf remedies had eased his bruises after the beating, died that same year."
+- Fixed Tuma anachronism: changed Gamu's death scene from "Tuma pushed small sips of water" → "Suma pushed small sips of water"
+- Added Aru's death (age 65): "Aru died when Yonu was sixty-five..."
+- Added Suma's death (age 48): "Suma died when Yonu was forty-eight..."
+- Changed "Mira left with her kin" → "Mira left with her family"
+- Changed "Suma's kin" → "Suma's family"
+- Changed "His kin wrapped him" → "His family wrapped him"
+
+---
+
+## 0180-zi
+**Issues found:**
+- [Chronology error] Narrative says "Soon after [Zi's death], Mu delivered another daughter, Mo, who died at birth." But per debug data, Mo was born in 1431 BC and Zi died in September 1432 BC. Mo was born AFTER Zi's death and should not be mentioned in Zi's narrative at all—Zi never knew about Mo.
+
+**Changes made:**
+- Removed the sentence about Mo's birth/death entirely: "Soon after, Mu delivered another daughter, Mo, who died at birth." (Mo was born after Zi died per debug data)
+
+---
+
+## 0178-nara
+**Issues found:**
+- [Clarity] "Nara's older sister Mina had already died" - Mina died in 696 BC when Nara was about 2 years old, not before Nara's birth; phrasing makes it sound like a pre-birth death
+
+**Changes made:**
+- Changed "Nara's older sister Mina had already died" → "Nara's older sister Mina had died the year before, at three" - clarifies timing and Mina's age at death
+
+---
+
+## 0181-sifrid
+**Issues found:**
+- [Figurative language] "shaped his family's days" - mildly abstract/figurative
+
+**Changes made:**
+- Changed "The lord's rights and dues shaped his family's days" → "The lord's rights and dues governed his family's days"
+
+---
+
+## 0174-qori
+**Issues found:** None
+
+**Changes made:** None
+
+
+---
+
+## 0179-bao
+**Issues found:**
+- [Pseudosociological] "Her kin washed her body" line 413 - should specify who
+- [Missing death] Maternal uncle Liu dies 1310 - not mentioned (last appears helping during crisis years 1305-1309)
+- [Missing death] Sister Mei dies 1337, same year as Bao - not mentioned
+
+**Changes made:**
+- Changed "Her kin washed her body" → "The women of the household washed her body"
+- Added uncle Liu's death: "Her maternal uncle Liu died in 1310, removing one of the last people she could turn to when heavy labor was needed."
+- Added sister Mei's death: "Her youngest sister Mei died early in 1337. Bao made the journey to attend the rites, slower now than she had been."
+
+---
+
+## 0175-akwele
+**Issues found:**
+- [Missing death] Sister Esi (born 1967, died 1974 at age 7) - mentioned alive in narrative "clung to Akwele's wrapper" but death never mentioned
+- [Missing death] Mother Afi Lartey died in 1996 - last mentioned at father's death in 1988, death never mentioned
+- [Sibling clarity] "Ama came after Akwele, then the brothers and sisters in a long line" - too vague; later paragraph says Kofi/Nii/Yaw came "in quick succession" but skips Esi and Adjoa entirely
+- [Chronology] Thefts paragraph says "In 1988 a coin purse went missing" and "In 1992 someone took a bag of onions" but follows the 1990s paragraph - backward chronology
+
+**Changes made:**
+- Rewrote sibling introduction: "Ama came two years after Akwele, then more: Kwame in 1962, who died before his first birthday; Kofi in 1963; Nii in 1965; Esi in 1967; Adjoa in 1970; and Yaw, the youngest, in 1972"
+- Removed redundant sibling listing from early 1970s paragraph (now just mentions Esi)
+- Added Esi's death: "In 1974, Esi fell sick with a fever and died at seven. The household absorbed the loss as it had absorbed Kwame's death years before—quietly, with prayer and then work."
+- Added mother's death: "Afi died in 1996. Akwele had expected it—her mother had been slowing down for years—but the funeral still drained what savings she had, and the compound felt quieter afterward."
+- Fixed chronology: "Thefts started as small humiliations. In 1988 a coin purse..." → "Thefts had been part of life since the late 1980s. A coin purse..." (removed specific years to avoid backward jumps)
+
+---
+
+## 0173-zhou-guorong
+**Issues found:**
+- [Missing death] Mother Lin Xiuying dies in 2024 per debug data, but death never stated in narrative. Story ends in late 2025 and mentions keeping her photo on the shelf, implying death, but the death event itself was omitted.
+
+**Changes made:**
+- Added mother's death: "Lin Xiuying died in 2024, and Guorong arranged the funeral and the offerings."
+
+---
+
+## 0172-karna
+**Issues found:**
+- [CRITICAL - Missing death] Mother Sita dies in 842 per debug data, but narrative has her alive in 843 caring for dying Karna ("Padma and Sita gave him thin rice water")
+- [Vague hedging] "a lump of jaggery or roasted gram" - LLM indecision
+- [Pseudosociological] "before she could be properly named by the wider kin" - awkward phrasing with "wider kin"
+- [Chronology] Paragraph starts with "In 836 and 837 the rains had already turned uncertain" after previous paragraph covered events through 840 - temporal backtrack
+
+**Changes made:**
+- Added Sita's death: "That same year Sita died. She had grown thin and slow through the debt years, and a fever took her before the harvest. The household felt emptier without her quiet routines—the pinch of rice at the courtyard edge, the early mornings at the quern."
+- Fixed final scene: "Padma and Sita gave him thin rice water" → "Padma gave him thin rice water" (Sita already dead)
+- Changed "jaggery or roasted gram" → "jaggery"
+- Changed "before she could be properly named by the wider kin" → "within a week"
+- Reorganized paragraphs: moved "The rains turned uncertain in 836 and 837" to start of children paragraph, fixing chronological flow
+
+---
+
+## 0189-sena
+**Issues found:**
+- [Clarity] Line 217 says "Four older sisters were alive in the yard" then names only three (Suma, Mira, Rani) plus "the memory of Dasi" who died before Sena's birth. Confusing phrasing—a memory is not a person alive in the yard.
+
+**Changes made:**
+- Rewrote: "Four older sisters were alive in the yard when Sena arrived: Suma, Mira, and Rani, and the memory of Dasi" → "Three older sisters were alive when Sena arrived: Suma, ten years old; Mira, six; and Rani, two. A fourth, Dasi, had died in infancy years earlier."
+
+---
+
+## 0191-kima
+**Issues found:**
+- [Pseudosociological] "Mara's kin stepped in" (line 500) - "kin" should be more specific about who intervened
+
+**Changes made:**
+- Changed "Mara's kin stepped in" → "Mara and her brothers stepped in"
+
+---
+
+## 0188-durgādeva
+**Issues found:** None
+
+**Changes made:** None
+
+
+---
+
+## 0186-person-0186-unnamed
+**Issues found:**
+- [Naming] Parent names "Tɔhɨ" and "Ñuxa" use IPA symbols (ɔ, ɨ) which violates naming policy: "Inferable/reconstructed names: Plain romanization only—no scholarly notation (asterisks, IPA symbols, macrons, hyphens between morphemes)"
+
+**Changes made:**
+- Changed "Tɔhɨ" → "Tohi" (removed IPA symbols)
+- Changed "Ñuxa" → "Nuxa" (removed ñ tilde for consistency with plain romanization)
+
+---
+
+## 0184-khadija
+**Issues found:**
+- [AI-slop/figurative] "the rhythms of the week and year" - metaphorical phrasing
+- [Awkward phrasing] "Late 2025 finds her" - awkward present tense construction
+- [Trait visibility] High honesty-humility (93rd percentile) not shown concretely in narrative
+
+**Changes made:**
+- Rewrote "the rhythms of the week and year—Friday prayers, Ramadan, the two Eids—organized the household" → "Friday prayers, Ramadan, and the two Eids set the shape of each week and year"
+- Changed "Late 2025 finds her" → "By late 2025, she is"
+- Added honesty-humility manifestation: "When her grandmother caught her reaching for the sugar bowl, she froze, then slowly pushed it back without being told."
+
+---
+
+## 0183-kusum
+**Issues found:**
+- [Pseudosociological] Line 324: "kin were close enough to appear when there was news" - should be "relatives"
+- [Pseudosociological] Line 356: "nearby kin" - should be specific (her sisters)
+- [Figurative] Line 326: "a face like stone" - simile
+- [Figurative] Line 338: "as if shame was a tool to get results" - unnecessary metaphor
+- [Figurative] Line 350: "like a private bruise" - simile
+
+**Changes made:**
+- Changed "kin were close enough" → "relatives were close enough"
+- Changed "nearby kin" → "her sisters' houses nearby"
+- Changed "a face like stone" → "a blank face"
+- Removed "as if shame was a tool to get results" → replaced with "to get results"
+- Changed "like a private bruise" → "without speaking of it"
+
+
+---
+
+## 0200-kira
+**Issues found:**
+- [Pseudosociological] Line 157: "sent goods through kin" - should use plain language
+- [Pseudosociological] Line 159: "Hali, an older woman from Sani's kin" - vague; debug says maternal grandmother
+- [Figurative] Line 159: "moved like another adult" - simile
+
+**Changes made:**
+- Changed "sent goods through kin" → "sent goods through relatives"
+- Changed "Hali, an older woman from Sani's kin" → "Hali, Sani's mother"
+- Changed "moved like another adult" → "worked as another adult"
+
+
+---
+
+## 0199-yama
+**Issues found:**
+- [Chronology] Line 362: "Ruma died when Yama was twenty-nine" - debug says Ruma dies -6778, Yama born -6805, so age 27 not 29
+- [Repetition] Line 360 and 362 both start with "When Yama was twenty-seven" after fixing the above
+- [Pseudosociological] Line 360: "greeting every adult by kin term" - academic jargon
+
+**Changes made:**
+- "Ruma died when Yama was twenty-nine" → "Ruma died that same year" (connects to preceding assault at age 27)
+- "by kin term" → "by name or relation"
+
+---
+
+## 0194-wanyan-helibo
+**Issues found:**
+- [Missing sibling birth] Wanyan Ledu (F) born 1196 never mentioned - younger sister born after infant deaths, survives
+- [Pseudosociological] Line 410: "kin groups and village elders" - should be "families"
+- [Pseudosociological] Line 432: "Zongbi's kin" - should be "Zongbi's family"
+- [Pseudosociological] Line 436: "her kin warned her away" - should be "her family"
+- [Pseudosociological] Line 442: "along kin lines" - should be "among families"
+- [Pseudosociological] Line 446: "His kin recovered the body" - should specify who (mother and sisters)
+
+**Changes made:**
+- Added Ledu's birth: "In 1196 a fourth daughter, Wanyan Ledu, was born. This one lived. Helibo was eight and old enough to fetch water and help keep watch when the baby slept."
+- Changed "kin groups and village elders" → "families and village elders"
+- Changed "Zongbi's kin" → "Zongbi's family"
+- Changed "her kin warned her away" → "her family warned her away"
+- Changed "along kin lines" → "among families"
+- Changed "His kin recovered the body" → "Loushi and his sisters recovered the body"

@@ -1,0 +1,10 @@
+Review complete for story **0159-person-0159-unnamed**.
+
+**Summary:**
+- This is an unnamed infant from the Cross-Niger forest region around 4772 BC who died at about 9 months old from diarrhea/dysentery
+- The story was clean overall - correctly kept the infant unnamed, properly mentioned the firstborn sister who died before the protagonist was born, and correctly excluded younger siblings who were born after the protagonist's death
+
+**One issue found and fixed:**
+- Pseudosociological "kin" language: Changed "bound by kin" → "bound by family"
+
+The review log has been updated at `_lives/REVIEW_LOG.md`.

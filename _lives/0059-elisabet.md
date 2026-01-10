@@ -13,7 +13,8 @@ country: "Germany"
 latitude: 51.47
 longitude: 11.71
 map_url: "https://www.google.com/maps/place/51.47,11.71/@51.47,11.71,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "F"
 age_tag: "Infant (0–1)"

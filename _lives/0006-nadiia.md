@@ -12,7 +12,8 @@ country: "Ukraine"
 latitude: 49.64
 longitude: 29.79
 map_url: "https://www.google.com/maps/place/49.64,29.79/@49.64,29.79,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "F"
 age_tag: "Child (2–10)"

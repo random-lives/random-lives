@@ -13,7 +13,8 @@ country: "Iraq"
 latitude: 32.48
 longitude: 44.37
 map_url: "https://www.google.com/maps/place/32.48,44.37/@32.48,44.37,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "F"
 age_tag: "Adult (19–49)"

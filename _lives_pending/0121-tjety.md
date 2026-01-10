@@ -7,12 +7,14 @@ death_year: "1644 BC"
 age_at_death: 1
 birth_date: "May 2, 1645 BC"
 death_date: "June 26, 1644 BC"
-location: "الرشايدة, سوهاج, 82743, مصر"
+location: "Al-Rashaida, Sohag, Egypt"
+location_original: "الرشايدة, سوهاج, 82743, مصر"
 country: "Egypt"
 latitude: 26.4
 longitude: 31.79
 map_url: "https://www.google.com/maps/place/26.4,31.79/@26.4,31.79,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "F"
 age_tag: "Infant (0–1)"
@@ -139,6 +141,6 @@ Tjety was born into an Egyptian-speaking household on the cultivated edge of the
 
 Before Tjety, Merit had borne a son, Khay, who died in the days after his birth. Their next child, Sat-Hathor, lived and learned to fetch small things: a cloth, a pinch of natron, a cup. When Merit delivered Tjety in the hot season, Sat-Hathor was four and watched from the doorway while a neighbor woman and Merit’s mother, Heni, helped with water and clean linen.
 
-In the first months, Tjety wore a small protective amulet on a cord. Merit spoke short prayers over her and set crumbs of bread and a little beer before a household niche where Isis and Hathor stood beside a small token for kin dead. Nebamun brought home a foreign charm from a traveler—knotted cord and a carved bead—and Merit tied it near the cradle.
+In the first months, Tjety wore a small protective amulet on a cord. Merit spoke short prayers over her and set crumbs of bread and a little beer before a household niche where Isis and Hathor stood beside a small token for the family dead. Nebamun brought home a foreign charm from a traveler—knotted cord and a carved bead—and Merit tied it near the cradle.
 
 After Tjety was weaned onto thin gruel and water, she fell sick with diarrhea. Merit tried salted water, barley-water, and cooling cloths; Nebamun summoned Pentu, who recited words and rubbed oil mixed with herbs on the child’s belly. Tjety died before the next flood rose. They wrapped her in linen and placed her in a small pit at the edge of the settlement, with a pinch of grain and a drop of beer poured onto the sand.

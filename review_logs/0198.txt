@@ -1,0 +1,13 @@
+**Review complete for 0198-sira.**
+
+**Summary:**
+- This is a well-written infant narrative (age 1, died of diarrheal disease in 1516 BC Iran)
+- Simple family structure: nuclear household with mother Tara and father Nima, no siblings
+- Both parents properly introduced with their roles and activities
+- The weaning-related illness and death are described appropriately
+- Minor characters (Kari, Suna) introduced naturally when they appear
+
+**One issue found and fixed:**
+- Pseudosociological language: "dead kin from her own line" → "dead relatives from her own family"
+
+The story is otherwise clean and reads well. The narrative has good concrete detail (the hearth against the inner wall, soot-darkened roof beams, stone quern, wool thread) and flows naturally from birth through illness to death.

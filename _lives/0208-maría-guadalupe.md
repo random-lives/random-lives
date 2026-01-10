@@ -7,11 +7,13 @@ death_year: "1991 AD"
 age_at_death: 58
 birth_date: "January 14, 1933 AD"
 death_date: "July 3, 1991 AD"
-location: "Belisario Dominguez, Monterrey, Nuevo León, México"
+location: "Monterrey, Nuevo Leon, Mexico"
+location_original: "Belisario Dominguez, Monterrey, Nuevo León, México"
 country: "Mexico"
 latitude: 25.73
 longitude: -100.32
 map_url: "https://www.google.com/maps/place/25.73,-100.32/@25.73,-100.32,5z"
+old_lifestyle: "Urban"
 lifestyle: "Urban"
 era: "Holocene"
 sex: "F"
@@ -452,11 +454,11 @@ continent: "North America"
 
 María Guadalupe Ramírez Garza was born on January 14, 1933, in Monterrey, Nuevo León, when the city ran under the authority of the post-Revolution Mexican state and the PRI’s growing political machine. Her family spoke Spanish at home, went to Mass, and kept a small religious corner with a crucifix and an image of the Virgin of Guadalupe, a candle stub, and a rosary looped over a nail.
 
-She entered a crowded household already shaped by older siblings. Ricardo, Ernesto, and Javier were men in their teens and early twenties by the time she began to remember them: boots by the door, the smell of sweat and machine oil, work talk at the table. Rogelio was closer but still much older, with the impatience of someone who believed effort fixed most things. Elena, born in 1930, became her nearest ally, the one who could translate the shifting moods of their parents. Leticia arrived two years after María Guadalupe and grew into a rival for attention, quick to hide a toy or mock a hairstyle, then quick to share candy when nobody watched.
+She entered a crowded household with older siblings already grown or nearly grown. Ricardo, Ernesto, and Javier were men in their teens and early twenties by the time she began to remember them: boots by the door, the smell of sweat and machine oil, work talk at the table. Rogelio was closer but still much older, with the impatience of someone who believed effort fixed most things. Elena, born in 1930, became her nearest ally, the one who could translate the shifting moods of their parents. Leticia arrived two years after María Guadalupe and grew into a rival for attention, quick to hide a toy or mock a hairstyle, then quick to share candy when nobody watched.
 
 Their father, José Ramírez, earned a steadier wage than many men in the neighborhood because he had a trade and kept it; he repaired and installed, came home with scraped knuckles, and expected quiet when he sat down. Their mother, Carmen Garza, sold and helped sell—small retail work that meant long hours standing, bargaining, and counting coins before returning home to a second shift of cooking and washing. Carmen ran the home with lists in her head and impatience in her voice. When a job of cleaning or fetching water went undone, she reached for a belt. When José found out a task had been missed, he brought a switch. The punishments landed often between 1939 and 1946, when María Guadalupe was six to thirteen. She learned to anticipate anger and to move quickly when someone barked her name, yet she still forgot. She left a pot too long, lost a key, arrived late from an errand. The bruises came, then the demand that she scrub floors or watch Leticia instead of playing.
 
-School gave her something she could hold onto: words on paper. She learned to read and to write in Spanish well enough to leave notes and copy prayers, and she picked up a little English—simple phrases from lessons and from hearing it in stores and at the edge of radio broadcasts. She did not keep up with assignments. Teachers sent notes home that she hid or misplaced. Carmen took her out of class for chores more than once, and María Guadalupe never recovered the rhythm of regular work.
+School gave her something she could hold onto: words on paper. She learned to read and to write in Spanish well enough to leave notes and copy prayers, and she picked up a little English—simple phrases from lessons and from hearing it in stores and at the edge of radio broadcasts. She did not keep up with assignments. Teachers sent notes home that she hid or misplaced. Carmen took her out of class for chores more than once, and María Guadalupe never caught up.
 
 She found steadiness at church. Abuela Petra, her mother’s mother, sometimes appeared in the doorway with a bundle of herbs or a sack of fruit, and she was the adult who put a hand between María Guadalupe and a raised belt. Petra taught her a novena and how to hold the rosary beads between thumb and forefinger. When Petra died in 1952, the house felt louder and less protected. María Guadalupe turned to Elena more, whispering in bed after the lights went out, making each other laugh by imitating their brothers’ serious voices.
 

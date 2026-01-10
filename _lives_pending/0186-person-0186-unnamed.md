@@ -7,12 +7,14 @@ death_year: "1432 AD"
 age_at_death: 0
 birth_date: "February 21, 1432 AD"
 death_date: "February 21, 1432 AD"
-location: "Chapa de Mota, Estado de México, México"
+location: "Chapa de Mota, State of Mexico, Mexico"
+location_original: "Chapa de Mota, Estado de México, México"
 country: "Mexico"
 latitude: 19.82
 longitude: -99.57
 map_url: "https://www.google.com/maps/place/19.82,-99.57/@19.82,-99.57,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Infant (0–1)"
@@ -103,10 +105,10 @@ continent: "North America"
 # - F
 ---
 
-In the high pine-oak country northwest of the Basin of Mexico, Otomí-speaking families farmed milpa fields under local lords who demanded labor and goods, and they traded in markets where Nahua speech carried weight. Tɔhɨ, a smallholder farmer, lived with his wife Ñuxa in a one-room adobe house with a packed-earth floor, a hearth, and baskets of dried maize. Ñuxa ground corn on a metate before dawn and walked to market with woven cloth and maguey fiber goods, speaking Otomí at home and enough Nahuatl to bargain.
+In the high pine-oak country northwest of the Basin of Mexico, Otomí-speaking families farmed milpa fields under local lords who demanded labor and goods, and they traded in markets where Nahua speech carried weight. Tohi, a smallholder farmer, lived with his wife Nuxa in a one-room adobe house with a packed-earth floor, a hearth, and baskets of dried maize. Nuxa ground corn on a metate before dawn and walked to market with woven cloth and maguey fiber goods, speaking Otomí at home and enough Nahuatl to bargain.
 
-On February 21, 1432, Ñuxa went into labor as cold air settled down from the ridges. A midwife from nearby houses came with a bundle of clean cloth, obsidian blades, and copal. The child was born male. His body showed a congenital defect that left him unable to live through the day. Tɔhɨ set a small clay bowl of water near the hearth and burned a pinch of copal; Ñuxa pressed a bit of maize dough to the infant’s lips as a first offering.
+On February 21, 1432, Nuxa went into labor as cold air settled down from the ridges. A midwife from nearby houses came with a bundle of clean cloth, obsidian blades, and copal. The child was born male. His body showed a congenital defect that left him unable to live through the day. Tohi set a small clay bowl of water near the hearth and burned a pinch of copal; Nuxa pressed a bit of maize dough to the infant’s lips as a first offering.
 
 The household did not give him a public name before he died.
 
-Two days later they placed his small body in the ground at the edge of their plot, where field stones marked the boundary. Ñuxa laid down a strip of woven cloth and a few kernels of maize; Tɔhɨ added a paper offering and a brief prayer learned in Nahuatl, then covered the grave with soil. In 1434 their daughter was born, and she lived until 1480.
+Two days later they placed his small body in the ground at the edge of their plot, where field stones marked the boundary. Nuxa laid down a strip of woven cloth and a few kernels of maize; Tohi added a paper offering and a brief prayer learned in Nahuatl, then covered the grave with soil. In 1434 their daughter was born, and she lived until 1480.

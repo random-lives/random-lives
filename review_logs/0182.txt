@@ -1,0 +1,33 @@
+The narrative looks good now. Let me verify the death checklist is complete:
+
+**Deaths that occur during Joga's lifetime (1901-1941):**
+1. ✅ Grandfather Budhna (dies 1912) - mentioned at line 430
+2. ✅ Grandmother Dukhi (dies 1920) - now mentioned at line 438
+3. ✅ Sister Lita (dies 1903) - now mentioned at line 428
+4. ✅ Father Rupa (dies 1931) - mentioned at line 452
+5. ✅ Mother Phulo (dies 1938) - mentioned at line 456
+6. ✅ Daughter Chandni (dies 1923) - mentioned at line 442
+
+**Siblings/children who die after Joga's death (1941):**
+- Sona (dies 1970), Biru (dies 1970), Jatra (dies 1973), Sukri (dies 1968) - all after Joga's death, no need to mention
+
+**Siblings who died before Joga's birth:**
+- Jhano (dies 1896), Kalu (dies 1898), Doman (dies 1900) - mentioned at line 426 as "Two tiny brothers had died before him, and an older sister, Jhano"
+
+The review is complete. Here's the summary:
+
+---
+
+## Review Summary for 0182-joga
+
+**Issues found:**
+1. **Missing death** - Grandmother Dukhi dies 1920 (Joga age 19) - she was mentioned during the influenza years (1918) but her death was never stated
+2. **Missing sibling birth/death** - Sister Lita born 1903, dies 1903 - a sibling who died during Joga's childhood was not mentioned at all  
+3. **Pseudosociological language** - "lived close to his kin" 
+4. **Pseudosociological language** - "hosting kin"
+
+**Changes made:**
+1. Added Dukhi's death: "Dukhi died that same year, after a short illness that left her unable to rise from her mat. Joga helped carry her to the burial ground. The compound felt emptier without her."
+2. Added Lita's birth and death alongside Jatra's introduction: "In 1903 a sister, Lita, was born and died before the monsoon ended. The next year a brother, Jatra, arrived and survived."
+3. Changed "lived close to his kin" → "lived near his brothers' households"
+4. Changed "hosting kin" → "hosting relatives"

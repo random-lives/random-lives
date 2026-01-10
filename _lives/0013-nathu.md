@@ -12,6 +12,7 @@ country: "India"
 latitude: 26.07
 longitude: 86.19
 map_url: "https://www.google.com/maps/place/26.07,86.19/@26.07,86.19,5z"
+old_lifestyle: "Urban"
 lifestyle: "Urban"
 era: "Holocene"
 sex: "M"

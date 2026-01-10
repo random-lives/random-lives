@@ -12,7 +12,8 @@ country: "Afghanistan"
 latitude: 32.56
 longitude: 67.03
 map_url: "https://www.google.com/maps/place/32.56,67.03/@32.56,67.03,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Pastoralist"
 era: "Holocene"
 sex: "M"
 age_tag: "Child (2–10)"

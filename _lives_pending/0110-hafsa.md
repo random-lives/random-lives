@@ -7,12 +7,14 @@ death_year: "1394 AD"
 age_at_death: 0
 birth_date: "May 29, 1394 AD"
 death_date: "May 30, 1394 AD"
-location: "Çay, Afyonkarahisar, Ege Bölgesi, Türkiye"
+location: "Cay, Afyonkarahisar, Turkey"
+location_original: "Çay, Afyonkarahisar, Ege Bölgesi, Türkiye"
 country: "Turkey"
 latitude: 38.65
 longitude: 30.96
 map_url: "https://www.google.com/maps/place/38.65,30.96/@38.65,30.96,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "F"
 age_tag: "Infant (0–1)"

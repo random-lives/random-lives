@@ -7,12 +7,14 @@ death_year: "1820 AD"
 age_at_death: 80
 birth_date: "January 16, 1740 AD"
 death_date: "January 29, 1820 AD"
-location: "Beaufort, Avesnes-sur-Helpe, Nord, Hauts-de-France, France métropolitaine, 59330, France"
+location: "Beaufort, Nord, France"
+location_original: "Beaufort, Avesnes-sur-Helpe, Nord, Hauts-de-France, France métropolitaine, 59330, France"
 country: "France"
 latitude: 50.22
 longitude: 3.97
 map_url: "https://www.google.com/maps/place/50.22,3.97/@50.22,3.97,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "F"
 age_tag: "Elder (50+)"
@@ -456,12 +458,12 @@ The next years held illness again, this time drawn out. From 1783 to 1788 someon
 
 Jean-Baptiste died in 1790. His death tore a hole in the household’s structure. He had been the one who talked with landlords and officials and measured out obligations. Marie Jeanne could count money but not read a lease. She depended on Pierre-Jacques, now a grown man, to interpret papers and speak with men who wore authority in their coats. She pushed him hard and accused him of withholding coins; he accused her of refusing reality. Jean steadied things when he could, but the household became smaller and more fragile.
 
-Then the Revolution reached their village in rules and demands. The priest’s oath divided people. Marie Jeanne continued her prayers at home and kept her saints’ images, careful about what she said outside. During the war years, especially 1793 through 1796, soldiers moved through the Nord and requisitioned hay and grain. A corporal named Lefebvre came with papers and an impatient voice. Marie Jeanne hid a sack of grain behind stacked flax and told the children to keep quiet. She stopped going to market on days when the roads felt unsafe. Fear made her controlling; she counted what was left, scolded her daughter for waste, and watched the door as if it could be forced at any moment.
+Then the Revolution reached their village in rules and demands. The priest’s oath divided people. Marie Jeanne continued her prayers at home and kept her saints’ images, careful about what she said outside. During the war years, especially 1793 through 1796, soldiers moved through the Nord and requisitioned hay and grain. A corporal named Lefebvre came with papers and an impatient voice. Marie Jeanne hid a sack of grain behind stacked flax and told the children to keep quiet. She stopped going to market on days when the roads felt unsafe. Fear made her controlling; she counted what was left, scolded her daughter for waste, and checked the door latch repeatedly at night.
 
 The crisis of those years was not one day but a grinding stretch. The holding was split and the terms worsened. Animals were sold. Linen she had spun and stored for years went out of the house for cash. She ate less so the younger ones could eat more, then argued bitterly when Pierre-Jacques spoke of taking what remained for his own household. She did not flatter or plead. She demanded.
 
 Age did not soften her tongue, but it narrowed her world. After 1800 she stayed closer to home, taking satisfaction in small routines: the clean sweep of a hearth, a loaf baked evenly, a bowl of thick soup with a bit of bacon when there was bacon. She still enjoyed the noise after Mass, the quick exchanges in Picard, and the sharp humor of women who had done hard work all their lives. When she was angry she went to the edge of the yard and stood where she could see the fields, hands busy with a scrap of flax even if there was nothing urgent to spin.
 
-Her eldest daughter Marguerite died in 1806 at forty-four, leaving Marie Jeanne with less help and fewer soft words in the house. Pierre-Jacques and Jean lived on, but their lives pulled them into their own responsibilities. In her last years she lived with Marie-Anne, who never married and kept the household together with plain meals and careful savings. The seasons remained. So did the weight of state demands during Napoleon’s time, felt through men taken for service and animals and grain demanded for armies.
+Her eldest daughter Marguerite died in 1806 at forty-four, leaving Marie Jeanne with less help and fewer soft words in the house. Pierre-Jacques and Jean lived on, but their lives pulled them into their own responsibilities. In her last years she lived with Marie-Anne, who never married and kept the household together with plain meals and careful savings. The seasons remained. So did the state demands during Napoleon's time: men taken for service, animals and grain demanded for armies.
 
 Cancer ended Marie Jeanne’s life on January 29, 1820, in the small household she shared with her unmarried daughter. Her body was washed and dressed, and the parish buried her in the churchyard with the priest’s prayers spoken over the grave.

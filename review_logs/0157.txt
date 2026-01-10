@@ -1,0 +1,13 @@
+The review of story 0157-zhang-jincai is complete.
+
+**Review Summary for 0157-zhang-jincai:**
+
+**Issues found:**
+- **Missing sibling deaths**: Two younger brothers (Zhang San'er and Zhang Si'er) who were born and died during Jincai's lifetime were not mentioned in the narrative
+- **Awkward phrasing**: "worked fiber" was an awkward verb choice
+
+**Changes made:**
+1. Added the two infant sibling deaths after the father's death: "That year his mother bore another son, Zhang San'er, but the infant died within weeks. In early 1737 she bore Zhang Si'er, who lived only days."
+2. Changed "worked fiber" → "twisted hemp" for clearer, more natural phrasing
+
+The story is now complete. This was a relatively clean toddler story - the main issue was the missing younger sibling deaths, which is a common issue in stories with multiple siblings. The narrative now properly reflects the family's losses during Jincai's short life.

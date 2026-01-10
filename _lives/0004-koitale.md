@@ -13,7 +13,8 @@ country: "Tanzania"
 latitude: -6.42
 longitude: 34.54
 map_url: "https://www.google.com/maps/place/-6.42,34.54/@-6.42,34.54,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Pastoralist"
 era: "Holocene"
 sex: "M"
 age_tag: "Adult (19–49)"

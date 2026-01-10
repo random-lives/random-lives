@@ -7,12 +7,13 @@ death_year: "1896 AD"
 age_at_death: 39
 birth_date: "August 29, 1857 AD"
 death_date: "October 8, 1896 AD"
-location: "Pumararanra, Acobamba, Huancavelica, Peru"
+location: "Paucará, Acobamba, Huancavelica, Peru"
 location_original: "Pumararanra, Paucará, Acobamba, Huancavelica, Perú"
 country: "Peru"
-latitude: -12.67
-longitude: -74.75
-map_url: "https://www.google.com/maps/place/-12.67,-74.75/@-12.67,-74.75,5z"
+latitude: -12.843
+longitude: -74.569
+map_url: "https://www.google.com/maps/place/-12.843,-74.569/@-12.843,-74.569,5z"
+old_lifestyle: "Urban"
 lifestyle: "Urban"
 era: "Holocene"
 sex: "F"
@@ -397,7 +398,7 @@ continent: "South America"
 #   type: civilian_war_exposure
 ---
 
-Mercedes Condori Herrera was born on August 29, 1857 in Pumararanra, in the high cold country of Huancavelica, where the Peruvian republic’s officials and priests kept records in Spanish and most households spoke Quechua at the hearth. Her family lived by town work, Catholic feast days, and the small reciprocal rituals of the Andes: candles for the saints, coca leaves and a splash of aguardiente for Pachamama at the threshold, and respect for the apus that ringed the valley.
+Mercedes Condori Herrera was born on August 29, 1857 in Paucará, in the high cold country of Huancavelica, where the Peruvian republic’s officials and priests kept records in Spanish and most households spoke Quechua at the hearth. Her family lived by town work, Catholic feast days, and the small reciprocal rituals of the Andes: candles for the saints, coca leaves and a splash of aguardiente for Pachamama at the threshold, and respect for the apus that ringed the valley.
 
 Her father, Isidro Condori, worked with his hands in a small workshop and took jobs that needed measuring, cutting, and bargaining. He spoke Spanish easily with customers and officials and switched to Quechua with neighbors. Her mother, María Herrera, managed the home: cooking, washing, watching children, and taking small paid tasks when she could. The house filled quickly. Tomás, the first child, died in 1859 at four years old, and Mercedes—the second-born—grew up with the sound of adult voices lowering when his name was mentioned. Two years later Rufina was born and did not live past her first day. More children followed: Eusebio in 1861, Petrona in 1863, then Anselmo and Nicanor who also died as infants. The surviving children learned early to step over grief and carry water.
 

@@ -7,11 +7,13 @@ death_year: "1133 AD"
 age_at_death: 0
 birth_date: "February 8, 1133 AD"
 death_date: "February 11, 1133 AD"
-location: "Begampur, Kolkata Metropolitan Area, Chanditala - II, Hooghly, West Bengal, 712304, India"
+location: "Begampur, Hooghly, West Bengal, India"
+location_original: "Begampur, Kolkata Metropolitan Area, Chanditala - II, Hooghly, West Bengal, 712304, India"
 country: "India"
 latitude: 22.74
 longitude: 88.27
 map_url: "https://www.google.com/maps/place/22.74,88.27/@22.74,88.27,5z"
+old_lifestyle: "Urban"
 lifestyle: "Urban"
 era: "Holocene"
 sex: "M"

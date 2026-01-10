@@ -7,12 +7,14 @@ death_year: "508 AD"
 age_at_death: 2
 birth_date: "June 20, 505 AD"
 death_date: "March 22, 508 AD"
-location: "Сухотерешанское сельское поселение, Николаевский район, Ульяновская область, Приволжский федеральный округ, 433831, Россия"
+location: "Nikolayevsky District, Ulyanovsk Oblast, Russia"
+location_original: "Сухотерешанское сельское поселение, Николаевский район, Ульяновская область, Приволжский федеральный округ, 433831, Россия"
 country: "Russia"
 latitude: 52.97
 longitude: 47.53
 map_url: "https://www.google.com/maps/place/52.97,47.53/@52.97,47.53,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Pastoralist"
 era: "Holocene"
 sex: "F"
 age_tag: "Child (2–10)"
@@ -181,7 +183,7 @@ continent: "Europe"
 
 Surana was born on June 20, 505, in a small Alan-speaking camp of herders on the forest-steppe of the Middle Volga. Her people lived under the pull of steppe patrons and their rivals, sending men for service and tribute while keeping cattle and sheep on river meadows. In her household, older ways remained strong, but her mother Vardana also knew short Christian prayers learned through contacts and repeated them over children and sickbeds.
 
-Surana came after a first baby, Ardava, who had died in 504 before he could be carried far from the hearth. She was raised in an extended patrilocal household. Her grandmother Banu ran the inside work and watched the small ones when Vardana churned and strained milk or twisted wool on a spindle. Her grandfather Mitra set rules, and her aunt Roksa had Surana underfoot while she sorted fleece and patched leather.
+Surana came after a first baby, Ardava, who had died in 504 before he could be carried far from the hearth. She was raised in a household where her father's parents held authority. Her grandmother Banu ran the inside work and watched the small ones when Vardana churned and strained milk or twisted wool on a spindle. Her grandfather Mitra set rules, and her aunt Roksa had Surana underfoot while she sorted fleece and patched leather.
 
 At sixteen months, in October 506, Surana began insisting on a morning routine at the hearth. She touched the warm stones, then squatted to pat the ashes with a stick. If someone lifted her away before she finished, she stiffened and shrieked until Banu put her back down to complete it.
 

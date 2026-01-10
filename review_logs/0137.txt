@@ -1,0 +1,40 @@
+The story now has proper chronology:
+- **Childhood**: Kori (older brother), Aki (dies at age 4), Luma (born age 7), Tali (born age 9)
+- **Age 16**: Sexual assault
+- **Age 18**: Rina (grandmother) dies
+- **Age 19**: Working trap lines with Kori and Suna
+- **Age 22**: Partnership with Tora begins
+- **Age 23**: Yana born
+- **Age 24**: Yana dies; domestic violence begins
+- **Age 26**: Niri born; temporarily moves to Mina's side of camp
+- **Age 27**: Theft; Kori dies at 30
+- **Age 29**: Pregnancy loss; Maya born
+- **Age 32**: Omi born; severe wet season crisis
+- **Age 34**: Sari dies
+- **Age 44**: Tali dies
+- **Age 46**: Mina dies
+- **Age 49**: Suna and Maya both die
+- **Age 50**: Falls, injury gets infected, dies
+
+All deaths are now properly covered:
+- Father Pera: dies when Hani is 3 ✓
+- Aki (infant sister): dies when Hani is 4 ✓
+- Rina (grandmother): dies when Hani is 18 ✓
+- Yana (first child): dies at age 1 ✓
+- Kori (older brother): dies when Hani is 27 ✓
+- Sari (uncle): dies when Hani is 34 ✓
+- Tali (younger brother): dies when Hani is 44 ✓
+- Mina (mother): dies when Hani is 46 ✓
+- Maya (daughter): dies when Hani is 49 ✓
+- Suna (sister): dies when Hani is 49 ✓
+
+The review of story 0137-hani is complete. 
+
+**Summary of changes made:**
+- Added younger siblings Luma and Tali's births in childhood section
+- Added explicit Kori death scene at age 27 (instead of just "had already died")
+- Added Tali's death at age 44
+- Added Maya's death at age 49 (combined with Suna's death)
+- Fixed chronology: moved Niri's birth to before age 27 events
+- Fixed Maya's birth timing from "two years" to "three years" after Niri
+- Fixed 5 instances of pseudosociological "kin" language in the narrative

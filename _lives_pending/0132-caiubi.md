@@ -7,11 +7,13 @@ death_year: "921 AD"
 age_at_death: 0
 birth_date: "February 26, 921 AD"
 death_date: "October 25, 921 AD"
-location: "Barra Mansa, Região Geográfica Imediata de Volta Redonda-Barra Mansa, Região Geográfica Intermediária de Volta Redonda-Barra Mansa, Rio de Janeiro, Região Sudeste, Brasil"
+location: "Barra Mansa, Rio de Janeiro, Brazil"
+location_original: "Barra Mansa, Região Geográfica Imediata de Volta Redonda-Barra Mansa, Região Geográfica Intermediária de Volta Redonda-Barra Mansa, Rio de Janeiro, Região Sudeste, Brasil"
 country: "Brazil"
 latitude: -22.5
 longitude: -44.26
 map_url: "https://www.google.com/maps/place/-22.5,-44.26/@-22.5,-44.26,5z"
+old_lifestyle: "Hunter-Gatherer"
 lifestyle: "Hunter-Gatherer"
 era: "Holocene"
 sex: "M"
@@ -240,4 +242,4 @@ He entered an extended household compound where several related adults shared fi
 
 Anumã had buried a daughter, Potyra, the previous year, and she kept Caiubi close. After a difficult dream, Sairi the healer blew tobacco smoke over the baby and rubbed him with crushed leaves, then warned against leaving him near the riverbank.
 
-On October 25, 921, during a busy morning at the water’s edge, Caiubi slid from a resting mat while Guarí turned to answer a call. He tumbled into the shallows and did not recover. His kin washed him, wrapped him in woven fiber, and buried him in soft ground near the settlement, with a pinch of food and tobacco placed beside him while Sairi chanted.
+On October 25, 921, during a busy morning at the water’s edge, Caiubi slid from a resting mat while Guarí turned to answer a call. He tumbled into the shallows and did not recover. His family washed him, wrapped him in woven fiber, and buried him in soft ground near the settlement, with a pinch of food and tobacco placed beside him while Sairi chanted.

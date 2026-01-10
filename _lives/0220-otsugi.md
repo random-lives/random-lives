@@ -7,12 +7,14 @@ death_year: "1567 AD"
 age_at_death: 2
 birth_date: "December 4, 1565 AD"
 death_date: "December 8, 1567 AD"
-location: "新宿, 佐用町, 佐用郡, 兵庫県, 679-5341, 日本"
+location: "Sayo, Hyogo, Japan"
+location_original: "新宿, 佐用町, 佐用郡, 兵庫県, 679-5341, 日本"
 country: "Japan"
 latitude: 34.98
 longitude: 134.42
 map_url: "https://www.google.com/maps/place/34.98,134.42/@34.98,134.42,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Rural Non-Farm"
 era: "Holocene"
 sex: "F"
 age_tag: "Child (2–10)"

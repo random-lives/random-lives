@@ -7,12 +7,14 @@ death_year: "668 BC"
 age_at_death: 80
 birth_date: "October 4, 749 BC"
 death_date: "July 28, 668 BC"
-location: "تل أغبر, شعينة, ناحية الغندورة, منطقة جرابلس‎‎, محافظة حلب, سوريا"
+location: "Jarabulus, Aleppo, Syria"
+location_original: "تل أغبر, شعينة, ناحية الغندورة, منطقة جرابلس‎‎, محافظة حلب, سوريا"
 country: "Syria"
 latitude: 36.73
 longitude: 37.79
 map_url: "https://www.google.com/maps/place/36.73,37.79/@36.73,37.79,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Elder (50+)"
@@ -437,9 +439,9 @@ continent: "Asia"
 
 Ben-Hadad was born into an Aramaic-speaking farming compound on the Upper Euphrates, where Assyrian power set the terms of taxes, labor, and security. His household prayed and offered food at home, calling on Hadad for rain and El for protection, and went to local shrines at festival times when the roads felt safe.
 
-His father, Bar-Hadad, held rainfed fields that rose away from the river and a few small orchards near reliable moisture. Two wives kept the compound running. Ben-Hadad’s mother, Hannatu, ran the milling and baking with a strict rhythm: grind at dawn, bake when the hearth was hot, carry water before the sun climbed. A co-wife, Sillaya, managed her own children and stores. The women’s voices carried across the courtyard in the mornings, instructions and corrections more than affection. Ben-Hadad learned early to do what he was told and to move quietly.
+His father, Bar-Hadad, held rainfed fields that rose away from the river and a few small orchards near reliable moisture. Two wives kept the compound running. Ben-Hadad’s mother, Hannatu, ran the milling and baking in a steady routine: grind at dawn, bake when the hearth was hot, carry water before the sun climbed. A co-wife, Sillaya, managed her own children and stores. The women’s voices carried across the courtyard in the mornings, instructions and corrections more than affection. Ben-Hadad learned early to do what he was told and to move quietly.
 
-He was the seventh child. The firstborn brother, Hadad-ram, and a sister, Tob-il, died at birth. Another brother, Ahi-ram, lived long enough to run beside him and throw clods into the ditch water; Ahi-ram died when Ben-Hadad was four. The household did not speak much over the small body. Hannatu’s work did not stop. She laid bread and a cup of beer near the household place of offering and pressed ash onto the threshold. Ben-Hadad watched without questions.
+He was the seventh child. The firstborn brother, Hadad-ram, and a sister, Tob-il, died at birth. Another brother, Ahi-ram, lived long enough to run beside him and throw clods into the ditch water; Ahi-ram died when Ben-Hadad was four. The household did not speak much over the small body. A younger sister, Hamat-šalim, was born when Ben-Hadad was two and died at three—old enough that he remembered her face but not her voice. Hannatu’s work did not stop. She laid bread and a cup of beer near the household place of offering and pressed ash onto the threshold. Ben-Hadad watched without questions.
 
 An older sister, El-ramat, mattered most in his early memory. She lifted him onto her hip when Hannatu’s hands were full of dough, and she taught him how to keep chickens out of the stored barley by throwing pebbles, not chasing. When El-ramat married out, she visited once with a baby on her shoulder. Soon after, news came that she died at twenty-three. Bar-Hadad received the message and went back to measuring seed.
 
@@ -447,7 +449,7 @@ Ben-Hadad grew tall early and moved with a careful gait. He took chores that kep
 
 Assyrian demands sharpened as he entered adolescence. Officials and armed escorts came down the track, and the village provided fodder, bread, and men for road work. Bar-Hadad did the talking. Ben-Hadad watched his father’s face and learned when to keep his eyes down. He carried sacks when told, counted sheaves when told, and did not join in the disputes at the edge of meetings.
 
-At nineteen he married Yapaʿ, a woman from nearby kin, in a match set by families. She brought her own grinding stone and a small chest of cloth. Their marriage stayed quiet. They argued over stores the way other couples argued over insults: whether to open a sealed jar in spring, how much barley to set aside for seed. In the evenings he enjoyed sitting near the doorway where he could feel the shift of air and listen to the courtyard without stepping into it.
+At nineteen he married Yapaʿ, a woman from a neighboring family, in a match set by their fathers. She brought her own grinding stone and a small chest of cloth. Their marriage stayed quiet. They argued over stores the way other couples argued over insults: whether to open a sealed jar in spring, how much barley to set aside for seed. In the evenings he enjoyed sitting near the doorway where he could feel the shift of air and listen to the courtyard without stepping into it.
 
 At twenty-one the levy reached him. He left the fields in rotation with other men and took up militia duty tied to Assyrian campaigns and garrison needs. He guarded grain stores, stood watch at road points, and walked with a small group escorting officials who came to assess livestock and collect grain. He followed orders and did not volunteer for talk. In camp he ate when told and slept when told. The older men teased him for using few words; he answered with a brief nod that did not invite more.
 
@@ -461,12 +463,18 @@ War reached their doorstep in his thirty-third year. An imperial campaign and co
 
 His brother Paqaḥ died at thirty-five, in the same season when people watched the roads more than the sky. The loss tightened the household’s adult labor. When Bar-Hadad died a few years later, Ben-Hadad was forty-one and already managing much of the storage and field pacing. His oldest surviving brother, Zakkur, did the bargaining and spoke to the levy collectors. Ben-Hadad kept the measures straight and remembered the old boundary stones. He sat through meetings without interrupting, then spoke once at the end, a few sentences that settled what needed settling.
 
+Hannatu died when Ben-Hadad was forty-seven. She had grown slower in her final years, rising later each morning. The household offerings continued without her; Yapaʿ took over the dawn grinding.
+
 Atar-ʿatti married Yamlik, a competent man who worked steadily and did not waste words. Ben-Hadad accepted him. He and Yamlik could sit a long time over a jar of beer without turning it into a contest. Yamlik made one joke that Ben-Hadad repeated twice over the next year: that a man should argue with weeds, not with neighbors. Ben-Hadad gave a brief laugh each time, more through his nose than his mouth.
+
+Zakkur died at fifty-five, when Ben-Hadad was fifty-one. The brother who had done the talking and bargaining was gone. Ben-Hadad did not take over that role; Yamlik stepped into it, while Ben-Hadad continued keeping the boundaries straight.
 
 Then Atar-ʿatti died at twenty-five, when Ben-Hadad was fifty-two. Her children remained, and Ben-Hadad and Yapaʿ fed them and set them to small tasks. Yapaʿ did the soothing; Ben-Hadad did the ordering. He took pride in seeing the grandchildren learn to count sheaves accurately.
 
-His health shifted at fifty-five. A chronic cough took hold, worst in winter when smoke hung in low rooms and damp air rose from the river. Breathlessness made plowing and heavy lifting difficult. He moved into supervision: deciding when to thresh, checking jar seals, settling small disputes, and receiving visitors as an elder. When the levy collector, Nabu-šarra, came with his tablets and attendants, Ben-Hadad stayed seated and let Zakkur and Yamlik speak. He answered only when asked and did not contradict himself.
+His health shifted at fifty-five. A chronic cough took hold, worst in winter when smoke hung in low rooms and damp air rose from the river. Breathlessness made plowing and heavy lifting difficult. He moved into supervision: deciding when to thresh, checking jar seals, settling small disputes, and receiving visitors as an elder. When the levy collector, Nabu-šarra, came with his tablets and attendants, Ben-Hadad stayed seated and let Yamlik speak. He answered only when asked and did not contradict himself.
 
-By sixty-seven his hearing dulled and his eyes failed at dusk. He misheard names at meetings and turned his head to catch words. In markets he could not pick out faces across the crowd. Yapaʿ stood close and repeated what others said. Yamlik spoke for him when needed. Their household became centered on the daughter’s line: Yamlik and the grandchildren living with or supporting the old couple in the same compound.
+Sillaya, his father's second wife, died when Ben-Hadad was fifty-eight. She had outlived Hannatu by a decade. By then she was the oldest person in the compound, and her death marked the end of the generation that remembered the household before the worst of the Assyrian campaigns.
+
+By sixty-seven his hearing dulled and his eyes failed at dusk. He misheard names at meetings and turned his head to catch words. In markets he could not pick out faces across the crowd. Yapaʿ stood close and repeated what others said. Yamlik spoke for him when needed. Their household became centered on the daughter’s line: Yamlik and the grandchildren supporting the old couple in the same compound.
 
 Ben-Hadad reached eighty still in his birthplace. In the hot season after a day of sitting in the courtyard shade, he ate bread and lentils, drank a cup of beer, and rose to adjust his cloak. He fell hard onto the packed earth and could not speak. Before sunrise his body was washed, wrapped, and carried to a family burial place near the village, and Yapaʿ placed bread and a small cup of beer beside him for the household rites.

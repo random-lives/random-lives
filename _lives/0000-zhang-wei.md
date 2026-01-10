@@ -12,7 +12,8 @@ country: "China"
 latitude: 26.48
 longitude: 105.43
 map_url: "https://www.google.com/maps/place/26.48,105.43/@26.48,105.43,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Urban"
 era: "Holocene"
 sex: "M"
 age_tag: "Alive"

@@ -12,7 +12,8 @@ country: "India"
 latitude: 12.82
 longitude: 80.02
 map_url: "https://www.google.com/maps/place/12.82,80.02/@12.82,80.02,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Rural Non-Farm"
 era: "Holocene"
 sex: "M"
 age_tag: "Alive"

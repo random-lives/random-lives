@@ -1,0 +1,18 @@
+Review of 0143-leni is complete.
+
+**Summary of review for 0143-leni:**
+
+**Issues found:**
+1. **Missing deaths**: Father Wari (age 27), brother Karo (age 28), and uncle Bora (age 34) all died during Leni's lifetime but were not mentioned in the narrative
+2. **Dead character error**: The narrative claimed "Tina died when Leni was thirty-four" but debug data shows Tina dies -1326, which is 3 years *after* Leni's death. Tina actually outlives Leni.
+3. **Consistency error**: Karo was mentioned as available at age 30 to help with exchanges, but he had died at age 28
+4. **Pseudosociological language**: Two instances of "kin" 
+
+**Changes made:**
+- Added Wari's death at age 27 (fever outbreak during exchange preparations)
+- Added Karo's death at age 28 (infected wound from garden accident)
+- Added Bora's death at age 34
+- Removed the false Tina death and replaced with mention that Tina visited but they weren't close
+- Removed Karo from the age-30 reference (since he was dead by then)
+- Changed "kin ties" → "family ties"
+- Changed "Her kin washed her body" → "The women of the hamlet washed her body"

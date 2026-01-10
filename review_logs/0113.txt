@@ -1,0 +1,11 @@
+The review is complete. 
+
+**Summary of review for 0113-nirmala.md:**
+
+**Issue found:**
+- Missing death: Mother Savitri's death in 1973 was not mentioned - the narrative only said her health declined but never stated she died
+
+**Change made:**
+- Added "Savitri died in 1973" in the appropriate paragraph, restructuring the sentences so the caregiving description comes before the death and Sushila Devi's visits come after (since those continued after Savitri's death)
+
+The story is otherwise well-written with no pseudosociological language, no figurative language issues, no vague hedging, and clear chronology. All siblings are properly introduced with their births mentioned, and the father's death is already covered.

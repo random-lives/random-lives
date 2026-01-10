@@ -7,12 +7,14 @@ death_year: "1869 AD"
 age_at_death: 1
 birth_date: "April 19, 1868 AD"
 death_date: "November 9, 1869 AD"
-location: "松潘县 ཟུང་ཆུ་རྫོང།, 阿坝藏族羌族自治州 རྔ་བ་བོད་རིགས་ཆ་བ༹ང་རིགས་རང་སྐྱོང་ཁུལ་, 四川省, 623300, 中国"
+location: "Songpan County, Aba Prefecture, Sichuan, China"
+location_original: "松潘县 ཟུང་ཆུ་རྫོང།, 阿坝藏族羌族自治州 རྔ་བ་བོད་རིགས་ཆ་བ༹ང་རིགས་རང་སྐྱོང་ཁུལ་, 四川省, 623300, 中国"
 country: "China"
 latitude: 32.98
 longitude: 103.51
 map_url: "https://www.google.com/maps/place/32.98,103.51/@32.98,103.51,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Pastoralist"
 era: "Holocene"
 sex: "M"
 age_tag: "Infant (0–1)"
@@ -152,4 +154,4 @@ The house was a stem household under Konchok, his paternal grandfather. Konchok 
 
 Three adult siblings lived in the same household. Tsering, the oldest, was already an elder herdsman. Drolma and Pema took turns holding the baby against their robes while they sorted wool and stirred the pot. Drolma died in 1868, and Pema followed before the year ended, leaving the women’s work to Deki and Lhamo.
 
-Snow came early the next year. In autumn 1869, Phuntsok developed a harsh cough and fast breathing. Lhamo burned juniper and offered butter and tsampa at the household shrine; Dorje rode for help and returned with consecrated pills and a scrap of blessed paper. Phuntsok died on November 9, 1869. A monk read from scriptures, and the family placed the child’s body on a hillside for sky burial rites, with a final handful of roasted barley scattered beside him.
+The following winter was harsh. In autumn 1869, Tsering died, weakened by a lung illness. Weeks later, Phuntsok developed a harsh cough and fast breathing. Lhamo burned juniper and offered butter and tsampa at the household shrine; Dorje rode for help and returned with consecrated pills and a scrap of blessed paper. Phuntsok died on November 9, 1869. A monk read from scriptures, and the family placed the child’s body on a hillside for sky burial rites, with a final handful of roasted barley scattered beside him.

@@ -7,12 +7,14 @@ death_year: "1602 AD"
 age_at_death: 0
 birth_date: "January 17, 1602 AD"
 death_date: "January 23, 1602 AD"
-location: "岔北, 南通市, 江苏省, 中国"
+location: "Nantong, Jiangsu, China"
+location_original: "岔北, 南通市, 江苏省, 中国"
 country: "China"
 latitude: 32.4
 longitude: 120.92
 map_url: "https://www.google.com/maps/place/32.4,120.92/@32.4,120.92,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "F"
 age_tag: "Infant (0–1)"

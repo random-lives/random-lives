@@ -1,0 +1,27 @@
+The story looks good now. Let me do a final checklist:
+
+**Final checklist:**
+1. **Death coverage**: Father Daro dies -1496 (during Kanu's lifetime). The narrative says "spoken as a dead man by the time Kanu could understand words" - this is vague but acceptable since the narrative_plan says he's treated as deceased by toddler years. The exact death timing isn't critical since he's already absent.
+
+2. **"kin"**: Fixed - "kin ties" → "family ties"
+
+3. **Vague hedging / " or "**: None found in narrative text.
+
+4. **Younger siblings**: Not applicable - Kanu has only older siblings.
+
+5. **Figurative language**: None found.
+
+6. **AI-slop phrases**: None found.
+
+7. **Chronology**: Events flow naturally from birth through death at age 3.
+
+8. **Clarity**: Story reads clearly. Family structure is established in paragraph 2.
+
+The story is well-written for a toddler who died at age 3. It effectively shows his personality traits (low extraversion, high neuroticism, high conscientiousness) through concrete behaviors like the grain scoop routine and startling at the fire.
+
+Review of story 0126-kanu is complete.
+
+**Summary:**
+- Found 3 issues: impossible sibling ages (deviated from debug), death timing conflict for Sali (deviated from debug), and pseudosociological "kin ties"
+- Made 3 edits: removed age descriptors that implied Mina/Sali were teenagers when debug shows them as 36-50 years old; kept Sali alive per narrative_plan intent; changed "kin ties" → "family ties"
+- The story is otherwise clean with good developmental moments for a 3-year-old

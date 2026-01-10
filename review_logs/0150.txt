@@ -1,0 +1,17 @@
+The review is complete. Here's a summary of what I found and changed:
+
+## Review Summary: 0150-zhao-yong
+
+**Issues found:**
+1. **Missing character presence**: The grandmother was mentioned once setting out bowls in paragraph 1, then essentially disappeared from the narrative. Per debug, she had a significant role as "hands-on caretaker, especially during illnesses."
+2. **Chronology unclear**: "That spring his cough returned" was ambiguous after mentioning Teacher Qian "In 1645"
+3. **Redundant death mention**: "His grandfather died in 1645" was a standalone sentence that felt disconnected
+4. **Missing grandmother in illness scenes**: During the ditch accident recovery, only the mother was mentioned caring for him
+
+**Changes made:**
+1. Added a line establishing the grandmother's character early: "His grandmother was a firm woman who taught the children household rites and practical taboos."
+2. Added grandmother to the ditch accident recovery: "his mother and grandmother took turns feeding him thin rice-water and ginger"
+3. Clarified chronology: "That spring" → "In spring 1645" 
+4. Integrated grandfather's death naturally into the illness narrative: "His grandfather died that spring, worn down by a hard winter"
+5. Added grandmother's continuing care during the chronic illness: "His grandmother checked his forehead each morning and scolded him to stay warm"
+6. Removed the redundant standalone sentence about grandfather's death

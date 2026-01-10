@@ -7,11 +7,13 @@ death_year: "2000 AD"
 age_at_death: 86
 birth_date: "April 11, 1914 AD"
 death_date: "September 21, 2000 AD"
-location: "Waterloo, Crosby, Sefton, Liverpool City Region, England, L22 8QT, United Kingdom"
+location: "Crosby, Liverpool, England, United Kingdom"
+location_original: "Waterloo, Crosby, Sefton, Liverpool City Region, England, L22 8QT, United Kingdom"
 country: "United Kingdom"
 latitude: 53.47
 longitude: -3.03
 map_url: "https://www.google.com/maps/place/53.47,-3.03/@53.47,-3.03,5z"
+old_lifestyle: "Urban"
 lifestyle: "Urban"
 era: "Holocene"
 sex: "M"
@@ -443,7 +445,7 @@ Arthur Bernard Keegan was born on 11 April 1914 in Waterloo near Crosby, on the 
 
 The house held more people than its rooms. Nora Keegan kept it running with washing, cooking, and mending; the coal scuttle and the kettle never seemed to be in the wrong place. Nora’s widowed mother, Ellen Sullivan, lived with them and counted out the pennies for bread and dripping. Ellen set the tone. She had a plain rosary, a small crucifix above the bed, and rules about silence when she said her prayers. Arthur grew up watching hands: Ellen’s hands tightening a knot in an apron string, his mother’s hands rubbing soap into collars, his father’s hands blackened from work.
 
-He was the fifth of six children. Seán, born in 1911, acted older than his years and took responsibility without asking. Mary, born in 1913, learned early to smooth over fights. Patrick came next in 1915, close enough in age to Arthur to be both companion and rival. An infant sister, Brigid, was born in 1917 and died the same year; for years afterward, every cough in the house drew sharp attention. Eileen, the youngest, arrived in 1919 and stayed attached to Arthur’s heels when they were small.
+He was the third of six children. Seán, born in 1911, acted older than his years and took responsibility without asking. Mary, born in 1913, learned early to smooth over fights. Patrick came next in 1915, close enough in age to Arthur to be both companion and rival. An infant sister, Brigid, was born in 1917 and died the same year; for years afterward, every cough in the house drew sharp attention. Eileen, the youngest, arrived in 1919 and stayed attached to Arthur’s heels when they were small.
 
 When influenza swept through Britain after the First World War, it reached their streets and schoolrooms. Arthur watched neighbors’ blinds stay drawn in daylight and heard the way adults lowered their voices. Ellen made everyone wash their hands before meals and complained if anyone lingered at a doorstep. Arthur learned to keep his head down and his things in order. He lined up his schoolbooks and hated anyone touching them.
 
@@ -459,18 +461,20 @@ He was called up in 1941 and put into regular service. The Army took his habit o
 
 Demobilization brought him back to Merseyside and to civilian work. In 1946 he met Margaret “Maggie” Doyle at a dance hall where Mary had insisted he show his face. Arthur barely spoke to Maggie at first, standing at the edge and watching, but Maggie approached him with direct questions. They married and set up a home that ran on her steadiness. He kept his wages in a tin in a drawer and counted out coins for rent and food. He enjoyed a plate of fried bread and eggs early on a Sunday, and he liked sitting near the back window with the paper folded to the sports results and the political column. He repaired small things instead of replacing them: a loose hinge, a fraying plug, a tap washer.
 
-Their first daughter, Kathleen, was born in 1948. Nora followed in 1950. Arthur held the babies awkwardly at first, then became strict about routine—feeds at a set time, beds made a certain way. Maggie fought him on that, and Arthur answered sharply. He didn’t gamble and he wouldn’t take what he hadn’t earned. If a man at work suggested “borrowing” materials, Arthur shut it down and walked away.
+Their first daughter, Kathleen, was born in 1948. Nora followed in 1950. Arthur held the babies awkwardly at first, then became strict about routine—feeds at a set time, beds made a certain way. Maggie fought him on that, and Arthur answered sharply. He didn't gamble and he wouldn't take what he hadn't earned. If a man at work suggested "borrowing" materials, Arthur shut it down and walked away.
+
+The fight that followed him for years happened in 1948, when he was thirty-four. He had been drinking with Tommy Rourke, a workmate from the shop. Outside a pub in north Liverpool, another man bumped him, words were exchanged, and Arthur swung. He kept swinging even after the man went down. The injured man walked away bleeding and shaken, and the incident stayed mostly at the level of talk and warning; Arthur learned which pubs to avoid afterward. Maggie heard about it through Mary and refused to discuss it in front of the children. In private she told him she wouldn't raise daughters in a house where he brought that home. Arthur promised to stop, then returned to the same pattern.
 
 The third baby, Brigid, was born in 1953 and died that same year. Maggie turned inward. Arthur went to the pub more often, staying late, coming home with his breath sour and his patience thin. In 1956 their daughter Eileen was born, and the household tightened itself into function again. Bernard Keegan died in 1956 as well. Arthur spoke little at the funeral and drank afterward until he grew loud, then angry.
 
-The fight that followed him for years happened in 1948, when he was thirty-four. He had been drinking with Tommy Rourke, a workmate from the shop. Outside a pub in north Liverpool/Sefton, another man bumped him, words were exchanged, and Arthur swung. He kept swinging even after the man went down. The injured man walked away bleeding and shaken, and the incident stayed mostly at the level of talk and warning; Arthur learned which pubs to avoid afterward. Maggie heard about it through Mary and refused to discuss it in front of the children. In private she told him she wouldn’t raise daughters in a house where he brought that home. Arthur promised to stop, then returned to the same pattern.
-
-Their youngest daughter, Margaret “Rita,” arrived in 1960. By then Arthur’s work in plants and workshops had become harder to keep. He did the job well, but he argued with foremen and took offence at instruction. As Merseyside’s industrial base began to change, jobs went and came back in altered form. In 1968 Nora Keegan died, and Arthur’s connection to the old household ended. He no longer had anyone trying to pull him toward church, and he stopped even pretending; Christmas became a meal and a day off, not a Mass.
+Their youngest daughter, Margaret "Rita," arrived in 1960. By then Arthur’s work in plants and workshops had become harder to keep. He did the job well, but he argued with foremen and took offence at instruction. As Merseyside’s industrial base began to change, jobs went and came back in altered form. In 1968 Nora Keegan died, and Arthur’s connection to the old household ended. He no longer had anyone trying to pull him toward church, and he stopped even pretending; Christmas became a meal and a day off, not a Mass.
 
 His health turned in 1966. The cough that had sat in the background for years became constant, and he began to get short of breath climbing stairs. A GP later, Dr. Sanjay Patel, told him to stop smoking. Arthur listened, argued, and carried on. The breathlessness worsened through the early 1970s. He lost jobs when he couldn’t keep up, then took shorter stints and ended up relying on benefits and help from family. Pride made him sharp. He kept his tools clean even when he had no use for them, polishing and sorting them on the kitchen table.
 
-By the time he reached his late sixties, the household arrangements shifted. Maggie kept her own life and spent long stretches away, staying with family and taking the quiet she needed. Arthur lived with adult relatives, with Eileen increasingly managing appointments and money. He grew more solitary, choosing the same chair, the same cup, the same route to the corner shop. He still read the paper and corrected people’s facts, but he avoided crowds.
+By the time he reached his late sixties, the household arrangements shifted. Maggie kept her own life and spent long stretches away, staying with family and taking the quiet she needed. Arthur lived with adult relatives, with his daughter Eileen increasingly managing appointments and money. He grew more solitary, choosing the same chair, the same cup, the same route to the corner shop. He still read the paper and corrected people's facts, but he avoided crowds.
 
-Rita died in 1996 at thirty-six. Arthur stopped speaking about her after the funeral and drank more again, then his heart began to trouble him alongside the damaged lungs. In September 2000, living with family rather than with Maggie, he suffered a final cardiac event and died on 21 September.
+Mary died in 1992. She had been the one who kept family threads together, the one who smoothed over quarrels and passed news between siblings. Arthur went to the funeral and said little.
+
+Rita died in 1996 at thirty-six. Arthur stopped speaking about her after the funeral and drank more again. His sister Eileen, who had been blunt about his drinking for decades but never cut him off, died in 1997. Then his heart began to trouble him alongside the damaged lungs. Seán, his oldest brother, died earlier in 2000. In September of that year, living with family rather than with Maggie, Arthur suffered a final cardiac event and died on the twenty-first.
 
 His body was taken to a local cemetery after a church service arranged by family, with a priest speaking the familiar words over the coffin. Flowers sat on the lid, and he was buried in the ground with his name and dates recorded.

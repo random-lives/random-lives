@@ -6,12 +6,14 @@ birth_year_numeric: 2016
 death_year: "present"
 age_at_death: alive
 birth_date: "July 7, 2016 AD"
-location: "Machimbo, Segerea, Ilala Municipal, Dar es-Salaam, Coastal Zone, Tanzania"
+location: "Dar es Salaam, Tanzania"
+location_original: "Machimbo, Segerea, Ilala Municipal, Dar es-Salaam, Coastal Zone, Tanzania"
 country: "Tanzania"
 latitude: -6.84
 longitude: 39.2
 map_url: "https://www.google.com/maps/place/-6.84,39.2/@-6.84,39.2,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Urban"
 era: "Holocene"
 sex: "F"
 age_tag: "Alive"
@@ -225,10 +227,10 @@ continent: "Africa"
 
 Rahma Rashid was born on 7 July 2016 in Segerea, in Ilala District, when Tanzania was under President John Magufuli and Dar es Salaam was swelling outward with new roads, bus routes, and construction. Her family spoke Kiswahili at home and carried a Swahili coastal identity; Islam marked the calendar more than the daily schedule. Her father, Dr. Salim Rashid, left early for work in a pressed shirt. Her mother, Neema, kept her bank-office badge on a hook by the door and ran the house by lists and reminders. Bibi Zainabu sat on the edge of family decisions, correcting children’s greetings and the angle of a headscarf.
 
-Rahma talked easily with adults and took over games with other children. When the neighborhood kids argued over rules, she settled it fast and loudly. She wanted the same breakfast every morning and refused “new” foods, even when Neema changed brands because prices jumped. If a cousin offered a different cartoon on a phone, Rahma ended the visit early, then complained to her mother in the car. At school she finished sums before the others and walked to Mwalimu Rehema’s desk to point out an error in the method, not quietly.
+Rahma talked easily with adults and took over games with other children. When the neighborhood kids argued over rules, she settled it fast and loudly. She wanted the same breakfast every morning and refused "new" foods, even when Neema changed brands because prices jumped. If a cousin offered a different cartoon on a phone, Rahma ended the visit early, then complained to her mother in the car. At school she finished sums before the others and walked to Mwalimu Rehema's desk to point out an error in the method, not quietly. Mama Halima cooked and watched the house when both parents worked.
 
-Amina arrived in 2019. Rahma acted like a second parent, lifting her sister onto chairs and telling her which toys were “for big kids.” She also snapped when Amina touched her notebooks. In 2020, when COVID-19 reached the region, the adults argued about masks and crowds; Neema still kept sanitizer in her handbag, and Bibi Zainabu insisted on extra handwashing before meals.
+Amina arrived in 2019. Rahma acted like a second parent, lifting her sister onto chairs and telling her which toys were "for big kids." She also snapped when Amina touched her notebooks. Sometimes she claimed Amina's ideas as her own. She exaggerated when chores went undone, blaming anyone nearby. In 2020, when COVID-19 reached the region, the adults argued about masks and crowds; Neema still kept sanitizer in her handbag, and Bibi Zainabu insisted on extra handwashing before meals.
 
-Yahya was born in 2021 and died before the end of his first year. After that, Neema watched fevers closely. During the long rains of 2023, Rahma fell seriously ill and spent days in a private clinic where Nurse Joyce checked her temperature and drip line. She returned home thin and angry, then started asking to see the thermometer whenever anyone coughed.
+Yahya was born in 2021 and died before the end of his first year. After that, Neema watched fevers closely. During the long rains of 2023, Rahma caught dengue fever and spent days in a private clinic where Nurse Joyce checked her temperature and drip line. She returned home thin and angry, then started asking to see the thermometer whenever anyone coughed.
 
-Now it’s late 2025. Rahma reads quickly, keeps her school bag organized, and corrects Amina’s spelling at the table while Mama Halima serves tea and bread. Neema signs school forms, Salim checks homework, and Rahma insists everyone follow her schedule.
+Now it is early 2026. Rahma reads quickly, keeps her school bag organized, and corrects Amina's spelling at the table while Mama Halima serves tea and bread. Neema signs school forms, Salim checks homework, and Rahma insists everyone follow her schedule.

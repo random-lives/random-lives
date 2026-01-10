@@ -13,7 +13,8 @@ country: "Benin"
 latitude: 6.66
 longitude: 1.64
 map_url: "https://www.google.com/maps/place/6.66,1.64/@6.66,1.64,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "F"
 age_tag: "Infant (0–1)"

@@ -7,11 +7,13 @@ death_year: "1975 AD"
 age_at_death: 33
 birth_date: "April 8, 1941 AD"
 death_date: "January 11, 1975 AD"
-location: "Kendranchal colony, Aliganj, Lucknow, Uttar Pradesh, India"
+location: "Lucknow, Uttar Pradesh, India"
+location_original: "Kendranchal colony, Aliganj, Lucknow, Uttar Pradesh, India"
 country: "India"
 latitude: 26.9
 longitude: 80.94
 map_url: "https://www.google.com/maps/place/26.9,80.94/@26.9,80.94,5z"
+old_lifestyle: "Urban"
 lifestyle: "Urban"
 era: "Holocene"
 sex: "F"
@@ -292,7 +294,7 @@ continent: "Asia"
 #   type: victim_property_crime
 ---
 
-Nirmala was born on April 8, 1941, in Lucknow, in the United Provinces of British India. The city had a daily rhythm of bazaars, courts, cantonment traffic, and government offices, and her neighborhood sat inside a Hindi-speaking Hindu world that also used Urdu in the street and in trade. Her mother, Savitri, kept a small home shrine on a wall shelf: framed pictures of Lakshmi and Ganesh, a little brass bell, a steel plate for offerings. Each morning she lit a diya with mustard oil, waved incense, and set down a pinch of sugar or a piece of fruit before the pictures. Nirmala learned the sequence early because Savitri wanted the house to begin the day in order.
+Nirmala was born on April 8, 1941, in Lucknow, in the United Provinces of British India. The city was full of bazaars, courts, cantonment traffic, and government offices, and her neighborhood sat inside a Hindi-speaking Hindu world that also used Urdu in the street and in trade. Her mother, Savitri, kept a small home shrine on a wall shelf: framed pictures of Lakshmi and Ganesh, a little brass bell, a steel plate for offerings. Each morning she lit a diya with mustard oil, waved incense, and set down a pinch of sugar or a piece of fruit before the pictures. Nirmala learned the sequence early because Savitri wanted the house to begin the day in order.
 
 Her father, Ram Sahay, earned his money in transport work. Some days he drove; some days he handled loads and payments at stands where people hired rides or moved goods. He left early and returned with dust on his clothes and coins tied in a cloth. The household was nuclear, crowded with children but without grandparents living under the same roof. The oldest sister, Shanti, carried herself like a second parent, quick to decide which chores belonged to whom. Kamla, the second child, died in 1938, before Nirmala was born. The story of that death stayed in the family in small ways: extra offerings on certain days, Savitri’s insistence that a child’s cough be taken seriously, Shanti’s habit of checking heads for fever with the back of her hand.
 
@@ -316,7 +318,7 @@ In 1965, the war with Pakistan brought a sharper edge to the city. People talked
 
 Ram Sahay fell ill and died in 1968. The household changed shape. At least one married sister and her children became part of the daily household, and money came in more steadily from siblings’ earnings and business connections. The family’s standing improved into a solid middle position: better food on ordinary days, repairs done on time, a little saved for emergencies. In that larger home, Nirmala managed the kitchen and the flow of people. She knew which child needed coaxing to eat, which visitor required extra respect, which argument could be defused with a second cup of tea.
 
-Savitri’s health declined in the early 1970s. Nirmala took over more of the puja, lighting the lamp when her mother’s hands shook, washing the brass bell, setting out flowers when they could afford them. She also became the steady caregiver, helping her mother bathe, arranging clinic visits, sitting nearby with a fan in summer. Sushila Devi, a neighbor, came often and stayed to talk while they folded laundry. Nirmala enjoyed those visits. She liked talking about film songs on the radio and laughed when Sushila tried to sing the high parts and failed.
+Savitri's health declined in the early 1970s. Nirmala took over more of the puja, lighting the lamp when her mother's hands shook, washing the brass bell, setting out flowers when they could afford them. She became the steady caregiver, helping her mother bathe, arranging clinic visits, sitting nearby with a fan in summer. Savitri died in 1973. Sushila Devi, a neighbor, came often and stayed to talk while they folded laundry. Nirmala enjoyed those visits. She liked talking about film songs on the radio and laughed when Sushila tried to sing the high parts and failed.
 
 Nirmala’s own cough began as something the family treated as seasonal. It did not go away. She kept working, taking breaks only to rinse her mouth and return to stirring the pot. Dr. Verma at a local clinic examined her and prescribed medicines, and she followed instructions carefully. The illness continued, and by 1974 the household adjusted chores so she did less heavy lifting. She still insisted on checking ration dates and counting money before a market trip.
 

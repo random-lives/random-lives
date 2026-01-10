@@ -7,12 +7,14 @@ death_year: "1268 AD"
 age_at_death: 0
 birth_date: "January 31, 1268 AD"
 death_date: "February 7, 1268 AD"
-location: "Oğuz rayonu, 4800, Azərbaycan"
+location: "Oghuz, Azerbaijan"
+location_original: "Oğuz rayonu, 4800, Azərbaycan"
 country: "Azerbaijan"
 latitude: 40.98
 longitude: 47.45
 map_url: "https://www.google.com/maps/place/40.98,47.45/@40.98,47.45,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Infant (0–1)"
@@ -169,9 +171,9 @@ continent: "Asia"
 # - F
 ---
 
-Ismail was born at the end of January 1268 in a small rural settlement in the foothills west of Shamakhi, in Shirvan, where Mongol power and local lords collected taxes and labor. His father, Rashid, spoke an Iranian village tongue at home and used Oghuz Turkic in the fields and at market. He hired himself out by the day, taking pruning work in orchards, threshing in summer, and hauling loads for better-off neighbors. The household was patrilocal, under Rashid’s father Yunus, with Yunus’s wife Safiya directing the women’s work.
+Ismail was born at the end of January 1268 in a small rural settlement in the foothills west of Shamakhi, in Shirvan, where Mongol power and local lords collected taxes and labor. His father, Rashid, spoke an Iranian village tongue at home and used Oghuz Turkic in the fields and at market. He hired himself out by the day, taking pruning work in orchards, threshing in summer, and hauling loads for better-off neighbors. The household lived under Rashid's father Yunus, with Yunus's wife Safiya directing the women's work.
 
-Khadija labored on a pallet near the hearth while Safiya and Bibi Gul, the village midwife, prepared hot water and clean cloth. After the birth, Khadija washed Ismail, rubbed him with salt and oil, and wrapped him tight. She tried to nurse him often, and Safiya kept the room warm, feeding the fire with brush and dung. Fatima, ten years old, carried water and watched her sister Amina while the women worked. The name Ismail was spoken over the child, and a small leather amulet with Qur’anic words was tied to his swaddling.
+Khadija had already lost a son, Yahya, who died in 1266 at one year old. That loss made her watchful. She labored on a pallet near the hearth while Safiya and Bibi Gul, the village midwife, prepared hot water and clean cloth. After the birth, Khadija washed Ismail, rubbed him with salt and oil, and wrapped him tight. She tried to nurse him often, and Safiya kept the room warm, feeding the fire with brush and dung. Fatima, ten years old, carried water and watched her younger sister Amina, seven, while the women worked. The name Ismail was spoken over the child, and a small leather amulet with Qur'anic words was tied to his swaddling.
 
 He stayed small and slept too long. On the seventh day, Rashid fetched Mullah Karim, who recited from the Qur’an at the bedside. Ismail died the same day.
 

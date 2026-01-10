@@ -1,0 +1,15 @@
+Review of 0179-bao.md is complete.
+
+**Summary of Review:**
+
+**Issues found:**
+1. **[Pseudosociological]** "Her kin washed her body" - generic "kin" language
+2. **[Missing death]** Maternal uncle Liu dies 1310 - not mentioned (appeared helping during crisis years)
+3. **[Missing death]** Sister Mei dies 1337 (same year as Bao) - not mentioned
+
+**Changes made:**
+- Changed "Her kin washed her body" → "The women of the household washed her body"
+- Added uncle Liu's death in chronological position (after crisis years, before He Chun's death)
+- Added sister Mei's death before Bao's final illness paragraph
+
+The story was otherwise well-constructed with good family timeline coverage, clear chronology, and no AI-slop or figurative language issues.

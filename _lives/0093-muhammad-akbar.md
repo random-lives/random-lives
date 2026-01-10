@@ -13,7 +13,8 @@ country: "Pakistan"
 latitude: 35.06
 longitude: 72.61
 map_url: "https://www.google.com/maps/place/35.06,72.61/@35.06,72.61,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Elder (50+)"

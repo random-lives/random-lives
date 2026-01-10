@@ -12,6 +12,7 @@ country: "India"
 latitude: 25.9
 longitude: 81.19
 map_url: "https://www.google.com/maps/place/25.9,81.19/@25.9,81.19,5z"
+old_lifestyle: "Urban"
 lifestyle: "Urban"
 era: "Holocene"
 sex: "F"
@@ -298,7 +299,7 @@ continent: "Asia"
 
 Pārvatī was born on March 15, 629, in a market town near Khaga in the middle Ganga plain, where Brahmanical households marked the year with fasts and festivals and paid dues to whichever local strongman held the roads and the grain stores. Her family spoke the local Indo-Aryan vernacular, knew set Sanskrit phrases for rites, and kept a small household altar near the cooking place. The first light of day usually found her mother Sītā rinsing a brass bowl, laying down a smear of cow-dung wash, and setting out water and a pinch of rice for the household deities. Pārvatī grew up watching those gestures and copying them exactly, then forgetting what came next.
 
-She was the second of three daughters. Lakṣmī, born in 627, learned quickly and carried herself as if she already knew what a household needed. Jayā came in 632, small and quick, the one Pārvatī pulled by the wrist through crowds. Their father Dhruva produced craft goods for sale—thread and cloth work that kept the house busy with winding, washing, and dye-smelling pots. Men dealt with buyers and disputes; women made the work possible. Pārvatī wanted to be in the talk, not tucked behind the doorway, and by the time she could carry a pot she was greeting neighbors at the well and asking questions that got her snapped at.
+She was the second of three daughters. Lakṣmī, born in 627, learned quickly and carried herself with authority. Jayā came in 632, small and quick, the one Pārvatī pulled by the wrist through crowds. Their father Dhruva produced craft goods for sale—thread and cloth work that kept the house busy with winding, washing, and dye-smelling pots. Men dealt with buyers and disputes; women made the work possible. Pārvatī wanted to be in the talk, not tucked behind the doorway, and by the time she could carry a pot she was greeting neighbors at the well and asking questions that got her snapped at.
 
 When she was four, a heavy monsoon left water standing in ruts and courtyards. Dhruva’s brothers argued over where to store grain sacks and whether to pay extra for dry firewood. Sītā boiled water more often, and the family went to a local shrine with flower garlands and a little ghee for a lamp. Pārvatī imitated the offerings with care, then cried at night after hearing a neighbor speak of bad omens.
 
@@ -308,7 +309,7 @@ She liked the evenings before sleep when women sat in a line to spin. She talked
 
 In 640, her grandfather Gautama’s cough deepened and he stopped leaving the courtyard. Pārvatī fetched water and rubbed his legs with warm oil, then yelled at Jayā for spilling a bowl. He died that year, and Sumitrā followed in 641. The house felt tighter. Dhruva spoke more sharply about dowry and matches. Sītā pushed Pārvatī to keep her voice down with elders and to master the routines of a new home.
 
-In 643, at fourteen, Pārvatī married Kumāra, a young artisan from a poorer household nearby, and moved into his parents’ house. Bhāskara, her father-in-law, watched how much thread she wasted and how quickly she rose. Rājā, her mother-in-law, corrected her without softness. Pārvatī answered back once and was made to redo a day’s work. She cried in the storage corner, then returned to the spindle, spinning until her fingers cramped.
+In 643, at fourteen, Pārvatī married Kumāra, a young artisan from a poorer household nearby, and moved into his parents' house. She was short, her head barely reaching Rājā's shoulder. Bhāskara, her father-in-law, watched how much thread she wasted and how quickly she rose. Rājā, her mother-in-law, corrected her without softness. Pārvatī answered back once and was made to redo a day’s work. She cried in the storage corner, then returned to the spindle, spinning until her fingers cramped.
 
 Late in 643, Rājā fell ill with a fever that left her shaking and unable to stand. Pārvatī took on the care. She carried water from the well, strained thin rice gruel, washed soiled cloths, and held the older woman upright to drink. She did it on schedule, stubborn and exact, and complained loudly when no one thanked her. Kumāra snapped at her for talking too much to Nandā at the well; she shouted back in the courtyard, then spent the night awake, whispering prayers and counting her breaths.
 

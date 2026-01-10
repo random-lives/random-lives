@@ -7,12 +7,14 @@ death_year: "662 AD"
 age_at_death: 67
 birth_date: "October 2, 594 AD"
 death_date: "January 24, 662 AD"
-location: "Gharaunda, Karnal, Haryana, 132114, India"
+location: "Gharaunda, Karnal, Haryana, India"
+location_original: "Gharaunda, Karnal, Haryana, 132114, India"
 country: "India"
 latitude: 29.57
 longitude: 76.94
 map_url: "https://www.google.com/maps/place/29.57,76.94/@29.57,76.94,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Elder (50+)"
@@ -392,7 +394,7 @@ continent: "Asia"
 #   type: severe_economic_crisis
 ---
 
-Dharma was born in early autumn of 594 in a farming settlement on the dry plain of what is now Haryana, where thorn scrub and fields met and where power shifted between local holders and the larger northern courts that were rising after the Gupta age. His family spoke an Indo‑Aryan village tongue, and the few Sanskrit words he learned came from priests and patrons, not from schooling. Their place in the village was fixed: they lived in a patrilocal joint household and served a landholding family year-round for rations and protection.
+Dharma was born in early autumn of 594 in a farming settlement on the dry plain of what is now Haryana, where thorn scrub and fields met and where power shifted between local holders and the larger northern courts that were rising after the Gupta age. His family spoke an Indo‑Aryan village tongue, and the few Sanskrit words he learned came from priests and patrons, not from schooling. Their place in the village was fixed: they lived in a joint household with his father's parents and served a landholding family year-round for rations and protection.
 
 The household had already buried two small children before Dharma could remember them. A brother, Jaya, died the year he was born, and Kamala died as a toddler. Their mother Lila carried that fear into each new pregnancy. When Dharma was small he slept near the cooking place, surrounded by older bodies and the smell of damp grain and smoke. His grandfather Bhima led the home. He handled disputes with other dependents, decided when to ask the patron for seed, and watched for the priest at rite days. At dawn he set a small clay lamp by the household corner shrine. He placed a pinch of rice and a smear of ghee before the image-stone there and said names of ancestors. Dharma learned to stand still with hands together and to repeat the short phrases the priest taught: bits of Sanskrit he did not fully understand, spoken as sounds that belonged to the rite.
 

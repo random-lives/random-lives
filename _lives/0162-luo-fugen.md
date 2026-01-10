@@ -7,12 +7,14 @@ death_year: "1862 AD"
 age_at_death: 54
 birth_date: "June 15, 1808 AD"
 death_date: "July 20, 1862 AD"
-location: "闪石乡, 莲花县, 萍乡市, 江西省, 中国"
+location: "Lianhua County, Pingxiang, Jiangxi, China"
+location_original: "闪石乡, 莲花县, 萍乡市, 江西省, 中国"
 country: "China"
 latitude: 27.32
 longitude: 114.01
 map_url: "https://www.google.com/maps/place/27.32,114.01/@27.32,114.01,5z"
-lifestyle: "Rural"
+old_lifestyle: "Rural"
+lifestyle: "Farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Elder (50+)"
@@ -417,7 +419,7 @@ The birth order sat on him from the start. The eldest brother, Luo Changshun, wa
 
 As a boy he could not keep his attention on one chore. He would be sent to gather brushwood and come back late because he had stopped to watch a man set snares for rabbits or to talk at the threshing ground. When his grandmother Liu Shi was alive she smoothed quarrels by putting him to work beside her—sorting beans, twisting rope, holding the incense sticks steady at the altar—tasks small enough that he finished them. His grandfather Luo Dechang died in 1820, and the household held the funeral in the old style: white cloth on the doorway, hired wailing, a Daoist ritual specialist chanting, and paper effigies burned outside. Fugen learned the sequence by being ordered to run messages and carry water, then kneel until his legs shook.
 
-He went to a village school for a short spell. The teacher made him copy characters until his wrist cramped. Fugen learned to recognize common ones and to read a few simple lines on a printed almanac, but he quit before he could write more than his name and a couple of set phrases. He did better talking than studying. He liked to linger at market stalls, where he could joke with porters and listen to traveling storytellers, and he remembered faces and nicknames more easily than sums.
+He went to a village school for a short spell. The teacher made him copy characters until his wrist cramped. Fugen learned to recognize common ones and to read a few simple lines on a printed almanac, but he quit before he could write more than his name and a couple of set phrases. He did better talking than studying. He liked to linger at market stalls, where he could joke with porters and listen to traveling storytellers, and he remembered faces and nicknames more easily than sums. His grandmother Liu Shi died in 1827, leaving the household without her steady hand at small tasks.
 
 In 1822 his brother Changfa died at nineteen. A fever took him quickly. Fugen helped wash the body, tied the cloth bands, and carried the mourners’ bowls of plain rice. After that his father watched him harder. He was fourteen and suddenly there was no buffer between him and adult labor.
 

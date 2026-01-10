@@ -11,6 +11,7 @@ country: "Sri Lanka"
 latitude: 6.41
 longitude: 80.35
 map_url: "https://www.google.com/maps/place/6.41,80.35/@6.41,80.35,5z"
+old_lifestyle: "Rural"
 lifestyle: "Rural"
 era: "Holocene"
 sex: "F"
@@ -361,7 +362,7 @@ Her first daughter, Ruwani, was born in 2009. Thushari returned to factory work 
 
 Samanthi was born in 2012. Two children tightened the household budget and Upul’s temper. He questioned her about coworkers and accused her of hiding money, and when he drank he pushed and hit. Thushari did not scream or collapse. She kept her voice flat, moved the children away, and waited for the moment she could leave the room. The marriage ended in 2015, after another episode of violence and a long argument about wages and control. She took the children back to her parents’ home and made the separation final.
 
-That same year a close relative died suddenly, leaving a young child without a stable home. Thushari brought the child into her parents’ house and registered them at the local school. She set up a routine that depended on remittances: factory work, money sent home, and careful instructions to Kumari and Kusum about uniforms and books. The extra child stretched everyone’s patience. Sujeewa complained about costs but offered rides when he could. Thushari avoided long confrontations; she said “I’ll handle it” and found a way to pay.
+That same year a close relative died suddenly, leaving a young child orphaned. Thushari brought the orphan into her parents' house and registered the child at the local school. She set up a routine that depended on remittances: factory work, money sent home, and careful instructions to Kumari and Kusum about uniforms and books. The extra child stretched everyone’s patience. Sujeewa complained about costs but offered rides when he could. Thushari avoided long confrontations; she said “I’ll handle it” and found a way to pay.
 
 Monsoon seasons got harsher. In 2017 floods and landslides disrupted roads and buses in the south. Thushari lost workdays because transport stopped, and she spent money repairing leaks and replacing damp bedding at home. During those years she began stopping at the temple more often, not for long sermons but for small acts—lighting a lamp, placing a few coins in the box, asking Ven. Sumangala for a blessing thread for the children before exams. She also kept up the household mix of practical and ritual: clinic visits when needed, and a vow at a shrine when fear rose.
 

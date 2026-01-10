@@ -6,11 +6,13 @@ birth_year_numeric: 2023
 death_year: "present"
 age_at_death: alive
 birth_date: "May 2, 2023 AD"
-location: "Tindouf ⵜⵉⵏⴷⵓⴼ تندوف, Daïra Tindouf, Tindouf, Algérie ⵍⵣⵣⴰⵢⴻⵔ الجزائر"
+location: "Tindouf, Algeria"
+location_original: "Tindouf ⵜⵉⵏⴷⵓⴼ تندوف, Daïra Tindouf, Tindouf, Algérie ⵍⵣⵣⴰⵢⴻⵔ الجزائر"
 country: "Algeria"
 latitude: 27.73
 longitude: -8.19
 map_url: "https://www.google.com/maps/place/27.73,-8.19/@27.73,-8.19,5z"
+old_lifestyle: "Urban"
 lifestyle: "Urban"
 era: "Holocene"
 sex: "F"
@@ -152,12 +154,12 @@ continent: "Africa"
 # - M
 ---
 
-Khadija was born on May 2, 2023 in Tindouf, an Algerian Saharan town governed by the Algerian state. Her family spoke Algerian Arabic at home and used Modern Standard Arabic for prayer and anything formal. They were Sunni Muslims in the Maliki tradition, and the rhythms of the week and year—Friday prayers, Ramadan, the two Eids—organized the household.
+Khadija was born on May 2, 2023 in Tindouf, an Algerian Saharan town governed by the Algerian state. Her family spoke Algerian Arabic at home and used Modern Standard Arabic for prayer and anything formal. They were Sunni Muslims in the Maliki tradition. Friday prayers, Ramadan, and the two Eids set the shape of each week and year.
 
 She arrived as the second child. Her brother, Youssef, had been born in 2020 and treated the apartment as his territory. They lived in an extended household with her paternal grandparents, Mohamed and Zohra. Her father, Ahmed, worked in the security services and disappeared for long shifts, returning in uniform, tired, and strict about noise. Her mother, Samira, stayed home and ran the day: tea, meals, laundry, keeping children clean in a dusty place.
 
 When Khadija was two, in mid-2025, she spoke in short bursts and preferred the words that already belonged to the house. “Mama.” “Baba.” “Ma.” “Khobz.” If her aunt Aïcha came by with greetings and kisses, Khadija pressed her face into Zohra’s dress and let her grandmother answer first. She followed prayers by imitation: hands raised for du‘a after a recited surah, then palms over her face, copied exactly.
 
-Youssef tried to pull her into games in the courtyard and with the neighbor girl, Nadia. Khadija watched from a step, then went back inside with her small objects. At three, she lined bottle caps along the edge of a rug and fixed them when someone nudged them out of place. If Youssef swept an arm through the row to tease her, she shouted “la,” grabbed the caps back, and cried until Samira lifted her onto her hip and spoke quietly.
+Youssef tried to pull her into games in the courtyard and with the neighbor girl, Nadia. Khadija watched from a step, then went back inside with her small objects. At three, she lined bottle caps along the edge of a rug and fixed them when someone nudged them out of place. If Youssef swept an arm through the row to tease her, she shouted "la," grabbed the caps back, and cried until Samira lifted her onto her hip and spoke quietly. When her grandmother caught her reaching for the sugar bowl, she froze, then slowly pushed it back without being told.
 
-Late 2025 finds her in the same rooms, close to her mother and grandmother, repeating her routines: a small cup, a few familiar words, and a straight line of caps on the rug while evening prayer sounds from the neighborhood.
+By late 2025, she is in the same rooms, close to her mother and grandmother, repeating her routines: a small cup, a few familiar words, and a straight line of caps on the rug while evening prayer sounds from the neighborhood.
