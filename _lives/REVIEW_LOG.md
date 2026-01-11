@@ -4,6 +4,59 @@ Each story appears once with all issues found and changes made across all review
 
 ---
 
+## 0041-nathono
+**Review 1:** Initial review addressed issues with Kawunza missing, Kawina absent at death, chronology errors, vague references, AI-slop phrases, and sibling introductions.
+
+**Review 2 (2026-01-11):**
+**Issues found:**
+- [Pass 1] Nampita not explicitly identified as brother
+- [Pass 1] Nankula introduced without stating relationship
+- [Pass 1] Sarima appeared without prior introduction
+- [Pass 1] Kawunza still missing from narrative
+- [Pass 2] Namalya's death lacked emotional weight
+- [Pass 2] Namutolo's death too brief
+- [Pass 2] Father Mpiru's death lacked personal reaction
+- [Pass 2] Daughter Nathima's death needed expansion
+- [Pass 3] Kawina disappeared after affair, absent at death
+- [Pass 3] Affair paragraph abrupt
+- [Pass 4] Mother's caregiving (1426-1430) felt compressed
+- [Pass 6] Sick relative paragraph still after father's death
+- [Pass 6] Remaining duplicate temporal markers
+- [Pass 7] "Deaths came early" remained
+- [Pass 7] "a sick adult relative" still vague
+- [Pass 7] "beads that looked like water" remained
+- [Pass 7] "arguments it created stayed" vague
+- [Pass 7] "heavy with the weight of names" metaphorical
+- [Pass 7] "When others suggested" vague actor
+- [Pass 8] "older kin" and "close kin" pseudosociological
+- [Pass 8] "illness settled into her body as a pattern" AI-slop
+
+**Changes made:**
+- Added "brother" to Nampita's introduction
+- Rewrote Nankula's introduction to clarify relationship
+- Added Sarima introduction before assault
+- Added Kawunza negotiating after assault
+- Expanded Namalya's death with grief and sitting with body
+- Expanded Namutolo's death showing protective role
+- Added father's personal presence before his death
+- Expanded Nathima's death with caregiving parallel
+- Added Kawina at deathbed with note about truce
+- Added context to affair explaining Chimwala's appeal
+- Expanded mother's caregiving with concrete details
+- Moved sick relative paragraph before father's death
+- Removed remaining duplicate age markers
+- Cut "Deaths came early in the family"
+- Changed "sick adult relative" to "Kawina's older brother"
+- Changed "beads that looked like water" to "blue glass beads"
+- Replaced vague ending with specific Nankula grudge
+- Replaced metaphor with concrete action
+- Specified "Nankula" instead of "others"
+- Changed "older kin" to "older relatives"
+- Changed "close kin" to "her daughters"
+- Rewrote fever pattern without AI-slop
+
+---
+
 ## 0192-shahzad
 **Issues found:**
 - [Pseudosociological] Line 294: "elders, kin, and the men who controlled" - "kin" should be replaced
@@ -2320,3 +2373,53 @@ All issues were fixed during post-regeneration review. The regenerated stories a
 - Changed "her kin warned her away" → "her family warned her away"
 - Changed "along kin lines" → "among families"
 - Changed "His kin recovered the body" → "Loushi and his sisters recovered the body"
+
+---
+
+## 0041-nathono
+**Issues found:**
+- [Pass 1] Kawunza (senior aunt/mediator) mentioned in narrative plan as prominent ages 15-45 was completely absent from narrative
+- [Pass 2] Nathima's death (daughter, age 19) mentioned too briefly given narrative plan says it "destabilizes Nathono emotionally"
+- [Pass 2] Sick relative (1411-1412) unnamed when could be specific
+- [Pass 3] Breathing-checking anxiety from childhood not connected to later episodes
+- [Pass 4] Chronology error: father's death (1412) paragraph placed before nursing sick relative (1411) paragraph
+- [Pass 6] "Heavy rains returned in some seasons" - vague timing
+- [Pass 7] "close kin" - pseudosociological jargon
+- [Pass 8] "The absence opened something in her that would not close" - figurative language
+
+**Changes made:**
+- Added Kawunza to marriage disputes: "Her mother's sister Kawunza, who held weight in the compound, had to step between them more than once."
+- Added Kawunza after assault: "Kawunza came afterward to negotiate with Sarima's people and arranged terms to prevent further violence."
+- Added Kawunza during economic crisis: "Kawunza backed her decisions in front of the elders, though privately she told Nathono to soften her tone."
+- Expanded Nathima's death paragraph with fever, nursing, rituals, and deeper grief reaction
+- Identified sick relative as "Kawina's older sister, who had come to stay in the compound after her own husband's death"
+- Added callback to breathing-checking: "The old habit returned—waking in the night to check that Nakhulo was still breathing"
+- Reordered paragraphs: sick relative (1411) now comes before father's death (1412)
+- "Heavy rains returned in some seasons" → "Heavy rains returned in 1413 and 1414"
+- "close kin" → "her daughters"
+- "The absence opened something in her that would not close" → "This grief did not lift"
+
+**Additional issues found (second pass):**
+- [AI-slop] "Deaths came early in the family" - generic opener
+- [Confusing structure] Siblings introduced piecemeal and out of order - Namalya and Nankula appear without prior introduction
+- [Vague] Namutolo's "shield" unexplained
+- [Awkward] "The care lasted into 1412" - unclear duration and emotional impact
+- [Duplicate markers] Multiple instances of "In YEAR, at age X" redundant dating
+- [Vague] Sarima appears with no introduction
+- [Weird dating] "1415 and 1416", "1416 and 1417" - pick one
+- [Underdeveloped] Affair too brief and vague
+- [Missing character] Kawina disappears after the affair
+
+**Additional changes made:**
+- Rewrote sibling paragraph to introduce all five surviving siblings upfront with relationships: Namutolo (eldest, handled disputes), Nankula (quiet, practical), Nampita (playmate), Namalya (sister she followed)
+- Removed redundant "She was the seventh child" and "Her closest sibling was Nampita" after sibling intro
+- Rewrote Namutolo's death to explain his role: "He had been the one who dealt with outsiders—tribute collectors, men from other lineages with grievances"
+- Named sick relative Nalupe, gave emotional landing: "Nathono felt the loss less as grief than as exhaustion finally allowed to end"
+- Removed Nankula's birth year (already introduced)
+- Introduced Sarima properly: "a woman from a neighboring compound who also managed stores"
+- Changed "Sarima's kin" to "Sarima's brothers" for clarity
+- Fixed dating: "Two years later, in 1415 and 1416" → "By 1415"; "In 1416 and 1417" → "In 1416"
+- Expanded affair: added characterization of Chimwala, how meetings progressed, and aftermath with Kawina
+- Added resolution of Kawina relationship: "Kawina knew or suspected—it was hard to say which—but he stayed. They settled into something quieter than their early years, less fighting, less warmth."
+- Added Kawina to death scene: "while Nankaya and Kawina tried to feed her thin gruel"
+- Fixed duplicate temporal markers throughout ("At thirty-eight, in 1417" → "Around her thirty-eighth year"; "forty-one, in 1420" → "In 1420"; "In 1425, at forty-six" → "The following year")

@@ -14,7 +14,7 @@ latitude: 46.31
 longitude: 133.0
 map_url: "https://www.google.com/maps/place/46.31,133.0/@46.31,133.0,5z"
 old_lifestyle: "Rural"
-lifestyle: "FLAG: Hunter-Gatherer"
+lifestyle: "Hunter-Gatherer"
 era: "Holocene"
 sex: "M"
 age_tag: "Elder (50+)"

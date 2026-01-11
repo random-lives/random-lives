@@ -484,97 +484,44 @@ Nathono was born in December 1379 in an inland settlement in the miombo woodland
 
 Her earliest memories sat inside a large compound. Huts circled packed earth, with granaries raised on posts and fenced pens for goats. Her mother, Mawinza, ran the stores and the daily work with a flat, practical voice. Nathono learned the sound of pestles at dawn, the smell of damp grain, the bite of smoke in the cooking hut. Before a harvest pot was opened, Mawinza would pinch a few grains and drop them at the base of a post, then touch her fingers to her lips and speak the ancestors’ names. Theriwa—her mother’s mother—sat with her back against a post and corrected the sequence whenever Mawinza missed one.
 
-Nathono's older sister Naweya had died as a toddler before Nathono was born, and another brother, Namwene, never lived beyond birth. The oldest, Namutolo, was already a man by the time she was born, shouldering lineage duties alongside their father. When Nathono was two, her mother gave birth again. The baby, Nawuna, did not live past the first day. Women washed the small body and wrapped it in cloth, and Theriwa tied a strip of fiber around the doorway of Mawinza’s hut. Nathono grew up with those absences treated as part of the household’s obligations: offerings at the edge of the yard, a careful sweep of the threshold after certain visitors, a refusal to leave a baby’s nail clippings where dogs could reach them.
+Deaths came early in the family. Nathono's older sister Naweya had died as a toddler before Nathono was born, and another brother, Namwene, never lived beyond birth. The oldest, Namutolo, was already a man by the time she was born, shouldering lineage duties alongside their father. When Nathono was two, her mother gave birth again. The baby, Nawuna, did not live past the first day. Women washed the small body and wrapped it in cloth, and Theriwa tied a strip of fiber around the doorway of Mawinza’s hut. Nathono grew up with those absences treated as part of the household’s obligations: offerings at the edge of the yard, a careful sweep of the threshold after certain visitors, a refusal to leave a baby’s nail clippings where dogs could reach them.
 
 She was the seventh child, and attention did not fall on her by default. She forced it. At five she followed her older sister Namalya from hut to hut, talking and asking questions until someone snapped at her. If told to sit, she stood. If told to hush, she whispered louder. She liked sitting near the grain baskets while older women joked and sorted out which basket belonged to which hearth. She laughed easily at other people’s sharp remarks, then returned a sharper one and watched faces harden. Mawinza slapped her once for speaking that way to an aunt, and Nathono went silent the rest of the day, then rose before dawn and carried water without being asked.
 
-Her closest sibling was her brother Nampita, six years older, who treated her as a shadow and dragged her into games along the footpaths. He died in 1389, at sixteen, after a short illness in the rains. Nathono watched the men carry his body out beyond the huts and felt her throat clamp shut whenever anyone coughed for weeks afterward. She began waking in the night to check on the breathing of whoever slept nearest, pressing her hand near a mouth, then lying back down without sleep.
+Her closest sibling was Nampita, born in 1373, who treated her as a shadow and dragged her into games along the footpaths. He died in 1389, at sixteen, after a short illness in the rains. Nathono watched the men carry his body out beyond the huts and felt her throat clamp shut whenever anyone coughed for weeks afterward. She began waking in the night to check on the breathing of whoever slept nearest, pressing her hand near a mouth, then lying back down without sleep.
 
 In 1395 Theriwa died. Mawinza called Nathono to sit with her and repeat the lineage names until she could do it without pause. The next season Nathono learned to seal gourds with resin and to raise smoked calabashes high in the rafters so rats could not reach them. She enjoyed the work that had clear measures: this many handfuls to that basket, this basket to that hearth. What she hated was being told, vaguely, to “help.” She would choose the task she wanted instead, and it often was not the one another person intended.
 
 At sixteen, in 1396, Nathono entered a recognized union with Kawina, a man from an allied lineage. He came with gifts and a confident smile, and he liked standing near her in gatherings, letting people see the connection. Nathono liked his voice and his attention. She also began arguing with him early, when he tried to direct where she should sleep or which work party she should join. In her mother’s compound, she did not take orders quietly.
 
-A son, Nakhulo, was born in 1397. Nathono carried him on her back and kept working, stopping to nurse and then returning to the fields with soil under her nails. When her older sister Namalya died in 1399 at twenty-three—fever, quick and final—Nathono sat beside the body longer than custom required. Namalya had taught her to count baskets and keep track of debts, had stood beside her when older women criticized her sharp tongue. Now Nathono moved into duties her sister had held: counting baskets, tracking who owed grain after communal feasts, deciding which dependents could take from which store. She did not speak Namalya's name casually afterward.
+A son, Nakhulo, was born in 1397. Nathono carried him on her back and kept working, stopping to nurse and then returning to the fields with soil under her nails. When her older sister Namalya died in 1399 at twenty-three, the women’s work shifted abruptly. Nathono moved into duties her sister had held: counting baskets, tracking who owed grain after communal feasts, deciding which dependents could take from which store.
 
 The early 1400s brought difficult seasons. Rains failed, then came late and hard, then failed again. Goats coughed and wasted in some years. Nathono’s second child, a boy named Nawiri, died at birth in 1400. Two years later she gave birth again, another son, Nampiri, and he also died immediately. She washed the small bodies with her own hands and refused help, jaw tight. For days afterward she stayed inside her hut, hair unbraided, leaving meals untouched. Then she would rise suddenly and throw herself into work, snapping at anyone who moved too slowly.
 
-Namutolo, the eldest brother, died in 1402 after years of carrying lineage disputes and tribute obligations. He had been the one who stepped between her and older relatives when she spoke too sharply, the one who told visitors she was young and learning. Without him, Nathono found herself exposed to criticism she had not faced directly before.
+Namutolo, the eldest brother, died in 1402 after years of carrying lineage disputes and tribute obligations. His death removed a shield Nathono had taken for granted.
 
-A daughter, Nathima, arrived in 1405, and another, Nankaya, in 1410. Nathono took pleasure in sitting with both girls at the edge of the granary yard in the late afternoon, shelling beans while telling them stories she had heard from travelers: salt from far places, cloth that came in bright patterns, and blue glass beads. She liked those details. She also liked the small beer brewed from grain when it went right, slightly sour, served in a calabash she kept for herself and her daughters. She did not share it widely.
+A daughter, Nathima, arrived in 1405, and another, Nankaya, in 1410. Nathono took pleasure in sitting with both girls at the edge of the granary yard in the late afternoon, shelling beans while telling them stories she had heard from travelers: salt from far places, cloth that came in bright patterns, and beads that looked like water. She liked those details. She also liked the small beer brewed from grain when it went right, slightly sour, served in a calabash she kept for herself and close kin. She did not share it widely.
 
-In 1411, one of Kawina's older brothers, who had lived in the compound for years, fell ill. The illness was slow, with coughing and wasting. Nathono kept a pot of thin porridge near his sleeping mat, changed cloths, cleaned waste, and carried messages to a healer, Mulapwa, who came with powders and instructions. The care lasted into 1412, ending with death and another set of rites, another list of obligations.
+In 1412 her father Mpiru died during a tense season of shortages. The compound filled with visitors, disputes, and requests. Nathono’s brother Nankula, born in 1370, leaned into authority and expected compliance. Nathono did not give it. They fought over who should receive grain when dependents asked for help. She insisted on measuring and recording each distribution with knots on a cord and marks on a stick. When others suggested she keep extra aside for her own hearth, she refused and accused them of trying to steal from ancestors.
 
-That same year, her father Mpiru died during a tense season of shortages. He had been often absent at councils and tribute gatherings, but when he returned he would sit beside her and ask about the stores, about her children, about small things. That presence ended. The compound filled with visitors, disputes, and requests. Nankula, the second-oldest brother who had long stayed in the background while Namutolo handled lineage business, now leaned into authority and expected compliance. Nathono did not give it. They fought over who should receive grain when dependents asked for help. She insisted on measuring and recording each distribution with knots on a cord and marks on a stick. When Nankula suggested she keep extra aside for her own hearth, she refused and accused him of trying to steal from ancestors.
+At thirty-two, in 1411, she began nursing a sick adult relative who lived within the compound. The illness was slow, with coughing and wasting. Nathono kept a pot of thin porridge near the person’s sleeping mat, changed cloths, cleaned waste, and carried messages to a healer, Mulapwa, who came with powders and instructions. The care lasted into 1412, ending with death and another set of rites, another list of obligations.
 
-Heavy rains returned in some seasons. Paths turned slick. Roofs leaked. Granaries needed repair. Nathono kept walking into the storehouses to check for mold, then arguing with men about replacing posts and thatching when they wanted to delay. A woman named Sarima, from a neighboring compound, had begun moving through the same circles as Nathono—both oversaw stores, both spoke loudly in gatherings, and both disliked yielding. In 1413, a dispute broke out over a borrowed hoe and missing grain. Nathono confronted Sarima's kin near the edge of the compound and accused them directly. Sticks came out. She was beaten until someone pulled them off, and she lay with bruised ribs and a swollen face, refusing to cry in front of the crowd. Her mother's sister Kawunza, who had mediated household disputes since Nathono was a girl, negotiated terms with Sarima's people afterward: compensation exchanged, words spoken, a public acknowledgment that the matter was closed. Nathono accepted the outcome but avoided Sarima's doorway and refused to attend any gathering where Sarima's mother sat nearby.
+Heavy rains returned in some seasons. Paths turned slick. Roofs leaked. Granaries needed repair. Nathono kept walking into the storehouses to check for mold, then arguing with men about replacing posts and thatching when they wanted to delay. In 1413, at thirty-four, a dispute broke out over a borrowed hoe and missing grain. Nathono confronted Sarima’s kin near the edge of the compound and accused them directly. Sticks came out. She was beaten until someone pulled them off, and she lay with bruised ribs and a swollen face, refusing to cry in front of the crowd. Afterward she avoided Sarima’s doorway and refused to attend any gathering where Sarima’s mother sat nearby.
 
-Two years later, in 1415, her mood broke in ways she could not hide. She stayed in her hut long after dawn, staring at the doorway. She stopped attending women's work parties and let meals go cold. When she did appear, she spoke fast and harsh, then fell silent and turned away. Kawina grew resentful—he wanted the woman who had argued with him fiercely, not one who could not rise from her mat—and the quarrels became loud. In 1416, when a visiting man named Chimwala arrived with an allied group, Nathono met him away from the compound during work days. He listened when she talked. He did not expect her to be anything but what she was in that moment. The meetings were brief and carefully placed, and she returned home with her face set, daring anyone to question her.
+Two years later, in 1415 and 1416, her mood broke in ways she could not hide. She stayed in her hut long after dawn, staring at the doorway. She stopped attending women’s work parties and let meals go cold. When she did appear, she spoke fast and harsh, then fell silent and turned away. Kawina grew resentful, and the quarrels became loud. In 1416 and 1417, when a visiting man named Chimwala arrived with an allied group, Nathono met him away from the compound during work days. The meetings were brief and carefully placed, and she returned home with her face set, daring anyone to question her.
 
-In 1417, the fevers began returning. They came and went, leaving her weak and sore for weeks each time. She stopped doing the heaviest field work and shifted to directing others, sitting near the granaries with a staff in her hand, calling out instructions. She disliked being dependent, and she took it out on people who made mistakes. Then she would force herself to give extra food to someone else's child and speak gently.
+At thirty-eight, in 1417, illness settled into her body as a pattern. Fevers came and went, leaving her weak and sore for weeks. She stopped doing the heaviest field work and shifted to directing others, sitting near the granaries with a staff in her hand, calling out instructions. She disliked being dependent, and she took it out on people who made mistakes. Then she would force herself to give extra food to someone else's child and speak gently.
 
-A run of poor rains struck again in 1420. Stores ran low. Dependents began leaving for other settlements to find food. Nathono rationed grain, gave smaller measures, and kept her cord of knots close to her waist. She bartered goats and a piece of cloth meant for display at ceremonies for meal and seed. Men complained, and she answered them in public without lowering her voice. The crisis lasted through 1422, ending only after a better harvest. Nankula never forgave her for selling the ceremony cloth without consulting him.
+A run of poor rains struck again when she was forty-one, in 1420. Stores ran low. Dependents began leaving for other settlements to find food. Nathono rationed grain, gave smaller measures, and kept her cord of knots close to her waist. She bartered goats and a piece of cloth meant for display at ceremonies for meal and seed. Men complained, and she answered them in public without lowering her voice. The crisis lasted through 1422, ending only after a better harvest, but the arguments it created stayed.
 
-Nathima died in 1424 at nineteen, taken by fever in the wet season. She had been helping with the stores and the water hauling, walking beside Nathono through the daily rounds, learning the way Nathono had once learned from Namalya. Nathono washed her daughter's body herself and would not let others help. For days afterward she did not speak. Then she began scrubbing the inside of storage baskets until her hands cracked, as if cleaning could undo something. Nakhulo, now grown, took over some negotiations, and Nankaya stayed close, watching her mother's face for signs of the next collapse.
+Nathima died in 1424 at nineteen. Nathono stopped speaking for days, then spent hours scrubbing the inside of storage baskets. Nakhulo, now grown, took over some negotiations, and Nankaya stayed close, watching her mother’s face for signs.
 
-In 1425 Nathono slipped on a wet path while carrying a heavy pot of water. The fall injured her hip and lower back. For weeks she could not carry loads or walk to the far fields. She sat near the cooking huts and directed work with short commands, then retreated into her hut when pain and shame rose together.
+In 1425, at forty-six, Nathono slipped on a wet path while carrying a heavy pot of water. The fall injured her hip and lower back. For weeks she could not carry loads or walk to the far fields. She sat near the cooking huts and directed work with short commands, then retreated into her hut when pain and shame rose together.
 
-Mawinza, her mother, became frail in 1426. Nathono arranged for her to sleep in a hut close to her own. She assigned younger women to wash her, to keep water nearby, to warm her at night. The years that followed were slow and heavy. Nathono checked the old woman's skin for sores, fed her mashed grain when she could no longer chew, and sat with her through nights when she called out names of people long dead. She insisted that offerings be made correctly: a small mound of millet meal at the base of a post, a drizzle of beer on the ground, names spoken in order. In 1430 Mawinza died. Nathono argued with her brother Nankula about which obligations should be met immediately and which could wait for better stores, then collapsed into silence for a full week.
+Mawinza, her mother, became frail in 1426. Nathono arranged for her to sleep in a hut close to her own. She assigned younger women to wash her, to keep water nearby, to warm her at night. Nathono checked the old woman’s skin for sores and insisted that offerings be made correctly: a small mound of millet meal at the base of a post, a drizzle of beer on the ground, names spoken in order. In 1430 Mawinza died. Nathono argued with her brother Nankula about which obligations should be met immediately and which could wait for better stores, then collapsed into silence for a full week.
 
-Nankula himself died in 1432. With him gone, Nathono stood as one of the last of her generation in the compound. When offerings were made, she now spoke the names alone.
+Nankula himself died in 1432. With him gone, Nathono stood as one of the last of her generation in the compound, heavy with the weight of names she now carried alone.
 
-In 1433, after the start of the hot season, diarrhea spread through the compound. Nathono began passing watery stool and could not keep down water. Her mouth dried, and she lay in her hut while Nankaya tried to feed her thin gruel. Kawina sat nearby, older now and quieter than he had been—they had found a kind of truce in their later years, neither yielding but no longer fighting loudly. Mulapwa came and gave herbs and instructions, but Nathono continued to lose fluid until she died on November 5.
+In 1433, after the start of the hot season, diarrhea spread through the compound. Nathono began passing watery stool and could not keep down water. Her mouth dried, and she lay in her hut while Nankaya tried to feed her thin gruel. Mulapwa came and gave herbs and instructions, but Nathono continued to lose fluid until she died on November 5.
 
 The women prepared her body. They placed her in the burial ground used by her maternal lineage and set a calabash of beer and grain beside the grave before covering it.
-
----
-
-**Review (2026-01-11)**
-
-**Issues found:**
-- [Pass 1] Nampita not explicitly identified as brother
-- [Pass 1] Nankula introduced without stating relationship
-- [Pass 1] Sarima appeared without prior introduction
-- [Pass 1] Kawunza (senior aunt/mediator) missing from narrative
-- [Pass 2] Namalya's death lacked emotional weight
-- [Pass 2] Namutolo's death too brief
-- [Pass 2] Father Mpiru's death lacked personal reaction
-- [Pass 2] Daughter Nathima's death needed expansion
-- [Pass 3] Kawina (husband) disappeared after affair, absent at death
-- [Pass 3] Affair paragraph abrupt, lacking context
-- [Pass 4] Mother's caregiving (1426-1430) felt compressed
-- [Pass 6] Sick relative paragraph (1411) placed after father's death (1412) - chronology error
-- [Pass 6] Multiple duplicate temporal markers (year + age)
-- [Pass 7] "Deaths came early" - vague opening phrase
-- [Pass 7] "a sick adult relative" - unspecified
-- [Pass 7] "beads that looked like water" - figurative language
-- [Pass 7] "arguments it created stayed" - vague ending
-- [Pass 7] "heavy with the weight of names" - metaphorical
-- [Pass 7] "When others suggested" - vague actor
-- [Pass 8] "older kin" - pseudosociological
-- [Pass 8] "close kin" - pseudosociological
-- [Pass 8] "illness settled into her body as a pattern" - AI-slop
-
-**Changes made:**
-- Added "brother" to Nampita's introduction
-- Rewrote Nankula's introduction to clarify he's the second-oldest brother
-- Added sentence introducing Sarima before the assault
-- Added Kawunza negotiating after the assault
-- Expanded Namalya's death with emotional reaction
-- Expanded Namutolo's death showing his protective role
-- Added father's personal presence before his death
-- Expanded Nathima's death with caregiving parallel and grief
-- Added Kawina at deathbed with note about their later truce
-- Added context to affair: why Chimwala appealed to her
-- Expanded mother's caregiving years with concrete details
-- Moved sick relative paragraph before father's death
-- Changed "In 1412" to "That same year" for flow
-- Removed duplicate age markers throughout
-- Cut "Deaths came early in the family"
-- Changed "sick adult relative" to "one of Kawina's older brothers"
-- Changed "beads that looked like water" to "blue glass beads"
-- Replaced vague "arguments it created stayed" with specific grudge
-- Replaced metaphor with concrete: "she now spoke the names alone"
-- Changed "When others suggested" to "When Nankula suggested"
-- Changed "older kin" to "older relatives"
-- Changed "close kin" to "her daughters"
-- Rewrote fever pattern without AI-slop phrasing
