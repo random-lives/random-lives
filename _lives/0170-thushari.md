@@ -11,8 +11,7 @@ country: "Sri Lanka"
 latitude: 6.41
 longitude: 80.35
 map_url: "https://www.google.com/maps/place/6.41,80.35/@6.41,80.35,5z"
-old_lifestyle: "Rural"
-lifestyle: "Rural"
+lifestyle: "Rural non-farmer"
 era: "Holocene"
 sex: "F"
 age_tag: "Alive"

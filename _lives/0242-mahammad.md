@@ -13,7 +13,7 @@ country: "Azerbaijan"
 latitude: 41.31
 longitude: 48.78
 map_url: "https://www.google.com/maps/place/41.31,48.78/@41.31,48.78,5z"
-lifestyle: "Rural"
+lifestyle: "Rural non-farmer"
 era: "Holocene"
 sex: "M"
 age_tag: "Adult (19–49)"
