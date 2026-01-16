@@ -404,7 +404,7 @@ continent: "Asia"
 
 Mallamma was born on May 18, 679, in a farming hamlet near the low fields and thorn scrub of the Andhra country, under the authority of the Eastern Chalukyas of Vengi. People spoke a South-Central Dravidian vernacular in the yards and fields, and the household kept Brahmanical rites at home—lamp and incense at dawn, rice and flowers set before the household deities, and a priest called for the larger ceremonies.
 
-She arrived late in a long line of children. Two brothers, Ravi and Kanna, had lived only hours; an older sister, Chenna, had not lasted a day. The surviving girls filled the compound. Satyamma, born in 668, moved through chores with quick hands and a sharp memory for who had borrowed what. Mallamma, born in 670, stayed small and then died in 676 after a short illness. Peddamma, born in 673, played at being a bride long before she married out. Komalamma, born in 681, followed Mallamma by two years and clung to her as if she were older than she was.
+She arrived late in a long line of children. The family had buried three infants before Mallamma's birth, and her mother Bhagyamma spoke of them only during offering rites. The living sisters filled the compound: Satyamma, eleven years older, moved through chores with quick hands and a sharp memory for who had borrowed what; Peddamma, six years older, played at being a bride long before she married out. There had been another sister between Satyamma and Peddamma who died at six, but nobody spoke her name. Komalamma, two years younger than Mallamma, followed her everywhere and clung to her as if the age difference ran the other way.
 
 The family lived in an extended patrilineal compound. Narayana, Mallamma’s father, worked the household’s plots when water and labor allowed and took seasonal work for others when the stores ran thin. His brother Somayya lived in the same enclosure with his wife Subbamma. The elder, Timmanna, ruled the yard with his stick and his temper; his wife Lakshmamma set the women’s work and watched the grain jars. Mallamma’s mother Bhagyamma kept close to infants and hearth, with a string of small mourning rites behind her.
 
@@ -412,7 +412,7 @@ Mallamma grew into a striking child. At the well she drew stares earlier than th
 
 At six she caught a fever after the rains. Bhagyamma kept her on a mat near the kitchen wall and fed her thin gruel and water flavored with tamarind. The household women tied a protective thread at her wrist and put a small lamp before the family shrine. When Mallamma stood again, she moved slowly, and Bhagyamma treated her as delicate when the mosquitoes thickened.
 
-In 692, when Mallamma was thirteen, Timmanna died. The men shaved their heads and the women ate plain food for the mourning days. Somayya stepped forward as the senior man. He talked to Narayana about land shares and labor days, and he spoke more directly about what each woman owed the house. Subbamma’s voice carried farther now. Mallamma learned to keep out of her path, slipping away with Komalamma to the edges of the fields where women cut fodder and traded scraps of news.
+In 692 Timmanna died. The men shaved their heads and the women ate plain food for the mourning days. Somayya stepped forward as the senior man. He talked to Narayana about land shares and labor days, and he spoke more directly about what each woman owed the house. Subbamma’s voice carried farther now. Mallamma learned to keep out of her path, slipping away with Komalamma to the edges of the fields where women cut fodder and traded scraps of news.
 
 Satyamma tried to manage her younger sister. She pulled Mallamma by the wrist to the threshing floor and pointed to the winnowing basket. “Do it before the sun moves.” Mallamma did it, then stopped halfway through, distracted by the rhythm of a work song drifting from another yard. Satyamma slapped the basket rim and cursed under her breath, then later that night brought Mallamma a small handful of fried gram and told her to eat.
 
@@ -420,28 +420,66 @@ Narayana’s work took him away during peak seasons. He came back smelling of ot
 
 By fifteen Mallamma’s looks had become a household concern. Men noticed her at festival gatherings when the family went to a nearby shrine with offerings of cooked rice, coconut, and flowers. Lakshmamma put her behind the older women and assigned Komalamma to keep her close. Mallamma disliked the crowding and noise, and she pulled away to sit near the temple wall where she could see without being pressed. She listened to traveling singers and remembered their lines better than she remembered where she had put the sickle.
 
-A match was arranged in 695, when she was sixteen. Madhava belonged to a neighboring branch in the same village cluster, a cultivator with claims through his father and brothers. The wedding brought a priest, a fire, and the expected gifts—cloth, a little metal, grain. Mallamma moved into Madhava’s compound within the same locality, close enough that she still saw Komalamma at the well and could walk to her mother’s yard.
+A match was arranged in 695. Madhava belonged to a neighboring branch in the same village cluster, a cultivator who worked land alongside his elder brother Venkata. The wedding brought a priest, a fire, and the expected gifts—cloth, a little metal, grain. Mallamma moved into a compound shared by Madhava, Venkata, and Venkata's wife Chandana. The compound sat close enough to her natal home that she still saw Komalamma at the well and could walk to her mother's yard.
 
-Married life demanded steadiness: grinding grain before dawn, drawing water, carrying seedlings, weeding in the heat. Mallamma did the work, then failed it. She rose late on planting days. She forgot where she had put the needle and accused another woman of taking it. When her sisters-in-law confronted her, she snapped and then withdrew, sitting by the back wall with her chin on her knees. Her beauty brought attention but not protection. Madhava wanted a wife who kept to routine tasks, and quarrels became common. He did not waste words; he laid out expectations and waited. Mallamma stared past him and said nothing until a sharp retort came out, surprising even her.
+Married life demanded steadiness: grinding grain before dawn, drawing water, carrying seedlings, weeding in the heat. Mallamma did the work, then failed it. She rose late on planting days. She forgot where she had put the needle and accused Chandana of taking it. When Chandana confronted her, she snapped and then withdrew, sitting by the back wall with her chin on her knees. Her beauty brought attention but not protection. Madhava wanted a wife who kept to routine tasks, and quarrels became common. He did not waste words; he laid out expectations and waited. Mallamma stared past him and said nothing until a sharp retort came out, surprising even her.
 
 In 699 she delivered a son, Govinda. The women heated water, wiped the baby clean, and waited for a cry that did not come. Mallamma did not leave her bedding for days afterward. Bhagyamma came to sit with her, bringing soft rice and cumin water, whispering prayers to Lakshmi and to the ancestors. Mallamma pushed the bowl away, then suddenly demanded to know which vow had been missed and accused Bhagyamma of not lighting the lamp at the right time. When Bhagyamma answered, Mallamma turned her face to the wall and stopped speaking.
 
-Peddamma, the older sister who had married out, died in 700 at twenty-seven. Word came with a messenger, and the women in Mallamma’s natal compound wailed. Mallamma heard and felt a tightness in her chest that did not ease. She began avoiding the courtyard, avoiding the well at busy hours, sending another woman if she could.
+Peddamma, the older sister who had married out, died in 700 at twenty-seven. Word came with a messenger, and the women in Mallamma’s natal compound wailed. Mallamma heard and felt a tightness in her chest that did not ease. She began avoiding the courtyard, avoiding the well at busy hours, sending Chandana when she could.
 
-Lakshmamma, the grandmother, died in 702. Subbamma became harsher, measuring grain with a more careful eye. In 703 Mallamma bore a second son, Hari.
+Lakshmamma, the grandmother, died in 702. When Mallamma visited her natal compound for the mourning rites, she found Subbamma measuring grain with a harder eye and setting harsher schedules. She stayed only a day.
+
+In 703 Mallamma bore a second son, Hari, after a difficult labor that left her weak for weeks.
 
 Hari lived only a short time. After the burial rites, Mallamma began keeping a string of small observances: plain food on certain days, extra lamps at dusk, a pinch of turmeric placed carefully at the threshold. She also grew quicker to anger. If anyone mentioned another woman's healthy child, Mallamma cut them off. Venkati, a neighbor who liked to linger at the well, once tried to comfort her with gossip and a joke about a foolish calf; Mallamma barked at her to stop talking and went home without her water pot. Komalamma carried it back later, laughing softly and then stopping when she saw Mallamma's face.
 
 Narayana, her father, died in 707. Mallamma went to the cremation but stood apart from the other women, not wailing as loudly as custom expected. Bhagyamma watched her and said nothing.
 
-Satyamma died in 709, forty-one years old, after a short illness that kept her thin and thirsty. Mallamma lost the one person who could scold her and still shield her. When Madhava died in 711, taken by an acute sickness after the rains, Mallamma’s position narrowed further. She shaved her head as a widow and wore plain cloth. With no living children, she remained in the joint household under her brothers-in-law. Somayya decided it; the fields and the compound were held by the agnatic line, and she stayed as labor and dependent.
+Satyamma died in 709, forty-one years old, after a short illness that kept her thin and thirsty. Mallamma lost the one person who would defend her when Chandana complained about her work, the one who could calm Madhava's anger with a word.
 
-The crisis hit the next year. In 712 the rains failed early and pests stripped a portion of what had grown. Grain prices rose at the market, and Rangayya, a local landholder and lender, offered loans against the next harvest. Somayya accepted. Jewelry was pawned. A sealed jar of rice meant for festivals was opened. Mallamma ate thin gruel and went out to weed and harvest for better-off fields in exchange for measures of grain. She returned sore and silent, then argued over rations, accusing Chandana, a brother-in-law’s wife, of taking more than her share. Chandana shouted back that Mallamma contributed nothing steady. Mallamma, furious, hid a small pouch of dried grain and tamarind behind the kitchen stones. When it was found, she denied it once, then shrugged and said it was for offerings.
+In 711 Madhava fell sick after the rains. The fever took him in a week. Mallamma shaved her head and wore plain cloth. With no living children, she had no claim to land or grain except what Venkata allowed. The fields belonged to Madhava's family, and Venkata decided she would stay as labor and dependent.
 
-Bhagyamma died in 713, worn down by years of loss and the lean season. Mallamma stopped sleeping through the night. She woke before dawn and sat by the cold hearth, staring at the ash until someone asked her to move. At other times she slept deep into the morning, and Subbamma yanked her up by the arm.
+The crisis hit the next year. In 712 the rains failed early and pests stripped a portion of what had grown. Grain prices rose at the market, and Rangayya, a local landholder and lender, offered loans against the next harvest. Venkata accepted. Jewelry was pawned. A sealed jar of rice meant for festivals was opened. Mallamma ate thin gruel and went out to weed and harvest for better-off fields in exchange for measures of grain. She returned sore and silent, then argued over rations, accusing Chandana of taking more than her share. Chandana shouted back that Mallamma contributed nothing steady. Mallamma, furious, hid a small pouch of dried grain and tamarind behind the kitchen stones. Chandana found it while sweeping. Mallamma denied it once, then shrugged and said it was for offerings.
 
-From 714 into 715 the household worked to repay Rangayya. Keshava, the headman’s messenger, came with notices of assessments and labor days, and Somayya sent men and women to dig and mend bunds and carry loads. Mallamma endured it, quiet in the line, then returned home and refused food. Komalamma, now married but still close by, slipped her a bit of sesame sweet on a festival day and got a brief smile in return. Mallamma liked those sweets and the first warm rice of a new harvest. She also liked sitting near the cattle at dusk when the courtyard emptied and the noise fell away.
+Bhagyamma died in 713, worn down by years of loss and the lean season. Mallamma stopped sleeping through the night. She woke before dawn and sat by the cold hearth, staring at the ash until someone asked her to move. At other times she slept deep into the morning, and Chandana yanked her up by the arm.
+
+From 714 into 715 the household worked to repay Rangayya. The headman's messenger came with notices of assessments and labor days, and Venkata sent the household to dig and mend bunds and carry loads. Mallamma endured it, quiet in the line, then returned home and refused food. Komalamma, now married but still close by, slipped her a bit of sesame sweet on a festival day and got a brief smile in return. Mallamma liked those sweets and the first warm rice of a new harvest. She also liked sitting near the cattle at dusk when the courtyard emptied and the noise fell away.
+
+By 716 the debt was paid and the rains returned. The compound recovered slowly. Mallamma ground grain before the other women rose, carried water from the well, weeded when Venkata assigned her to the fields. Chandana still measured her work and found it wanting, still complained when Mallamma left a task half-done.
+
+In 718 a bout of fever swept through the village after the monsoon. Mallamma spent two weeks on her mat, drinking tamarind water and refusing food. When she recovered, she moved more slowly than before. Her cough lingered into the dry season, then faded.
+
+Komalamma came when she could, usually once a week, bringing news of her own children and small gifts of sesame sweets or a handful of dried dates. Mallamma saved the sweets and ate them alone at dusk, sitting near the cattle enclosure where the noise of the compound did not reach her. These were the only moments she felt content.
 
 The final illness came in 721. During the post-monsoon season she developed a persistent cough and fever. For days she kept working, then could not rise. The household gave her warmed water, and a small lamp burned at the shrine with offerings of flowers and cooked rice. The cough worsened, and she died on October 19, 721.
 
-The men of the compound carried her body out to the cremation ground beyond the village. A fire was built, and after it burned down, the remaining bones and ash were gathered. A final offering of water and rice was made for her spirit and for the ancestors of the line that had housed her.
+The men of the compound carried her body to the cremation ground beyond the village. Venkata lit the pyre. Komalamma watched from the edge, keeping the women's wailing. When the fire burned down, the remaining bones and ash were gathered. Komalamma poured water and placed rice balls for her sister's spirit and for the ancestors of the line that had housed her.
+
+<!--
+REVIEW LOG (2026-01-16)
+
+**Issues found:**
+- [Pass 1] Gap in coverage ages 37-41 (716-720) with only vague bridging
+- [Pass 2] Marital household vague - brothers-in-law unnamed, Somayya/Subbamma incorrectly referenced after marriage
+- [Pass 3] Dead-before-birth siblings given equal weight as living ones; confusing same-name sibling
+- [Pass 4] Keshava named for one-off appearance; Somayya/Subbamma disappear after natal compound
+- [Pass 7] Paragraph 431 crammed three unrelated events together
+- [Pass 8] Redundant year+age markers ("In 692, when Mallamma was thirteen")
+- [Pass 9] "seemed content" hedging; "another woman" vague; meta-commentary about sibling death
+- [Pass 10] "shield her" abstract without mechanism
+- [Pass 12] "agnatic line" jargon
+- [Pass 14] Dense paragraph with two deaths + widowhood; "servant girl" mention with no prior setup; generic cremation paragraph
+
+**Changes made:**
+- Added 716-720 content: debt repayment, routine, 718 fever episode, Komalamma visits
+- Named Madhava's brother Venkata and wife Chandana at marriage; fixed all Somayya/Subbamma references after marriage to use correct household members
+- Rewrote sibling introduction to distinguish dead-before-birth infants from living sisters; removed same-name sibling confusion
+- Removed Keshava's name (now "headman's messenger")
+- Split Lakshmamma death paragraph; added context to Hari's birth
+- Removed redundant age markers
+- Changed "seemed content" to "felt content"; specified "Chandana" instead of "another woman"; made sibling death more concrete
+- Made "shield her" concrete: "defend her when Chandana complained about her work, calm Madhava's anger with a word"
+- Changed "agnatic line" to "Madhava's family"
+- Split Satyamma/Madhava deaths into separate paragraphs; removed "servant girl"; made cremation specific with Venkata/Komalamma roles
+-->

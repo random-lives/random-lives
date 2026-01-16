@@ -397,11 +397,11 @@ Girls filled the house. Lapa died when Chuku was small enough that he took his c
 
 Two births ended quickly. Ruk lived only a breath. Benato cut a lock of hair from her own head and tied it to the handle of the grain scoop after that, saying it kept the store safe. Another girl, Tomo, arrived when Chuku could already carry a small load. Tomo followed him everywhere, begging for stories about the next ridge and the river bends below. The last child was Tor, a younger brother with quick hands and a grin that made adults forgive him.
 
-Chuku grew tall early and stayed tall, and people noticed. At gatherings he kept his eyes down because stares turned into talk. He learned to stand close to Benato when strangers came through, and to speak only when asked. He listened more than he spoke. Travelers from lower valleys sat near the fire and traded news for cups of thin beer. Chuku hovered near the edge of those circles and remembered what he heard: which villages wanted salt, which had grain after a good year, which river crossings took lives when the rains came.
+Chuku grew tall early and stayed tall. At gatherings women and older girls stared, and the stares turned into comments he could hear. He learned to keep his eyes down and to stand close to Benato when strangers came through. He listened more than he spoke. Travelers from lower valleys sat near the fire and traded news for cups of thin beer; Chuku hovered at the edge of those circles and remembered what he heard. Which villages wanted salt. Which had grain after a good year. Which river crossings took lives when the rains came.
 
 By twelve he handled goats and the smallest terrace plots. He liked the part of the day when shadows still cut clean lines across the fields. He checked the same stones in the retaining wall each time he passed, pressing them with his palm. When clouds piled up and the wind shifted, his belly tightened and he went back to the house to count ropes and lashings, then count them again. Benato saw the restlessness and gave him tasks that had clear endings: grind this basket of grain, twist these cords, shape these pegs.
 
-When Chuku was sixteen, Seno began to cough and keep to the corner by the hearth. Kan and Duma argued about whether to spend a goat on a healer from a neighboring valley. Chuku carried Seno water, sat with her while Benato burned resin on a shard of pottery, and watched the smoke curl toward the roof beams. Seno died at twenty-four, when Chuku was already away often enough that he returned to hear it rather than see it.
+When Chuku was sixteen, Seno began to cough and keep to the corner by the hearth. Kan and Duma argued about whether to spend a goat on a healer from a neighboring valley. Chuku carried Seno water, sat with her while Benato burned resin on a shard of pottery, and watched the smoke curl toward the roof beams. The cough eased for a time, then returned.
 
 At seventeen he left the valley for good. Kan did not forbid it, but he counted out a small share of grain and a pair of sandals, and he said Chuku would not be coming back to claim terraces. Chuku accepted it without bargaining. He had already decided. He followed Haruno, a maternal uncle, down to a route where loads moved more steadily and strangers paid in salt and grain. There he met Kumel, a seasoned route leader with scarred shins from years of bad paths. Kumel watched Chuku tie a pack frame, then untie it, then tie it again more evenly. He put Chuku in charge of the mule that carried breakable pots.
 
@@ -409,18 +409,51 @@ The work fit him. He kept the load balanced, chose the firmer line on a slope, a
 
 The world he moved through changed as he learned it. Some towns demanded different goods than they had a few years earlier. Certain contacts disappeared; older men spoke of fewer seals and fewer fine beads coming from far cities. Chuku adjusted without fanfare. He shifted to what moved: salt blocks, dried fish from rivers, bundles of resin, skins, small amounts of copper. He learned the spoken measures of grain and the feel of a fair weight in his hand.
 
-At nineteen he married Kiran in a destination community where the route widened into easier ground. Kiran's family had fields and a few animals; they wanted a husband who brought goods back without trouble. Chuku brought them carefulness, and Kiran brought him steadiness. Their first daughter, Rena, was born the next year. Chuku held her once, awkwardly, then went out to check the roof lashings. Kiran laughed at him for that, and he laughed too, a short sound that surprised him.
+At nineteen he married Kiran in a destination community where the route widened into easier ground. Kiran's parents and two brothers farmed fields on the valley floor and kept goats; they wanted a husband who brought goods back without trouble. Chuku brought them a careful hand with cargo; Kiran kept the household running when he traveled. Their first daughter, Rena, was born the next year. Chuku held her once, awkwardly, then went out to check the roof lashings. Kiran laughed at him for that, and he laughed too, a short sound that surprised him.
 
 He built a small home with Kiran and kept it orderly. When he returned from travel he washed at the threshold, then placed a pinch of grain and a drop of beer beside the hearth stone for the house spirits. He liked thick porridge with sour curd and salt, and on good days he ate it outside, sitting on a flat rock with Rena leaning against his leg. He avoided drinking too much at night gatherings; a fuzzy head made him feel unsafe.
 
-Two more daughters followed: Beko, then Maru. Beko died at two, in the season when fevers went through children. Chuku responded with rules. He insisted on boiling water longer, on keeping strangers from touching the baby’s sleeping place, on extra offerings—flowers when he could get them, otherwise grains and resin. Kiran did what she could and told him to stop shouting at Rena for leaving a cup in the wrong place.
+Two more daughters followed: Beko, then Maru. Beko died at two, in the season when fevers went through children. Chuku responded with rules. He insisted on boiling water longer, on keeping strangers from touching the baby's sleeping place, on extra offerings—flowers when he could get them, otherwise grains and resin. Kiran did what she could and told him to stop shouting at Rena for leaving a cup in the wrong place.
 
-At thirty-three, during a long trip, the bad crossing happened. The river had risen, and a slide had turned the approach into loose stone. Chuku argued to wait. Taleko, another porter who liked speed, pushed to go. They crossed. The mule stumbled where the bank crumbled, and part of the load went into the water. Chuku jumped after it, came out bruised and shaking, and saved only the lighter bundles. The patron who owned the cargo, Shed, demanded payment anyway. Chuku had none. Shed advanced grain and tools on terms that cut deep, and for two seasons Chuku worked under him, hauling heavier loads for less. Kiran sold goats and a few small valuables to keep the household fed. Chuku counted every measure of grain, every debt portion, until the numbers chased him at night.
+Chuku was twenty-seven when Benato died back in the hill village. Marani carried the news along a chain of travelers. Chuku sat by his own hearth after hearing it, set down a small cup of beer for Benato's name, and stared at the flames until his chest loosened. Three years later, when he was thirty, both Seno and Tomo died within the same season—Seno from the cough that had never fully left her, Tomo from a fever that took her at eighteen. The news reached him through travelers, days after each death.
 
-Benato died during those years, back in the hill village, and Marani carried the news along a chain of travelers. Chuku sat by his own hearth after hearing it, set down a small cup of beer for Benato's name, and stared until his chest loosened. Not long after, Tomo died at eighteen. Then Haruno, the uncle who had first led him down to the routes, died too. That news came the same way, and it made him more exacting and more brittle.
+Back in the hill village, Kan now ran the old household with his own wife and children. Duma had married into a neighboring settlement and sent word through Marani when she could. Tor had begun working the lower routes and sometimes crossed paths with Chuku at stopping places; they shared a meal when they could, traded news of siblings, and parted without ceremony.
+
+At thirty-three, during a long trip, the bad crossing happened. The river had risen, and a landslide had turned the approach into loose stone. Chuku argued to wait another day. Taleko, another porter in the group, said the delay would cost them their market timing and that he had crossed worse. The convoy leader sided with Taleko. They crossed. The mule Chuku led stumbled where the bank crumbled; its rear legs went out from under it, and the animal and half its load tumbled into the current. Chuku jumped after the bundles, came out bruised and shaking, and saved only the lighter ones—some resin, a few skins. The salt blocks and copper pieces were gone. The mule drowned downstream. Shed, the patron who owned the cargo, demanded compensation. Chuku had nothing to offer but his labor. Shed advanced grain to keep the household fed and charged interest in work: for two seasons Chuku hauled heavier loads on worse routes at half the usual share. Kiran sold their two remaining goats and a copper bracelet she had kept since her marriage. Chuku counted every measure of grain, every debt portion, until the numbers followed him into sleep.
+
+Haruno, the uncle who had first led him down to the routes, died when Chuku was thirty-six. By then he had worked off the worst of the debt, but the margin remained thin.
+
+Rena had grown into the person who managed the household when Chuku traveled. She kept track of what was owed and what was stored, reciting figures from memory the way her father did. Maru, restless and sharp-tongued, complained about the work and the smallness of the settlement; she asked Chuku about the places he had seen and said she wanted to see them herself.
 
 At thirty-nine Kiran bore a son, Jin, who lived no day. Chuku stayed home longer than usual after that, repairing harnesses and refusing offers of easy coin. But debt, obligations, and the need to restock grain pushed him back onto the route as the cold season deepened.
 
 On the last journey, a storm pinned the caravan high on an exposed stretch. The wind cut through their wraps. Supplies ran short. Chuku gave his last dried grain cake to a younger man and kept walking. He separated from the others at a junction, trying to reach a settlement he had visited before. He did not reach it. Searchers found his body days later near a stand of trees, partly sheltered from the wind.
 
-Kiran's family recovered him and burned resin beside the body before burial. They placed him in the ground outside the settlement boundary with a small clay cup, a pinch of grain, and a strip of cloth from Kiran’s loom tied around his wrist.
+Kiran's brothers recovered him and burned resin beside the body before burial. They placed him in the ground outside the settlement boundary with a small clay cup, a pinch of grain, and a strip of cloth from Kiran's loom tied around his wrist.
+
+<!--
+**Review Date:** 2026-01-16
+
+**Issues found:**
+- [Pass 1] Timeline errors: Benato's death (age 27), Seno/Tomo's deaths (age 30), and Haruno's death (age 36) were placed during the debt crisis (age 33-35) in the original narrative
+- [Pass 2] Kiran's family described vaguely as "family" - needed specific household members
+- [Pass 4] Multiple characters disappeared after introduction: Kan, Duma, Tor (siblings), Rena, Maru (daughters)
+- [Pass 6] River crossing scene lacked detail about what was lost and why Chuku crossed against his judgment
+- [Pass 7] Large paragraph combined deaths with sibling life updates - needed splitting
+- [Pass 7] Seno's illness paragraph jumped awkwardly from age 16 to her death at 30
+- [Pass 14] "Kiran brought him steadiness" too neat/parallel; "Each loss came the same way" too literary; Maru "pushed against the edges" too abstract
+
+**Changes made:**
+- Reordered paragraphs to fix timeline: deaths at 27/30 now come before debt crisis at 33, Haruno's death at 36 placed correctly
+- Specified Kiran's family as "parents and two brothers" who farmed fields
+- Added paragraph showing Kan running the old household, Duma married into neighboring settlement, Tor working lower routes and meeting Chuku
+- Added paragraph showing grown Rena managing household accounts and Maru wanting to see distant places
+- Expanded river crossing scene: specified what was lost (salt, copper, mule), why Chuku crossed (convoy leader sided with Taleko), and debt terms
+- Split deaths paragraph from sibling updates paragraph
+- Removed Seno's death from the illness paragraph, added "The cough eased for a time, then returned"
+- Changed "Kiran's family" to "Kiran's brothers" in burial scene
+- Rewrote Chuku/Kiran exchange line to be more concrete
+- Simplified "Each loss came the same way" to direct statement
+- Made Maru's restlessness concrete (complained about work and smallness, asked about distant places)
+- Made appearance paragraph clearer about the connection between stares and his observation behavior
+-->

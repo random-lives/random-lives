@@ -165,10 +165,24 @@ continent: "Asia"
 # - M
 ---
 
-Chen Shi gave birth to a daughter on June 6, 525, in the hill country above the coast of southern Zhejiang, where the Liang dynasty’s magistrates and tax clerks reached villages through headmen and registered households. Her family spoke the local Sinitic tongue and kept a small altar shelf for the Zhou ancestors; a few times each year they carried incense to a nearby Buddhist temple to ask for merit and protection.
+Chen Shi gave birth to a daughter on June 6, 525, in the hill country above the coast of southern Zhejiang. The village fell under the Liang dynasty; magistrates and tax clerks reached it through local headmen who kept registers of households. Her family spoke the local Sinitic tongue and kept a small altar shelf for the Zhou ancestors. A few times each year they carried incense to a nearby Buddhist temple to ask for merit and protection.
 
-The house held only the married couple and their children. The eldest son, Da-lang, had died the previous year at twenty-four, leaving his father Zhou Shi without the strong back he had leaned on for hired fieldwork. Of the living children, San-lang was fourteen and already going out before dawn to take day labor where he could. Si-niang, nine, kept watch over little Liu-lang, a toddler still unsteady on his feet. Another baby, Wu-lang, had died in 522, and that memory sat close to Chen Shi’s hands when she washed the newborn and tied the cord.
+The house held only the married couple and their children. The eldest son, Da-lang, had died the previous year at twenty-four, leaving his father without the strong back he had leaned on for hired fieldwork. Of the living children, San-lang was fourteen and already going out before dawn to take day labor where he could. Si-niang, nine, kept watch over little Liu-lang, a toddler still unsteady on his feet. Another baby, Wu-lang, had died in 522. Chen Shi had not forgotten; she washed the newborn carefully and tied the cord tight.
 
-The infant was never given a settled name. Chen Shi kept her near the cooking place, wrapped and pressed to her breast between turns at the spindle. Zhou Shi burned a pinch of incense to the kitchen god and set out a small bowl of rice, then went to labor in another man’s fields. Old Woman Lin came once to check the child and told Chen Shi to keep her warm and feed her often.
+The infant was never given a settled name. Chen Shi kept her near the cooking place, wrapped and pressed to her breast between turns at the spindle. Her husband burned a pinch of incense to the kitchen god and set out a small bowl of rice, then went to labor in another man's fields. Old Woman Lin came once to check the child and told Chen Shi to keep her warm and feed her often.
 
-On June 22 the baby died from weakness after a premature birth. That evening Zhou Shi carried the tiny body to a burial spot on the family’s slope, and Chen Shi set a few coins and a strip of plain cloth with her, then lit incense and recited a short Buddha-name chant taught by Miao-fa at the temple.
+On June 22 the baby died from weakness after a premature birth. That evening Zhou Shi carried the tiny body to an unused slope above the village, and Chen Shi set a few coins and a strip of plain cloth with her, then lit incense and recited a short Buddha-name chant taught by Miao-fa at the temple.
+
+<!--
+**Review (January 2026)**
+
+**Issues found:**
+- [Pass 10] "that memory sat close to Chen Shi's hands" - figurative/abstract language
+- [Pass 14] "the family's slope" implies land ownership, but father is a wage laborer
+- [Pass 14] Paragraph 1 had awkward long clause about magistrates
+
+**Changes made:**
+- Rewrote Wu-lang memory sentence to be direct: "Chen Shi had not forgotten; she washed the newborn carefully and tied the cord tight"
+- Changed "the family's slope" to "an unused slope above the village" for consistency with landless status
+- Split paragraph 1 into shorter sentences for better flow
+-->

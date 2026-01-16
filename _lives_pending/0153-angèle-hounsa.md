@@ -423,11 +423,11 @@ continent: "Africa"
 #   type: major_achievement
 ---
 
-Angèle Hounsa was born on February 10, 1955, in the Atlantique area of southern Dahomey, in a Fon-speaking family where people talked about fields, palm bunches, and market days more than politics. The French administration still ran the schools and kept registers, but in her household the steady reference points were the parish calendar, family elders, and the rainy season.
+Angèle Hounsa was born on February 10, 1955, in the Atlantique area of southern Dahomey, in a Fon-speaking family where people talked about fields, palm bunches, and market days more than politics. The French administration still ran the schools and kept registers, but in her household what mattered was the parish calendar, family elders, and the rainy season.
 
 She never slept her first nights in her mother’s room. Her father, Koffi Hounsa, and her mother, Assiba Dossou, sent her straight to a nearby household, to Koffi’s elder sister, Tantine Yawa Hounkponou. People explained it simply: Yawa had space, she had discipline, and she wanted a child in her house. Angèle grew up hearing two names for “home,” one that meant her parents’ compound and one that meant the courtyard where she actually fetched water.
 
-Yawa ran her household by the clock of chores and church. Angèle rose early, swept the packed earth, and learned to keep the cooking area clean before school. Yawa’s husband, Oncle Pascal Hounkponou, traded when he could and farmed when he had to. He kept his money wrapped in cloth and counted it slowly. Angèle watched him and learned to count too, on a slate and later in an exercise book. She spoke Fon in the yard and picked up basic French from catechism and school, enough to greet a teacher, read a short sentence, and answer when spoken to.
+Yawa ran her household on a schedule of chores and church. Angèle rose early, swept the packed earth, and learned to keep the cooking area clean before school. Yawa’s husband, Oncle Pascal Hounkponou, traded when he could and farmed when he had to. He kept his money wrapped in cloth and counted it slowly. Angèle watched him and learned to count too, on a slate and later in an exercise book. She spoke Fon in the yard and picked up basic French from catechism and school, enough to greet a teacher, read a short sentence, and answer when spoken to.
 
 The independence years came when she was small. Men argued in low voices about flags and new leaders, then went back to their hoes. The changes that reached Angèle were smaller and more direct: new forms, new stamps, new teachers who replaced older ones. Yawa insisted that her foster daughter attend Mass and catechism. Angèle liked the order of it—standing, sitting, the same prayers each week. She memorized lines easily, and when she made mistakes she swallowed them and kept going.
 
@@ -435,26 +435,98 @@ She had eight siblings, but she did not live among them. She heard their names a
 
 School held her attention more than most things. She was quiet and did not join the loud children who dared each other to run from the teacher. She copied carefully when a teacher wrote on the board. When political unrest shook Dahomey in the 1960s, the adults’ fear made her cautious. She kept her eyes down when men argued. She learned who to greet first. She started carrying small coins in different places, not all in one knot of cloth.
 
-In 1972, when Mathieu Kérékou seized power, Angèle was seventeen. Party language entered the town meetings and school talk, and the state looked for people who could keep lists and fill out attendance sheets. Angèle did not like crowds or speeches. She preferred the small room beside the school office, a pencil in hand, a clean ledger. Sœur Cécile, a catechist who taught reading after school, pushed her toward work that used her literacy. “You can read; that is a tool,” she told her in French, then repeated it in Fon.
+In 1972, when Mathieu Kérékou seized power, party language entered the town meetings and school talk, and the state looked for people who could keep lists and fill out attendance sheets. Angèle did not like crowds or speeches. She preferred the small room beside the school office, a pencil in hand, a clean ledger. Sœur Cécile, a catechist who taught reading after school, pushed her toward work that used her literacy. "You can read; that is a tool," she told her in French, then repeated it in Fon.
 
-At twenty-one, Angèle married Sébastien Agbo. He was a man who moved between villages and roadside repairs, part driver and part mechanic, bringing back stories of checkpoints and broken bridges. They first lived near his family, still in the south. Angèle did not chase novelty; she arranged her household and learned the local ways. When she felt uncertain, she went to church, sat at the side, and waited until her breathing slowed. She kept her Catholic practice steady, though she also spoke of her ancestors in private, naming them when a child fell sick or when she needed to ask for patience.
+After finishing basic schooling, Angèle stayed near her foster family and helped with paperwork—copying letters for neighbors, filling out forms for church groups. In 1975, at a funeral gathering in Toffo, she met Sébastien Agbo. He was older by a few years, a man who fixed engines and drove trucks on hire, and he noticed how carefully she wrote a name in the condolence book. They spoke only briefly that day, but he came back twice more that year—once bringing fabric for Yawa as thanks for a letter Angèle had written, once with a message about a shared cousin's wedding—and stayed longer each time. The following year they married.
 
-Their first son, Luc, was born in 1978. Three years later Armand arrived, and in 1986 their daughter Clarisse. Angèle carried infants on her back and still showed up at school when she could, because her household depended on every source of income. In 1980, at twenty-five, she secured a salaried post connected to the primary school. Directeur Mensah hired her because she could write cleanly and keep track of small things others forgot: how many notebooks arrived, which parent still owed a fee, which child needed a new birth certificate copied correctly. Angèle kept a little notebook of her own, tucked into her wrapper. It held reminders and sums, and sometimes short prayers written in careful French.
+They first lived near his mother and younger brother in a village outside Allada. Angèle did not chase novelty; she arranged her household and learned the local ways. When she felt uncertain, she went to church, sat at the side, and waited until her breathing slowed. She kept her Catholic practice steady, though she also spoke of her ancestors in private, naming them when a child fell sick or when she needed to ask for patience.
 
-The wage did not make her rich. It made the household predictable. During the economic crisis of the late 1980s, predictability became fragile anyway. Some months the salary came late. Prices rose and stayed high. Sébastien's earnings rose and fell with fuel and with the condition of the roads. Angèle's worry tightened her jaw. She re-counted money before sleeping and again before dawn. She did not tell Sébastien how frightened she felt. She asked him if he had eaten, if his shirt needed washing, if he could borrow a part from a cousin instead of buying it new.
+Their first son, Luc, was born in 1978. A year later, Directeur Mensah at the local primary school asked Sœur Cécile if she knew a literate woman for a new auxiliary post. Cécile suggested Angèle, and Mensah arranged for her to attend a short training course in Allada—two months of instruction in record-keeping, basic health, and classroom management. Sébastien's mother watched Luc while Angèle traveled twice a week to the sessions. When she returned, Mensah hired her. She tracked notebooks, collected fees, and copied certificates. She kept her own notebook tucked into her wrapper, filled with reminders and sums and sometimes short prayers in careful French.
 
-Tantine Yawa died in 1987. She had been frail for two years, moving more slowly, forgetting names. Angèle traveled back to sit with her, to wash her feet, to listen to instructions about the household that no longer applied. When Yawa stopped breathing, Angèle felt something loosen and something tighten at the same time. She had been Yawa's child, and now she was no one's.
+Three years after Luc came Armand, and in 1986 their daughter Clarisse. Angèle carried infants on her back and still showed up at the school because the household depended on her wage. Sébastien's earnings rose and fell with fuel prices and the condition of the roads. When he had work, he came home tired and satisfied; when he did not, he sat outside the compound and talked with other men about politics or engines, and Angèle learned not to ask too many questions.
+
+The wage did not make her rich. It made the household predictable. During the economic crisis of the late 1980s, predictability became fragile. Some months the salary came late. Prices rose and stayed high. Angèle's worry tightened her jaw. She re-counted money before sleeping and again before dawn. She did not tell Sébastien how frightened she felt. She asked him if he had eaten, if his shirt needed washing, if he could borrow a part from a cousin instead of buying it new.
+
+Tantine Yawa died in 1987. She had been frail for two years, moving more slowly, forgetting names. Angèle traveled back to sit with her, to wash her feet, to listen to instructions about the household that no longer applied. When Yawa stopped breathing, Angèle washed her body and helped arrange the funeral. She had been Yawa's child, and now she was no one's.
 
 In 1990 the National Conference brought a new political atmosphere, and people talked more openly. Angèle did not enjoy those discussions. She preferred practical news: which clinic had medicines, which bus line was running, which parish group collected for funerals. She found comfort in small routines. She liked the taste of warm akassa with pepper sauce at midday. She liked sitting on a low stool at the doorway in the late afternoon, shelling peanuts while Clarisse practiced reading.
 
-Then came the years of losses that stayed in her memory because they had numbers attached. In 1992, when she was thirty-seven, she went to a crowded market day near Allada with cash for school expenses and household purchases. At home she had wrapped the money carefully and tucked it deep, but in the press of bodies her bag opened. She discovered the theft only when she tried to pay. She stood still, said nothing, and felt heat rise into her face. At home she cried quietly while stirring a pot, so the children would not hear. After that she hid money in several places and checked them too often.
+In 1992 she went to a crowded market day near Allada with cash for Luc's secondary school fees and a new cooking pot. At home she had wrapped the money carefully and tucked it deep, but in the press of bodies her bag opened. She discovered the theft only when she tried to pay. She stood still, said nothing, and felt heat rise into her face. At home she cried quietly while stirring a pot, so the children would not hear. After that she hid money in several places and checked them too often.
 
-A few years later, during the mid-1990s, thieves entered the house while they were away. Grain was gone. The radio disappeared. The loss was not only the objects; it was the feeling of being watched. Sébastien wanted to accuse neighbors. Angèle resisted open conflict and focused on replacing what mattered most. She borrowed, repaid, and adjusted meals. Afi Kpodji, a market friend, teased her for being too trusting and helped her learn which days were safest to travel, which routes were quieter, who to pay to keep an eye on a courtyard.
+In 1994, thieves entered the house while they were away. Grain was gone. The radio disappeared. The loss was not only the objects; it was the feeling of being watched. Sébastien wanted to accuse neighbors. Angèle resisted open conflict and focused on replacing what mattered most. She borrowed, repaid, and adjusted meals. Afi Kpodji, a market friend, teased her for being too trusting and helped her learn which days were safest to travel, which routes were quieter, who to pay to keep an eye on a courtyard.
 
-By the late 1990s, another theft took what she depended on for errands: a bicycle, later stripped for parts. Walking lengthened her days. She still completed her work until 1998, when Oncle Pascal died and obligations tightened around her foster family. Her father, Koffi Hounsa, had already died in 1995. His funeral pulled all the siblings together, and Angèle felt the old tension of being both inside the family and slightly aside. She spent money she could not easily spare because she could not bear to be the one who arrived empty-handed.
+Her father, Koffi Hounsa, died in 1995. His funeral pulled all the siblings together—Monique organizing the women's cooking, Gaston arguing with cousins about the burial plot, Odile arriving late with her husband and children. Angèle felt the old tension of being both inside the family and slightly aside. She spent money she could not easily spare because she could not bear to be the one who arrived empty-handed.
 
-In the mid-2000s her body forced changes. Her mother, Assiba Dossou, died in 2006. Angèle traveled for the funeral and sat among her siblings, feeling again like the one who had been sent away—even though she had come back, even though she had contributed money, even though she had stayed by Assiba's bed in the final weeks. By 2007, dizzy spells and headaches sent her to a clinic where Infirmier Alain explained pills and salt in simple French. She took medicine when she remembered, then forgot for days, then doubled her attention again. Sébastien died in 2008, and widowhood altered her standing in small ways: how men greeted her, how she counted money, how quickly she went home after church.
+By the late 1990s, another theft took her bicycle, which she had depended on for errands and the commute to school. She found it stripped for parts behind a neighbor's shed, and though everyone suspected who had done it, no one could prove anything. Walking lengthened her days. In 1998, Oncle Pascal died after a short illness, and the obligations of his funeral fell partly on her—she was still Yawa's child, still expected to contribute and appear. That year she stepped back from her school work, taking fewer hours, letting younger women handle the registers.
 
-Care responsibilities grew heavier a decade later. In 2016 her younger sister Chantal fell seriously ill. Angèle became the person who coordinated family contributions, kept receipts, and sat beside Chantal during long nights. She cooked soft foods, washed cloths, and listened to Chantal speak in short bursts. When Chantal died in 2018, Angèle handled lists again—who had given, who still owed, which cousin promised a goat and brought nothing. She did not shout. She looked away, waited, and then asked again in a calmer voice.
+Her mother, Assiba Dossou, died in 2006. Angèle traveled for the funeral and sat among her siblings, feeling again like the one who had been sent away—even though she had come back, even though she had contributed money, even though she had stayed by Assiba's bed in the final weeks. Bernadette and Victoire handled most of the cooking; Mathurin, now a grown man with his own family, organized the men's side.
+
+In 2007, dizzy spells and headaches sent Angèle to a clinic where Infirmier Alain explained pills and salt in simple French. He said the word "hypertension" and wrote it on a piece of paper for her. She took medicine when she remembered, then forgot for days, then doubled her attention again.
+
+Sébastien died in 2008, suddenly, on a road outside Cotonou. A truck he had been working on slipped its jack. Luc came to tell her, and she sat very still for a long time before she could speak. Widowhood altered her standing in small ways: how men greeted her, how she counted money, how quickly she went home after church. She moved into a smaller room attached to Luc's compound, where she could help with his children and he could keep an eye on her health.
+
+She helped raise Luc's children, walked to church on Sundays, and visited her siblings when she could afford the transport. Armand had moved to Cotonou and rarely came home; when he did, he brought gifts but no steady help, and Angèle worried about him in ways she did not speak aloud. Clarisse stayed closer, married a schoolteacher, and called every few weeks to check on her mother's health.
+
+In 2016 her younger sister Chantal fell seriously ill. Angèle became the person who coordinated family contributions, kept receipts, and sat beside Chantal during long nights. She cooked soft foods, washed cloths, and listened to Chantal speak in short bursts. When Chantal died in 2018, Angèle handled lists again—who had given, who still owed, which cousin promised a goat and brought nothing. She did not shout. She looked away, waited, and then asked again in a calmer voice.
 
 Now, in late 2025, Angèle lives within southern Benin, close enough to family that people arrive without warning. She wakes early, prays, and straightens the small corner where she keeps her church booklet and a pen. Her sons visit with sacks of rice or a bit of cash; Clarisse calls and comes when she can. Angèle still writes names carefully when the parish needs a list. In the afternoon she sits at her doorway with peanuts or beans to sort, listening to the sounds of children passing, and she checks that her money is tied where she put it.
+
+<!--
+**Review Date:** 2026-01-15 (initial review)
+
+**Issues found (initial review):**
+- [Pass 1] 8-year gap between 2008 (widowhood) and 2016 (Chantal's illness) with no content
+- [Pass 1] 4-year gap between age 17 (1972) and marriage (1976) with minimal content
+- [Pass 2] "Near his family" not specified—who exactly?
+- [Pass 4] Armand (middle son) vanished after birth, never mentioned again
+- [Pass 4] Younger siblings (Odile, Bernadette, Victoire, Mathurin) named but never reappeared
+- [Pass 4] Monique and Gaston introduced with personalities but never seen at family events
+- [Pass 6] Marriage appeared from nowhere—no courtship, no context for how they met
+- [Pass 6] School job obtained without any mention of training/qualification
+- [Pass 7] P11 had three major deaths/crises (mother, health diagnosis, husband) crammed into one paragraph
+- [Pass 8] "In 1980, at twenty-five" and "In 1992, when she was thirty-seven"—redundant age+year
+- [Pass 9] "Then came the years of losses that stayed in her memory because they had numbers attached"—AI-slop
+- [Pass 9] "steady reference points"—slightly abstract
+- [Pass 10] Oncle Pascal's death felt rushed and underdeveloped
+
+**Changes made (initial review):**
+- Added paragraph bridging 2008-2016: living with Luc, helping with grandchildren, Armand in Cotonou, Clarisse married
+- Added post-schooling years: helping with paperwork for neighbors/church before marriage
+- Added courtship: met Sébastien at 1975 funeral, he visited aunt's compound, married 1976
+- Specified "his family" as "his mother and younger brother in a village outside Allada"
+- Added Armand's later trajectory: moved to Cotonou, rarely visits, brings gifts but no steady help, causes worry
+- Added siblings at father's funeral: Monique organizing cooking, Gaston arguing about plot, Odile arriving late
+- Added siblings at mother's funeral: Bernadette and Victoire cooking, Mathurin organizing men's side
+- Added training course for school job: "two months of instruction in record-keeping, basic health, and classroom management"
+- Split P11 into three separate paragraphs: mother's death, health diagnosis, husband's death (with cause—truck jack accident)
+- Removed redundant age+year constructions
+- Cut "Then came the years of losses..." opener
+- Changed "steady reference points" to "what mattered"
+- Expanded Oncle Pascal's death: died after short illness, funeral obligations, triggered stepping back from school work
+- Added detail to bicycle theft: found stripped behind neighbor's shed, everyone suspected but no proof
+
+**Second Review Date:** 2026-01-15
+
+**Issues found (second review):**
+- [Pass 1] Health diagnosis year inconsistency: "following year" after 2006 death should be 2007
+- [Pass 6] Courtship lacked specificity about Sébastien's return visits
+- [Pass 6] Training access mechanism unclear—how did she get the opportunity?
+- [Pass 8] "In 1972, when Mathieu Kérékou seized power, Angèle was seventeen"—redundant age+year
+- [Pass 8] "mid-1990s" for specific house break-in event—vague dating
+- [Pass 8] House break-in and father's death both in 1995—awkward double-mention
+- [Pass 9] "The years after Sébastien's death passed in a quieter rhythm"—vague/abstract opener
+- [Pass 9] Redundancy between P21 ("moved into Luc's compound") and P22 ("settled into Luc's compound")
+- [Pass 10] "felt something loosen and something tighten"—abstract metaphor (Yawa's death)
+- [Pass 13] "ran her household by the clock of chores"—figurative language
+
+**Changes made (second review):**
+- Changed "The following year" to "In 2007" for health diagnosis clarity
+- Added specificity to courtship: "once bringing fabric for Yawa as thanks for a letter Angèle had written, once with a message about a shared cousin's wedding"
+- Added training access mechanism: Directeur Mensah asked Sœur Cécile for recommendation; Sébastien's mother watched Luc during training
+- Removed redundant age from "In 1972, when Mathieu Kérékou seized power, Angèle was seventeen"
+- Changed house break-in from "mid-1990s" to "1994" to avoid double 1995 and provide specific year
+- Replaced "The years after Sébastien's death passed in a quieter rhythm" with "She helped raise Luc's children"
+- Removed redundant "settled into Luc's compound" opener in P22
+- Replaced abstract "felt something loosen and something tighten" with concrete action: "washed her body and helped arrange the funeral"
+- Changed "ran her household by the clock of chores" to "ran her household on a schedule of chores"
+-->

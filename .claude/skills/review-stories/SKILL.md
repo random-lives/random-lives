@@ -1,119 +1,146 @@
----
+
 name: review-stories
 description: Review a story for potential issues. Use when asked to check a story for issues
 ---
 
-# Story Review Workflow
+# Story Review Workflow 
 
-Review stories in `_lives/` or `_lives_pending/` through sequential focused passes. Each pass addresses ONE type of issue—find problems, fix them, then move to the next pass.
-
-**CRITICAL**: Complete all passes for ONE story before moving to the next.
+Review stories in `_lives/` through focused passes. Address all issues in each pass and edit the story to fix before moving on to the next pass.
 
 ---
 
-## Pass 1: Family & Relationship Plausibility
+## Pass 1: Timeline Mapping
 
-Read the debug data first to understand:
-- Who are the caretakers, siblings, children?
-- What is the household structure? (fostered out? living with extended family?)
-- What relationships should be close vs. distant?
+Before anything else, map the life:
 
-Then read the narrative asking:
-- **Does closeness match circumstances?** A fostered-out child shouldn't be coordinating care for birth family. Siblings who live nearby should be known well.
-- **Are in-laws and extended family handled?** If protagonist moved to spouse's area, in-laws should appear.
-- **Who is this person?** Every character who matters should have a clear relationship stated.
-- **Do emotional reactions match relationships?** Close relationships need visible grief at death; distant ones don't need much.
+1. Write out the protagonist's age at: 0, 5, 10, 15, 20, 25, 30... until death
+2. For each age bracket, note what's covered in the narrative
+3. Flag gaps longer than 5 years with no content or bridge
 
-**Character introduction check (do this explicitly):**
-- List every named character in order of first appearance
-- For each: is their relationship to protagonist clear on or before first mention?
-- If someone appears acting with the protagonist (following, helping, arguing with), they must be introduced BEFORE that scene
-- Siblings especially: introduce all living siblings together early, not one-by-one as they become relevant
+**Test**: Is every period of the life either described or explicitly bridged ("The next decade passed quietly")?
 
-Fix issues before moving on.
+Fix gaps before moving on to the next phase.
 
 ---
 
-## Pass 2: Death Handling
+## Pass 2: Household Composition
 
-Check debug data for every person with a `death_year` during the protagonist's lifetime.
+For each household the protagonist lives in:
 
-For each death:
-1. **Is it mentioned?** If not, and it would add to the story, add it.
-2. **Does it land with appropriate weight?** A spouse's death shouldn't be one sentence. A distant sibling can be brief.
-3. **Is the timing right?** Deaths of siblings before protagonist's birth shouldn't be described as remembered. Deaths during protagonist's childhood shouldn't have impossible specificity.
-4. **Does the protagonist react?** If they were close to someone, show the reaction—don't just move on.
+1. **Birth household**: List everyone who lives there. No "older kin" or "relatives"—name roles (grandmother, uncle) or names.
+2. **Adult household** (if they marry/move): List everyone. Include in-laws if cohabiting.
 
-Also check: after adding a death, make sure the character isn't referenced as alive later.
+**Test**: Could a reader draw a diagram of who sleeps under each roof?
 
-Fix issues before moving on.
+**Common problems**:
+- "crowded with children and relatives" → who specifically?
+- In-laws mentioned at marriage, then vanish → do they die? Move? They need resolution.
+- Protagonist moves "near his family" → who are these people? Do they ever appear?
 
----
-
-## Pass 3: Narrative & Thematic Coherence
-
-Read the whole narrative asking:
-- **Do threads connect?** If something is set up early, does it pay off? If a trait or relationship matters, is it consistent throughout?
-- **Is causality clear?** When events happen, is it clear why? Don't leave the reader guessing how things connect.
-- **Are themes followed through?** Are the arcs within the person's life (changes in status, family arrangements, relationships with others, etc) clear?
-- **Do major characters remain present?** Spouses, close siblings, and children who are important early should either die (visibly) or still appear later. A spouse who disappears after a conflict needs resolution—did they leave, reconcile, or are they present at death?
-
-Fix issues before moving on.
+Fix before moving on to the next phase.
 
 ---
 
-## Pass 4: Event Weight & Pacing
+## Pass 3: Sibling Introduction
 
-Read each significant event asking:
-- **Does it get enough space?** Affairs, violence, major losses should have setup, the event itself, and aftermath. If an event is mentioned in one sentence but has lasting consequences, it needs expansion.
-- **Could a reader understand how this happened?** Don't just state that something occurred—show enough that it makes sense.
-- **Are transitions earned?** When relationships change (marriage sours, siblings become distant), is the change shown through specific moments, or just stated?
+1. List all siblings from debug data: name, alive/dead at protagonist's birth, relationship to protagonist
+2. Categorize: died before protagonist knew them / alive during childhood / appear later
+3. Check the narrative: are living siblings introduced as a group early, before individual deaths or conflicts?
+4. Check the age gaps: are any of the siblings unrealistically older
 
-**Antagonists and secondary characters:**
-- Anyone the protagonist conflicts with needs context: who are they, what's the history?
-- Don't just check family—check rivals, neighbors, authority figures
+**Test**: Does the reader know who's in the family before the family starts having problems?
 
-Fix issues before moving on.
+**Common problems**:
+- Dead-before-birth siblings mentioned with same weight as living ones (confusing)
+- Siblings appearing from nowhere when plot-relevant
+- Dense paragraph listing 8 siblings with birth years (unreadable)
+- Sibling that is multiple decades older or younger with no explanation
+
+Fix before moving on to the next phase.
 
 ---
 
-## Pass 5: Paragraph Coherence
+## Pass 4: Character Tracking
+
+List every named character. For each:
+- First appearance (paragraph/age)
+- Last appearance (paragraph/age)
+- Gap between appearances
+
+**Test**: 
+ - Does any important character inexplicably disappear (eg, spouse, child, or parent)?
+ - Are there large gaps in between appearances where it would be helpful to remind the read who someone is?
+ - Are there characters that are named that only appear once and don't need a name
+
+Fix before moving on to the next phase.
+
+---
+
+## Pass 5: Death Audit
+
+For every death in the debug data during the protagonist's lifetime, fill out this table:
+
+| Person | Relationship | Year | Mentioned? |  Purpose | Verdict |
+|--------|--------------|------|------------|---------|---------|
+
+
+**Purpose**: Does the death either (a) land emotionally, (b) change the protagonist's situation, or (c) reveal character?
+
+**Verdict**: Keep as-is / Expand / Cut
+
+For each "Expand" or "Cut" verdict, make the change before moving on to the next phase.
+
+---
+
+## Pass 6: Event Weight & Mechanism
+
+For each significant event (affairs, violence, major decisions, major losses), do the following:
+ - Answer: is this event plausible?
+ - Answer: is this event interesting? does it add to the story
+ - Write down a list of questions a curious reader would have about the event, the people involved, the logic, and the outcome
+ - Are these questions answered? If not, add answers. This may involve inventing additional details
+
+Fix all problems before moving on
+
+---
+
+## Pass 7: Paragraph Coherence
 
 Read each paragraph asking:
-- **Does this paragraph have ONE theme?** A paragraph about thefts shouldn't also handle a funeral. A paragraph about a death shouldn't randomly include an unrelated event.
-- **Should events be bundled?** Multiple similar events (thefts, illnesses, minor incidents) can often be combined into one paragraph rather than scattered.
-- **Should events be separated?** Major events deserve their own space—don't cram a spouse's death into a paragraph about something else.
-- **Is there random topic-jumping?** Each paragraph should flow internally; things shouldn't be "thrown in" at the end.
+- Does this paragraph have ONE theme?
+- Should any events be split out?
+- Should any events be bundled together?
+- Is there random topic-jumping at the end?
 
-Fix issues before moving on.
+**Common problems**:
+- Death + unrelated event in same paragraph
+- Paragraph about work that suddenly mentions a funeral
+- Things "thrown in" at paragraph end
 
----
-
-## Pass 6: Chronology & Time Gaps
-
-Map out the timeline, then check:
-- **Are there unexplained gaps?** Skipping many years without acknowledgment is a problem. Either add content or bridge explicitly.
-- **Does time flow forward?** Jumping back and forth within paragraphs is confusing, as is paragraphs out of chronological order.
-- **Are time markers varied?** Too many "In [year]" openings in a row. Mix in ages, relative time, milestone anchors.
-- **Is precision appropriate?** Vague decade references for single events are sloppy—give the year or don't bother. But vague ranges are fine for patterns spanning years.
-- **Are there logical impossibilities?** Events placed before they could occur.
-
-**Duplicate temporal markers (fix each one as you find it):**
-- Sentences with both a year AND an age are redundant—pick one
-- "At thirty-two, in 1411" → "In 1411" or "At thirty-two"
-- "In 1425, at forty-six" → pick one
-
-**Weird date ranges:**
-- Constructions like "in 1415 and 1416" for what reads like a single period are LLM hedging
-- Pick one year, or describe the span naturally ("over the following year")
-
-Fix issues before moving on.
+Fix before moving on to the next phase.
 
 ---
 
-## Pass 7: Vagueness & Specificity
+## Pass 8: Chronology & Time Markers
 
-Look for places where the narrative is vague when it should be concrete:
+**Check for**:
+- Time flowing forward (no unexplained jumps backward)
+- Variety in time markers (not five "In [year]" openers in a row)
+- Appropriate precision (don't say "mid-1990s" for a single specific event—pick a year)
+
+**Hedging date detector**: Any of these constructions need fixing:
+- "in X and Y" for one event → pick one
+- "around Z" for a specific incident → pick a year
+- "mid-1990s" for a single event → give the year
+
+**Duplicate reference detector**: Year + age in same sentence is redundant:
+- "In [year X], at [age Y]" → pick one
+- If a paragraph repeats a year or date, improve or remove
+
+Fix before moving on.
+
+
+## Pass 9: Vague Language & Hedging
 
 **Opening sentences:**
 - Check paragraph openers for vague/filler phrases: "Deaths came early," "Life was hard," "Times were difficult," "Things changed"
@@ -121,15 +148,6 @@ Look for places where the narrative is vague when it should be concrete:
 
 **Work situations:**
 - "What work was she doing and for whom?" should be answerable
-
-**Unspecified relations or characters:**
-- Don't leave actors vague—specify their relationship
-- "a sick adult relative" → who specifically?
-- "others suggested" → who?
-- Add a name if the person recurs
-
-**Vague group references:**
-- "X's kin/family/people" when a specific relation would work better
 
 **Hedging language:**
 - "perhaps," "likely," "may have"—the narrator is omniscient, be confident
@@ -140,19 +158,45 @@ Look for places where the narrative is vague when it should be concrete:
 **Sloppy placeholders:**
 - "steady reference points," "the usual patterns"—what specifically?
 
+Fix issues before moving on to the next phase.
+
+---
+
+## Pass 10: Abstract Claims
+
+**Sentences claiming significance:**
+- For any sentence that claims something "mattered," "changed things," or had importance, ask: is the mechanism explained?
+- If the sentence says someone's presence or death "removed a shield" or "created a void," what did that person actually *do*?
+- Either explain concretely or cut the empty claim
+
 **Abstract metaphors (apply the deletion test):**
-- For any metaphor or abstraction ("shield," "anchor," "weight"), ask: what is this actually pointing at?
+- For any metaphor or abstraction, ask: what is this actually pointing at?
 - If you delete the sentence, does the reader lose concrete information?
 - If no: cut it
 - If yes: replace the abstraction with the concrete thing
 
-Fix issues before moving on.
+Fix issues before moving on to the next phase.
 
 ---
 
-## Pass 8: Surface Patterns
+## Pass 11: Anachronisms & Historical Grounding
 
-Search for and fix these specific patterns:
+Look for anachronisms and other historical errors:
+- **Material culture:** Are objects, tools, crops, and animals appropriate to the era and region?
+- **Political structures:** Are social structures and authority figures appropriate?
+- **Culture:** Are languages, religions, and rituals, and social actions plausible for the person and social class.
+- **Political Engagement** Are the political opinions of the person realistic, and do they engage in politics to a degree that fits with their status and personality?
+
+**Opening paragraph specificity**:
+- Does the opening orient the reader to the political/cultural situation?
+- Could more concrete detail be added—specific historical rulers or kingdoms, events.
+- How does where the person lives and their role fit into the world
+
+Fix issues before moving on to the next phase.
+
+---
+
+## Pass 12: Jargon & Naming
 
 **Pseudosociological jargon:**
 - "kin" → "family" or name the specific people
@@ -162,7 +206,13 @@ Search for and fix these specific patterns:
 **Naming issues:**
 - Same name used for different people (confusing)
 - Siblings referred to as "Last First" when just "First" works
-- All names following same phonetic pattern (artificial)
+- If the names are mostly or entirely CVCV, this must be corrected---names need to show adequate diversity, even if the language family is unattested. Less than half the names can be of CVCV form.
+
+Fix issues before moving on to the next phase.
+
+---
+
+## Pass 13: Figurative Language & AI-Slop
 
 **Figurative language:**
 - Metaphors, similes, poetic flourishes → rewrite as plain prose
@@ -173,47 +223,31 @@ Search for and fix these specific patterns:
 - "shaped by," "marked by," "defined by" (when abstract)
 - "Deaths came early," "Life was [adjective]," "Times were [adjective]"
 
-**Run-on sentences:**
-- Long sentences packing too much in—break them up
-
-**Sentence-level awkwardness:**
-- Parallelism problems ("He did not." after "He wasn't.")
-- Phrases that don't parse cleanly
-
-Fix issues before moving on.
+Fix issues before moving on to the next phase.
 
 ---
 
-## Pass 9: Final Read
+## Pass 14: Final Read
 
-Read the story once more as a reader would:
-- Does it flow?
-- Is anything still confusing?
-- Does it feel like a life, not a timeline?
-- Can you track who everyone is?
+Read the story once more as a reader would, and make a list of
+- The 3 most confusing things
+- The 3 most stilted or poorly flowing paragraphs
+- The 3 places where it feels least real or most like a procedurally generated story.
 
-Make final adjustments.
+Fix all of these
 
----
 
 ## Logging
 
-After completing all passes, update the bottom of the story with a change-log, eg:
+After completing all passes, update the bottom of the story with a change-log structured as follows:
 
 ```markdown
 **Issues found:**
-- [Pass 1] "Stem family" jargon in paragraph 2
-- [Pass 2] Younger brother's death followed by famine mention with no clear connection
-- [Pass 5] Grandfather's death and cough return crammed into same paragraph
+- [Pass 3] "older kin" not specified in household description
+- [Pass 5] Father's death mentioned but serves no narrative purpose
+- [Pass 7] Penu conflict comes out of nowhere—no foreshadowing
 
 **Changes made:**
-- Replaced "stem family" with concrete description of household
-- Clarified connection between brother's death and subsequent events
-- Split paragraph to give grandfather's death appropriate weight
-```
-
----
-
-## Starting
-
-If no specific story is requested, ask which story to review or offer to start from the first pending story.
+- Specified household as parents plus paternal grandparents
+- Connected father's death to protagonist's conscientiousness about stores
+- Added earlier tension with Penu before the accusations

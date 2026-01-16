@@ -133,8 +133,25 @@ continent: "Africa"
 
 Kpovi was born on March 25, 800, in a Gbe-speaking farming settlement on the low, warm ground near the creeks and lagoons of what is now Mono in southern Benin. Her family lived under the authority of local lineage elders and small chiefs, not a distant court. They spoke Gbe at home and used neighboring Kwa speech in the market. Their household kept a small clay shrine at the edge of the compound for ancestors, with a place for libations and a few protective bundles tied with fiber.
 
-Her father, Gbenon, cleared brush and tended yam mounds and other staples, and he brought home palm nuts and small game when he could. Her mother, Kpome, worked the fields close to the settlement, pounded grain, pressed palm oil, and carried Kpovi on her back while she cooked and drew water. Kpome’s husband’s mother, Tasi, watched the baby when Kpome went to weed, and she rubbed the child’s skin with oil and ash to keep insects off.
+Her father, Gbenon, cleared brush and tended yam mounds and cowpea plants. He brought home palm nuts and snared bush rats and cane rats. Her mother, Kpome, worked the fields close to the settlement, pounded millet, and pressed palm oil. She carried Kpovi on her back while she cooked and drew water. Gbenon's mother, Tasi, watched the baby when Kpome went to weed, rubbing the child's skin with oil and ash to keep insects off.
 
-At the start of the rains, Kpovi began to cough. She stopped feeding well and struggled for air. Gbenon went for Dosi, a healer and diviner, who listened, warmed herbs over the hearth, and had Kpome pour water at the ancestor place with a pinch of meal. The cough stayed. Kpovi died on September 18, 800.
+At the start of the rains, Kpovi began to cough. She stopped feeding well and struggled for air. Gbenon went for Dosi, a healer and diviner, who listened, warmed herbs over the hearth, and had Kpome pour water at the ancestor place with a pinch of meal. Tasi sat with the baby through the night, fanning smoke from burning leaves toward her chest. The cough stayed, and her breathing grew shallow. She died on September 18, 800, not yet six months old.
 
-The women prepared her body and buried her in the compound ground near the household's ancestors, setting a calabash of water beside the grave.
+Kpome and Tasi washed her body with water and shea butter. They buried her in the compound ground near the household's ancestors and set a small calabash of water beside the grave.
+
+<!--
+**Review (2026-01-16)**
+
+**Issues found:**
+- [Pass 4] Tasi (grandmother) disappeared during the illness/death - she should be present as a caregiver
+- [Pass 9] "other staples" too vague; "when he could" is hedging; "small game" unspecific
+- [Pass 14] "pounded grain" too generic; "The women" anonymous when should name them; death transition too abrupt
+
+**Changes made:**
+- Added Tasi sitting with the baby through the night during illness, fanning smoke from burning leaves
+- Changed "other staples" to "cowpea plants" (appropriate crop for region)
+- Changed "small game when he could" to "snared bush rats and cane rats" (specific, no hedging)
+- Changed "pounded grain" to "pounded millet" (appropriate grain for region)
+- Changed "The women prepared her body" to "Kpome and Tasi washed her body with water and shea butter" (names the women, adds specific detail)
+- Expanded death sentence: "The cough stayed. Kpovi died..." → "The cough stayed, and her breathing grew shallow. She died on September 18, 800, not yet six months old." (smoother transition, adds age context)
+-->

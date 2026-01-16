@@ -438,19 +438,19 @@ By eight he ran errands for his father to Sidon’s edge. Butrus liked having a 
 
 He fought, too. A shove over a turn at the mill turned into a fist to the mouth when Hanna was fifteen, and his mother made him kiss the priest’s hand and apologize after liturgy. He apologized fast and made jokes on the way home, then started another argument with Yusuf, the brother born in 1244, over who had left the gate open. Yusuf had a careful way of counting jars and measuring seed. Hanna mocked it and then depended on it.
 
-In 1263 Hanna married Ruqayya from a nearby Melkite village. The marriage began with the usual exchange of visits and negotiations between families, then a church blessing and a meal that ended with Hanna singing too loudly and drawing laughter from young men at the edge of the gathering. Ruqayya learned early that he woke ready to talk and wanted to hear every scrap of news. She also learned that when he was irritated he threw words like stones.
+In 1263 Hanna married Ruqayya from a nearby Melkite village. Her father and Hanna's father had met at market years before; her family sent a go-between to propose the match, and the two families haggled over bedding, pots, and a small dowry in silver. A church blessing sealed it, and the meal afterward ended with Hanna singing too loudly and drawing laughter from young men at the edge of the gathering. Ruqayya learned early that he woke ready to talk and wanted to hear every scrap of news. She also learned that when he was irritated he said things he would later regret.
 
-Their first child, a son, was born in 1264. They named him Butrus, after Hanna’s father. Hanna carried the baby outside to show neighbors and boasted that the boy’s grip would crush an olive pit. In 1267 another son was born and died the same day. Hanna snapped at Ruqayya when she asked him to fetch water, then returned later with a jug and a plate of bread, saying nothing. A daughter, Maryam, arrived in 1269 and lived; she grew into a steady girl who learned her mother’s routines. In 1272 a son was named Hanna and did not survive. Salma was born in 1275 and died before the end of the month.
+Their first child, a son, was born in 1264. They named him Butrus, after Hanna's father. Hanna carried the baby outside to show neighbors and boasted that the boy's grip would crush an olive pit. Ruqayya's cousin Eleni came to help with the birth and stayed for a week, teaching Ruqayya how to bind the swaddling properly. In 1267 another son, Yusuf, was born and died the same day. Hanna snapped at Ruqayya when she asked him to fetch water, then returned later with a jug and a plate of bread, saying nothing. A daughter, Maryam, arrived in 1269 and lived; by seven she was grinding grain and minding the animals without being asked. In 1272 a son was named Hanna and did not survive. Salma was born in 1275 and died before the end of the month.
 
 Hanna’s mother kept the lamp burning before the icon of the Virgin on feast days and took the living children to kiss the icon at church. Hanna crossed himself in the mornings and at night and learned short prayers in Greek from Father Georgios, but he prayed in Arabic at home, quick and practical: for rain, for the animals, for a child’s fever to break. He disliked long sermons. He liked the singing.
 
 Butrus, his father, died in 1273. Hanna argued with Yusuf over how to divide tools and who would take which obligations. Their sister Maryam came between them, calm and firm, and forced them to settle it in front of witnesses. Hanna took the field work as his main identity and kept a hand in building tasks when someone paid well, but he did not keep careful accounts. Ruqayya kept track of jars, cloth, and seed. She stored grain more neatly than he did and made him look less reckless than he was.
 
-A bad run of harvests struck when Hanna was in his late twenties, and the dues felt heavier. In 1271 he began turning animals onto land claimed by a nearby monastery estate when the overseer was elsewhere. He cut firewood from the same slopes, bringing it home in a bundle and telling Ruqayya it was better than buying. When the collector’s agent, Khalil, came through and asked about olive oil, Hanna spoke smoothly and set out a smaller number of jars than the press had yielded. He repeated these tricks each season through 1276, shifting animals at night and sending a boy to watch the road. He told himself it was only taking what a hard year allowed. When Sarkis, the monastery steward, confronted him, Hanna argued until spittle showed at the corner of his mouth, then offered a jar of oil as if it ended the matter. It did not end it, but it kept the dispute from becoming formal.
+Even before his father's death, bad harvests had begun pressing the household. In 1271 Hanna started turning animals onto land claimed by a nearby monastery estate when the overseer was elsewhere. He cut firewood from the same slopes, bringing it home in a bundle and telling Ruqayya it was better than buying. When the collector’s agent, Khalil, came through and asked about olive oil, Hanna spoke smoothly and set out a smaller number of jars than the press had yielded. He repeated these tricks each season through 1276, shifting animals at night and sending a boy to watch the road. He told himself it was only taking what a hard year allowed. When Sarkis, the monastery steward, confronted him, Hanna argued until spittle showed at the corner of his mouth, then offered a jar of oil as if it ended the matter. Sarkis took the oil and said nothing, but he remembered. Hanna had to be more careful about which slopes he grazed after that.
 
-He had friends he chose, not just relatives. Nabil, a neighbor cultivator, drank wine with him after market days and played a simple throwing game with stones near the terraces. They laughed at travelers’ accents and at a mule that kicked its own load over. Hanna enjoyed being the man who could get a group talking. He hated waiting in lines for milling and complained loudly about anyone who tried to push ahead, even when he had done it himself.
+Nabil, a neighbor cultivator, became Hanna's closest friend outside the family. They drank wine together after market days and played a simple throwing game with stones near the terraces. They laughed at travelers' accents and at a mule that kicked its own load over. Hanna enjoyed being the man who could get a group talking. He hated waiting in lines for milling and complained loudly about anyone who tried to push ahead, even when he had done it himself.
 
-Maryam, his daughter, became his helper as she grew. She spun and carried water and could quiet the younger children in other houses.
+Maryam, his daughter, became his helper as she grew. She spun and carried water and could quiet the younger children in other houses. The late 1270s brought more requisitions through the villages—pack animals, grain, labor for fortifications—and Hanna cursed the demands while complying just enough to avoid attention. He quarreled with Nabil over a boundary stone in 1279, shouting until women came out to watch, then made peace a week later by bringing oil and sitting together until dark. At village meetings he spoke first and loudest, and men asked him to argue their cases when collectors came through.
 
 Yusuf, the brother who had counted jars and measured seed, died in 1282. Hanna stood at the burial and said nothing for once. He missed the arguments more than he expected.
 
@@ -458,12 +458,46 @@ In 1284 a chest illness left him with a cough that did not end when the weather 
 
 His mother Mariam died in 1286. She had lit the lamp before the icon until her hands shook too much to hold the taper. After the funeral Hanna walked back to the empty corner where the lamp had always burned and stood there, jaw tight.
 
-The next year, his daughter Maryam died at eighteen after a sudden illness that turned a strong girl into a body that needed washing. Hanna shouted at Father Georgios for not coming sooner, then stood silent through the prayers, jaw clenched, eyes red.
+The next year, his daughter Maryam died at eighteen after a sudden illness that turned a strong girl into a body that needed washing. Hanna shouted at Father Georgios for not coming sooner, then stood silent through the prayers, jaw clenched, eyes red. His sister Maryam came from her own household to help wash the body and sit with Ruqayya through the night.
 
-When the Mamluk campaigns pressed toward the coast and Sidon fell in 1289, roads became dangerous and villages took in frightened relatives. By 1291, after Acre fell, the coastal world broke apart. Hanna’s household left their home for safer lodging inland, carrying what they could, leaving some jars buried and some animals driven ahead. They stayed crowded in another family’s space, sleeping close, possessions stacked against a wall.
+When the Mamluk campaigns pressed toward the coast and Sidon fell in 1289, roads became dangerous and villages took in frightened relatives. By 1291, after Acre fell, the last Crusader garrisons withdrew and the old trade routes shifted. Hanna's household left their home for safer lodging inland, carrying what they could, leaving some jars buried and some animals driven ahead. They stayed with Ruqayya's brother's family in a village farther from the coast, four adults and assorted children sleeping in two rooms, possessions stacked against a wall.
 
-His eldest son Butrus fell into a wasting fever in 1291 and never truly recovered. Hanna and Ruqayya spent months feeding him broth and softened bread, washing him, and lifting him when he could not stand. They took him to a monastic site where Father Georgios met them, and they offered oil for the lamp before the icons and asked for prayers. Hanna spoke to the sick boy with a gentleness that surprised even Ruqayya, telling him stories from markets and repeating village jokes to make him smile. Butrus died in 1295 at thirty-one.
+His eldest son Butrus fell into a wasting fever in 1291 and never truly recovered. Hanna and Ruqayya spent months feeding him broth and softened bread, washing him, and lifting him when he could not stand. Eleni came when she could to help Ruqayya with the nursing. They took him to a monastic site where Father Georgios met them, and they offered oil for the lamp before the icons and asked for prayers. Hanna spoke to the sick boy with a gentleness that surprised even Ruqayya, telling him stories from markets and repeating village jokes to make him smile. Butrus died in 1295 at thirty-one.
 
-Hanna did not return to steady life after that. He stayed restless, quick to anger, and quick to reconcile. In the spring of 1298, while moving between lodgings and checking on stored goods, he was caught on a road by armed men amid the postwar disorder—bandits or irregular fighters, no one later agreed which. He argued with them as if talk could shift the outcome. One struck him down, and they stripped what he carried.
+Hanna did not settle after that. He moved between the borrowed lodging and the village, checking on buried stores and arguing with anyone who questioned his right to return. He stayed restless, quick to anger, and quick to reconcile. In the spring of 1298, while moving between lodgings and checking on stored goods, he was caught on a road by armed men amid the postwar disorder—bandits or irregular fighters, no one later agreed which. He argued with them as if talk could shift the outcome. One struck him down, and they stripped what he carried.
 
 His family retrieved the body and brought it to the village church. Father Georgios read the prayers, incense rose, and Hanna was wrapped and placed in the ground near other village dead, with the sign of the cross traced over him and a small lamp lit from the household oil.
+
+<!--
+**Review (2026-01-16)**
+
+**Issues found:**
+- [Pass 2] Son who died in 1267 not named (debug data shows "Yusuf")
+- [Pass 2] Displacement household vague ("another family's space")
+- [Pass 2] Eleni (Ruqayya's cousin) from debug data never appeared
+- [Pass 4] Sister Maryam vanishes after 1273 dispute despite living until 1313
+- [Pass 4] Eleni only appeared once, should also appear during son's illness
+- [Pass 6] Property crime resolution with Sarkis too vague about consequences
+- [Pass 8] Chronology jump: crimes paragraph (1271-1276) placed after father's death (1273)
+- [Pass 9] Marriage description used vague "usual exchange of visits and negotiations"
+- [Pass 9] "steady life" was vague
+- [Pass 10] "the coastal world broke apart" was abstract
+- [Pass 10] "steady girl" was abstract
+- [Pass 13] "threw words like stones" was figurative language
+- [Pass 14] "He had friends he chose, not just relatives" opener was awkward
+
+**Changes made:**
+- Named the 1267 son as Yusuf per debug data
+- Added Eleni helping with first birth (1264)
+- Specified displacement household as Ruqayya's brother's family
+- Added sister Maryam appearing at daughter's death (1287)
+- Added Eleni helping during son's illness
+- Added consequence for Sarkis confrontation ("had to be more careful about which slopes")
+- Fixed chronology by adding "Even before his father's death" transition
+- Made marriage negotiations concrete (go-between, haggling over bedding/pots/silver)
+- Replaced "steady life" with concrete description of Hanna's restless behavior
+- Replaced "coastal world broke apart" with "last Crusader garrisons withdrew and the old trade routes shifted"
+- Replaced "steady girl" with "by seven she was grinding grain and minding the animals without being asked"
+- Replaced "threw words like stones" with "said things he would later regret"
+- Smoothed Nabil introduction opener
+-->

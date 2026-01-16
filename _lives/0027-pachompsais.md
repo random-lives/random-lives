@@ -330,13 +330,13 @@ continent: "Africa"
 #   type: premarital_sex
 ---
 
-Pachompsais was born in a village on the low ground of the Nile Delta when Egypt still belonged to the Ptolemaic kings. People in his house spoke Egyptian in the demotic tongue and kept the old village rites: a small clay lamp by the wall niche, a dish for bread and onions, a cup for beer poured out before the household images. His mother, Taesis, set out the offerings and said the names plainly—Osiris for the dead, Isis for protection, Sobek for the dangerous water, and the local forms of Horus who guarded fields and canals.
+Pachompsais was born in a village on the low ground of the Nile Delta in the last years of the Ptolemaic kingdom, when Cleopatra still ruled from Alexandria. People in his house spoke Egyptian in the demotic tongue and kept the old village rites: a small clay lamp by the wall niche, a dish for bread and onions, a cup for beer poured out before the household images. His mother, Taesis, set out the offerings and said the names plainly—Osiris for the dead, Isis for protection, Sobek for the crocodiles that moved in the deeper channels.
 
 He arrived as the third child. The first, Petosiris, lived only long enough to be washed and wrapped. The second, his sister Tathotes, grew into a thin, sharp-eyed girl who learned early to watch the door and the baskets. Pachompsais came a year later. Taesis carried him to the riverbank when the air cooled at dusk and fanned him with a frayed reed mat to keep insects off his face.
 
 His father, Haryotes, worked where he could: cutting and bundling stalks after harvest, hauling mud for repairs to dikes, taking day wages from men who held land. He came home with cracked heels and a smell of river water and sweat. Pachompsais remembered the weight of his father’s hand on his head and the way he sorted a pile of tools before sleep—knife on one side, sickle on the other, rope coiled tight. When Pachompsais was five, Haryotes stopped going out. He lay on a mat near the doorway, and Taesis boiled bitter herbs and pressed damp cloths against his skin. He died in the same season the birds thickened in the marshes.
 
-After that, the household ran on what Taesis could manage and what Tathotes could do. Taesis worked with wet things: fish brought in from nets, small mullet and catfish split with a stone blade, salted and dried on racks; reeds cut and tied for mats and baskets. The smell of brine and mud stayed in their hair. Pachompsais carried bundles, fetched water, and learned to keep his hands away from the knife edge. He grew quiet. When another boy grabbed at a drying fish and ran, Pachompsais did not chase; he went straight to Taesis and said what happened, and she tightened the lashings on the rack and moved it closer to the house.
+After that, the household ran on what Taesis could manage and what Tathotes could do. Taesis worked with wet things: fish brought in from nets, small mullet and catfish split with an old bronze knife, salted and dried on racks; reeds cut and tied for mats and baskets. The smell of brine and mud stayed in their hair. Pachompsais carried bundles, fetched water, and learned to keep his hands away from the knife edge. He grew quiet. When another boy grabbed at a drying fish and ran, Pachompsais did not chase; he went straight to Taesis and said what happened, and she tightened the lashings on the rack and moved it closer to the house.
 
 Tathotes became his steady point. She teased him when he checked the knots on a bundle twice before lifting. “You tie it for the river god,” she said once, and he answered that the river took what was loose. She laughed, then showed him a quicker knot anyway. In the evenings they sat outside with a bowl of lentils, listening to older women talk about the flood marks and prices. Pachompsais liked the simple foods best: bread still warm from the hearth and the sharpness of pickled greens. He took satisfaction in scraping a pot clean and setting it upside down in the same place each time.
 
@@ -344,22 +344,70 @@ When he was twelve, men in the village spoke of new rule. Officials in Greek cam
 
 By fifteen, he left home before sunrise to join work gangs. Panephremmis, an older man with a hoarse voice, gathered laborers at a crossroads and led them to whatever job paid: cutting barley, pulling weeds from flax, lifting baskets of mud to shore up a canal bank. Pachompsais worked hard and kept to himself. He did not gamble his wages on dice at the end of the day. He brought his share home, counted it into Taesis’s hand, and listened while she divided it between grain, salt, and what had to be paid.
 
-He had one close friend among the young men, a cousin of an acquaintance called Psenthaes, who liked to sing short work songs under his breath. Psenthaes could make Pachompsais laugh with small jokes about Panephremmis’s sharp temper. They shared beer from the same cup at noon and traded bread crusts for dried fish. Pachompsais liked to sit with him on a low bank after work and watch boats move slowly through the reeds.
+He had one close friend among the young men, Psenthaes, who liked to sing short work songs under his breath. Psenthaes could make Pachompsais laugh with small jokes about Panephremmis's sharp temper. They shared beer from the same cup at noon and traded bread crusts for dried fish. Pachompsais liked to sit with him on a low bank after work and watch boats move slowly through the reeds.
 
-At twenty, he began walking a longer path past a neighboring cluster of houses, where Tachonsis lived. Her family processed grain for others, and she carried sacks on her hip with a steadiness that drew his eye. He spoke to her in short sentences, each one plain. She answered him with the same plainness. During the harvest season, after an evening of shared beer and quiet talk behind a storehouse, they slept together. The next day, gossip moved faster than Pachompsais could. Taesis spoke with Tachonsis's family, then with Panephremmis, and within weeks the families treated the match as fixed. The marriage was quiet: a meal shared, small gifts exchanged, and the move of Tachonsis into his household without ceremony that drew attention.
+His mother's brother Psenamounis sometimes found him work on larger estates when Panephremmis had nothing. Psenamounis knew overseers and could put in a word for a reliable nephew.
 
-Two years later, Tachonsis gave birth to a daughter, Tasenouphis. The baby cried once, then struggled. Taesis warmed water, Tachonsis’s aunt rubbed oil into the child’s skin, and Pachompsais stood at the edge of the room with his hands clenched, saying nothing. The girl died the same day. Taesis placed a little bread and a few grains of salt by the household niche for Osiris and Isis, and Pachompsais repaired the broken reed mat without being asked.
+At twenty, he began walking a longer path past a neighboring cluster of houses, where Tachonsis lived. Her family processed grain for others, and she carried sacks on her hip with a steadiness that drew his eye. He spoke to her in short sentences, each one plain. She answered him with the same plainness. During the harvest season, after an evening of shared beer and quiet talk behind a storehouse, they slept together. The next day, gossip moved faster than Pachompsais could. Taesis spoke with Tachonsis's family, and within weeks the families treated the match as fixed. The marriage was quiet: a meal shared, small gifts exchanged, and the move of Tachonsis into his household without ceremony that drew attention.
 
-As the years went on, Pachompsais and Tachonsis joined a joint household arrangement. They shared a dwelling compound with Harmachis and his wife Tasenet, pooling cooking and storage and dividing labor. Tasenet managed the pots and grain with a hard practicality; Pachompsais did not argue with her. Harmachis talked big when beer loosened his tongue and sometimes came home late from the canal-side stalls. Pachompsais kept out of those scenes. If he had a pleasure, it was early morning before the heat, when he could straighten a tool handle with a stone, check the cord on his water jar, and walk out to the hiring place without rush.
+Two years later, Tachonsis gave birth to a daughter, Tasenouphis. The baby cried once, then struggled. Taesis warmed water, Tachonsis's aunt rubbed oil into the child's skin, and Pachompsais stood at the edge of the room with his hands clenched, saying nothing. The girl died the same day. Taesis placed a little bread and a few grains of salt by the household niche for Osiris and Isis, and Pachompsais repaired the broken reed mat without being asked.
 
-Between his late twenties and mid-thirties, petty theft bit into the household again and again. A sickle went missing after a day in the fields. A coil of rope disappeared from beside the door. Once a bundle of dried fish was taken from the rack while the household was away at work. Pachompsais did not shout accusations. He asked questions, listened, and borrowed replacements, paying back in careful portions. Pamenches, a neighbor who always seemed to have someone else’s tools, smirked when Pachompsais asked about the rope. Pachompsais let the smirk pass and tightened the locks on their storage jars.
+After Tasenouphis died, Pachompsais returned to the fields and canals. He and Tachonsis did not conceive again. He kept his routines—early mornings at the hiring place, careful wages brought home, the same knots and the same tools. Tachonsis helped Taesis with fish and reeds and said little about the child. Psenthaes moved to another village that year, following work on an irrigation project, and Pachompsais saw him only at festivals after that.
 
-When he was thirty-five, the flood came poor. The water rose late and did not sit high enough on the marks. Work became irregular. Grain prices jumped. The joint household fell behind on obligations, and Pachompsais borrowed at harsh terms—grain now for more grain later. Meals shrank to thin porridge and onions. They pawned small goods: a brass ring, a spare mat, a pot with a chipped rim. Pachompsais took whatever labor appeared, including the heavy jobs at the canal banks, hauling and tamping mud under a sun that left salt on his skin. Petechonsis, an estate agent with a tablet and a stick, watched the gangs and demanded speed. Pachompsais kept his mouth shut and finished each task, then went home and repaired the household’s worn sandals by the light of the clay lamp.
+When Pachompsais was twenty-seven, Tathotes married a man from a village nearby and moved to his household. That same year, Pachompsais and Tachonsis joined a joint household arrangement with Tachonsis's brother Harmachis and his wife Tasenet. The two couples shared a dwelling compound, pooling cooking and storage and dividing labor. Taesis stayed in the old house nearby, though Pachompsais visited her most days and brought her portions of what the joint household cooked.
+
+Tasenet managed the pots and grain with a hard practicality; Pachompsais did not argue with her. Harmachis talked big when beer loosened his tongue and sometimes came home late from the canal-side stalls. Pachompsais kept out of those scenes. If he had a pleasure, it was early morning before the heat, when he could straighten a tool handle with a stone, check the cord on his water jar, and walk out to the hiring place without rush.
+
+Between his late twenties and mid-thirties, petty theft bit into the household. A sickle went missing after a day in the fields—Pachompsais had set it down to drink water and turned back to find it gone. A coil of rope disappeared from beside the door in the night. Once a bundle of dried fish was taken from the rack while the household was away at work. Pachompsais did not shout accusations. He asked questions, listened, and borrowed replacements from Psenamounis and others, paying back in careful portions of labor and grain. Pamenches, a neighbor who always seemed to have someone else's tools, smirked when Pachompsais asked about the rope. Pachompsais let the smirk pass. Accusing a neighbor without proof would bring trouble—bad blood, possible retaliation, the village headman's disapproval. He tightened the locks on their storage jars and kept his remaining tools closer.
+
+When he was thirty-five, the flood came poor. The water rose late and did not sit high enough on the marks. Work became irregular. Grain prices jumped. The joint household fell behind on obligations, and Pachompsais borrowed at harsh terms—grain now for more grain later. Meals shrank to thin porridge and onions. Tasenet stretched what grain they had, measuring each portion with a wooden cup and scraping the storage jars clean. They pawned small goods: a brass ring, a spare mat, a pot with a chipped rim. Pachompsais took whatever labor appeared, including the heavy jobs at the canal banks, hauling and tamping mud under a sun that left salt on his skin. Petechonsis, an estate agent with a tablet and a stick, watched the gangs and demanded speed. Pachompsais kept his mouth shut and finished each task, then went home and repaired the household's worn sandals by the light of the clay lamp.
+
+The crisis eased after two years of better floods. The household repaid its debts grain by grain, and Pachompsais returned to steadier seasonal work. His reputation as reliable kept him in Panephremmis's regular gang through his late thirties and into his forties. He and Tachonsis did not speak much, but each knew what the other would do next.
 
 Taesis died when Pachompsais was forty-five. She had grown thin in her last years, spending more time sitting by the wall niche than working with fish and reeds. Pachompsais helped wash her body and placed bread and beer before Osiris's image the way she had taught him.
 
-Tathotes died two years later. She had married and tied her life into a network of relatives that still touched his household; her death shifted obligations and removed a person who had always spoken to him without softness. At the memorial meal, Pachompsais poured a cup of beer onto the ground for her and spoke her name once.
+Tathotes died two years later. She had married into a family that traded labor and grain with Pachompsais's household; after her death, those arrangements fell away, and Pachompsais lost the one person who had always told him plainly when he was wrong. At the memorial meal, he poured a cup of beer onto the ground for her and spoke her name once.
 
-He reached fifty with his joints stiff and his hands thickened from rope and soil. In the heat of midsummer, he worked with a gang clearing and strengthening a canal bank. He climbed onto a slick section of packed mud to pass up a basket, slipped, and fell hard. The cut on his leg looked small at first. Over the next days it swelled and darkened, and he could not put weight on it. He died in his village in July of the ninth year after the birth of the new era the Romans counted.
+He reached fifty with his joints stiff and his hands thickened from rope and soil. In the heat of midsummer, he worked with a gang clearing and strengthening a canal bank. He climbed onto a slick section of packed mud to pass up a basket, slipped, and fell hard. The cut on his leg looked small at first. Over the next days it swelled and darkened, and he could not put weight on it. He died in his village that July, fifty years after his birth.
 
 His body was prepared and bound in linen, then carried to a burial place outside the settled ground. Tachonsis placed bread, onions, and a cup of beer beside him, and the family spoke the names of Osiris and Anubis over the grave.
+
+<!--
+**Review: 2027-01-16**
+
+**Issues found:**
+- [Pass 1] Gap ages 22-27 (after daughter's death to joint household) not bridged
+- [Pass 1] Gap ages 35-45 (between crisis and mother's death) compressed
+- [Pass 2] Harmachis's relationship to Pachompsais unclear; Taesis's living situation after joint household formation unclear
+- [Pass 4] Psenthaes (close friend) disappears without explanation
+- [Pass 4] Psenamounis (maternal uncle in debug) never appears in narrative
+- [Pass 6] Theft incidents lacked explanation for why he didn't confront suspects
+- [Pass 8] "ninth year after the birth of the new era the Romans counted" awkward phrasing
+- [Pass 10] "shifted obligations" abstract without concrete meaning
+- [Pass 11] "stone blade" anachronistic for Ptolemaic/Roman period
+- [Pass 13] "rhythm that needed no words" AI-slop phrase
+- [Pass 14] "a cousin of an acquaintance called Psenthaes" confusing construction
+- [Pass 14] Panephremmis mentioned in marriage negotiations for no clear reason
+- [Pass 14] Deity list felt like checklist
+- [Pass 14] Stock aging description for Tachonsis
+
+**Changes made:**
+- Added bridging paragraph for ages 22-27 (routines, infertility, Psenthaes leaving, Tathotes marrying)
+- Added bridging paragraph for ages 35-45 (crisis resolution, steady work, Panephremmis reference)
+- Specified Harmachis as Tachonsis's brother; clarified Taesis stayed in old house nearby
+- Added Psenthaes's departure (moved to another village for irrigation work)
+- Added Psenamounis as source of work connections
+- Added explanation for not confronting theft suspects (fear of village conflict)
+- Simplified death date to "that July, fifty years after his birth"
+- Replaced "shifted obligations" with concrete "arrangements fell away"
+- Changed "stone blade" to "old bronze knife"
+- Changed "rhythm that needed no words" to "each knew what the other would do next"
+- Simplified friend introduction to just "Psenthaes"
+- Removed Panephremmis from marriage negotiations
+- Shortened deity list, made Sobek reference more concrete (crocodiles)
+- Removed stock aging description; kept the emotional content
+- Added second mention of Tasenet during crisis (measuring grain)
+- Separated Psenamounis into own paragraph
+- Clarified "spoken without softness" to "told him plainly when he was wrong"
+- Added historical context: "when Cleopatra still ruled from Alexandria"
+-->

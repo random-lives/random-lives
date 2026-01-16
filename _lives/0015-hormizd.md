@@ -120,14 +120,37 @@ continent: "Asia"
 #   calendrical festivals; sanctioned rites when available)
 ---
 
-Hormizd was born on November 17, 361, in the upland valleys of Zābul, among Eastern Iranian-speaking pastoral families tied by tax and market obligations to the Sasanian world. Men who dealt with officials used some Middle Persian words; at home the household spoke its local tongue. The compound belonged to Wahram’s patriline, with Farrukh as the senior man. Sheep and goats were the family’s wealth, and the hearth was kept clean for worship.
+Hormizd was born on November 17, 361, in the upland valleys of Zābul, among Eastern Iranian-speaking pastoral families tied by tax and market obligations to the Sasanian world. Men who dealt with officials used some Middle Persian words; at home the household spoke its local tongue. The compound belonged to Wahram's father Farrukh, who ran the household; Wahram's unmarried brother Rostam also lived there and shared the herding. Sheep and goats were the family’s wealth, and the hearth was kept clean for worship.
 
 Dukht gave birth inside the family rooms while Mihraban heated water and laid out clean cloth. Farrukh sent for Tirdad, the community priest, to mark the birth with prayers to Ohrmazd and the yazatas. A small fire was fed with dry brush, and clarified butter was set near it as an offering. When Wahram returned from the flock he lifted the child once, briefly, then placed him back in Dukht’s arms and went to see to the animals.
 
-The household ran on milk and fire. Hormizd crawled under the hanging skin bag used for churning and watched it sway. In July 363, while Dukht strained milk into a clay bowl, he tugged at her sleeve and said a clear word for milk. After that he repeated it whenever the bowl came out or the curds were pressed.
+By his first summer Hormizd crawled under the hanging skin bag used for churning and watched it sway. In July 363, while Dukht strained milk into a clay bowl, he tugged at her sleeve and said a clear word for milk. After that he repeated it whenever the bowl came out or the curds were pressed.
 
-By May 364 he followed animals with purpose. He trailed a lamb through the compound gate and climbed onto a low stone wall to keep it in sight. Mihraban caught him by the belt, pulled him down, and set him inside the yard with the lamb’s neck under his small hands while she checked his fingers for dirt and bites.
+By May 364 he followed animals with purpose. He trailed a lamb through the compound gate and climbed onto a low stone wall to keep it in sight. Mihraban caught him by the belt, pulled him down, and set him inside the yard with the lamb's neck under his small hands while she checked his fingers for dirt and bites. He learned to recognize Rostam's whistle when the goats came back in the evening and ran to the gate to watch them file through.
 
-At the spring rites Farrukh brought dried curds and butter to the fire. The adults washed, kept silence, and listened as Tirdad recited the prayers.
+At the spring rites in 365 Farrukh brought dried curds and butter to the fire. The adults washed and kept silence while Tirdad recited the prayers. Hormizd stood beside his mother, quiet for once, watching the flames.
 
-A cold night in early May 365 left Hormizd coughing hard, breathing fast, and refusing milk. Dukht kept him on her lap; Wahram stayed close after dark. Hormizd died on May 19, 365. Tirdad spoke the funeral prayers, and the family washed and wrapped the body, laying it on a rocky rise outside the living space with a small offering of butter beside it.
+A cold night in early May 365 left Hormizd coughing hard, breathing fast, and refusing milk. Dukht kept him on her lap while Mihraban heated water and murmured prayers. Wahram stayed close after dark. Hormizd died on May 19, 365. Tirdad spoke the funeral prayers, and the family washed and wrapped the body, laying it on a rocky rise outside the living space with a small offering of butter beside it.
+
+<!--
+**Review completed: January 2026**
+
+**Issues found:**
+- [Pass 4] Mihraban (grandmother) absent from death scene despite being a key caretaker
+- [Pass 4] Rostam (uncle) mentioned once in opening then never appears again
+- [Pass 8] Spring rites had no year specified, ambiguous timing
+- [Pass 9] "The household ran on milk and fire" - figurative/abstract opener
+- [Pass 12] "patriline" - sociological jargon
+- [Pass 14] Crawling scene had no time marker
+- [Pass 14] Spring rites paragraph didn't feature the protagonist
+- [Pass 14] Rostam mention felt tacked on
+
+**Changes made:**
+- Added Mihraban to death scene (heating water, murmuring prayers)
+- Added Rostam appearing with goats in evening, Hormizd recognizing his whistle
+- Specified "spring rites in 365"
+- Removed "The household ran on milk and fire" sentence
+- Changed "Wahram's patriline" to "Wahram's father Farrukh, who ran the household"
+- Added "By his first summer" time marker for crawling
+- Added Hormizd to spring rites scene (standing beside mother, watching flames)
+-->

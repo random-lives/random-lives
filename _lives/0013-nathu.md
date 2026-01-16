@@ -200,16 +200,39 @@ continent: "Asia"
 # - F
 ---
 
-Nathu was born in December 340 in the towns and market villages of north Bihar under Gupta rule, where taxes and disputes moved through local officials and patrons. His family spoke an Indo-Aryan vernacular and lived as Buddhist laypeople. When a monk passed with his bowl, Malli put out a pinch of cooked rice, and Kalu touched his forehead to the ground before going back to arguing over the price of firewood.
+Nathu was born in December 340 in a market town in north Bihar under Gupta rule. His family were Buddhist laypeople. When a monk passed with his bowl, his mother Malli put out a pinch of cooked rice, and his grandfather Kalu touched his forehead to the ground before going back to haggling with a firewood seller.
 
-The house held several generations. Budha slept near the doorway so he could leave early for day work, taking loads on his back or pushing carts for other men. Masu ran the hearth and guarded the water pot. Malli earned a little by washing cloth and scrubbing other people's courtyards, her hands rough from ash and sand.
+The house held three generations. Nathu's father Budha slept near the doorway so he could leave early for day work, taking loads on his back or pushing carts for other men. His grandmother Masu ran the hearth and guarded the water pot. Malli earned a little by washing cloth and scrubbing other people's courtyards, her hands rough from ash and sand.
 
 Nathu spent most days on someone's hip. At a year old, he hauled himself upright on a storage jar in the shared courtyard and stepped toward Malli's open hands. He sat down hard when his feet slid, then laughed and tried again. Masu clapped once and dragged him back from the cooking fire by his upper arm.
 
-The next year, Malli carried him to the pond edge where she beat laundry on a stone. Nathu kept a smooth broken potsherd in his fist, tapping it against the rock while he watched the water. When he wanted a drink he pointed at the clay pot and repeated his clipped word for water until someone gave in.
+The next year, Malli carried him to the pond edge where she beat laundry on a stone. Nathu kept a smooth broken potsherd in his fist, tapping it against the rock while he watched the water. When he wanted a drink he pointed at the clay pot and repeated his clipped word for water until someone gave in. Back home, Kalu showed him how to stack kindling by the hearth, though Nathu scattered it as fast as it was stacked.
 
-A daughter, Munni, arrived in 342 and died the same year. After the cremation Masu tied a dark thread around Nathu's wrist and marked his forehead with soot. Gehuli was born in 343. When Malli nursed the baby, Nathu pushed at her shoulder and tried to wedge his head under her arm, then accepted a scrap of bread from Budha and followed him to the doorway.
+A daughter, Munni, arrived in 342 and died the same year. After the cremation Masu tied a dark thread around Nathu's wrist and marked his forehead with soot.
 
-Late in November 344, Nathu developed sudden diarrhea. Budha carried him to Ananda, a monk who recited protective verses, and then to a healer for a bitter drink. Nathu died on December 7.
+Gehuli was born in 343. When Malli nursed the baby, Nathu pushed at her shoulder and tried to wedge his head under her arm. He accepted a ball of cold rice from Budha and followed him to the doorway.
+
+Late in November 344, Nathu developed sudden diarrhea. Masu boiled water with herbs and tried to get him to drink. Budha carried him to Ananda, a monk who recited protective verses, and then to a healer for a bitter drink. The diarrhea continued. Nathu died on December 7.
 
 Budha and Kalu wrapped him in plain cloth, carried him to the riverbank, and burned the body on a small wood pyre. Malli placed a few grains of rice beside the ashes before they were pushed into the water.
+
+<!--
+**Review Date:** 2026-01-16
+
+**Issues found:**
+- [Pass 4] Kalu (grandfather) only appeared in ¶1 and ¶7, missing from middle of story
+- [Pass 4] Masu (grandmother) not present in final illness scene despite being the one who handles protective rites
+- [Pass 7] Death of Munni bundled with Gehuli's birth and sibling rivalry in same paragraph
+- [Pass 11] "bread" anachronistic for rice-eating region of Bihar
+- [Pass 14] Family relationships unclear - reader had to infer who was parent/grandparent
+- [Pass 14] Opening paragraph had unnecessary technical language ("Indo-Aryan vernacular", abstract governance description)
+
+**Changes made:**
+- Added Kalu teaching Nathu to stack kindling in ¶4
+- Added Masu boiling water with herbs during Nathu's final illness
+- Split paragraph about Munni's death from Gehuli's birth
+- Changed "scrap of bread" to "ball of cold rice"
+- Clarified all family relationships on first mention (mother, father, grandmother, grandfather)
+- Simplified opening paragraph, removed "Indo-Aryan vernacular" and "taxes and disputes" passage
+- Changed "arguing over the price of firewood" to "haggling with a firewood seller" for clarity
+-->

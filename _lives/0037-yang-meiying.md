@@ -383,11 +383,11 @@ continent: "Asia"
 #   type: elderly_parents
 ---
 
-Yang Meiying was born on October 31, 1935, in a rural village under the Nationalist government in Pinghe County, Zhangzhou, Fujian. Her family were Minnan-speaking Han, and the household held to the usual mix of ancestor rites and village deities. On the main shelf in the central room, incense ash collected in a small burner before the ancestral tablets, and on festival days her grandmother set out tea, bowls of rice, and a few pieces of pork if the family had it.
+Yang Meiying was born on October 31, 1935, in a rural village in Pinghe County, Zhangzhou, Fujian. The region was under Nationalist control, though the war with Japan had already begun in the north and would soon spread south. Her family were Minnan-speaking Han farmers, and the household followed ancestor rites and village deities like most families in the area. On the main shelf in the central room, incense ash collected in a small burner before the ancestral tablets, and on festival days her grandmother set out tea, bowls of rice, and a few pieces of pork if the family had it.
 
 She arrived as the fourth child. Her eldest sister, Yang Xiuying, was already old enough to carry her on a hip while their mother cooked and washed. The second sister, Yang Xiulan, was the one Meiying followed from room to room. Their brother, Yang Guoqiang, was treated differently from the start, sent on errands and pulled into adult talk. Meiying learned early to watch what people wanted and to give way before a quarrel turned sharp.
 
-The household was three generations. Her paternal grandfather, Lin Laogong, sat by the doorway when his joints allowed and told lineage stories in Minnan while sharpening a tool or rolling a cigarette. He died in 1946. After that, Meiying checked for sickness in others the way her mother did—touching foreheads, listening for coughs at night, noticing who ate less at the table. Her grandmother, Yang Laotai, stayed in charge of the altar and scolded children for stepping over thresholds carelessly. When she died in 1950, Meiying’s mother, Chen A'nü, took over the ritual details: when to sweep the tombs, when to boil the sweet rice cakes, how long incense should burn.
+The household was three generations. Her paternal grandfather sat by the doorway when his joints allowed and told lineage stories in Minnan while sharpening a tool or rolling a cigarette. He grew weaker through the war years and died in 1946, when Meiying was ten. She watched her mother care for him in his final weeks—touching his forehead for fever, listening for his breathing at night. Afterward Meiying did the same for others: checking foreheads, listening for coughs, noticing who ate less at the table. Her grandmother, Yang Laotai, stayed in charge of the altar and scolded children for stepping over thresholds carelessly. When she died in 1950, Meiying’s mother, Chen A'nü, took over the ritual details: when to sweep the tombs, when to boil the sweet rice cakes, how long incense should burn.
 
 School was never steady for Meiying. The war years and then the new political order broke routines, and her parents used their small resources for the son. She memorized what she heard and what she saw. When cadres posted notices, she waited for someone else to read them aloud. For counting and keeping track, she used knots in string and little stacks of coins. If she had to mark something, she pressed a thumbprint in ink.
 
@@ -395,28 +395,72 @@ After 1949, the village was pulled into meetings, work teams, and new rules. Her
 
 By her late teens she ran a household well. She rose early, fed the fire, and liked the quiet before others woke. On hot days she preferred the time after dark, sitting on a low stool in the doorway to catch air and listen to neighbors talking. She laughed easily at ordinary jokes—someone tripping in the mud, a child saying something bold—and then turned serious again, tugging at a sleeve or wiping a bowl that was already clean.
 
-In 1956, she married Zhang Dechang from a nearby county in southern Fujian and moved to his village. The new house smelled different—more smoke from the kitchen and a sharper scent from stored sweet potatoes. Her husband worked steadily and expected a capable wife. His older sister, Lin Shuzhen, held strong opinions about how grain should be stored and how long soup should boil. Meiying took criticism without arguing, then cried silently while washing dishes behind the house, wiping her face with wet hands before returning.
+In 1956, she married Zhang Dechang from a nearby county in southern Fujian and moved to his village. The household included Dechang's parents—his father managed the fields, his mother kept the kitchen accounts—and his older sister Lin Shuzhen, who had not yet married. The new house smelled different: more smoke from the kitchen and a sharper scent from stored sweet potatoes. Her husband worked steadily and expected a capable wife. Lin Shuzhen held strong opinions about how grain should be stored and how long soup should boil. Meiying took criticism without arguing, then cried silently while washing dishes behind the house, wiping her face with wet hands before returning.
 
-Their first daughter, Zhang Aihua, was born in 1957 with the help of the midwife Huang Sanniang. Meiying watched the baby’s breathing so often that Dechang told her to sleep, and she nodded, then sat up again as soon as he turned. A second daughter, Zhang Lihong, arrived in 1961. The third, Zhang Yunxia, came in 1964. People remarked on the missing son. Meiying answered with polite phrases and kept cooking.
+Lin Shuzhen married later that year and moved to her husband's village. Meiying saw her at festivals and funerals afterward but rarely otherwise.
 
-Food became the central problem in 1959. The production team leader, Chen Baosheng, pushed for targets and called meetings. Communal dining and procurement left their kitchen thin. Meiying stretched sweet potato with rice when she could get it, boiled wild greens until they softened, and scraped the bottom of jars for a last spoon of oil. One winter day she took a pair of earrings she had brought as part of her marriage goods and pawned them in the market town. When she returned, she hid the pawn ticket deep in a cloth bundle and checked it repeatedly, afraid she had lost it. Her stomach tightened whenever the grain jar looked too empty. She began counting bowls as people ate, then hated herself for it.
+Their first daughter, Zhang Aihua, was born in 1957 with the help of the village midwife. Meiying watched the baby's breathing so often that Dechang told her to sleep, and she nodded, then sat up again as soon as he turned.
 
-During those famine years she snapped once at Aihua for spilling porridge, then pulled the child into her lap and stroked her hair until the girl stopped crying. That was how Meiying handled anger: a sharp edge, then apologies and more work. She tried to keep her voice soft in front of in-laws and cadres. At night, she pressed a hand to her chest and focused on taking slow breaths because she feared she would wake the house with her panic.
+Food became the central problem in 1959. The production team leader pushed for targets and called meetings. Communal dining and procurement left their kitchen thin. Meiying stretched sweet potato with rice when she could get it, boiled wild greens until they softened, and scraped the bottom of jars for a last spoon of oil. One winter day she took a pair of earrings she had brought as part of her marriage goods and pawned them in the market town. When she returned, she hid the pawn ticket deep in a cloth bundle and checked it repeatedly, afraid she had lost it. Her stomach tightened whenever the grain jar looked too empty. She began counting bowls as people ate, then hated herself for it.
+
+During those famine years she snapped once at Aihua for spilling porridge, then pulled the child into her lap and stroked her hair until the girl stopped crying. That was how Meiying handled anger: she snapped, then apologized and worked harder to make up for it. She tried to keep her voice soft in front of in-laws and cadres. At night, she pressed a hand to her chest and focused on taking slow breaths because she feared she would wake the house with her panic.
+
+A second daughter, Zhang Lihong, arrived in 1961 during the worst of the shortages. The third, Zhang Yunxia, came in 1964. People remarked on the missing son. Meiying answered with polite phrases and kept cooking.
 
 The Cultural Revolution reached their village in 1966. Temples were targeted and festivals stopped. Meiying stopped visiting public shrines and kept the ancestor rites small and hidden. She stored incense sticks inside a tin and lit them briefly behind a closed door. Offerings became plain: a bowl of tea, a little rice, sometimes a piece of fruit. She told the girls not to talk about it outside. When people came to the house, she moved objects quickly, hands shaking, then smoothed her hair and served water as if nothing had happened.
 
-In 1969, a close relative's child, Zhang Shengli, came to their door after his parents died. The boy was small, dirty, and silent. Dechang agreed to take him in, and the decision became Meiying's daily burden. She cut his hair, patched his clothes, and defended him when other children called him an outsider. When rationing pinched, she divided food carefully and then ate last. Shengli followed her closely for months, and she grew used to the sound of his steps behind her in the yard.
+In 1969, Dechang's younger brother's son, Zhang Shengli, came to their door after both his parents died of illness within the same month. The boy was small, dirty, and silent. Dechang agreed to take him in, and the decision became Meiying's daily burden. She cut his hair, patched his clothes, and defended him when other children called him an outsider. When rationing pinched, she divided food carefully and then ate last. Shengli followed her closely for months, and she grew used to the sound of his steps behind her in the yard. He grew into a quiet young man and left in the early 1980s to find work in Zhangzhou. He visited on New Year and sent money when he could.
 
-Her father, Yang Shunfa, died in 1972. Meiying traveled back to Pinghe for the funeral, stood through the rites, and returned to her husband's village with a small bundle of her mother's mending. She worried about Chen A'nü living alone but could not stay.
+Her father, Yang Shunfa, died in 1972. Meiying traveled back to Pinghe for the funeral. Her brother Guoqiang managed the rites; her sister Xiulan came from her own husband's village. Meiying returned home with a small bundle of her mother's mending. She worried about Chen A'nü living alone, but Guoqiang lived nearby and promised to check on her.
 
-In the late 1970s, as the political campaigns eased and new policies began, Meiying's parents-in-law grew old quickly. By 1978 one needed help standing; by 1982 there were days with fever and coughing that did not stop. Meiying boiled thin rice gruel and mashed vegetables, mixed herbal powders into warm water, and carried chamber pots out to wash. She learned the smell of medicated plasters and stale bedding. If a neighbor suggested a clinic, she worried about cost and paperwork, then still went, bringing a daughter to listen and repeat instructions.
+In the late 1970s, as the political campaigns eased and new policies began, Meiying's parents-in-law grew old quickly. Her father-in-law's legs weakened first; by 1978 he needed help standing and spent most days on a chair by the door. Her mother-in-law developed a cough that lasted months at a time. Meiying boiled thin rice gruel and mashed vegetables, mixed herbal powders into warm water, and carried chamber pots out to wash. When a neighbor suggested a clinic, she worried about cost and paperwork, then still went, bringing Aihua to read the forms and repeat the doctor's instructions.
 
 Her mother, Chen A'nü, died in 1981. Meiying returned to Pinghe again, this time to close the house and divide what remained. She took a wooden comb and a small ceramic jar her mother had kept on a shelf. For weeks afterward she dreamed of her mother's voice calling from the kitchen.
 
-After that year, the village brought back festivals. Meiying’s daughters were grown, and they pulled her out of the habit of hiding. On a spring day she went with Yunxia to a revived temple committee’s incense table, where an older caretaker, Wu Mingde, accepted small offerings. Meiying bought a bundle of incense and a pair of red candles. She bowed, set the candles upright, and watched the flame steadily instead of checking over her shoulder. At home she returned to fuller ancestor rites: sweeping the altar, setting out three cups of tea, and cooking pork on important days. The change did not remove her worry. It redirected it into routines she could control.
+Her father-in-law died in 1984. Meiying had washed his feet the night before, and when she found him still in bed the next morning she knew before she touched him. Her mother-in-law followed two years later, in 1986. Meiying helped wash and dress both bodies, lit the incense, and knelt through the chanting. She was the senior woman of the household now.
 
-In the 1990s, she lived in a three-generation household with Aihua, her son-in-law, and grandchildren. Meiying minded children after school, cut vegetables with quick strokes, and preferred steaming fish with ginger when money allowed. She took quiet satisfaction in bowls lined up neatly and in grandchildren reciting characters she could not read. When troubled, she walked to the edge of the fields, sat where the breeze moved through trees, and counted her breaths until the tightness eased.
+By the late 1980s, the village had brought back festivals. Meiying’s daughters were grown, and they pulled her out of the habit of hiding. On a spring day she went with Yunxia to a revived temple and bought a bundle of incense and a pair of red candles. She bowed, set the candles upright, and watched the flame steadily instead of checking over her shoulder. At home she returned to fuller ancestor rites: sweeping the altar, setting out three cups of tea, and cooking pork on important days. She still worried, but now she could burn incense and bow and feel she had done something about it.
+
+In the 1990s, she and Dechang lived with Aihua, her son-in-law, and grandchildren. Dechang still worked in the fields when his back allowed; he had grown quieter over the years, and they spent evenings together without saying much. Lihong had found work at a township factory and visited on weekends; Yunxia lived nearby and came often. Meiying minded children after school, cut vegetables with quick strokes, and preferred steaming fish with ginger when money allowed. She took quiet satisfaction in bowls lined up neatly and in grandchildren reciting characters she could not read. When troubled, she walked to the edge of the fields, sat where the breeze moved through trees, and counted her breaths until the tightness eased.
+
+In 1995, her eldest sister Xiuying died. Meiying traveled to the funeral and sat through the chanting with her hands folded, thinking of the sister who had carried her as an infant. She returned home quieter than usual.
 
 Chest pressure and fatigue became frequent by 1996. She ignored it, then complained, then worried aloud that she would die suddenly. On January 7, 1998, she collapsed at home and died of a heart attack before she could be taken to care.
 
 Her family washed her body, dressed her in clean clothes, and held a wake with incense and paper offerings. She was buried in the local hillside grave area, and her daughters set out bowls of rice and tea before the mound.
+
+<!--
+**Review log (2026-01-16):**
+
+**Issues found:**
+- [Pass 1] Parents-in-law deaths never mentioned; sister Xiuying's death (1995) missing
+- [Pass 2] Parents-in-law not introduced when Meiying moves to husband's household; Lin Shuzhen disappears after introduction
+- [Pass 4] Shengli (orphan) disappears after 1969 paragraph; daughter Lihong never appears after birth; siblings Xiulan and Guoqiang never reappear; unnecessary names for one-time characters (midwife, cadre, temple caretaker)
+- [Pass 6] Orphan's relationship to family too vague ("close relative")
+- [Pass 7] Daughters Lihong and Yunxia introduced before famine chronologically happens; "After that year" transition unclear
+- [Pass 10] "The change did not remove her worry. It redirected it into routines she could control" - abstract claim
+- [Pass 11] Opening could add more historical context about 1935 China
+- [Pass 13] "a sharp edge" - figurative language
+- [Pass 14] Grandfather's surname inconsistent (Lin vs Yang); "one needed help standing" vague; Dechang absent from later narrative; in-laws' deaths paragraph too perfunctory; grandparents paragraph transition abrupt
+
+**Changes made:**
+- Added parents-in-law deaths (1984, 1986) with concrete details
+- Added Xiuying's death (1995) with emotional impact
+- Introduced parents-in-law when Meiying moves to husband's household
+- Added Lin Shuzhen marrying out and resolution
+- Added Shengli's later life (left for Zhangzhou, visits on New Year)
+- Added Lihong appearing in 1990s (township factory work)
+- Added siblings Xiulan and Guoqiang at father's funeral
+- Removed unnecessary names: midwife, cadre, temple caretaker
+- Specified orphan as "Dechang's younger brother's son"
+- Restructured daughter births around famine chronology
+- Fixed "After that year" to "By the late 1980s"
+- Replaced abstract claim about worry/routines with concrete description
+- Added historical context about war with Japan in opening
+- Replaced "a sharp edge" with plain prose
+- Removed grandfather's name (was inconsistent); added age at his death
+- Specified which parent-in-law had which ailment
+- Added Dechang in 1990s paragraph showing their later relationship
+- Expanded in-laws' deaths paragraph with concrete detail
+- Improved grandfather paragraph with better transition showing how Meiying learned caregiving
+-->

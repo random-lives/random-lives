@@ -1,9 +1,0 @@
-Review complete for **0125-person-0125-unnamed**.
-
-**Summary:**
-- **Issue found:** The stillborn infant was incorrectly named "Prokop" in the narrative, but the debug data clearly indicates `naming_category: unnamed` (died before naming ceremony) and `cause_of_death: Stillbirth`
-- **Changes made:**
-  1. Changed "Prokop was born on" → "The child was born on"
-  2. Changed "the child was delivered, a boy, motionless. Zdislava rubbed him" → "the child was delivered, motionless. Zdislava rubbed the body" (removed redundant "a boy" since "His parents" already establishes sex, and changed "him" to "the body" for consistency)
-
-The rest of the narrative was clean - no pseudosociological language, no figurative language, no other issues. The story is short (appropriate for a stillborn infant) and handles the subject matter with appropriate plainness.

@@ -144,14 +144,44 @@ continent: "Europe"
 # - M
 ---
 
-Nadiia was born on July 13, 1920, in Antoniv village in the Kyiv countryside, under the new Soviet order that followed the collapse of empire and civil war. Her family were Ukrainian-speaking middle peasants. They farmed their own land and kept livestock. The house held three generations: her parents, Hryhorii and Kateryna, and Hryhorii’s parents, Andrii and Marfa.
+Nadiia was born on July 13, 1920, in Antoniv village in the Kyiv countryside. The Russian Civil War had swept through the region twice in the previous two years, but by that summer the fighting had moved south and the fields could be planted again. Her family were Ukrainian-speaking middle peasants who farmed their own land and kept livestock. The house held three generations: her parents, Hryhorii and Kateryna, and Hryhorii's parents, Andrii and Marfa.
 
-Kateryna had already buried a first baby, Mykola, in 1918. After that loss she watched Nadiia closely: quick hands for wiping a runny nose, a palm on the child's chest at night to feel her breathing. Religion stayed quiet and indoors. Marfa kept an icon corner with a small oil lamp and images of Christ and the Mother of God. Before meals she crossed herself and murmured short prayers, then set bread on the table.
+Kateryna had already buried a first baby, Mykola, in 1918. After that loss she watched Nadiia closely: quick hands for wiping a runny nose, a palm on the child's chest at night to feel her breathing. Hryhorii worked the fields from spring through autumn; in winter he repaired tools and harnesses in the barn while Andrii fed the livestock. When Nadiia learned to walk she followed her grandfather to the cow shed, and he let her hold the bucket while he milked.
 
-The yard was busy: hens underfoot, a cow to be milked, water carried from the well. In spring 1923, at two, she followed Marfa to scatter grain and insisted on bringing her own little cup of feed. She named a yellow chick “Kurka” and checked it each morning, pushing past the threshold to peer into the nesting box.
+Religion stayed quiet and indoors. The new authorities had sent officials to inventory church property, and the village priest, Batiushka Oleksii, visited families less often than before. Marfa kept an icon corner in the house with a small oil lamp and images of Christ and the Mother of God. Before meals she crossed herself and murmured short prayers, then set bread on the table.
+
+The yard was busy: hens underfoot, a cow to be milked, water carried from the well. In the spring of 1923 Nadiia followed Marfa to scatter grain and insisted on bringing her own little cup of feed. She named a yellow chick "Kurka" and checked it each morning, pushing past the threshold to peer into the nesting box.
 
 Petro was born in 1922, and Nadiia treated him as a toy and a duty. By late summer 1924 she brought folded cloths when Kateryna asked, then patted Petro’s back too hard while trying to hush him. She dragged him by the hand to the doorway to watch carts creak along the road.
 
-That same year Kateryna delivered another son, Ivan. He died as an infant, and Marfa kept the icon lamp lit longer after dark.
+That same year Kateryna delivered another son, Ivan. He took a fever within weeks and died before autumn. Marfa kept the icon lamp lit longer after dark, and Kateryna watched her remaining children with sharper attention through the winter.
 
-Measles reached Antoniv in early March 1925. Nadiia broke out in rash and then developed serious chest trouble. She died on March 16, 1925. Kateryna and Marfa washed her, dressed her in a clean shirt, and laid her before the icon corner until the burial in the village cemetery after prayers.
+Measles reached Antoniv in early March 1925. Several children in the village fell ill within days. Nadiia broke out in rash and then developed pneumonia. Kateryna rubbed her chest with goose fat and kept her wrapped in blankets near the stove. Petro caught a milder case and recovered within the week. Nadiia did not. She died on March 16, 1925.
+
+Kateryna and Marfa washed her body, dressed her in a clean embroidered shirt, and laid her before the icon corner. Batiushka Oleksii came to read prayers, and they buried her in the village cemetery beside her brothers.
+
+<!--
+**Review (2026-01-16)**
+
+**Issues found:**
+- [Pass 1] Age 1 (1921) had no content—narrative jumped from birth to age 2
+- [Pass 2/4] Father Hryhorii and grandfather Andrii were named but never did anything
+- [Pass 4] Petro disappeared after his introduction and wasn't mentioned during the measles outbreak
+- [Pass 5/6] Ivan's death was vague ("died as an infant")—no cause given
+- [Pass 6] Measles scene lacked treatment attempts and didn't resolve what happened to Petro
+- [Pass 8] "In spring 1923, at two" was redundant (year + age)
+- [Pass 9] "serious chest trouble" was vague
+- [Pass 11] Historical opening "under the new Soviet order" was vague for 1920; didn't explain why religion was "quiet"
+- [Pass 11] Batiushka Oleksii from debug data never appeared
+
+**Changes made:**
+- Added scene of Nadiia following grandfather Andrii to cow shed when she learned to walk (covers age 1)
+- Added Hryhorii working fields and repairing tools in barn; Andrii feeding livestock
+- Explained religious caution: new authorities inventorying church property, priest visiting less often
+- Batiushka Oleksii now appears twice (introduced in religion paragraph, returns for burial prayers)
+- Specified Ivan "took a fever within weeks and died before autumn"
+- Added Kateryna's heightened vigilance through the winter after Ivan's death
+- Expanded measles scene: village-wide outbreak, pneumonia specified, goose fat treatment, Petro's mild recovery
+- Fixed chronology marker: "In spring 1923, at two" → "In the spring of 1923"
+- Added burial detail: "beside her brothers" (Mykola and Ivan)
+-->

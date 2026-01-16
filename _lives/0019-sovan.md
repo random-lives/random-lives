@@ -213,10 +213,32 @@ continent: "Asia"
 # - M
 ---
 
-Sovan was born on September 18, 302, in a Monic-speaking village on the wet edge of the forested plain in what is now Bago. Headmen collected tribute that moved toward Pyu towns and river ports, where Indian traders brought goods and ideas. Her household kept the old ways: offerings at the house post, rice and betel set out for the spirits of the place, and food placed for named ancestors.
+Sovan was born on September 18, 302, in a Monic-speaking village on the forested plain east of the Pyu city of Sri Ksetra. Headmen collected tribute that moved toward the Pyu towns and river ports, where Indian traders brought goods and ideas. Her household kept offerings at the house post, rice and betel set out for the spirits of the place, and food placed for named ancestors.
 
-Her father, Ratha, organized transport and exchange. He sent carts and porters along tracks toward river landings, moving salt, dried fish, resin, and cloth, and he kept a small store of goods under the eaves. Her mother, Kanda, ran the cooking fire, pounded grain, and worked the fields when the water stood right, then returned to nurse. A senior woman, Dara, watched Kanda’s postpartum rules and tied protective cords at the baby’s wrist; she set a small dish of rice and a pinch of salt at the threshold each morning. Htun, the old man of the compound, pressed for quick offerings whenever a child cried too long.
+Her father, Ratha, organized transport and exchange along the tracks toward river landings, moving salt, dried fish, resin, and cloth. He kept a small store of goods under the eaves. Her mother, Kanda, ran the cooking fire, pounded grain, and worked the fields when the water stood right. Kanda's mother, Dara, lived in the compound and watched over the postpartum rules. Ratha's father, Htun, pressed for quick offerings whenever a child cried too long.
 
-Sovan arrived as the eighth child. Kiran, already a man, lifted sacks and argued prices with travelers. Mali and Sreyma carried water and hushed the baby when Kanda stepped away.
+Sovan arrived as the eighth child. Five had died as infants, and the household had grown wary. When Kanda gave birth, Dara tied protective cords at the baby's wrist and set a small dish of rice and salt at the threshold each morning. Only three older siblings survived: Kiran, now twelve, who lifted sacks and argued prices with travelers; Mali, seven; and Sreyma, five, who carried water and hushed the baby when Kanda stepped away.
 
-In the rains of 303, mosquitoes thickened around standing pools. Sovan developed a shaking fever. Ratha brought Serei, the village diviner-healer, who chanted and brushed her with leaves and rubbed a bitter paste on her skin. Sovan died on August 13, 303. Kanda wrapped her in cloth, and Dara placed a small bowl of cooked rice beside the body before it was buried at the edge of the compound near the trees.
+In the rains of 303, mosquitoes thickened around standing pools. Sovan developed a shaking fever. Ratha brought Serei, the village diviner-healer, who chanted over her and brushed her with leaves and rubbed a bitter paste on her skin. For three days Kanda held her, nursing when she would take the breast, wiping her down when the heat rose. On August 13, 303, the fever broke into stillness. Kanda wrapped her in cloth, and Dara placed a small bowl of cooked rice beside the body. They buried her at the edge of the compound near the trees, where others had been buried before.
+
+<!--
+**Review: 2026-01-16**
+
+**Issues found:**
+- [Pass 2] Dara and Htun's relationships to Sovan were vague ("senior woman," "old man of the compound")
+- [Pass 14] "what is now Bago" felt like an awkward modern intrusion; location anchoring could be more historical
+- [Pass 14] Paragraph 2 was dense with similar sentence structures
+- [Pass 14] Protective rituals were disconnected from the context of previous infant deaths
+- [Pass 14] Death scene felt rushed—illness to death to burial in two sentences
+- [Pass 14] Emotional weight of family's repeated losses was thin
+
+**Changes made:**
+- Specified Dara as "Kanda's mother" and Htun as "Ratha's father"
+- Replaced "what is now Bago" with "east of the Pyu city of Sri Ksetra" for historical grounding
+- Removed "kept the old ways:" as mildly template-like; integrated offerings directly
+- Split paragraph 2 into shorter sentences with more varied rhythm
+- Moved protective rituals (cords, rice at threshold) to paragraph 3, connecting them to family's wariness after five infant deaths
+- Added "three days" duration to illness with specific caregiving details (nursing, wiping down)
+- Changed "Sovan died" to "the fever broke into stillness" for less abrupt transition
+- Added "where others had been buried before" to connect Sovan's death to the family's history of infant loss
+-->

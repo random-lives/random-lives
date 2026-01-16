@@ -451,11 +451,11 @@ Pleuron was born the third child in a small cluster of yard-houses on the wooded
 
 His father, Skeron, kept mixed land: cereal plots and legumes near the houses, hay meadows by the water, and pigs and cattle pushed into the forest when the season allowed. His mother, Arban, spun and wove, ground grain, salted meat, and carried babies while she worked. Pleuron entered a household already shaped by loss. An older brother, Bato, had died as an infant before Pleuron was born. When Pleuron was small, his younger brother Gento lived only long enough to be wrapped and carried to the edge of the burial place.
 
-The household was a stem family. Skeron’s mother, Monun, still ruled the hearth when Pleuron was little. She kept the tally of stored grain and smoked meat, decided when the family made offerings, and corrected children with a sharp hand and sharper voice. Pleuron followed her to the hilltop grove with the other children. He watched her set a shallow bowl on the ground, pour beer, and press a piece of fat and a pinch of salt into the earth for the ancestors of their line. He learned the words to say at the start and end, not because he believed in abstract things, but because Monun demanded the correct sequence.
+Three generations lived under the same roof. Skeron's mother, Monun, still ruled the hearth when Pleuron was little. She kept the tally of stored grain and smoked meat, decided when the family made offerings, and corrected children with a sharp hand and sharper voice. Pleuron followed her to the hilltop grove with the other children. He watched her set a shallow bowl on the ground, pour beer, and press a piece of fat and a pinch of salt into the earth for the ancestors of their line. He learned the words to say at the start and end because Monun demanded the correct sequence.
 
-His closest companion in those years was his older sister Varis. She was two years older and the first child in the household to stay alive, and she acted as if she owned the yard. She pulled him along to gather kindling, showed him how to tell a pig track from a deer’s, and slapped his wrist when he grabbed at a pot before the elders had eaten. Varis could be gentle when they were alone. She also took her share of the work without asking permission, and Pleuron learned to do the same.
+His closest companion in those years was his older sister Varis. She was two years older and the first child in the household to stay alive, and she acted as if she owned the yard. She pulled him along to gather kindling, showed him how to tell a pig track from a deer's, and slapped his wrist when he grabbed at a pot before the elders had eaten. Varis could be gentle when they were alone. She also took her share of the work without asking permission, and Pleuron learned to do the same. His younger sister Delmon followed a few years behind, quieter than Varis but steady. Then came his brother Kentor, the only other surviving boy, and finally Lator, the youngest, born when Pleuron was already learning to herd.
 
-More death came. His younger sister Sarnus died at one. Another, Tauton, never reached naming and only existed in family talk as a count in a string of losses. The adults responded with tightened routines. Arban checked cradles and milk, Skeron checked roof lashings and smoke vents. Pleuron grew into a boy who finished tasks and double-checked the gate bar before he slept.
+His younger sister Sarnus died at one. Another, Tauton, never reached naming and only existed in family talk as a count in a string of losses. The adults responded with tightened routines. Arban checked cradles and milk, Skeron checked roof lashings and smoke vents. Pleuron grew into a boy who finished tasks and double-checked the gate bar before he slept.
 
 At fourteen he was trusted to take pigs out toward the oak stands and return them by dusk. He liked that work. He liked the smell of leaf mold and the quiet of the woods, and he liked carrying a small bag of roasted grains and onions, eating them slowly while he listened for the pigs. He also liked the evenings when men gathered to drink and talk. He learned which jokes pleased which cousin, which old man wanted deference, which insults caused fists.
 
@@ -463,9 +463,9 @@ When Pleuron was seventeen, his younger sister Delmon died at fourteen after a w
 
 By twenty he carried a spear and a hide-covered shield and joined a seasonal levy gathered by local leaders for patrols and raids. Men met at a clearing, checked iron points and leather bindings, and marched along a river corridor where cattle trails crossed between communities. Pleuron stood watch at night and laughed quietly with his cousin Plator over smoked meat stolen from someone else’s pack. On the return, they drove captured livestock ahead of them and guarded a few captives with bound hands. Pleuron did what he was told and did it without complaint.
 
-Two years later the feud cycle struck close. Scouts came with word of a retaliatory raid, and the district organized a refuge on higher ground. Families carried sacks of grain and small children up the slope, and men slept in short shifts with spears in hand. Outlying hayricks burned, and cattle were driven off before dawn. Pleuron helped track the raiders’ path, then helped rebuild the next day, cutting poles and hauling thatch.
+Two years later raiding struck close. Scouts came with word of a retaliatory raid, and the district organized a refuge on higher ground. Families carried sacks of grain and small children up the slope, and men slept in short shifts with spears in hand. Outlying hayricks burned, and cattle were driven off before dawn. Pleuron helped track the raiders’ path, then helped rebuild the next day, cutting poles and hauling thatch.
 
-He carried the tension back into ordinary life. At twenty-four he attended a communal sacrifice at the hilltop grove. The elders slaughtered an animal, and the meat was shared with beer in clay cups. A dispute over grazing boundaries flared between lineages. Pleuron took a shove, answered with words, and then a man struck him with a staff. Others joined. He was kicked as he fell. He returned home with cracked ribs and a bruised hip and lay on a bedding of straw while Arban fed him broth and Varis changed the compresses. He remembered names and faces.
+At twenty-four he attended a communal sacrifice at the hilltop grove. The elders slaughtered an animal, and the meat was shared with beer in clay cups. A dispute over grazing boundaries flared between lineages. Pleuron took a shove, answered with words, and then a man struck him with a staff. Others joined. He was kicked as he fell. He returned home with cracked ribs and a bruised hip and lay on a bedding of straw while Arban fed him broth and Varis changed the compresses.
 
 That same year Monun died. She had still been correcting children's form during offerings the week before she fell into fever. The family buried her near the grove with the proper sequences she had taught.
 
@@ -473,22 +473,56 @@ At twenty-seven, anger and pride pushed him into violence of his own. In summer,
 
 A lean winter followed when Pleuron was twenty-nine. Stores ran low before the spring green. With Plator he crossed into a boundary pasture used by a rival hamlet and drove off a handful of goats. They told anyone who asked that the animals had wandered. They slaughtered them quickly, hid the skins, and shared meat with close relatives. Pleuron ate more than his share and justified it as payment for the labor he gave his father.
 
-He never married. A brief relationship with a young woman named Scenon began when he was thirty. He visited her hamlet under the excuse of exchanging a hide for grain, and he stayed late enough that people noticed. Scenon's family demanded a clear arrangement and bridewealth. Skeron argued about the cost, and Pleuron did not press the matter. The visits stopped after one cold season, and the talk faded.
+When he was thirty, he began visiting a young woman named Scenon in a nearby hamlet, under the excuse of exchanging a hide for grain. He stayed late enough that people noticed. Scenon's family demanded a clear arrangement and bridewealth. Skeron argued about the cost, and Pleuron found he did not want to fight for it. The household he knew—the routines, the animals, the space by the hearth where his tools hung—held him more than the idea of building something new. The visits stopped after one cold season, and the talk faded. He never married.
 
-At thirty-three, during late autumn pig-mast, he drove pigs into the oak woods and tied off two young animals at the edge of an enclosure while he checked the rest. When he returned, the tethers had been cut and the pigs were gone. He tracked footprints to the edge of a neighboring territory and then stopped, because crossing further meant a fight he could not win alone. Elders heard the dispute. Verzo, an older mediator, listened and demanded compensation. The other side denied it and offered nothing. Pleuron carried the loss as a private score and tightened his watch thereafter, sleeping light during mast season.
+At thirty-three, during late autumn pig-mast, he drove pigs into the oak woods and tied off two young animals at the edge of an enclosure while he checked the rest. When he returned, the tethers had been cut and the pigs were gone. He tracked footprints to the edge of a neighboring territory and then stopped, because crossing further meant a fight he could not win alone. Elders heard the dispute. An older mediator listened and demanded compensation. The other side denied it and offered nothing. Pleuron carried the loss as a private score and tightened his watch thereafter, sleeping light during mast season.
 
-In midlife he dealt with a changing toolkit. Iron became easier to find through people like Bricus, the smith and trader who moved between settlements with news and metal. Pleuron bought iron nails and an axe head with a bundle of hides and grain, and he inspected the edge every time he used it. He disliked waste. He corrected younger men when they left tools in wet grass.
+Trade routes through the region had grown busier over his lifetime, bringing more iron and more demands from local leaders who wanted contributions for feasts and retinues. Bricus, a smith and trader who moved between settlements, came through every year or two with news and metal. Pleuron bought iron nails and an axe head with a bundle of hides and grain, and he inspected the edge every time he used it. He corrected younger men when they left tools in wet grass.
 
 At forty-one he climbed a slope to fell a beech for roof repair. The cut went wrong. The trunk shifted and pinned his lower leg. Men levered it off with poles, and he was carried home on a rough stretcher. The injury healed slowly. He walked with stiffness afterward, and he stopped taking the heaviest loads. He planned more, directed more, and grew impatient with anyone who ignored his instructions.
 
 His mother Arban died when Pleuron was forty-two, worn down after years of grinding and carrying and watching children die. His father Skeron followed nine years later, at fifty-one. Pleuron helped wash the body and carry it to the burial place, then returned to the yard-house where the old man had corrected him as a boy.
 
-Deaths thinned his generation. His younger brother Kentor died at fifty-two, leaving children who looked to their mother and uncles. His youngest sister Lator, married into another hamlet, died at fifty. Pleuron began spending more nights in a small dwelling space by the edge of the family yard rather than crowded under the main roof. He liked the quiet, and he liked arranging his tools where no one moved them.
+By his mid-fifties, Pleuron began spending more nights in a small dwelling space by the edge of the family yard rather than crowded under the main roof. He liked the quiet, and he liked arranging his tools where no one moved them.
 
-When he was fifty-eight, Varis began failing after repeated winter illnesses. Her joints swelled and her strength dropped. Pleuron took primary responsibility. He fetched water and fuelwood, kept her bedding dry, and arranged help when he had to be away for herding. He brought her soft foods—porridge with fat, broth, curds—and sat with her at midday, talking about small things: whether the pigs had found good mast, whether Bricus had come through with new iron, whether the neighbors had repaired their fence. Varis scolded him even then, annoyed by his stubborn insistence on doing chores in a certain order. He listened and did it anyway.
+At fifty-six, Varis began failing after repeated winter illnesses. Her joints swelled and her strength dropped. Pleuron took primary responsibility. He fetched water and fuelwood, kept her bedding dry, and arranged help when he had to be away for herding. He brought her soft foods—porridge with fat, broth, curds—and sat with her at midday, talking about small things: whether the pigs had found good mast, whether Bricus had come through with new iron, whether the neighbors had repaired their fence. Varis scolded him even then, annoyed by his stubborn insistence on doing chores in a certain order. He listened and did it anyway. She died two years later, after a long decline, and he oversaw the washing and wrapping.
 
-Varis died when Pleuron was fifty-eight plus two years, after a long decline, and he oversaw the washing and wrapping. He did not have a wife or children to pull him back into another center. He kept ties with nieces and nephews, joined work-bees, and took part in grove feasts. He liked roasted pork skin when it was crisp, and he liked late afternoon when the heat broke and the animals settled. He also kept accounts of slights. He remembered who had refused compensation for the pigs decades earlier.
+A year after Varis, his younger brother Kentor died at fifty-two, leaving children who looked to their mother and uncles. Three years later, his youngest sister Lator, married into another hamlet, died at fifty. Pleuron did not have a wife or children to pull him back into another center. He kept ties with nieces and nephews, joined work-bees, and took part in grove feasts. He liked roasted pork skin when it was crisp, and he liked late afternoon when the heat broke and the animals settled. He also kept accounts of slights. He remembered who had refused compensation for the pigs decades earlier.
 
-Old age came as narrowing strength. He remained in his solitary dwelling, close enough to hear voices from the main yard, far enough to keep control over his space. In his seventy-sixth year, after a season of cold mornings and short days, he stopped rising before dawn. He died at home during a period of frailty and exhaustion.
+The years after Lator's death were quieter. He gave up driving pigs by sixty-five, handing that work to nephews who sometimes did it wrong and sometimes did it right. He still attended grove feasts and gave advice on pasture boundaries that younger men sometimes ignored. By seventy he walked slowly and rested often. He remained in his solitary dwelling, close enough to hear voices from the main yard, far enough to keep control over his space. In his seventy-sixth year, after a season of cold mornings and short days, he stopped rising before dawn. He died at home during a period of frailty and exhaustion.
 
 His family prepared his body, bound it in cloth and hide, and carried him to the burial place near the grove. They poured beer onto the ground, left a piece of meat and a simple iron knife beside him, and covered him with earth.
+
+---
+
+**Review completed: All 14 passes**
+
+**Issues found:**
+- [Pass 1] Timeline gap from ages 63-75 not well bridged; chronology of sibling deaths out of order (Kentor/Lator deaths placed before Varis caregiving)
+- [Pass 3] Kentor and Lator not introduced in childhood, appearing only at their deaths
+- [Pass 4] Verzo named but only appears once - unnecessary naming
+- [Pass 6] "He remembered names and faces" implies future revenge that never pays off; Scenon relationship ending vaguely explained
+- [Pass 9] "More death came" vague opener; "not because he believed in abstract things" vague
+- [Pass 11] Hallstatt exchange networks mentioned in debug but not reflected in narrative
+- [Pass 12] "stem family" jargon
+- [Pass 13] "rhythm of diminishing capacity" AI-slop; "feud cycle" slightly abstract; "He carried the tension back" figurative
+- [Pass 14] Weak opener on iron tools paragraph; redundant "He visited her hamlet"; confusing "Deaths thinned his generation in the years that followed"
+
+**Changes made:**
+- Added bridging for ages 63-75 (gave up driving pigs by 65, walked slowly by 70)
+- Reordered chronology: Varis caregiving now comes before Kentor/Lator deaths
+- Fixed Varis death timing (she died at 58, not 60)
+- Added Delmon, Kentor, and Lator introduction in childhood paragraph with Varis
+- Removed Verzo's name, now just "an older mediator"
+- Removed "He remembered names and faces" (unpaid setup)
+- Added explanation for why Pleuron didn't pursue Scenon relationship
+- Removed "More death came" opener
+- Simplified Monun ritual sentence to remove vague "abstract things"
+- Added context about increasing trade routes and demands from local leaders (Hallstatt context)
+- Replaced "stem family" with "Three generations lived under the same roof"
+- Replaced "rhythm of diminishing capacity" with "were quieter"
+- Replaced "feud cycle struck close" with "raiding struck close"
+- Removed "The watchfulness stayed with him" bridge
+- Rewrote iron tools paragraph opener
+- Fixed Scenon paragraph to remove redundancy and move "never married" to end
+- Clarified sibling deaths sequence: "A year after Varis" instead of "the years that followed"

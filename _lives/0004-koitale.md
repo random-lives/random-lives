@@ -412,6 +412,8 @@ As a small boy he stayed near the houses, watching calves and goats and shouting
 
 Rainy seasons brought fever. Dry seasons brought long walks to wells. When Koitale was six, Namunyak died, and he stopped sleeping well. He startled at shouts from the cattle pen and ran outside with a club before anyone else was moving. Naitoki took him back into the house and pressed a hand on his chest until his breathing slowed. After that he stayed close to the gate at dusk and watched the bush line, even when others sat and ate.
 
+The years that followed brought lean seasons. Cattle sickened and some died. The family moved more often between grazing and wells. Koitale fetched water and helped drive calves, but he forgot instructions, lost count of animals, and blamed others when things went wrong. Sankale stopped trusting him with anything that mattered.
+
 By his early teens he moved with older boys to the grazing. He spoke Maa at home, but he also spoke in the tongues of neighboring cultivators, learned at exchange points where milk, hides, and iron moved for grain. He liked those days: noise, argument, small jokes, singing while waiting. He liked roasted meat when a goat was slaughtered and the first fat dripped, and he liked the quiet after, when men sat chewing and spitting and telling old raid stories. He also began to drink more than a boy should. Fermented honey drink and grain beer came out at gatherings. He drank fast, then lied about how much he had taken. When the adults turned away, he reached for the calabash again.
 
 At sixteen, in 1685, Koitale entered the circle of young men who did patrol and escort work with their age-mates. They moved in groups, carrying spears and clubs, scanning for tracks near water, walking the edges of grazing. He enjoyed the closeness of it. Lepurko, an age-mate with a quick tongue, liked Koitale’s jokes when Koitale was sober. When Koitale was drunk, Lepurko shoved him hard and told him to keep his mouth shut.
@@ -420,14 +422,40 @@ Two years later, in 1687, raiders struck a settlement tied to Koitale's family. 
 
 In 1688, a skirmish broke out during an attempted cattle theft at a watering place. Koitale ran with others to push the animals back toward the thorn fence. A club hit him on the shoulder. A spear point sliced his side as he turned. He did not fall, but blood soaked his leather and dust stuck to it. The cut healed. The scar stayed, and the pain returned when he carried loads or walked too long. He complained about it, then drank. When elders assigned him a morning duty, he arrived late and argued. Sankale faced him in the cattle pen and struck him with a switch, not hard enough to cripple him, hard enough to shame him in front of younger boys.
 
-Koitale did not marry. He had no cattle of his own to offer and he wasted what he could have saved. He talked too much, promised too easily, and took offense fast. Still, he remained inside the circle of ordinary respect: he kept patrols, he showed up when alarms sounded, and he moved with the herds when the grazing shifted. When he crossed exchange paths with Mtemi, a Bantu-speaking guide, he tried to bargain on his own and miscounted what he owed. Mtemi laughed and corrected him, and Koitale pretended it had been a joke.
+Koitale did not marry. What cattle he earned through patrols, he traded for drink or lost in bad bargains. He talked too much, promised too easily, and took offense fast. Still, he remained inside the circle of ordinary respect: he kept patrols, he showed up when alarms sounded, and he moved with the herds when the grazing shifted.
 
-In 1689, a raid killed one of Naitoki's brothers, leaving two small children without a father. Their mother's family took them in, and Koitale went to stay at the household of Nkoluai, his maternal uncle, to help. The arrangement was spoken of as temporary. It stretched into years. Koitale walked with the children when the cattle moved, lifted one when the brush tore at the child’s feet, and shouted at older boys who tried to steal their food. He did not nurse them or bathe them; women did that. His work was protection, herding help, and the hard arguing when someone claimed a calf or a gourd did not belong to them. Naserian checked on the children and on Koitale, and she fought with him when he came back smelling of drink.
+In 1689, a raid killed one of Naitoki's brothers, leaving two small children without a father: a boy named Olekina, maybe four years old, and a girl named Sonyanga, still nursing. Their mother took them to the household of Nkoluai, another of Naitoki's brothers, and Koitale went to help. The arrangement was spoken of as temporary. It stretched into years. Koitale walked with the children when the cattle moved, lifted Olekina when the brush tore at his feet, and shouted at older boys who tried to steal their food. He did not nurse them or bathe them; women did that. His work was protection, herding help, and the hard arguing when someone claimed a calf or a gourd did not belong to them. Naserian checked on the children and on Koitale, and she fought with him when he came back smelling of drink.
 
-In 1690, at a grain-for-milk exchange, Koitale met Naisula, an unmarried young woman from the neighboring community. He returned to the same place twice more, and then he found reasons to pass near her settlement when his group moved grazing. They slept together before any bridewealth was offered. He spoke of cattle he did not have and boasted about raids he had not joined. When she asked for steady help, he brought small gifts—beads, a strip of hide, a piece of iron—then disappeared for weeks on patrol.
+In 1690, at a grain-for-milk exchange, Koitale met Naisula, an unmarried young woman from one of the Bantu-speaking farming settlements nearby. He returned to the same place twice more, and then he found reasons to pass near her settlement when his group moved grazing. They slept together before any bridewealth was offered. He spoke of cattle he did not have and boasted about raids he had not joined. When she asked for steady help, he brought small gifts—beads, a strip of hide, a piece of iron—then disappeared for weeks on patrol.
 
-A boy, Senteu, was born in 1691 and died within hours. Koitale went to see the child, then went away. That night he drank until he could not stand. Lepurko held him up by the elbow, angry and still steadying him. Koitale picked a fight with a man who laughed at him and had to be dragged off before spears came out.
+A boy, Senteu, was born in 1691. The birth came hard, and the child never breathed well. He died before the sun set. Koitale went to see the child, then went away. He did not go back to Naisula. That night he drank until he could not stand. Lepurko held him up by the elbow, angry and still steadying him. Koitale picked a fight with a man who laughed at him and had to be dragged off before spears came out.
 
 Later in 1691, on a retaliatory raid near a watering place, Koitale helped corner an armed opponent. The fight came close and fast. Koitale drove his spear into the man’s body and pulled it free, then ran with the others, pushing a small number of cattle ahead of them. Back at camp, elders spoke blessings, and Pajeshi, an older ritual authority, cleansed the group with milk and ash. Koitale did not sleep. He drank again, and he started at every sound beyond the thorn fence.
 
-He stayed with Nkoluai's household into 1693, still helping with the orphaned children, still on patrols. On March 25, 1693, another raid turned into a running fight. Koitale took a wound from a spear and fell before his age-mates could pull him back behind cover. They carried his body to the edge of the settlement and laid it in the bush for scavengers, as was done for young men who died away from home. Elders spoke a short blessing to Enkai and poured a little milk onto the ground.
+He stayed with Nkoluai's household into 1693, still helping with Olekina and Sonyanga, still on patrols. Olekina had grown enough to help with the calves. Sonyanga followed Koitale when he walked to water and cried when he left on patrol. He visited his parents less often. Naitoki sent word through Naserian: come home, stop drinking, find a wife. He did not come.
+
+On March 25, 1693, another raid turned into a running fight. Koitale took a wound from a spear and fell before his age-mates could pull him back behind cover. They carried his body to the edge of the settlement and laid it in the bush for scavengers, as was done for young men who died away from home. Elders spoke a short blessing to Enkai and poured a little milk onto the ground.
+
+<!--
+REVIEW LOG - 2026-01-16
+
+**Issues found:**
+- [Pass 1] Gap between ages 7-12 not bridged
+- [Pass 2] Orphaned children (Olekina, Sonyanga) not named
+- [Pass 4] Orphaned children disappear after introduction; Naisula relationship ends abruptly; parents disappear from narrative
+- [Pass 6] Son's death ("died within hours") too vague
+- [Pass 7] Mtemi incident disconnected from paragraph theme
+- [Pass 14] Unclear relationship between dead uncle and Nkoluai; Naisula's community unspecified; vague "wasted what he could have saved"
+
+**Changes made:**
+- Added bridging paragraph for ages 7-12 (lean seasons, Koitale's failures, father's distrust)
+- Named orphaned children Olekina and Sonyanga with ages
+- Added follow-up paragraph showing children growing, Sonyanga's attachment to Koitale
+- Added line showing Koitale never went back to Naisula
+- Added mother's message through Naserian at end
+- Expanded son's death: "The birth came hard, and the child never breathed well. He died before the sun set."
+- Removed Mtemi incident (disconnected)
+- Clarified Nkoluai as "another of Naitoki's brothers"
+- Specified Naisula from "one of the Bantu-speaking farming settlements nearby"
+- Changed "wasted what he could have saved" to "traded for drink or lost in bad bargains"
+-->

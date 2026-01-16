@@ -25,7 +25,11 @@
       "Bash(do grep \"^# father_occupation:\" /Users/damonbinder/Documents/RandomLivesWebsite/_lives/00$i-*.md)",
       "Skill(classify-lifestyles)",
       "Edit(_lives_pending/*)",
-      "Edit(_lives/*)"
+      "Edit(_lives/*)",
+      "Bash(bundle exec jekyll serve:*)",
+      "Bash(open:*)",
+      "Skill(push)",
+      "Skill(push:*)"
     ],
     "deny": []
   }

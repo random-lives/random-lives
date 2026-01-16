@@ -365,7 +365,7 @@ continent: "Asia"
 #   type: chronic_illness
 ---
 
-Kandan was born on October 6, 440, in a farming village on the flat lands of the Kaveri delta. The people around him spoke the local southern Dravidian tongue of Tamilakam, and the village lived under shifting overlords and chiefs who drew grain and labor from tenants through collectors and headmen. His household kept a Brahmanical routine: lamps lit at dawn, water sprinkled at the threshold, and offerings carried to a nearby Shaiva shrine when the calendar demanded it.
+Kandan was born on October 6, 440, in a farming village on the flat lands of the Kaveri delta. The people around him spoke the local southern Dravidian tongue of Tamilakam. The old Chola kings had faded, and the village lived under shifting overlords—local chiefs and distant Pallava rulers to the north—who drew grain and labor from tenants through collectors and headmen. His household kept a Brahmanical routine: lamps lit at dawn, water sprinkled at the threshold, and offerings carried to a nearby Shaiva shrine when the calendar demanded it.
 
 He entered a joint compound where elders watched everything. His father, Sattan, worked tenant fields and kept track of dues by memory and by marks in the dirt. His mother, Nangai, ran the cooking fires, pounded grain, fetched water, and went out to weed when the fields needed hands. In the same enclosure lived his paternal grandfather, Periyan, and grandmother, Valli. The oldest child, Velan, already carried bundles and stood in the flooded edges of the plots to pull weeds. Before Kandan could speak in full sentences, the family also carried the small body of a baby boy, Maruthan, born in 438 and dead the same year; the adults mentioned him when fever returned with the rains.
 
@@ -373,28 +373,58 @@ Kandan grew short and slim, with narrow shoulders, quick to startle when voices 
 
 Kannan was born in 444, and Kandan became the child who ran messages: to call Velan from the tank bund, to fetch a sickle, to carry cooked rice to men working far from the house. He avoided the loudest boys near the grazing ground and preferred the company of older relatives, listening instead of pushing into games. When he wanted quiet, he sat behind the granary, picking husks from spilled grain and watching ants.
 
-Periyan died in 468, after a season when fevers moved through the village. By then Kandan was helping in the heavier work: turning soil with a wooden plough, tossing manure into furrows, and guarding ripening grain against cattle. He learned the household’s temple routines by doing them. On fast days Nangai served thin gruel, and Kandan carried flowers, a pinch of rice, and a little ghee to the shrine. He watched the priest smear ash on foreheads and heard short phrases in a prestige speech he did not use at home. He did not become fluent in it; he learned some words and the sound of them, and he repeated them correctly when it mattered.
+By his tenth year, Kandan was helping in the heavier work: turning soil with a wooden plough, tossing manure into furrows, and guarding ripening grain against cattle. He learned the household's temple routines by doing them. On fast days Nangai served thin gruel, and Kandan carried flowers, a pinch of rice, and a little ghee to the shrine. He watched the priest smear ash on foreheads and heard short phrases in a prestige speech he did not use at home. He did not become fluent in it; he learned some words and the sound of them, and he repeated them correctly when it mattered.
 
 As an adolescent he drifted toward Tiruvan, a temple attendant who could read short lines and keep a ritual calendar. When Tiruvan had idle time, he pointed to letters scratched on a palm-leaf strip and said their sounds. Kandan learned to recognize names and a few basic words and to pick out numbers when grain was counted. He never learned to write more than a mark, but he could tell when someone was reading from a list and when they were guessing.
 
-Valli died in 479. Her death changed the balance in the compound. Nangai took firmer control inside the house, and Sattan leaned more on his sons for field decisions. Kandan’s questions about seed mixes and timing annoyed his elders, yet he kept asking them in a soft way that rarely triggered open anger. He took pride in small improvements: mixing ash into a patch of soil that had gone sour, or planting a few extra vegetables near the edge where the ground held moisture longer.
-
 Kandan married Selvi in 460. The match was arranged through family ties in nearby hamlets, and Selvi entered the compound with her own habits and a steady tolerance for hard days. Kandan treated her with careful politeness. He brought her water before she asked, and when Nangai corrected Selvi in front of others, Kandan smoothed it over later with a few quiet words and extra help at the grinding stone. He did not like quarrels that drew neighbors to the door.
 
-Their first son, Arivan, was born in 463. Kandan held the baby carefully and then returned to work; tenancy did not pause for births. Five years later Selvi delivered another boy, Nilan, and the infant died the same day. Nangai insisted on temple offerings and a vow for protection. Kandan carried a small pot of milk and a few bananas to the shrine, set them before the stone image, and then stood back while Tiruvan murmured the proper lines. After that, Kandan checked Arivan constantly when coughs started in the damp season, touching the child’s forehead and questioning Selvi about every stool and every shiver.
+Their first son, Arivan, was born in 463. Kandan held the baby carefully and then returned to work; tenancy did not pause for births. Five years later Selvi delivered another boy, Nilan, and the infant died the same day. That same fever season took Periyan. The grandfather had grown frail over years of heat and labor, and the illness finished him quickly. Nangai insisted on temple offerings and a vow for protection after the losses. Kandan carried a small pot of milk and a few bananas to the shrine, set them before the stone image, and then stood back while Tiruvan murmured the proper lines. After that, Kandan checked Arivan constantly when coughs started in the damp season, touching the child's forehead and questioning Selvi about every stool and every shiver.
+
+For the next seven years, the household held steady. Kandan asked questions about seed varieties and soil mixes that annoyed his elders, but he asked them softly enough to avoid open conflict. He mixed ash into a patch of soil that had gone sour and planted extra vegetables near the edge where the ground held moisture longer. These small improvements gave him satisfaction, though he never spoke of them as achievements.
 
 Velan died in 475, at thirty-nine. He had been the one who spoke directly to headmen without stumbling. Without him, Sattan relied on Kandan to handle words as well as labor. Kandan spoke deferentially to collectors and smiled when they spoke sharply. He listened for their moods and offered small gifts when it bought patience: a measure of oil, a bundle of greens, a chicken when he could spare it.
 
-Bad rains arrived in 479, then again in 480 and 481. Grain shrank in the store jars. Seed had to be borrowed, and the borrowing came with strings. In 480, Kandan pledged future labor and a share of coming harvests to keep access to land and seed. It bound the household to a creditor and to the creditor’s overseer, Udayan, who counted and recounted dues with a hard face.
+Bad rains arrived in 479. That same year Valli died, the grandmother who had given Kandan jaggery and told him the names of trees. The rains failed again in 480 and 481. Grain shrank in the store jars. Seed had to be borrowed, and the borrowing came with strings. In 480, Kandan pledged future labor and a share of coming harvests to keep access to land and seed. It bound the household to a creditor and to the creditor’s overseer, Udayan, who counted and recounted dues with a hard face.
 
 Kandan kept his public manner mild. At home he grew secretive. In 482, during measurement, he slid a small portion of grain aside before the landlord’s share was set. He did it with steady hands and a calm voice, chatting with Namban, the collector’s assistant, as if nothing unusual happened. Later that year, when fodder ran short, he cut bundles from the boundary grove of Vannan, a better-off cultivator. He went at night with Kannan and kept his steps quiet. In daylight he greeted Vannan warmly and asked after his children.
 
-The pressure did not ease. In 485, at forty-five, Kandan argued at the edge of an irrigated plot about water-turn order and arrears. He tried to end it by yielding part of his turn, but Udayan’s men wanted a show of force. They struck him with a staff and kicked him down in the mud. He returned home bruised, moving stiffly, angry but careful not to let that anger spill into the village where it could cost him what little he still controlled.
+Sattan died in 484. He had been the one who remembered which collector could be delayed and which would send men if payment came late. After the cremation, Kandan found himself standing before Udayan's agents with no one behind him.
 
-Sattan died in 484, and Kandan now carried the full weight of negotiation. Arivan was old enough to work hard in the fields, and Kandan pushed him into it early, watching him constantly and snapping at mistakes. He corrected himself quickly afterward, bringing Arivan a handful of roasted gram or letting him rest a few extra minutes in the shade of a neem. Selvi watched these swings in silence and then asked questions at night: what was owed, to whom, and how long.
+The pressure did not ease. In 485 Kandan argued at the edge of an irrigated plot about water-turn order and arrears. He tried to end it by yielding part of his turn, but Udayan's men wanted a show of force. They struck him with a staff and kicked him down in the mud. He returned home bruised, moving stiffly, angry but careful not to let that anger spill into the village where it could cost him what little he still controlled.
 
-From 487 onward, Kandan’s body began to fail. Each rainy season brought fevers that lasted for weeks. He sweated, shivered, and then rose too early, afraid of falling behind. When he could not lift bundles, he directed work from the edge of the field, pointing with a stick and calling in a low voice. Kannan carried more of the load and complained once, then stopped; the household could not afford a rupture. In 492, Nangai died, and the women’s order in the compound rearranged. Selvi took over many tasks at once, and Kandan, ill and worried, spent more time away from the center of the household, sleeping in a small shed nearer the fields so his coughing and restlessness did not keep others awake.
+By then Arivan was twenty-two and strong enough to work full days. Kandan pushed him hard, watching him constantly and snapping at mistakes. He corrected himself quickly afterward, bringing Arivan a handful of roasted gram or letting him rest a few extra minutes in the shade of a neem. Selvi watched these swings in silence and then asked questions at night: what was owed, to whom, and how long.
 
-That temporary separation hardened into a pattern. Debt and illness pulled him out of the joint rhythm; some nights he stayed at a patron’s outbuilding to be close when labor was demanded at dawn, and some days he lay alone in the field shed because he did not want his weakness displayed.
+From 487 onward, Kandan’s body began to fail. Each rainy season brought fevers that lasted for weeks. He sweated, shivered, and then rose too early, afraid of falling behind. When he could not lift bundles, he directed work from the edge of the field, pointing with a stick and calling in a low voice. Kannan carried more of the load and complained once, then stopped; the household could not afford a rupture. In 492 Nangai died, and Selvi took over the cooking fires and the water hauling. Kandan, ill and worried, spent more time away from the center of the household, sleeping in a small shed nearer the fields so his coughing and restlessness did not keep others awake.
+
+That temporary separation hardened into a pattern. Debt and illness pulled him away from the household; some nights he stayed at a patron's outbuilding to be close when labor was demanded at dawn, and some days he lay alone in the field shed because he did not want his weakness seen.
 
 In late October of 494, an acute fever took him quickly. Selvi and Arivan brought water and thin gruel; Tiruvan came with ash and a lamp. Kandan died on November 1, 494. His family marked his body with ash and carried it beyond the village for cremation, placing rice and flowers beside the fire before they left him to burn.
+
+<!--
+REVIEW LOG
+
+**Issues found:**
+- [Pass 4] Valli's death (479) not mentioned despite being an important childhood figure
+- [Pass 8] Chronology error: Sattan's death (484) mentioned after beating in 485
+- [Pass 8] Redundant year + age: "In 485, at forty-five"
+- [Pass 10] "women's order in the compound rearranged" was vague/abstract
+- [Pass 11] Opening paragraph lacked specific historical context for the era
+- [Pass 12] "joint rhythm" was jargon-y
+- [Pass 13] "rhythms of planting" was borderline AI-slop
+- [Pass 14] Sattan death paragraph was too short/abrupt
+- [Pass 14] Arivan paragraph lacked temporal grounding
+- [Pass 14] Bridge paragraph (468-475) felt flat
+
+**Changes made:**
+- Added Valli's death in 479 with callback to childhood relationship
+- Moved Sattan's death before the 485 beating to fix chronology
+- Removed redundant age marker "at forty-five"
+- Changed "women's order rearranged" to concrete detail about cooking fires and water hauling
+- Added historical context: "The old Chola kings had faded" and "distant Pallava rulers to the north"
+- Changed "joint rhythm" to "the household"
+- Simplified "rhythms of planting, harvest" to just "planting, harvest"
+- Expanded Sattan death paragraph with concrete detail about what knowledge was lost
+- Added "By then Arivan was twenty-two" for temporal grounding
+- Rewrote bridge paragraph to be more concrete about Kandan's character and improvements
+-->

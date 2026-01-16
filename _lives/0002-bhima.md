@@ -117,7 +117,7 @@ continent: "Asia"
 #       he is sick or overwhelmed.
 #     role: mother
 #   - death_year: 989
-#     name: Dhola
+#     name: Dholang
 #     narrative_role: Elder voice in the extended patrilocal household; teaches boundary
 #       lore and burning/clearing timing, praises Bhima's quick mind but scolds his inattention.
 #     role: paternal grandfather
@@ -168,7 +168,7 @@ continent: "Asia"
 #     key_events:
 #     - 'c. 982-989: Increasing talk of outsiders (headmen/intermediaries) asking for
 #       forest produce and occasional labor as agrarian edges expand.'
-#     - '989: Paternal grandfather Dhola dies; household authority shifts, father becomes
+#     - '989: Paternal grandfather Dholang dies; household authority shifts, father becomes
 #       stricter, Bhima feels less buffered.'
 #     - 'c. 991-992: Bhima starts doing more independent tasks (guarding burn lines,
 #       carrying, small trapping) but is inconsistent and forgetful, creating friction.'
@@ -184,7 +184,7 @@ continent: "Asia"
 #     phase: Young adult cultivator; illness begins
 #   - age_range: 23-29
 #     key_events:
-#     - '996: Marries Kanta; sets up a separate nuclear household on/near a small plot
+#     - '996: Marries Kantaben; sets up a separate nuclear household on/near a small plot
 #       while remaining tied to paternal kin.'
 #     - '998: Daughter Lakhya is born; Bhima is proud but anxious about provisioning.'
 #     - '1004: Son Raghu is born and dies shortly after; household performs intensified
@@ -193,24 +193,24 @@ continent: "Asia"
 #       be narrated later).'
 #     phase: Married life and nuclear household; conflict and decline
 #   other_named_characters:
-#   - name: Nathu
+#   - name: Nathuram
 #     prominence: Ages 23-24 (conflict peak), referenced afterward as a cautionary name
 #     relationship: Neighboring-hamlet man involved in the plot dispute; one of the
 #       assailants or instigators
-#   - name: Jiva
+#   - name: Jivram
 #     prominence: Ages 19-28 (monsoon seasons), again around 1004
 #     relationship: Local ritual specialist/healer consulted for fevers and infant-loss
 #       propitiation
-#   - name: Manga
+#   - name: Mangat
 #     prominence: Ages 15-29 (intermittent), often the one criticizing Bhima’s inconsistency
 #     relationship: Older kinsman/field companion who sometimes supervises work parties
-#   - name: Kalu
+#   - name: Kaluram
 #     prominence: Ages 10-29 (background pressure), appears when obligations/taxes/corvee
 #       are discussed
 #     relationship: Headman/intermediary figure who conveys outside demands for labor/forest
 #       produce
 #   partners:
-#   - name: Kanta
+#   - name: Kantaben
 #     narrative_role: Wife from a nearby hamlet; the marriage is practical and sometimes
 #       strained by Bhima's moodiness and unreliable work rhythm, but she is loyal and
 #       becomes the competent manager of the small nuclear household.
@@ -314,32 +314,61 @@ Bhima was born on December 26, 975, in the forested hills east of the coastal pl
 
 He arrived as the fourth child, after death had already shaped the household. His sister Moti died at three before he could remember her; the story was fixed in the family as a monsoon illness that took her quickly. His brother Balu lived only into 976, small and feverish. Their eldest sister Rupa, born in 971, grew up with the knowledge that she had outlasted the others. When Bhima was a toddler she carried him on her hip as she fetched water and firewood, scolding him sharply when he grabbed at her hair, then laughing when he copied her words in his soft child voice.
 
-The household was an extended one, centered on Bhima’s father Khema and his parents, Dhola and Hira. Khema cleared patches at the forest edge and burned them at the right time, working with other men to keep fire from running into the wrong grove. He expected a son to watch, to learn, then to do. Bhima watched but did not keep his eyes where Khema wanted them. He followed ants across the ash, pulled apart seed pods, and asked why one tree leaf stayed green longer than another. When Khema sent him to bring a stone adze or a coil of rope, Bhima brought the wrong one and tried to talk his way out of it. Hira stepped between them more than once. She had a hard manner but she kept her hand light on Bhima’s shoulders and fed him first when there was thin porridge.
+The household included three generations: Bhima's father Khema and his parents, Dholang and Hira. Bhima's mother Soma moved through the compound with anxious care, checking the children for fever and watching the sky for signs of storms. She was the first to notice when Bhima grew quiet and the last to let him out of her sight after illness passed through the hamlet. Khema cleared patches at the forest edge and burned them at the right time, working with other men to keep fire from running into the wrong grove. He expected a son to watch, to learn, then to do. Bhima watched but did not keep his eyes where Khema wanted them. He followed ants across the ash, pulled apart seed pods, and asked why one tree leaf stayed green longer than another. When Khema sent him to bring an iron axe or a coil of rope, Bhima brought the wrong one and tried to talk his way out of it. Soma stepped between them when Khema's voice rose. Hira had a hard manner but she kept her hand light on Bhima's shoulders and fed him first when there was thin porridge.
 
 At five he began to go with the adults to the fields and the streams. Monsoon seasons came heavy. People spoke about fever as if it traveled in the air over low water. When someone in the hamlet shook with chills, Hira set out a small leaf plate with rice, salt, and a splash of liquor at the base of a tree near the edge of the clearing. She named ancestors in a low voice, then the local spirit of the place, and brushed Bhima’s forehead with neem leaves. Bhima watched every motion and later repeated it behind the house, with pebbles and a torn leaf, arranging and rearranging until Rupa found him and teased him for “feeding stones.”
 
-The 980s brought more outsiders along the paths. Men like Kalu, a headman who dealt with lowland traders and tax collectors, came to speak with Dhola and Khema about bamboo, timber, and bundles of leaves. Sometimes they asked for hands to carry loads or to clear a path. Bhima kept away from the talk; he sat at the edge of the group and picked at a strip of bark, listening. Dhola noticed this and, when he was in a patient mood, pulled Bhima close and pointed out how boundaries worked—where one hamlet’s clearing ended, where another’s began, and which trees were treated as markers. Bhima learned quickly when he cared to.
+The 980s brought more outsiders along the paths. Men like Kaluram, a headman who dealt with lowland traders and tax collectors, came to speak with Dholang and Khema about bamboo, timber, and bundles of leaves. Sometimes they asked for hands to carry loads or to clear a path. Bhima kept away from the talk; he sat at the edge of the group and picked at a strip of bark, listening. Dholang noticed this and, when he was in a patient mood, pulled Bhima close and pointed out how boundaries worked—where one hamlet’s clearing ended, where another’s began, and which trees were treated as markers. Bhima learned quickly when he cared to.
 
-Dhola died in 989. The funeral brought relatives from nearby hamlets; there was rice beer and meat, and the elders spoke the lineage names over the body. Afterward Khema spoke more and listened less. Bhima felt the change. He avoided the loud evening gatherings and took paths into the forest to sit alone on a flat rock above a stream, where he could hear water and watch light shift through the canopy. He liked the clean feeling of early morning, when smoke from cooking fires rose straight and the ground still held night coolness. He liked stories with trickster turns, too, and laughed quietly when Rupa described a man from another hamlet who bragged about his hunt and returned with nothing but a scuffed knee.
+Dholang died in 989. The funeral brought relatives from nearby hamlets; there was rice beer and meat, and the elders spoke the lineage names over the body. Afterward Khema spoke more and listened less. Bhima felt the change. He avoided the loud evening gatherings and took paths into the forest to sit alone on a flat rock above a stream, where he could hear water and watch light shift through the canopy. Only with Rupa did he relax. She told stories about people from other hamlets, exaggerating their foolishness until Bhima laughed.
 
-Khema pushed him into heavier work by his mid-teens: cutting, clearing, carrying, guarding burn lines. Bhima could plan a route through thick growth and return faster than older boys, and he remembered where certain tubers grew after a fire. He also left tasks half-done. He forgot to mend an edge fence and goats got in. He delayed weeding until the field looked rough, then worked in frantic bursts, sweating and irritated when his hands cramped. Khema shouted at him, and Bhima answered back in a quick voice, then fell silent for days, moving through the house with his head lowered and his jaw tight.
+Khema pushed him into heavier work by his mid-teens: cutting, clearing, carrying, guarding burn lines. Bhima could plan a route through thick growth and return faster than older boys, and he remembered where certain tubers grew after a fire. He also left tasks half-done. He forgot to mend an edge fence and goats got in. He delayed weeding until the field looked rough, then worked in frantic bursts, sweating and irritated when his hands cramped. An older kinsman named Mangat supervised work parties during the burning seasons and made a habit of calling out Bhima's lapses in front of others. Khema shouted at him, and Bhima answered back in a quick voice, then fell silent for days, moving through the house with his head lowered and his jaw tight.
 
-At nineteen, in the monsoon of 994, Bhima’s first serious fevers came. He shook hard enough that Hira and Rupa had to hold him to keep him from sliding off the sleeping mat. After the sweating broke, he stood up thin and unsteady and tried to go out anyway, and Khema stopped him by grabbing his arm. The fevers returned the next rains, and the next. Between episodes he worked, but he tired sooner than other men. He grew wary of streamside tasks and then did them anyway, because the fields needed water and the forest edge needed tending. A healer named Jiva was called more than once. Jiva sang to the drum and used smoke from burning leaves; he marked Bhima’s skin with ash and spoke the names of spirits that lived at crossings and water.
+In the monsoon of 994 Bhima's first serious fevers came. He shook hard enough that Hira and Rupa had to hold him to keep him from sliding off the sleeping mat. After the sweating broke, he stood up thin and unsteady and tried to go out anyway, and Khema stopped him by grabbing his arm. The fevers returned the next rains, and the next. Between episodes he worked, but he tired sooner than other men. He grew wary of streamside tasks and then did them anyway, because the fields needed water and the forest edge needed tending. A healer named Jivram was called more than once. Jivram sang to the drum and used smoke from burning leaves; he marked Bhima’s skin with ash and spoke the names of spirits that lived at crossings and water.
 
-Hira died in 995. Bhima had leaned on her sharp comfort more than he admitted. After her death he became faster to anger and faster to fear. He lay awake during heavy rains, listening for the sound of wind and water, counting his breath, then getting up to check the roof lashings even when nothing had shifted.
+Hira died in 995. She had been the one who fed him first and stood between him and his father's anger. Without her, Soma had no buffer between her husband and son. She hovered more, checking on Bhima with the same watchful worry she had shown when he was small. After Hira's death Bhima became faster to anger and faster to fear. He lay awake during heavy rains, listening for the sound of wind and water, counting his breath, then getting up to check the roof lashings even when nothing had shifted.
 
-He married Kanta in 996. She came from a nearby hamlet and arrived with a small bundle of household things and a steady way of watching people before she spoke. Khema helped Bhima secure a small plot near the forest edge, and the new couple set up a separate hearth. Bhima liked the privacy at first. He could sit outside after supper and listen to insects and the distant calls of men crossing a stream. Kanta wanted clear routines—grain stored properly, tools kept in one place, weeds pulled before they went to seed. She confronted him when he drifted. Bhima answered with excuses and then with silence. They still worked together, and when his fevers hit, she brewed bitter decoctions and kept the child away from his sweat-soaked bedding.
+He married Kantaben in 996. The match was arranged through kinship ties between the hamlets; Kantaben's family knew Bhima's reputation for cleverness and overlooked the talk of his unreliability. She came from a nearby hamlet and arrived with a small bundle of household things and a steady way of watching people before she spoke. Khema helped Bhima secure a small plot near the forest edge, and the new couple set up a separate hearth. Bhima liked the privacy at first. He could sit outside after supper and listen to insects and the distant calls of men crossing a stream. Kantaben wanted clear routines—grain stored properly, tools kept in one place, weeds pulled before they went to seed. She confronted him when he drifted. Bhima answered with excuses and then with silence. They still worked together, and when his fevers hit, she brewed bitter decoctions and kept the child away from his sweat-soaked bedding.
 
-Early in the monsoon of 998, after their daughter Lakhya was born, Bhima began pushing harder on the boundary of his patch. Another hamlet’s men claimed that his clearing line had crept. Bhima argued, uneasy and stubborn, and did not gather allies for the dispute. In the first weeks of rains he walked to the contested edge and was met by a group led by Nathu. They hit him with sticks and fists, driving him down into wet leaf litter. Bhima crawled back with bruised ribs and swelling on one cheek. Kanta cleaned him and said little, but her face stayed hard for days. Bhima avoided the path near Nathu’s hamlet afterward, taking longer routes through denser growth.
+Early in the monsoon of 998, after their daughter Lakhya was born, Bhima began pushing harder on the boundary of his patch. Another hamlet's men claimed that his clearing line had crept. Bhima argued, uneasy and stubborn. He had never joined the loud councils where men built alliances, and Mangat still spoke poorly of his work habits to anyone who would listen. When the dispute came, Bhima had no one willing to stand with him. In the first weeks of rains he walked to the contested edge and was met by a group led by Nathuram. They hit him with sticks and fists, driving him down into wet leaf litter. Bhima crawled back with bruised ribs and swelling on one cheek. Kantaben cleaned him and said little, but her face stayed hard for days. Bhima avoided the path near Nathuram’s hamlet afterward, taking longer routes through denser growth.
 
-He loved Lakhya in short, intense ways. He held her on his forearm and pointed out birds and tracks in damp soil, speaking softly. When she cried at night he sometimes snapped, then took her outside and walked until she quieted. He did not like crowds, but he took her to a small shrine spot under a tree near the clearing, where stones marked the place of offerings. He set down rice and a few flowers, then poured a thin line of liquor onto the ground, naming his grandfather and grandmother and the spirit of the grove.
+He loved Lakhya in short, intense ways. He held her on his forearm and pointed out birds and tracks in damp soil, speaking softly. When she cried at night he sometimes snapped, then took her outside and walked until she quieted. He took her to a small shrine spot under a tree near the clearing, where stones marked the place of offerings. He set down rice and a few flowers, then poured a thin line of liquor onto the ground, naming his grandfather and grandmother and the spirit of the grove.
 
-The fevers kept returning each monsoon. They left him thin and easily exhausted, and Kanta began to treat their household as if it might stand without him. In 1001 Rupa died at thirty, and the loss cut away a thread that had held him to childhood. He did not speak much at her rites; he sat apart, rubbing his hands together and staring at the ground.
+The fevers kept returning each monsoon. They left him thin and easily exhausted, and Kantaben began to treat their household as if it might stand without him. Lakhya learned early to stay quiet when her father lay shaking on the mat.
 
-Khema died in 1003, worn down by years of clearing and burning. Bhima stood at the cremation and watched the flames take his father's body. Afterward he walked to the contested edge of his own plot and stood there until dark, saying nothing.
+In 1001 Rupa died at thirty. She had been the one who still teased him about feeding stones as a child, who brought news between the households and sometimes sent food when Kantaben was overwhelmed. He did not speak much at her rites; he sat apart, rubbing his hands together and staring at the ground.
 
-Their son Raghu was born in 1004 and lived only hours. Bhima and Kanta carried small offerings—grain, salt, and liquor—to the old place under the tree and asked for protection. Bhima grew jumpy afterward, quick to imagine signs in minor mishaps: a cracked pot, a sudden gust, a bird call at the wrong time. He tried to work harder, then collapsed into irritability when his body gave out.
+Khema died in 1003, worn down by years of clearing and burning. Bhima stood at the cremation and watched the flames take his father's body. Khema had helped him secure the small plot and had stood behind him, however grudgingly, when Bhima argued with other households. Now Bhima held the land alone. He walked to the contested edge of his plot and stood there until dark, saying nothing.
 
-In July of 1005 the rains were strong. Bhima went out to cut and drag a long bamboo pole from a wet slope above a stream, intending to use it for repairs. The ground was slick. His foot slid, and he fell hard against a cut stump and stones. He made it back to the house, bleeding and shaking. Infection followed quickly in the heat and damp. He was dead within days, at twenty-nine.
+Their son Raghu was born in 1004 and lived only hours. He came out weak and blue-lipped, and nothing Soma or the other women did could make him breathe strongly. Bhima and Kantaben carried small offerings—grain, salt, and liquor—to the old place under the tree and asked for protection. Bhima grew jumpy afterward, quick to imagine signs in minor mishaps: a cracked pot, a sudden gust, a bird call at the wrong time. He tried to work harder, then collapsed into irritability when his body gave out.
 
-Kanta and his family washed his body and laid it out near the clearing. They placed rice and a small cup of liquor beside him and spoke ancestor names before carrying him to a cremation spot used by the hamlet, where the fire was fed with dry wood brought down from higher ground.
+In July of 1005 the rains were strong. Bhima went out alone to cut and drag a long bamboo pole from a wet slope above a stream, intending to use it for repairs. The ground was slick. His foot slid, and he fell hard against a cut stump and stones. He made it back to the house, bleeding and shaking. Infection followed quickly in the heat and damp. He was dead within days, at twenty-nine.
+
+Kantaben and Soma washed his body and laid it out near the clearing. They placed rice and a small cup of liquor beside him and spoke ancestor names before carrying him to a cremation spot used by the hamlet, where the fire was fed with dry wood brought down from higher ground.
+
+<!--
+**Review date:** 2026-01-16
+
+**Issues found:**
+- [Pass 2] Mother Soma completely missing from narrative despite being key caretaker in debug data
+- [Pass 4] Manga (kinsman who criticizes Bhima) missing from narrative; Lakhya fades after birth
+- [Pass 5] Rupa's death used abstract "cut away a thread" claim; Khema's death aftermath unclear
+- [Pass 6] Physical assault lacked context for why Bhima had no allies; marriage lacked match-making context; Raghu's death cause vague; Bhima alone during accident unclear
+- [Pass 7] Rupa's death crammed into fever paragraph; Dhola paragraph had disconnected ending about trickster stories
+- [Pass 8] "At nineteen, in the monsoon of 994" - redundant age + year
+- [Pass 10] "Bhima had leaned on her sharp comfort more than he admitted" - abstract claim
+- [Pass 11] "stone adze" anachronistic for 10th century India
+- [Pass 12] Nearly all names CVCV pattern (14/15); "extended one" jargon
+
+**Changes made:**
+- Added Soma throughout: childhood caretaker, visiting after Hira's death, present at Raghu's birth, washing body at funeral
+- Added Manga calling out Bhima's lapses; added Lakhya staying quiet during fevers
+- Replaced abstract claims about Rupa's death with concrete details (teasing, news, food); added meaning to Khema walking to plot edge
+- Added context: Bhima never joined councils so had no allies; marriage arranged through kinship ties; Raghu "came out weak and blue-lipped"; Bhima went out "alone"
+- Separated Rupa's death into own paragraph; streamlined Dhola paragraph
+- Changed to "In the monsoon of 994" (removed redundant age)
+- Replaced abstract "leaned on her sharp comfort" with concrete "fed him first and stood between him and his father's anger"
+- Changed "stone adze" to "iron axe"
+- Changed names: Kalu→Kaluram, Nathu→Nathuram, Dhola→Dholang, Manga→Mangat, Jiva→Jivram, Kanta→Kantaben; replaced "extended one" with "three generations"
+- Fixed Soma's role after Hira's death (she's in the house, not visiting); removed awkward "He did not like crowds, but" from Lakhya paragraph
+-->

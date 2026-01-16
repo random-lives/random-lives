@@ -409,26 +409,69 @@ In 1193, Hari died at nineteen after a fever that left him confused and shaking.
 
 In 1194, when Anandi was sixteen, she married Deva. A year later, Champa died at nineteen. She had been healthy and then suddenly wasn't; her belly cramped, and she could not keep water. Anandi was now the only surviving child in her natal family.
 
-Deva was a cultivator from a village within a day's walk. The marriage brought her into a patrilocal courtyard where Deva’s kin watched her hands and her mouth. She rose before dawn, swept the yard, smeared the floor with wet cow-dung, and set the morning fire. She learned where the grain was stored and who had the key to the pot of ghee. Her own small pleasures were quiet ones: warm millet flatbread eaten beside the stove before others woke, and sitting on the edge of the threshing floor at dusk, rubbing chaff from her palms and letting the evening coolness settle.
+Deva was a cultivator from a village within a day's walk. She moved into Deva's family courtyard, where his kin watched her hands and her mouth. She rose before dawn, swept the yard, smeared the floor with wet cow-dung, and set the morning fire. She learned where the grain was stored and who had the key to the pot of ghee. Her own small pleasures were quiet ones: warm millet flatbread eaten beside the stove before others woke, and sitting on the edge of the threshing floor at dusk, rubbing chaff from her palms and letting the evening coolness settle.
 
-Deva worked the fields and expected obedience. The first time he beat her was in 1194 after she asked to visit her natal village for a day to see her mother. He hit her in the courtyard and then again by the cattle shed when she spoke back. His elder kinsman Biru told her afterward to keep her voice low and not pull trouble into the family. Anandi nodded, brought water, and set about cooking as if nothing had happened. She learned the pattern: a quarrel over grain stores, a comment from an elder, Deva’s hand or a stick, then an insistence that the matter stay inside the courtyard walls.
+Deva worked the fields and expected obedience. The first time he beat her was in 1194 after she asked to visit her natal village for a day to see her mother. He hit her in the courtyard and then again by the cattle shed when she spoke back. Deva's uncle Biru told her afterward to keep her voice low and not pull trouble into the family. Anandi nodded, brought water, and set about cooking as if nothing had happened. She learned the pattern: a quarrel over grain stores, a comment from an elder, Deva’s hand or a stick, then an insistence that the matter stay inside the courtyard walls.
 
-Her first child, Kamla, arrived in 1195. Anandi nursed her while grinding grain, shifting the child on her hip as she turned the stone. Kamla learned to toddle near the cattle and follow Anandi to the well. In 1199, Kamla died at four after days of diarrhea. Anandi washed the child, wrapped her, and watched the men carry her to the burning place. That night she placed a small mound of rice on a leaf near the ancestor corner, set a lamp beside it, and spoke the child’s name once in a low voice.
+Her first child, Kamla, arrived in 1195. Anandi nursed her while grinding grain, shifting the child on her hip as she turned the stone. Kamla learned to toddle near the cattle and follow Anandi to the well.
 
 In 1197 she bore a daughter, Lila, who died the day she was born. The midwife Sukhdei cleaned the blood from the floor and told Anandi to drink warm water with salt. Anandi did as she was told and returned to work as soon as she could stand.
 
-A son, Raghav, was born in 1198 and lived. Anandi's days filled with carrying him, feeding him, and keeping him from the cooking fire and the tethered ox. Another daughter, Saras, followed in 1200. She refused to short-measure when sharing seed with neighbors, even when Biru hinted that it would do no harm. Once, when a sickle went missing, she found it near the edge of the field and returned it at once rather than letting her household keep it. People asked her to hold small items—beads, a coin, a brass bangle—because she returned what was not hers.
+A son, Raghav, was born in 1198 and lived. In 1199, Kamla died at four after days of diarrhea. Anandi washed her, wrapped her, and watched the men carry her to the burning place. That night she placed a small mound of rice on a leaf near the ancestor corner, set a lamp beside it, and spoke the child's name once in a low voice.
 
-More births came. Ganga, born in 1202, died immediately. Champa was born in 1204 and lived; Anandi named her for her dead sister and spoke that sister's name more often after. In 1206 she gave birth to a daughter she called Gauri, again after the lost child in her natal family, and that baby died the same day.
+Another daughter, Saras, followed in 1200. Anandi's days filled with carrying children, feeding them, and keeping them from the cooking fire and the tethered ox. When neighbors came to borrow seed, she measured carefully and gave what was agreed—no more, no less. Biru once hinted she could short-measure a family who had cheated them at threshing time. She shook her head and gave the full amount. People noticed. They began asking her to hold small items—beads, a coin, a brass bangle—because she returned what was not hers.
 
-Between 1207 and 1209, Raghav grew into a strong youth and took on more plough work, and the household became clearly joint. When he reached marriageable age, a young wife came into the courtyard for him. Anandi now managed not only her own children but the new daughter-in-law's work. She taught the girl where the grinding stone sat level, how much water the stored grain could take before it spoiled, which neighbors returned borrowed tools and which did not. The girl moved slowly and sometimes left tasks half-done. Anandi corrected her without harshness, repeating instructions until the patterns held. She preferred predictable routines. When a wandering healer offered a new herb paste for children's coughs, she refused it and used the same warmed oil and steam method Sona had used.
+In 1202, Anandi bore another daughter, Ganga, who died before she could nurse. Two years later came Champa, who lived. Anandi named her for her dead sister; when she called the child in from the courtyard, the old name came back into the air. In 1206 she gave birth to a daughter she called Gauri, after the sister who had died before Anandi was born. That baby died the same day. Anandi wrapped her and handed her to the men without speaking.
 
-Mohan, her youngest son, was born in 1208. That same year, word came that Jagan, her father, had died. Anandi's in-laws allowed her a brief visit to her natal village. She brought a small offering of rice and sesame, placed it at the ancestor corner in her childhood home, and spoke his name with the others Sona had taught her. Four years later, in 1212, Sona herself died. Again Anandi made the walk, again she placed offerings, and again she returned to her husband's household the same day.
+In 1207, when Anandi was twenty-nine, a wave of sickness moved through the villages after the rains. Deva fell ill with fever and diarrhea that did not stop. For weeks she boiled water, made thin rice gruel, cleaned soiled bedding, and carried his waste away from the well path. Nanda, an older neighbor woman, helped her fetch extra water and warned her not to let the children drink from shallow puddles. Anandi slept in brief stretches and kept the household's animals fed and tethered. Deva recovered, but the days left her exhausted and tighter in her movements.
 
-In 1207, a wave of sickness had moved through the villages after the rains. The next year, when Anandi was thirty, Deva fell ill with fever and diarrhea that did not stop. For weeks she boiled water, made thin rice gruel, cleaned soiled bedding, and carried his waste away from the well path. Nanda, an older neighbor woman, helped her fetch extra water and warned her not to let the children drink from shallow puddles. Anandi slept in brief stretches and kept the household's animals fed and tethered. Deva recovered, but the days left her exhausted and tighter in her movements.
+Mohan, her youngest son, was born in 1208. That same year, word came that Jagan, her father, had died. Anandi's in-laws allowed her a brief visit to her natal village. She brought a small offering of rice and sesame, placed it at the ancestor corner in her childhood home, and spoke his name with the others Sona had taught her.
 
-The beatings from Deva continued into her early thirties and ended only when Biru intervened after a public argument about grain stored for seed. Deva listened to Biru in ways he did not listen to Anandi. After that, Deva’s anger came out in hard words and withheld help rather than blows.
+By 1209, Raghav had grown into a strong youth and took on more plough work. When he reached marriageable age, a young wife named Rukmini came into the courtyard. Two married couples now shared the same cooking fire.
+
+Anandi managed not only her own children but Rukmini's work. She taught the girl where the grinding stone sat level, how much water the stored grain could take before it spoiled, which neighbors returned borrowed tools and which did not. Rukmini moved slowly and sometimes left tasks half-done. Anandi corrected her without harshness, repeating instructions until the patterns held. When a wandering healer offered a new herb paste for children's coughs, she refused it and used the same warmed oil and steam method Sona had used.
+
+The beatings from Deva continued into her early thirties and ended only when Biru intervened after a public argument about grain stored for seed. Deva listened to Biru in ways he did not listen to Anandi. After that, Deva's anger came out in hard words and withheld help rather than blows.
+
+In 1212, Sona died. Anandi made the walk to her natal village, placed offerings of rice and sesame at the ancestor corner, and returned to her husband's household the same day. She was now the last of Jagan and Sona's children.
+
+In 1213, Saras was married to a family in a village half a day's walk distant. Anandi saw her rarely after that—once a year if the rains cooperated, sometimes less. Champa and Mohan grew taller and took on more work. Rukmini bore a son. Anandi held her grandson in the afternoons while Rukmini ground grain, the same way she had once held Kamla.
 
 In late May of 1215, after a hot week, Anandi developed severe diarrhea. She drank water and vomited it back, then could not keep even thin gruel down. Nanda brought water boiled with salt and a little jaggery, and Sukhdei came and pressed her belly, muttering about heat and impurity. Anandi could not stand without swaying. She died on June 2, 1215, in the courtyard room where she slept with her children.
 
-Her husband's family washed her body, wrapped it in cloth, and carried it to the burning place outside the village. After the cremation, Deva’s household set out a simple offering—rice, sesame, and water—for her at the ancestor corner.
+Her husband's family washed her body, wrapped it in cloth, and carried it to the burning place outside the village. After the cremation, Deva's household set out a simple offering—rice, sesame, and water—for her at the ancestor corner.
+
+<!--
+**Review completed: January 2026**
+
+**Issues found:**
+- [Pass 1] Gap in coverage for ages 31-37 (1209-1215)
+- [Pass 1] Chronology out of order: paragraph about Deva's 1207 illness came after 1208-1212 events
+- [Pass 4] Raghav's wife unnamed
+- [Pass 6] Saras's marriage year unspecified
+- [Pass 7] Raghav/Saras paragraph mixed births with honesty trait material
+- [Pass 8] Kamla paragraph covered 1195-1199 then jumped back to Lila 1197
+- [Pass 12] "patrilocal courtyard" jargon; "joint" household jargon
+- [Pass 14] Biru's relationship unclear (just "elder kinsman")
+- [Pass 14] Kamla intro paragraph too short after reordering
+- [Pass 14] Honesty paragraph felt disconnected
+- [Pass 14] Rapid-fire births paragraph read like a list
+- [Pass 14] Rukmini paragraph had multiple topics
+- [Pass 14] Final years bridge felt procedural
+
+**Changes made:**
+- Added bridging content for 1212-1215: Saras's marriage, children growing, grandson born
+- Reordered Deva's illness paragraph to proper chronological position (1207)
+- Named Raghav's wife Rukmini
+- Specified Saras married in 1213
+- Split Raghav/Saras paragraph; integrated honesty content into Saras paragraph
+- Reordered children's births to flow chronologically (Kamla intro, Lila, Raghav, Kamla's death, Saras)
+- Replaced "patrilocal courtyard" with "Deva's family courtyard"
+- Replaced "joint" with "Two married couples now shared the same cooking fire"
+- Changed "His elder kinsman Biru" to "Deva's uncle Biru"
+- Restored Kamla toddler detail to her introduction paragraph
+- Rewrote honesty paragraph to connect to Saras paragraph and feel more organic
+- Expanded rapid-fire births paragraph with emotional detail and Anandi's reactions
+- Split Rukmini paragraph into two (household transition, then management/routines)
+- Improved final years paragraph to be more concrete and circular (grandson/Kamla)
+-->

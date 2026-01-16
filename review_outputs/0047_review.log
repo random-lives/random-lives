@@ -1,0 +1,29 @@
+The review is complete. Let me provide a summary of the changes made:
+
+## Review Summary for `_lives/0047-hadu.md` (Hadu)
+
+I completed all 14 passes of the review skill. Here are the key issues found and fixed:
+
+**Timeline & Chronology (Passes 1, 8, 14):**
+- Fixed Lami's illness timing from age 50 to age 48 (matching debug data)
+- Reordered Tima's death to correct chronological position (age 32, after Kesh's death)
+- Added a bridge paragraph covering the gap from late 30s to mid-40s
+- Reordered children paragraph to appear before the fight at age 28
+- Clarified the marriage flashback with "Marriage had come earlier"
+- Fixed Suli's birth from age 19 to age 18 to match debug data
+- Added Hadu's age to Suli's death paragraph for clarity
+
+**Event Connections (Pass 6):**
+- Added explicit connection between the Shurak feud and Hadu's later relocation
+
+**Paragraph Coherence (Pass 7):**
+- Split an overloaded paragraph (relocation + trade + deaths) into two focused paragraphs
+
+**Jargon & Naming (Pass 12):**
+- Replaced "affinal ties" with "where Lami had relatives"
+- Changed "Sena" → "Senat" and "Vanu" → "Vanu'a" to reduce CVCV name percentage from 56% to 44%
+
+**Flow Improvements (Pass 14):**
+- Minor flow improvements to the Rishan/Suli paragraph
+
+The story now has proper chronological flow, better paragraph organization, and clearer connections between events.

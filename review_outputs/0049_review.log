@@ -1,0 +1,17 @@
+I've completed the review of **0049-kiri.md** through all 14 passes. Here's a summary:
+
+## Review Summary
+
+This is a well-crafted Paleolithic infant story (168,147 BC, Nile Delta, lived 5 months). Most passes found no issues—the story was already quite clean.
+
+**Issues found and fixed:**
+
+| Pass | Issue | Fix |
+|------|-------|-----|
+| 4 | Grandmother disappeared during illness | Added her holding infant while mother rested |
+| 12 | All 5 names were CVCV pattern | Renamed Sena→Senna, Mara→Oba, Dasa→Unt |
+| 14 | "born first among five children" felt like database output | Changed to "born into a band" + "her first child" |
+| 14 | "The women set a screen" was vague | Clarified Oba set the screen |
+| 14 | "spoke for the dead" was awkward | Changed to "knew how to address the dead" |
+
+The story is now stronger: the grandmother is present throughout, the names have more phonetic variety (only 2/5 CVCV), and the prose flows more naturally without procedurally-generated artifacts.

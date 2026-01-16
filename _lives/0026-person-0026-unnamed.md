@@ -145,8 +145,19 @@ continent: "Asia"
 
 The child was born on 15 December 1294 in a small hamlet near Chalakkudy in the wet lowlands of the Malabar Coast. Local chiefs and temple estates governed the area through landlords and overseers. His family spoke Malayalam at home and heard Sanskrit mantras in the temple courtyard during festivals. They belonged to a low-status Hindu laboring caste tied to fieldwork and temple-centered village life.
 
-His father, Kannan, hired out by the day, cutting bunds and transplanting seedlings in flooded plots when the rains allowed. His mother, Ponna, worked beside him at harvest and carried home sheaves to thresh, then cooked rice gruel over a clay hearth. Their first child, Chelli, had been born two years earlier and died before she took to breast well; Ponna kept a small lamp for Bhagavati on a shelf and fed it oil on Fridays.
+His father, Kannan, worked as a day laborer, cutting bunds and transplanting seedlings in flooded plots when the rains allowed. His mother, Ponna, worked beside him at harvest and carried home sheaves to thresh, then cooked rice gruel over a clay hearth. Their first child, Chelli, had been born two years earlier and died before she took to breast well; Ponna kept a small lamp for Bhagavati on a shelf and fed it oil on Fridays.
 
-The midwife Ammu came when Ponna's pains tightened. A neighbor fetched hot water; Kannan waited outside, then paid Ammu with a measure of rice. The baby arrived with a visible malformation and did not take milk. Before dawn Kannan walked to the nearby temple and set a coconut, plantains, and a little jaggery before the shrine while the priest Kunjan recited.
+The midwife Ammu came when Ponna's pains tightened. Kannan waited outside while a neighbor brought hot water. The baby arrived with a visible malformation and did not take milk. Kannan paid Ammu with a measure of rice and sat through the night while Ponna held the child. At first light he walked to the nearby temple and set a coconut, plantains, and a little jaggery before the shrine while the priest Kunjan recited.
 
 The child died on 16 December 1294. Ammu washed the body, and the family wrapped him in clean cloth and carried him to a quiet spot at the edge of the compound to bury him, placing a few grains of rice beside him and lighting a small wick-lamp.
+
+<!--
+REVIEW LOG
+
+**Issues found:**
+- [Pass 14] Paragraph 3 had choppy flow with semicolon-separated list of actions
+- [Pass 14] "Before dawn" temple visit timing was unclear—seemed implausibly rushed
+
+**Changes made:**
+- Restructured paragraph 3 for better flow: separated the neighbor's action, added Kannan sitting through the night with Ponna, changed "before dawn" to "at first light"
+-->

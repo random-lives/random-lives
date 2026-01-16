@@ -178,8 +178,32 @@ continent: "Europe"
 
 The village lay on the flat ground between the Sava and the Danube, where Avar power reached into farming settlements and demanded dues through local men who negotiated on behalf of their families. Vladislav's household spoke an early Slavic tongue and kept the older rites: grain set by the hearth for the dead, bread and salt placed at the threshold, and a few drops of milk poured at a spring beyond the fields.
 
-His father, Radogost, worked the cereal plots with other men of the compound and stored sheaves in a shared yard. Milena rose before light to milk and strain, feed pigs with kitchen scraps, and turn curds while an older woman watched the fire. Three sons had been born to them—Milorad in 657, Dragomir in 659, Radovan in 661—and each had died before reaching his first winter. When Milena went into labor again in early November 665, Dobroslava, the senior woman in the household, laid a clean cloth and warmed water, then tied a red thread at the doorpost and set a little bowl of milk by the hearth for the household spirits.
+His father, Radogost, worked the cereal plots with his brother Branimir and other men of the compound, storing sheaves in a shared yard. The household was led by Vladislav's grandfather Bogdan, who dealt with the Avar tribute collectors and settled disputes among neighbors. His grandmother Dobroslava managed the indoor work, directing Milena and Branimir's wife Vesna. Milena rose before light to milk and strain, feed pigs with kitchen scraps, and turn curds while Vesna watched the fire. Milena had borne three sons before Vladislav—Milorad, Dragomir, Radovan—and each had died before his first winter. When Milena went into labor again in early November 665, Dobroslava laid a clean cloth and warmed water, then tied a red thread at the doorpost and set a little bowl of milk by the hearth for the household spirits.
 
-Vladislav lived long enough to be carried outside in summer and to sit supported against a folded hide while the adults worked. In the first cold weeks of autumn 666 he began coughing hard, then took fast, shallow breaths. Radogost fetched Zdravko, the healer, who burned juniper and rubbed the child’s chest with fat and herbs, and Dobroslava whispered names of ancestors into the smoke.
+Vladislav survived the first winter. Milena kept him close to the fire, nursing him through nights when frost formed on the walls. By spring he was gaining weight and beginning to reach for objects held in front of him. In summer Milena carried him outside and sat him against a folded hide while the adults worked. In the first cold weeks of autumn 666 he began coughing hard, then took fast, shallow breaths. Milena held him day and night, trying to keep him warm and nursing him whenever he would take it. Radogost fetched Zdravko, a healer from a neighboring compound. Zdravko burned juniper and rubbed the child's chest with fat and herbs while Dobroslava whispered names of ancestors into the smoke.
 
 Vladislav died on October 24, 666. Before dusk they wrapped him in cloth and buried him beyond the houses, placing bread beside him and pressing earth down firm.
+
+<!--
+**Review log (2026-01-16):**
+
+**Issues found:**
+- [Pass 1] Gap in timeline: winter/spring period (Nov 665 - May 666) not covered
+- [Pass 2] Father's brother (Vesna's husband) never named despite Vesna being mentioned
+- [Pass 6] Milena's presence during illness not mentioned
+- [Pass 14] "Radogost's mother Dobroslava" phrasing awkward
+- [Pass 14] Listing of three dead brothers with years felt like data dump
+- [Pass 14] Redundant "senior woman in the household" phrase
+- [Pass 14] Passive voice "he was carried outside" inconsistent with surrounding text
+- [Pass 14] Dobroslava's action disconnected from preceding Zdravko sentence
+
+**Changes made:**
+- Added sentences covering winter survival and spring development
+- Named the uncle as Branimir and integrated him into the text
+- Added Milena holding and nursing Vladislav during his illness
+- Changed "Radogost's mother Dobroslava" to "His grandmother Dobroslava"
+- Simplified dead brothers listing to remove birth years
+- Removed redundant "senior woman in the household" phrase
+- Changed passive "he was carried" to active "Milena carried him"
+- Connected Zdravko's and Dobroslava's actions with "while"
+-->

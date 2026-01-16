@@ -128,10 +128,31 @@ continent: "Asia"
 # - F
 ---
 
-Nagamma was born before dawn on March 12, 1791, in Virapura near Lingasugur, in the dry thorn-scrub country of the Raichur plain. Revenue men came through for the Deccan rulers, but her household lived by the seasons and the demands of the village headman. They spoke Kannada at home and Telugu in the market.
+Nagamma was born before dawn on March 12, 1791, in Virapura near Lingasugur, in the dry thorn-scrub country of the Raichur plain. The region paid revenue to the Nizam of Hyderabad, though armies from Mysore and the English Company had marched through in recent years. Her household lived by the seasons and the demands of the village headman. They spoke Kannada at home and Telugu in the market.
 
-Her father, Ranga, worked for wages in other men's fields. The household belonged to a weaver caste, and Timma kept a loom, but weaving brought less than field labor and Ranga only sat at the loom when patrons sent cotton. Her mother, Venkamma, carried water from the well, ground grain, cooked ragi porridge, and went out for weeding and harvest when labor was hired. They lived in a patrilocal joint compound with Ranga’s parents, Timma and Timmamma. A tulasi plant stood in the courtyard, and Venkamma fed it with water each morning. On Ekadashi days she kept a fast and whispered Rama’s name while turning a small strand of beads.
+Her father, Ranga, worked for wages in other men's fields. The household belonged to a weaver caste, and his father Timma kept a loom in the compound they shared, but weaving brought less than field labor and Ranga only sat at it when patrons sent cotton. Her mother, Venkamma, carried water from the well, ground grain, cooked ragi porridge, and went out for weeding and harvest when labor was hired. Timmamma, Ranga's mother, ran the household. A tulasi plant stood in the courtyard, and Venkamma watered it each morning. On Ekadashi days she kept a fast and whispered Rama's name while turning a strand of beads.
 
-When labor started, Timmamma sent for Basavva the dai. The women heated water and laid out clean cloth. The delivery dragged through the night. When Nagamma came, her skin held the dark, wet sheen of birth, but she did not cry. Basavva rubbed her back with oil, cleared her mouth with a finger, and tugged gently at her feet. Timmamma held a small brass lamp near the baby's face. No breath came.
+Venkamma's first pregnancy had gone well. When labor started, Timmamma sent for Basavva the dai. The women heated water and laid out clean cloth. Venkamma labored through the night while Timmamma and Basavva worked around her. Ranga and Timma waited outside in the dark. When Nagamma came, she was dark and wet from the birth, but she did not cry. Basavva rubbed her back with oil, cleared her mouth with a finger, and tugged gently at her feet. Timmamma held a small brass lamp near the baby's face. No breath came. Venkamma reached for her daughter.
 
-Before sunset, Ranga dug a pit beyond the houses where the fields began. They wrapped Nagamma in cloth, placed her in the earth, and set rice and ghee at the spot before smoothing it closed.
+Before sunset, Ranga dug a small pit beyond the houses where the fields began. Timmamma wrapped Nagamma in cloth. They placed her in the earth and set rice and ghee beside the grave before smoothing it closed. No priest came for an infant who had not breathed. Venkamma stayed inside. Two years later she gave birth to a daughter who lived.
+
+<!--
+**Review (January 2026)**
+
+**Issues found:**
+- [Pass 4] Venkamma (mother) and Timma (grandfather) disappeared from the birth scene despite being present
+- [Pass 6] Story didn't mention this was the parents' first child
+- [Pass 11] "Deccan rulers" was vague for the political situation in 1791
+- [Pass 12] "patrilocal joint compound" was sociological jargon
+- [Pass 13] "dark, wet sheen of birth" was slightly figurative
+- [Pass 14] Paragraph 2 had unclear subject transitions; burial paragraph lacked emotional closure
+
+**Changes made:**
+- Added Venkamma laboring and reaching for her daughter; added Ranga and Timma waiting outside
+- Added "Venkamma's first pregnancy had gone well" to establish this was their first child
+- Specified "the Nizam of Hyderabad" and mentioned armies from Mysore and the English Company
+- Changed "patrilocal joint compound" to natural description via "his father Timma kept a loom in the compound they shared"
+- Simplified to "she was dark and wet from the birth"
+- Clarified Timma's relationship ("his father Timma"), introduced Timmamma by role, clarified "the spot" to "the grave"
+- Added emotional closure: "No priest came for an infant who had not breathed. Venkamma stayed inside. Two years later she gave birth to a daughter who lived."
+-->
