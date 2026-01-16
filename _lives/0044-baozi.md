@@ -102,10 +102,26 @@ continent: "Asia"
 # - M
 ---
 
-Baozi was born on June 4, 1845, in the hills of southeastern Yunnan under the Qing empire’s county officials and tax collectors. His parents, Li Sheng and Zhang Shi, spoke Southwest Mandarin at home and lived as an independent nuclear household, working a small plot and paying rent or grain dues when required. Their first child, a boy called A‑Shun, had been born the previous year and died before his first month ended, so Zhang Shi kept Baozi close, tied to her back with cloth when she carried water or cut greens for the pigs.
+Baozi was born on June 4, 1845, in the hills of southeastern Yunnan under the Qing empire’s county officials and tax collectors. His parents, Li Sheng and Zhang Shi, spoke Southwest Mandarin at home and lived on their own without grandparents or other relatives, working a small plot and paying rent or grain dues when required. Their first child, a boy called A‑Shun, had been born the previous year and died before his first month ended, so Zhang Shi kept Baozi close, tied to her back with cloth when she carried water or cut greens for the pigs.
 
-Their house stood above wet forest and terraced patches. Li Sheng planted and weeded, hauled bundles of firewood, and carried small loads to market days. Zhang Shi cooked millet and rice when they had it, and kept an incense bowl on a shelf with red paper for the family dead. On festival days she brought joss sticks to a nearby temple and set out fruit and a small cup of wine, asking Guanyin for a living child.
+Their house sat on a slope above wet forest and terraced fields. Li Sheng planted and weeded, hauled bundles of firewood, and carried vegetables or charcoal to market days when he had extra to sell. Zhang Shi cooked millet and rice when they had it, and kept an incense bowl on a shelf with red paper for the family dead. On festival days she brought joss sticks to a nearby temple and set out fruit and a small cup of wine, asking Guanyin for a living child.
 
-In the winter after Baozi’s first birthday, diarrhea started and did not stop. Zhang Shi boiled water with ginger and salt and fed him thin rice gruel. Li Sheng went to Master Huang at the temple for a charm and burned it into water for Baozi to drink. The stools turned watery again the next day. On February 2, 1847, Baozi died in the house.
+By summer Baozi could sit up and grab at things. He watched the chickens from his mother's back and reached for the smoke when she burned incense. In the winter after his first birthday, diarrhea started and did not stop. Zhang Shi boiled water with ginger and salt and fed him thin rice gruel. Li Sheng went to Master Huang at the temple for a charm and burned it into water for Baozi to drink. The stools turned watery again the next day. On February 2, 1847, Baozi died in the house.
 
-Li Sheng wrapped him in cloth and carried him to a small grave on the family’s slope. Zhang Shi placed a few coins and a handful of rice by the earth and burned paper near the mound.
+Li Sheng wrapped him in cloth and carried him to a small grave on the family's slope. Zhang Shi placed a few coins and a handful of rice by the earth and burned paper near the mound.
+
+<!--
+**Review: 2026-01-15**
+
+**Issues found:**
+- [Pass 9] "carried small loads to market days" - vague; what loads?
+- [Pass 12] "nuclear household" - sociological jargon
+- [Pass 14] "stood above wet forest and terraced patches" - slightly awkward phrasing
+- [Pass 14] No sense of Baozi being alive before the illness - story felt procedural
+
+**Changes made:**
+- Specified market loads as "vegetables or charcoal"
+- Replaced "lived as an independent nuclear household" with "lived on their own without grandparents or other relatives"
+- Changed "stood above" to "sat on a slope above" and "patches" to "fields"
+- Added developmental detail showing Baozi alive (sitting up, watching chickens, reaching for incense smoke)
+-->

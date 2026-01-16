@@ -212,10 +212,31 @@ continent: "Asia"
 # - M
 ---
 
-Walwata was born the youngest child in a Luwic-speaking farming household near the wooded ridges above the lakes of northwest Anatolia. Local leaders sent tribute east along established tracks. Her family followed the old cults shaped by Hittite influence: Storm-god Tarḫunta and the Sun goddess received bread, beer, and lamb fat at the hearth and at a village shrine.
+Walwata was born the youngest child in a Luwic-speaking farming household near the wooded ridges above the lakes of northwest Anatolia, in the lands of the Seha River kingdom that sent tribute to the Hittite overlords at Hattusa. Her family followed the old cults shaped by Hittite influence: Storm-god Tarḫunta and the Sun goddess received bread, beer, and lamb fat at the hearth and at a village shrine.
 
-Her father, Armawi, managed pack animals and agreements for moving grain, wool, and jars of oil between hamlets and larger storehouses. He lived with his wife Anniya in his father’s compound under the authority of Hantiliya, with Suppiya directing much of the women’s work. Walwata’s brothers filled the yard. Tarhuntiya and Runtiya handled animals and loads; Zidanta ran messages. Piyama, eight years old, stayed close to the newborn and had to be pulled away from her sleeping place.
+Her father, Armawi, managed pack animals and agreements for moving grain, wool, and jars of oil between hamlets and larger storehouses. He lived with his wife Anniya in his father’s compound under the authority of Hantiliya, with Suppiya directing much of the women’s work. Four brothers lived there too. The eldest, Tarhuntiya, and Runtiya drove donkeys and loaded goods; Zidanta ran messages. Piyama, still a child at eight, hovered over the newborn and had to be pulled away from her sleeping place.
 
-Anniya had already buried three infants—Tarpawi, Maliya, and Kubabi—and kept Walwata close, feeding her often and watching her weight. Suppiya ground barley and mixed thin porridge when Anniya’s milk ran low, and Alliya carried water and warmed cloths by the fire. Walwata failed to gain strength through the winter and spring.
+Anniya had already buried three infants—Tarpawi, Maliya, and Kubabi—and kept Walwata close, feeding her often and checking her limbs for flesh. Suppiya ground barley and mixed thin porridge when Anniya's milk ran low. Armawi's widowed sister Alliya also lived in the compound; she carried water and warmed cloths by the fire. Walwata never gained strength. Through the winter and into spring she stayed thin and weak.
 
-In her first year she died in the compound. Anniya washed her, wrapped her in a linen cloth from the household loom, and Hantiliya poured a small libation of beer at the threshold before they placed her in a shallow grave near the house wall with a pinch of grain and a bead.
+Before her first summer she died in the compound. Anniya washed her, wrapped her in a linen cloth from the household loom, and Hantiliya poured a small libation of beer at the threshold before they placed her in a shallow grave near the house wall with a pinch of grain and a bead.
+
+<!--
+**Review Log (2026-01-15):**
+
+**Issues found:**
+- [Pass 2] Alliya (paternal aunt) introduced without explanation of who she is
+- [Pass 11] Political context could be more specific about Seha River kingdom and Hittite overlords
+- [Pass 14] "Walwata's brothers filled the yard" felt mechanical/roster-like
+- [Pass 14] "watching her weight" felt modern/clinical
+- [Pass 14] Transition between para 3 and 4 was abrupt
+- [Pass 14] "In her first year she died" was awkward phrasing
+
+**Changes made:**
+- Identified Alliya as "Armawi's widowed sister" who lived in the compound
+- Added "in the lands of the Seha River kingdom that sent tribute to the Hittite overlords at Hattusa"
+- Changed "Walwata's brothers filled the yard" to "Four brothers lived there too"
+- Changed "handled animals and loads" to "drove donkeys and loaded goods"
+- Changed "stayed close to the newborn" to "hovered over the newborn"
+- Changed "watching her weight" to "checking her limbs for flesh"
+- Improved transition: moved failure-to-thrive description to end of para 3 and started para 4 with "Before her first summer she died"
+-->
