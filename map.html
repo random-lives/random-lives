@@ -231,17 +231,32 @@ title: Map View
     return '#000';
   }
 
-  // Create markers
+  // HYDE grid resolution: 5 arcminutes = ~9.2 km at equator = ~4.6 km radius
+  const HYDE_RADIUS_METERS = 4600;
+  const ZOOM_THRESHOLD = 8; // Show uncertainty circles at zoom 8+
+
+  // Create markers (both dots and uncertainty circles)
   const markers = [];
   lives.forEach(life => {
-    const marker = L.circleMarker([life.lat, life.lng], {
+    // Circle marker (dot) for low zoom levels
+    const dot = L.circleMarker([life.lat, life.lng], {
       radius: 5,
       fillColor: "#000",
       color: "#fff",
       weight: 1,
       opacity: 1,
       fillOpacity: 0.9
-    }).addTo(map);
+    });
+
+    // Circle (uncertainty region) for high zoom levels
+    const circle = L.circle([life.lat, life.lng], {
+      radius: HYDE_RADIUS_METERS,
+      fillColor: "#000",
+      color: "#fff",
+      weight: 2,
+      opacity: 1,
+      fillOpacity: 0.3
+    });
 
     const popup = L.popup().setContent(`
       <div class="map-popup">
@@ -251,17 +266,46 @@ title: Map View
       </div>
     `);
 
-    marker.bindPopup(popup);
-    markers.push({ marker, life });
+    dot.bindPopup(popup);
+    circle.bindPopup(popup);
+
+    // Start with dots visible
+    dot.addTo(map);
+
+    markers.push({ dot, circle, life });
   });
 
   // Update colors
   function updateColors(colorBy) {
-    markers.forEach(({ marker, life }) => {
-      marker.setStyle({ fillColor: getColor(life, colorBy) });
+    markers.forEach(({ dot, circle, life }) => {
+      const color = getColor(life, colorBy);
+      dot.setStyle({ fillColor: color });
+      circle.setStyle({ fillColor: color });
     });
     updateLegend(colorBy);
   }
+
+  // Switch between dots and circles based on zoom level
+  function updateMarkerDisplay() {
+    const zoom = map.getZoom();
+    const showCircles = zoom >= ZOOM_THRESHOLD;
+
+    markers.forEach(({ dot, circle }) => {
+      if (showCircles) {
+        if (map.hasLayer(dot)) map.removeLayer(dot);
+        if (!map.hasLayer(circle)) map.addLayer(circle);
+      } else {
+        if (map.hasLayer(circle)) map.removeLayer(circle);
+        if (!map.hasLayer(dot)) map.addLayer(dot);
+      }
+    });
+  }
+
+  // Listen for zoom changes
+  map.on('zoomend', updateMarkerDisplay);
+
+  // Also call on initial load
+  updateMarkerDisplay();
 
   // Update legend
   function updateLegend(colorBy) {
