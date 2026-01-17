@@ -11,12 +11,24 @@ layout: default
         {% if page.death_year != "present" %}<p><strong>Died:</strong> {{ page.death_date }} (Age {{ page.age_at_death }})</p>{% endif %}
         {% if page.region %}
           <p><strong>Birthplace:</strong>
-            {% if page.subsubregion %}
-              {{ page.subsubregion }}, {{ page.subregion }}, {{ page.region }}
-            {% elsif page.subregion %}
-              {{ page.subregion }}, {{ page.region }}
+            {% if page.map_url %}
+              <a href="{{ page.map_url }}" target="_blank" rel="noopener noreferrer">
+                {% if page.subsubregion %}
+                  {{ page.subsubregion }}, {{ page.subregion }}, {{ page.region }}
+                {% elsif page.subregion %}
+                  {{ page.subregion }}, {{ page.region }}
+                {% else %}
+                  {{ page.region }}
+                {% endif %}
+              </a>
             {% else %}
-              {{ page.region }}
+              {% if page.subsubregion %}
+                {{ page.subsubregion }}, {{ page.subregion }}, {{ page.region }}
+              {% elsif page.subregion %}
+                {{ page.subregion }}, {{ page.region }}
+              {% else %}
+                {{ page.region }}
+              {% endif %}
             {% endif %}
           </p>
         {% elsif page.location %}

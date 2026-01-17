@@ -100,7 +100,7 @@ title: Map View
   font-size: 0.8rem;
   color: #555;
   margin-top: 12px;
-  min-height: 20px;
+  min-height: 44px;
 }
 
 .legend-item {
@@ -126,7 +126,7 @@ title: Map View
 
 <div class="map-view">
   <h1>Map View</h1>
-  <p class="intro">Explore lives by location. Paleolithic people (before 10,000 BC) are not shown as they predate fixed geographic coordinates. Click a marker to read their story.</p>
+  <p class="intro">Explore lives by location across all of human history. Click a marker to read their story.</p>
 
   <div class="map-controls">
     <div class="map-controls-row">
@@ -166,7 +166,7 @@ title: Map View
       lng: {{ life.longitude }},
       url: "{{ life.url | relative_url }}",
       years: "{% if life.birth_year == life.death_year %}{{ life.birth_year }}{% else %}{{ life.birth_year }} – {{ life.death_year }}{% endif %}",
-      country: "{{ life.country | escape }}",
+      country: "{% if life.country %}{{ life.country | escape }}{% else %}{{ life.subregion | escape }}{% endif %}",
       birthYear: {{ life.birth_year_numeric }},
       ageTag: "{{ life.age_tag }}",
       lifestyle: "{{ life.lifestyle | escape }}"

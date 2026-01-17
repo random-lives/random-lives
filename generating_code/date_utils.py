@@ -78,8 +78,17 @@ def _day_of_year_to_month_day(year, day_of_year):
 # =============================================================================
 
 def _format_year(year):
-    """Format year as string (e.g., '1500 AD' or '8000 BC')."""
-    return f"{year} AD" if year > 0 else f"{1-year} BC"
+    """Format year as string (e.g., '1500 AD' or '15,318 BC').
+
+    Adds commas for 5-6 digit years for readability.
+    """
+    if year > 0:
+        year_str = f"{year:,}" if year >= 10000 else str(year)
+        return f"{year_str} AD"
+    else:
+        bc_year = 1 - year
+        year_str = f"{bc_year:,}" if bc_year >= 10000 else str(bc_year)
+        return f"{year_str} BC"
 
 
 def _format_date_tuple(date_tuple):
