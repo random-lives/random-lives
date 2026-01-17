@@ -6,6 +6,7 @@ _site/
 vendor/
 Gemfile.lock
 .DS_Store
+.obsidian/
 
 # Generating code - large data files
 generating_code/Raw_Data/
