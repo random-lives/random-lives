@@ -29,7 +29,10 @@
       "Bash(bundle exec jekyll serve:*)",
       "Bash(open:*)",
       "Skill(push)",
-      "Skill(push:*)"
+      "Skill(push:*)",
+      "Bash(git rm:*)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "Bash(python3:*)"
     ],
     "deny": []
   }

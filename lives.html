@@ -9,19 +9,57 @@ title: All Lives
     Browse and filter all {{ site.lives.size }} biographical stories.
   </p>
 
+  <div class="order-bar">
+    <span class="order-label">Order:</span>
+    <button type="button" class="tag selected" data-value="default">Default</button>
+    <button type="button" class="tag toggle-btn" data-values="chronological,reverse" data-value="chronological">Birth ↑</button>
+    <button type="button" class="tag toggle-btn" data-values="alphabetical,reverse-alpha" data-value="alphabetical">Name ↑</button>
+    <button type="button" class="tag" data-value="random">Shuffle</button>
+  </div>
+
   <div class="filters">
+    <div class="filters-header" id="filters-toggle">
+      <span class="filters-title">Filters</span>
+      <span class="filters-summary" id="filters-summary"></span>
+      <button type="button" class="reset-btn" id="reset-filters">Reset</button>
+      <span class="filters-expand-icon">▼</span>
+    </div>
+    <div class="filters-content" id="filters-content">
     <div class="filter-row" id="filter-sex">
       <span class="filter-label">Sex:</span>
       <button type="button" class="tag" data-value="M">Male</button>
       <button type="button" class="tag" data-value="F">Female</button>
-      <label style="margin-left: 16px;">
-        Born after:
-        <input type="text" id="filter-year-start" placeholder="e.g. 10000 BC" style="width: 100px;">
-      </label>
-      <label>
-        Born before:
-        <input type="text" id="filter-year-end" placeholder="e.g. 500 AD" style="width: 100px;">
-      </label>
+      <span class="filter-label slider-label">Birth Year:</span>
+      <div class="year-slider-container">
+        <div class="year-slider-track" id="year-slider-track">
+          <div class="year-slider-range" id="year-slider-range"></div>
+          <input type="range" class="year-slider" id="year-slider-min" min="0" max="10000" value="0" step="1">
+          <input type="range" class="year-slider" id="year-slider-max" min="0" max="10000" value="10000" step="1">
+        </div>
+        <div class="year-slider-labels">
+          <span id="year-label-min">200,000 BC</span>
+          <span id="year-label-max">2025 AD</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="filter-row" id="filter-status">
+      <span class="filter-label">Status:</span>
+      <button type="button" class="tag selected" data-value="all">All</button>
+      <button type="button" class="tag" data-value="living">Living</button>
+      <button type="button" class="tag" data-value="deceased">Deceased</button>
+      <span class="filter-label slider-label age-label">Age at Death:</span>
+      <div class="age-slider-container" id="age-slider-container">
+        <div class="age-slider-track" id="age-slider-track">
+          <div class="age-slider-range" id="age-slider-range"></div>
+          <input type="range" class="age-slider" id="age-slider-min" min="0" max="100" value="0">
+          <input type="range" class="age-slider" id="age-slider-max" min="0" max="100" value="100">
+        </div>
+        <div class="age-slider-labels">
+          <span id="age-label-min">0</span>
+          <span id="age-label-max">80+</span>
+        </div>
+      </div>
     </div>
 
     <div class="filter-row" id="filter-continent">
@@ -34,34 +72,15 @@ title: All Lives
       <button type="button" class="tag" data-value="Oceania">Oceania</button>
     </div>
 
-    <div class="filter-row" id="filter-age">
-      <span class="filter-label">Age:</span>
-      <button type="button" class="tag" data-value="Alive">Alive</button>
-      <button type="button" class="tag" data-value="Infant (0–1)">Infant</button>
-      <button type="button" class="tag" data-value="Child (2–10)">Child</button>
-      <button type="button" class="tag" data-value="Adolescent (11–18)">Adolescent</button>
-      <button type="button" class="tag" data-value="Adult (19–49)">Adult</button>
-      <button type="button" class="tag" data-value="Elder (50+)">Elder</button>
-    </div>
-
     <div class="filter-row" id="filter-lifestyle">
       <span class="filter-label">Lifestyle:</span>
       <button type="button" class="tag" data-value="Hunter-Gatherer">Hunter-Gatherer</button>
-      <button type="button" class="tag" data-value="Rural">Rural</button>
+      <button type="button" class="tag" data-value="Pastoralist">Pastoralist</button>
+      <button type="button" class="tag" data-value="Farmer">Farmer</button>
+      <button type="button" class="tag" data-value="Rural Non-Farm">Rural Non-Farm</button>
       <button type="button" class="tag" data-value="Urban">Urban</button>
     </div>
 
-    <div class="filter-row" id="sort-order">
-      <span class="filter-label">Sort:</span>
-      <button type="button" class="tag selected" data-value="default">Default</button>
-      <button type="button" class="tag" data-value="chronological">Oldest first</button>
-      <button type="button" class="tag" data-value="reverse">Newest first</button>
-      <button type="button" class="tag" data-value="random">Random</button>
-    </div>
-
-    <div class="filter-stats">
-      Showing <span id="visible-count">0</span> of <span id="total-count">0</span> lives
-      <button type="button" class="reset-btn" id="reset-filters">Reset filters</button>
     </div>
   </div>
 
@@ -70,7 +89,7 @@ title: All Lives
       <a href="{{ life.url | relative_url }}" class="life-preview"
                data-birth-year="{{ life.birth_year_numeric }}"
                data-continent="{{ life.continent }}"
-               data-age="{{ life.age_tag }}"
+               data-age-at-death="{{ life.age_at_death }}"
                data-sex="{{ life.sex }}"
                data-lifestyle="{{ life.lifestyle }}"
                data-country="{{ life.country }}">
@@ -89,21 +108,254 @@ title: All Lives
 
 <script>
 (function() {
-  const filters = {
-    yearStart: document.getElementById('filter-year-start'),
-    yearEnd: document.getElementById('filter-year-end')
-  };
+  // Collapsible filters
+  const filtersToggle = document.getElementById('filters-toggle');
+  const filtersContent = document.getElementById('filters-content');
+  const filtersSummary = document.getElementById('filters-summary');
+  const expandIcon = filtersToggle.querySelector('.filters-expand-icon');
+
+  // Start collapsed
+  filtersContent.classList.add('collapsed');
+
+  filtersToggle.addEventListener('click', () => {
+    filtersContent.classList.toggle('collapsed');
+    expandIcon.textContent = filtersContent.classList.contains('collapsed') ? '▼' : '▲';
+  });
+
+  // Year range slider
+  const sliderMin = document.getElementById('year-slider-min');
+  const sliderMax = document.getElementById('year-slider-max');
+  const sliderRange = document.getElementById('year-slider-range');
+  const labelMin = document.getElementById('year-label-min');
+  const labelMax = document.getElementById('year-label-max');
+
+  // Year range slider: 200,000 BC to 2025 AD
+  // Slider goes 0-10000 for fine granularity
+  // Non-linear scale with more density for recent history
+  const SLIDER_MAX = 10000;
+  const yearBreakpoints = [
+    { slider: 0, year: -200000 },
+    { slider: 1000, year: -50000 },
+    { slider: 2000, year: -10000 },
+    { slider: 3000, year: -3000 },
+    { slider: 4500, year: 1 },
+    { slider: 6000, year: 1000 },
+    { slider: 7500, year: 1800 },
+    { slider: 10000, year: 2025 }
+  ];
+
+  // Round year to appropriate interval based on era
+  function roundYear(year) {
+    let rounded;
+    if (year <= -10000) {
+      // Before 10,000 BC: round to nearest 5000
+      rounded = Math.round(year / 5000) * 5000;
+    } else if (year <= -3000) {
+      // 10,000 BC to 3000 BC: round to nearest 500
+      rounded = Math.round(year / 500) * 500;
+    } else if (year <= 0) {
+      // 3000 BC to 1 AD: round to nearest 100
+      rounded = Math.round(year / 100) * 100;
+    } else if (year <= 1800) {
+      // 1 AD to 1800: round to nearest 50
+      rounded = Math.round(year / 50) * 50;
+    } else {
+      // After 1800: round to nearest 5
+      rounded = Math.round(year / 5) * 5;
+    }
+    // Clamp to valid range
+    return Math.max(-200000, Math.min(2025, rounded));
+  }
+
+  function sliderToYear(sliderVal) {
+    // Handle endpoints exactly
+    if (sliderVal <= 0) return -200000;
+    if (sliderVal >= SLIDER_MAX) return 2025;
+
+    let rawYear;
+    for (let i = 0; i < yearBreakpoints.length - 1; i++) {
+      const curr = yearBreakpoints[i];
+      const next = yearBreakpoints[i + 1];
+      if (sliderVal >= curr.slider && sliderVal <= next.slider) {
+        const ratio = (sliderVal - curr.slider) / (next.slider - curr.slider);
+        rawYear = curr.year + ratio * (next.year - curr.year);
+        break;
+      }
+    }
+    if (rawYear === undefined) {
+      return 2025;
+    }
+    return roundYear(rawYear);
+  }
+
+  function formatYear(year) {
+    if (year < 0) {
+      const absYear = Math.abs(year);
+      if (absYear >= 10000) {
+        // Show full years for 10,000+ BC
+        return `${absYear.toLocaleString()} BC`;
+      }
+      return `${absYear} BC`;
+    } else if (year === 0) {
+      return '1 AD';
+    } else {
+      return `${year} AD`;
+    }
+  }
+
+  function updateSliderRange() {
+    let minVal = parseInt(sliderMin.value);
+    let maxVal = parseInt(sliderMax.value);
+
+    // Prevent sliders from crossing - clamp to each other
+    if (minVal > maxVal) {
+      sliderMin.value = maxVal;
+      minVal = maxVal;
+    }
+    if (maxVal < minVal) {
+      sliderMax.value = minVal;
+      maxVal = minVal;
+    }
+
+    // Update range highlight (convert to percentage for CSS)
+    const minPercent = (minVal / SLIDER_MAX) * 100;
+    const maxPercent = (maxVal / SLIDER_MAX) * 100;
+    sliderRange.style.left = minPercent + '%';
+    sliderRange.style.width = (maxPercent - minPercent) + '%';
+
+    // Update labels
+    const yearMin = sliderToYear(minVal);
+    const yearMax = sliderToYear(maxVal);
+    labelMin.textContent = formatYear(yearMin);
+    labelMax.textContent = formatYear(yearMax);
+
+    return { yearMin, yearMax };
+  }
+
+  // Initialize slider range display
+  updateSliderRange();
+
+  // Click on track to move closer slider
+  const yearSliderTrack = document.getElementById('year-slider-track');
+  yearSliderTrack.addEventListener('click', (e) => {
+    const rect = yearSliderTrack.getBoundingClientRect();
+    const clickPos = ((e.clientX - rect.left) / rect.width) * SLIDER_MAX;
+    const minVal = parseInt(sliderMin.value);
+    const maxVal = parseInt(sliderMax.value);
+    // Move whichever slider is closer
+    if (Math.abs(clickPos - minVal) <= Math.abs(clickPos - maxVal)) {
+      sliderMin.value = Math.round(clickPos);
+    } else {
+      sliderMax.value = Math.round(clickPos);
+    }
+    applyFilters();
+  });
+
+  // Age range slider
+  const ageSliderMin = document.getElementById('age-slider-min');
+  const ageSliderMax = document.getElementById('age-slider-max');
+  const ageSliderRange = document.getElementById('age-slider-range');
+  const ageLabelMin = document.getElementById('age-label-min');
+  const ageLabelMax = document.getElementById('age-label-max');
+  const ageSliderContainer = document.getElementById('age-slider-container');
+
+  // Status filter (All/Living/Deceased)
+  const statusFilter = document.getElementById('filter-status');
+  const ageLabel = document.querySelector('.filter-label.age-label');
+
+  // Age slider: 0-80 linear, then 80+ at the end
+  // Slider 0-100 maps to ages 0-80, with 100 meaning "80+"
+  function sliderToAge(sliderVal) {
+    // Linear mapping: slider 0-100 -> age 0-80
+    return Math.round(sliderVal * 0.8);
+  }
+
+  function updateAgeSliderRange() {
+    let minVal = parseInt(ageSliderMin.value);
+    let maxVal = parseInt(ageSliderMax.value);
+
+    // Prevent sliders from crossing - clamp to each other
+    if (minVal > maxVal) {
+      ageSliderMin.value = maxVal;
+      minVal = maxVal;
+    }
+    if (maxVal < minVal) {
+      ageSliderMax.value = minVal;
+      maxVal = minVal;
+    }
+
+    // Update range highlight
+    ageSliderRange.style.left = minVal + '%';
+    ageSliderRange.style.width = (maxVal - minVal) + '%';
+
+    // Update labels
+    const ageMin = sliderToAge(minVal);
+    const ageMax = sliderToAge(maxVal);
+    ageLabelMin.textContent = ageMin;
+    ageLabelMax.textContent = maxVal === 100 ? '80+' : ageMax;
+
+    return { ageMin, ageMax, sliderAtMax: maxVal === 100 };
+  }
+
+  // Initialize age slider range display
+  updateAgeSliderRange();
+
+  // Click on age track to move closer slider
+  const ageSliderTrack = document.getElementById('age-slider-track');
+  ageSliderTrack.addEventListener('click', (e) => {
+    // Don't respond if disabled
+    if (ageSliderContainer.classList.contains('disabled')) return;
+    const rect = ageSliderTrack.getBoundingClientRect();
+    const clickPercent = Math.round(((e.clientX - rect.left) / rect.width) * 100);
+    const minVal = parseInt(ageSliderMin.value);
+    const maxVal = parseInt(ageSliderMax.value);
+    // Move whichever slider is closer
+    if (Math.abs(clickPercent - minVal) <= Math.abs(clickPercent - maxVal)) {
+      ageSliderMin.value = clickPercent;
+    } else {
+      ageSliderMax.value = clickPercent;
+    }
+    applyFilters();
+  });
+
+  // Get current status filter value
+  function getStatusFilter() {
+    const selected = statusFilter.querySelector('.tag.selected');
+    return selected ? selected.dataset.value : 'all';
+  }
+
+  // Update age slider disabled state based on status
+  function updateAgeSliderState() {
+    const status = getStatusFilter();
+    if (status === 'living') {
+      ageSliderContainer.classList.add('disabled');
+      ageLabel.classList.add('disabled');
+    } else {
+      ageSliderContainer.classList.remove('disabled');
+      ageLabel.classList.remove('disabled');
+    }
+  }
+
+  // Status filter buttons (single-select)
+  statusFilter.querySelectorAll('.tag').forEach(btn => {
+    btn.addEventListener('click', () => {
+      // Single-select: deselect all others, select this one
+      statusFilter.querySelectorAll('.tag').forEach(b => b.classList.remove('selected'));
+      btn.classList.add('selected');
+      updateAgeSliderState();
+      applyFilters();
+    });
+  });
 
   // Tag filter groups (multi-select) - now directly on the filter-row elements
   const tagFilters = {
     sex: document.getElementById('filter-sex'),
     continent: document.getElementById('filter-continent'),
-    age: document.getElementById('filter-age'),
     lifestyle: document.getElementById('filter-lifestyle')
   };
 
-  // Single-select tag group for sorting - now directly on filter-row
-  const sortOrderContainer = document.getElementById('sort-order');
+  // Order bar for sorting
+  const orderBar = document.querySelector('.order-bar');
 
   // Get selected values from a tag group
   function getSelectedTags(container) {
@@ -111,10 +363,10 @@ title: All Lives
     return Array.from(selected).map(btn => btn.dataset.value);
   }
 
-  // Get selected value from single-select tag group
-  function getSelectedTag(container) {
-    const selected = container.querySelector('.tag.selected');
-    return selected ? selected.dataset.value : null;
+  // Get current sort order from order bar
+  function getCurrentOrder() {
+    const selected = orderBar.querySelector('.tag.selected');
+    return selected ? selected.dataset.value : 'default';
   }
 
   // Setup tag filter click handlers
@@ -129,21 +381,34 @@ title: All Lives
     });
   }
 
-  // Setup single-select sort buttons
-  function setupSortButtons() {
-    sortOrderContainer.querySelectorAll('.tag').forEach(btn => {
+  // Setup order buttons with toggle behavior
+  function setupOrderButtons() {
+    orderBar.querySelectorAll('.tag').forEach(btn => {
       btn.addEventListener('click', () => {
         const wasSelected = btn.classList.contains('selected');
+        const isToggle = btn.classList.contains('toggle-btn');
         const isRandom = btn.dataset.value === 'random';
 
-        // Remove selected from all
-        sortOrderContainer.querySelectorAll('.tag').forEach(b => b.classList.remove('selected'));
-        // Select clicked one
-        btn.classList.add('selected');
-
-        // Apply sorting (re-randomize if clicking random again)
-        if (isRandom || !wasSelected) {
+        if (isToggle && wasSelected) {
+          // Toggle between the two values and flip the arrow
+          const values = btn.dataset.values.split(',');
+          const currentIndex = values.indexOf(btn.dataset.value);
+          const nextIndex = (currentIndex + 1) % values.length;
+          btn.dataset.value = values[nextIndex];
+          // Flip arrow: ↑ becomes ↓ and vice versa
+          btn.textContent = btn.textContent.includes('↑')
+            ? btn.textContent.replace('↑', '↓')
+            : btn.textContent.replace('↓', '↑');
           applySorting();
+        } else {
+          // Select this button, deselect others
+          orderBar.querySelectorAll('.tag').forEach(b => b.classList.remove('selected'));
+          btn.classList.add('selected');
+
+          // Apply sorting (re-randomize if clicking random again)
+          if (isRandom || !wasSelected) {
+            applySorting();
+          }
         }
       });
     });
@@ -151,40 +416,16 @@ title: All Lives
   const livesList = document.querySelector('.lives-list');
   const articles = Array.from(document.querySelectorAll('.life-preview'));
   const originalOrder = articles.slice(); // Preserve original DOM order
-  const visibleCount = document.getElementById('visible-count');
-  const totalCount = document.getElementById('total-count');
-
-  totalCount.textContent = articles.length;
-
-  // Parse year string like "500 AD", "10000 BC", "1990" into numeric year
-  function parseYear(str) {
-    if (!str || !str.trim()) return null;
-    str = str.trim().toUpperCase();
-
-    // Handle plain numbers (assume AD if positive)
-    const plainNum = parseInt(str, 10);
-    if (!isNaN(plainNum) && str.match(/^-?\d+$/)) {
-      return plainNum;
-    }
-
-    // Handle "X BC" or "X BCE"
-    const bcMatch = str.match(/^(\d+)\s*(BC|BCE)$/i);
-    if (bcMatch) {
-      return -parseInt(bcMatch[1], 10);
-    }
-
-    // Handle "X AD" or "X CE"
-    const adMatch = str.match(/^(\d+)\s*(AD|CE)$/i);
-    if (adMatch) {
-      return parseInt(adMatch[1], 10);
-    }
-
-    return null;
-  }
 
   // Get birth year for sorting
   function getBirthYear(article) {
     return parseInt(article.dataset.birthYear, 10);
+  }
+
+  // Get title for alphabetical sorting
+  function getTitle(article) {
+    const h3 = article.querySelector('h3');
+    return h3 ? h3.textContent.trim().toLowerCase() : '';
   }
 
   // Shuffle array (Fisher-Yates)
@@ -198,14 +439,14 @@ title: All Lives
   }
 
   function applySorting() {
-    const order = getSelectedTag(sortOrderContainer) || 'default';
+    const order = getCurrentOrder();
     let sorted;
 
     if (order === 'default') {
       sorted = originalOrder;
     } else if (order === 'random') {
       sorted = shuffle(articles);
-    } else {
+    } else if (order === 'chronological' || order === 'reverse') {
       sorted = articles.slice().sort((a, b) => {
         const yearA = getBirthYear(a);
         const yearB = getBirthYear(b);
@@ -214,6 +455,15 @@ title: All Lives
         if (isNaN(yearB)) return -1;
         return order === 'chronological' ? yearA - yearB : yearB - yearA;
       });
+    } else if (order === 'alphabetical' || order === 'reverse-alpha') {
+      sorted = articles.slice().sort((a, b) => {
+        const titleA = getTitle(a);
+        const titleB = getTitle(b);
+        const cmp = titleA.localeCompare(titleB);
+        return order === 'alphabetical' ? cmp : -cmp;
+      });
+    } else {
+      sorted = originalOrder;
     }
 
     sorted.forEach(article => livesList.appendChild(article));
@@ -222,26 +472,57 @@ title: All Lives
   function applyFilters() {
     let visible = 0;
 
-    const yearStart = parseYear(filters.yearStart.value);
-    const yearEnd = parseYear(filters.yearEnd.value);
+    // Get year range from slider
+    const { yearMin, yearMax } = updateSliderRange();
+    const yearSliderAtFullRange = parseInt(sliderMin.value) === 0 && parseInt(sliderMax.value) === 100;
+
+    // Get age range from slider
+    const { ageMin, ageMax, sliderAtMax } = updateAgeSliderRange();
+    const ageSliderAtFullRange = parseInt(ageSliderMin.value) === 0 && parseInt(ageSliderMax.value) === 100;
+    const statusValue = getStatusFilter();
 
     // Get selected tag values (empty array means "all")
     const selectedSexes = getSelectedTags(tagFilters.sex);
     const selectedContinents = getSelectedTags(tagFilters.continent);
-    const selectedAges = getSelectedTags(tagFilters.age);
     const selectedLifestyles = getSelectedTags(tagFilters.lifestyle);
 
     articles.forEach(article => {
       const birthYear = parseInt(article.dataset.birthYear, 10);
+      const ageAtDeathStr = article.dataset.ageAtDeath;
+      const isAlive = ageAtDeathStr === 'alive' || ageAtDeathStr === '';
+      const ageAtDeath = isAlive ? null : parseInt(ageAtDeathStr, 10);
 
-      const matchYearStart = yearStart === null || isNaN(birthYear) || birthYear >= yearStart;
-      const matchYearEnd = yearEnd === null || isNaN(birthYear) || birthYear <= yearEnd;
+      const matchYearStart = yearSliderAtFullRange || isNaN(birthYear) || birthYear >= yearMin;
+      const matchYearEnd = yearSliderAtFullRange || isNaN(birthYear) || birthYear <= yearMax;
+
+      // Status and age filter logic:
+      // - "living": show only alive people (age slider ignored)
+      // - "deceased": show only dead people matching age range
+      // - "all": show everyone (alive always passes, dead must match age range if slider moved)
+      let matchStatus;
+      if (statusValue === 'living') {
+        matchStatus = isAlive;
+      } else if (statusValue === 'deceased') {
+        if (ageSliderAtFullRange) {
+          matchStatus = !isAlive;
+        } else {
+          matchStatus = !isAlive && ageAtDeath >= ageMin && (sliderAtMax || ageAtDeath <= ageMax);
+        }
+      } else {
+        // "all"
+        if (ageSliderAtFullRange) {
+          matchStatus = true;
+        } else {
+          // Alive always passes, dead must match age range
+          matchStatus = isAlive || (ageAtDeath >= ageMin && (sliderAtMax || ageAtDeath <= ageMax));
+        }
+      }
+
       const matchSex = selectedSexes.length === 0 || selectedSexes.includes(article.dataset.sex);
       const matchContinent = selectedContinents.length === 0 || selectedContinents.includes(article.dataset.continent);
-      const matchAge = selectedAges.length === 0 || selectedAges.includes(article.dataset.age);
       const matchLifestyle = selectedLifestyles.length === 0 || selectedLifestyles.includes(article.dataset.lifestyle);
 
-      if (matchYearStart && matchYearEnd && matchContinent && matchAge && matchSex && matchLifestyle) {
+      if (matchYearStart && matchYearEnd && matchStatus && matchContinent && matchSex && matchLifestyle) {
         article.style.display = '';
         visible++;
       } else {
@@ -249,37 +530,68 @@ title: All Lives
       }
     });
 
-    visibleCount.textContent = visible;
+    updateFiltersSummary(visible, articles.length);
+  }
+
+  function updateFiltersSummary(visible, total) {
+    if (visible === total) {
+      filtersSummary.textContent = `Showing all ${total} lives`;
+    } else {
+      filtersSummary.textContent = `Showing ${visible} of ${total} lives`;
+    }
   }
 
   // Initial state
   applyFilters();
 
-  // Add event listeners for text input filters
-  Object.values(filters).forEach(filter => {
-    filter.addEventListener('input', applyFilters);
-  });
+  // Add event listeners for year sliders
+  sliderMin.addEventListener('input', applyFilters);
+  sliderMax.addEventListener('input', applyFilters);
+
+  // Add event listeners for age sliders
+  ageSliderMin.addEventListener('input', applyFilters);
+  ageSliderMax.addEventListener('input', applyFilters);
 
   // Setup tag filter click handlers
   setupTagFilters();
 
-  // Setup sort button click handlers
-  setupSortButtons();
+  // Setup order button click handlers
+  setupOrderButtons();
 
-  // Reset button
-  document.getElementById('reset-filters').addEventListener('click', () => {
-    // Clear text inputs
-    filters.yearStart.value = '';
-    filters.yearEnd.value = '';
+  // Reset button (stop propagation so it doesn't toggle filters)
+  document.getElementById('reset-filters').addEventListener('click', (e) => {
+    e.stopPropagation();
+    // Reset year sliders to full range
+    sliderMin.value = 0;
+    sliderMax.value = 100;
+    updateSliderRange();
+
+    // Reset age sliders to full range
+    ageSliderMin.value = 0;
+    ageSliderMax.value = 100;
+    updateAgeSliderRange();
+
+    // Reset status filter to "All"
+    statusFilter.querySelectorAll('.tag').forEach(btn => btn.classList.remove('selected'));
+    statusFilter.querySelector('[data-value="all"]').classList.add('selected');
+    updateAgeSliderState();
 
     // Deselect all filter tags
     Object.values(tagFilters).forEach(container => {
       container.querySelectorAll('.tag.selected').forEach(btn => btn.classList.remove('selected'));
     });
 
-    // Reset sort to default
-    sortOrderContainer.querySelectorAll('.tag').forEach(btn => btn.classList.remove('selected'));
-    sortOrderContainer.querySelector('[data-value="default"]').classList.add('selected');
+    // Reset order to default and restore toggle button arrows
+    orderBar.querySelectorAll('.tag').forEach(btn => {
+      btn.classList.remove('selected');
+      // Reset toggle buttons to their first state (↑)
+      if (btn.classList.contains('toggle-btn')) {
+        const values = btn.dataset.values.split(',');
+        btn.dataset.value = values[0];
+        btn.textContent = btn.textContent.replace('↓', '↑');
+      }
+    });
+    orderBar.querySelector('[data-value="default"]').classList.add('selected');
 
     // Apply changes
     applySorting();
