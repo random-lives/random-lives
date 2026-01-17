@@ -134,7 +134,7 @@ Her father, Ranga, worked for wages in other men's fields. The household belonge
 
 Venkamma's first pregnancy had gone well. When labor started, Timmamma sent for Basavva the dai. The women heated water and laid out clean cloth. Venkamma labored through the night while Timmamma and Basavva worked around her. Ranga and Timma waited outside in the dark. When Nagamma came, she was dark and wet from the birth, but she did not cry. Basavva rubbed her back with oil, cleared her mouth with a finger, and tugged gently at her feet. Timmamma held a small brass lamp near the baby's face. No breath came. Venkamma reached for her daughter.
 
-Before sunset, Ranga dug a small pit beyond the houses where the fields began. Timmamma wrapped Nagamma in cloth. They placed her in the earth and set rice and ghee beside the grave before smoothing it closed. No priest came for an infant who had not breathed. Venkamma stayed inside. Two years later she gave birth to a daughter who lived.
+Before sunset, Ranga dug a small pit beyond the houses where the fields began. Timmamma wrapped Nagamma in cloth. They placed her in the earth and set rice and ghee beside the grave before smoothing it closed. No priest came for an infant who had not breathed.
 
 <!--
 **Review (January 2026)**

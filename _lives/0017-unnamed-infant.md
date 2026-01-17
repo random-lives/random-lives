@@ -1,6 +1,6 @@
 ---
 layout: life
-title: "Person 0017 (unnamed)"
+title: "Unnamed Infant"
 birth_year: "525 AD"
 birth_year_numeric: 525
 death_year: "525 AD"

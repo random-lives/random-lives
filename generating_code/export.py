@@ -139,7 +139,7 @@ def person_to_markdown(person, index):
     if person.name:
         name = person.name
     elif person.naming_category == 'unnamed':
-        name = f'Person {index:04d} (unnamed)'
+        name = 'Unnamed Infant'
     else:
         name = f'Person {index:04d}'
 
