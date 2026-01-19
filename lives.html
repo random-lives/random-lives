@@ -52,8 +52,8 @@ title: All Lives
       <div class="age-slider-container" id="age-slider-container">
         <div class="age-slider-track" id="age-slider-track">
           <div class="age-slider-range" id="age-slider-range"></div>
-          <input type="range" class="age-slider" id="age-slider-min" min="0" max="100" value="0">
-          <input type="range" class="age-slider" id="age-slider-max" min="0" max="100" value="100">
+          <input type="range" class="age-slider" id="age-slider-min" min="0" max="81" value="0" step="1">
+          <input type="range" class="age-slider" id="age-slider-max" min="0" max="81" value="81" step="1">
         </div>
         <div class="age-slider-labels">
           <span id="age-label-min">0</span>
@@ -264,10 +264,10 @@ title: All Lives
   const ageLabel = document.querySelector('.filter-label.age-label');
 
   // Age slider: 0-80 linear, then 80+ at the end
-  // Slider 0-100 maps to ages 0-80, with 100 meaning "80+"
+  // Slider 0-81 maps directly to ages 0-80, with 81 meaning "80+"
   function sliderToAge(sliderVal) {
-    // Linear mapping: slider 0-100 -> age 0-80
-    return Math.round(sliderVal * 0.8);
+    // Direct 1:1 mapping: slider value = age (0-80), 81 = "80+"
+    return sliderVal;
   }
 
   function updateAgeSliderRange() {
@@ -284,17 +284,19 @@ title: All Lives
       maxVal = minVal;
     }
 
-    // Update range highlight
-    ageSliderRange.style.left = minVal + '%';
-    ageSliderRange.style.width = (maxVal - minVal) + '%';
+    // Update range highlight (convert to percentage based on max of 81)
+    const minPercent = (minVal / 81) * 100;
+    const maxPercent = (maxVal / 81) * 100;
+    ageSliderRange.style.left = minPercent + '%';
+    ageSliderRange.style.width = (maxPercent - minPercent) + '%';
 
     // Update labels
     const ageMin = sliderToAge(minVal);
     const ageMax = sliderToAge(maxVal);
     ageLabelMin.textContent = ageMin;
-    ageLabelMax.textContent = maxVal === 100 ? '80+' : ageMax;
+    ageLabelMax.textContent = maxVal === 81 ? '80+' : ageMax;
 
-    return { ageMin, ageMax, sliderAtMax: maxVal === 100 };
+    return { ageMin, ageMax, sliderAtMax: maxVal === 81 };
   }
 
   // Initialize age slider range display
@@ -306,14 +308,14 @@ title: All Lives
     // Don't respond if disabled
     if (ageSliderContainer.classList.contains('disabled')) return;
     const rect = ageSliderTrack.getBoundingClientRect();
-    const clickPercent = Math.round(((e.clientX - rect.left) / rect.width) * 100);
+    const clickValue = Math.round(((e.clientX - rect.left) / rect.width) * 81);
     const minVal = parseInt(ageSliderMin.value);
     const maxVal = parseInt(ageSliderMax.value);
     // Move whichever slider is closer
-    if (Math.abs(clickPercent - minVal) <= Math.abs(clickPercent - maxVal)) {
-      ageSliderMin.value = clickPercent;
+    if (Math.abs(clickValue - minVal) <= Math.abs(clickValue - maxVal)) {
+      ageSliderMin.value = clickValue;
     } else {
-      ageSliderMax.value = clickPercent;
+      ageSliderMax.value = clickValue;
     }
     applyFilters();
   });
@@ -478,7 +480,7 @@ title: All Lives
 
     // Get age range from slider
     const { ageMin, ageMax, sliderAtMax } = updateAgeSliderRange();
-    const ageSliderAtFullRange = parseInt(ageSliderMin.value) === 0 && parseInt(ageSliderMax.value) === 100;
+    const ageSliderAtFullRange = parseInt(ageSliderMin.value) === 0 && parseInt(ageSliderMax.value) === 81;
     const statusValue = getStatusFilter();
 
     // Get selected tag values (empty array means "all")
@@ -568,7 +570,7 @@ title: All Lives
 
     // Reset age sliders to full range
     ageSliderMin.value = 0;
-    ageSliderMax.value = 100;
+    ageSliderMax.value = 81;
     updateAgeSliderRange();
 
     // Reset status filter to "All"

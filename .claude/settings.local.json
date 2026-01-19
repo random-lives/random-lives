@@ -32,7 +32,24 @@
       "Skill(push:*)",
       "Bash(git rm:*)",
       "mcp__Claude_in_Chrome__tabs_context_mcp",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "Bash(lsof:*)",
+      "Bash(__NEW_LINE_ac9e4b04c9de8550__ echo \"=== Diarrheal/GI diseases ===\")",
+      "Bash(__NEW_LINE_4cf5f42dd03d6bda__ echo \"=== Birth complications \\(asphyxia, trauma, stillbirth\\) ===\")",
+      "Bash(__NEW_LINE_dd0dc5ad658009d1__ echo \"=== Prematurity/low birth weight ===\")",
+      "Bash(__NEW_LINE_745a57682b0dd8a2__ echo \"=== Neonatal infection/sepsis ===\")",
+      "Bash(__NEW_LINE_9c5177c4e5622192__ echo \"=== Febrile/malaria-like illness ===\")",
+      "Bash(__NEW_LINE_9c83c0e07e1c962f__ echo \"=== Accidents/injuries ===\")",
+      "Bash(__NEW_LINE_b2efae679d236219__ echo \"=== Violence/war ===\")",
+      "Bash(__NEW_LINE_1d7903c74626a955__ echo \"=== Age-related/frailty ===\")",
+      "Bash(__NEW_LINE_5e048eaac0935cbf__ echo \"=== Maternal/childbirth ===\")",
+      "Bash(__NEW_LINE_5f849f11683ac861__ echo \"=== Cardiovascular \\(heart, stroke\\) ===\")",
+      "Bash(__NEW_LINE_7acc7563dc3fff14__ echo \"=== Measles/smallpox epidemics ===\")",
+      "Bash(__NEW_LINE_3677d53d01f64379__ echo \"=== Congenital defects ===\")",
+      "Bash(__NEW_LINE_9a496fa96caeb448__ echo \"=== Cancer ===\")",
+      "Bash(__NEW_LINE_8fc2f624b517a94c__ echo \"=== Starvation/malnutrition ===\")",
+      "Bash(__NEW_LINE_57355729d4123c2e__ echo \"=== Other/chronic ===\")",
+      "Bash(__NEW_LINE_dc4e91f493ba2bc8__ echo \"=== Suicide ===\")"
     ],
     "deny": []
   }

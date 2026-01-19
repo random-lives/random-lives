@@ -802,6 +802,31 @@ nav a:hover {
   }
 }
 
+/* About page buttons */
+.about-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 48px;
+  flex-wrap: wrap;
+}
+
+.about-buttons .button {
+  display: inline-block;
+  padding: 12px 28px;
+  background: transparent;
+  color: #000;
+  text-decoration: none;
+  border: 1px solid #000;
+  font-size: 1rem;
+  transition: all 0.15s ease;
+}
+
+.about-buttons .button:hover {
+  background: #000;
+  color: #fff;
+}
+
 /* Footer */
 footer {
   margin-top: 60px;
