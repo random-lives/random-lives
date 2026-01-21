@@ -479,9 +479,9 @@ The losses piled up. Baba Kartar Singh had died back in 1968, before the childre
 
 In 1983, with input costs rising and water turns tight, he began cutting corners. He took water outside the allotted time when he thought no one was watching and sent a boy to cut fodder from common land. It was the sort of petty rule-breaking that often stayed within village handling—warnings, arguments, a shouted threat at the well. He did it more than once, especially after a bad week.
 
-A few years later, in 1985, someone stole from him. A sack of fertiliser and a metal part from near the khuh vanished overnight. He walked the field edge at dawn, swearing under his breath, then went to the market and paid extra to replace what he needed in the middle of the season. He carried the purchase home himself, refusing help, and he brought his anger into the courtyard. That theft became one of his justifications whenever a brother accused him of taking too much water.
+A few years later, in 1985, someone stole from him. A sack of fertiliser and a metal part from near the khuh vanished overnight. He walked the field edge at dawn, swearing under his breath, then went to the market and paid extra to replace what he needed in the middle of the season. He carried the purchase home himself, refusing help, and spent the evening complaining to anyone who would listen. That theft became one of his justifications whenever a brother accused him of taking too much water.
 
-Debt became the main problem in 1990. Crop prices dipped while expenses rose: clinic bills from Dr. Mehta in the nearby town, household obligations, and money spent at the dhaba. He borrowed on high interest through the mandi system, with Rakesh Kumar, a commission-agent clerk, doing the calculations on paper Harcharan could not fully follow. When repayment dates arrived, he argued, begged for time, and then shouted at home. Baljit Singh wanted strict control of spending. Avtar Singh, the more disciplined younger brother, talked about planning and records. Dalbir Kaur, married out but still close to the family, passed news between households and sometimes sent quiet help through her husband's earnings. Harcharan insisted he had everything in his head, then forgot what he had promised.
+Debt became the main problem in 1990. Crop prices dipped while expenses rose: clinic bills from Dr. Mehta in the nearby town, wedding contributions for relatives, repairs to the house, and money spent at the dhaba. He borrowed on high interest through the mandi system, with Rakesh Kumar, a commission-agent clerk, doing the calculations on paper Harcharan could not fully follow. When repayment dates arrived, he argued, begged for time, and then shouted at home. Baljit Singh wanted strict control of spending. Avtar Singh, the more disciplined younger brother, talked about planning and records. Dalbir Kaur, married out but still close to the family, passed news between households and sometimes sent quiet help through her husband's earnings. Harcharan insisted he had everything in his head, then forgot what he had promised.
 
 The early 1990s also carried Punjab’s atmosphere of checkpoints and fear. He kept trips to town short when news of violence spread. Some evenings he stayed home, listening to the radio, but the strain still drove him back to drink. In 1996 the family mortgaged part of the land to steady the situation. The dispute over it ran through the household for years.
 
@@ -494,7 +494,7 @@ When COVID-19 arrived, he stayed close to home. The gurdwara langar stopped for 
 By late 2025 Harcharan is eighty. He sits on a woven cot in the courtyard after the morning tea, rubbing oil into his knees before he tries to walk. He reads a simple headline when someone hands him a paper, then passes it on. Some days he helps with small tasks—sorting seed, watching a grandchild tie a bundle—then he drifts into conversation with whoever passes the gate. He still visits the derā when a relative can take him, and he still goes to the gurdwara on the big days, keeping his head covered and his talk low, letting others handle the accounts.
 
 <!--
-**Review (January 2026)**
+**Review 1 (January 2026)**
 
 **Issues found:**
 - Sibling count confusing: "Ten living children in all, though two had died before Harcharan was born" - if two died before, they weren't living; the family had eleven children total
@@ -507,4 +507,24 @@ By late 2025 Harcharan is eighty. He sits on a woven cot in the courtyard after 
 - Changed "Five years later, in 1985" to "A few years later, in 1985"
 - Changed "The household treated it as a wound that never closed" to "The household never stopped talking about her"
 - Changed "money that bled away at the dhaba" to "money spent at the dhaba"
+
+---
+
+**Review 2 (January 2026)**
+
+**Issues found:**
+- [Pass 1] Baba Kartar Singh's death (1968) mentioned after 1973 events without clear retrospective framing
+- [Pass 3] Dense sibling list with all birth years in one paragraph (unreadable)
+- [Pass 7] Ranjit Kaur's death thrown in at end of paragraph about 1965 war/Green Revolution
+- [Pass 7] Paragraph about Gurpreet's death ends with foreshadowing about drinking that belongs in next section
+- [Pass 9] "household obligations" too vague in debt paragraph
+- [Pass 13] "he brought his anger into the courtyard" - slightly figurative
+
+**Changes made:**
+- Reworded grandfather death: "Baba Kartar Singh had died back in 1968, before the children started coming"
+- Rewrote sibling introduction: removed birth-year list, grouped by brothers/sisters more naturally
+- Split Ranjit Kaur's death into its own paragraph
+- Removed "and she watched the men's drinking more sharply" from son's death paragraph (alcohol gets own section next)
+- Changed "household obligations" to "wedding contributions for relatives, repairs to the house"
+- Changed "he brought his anger into the courtyard" to "spent the evening complaining to anyone who would listen"
 -->

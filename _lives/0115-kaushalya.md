@@ -146,16 +146,34 @@ continent: "Asia"
 # - M
 ---
 
-Kaushalya was born on June 20, 1966, in Kotra Lehal in Lehra tahsil, Sangrur district, Punjab. Her parents, Suresh and Kamla, were Punjabi-speaking Hindus in the Malwa countryside. They lived alone with their children, without grandparents or other relatives in the house. Suresh worked a small plot of land with uncertain returns; Kamla kept the house and cooked.
+Kaushalya was born on June 20, 1966, in Kotra Lehal in Lehra tahsil, Sangrur district, Punjab. Her parents, Suresh and Kamla, were Punjabi-speaking Hindus in the Malwa countryside. They lived on their own, without grandparents or other relatives in the house. Suresh worked a small plot of land, sometimes his own, sometimes leased; Kamla kept the house and cooked.
 
-Their courtyard held the ordinary things: a clay chulha, metal lotas, sacks for grain, and a small wall shelf where Kamla kept a picture of Lakshmi and a tin for sindoor. On auspicious days she lit a diya with mustard oil, set down a pinch of rice and a few marigold petals, and touched Kaushalya's forehead with a dot before feeding her a bit of prasad.
+Their courtyard had a clay chulha, metal lotas, sacks for grain, and a small wall shelf where Kamla kept a picture of Lakshmi and a tin for sindoor. On auspicious days she lit a diya with mustard oil, set down a pinch of rice and a few marigold petals, and touched Kaushalya's forehead with a dot before feeding her a bit of prasad.
 
 Kaushalya was a quiet infant who fussed little. She learned to walk in early 1967, took her first steps across the packed-earth floor of the courtyard. When visitors came, she stayed close to her mother, leaning against Kamla's leg and watching faces. If spoken to, she answered in a small voice.
 
 By the hot season of 1968 she walked with quick, careful steps and stopped to examine whatever caught her eye. At the handpump she squatted beside Kamla, ran wet fingers along the ridges of a bucket, and repeated words under her breath—pānī, lotā—adding her own sounds until Kamla corrected her. She liked putting things back where she had found them: her small sandals near the doorway, a cup near the grain tin. If someone moved them, she argued, then went quiet and fixed it.
 
-Rakesh was born in 1968. In mid-1969, Kaushalya was given small tasks: bring a cloth, fetch a cup. She patted her brother’s blanket flat with her whole palm, then sat apart, watching him and returning to “help” when asked.
+Rakesh was born late in 1968. By the following summer, when he was crawling and Kaushalya was three, she was given small tasks: bring a cloth, fetch a cup. She patted her brother's blanket flat with her whole palm, then sat apart and watched him. When asked, she returned to "help."
 
 On December 13, 1969, she developed severe diarrhea. Kamla tried to keep her drinking water with salt and sugar, but Kaushalya became limp and stopped keeping it down. Suresh carried her to a local practitioner, and she died that day.
 
 The family bathed her body, wrapped it in clean cloth, and cremated her on a wood pyre outside the village. Kamla placed a small handful of flowers near her before the fire was lit.
+
+<!--
+**Issues found:**
+- [Pass 1] Gap in coverage between birth (June 1966) and "hot season of 1968" - first year not described
+- [Pass 12] "nuclear household" is sociological jargon
+- [Pass 14] "lived alone with their children" confusing since Kaushalya was the only child at birth
+- [Pass 14] "uncertain returns" is abstract/economic language
+- [Pass 14] "Their courtyard held the ordinary things" is an artificial framing device
+- [Pass 14] Rakesh paragraph transition was abrupt ("In mid-1969")
+
+**Changes made:**
+- Added paragraph about Kaushalya's first year (quiet infant, learned to walk early 1967, behavior with visitors)
+- Replaced "in a nuclear household that lived off Suresh's small and uncertain cultivation and Kamla's domestic work" with concrete description of household composition and work
+- Changed "lived alone with their children" to "lived on their own"
+- Changed "uncertain returns" to "sometimes his own, sometimes leased"
+- Changed "Their courtyard held the ordinary things:" to "Their courtyard had"
+- Clarified Rakesh paragraph: "born late in 1968" and "By the following summer, when he was crawling and Kaushalya was three"
+-->

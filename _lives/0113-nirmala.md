@@ -310,7 +310,7 @@ She went to primary school and became basically literate. She could read short p
 
 As she grew, her daily routine became fixed. She rose early, swept the floor, and helped with the puja. Savitri set down a small offering—jaggery or banana—rang the bell, and asked Nirmala to cup her hands for the prasad. On Fridays, Savitri paid extra attention to Lakshmi, wiping the threshold and drawing a simple chalk design near the doorway. During Navratri, the house smelled of incense and frying oil, and Nirmala took charge of serving guests tea with sugar and cardamom.
 
-By the early 1960s, Asha married and began to come back with stories from her in-laws’ home: new recipes, new rules, new expectations about gifts and visits. Those visits turned the household into something larger than it had been. Nirmala learned how to arrange bedding on the floor for extra people, how to cook one more pot of dal without thinning it too far, how to keep conversations polite when opinions clashed. She laughed easily, especially when Rashid Chacha, an older shopkeeper nearby, teased her about her careful bargaining—“Behenji, you will count the peas one by one.” She answered in his language when it suited her, and he enjoyed that.
+Shanti married first, to a man with a small cloth business in a nearby neighborhood. By the early 1960s, Asha married as well and began to come back with stories from her in-laws' home: new recipes, new rules, new expectations about gifts and visits. Those visits turned the household into something larger than it had been. Nirmala learned how to arrange bedding on the floor for extra people, how to cook one more pot of dal without thinning it too far, how to keep conversations polite when opinions clashed. She laughed easily, especially when Rashid Chacha, an older shopkeeper nearby, teased her about her careful bargaining—“Behenji, you will count the peas one by one.” She answered in his language when it suited her, and he enjoyed that.
 
 Marriage proposals came for Nirmala as well, and meetings happened with families who asked about her skills and her dowry. She sat with a covered head and served tea. Shanti wanted a secure match; Savitri wanted a home that would treat her gently. Nirmala listened, agreed, and then returned to the kitchen, where the work felt controllable. One family wanted a higher dowry than Ram Sahay could provide; another withdrew when they learned there was no property. A third match fell through when the groom's family found someone with more schooling. By the time Nirmala reached her mid-twenties, the conversations grew quieter, and she did not push for more. As Rekha and Sarla grew into young women, Nirmala became the one who kept track of their needs—school fees, cloth for blouses, the right oil for hair, which festivals required new bangles and which could be managed with old ones.
 
@@ -325,3 +325,23 @@ After the mourning period, Nirmala's days continued in the same pattern: cooking
 Nirmala’s own cough began as something the family treated as seasonal. It did not go away. She kept working, taking breaks only to rinse her mouth and return to stirring the pot. Dr. Verma at a local clinic examined her and prescribed medicines, and she followed instructions carefully. The illness continued, and by 1974 the household adjusted chores so she did less heavy lifting. She still insisted on checking ration dates and counting money before a market trip.
 
 On January 11, 1975, Nirmala died in Lucknow from tuberculosis. Her family performed the Hindu rites quickly. Her body was washed, wrapped in a plain cloth, and taken for cremation; after the cremation, they collected the ashes and completed the remaining rituals, placing offerings at home before the shrine she had tended for years.
+
+<!--
+**Review changelog (2026-01-20):**
+
+**Issues found:**
+- [Pass 2] "At least one married sister" not specified - which sister moved back?
+- [Pass 6] Marriage proposals "dragged on and then fell apart" with no explanation of why
+- [Pass 7] Sushila Devi appeared abruptly after Savitri's death
+- [Pass 8] Three consecutive paragraphs starting with "In [year]" pattern
+- [Pass 9] "The war years were years of" - awkward repetition
+- [Pass 14] Shanti's marriage mentioned late without earlier foreshadowing
+
+**Changes made:**
+- Specified that Asha moved back with children, Shanti visited and contributed money
+- Added specific reasons for failed marriage matches (dowry too high, no property, groom's family found more schooling)
+- Added transition paragraph after Savitri's death with mourning period mention
+- Varied time markers: "In 1965" → "The 1965 war"; "in 1968" → "Two years later"
+- Simplified to "During the war, talk turned to prices and shortages"
+- Added Shanti's marriage before Asha's to foreshadow later mention
+-->

@@ -408,4 +408,22 @@ By then her siblings' lives had settled into patterns. Joseph ran the family far
 
 By the early 1970s the children were grown and gone. Frances and Walter lived as a couple again in a quiet place, keeping the house in order in their uneven way—Walter steady, Frances leaving projects half finished and then completing them in a rush when company was expected. On June 2, 1974, she died at 63 of natural causes without a single clear explanation offered by those around her.
 
-A Catholic funeral Mass was held, and her body was buried in a cemetery plot with a simple marker bearing “Frances Mary.” A rosary was placed in her hands before the coffin was closed.
+A Catholic funeral Mass was held, and her body was buried in a cemetery plot with a simple marker bearing "Frances Mary." A rosary was placed in her hands before the coffin was closed.
+
+---
+
+**Issues found:**
+- [Pass 6] Skimming period mentioned but end point unclear—reader left wondering when/why it stopped
+- [Pass 7] Vaccines/antibiotics paragraph felt disconnected from Frances's life, more like historical aside
+- [Pass 7] Parents' deaths paragraph too dense, combining Patrick (1958), Katherine (1966), and all siblings' fates
+- [Pass 13] "rope of routines" metaphor in opening paragraph
+- [Pass 13] "in Evelyn's shadow" cliché in sibling introduction
+- [Pass 14] Robert's death needed more concrete resolution later in life
+
+**Changes made:**
+- Added explicit endpoint for skimming: "By 1943, with Walter's job steadier and wartime wages higher, she stopped. The extra money was no longer worth the fear."
+- Rewrote vaccines/antibiotics paragraph to focus on Frances's children getting polio shots and her one conversation with Patricia about Robert
+- Split parents' deaths into three paragraphs: Patrick's death, Katherine's death, siblings' lives by the late 1960s
+- Changed "ran the house and yard with a rope of routines" to "ran the house and yard on a schedule that never changed"
+- Changed "grew up in Evelyn's shadow" to "spent her early childhood following Evelyn, imitating her"
+- Made siblings' later lives more concrete (Joseph ran the farm, Helen tracked birthdays, Agnes attended Mass weekly, Bernice wore nice clothes)

@@ -415,7 +415,7 @@ Marriage negotiations began before Nabira’s seventeenth year. Lukasa spoke wit
 
 She had her first son, Matobo, in 1748. Four years later, Lwanga was born. Nabira handled nursing and weeding and pounding and still made time to brew. Her beer was thick and predictable. She disliked the chatter that came with brewing days, yet she liked the control of it: who got served first, who drank from which gourd, who owed her a basket of dried fish or a strip of barkcloth. She sat slightly apart while people drank, listening and correcting. If someone complained about the measure, she would lift the gourd and show the line where it had been filled, then tell them to pay or leave.
 
-A neighbor woman named Mbira brewed too, and the two of them circled each other for years. Mbira teased; Nabira answered with a flat stare and a sharper price. Still, they sometimes worked side by side, stirring and watching the foam, and once they laughed together when a young man tried to impress them by swallowing too fast and vomited into the dirt behind the huts. Nabira laughed only once and then ordered the mess cleaned.
+A neighbor woman named Mbira brewed too, and the two of them competed for customers. Mbira teased; Nabira answered with a flat stare and a sharper price. Still, they sometimes worked side by side, stirring and watching the foam, and once they laughed together when a young man tried to impress them by swallowing too fast and vomited into the dirt behind the huts. Nabira laughed only once and then ordered the mess cleaned.
 
 In 1758 Nabira carried another pregnancy to term. The boy, Kamaso, died within days. She did not wail in public. She sent Lwanga to fetch a healer, then to fetch her mother. Nakato arrived and took Nabira by the shoulder and led her to the stream shrine. They poured beer onto the ground, set down a small piece of goat fat, and tied fresh fibers to a forked branch. Nabira followed every instruction and corrected Kasolo's sister when she tried to move the offering closer to the water.
 
@@ -425,20 +425,42 @@ Lukasa died in 1762. Nabira returned for the burial and argued with an uncle ove
 
 Her brewing trade expanded in the mid-1760s. Visitors came from farther along the footpaths, some with iron tools and salt, some carrying news of raids and alliances shifting along the corridor between the lake lowlands and the mountains. Nabira listened, did the math of it, and stocked dried food for exchange when others spent theirs.
 
-In 1764 a thief began testing her household. It started with small disappearances during brewing days—dried strips of food, a gourd missing from the stack. In 1765, during a crowded afternoon, someone slipped behind the cooking area and took a bundle meant for trade: dried food and a small iron tool. Nabira accused a visiting household loudly, naming a man she had seen near the hearth. An elder tried to calm it and demanded proof. None came. The quarrel lasted through the next market gatherings. Namusa, visiting from Nabira's natal side, urged her to let it go. Nabira refused, and for months she served some people last and measured their gourds with extra care.
+In 1764 a thief began testing her household. It started with small disappearances during brewing days—dried strips of food, a gourd missing from the stack. In 1765, during a crowded afternoon, someone slipped behind the cooking area and took a bundle meant for trade: dried food and a small iron tool. Nabira accused a visiting household loudly, naming a man she had seen near the hearth. An elder tried to calm it and demanded proof. None came. The quarrel lasted through the next market gatherings. Namusa, visiting from her parents' settlement, urged her to let it go. Nabira refused, and for months she served some people last and measured their gourds with extra care.
 
-Kasolo fell ill in 1768 and died before the next planting. Nabira managed the household through the first weeks after, then his relatives began shifting decisions away from her. Matobo was twenty and eager to argue; Lwanga stayed quieter but watched where the stores went. Nabira did not accept being pushed aside. She returned to her natal ties, and Kasima helped arrange a new marriage.
+Kasolo fell ill in 1768 and died before the next planting. Nabira managed the household through the first weeks after, then his relatives began shifting decisions away from her. Matobo was twenty and eager to argue; Lwanga stayed quieter but watched where the stores went. Nabira did not accept being pushed aside. She went to her sisters, and Kasima helped arrange a new marriage.
 
 She married Kagole in 1770. His household had fewer reserves, but his relatives were steadier, and he treated Nabira as a partner in planning rather than an inconvenience. Nabira set her rules from the first week: where the granary would be built, which garden would be planted first, and how much beer would be kept back for offerings before any was sold. Kagole agreed.
 
 A year into the marriage, raiding intensified. News came first through traveling traders, then through frightened relatives arriving at night. In 1771 armed tension reached their area. Nabira buried small stores in sealed pots and wrapped tools in leaves to hide them under the floor. When word came that a party was moving through, they fled to relatives in a more defensible place. Nabira sat awake there, counting mouths and rationing flour. Weeks later they returned. Several huts had burned and granaries had been emptied. Kagole wanted to confront a neighboring settlement. Nabira stopped him and sent Matobo to speak instead, because Matobo could threaten without making enemies he could not later trade with.
 
-The bouts of fever and heavy fatigue that had begun in Kasolo's final years continued through the 1770s. Some weeks she could weed and carry water; other weeks she could not rise early enough to reach the gardens before the sun. Namusa came to help during the worst stretches, grinding flour and watching the fire while Nabira slept. She consulted Senga, the ritual specialist at a nearby shrine place, bringing beer, a chicken, and ground grain. Senga traced marks in ash and told her which offerings to repeat and which paths to avoid. Nabira obeyed with exactness and demanded the same from everyone in the household.
+The bouts of fever and heavy fatigue that had begun in Kasolo's final years continued through the 1770s. Some weeks she could weed and carry water; other weeks she could not rise early enough to reach the gardens before the sun. Namusa came to help during the worst stretches, grinding flour and watching the fire while Nabira slept. She consulted Senga, the ritual specialist at a nearby shrine, bringing beer, a chicken, and ground grain. Senga traced marks in ash and said the illness came from a path Nabira had crossed during the displacement, a place that had been angered by the burning. He told her which offerings to make and which routes to avoid. Nabira followed every instruction and made the household do the same.
 
 A severe episode in 1775 left her with lasting pain and weakness in one leg and hip. She cut a sturdy stick and used it every day after. She stopped walking long distances and shifted to tasks close to home—sorting grain, directing the fire, tasting the mash, keeping count of what was owed. Lwanga took on heavier carrying and fieldwork. Nabira repaid him in her way, by making sure his household portion was never short and by backing him in disputes with in-laws.
 
-Muboni died in 1776. She had been the one who checked on the younger sisters after Nakato's death, who kept the peace when Nabira's sharp words threatened to cut too deep. Namusa and Nyaboko buried her near their mother's people, and Nabira sent beer and a goat for the funeral but did not make the walk.
+Muboni died in 1776. She had been the one who checked on the younger sisters after Nakato's death, who smoothed things over when Nabira's bluntness caused offense. Namusa and Nyaboko buried her near their mother's people, and Nabira sent beer and a goat for the funeral but did not make the walk.
 
-She took quiet pleasure in the first cup of fresh beer at dusk, before visitors arrived, sitting on a low stool where she could see the path. She enjoyed roasted plantain when it was browned and dry at the edges. Certain noises irritated her: children scraping gourds too hard, women laughing loudly during work, men dragging arguments into the brewing yard. Nyaboko, grown and quick with words, sometimes soothed those edges, turning Nabira’s sharp refusals into phrases others could accept.
+She took quiet pleasure in the first cup of fresh beer at dusk, before visitors arrived, sitting on a low stool where she could see the path. She enjoyed roasted plantain when it was browned and dry at the edges. Certain noises irritated her: children scraping gourds too hard, women laughing loudly during work, men dragging arguments into the brewing yard. Nyaboko, grown and quick with words, sometimes stepped in after Nabira refused someone, rephrasing the refusal in a way the other person could accept.
 
-In November 1781, near the end of the rains, Nabira was struck by a sudden fever that moved fast. Kagole and her sisters brought water and herbs and kept the hut shaded. Nothing held. She died on the twenty-fifth day of the month, with Kagole in the household. Her body was wrapped and carried to be placed in the family’s burial ground near the settlement, and a small pot of beer and a pinch of grain were set at the stream shrine before the return to the gardens.
+In November 1781, near the end of the rains, Nabira was struck by a sudden fever that moved fast. Kagole and her sisters brought water and herbs and kept the hut shaded. Nothing held. She died on the twenty-fifth day of the month, with Kagole in the household. Her body was wrapped and carried to be placed in the family's burial ground near the settlement, and a small pot of beer and a pinch of grain were set at the stream shrine before the return to the gardens.
+
+<!--
+**Review changelog (2026-01-20):**
+
+**Issues found:**
+- [Pass 4] Banyira and Kenge named for single appearances where names unnecessary
+- [Pass 5] Muboni's death given only one sentence despite her narrative importance
+- [Pass 6] Remarriage mechanism unclear - who brokered it?
+- [Pass 7] Brewing expansion and theft incident in same long paragraph
+- [Pass 12] "natal ties" and "natal side" are jargon-y
+- [Pass 13] "circled each other," "threatened to cut too deep," "soothed those edges" are figurative
+- [Pass 14] Senga consultation felt formulaic - no consequence or specificity
+
+**Changes made:**
+- Removed names for single-use characters: "Banyira" → "traveling traders", "Kenge" → "an elder"
+- Expanded Muboni's death into full paragraph explaining her role and Nabira's response
+- Clarified that Kasima helped arrange the remarriage
+- Split brewing expansion and theft into separate paragraphs
+- Changed "natal ties" → "her sisters", "natal side" → "her parents' settlement"
+- Rewrote figurative language: "circled each other" → "competed for customers", "threatened to cut too deep" → "caused offense", "soothed those edges" → "stepped in after Nabira refused someone"
+- Added explanation to Senga consultation connecting illness to the displacement, giving the ritual specificity
+-->
