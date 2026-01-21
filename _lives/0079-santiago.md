@@ -112,10 +112,24 @@ continent: "North America"
 # - F
 ---
 
-Santiago was born on June 29, 1938, in the mining district outside the city of Zacatecas, in a Mexico governed by the post-revolutionary state and its officials, with parish life still organizing births and burials. His family spoke Spanish and called themselves Catholic, mixing church prayer with home cures and protective acts.
+Santiago was born on June 29, 1938, in a mining settlement outside Zacatecas city, in the central highlands of Mexico. The post-revolutionary government had nationalized the oil industry that spring, and priests who had hidden during the Cristero War a decade earlier now baptized children openly again. His family spoke Spanish and practiced the local Catholicism: church sacraments alongside home cures and protective charms.
 
 His father, José, worked as a low-ranking mine laborer. He left before dawn and returned with dust in the seams of his hands, paid by the day or by the shift. His mother, Antonia, ran the household and watched over their first child, María, born the year before. A small image of the Virgen de Guadalupe stood near a candle and a glass of water on a shelf. When María cried at night, Antonia rocked her and murmured prayers, then rubbed her belly with warm oil when she would not settle.
 
 Labor started hard and did not ease. Antonia delivered at home with women from nearby houses. Blood came fast afterward. Isabel, Antonia’s mother, arrived and pressed cloths and murmured a rosary, then tied a red ribbon to María’s wrist against illness and envy. Antonia died the same day.
 
-Santiago lived into July 1. The adults did not agree on why the baby failed so quickly; they spoke of a bad turn in the birth and the dangers that followed it. José asked Padre Rafael to come. The priest gave a hurried baptism and prayers, and Santiago’s body was wrapped in cloth and taken to the local cemetery for burial.
+Santiago lived into July 1, but would not nurse and grew weaker through the night. The women who had helped with the birth said the trauma of delivery had been too much. José sent for Padre Rafael. The priest came that morning, gave a hurried baptism and last rites, and Santiago died soon after. His body was wrapped in cloth and buried in the local cemetery beside his mother.
+
+<!--
+**Review Date:** 2026-01-20
+
+**Issues found:**
+- [Pass 11] Opening paragraph lacked specific historical grounding—"post-revolutionary state and its officials" was generic
+- [Pass 14] "called themselves Catholic" was awkward phrasing
+- [Pass 14] Cause of death ("bad turn in the birth") was vague and unclear
+
+**Changes made:**
+- Rewrote opening to include specific historical context: oil nationalization (March 1938), Cristero War reference, priests returning to public ministry
+- Changed "called themselves Catholic" to "practiced the local Catholicism" with clearer description
+- Rewrote final paragraph to give concrete cause of death (wouldn't nurse, grew weaker), clearer sequence of events (women's explanation, priest arriving in morning), and added that he was buried beside his mother
+-->

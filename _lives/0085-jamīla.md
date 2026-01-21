@@ -101,6 +101,21 @@ Jamīla was born on January 14, 1483, in the steppe-edge countryside east of Ḥ
 
 Zaynab had labored with the help of Umm Yūsuf, an older village midwife. After the washing, Zaynab wrapped the newborn tight against the cold of midwinter nights. Aḥmad leaned in close and recited the adhān into Jamīla’s ear, then went back to the work that fed them: checking sheep and goats, watching for strays, and measuring out seed grain. Zaynab kept the hearth going and the household moving. She rose before dawn to draw water, warmed milk, churned and salted butter, and spun fiber when Jamīla slept.
 
-Jamīla stayed close to her mother’s body, carried and set down on folded cloth near the fire. In March she fell ill. Zaynab recited al-Fātiḥa and short sūras over her and asked for healing in duʿāʾ. Aḥmad brought in a neighbor with a bit of herbal knowledge, then went to the mosque for the Friday prayer and asked for prayers there as well.
+Jamīla stayed close to her mother's body, carried and set down on folded cloth near the fire. In March she grew hot and stopped feeding well. Zaynab recited al-Fātiḥa and short sūras over her and asked for healing in duʿāʾ. Aḥmad brought in a neighbor with a bit of herbal knowledge, then went to the mosque for the Friday prayer and asked for prayers there as well. The fever did not break.
 
-On April 1, 1483, Jamīla died from an infant infection. Zaynab washed her, Aḥmad helped shroud her, and Shaykh ʿAbdallāh oversaw the funeral prayer before Jamīla was buried in the village cemetery.
+On April 1, 1483, Jamīla died. Zaynab washed her small body, Aḥmad helped wrap her in a white shroud, and Shaykh ʿAbdallāh led the funeral prayer before she was buried in the village cemetery.
+
+<!--
+**Review: 2026-01-20**
+
+**Issues found:**
+- [Pass 6/9] Illness described too generically ("fell ill") without concrete symptoms
+- [Pass 14] Death sentence redundant ("died from an infant infection" when fever already established)
+- [Pass 14] "shroud" could be more concrete
+
+**Changes made:**
+- Added concrete illness symptoms: "grew hot and stopped feeding well"
+- Added outcome of treatment attempt: "The fever did not break"
+- Removed redundant "from an infant infection" in death sentence (cause now clear from context)
+- Made shrouding more concrete: "wrap her in a white shroud"
+-->

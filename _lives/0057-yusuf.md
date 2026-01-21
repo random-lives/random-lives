@@ -176,14 +176,29 @@ continent: "Africa"
 # - M
 ---
 
-Yusuf was born on September 16, 1880, in the high country near Gelemso in Hararghe. Oromo-speaking villages farmed the hills and traded at local markets, while power in the wider region shifted between local authorities and the expanding court of Shewa. His household was poor and land-short. They rented strips to plant grain and kept a few goats and chickens. They spoke Oromo with neighbors and a second home language inside the compound.
+Yusuf was born on September 16, 1880, in the high country near Gelemso in Hararghe. Oromo-speaking villages farmed the hills and traded at local markets, while power in the wider region shifted between local chiefs and the expanding court of Shewa. His household was poor and land-short. They rented strips to plant grain and kept a few goats and chickens. They spoke Oromo with neighbors and a second home language inside the compound.
 
-His biological mother, Fatuma, had died the year before, and the household ran on the work of his stepmother, Hawa. She carried Yusuf against her side while she milked, skimmed the foam, and set calabashes in the shade. When Abdullahi, Yusuf’s father, went out to hoe rented fields or bargain for grain, Amina took over. Amina, born in 1872, tied Yusuf onto her back and kept him away from the ash by the cooking place. Ali, born in 1874, came and went with herding and field errands. Hassan, born in 1877, stayed close. He tugged Yusuf by the wrist to the threshing place and laughed when Yusuf tried to copy the older boys’ steps.
+Yusuf's father Abdullahi had been married before. His first wife Fatuma died in 1879, leaving behind three children: Amina, Ali, and Hassan. Abdullahi remarried quickly, and Hawa became mother to those children and then to Yusuf. Zaynab, the family's grandmother, lived in the compound and helped watch the younger ones. Hawa carried Yusuf against her side while she milked, skimmed the foam, and set calabashes in the shade. When Abdullahi went out to hoe rented fields or bargain for grain, Amina took over. Amina, born in 1872, tied Yusuf onto her back and kept him away from the ash by the cooking place. Ali, born in 1874, came and went with herding and field errands. Hassan, born in 1877, stayed close. He tugged Yusuf by the wrist to the threshing place and laughed when Yusuf tried to copy the older boys’ steps.
 
 Before Yusuf turned two he had a small set of clear words. He called Hassan “Hasso,” reached up for him, and repeated a short greeting phrase that Amina drilled into him when neighbors passed the gate.
 
 At two and a half he followed Hawa to the goat pen with a tiny gourd cup clutched in both hands. He squatted beside her, then sprang up to chase a chicken that grabbed spilled grain. Amina caught him by the shoulder before he stumbled into the cooking ashes.
 
-A baby brother, Abdullahi, arrived in 1882. Yusuf pushed close to Hawa’s lap whenever the newborn cried, then wandered back to the animals and the older children.
+A baby brother, Ibrahim, arrived in 1882. Yusuf pushed close to Hawa's lap whenever the newborn cried, then wandered back to the animals and the older children.
 
-After the rains in 1883, measles spread through nearby households. Yusuf’s skin broke out, his cough turned harsh, and he stopped eating. Abdullahi brought Sheikh Nur to recite Qur’an over water and write verses for a fresh leather amulet. Zaynab took coffee husks and a handful of grain to a sacred tree as a vowed offering. Yusuf died on November 1, 1883. Men washed and wrapped his body and buried him near the settlement, with a brief Muslim prayer said over the grave.
+After the rains in 1883, measles spread through nearby households. Yusuf's skin broke out, his cough turned harsh, and he stopped eating. Abdullahi brought Sheikh Nur to recite Qur'an over water and write verses for a fresh leather amulet. Zaynab took coffee husks and a handful of grain to a sacred tree as a vowed offering. A neighbor woman, Aster, carried water and watched Ibrahim while Hawa sat with Yusuf through the nights. He died on November 1, 1883. Men washed and wrapped his body and buried him near the settlement, with a brief Muslim prayer said over the grave.
+
+<!-- CHANGELOG
+## Review 2026-01-20
+
+Issues found and fixed:
+
+| Pass | Issue | Fix |
+|------|-------|-----|
+| 2 | Biological mother timeline impossible (Fatuma died 1879 but listed as bio mother of child born 1880) | Clarified Fatuma was father's first wife; Hawa is Yusuf's biological mother |
+| 4 | Zaynab (grandmother) appeared only during illness with no introduction | Added her earlier in paragraph 2 as helper in compound |
+| 4 | Aster (neighbor) in narrative plan but missing from story | Added her bringing water during illness |
+| 9 | "local authorities" was vague | Changed to "local chiefs" |
+| 12 | Father and baby brother both named "Abdullahi" - confusing | Renamed baby brother to "Ibrahim" |
+| 14 | Redundant "Abdullahi, Yusuf's father" after already introducing him | Simplified to just "Abdullahi" |
+-->

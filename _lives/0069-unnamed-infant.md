@@ -89,10 +89,27 @@ continent: "Europe"
 #   rites, seasonal fertility rites for crops/herds; informal prayers/charms'
 ---
 
-The boy had no name. He was born into an early Neolithic farming village in the inland hills above the Turia. No distant rulers collected grain or gave orders; elders and family heads settled what needed settling. His parents lived in a small house of timber and mud-plaster near other dwellings and pens, taking part in household rites at the hearth: ground grain and water set down before eating, and whispered words addressed to the family dead.
+The boy had no name. He was born into an early Neolithic farming village in the inland hills above the Turia. A few dozen families lived there, governing themselves through their elders without any chief or lord. His parents lived in a small house of timber and mud-plaster near other dwellings and pens, taking part in household rites at the hearth: ground grain and water set down before eating, and whispered words addressed to the family dead.
 
-His father, an able herder, spent much of the year moving sheep and goats between scrubby slopes and better pasture, sleeping out with other men and returning with cheese and hides. His mother ran the house when he was away. She shaped clay into wide-mouthed jars, smoothing them with a stone, and traded pots and woven bands of fiber for grain and dried meat. She kept a small fire going for cooking and for drying vessels, and stored food in baskets hung from rafters.
+His father spent much of the year moving sheep and goats between scrubby slopes and better pasture, sleeping out with other men and returning with cheese and hides. His mother ran the house when he was away, shaping clay into wide-mouthed jars, trading pots and woven bands of fiber for grain and dried meat.
 
-She labored through the day and pushed the child out by evening. He came wet and quiet. Within hours his skin mottled and his belly tightened, and he cried once with a thin sound. By night he lay still.
+This was to be her first child. She labored through the day and pushed the boy out by evening. He came wet and quiet. Within hours his skin mottled and his belly tightened, and he cried once with a thin sound. By night he lay still.
 
-Before dawn, his mother washed him with warmed water and set a few grains of barley at his lips. His father dug a shallow place at the edge of the settlement and covered the body with soil, pressing a plain potsherd into the fill as a marker.
+Before dawn, his mother washed him with warmed water and set a few grains of barley at his lips—food for whatever journey followed. His father dug a shallow place at the edge of the settlement and covered the body with soil, pressing a plain potsherd into the fill as a marker.
+
+<!--
+**Issues found:**
+- [Pass 9] Opening paragraph defined political structure by negation ("No distant rulers collected grain or gave orders")
+- [Pass 14] Transition from mother's craft work to labor was abrupt; first child status from debug not mentioned
+- [Pass 14] Barley offering at burial unexplained for readers unfamiliar with funeral customs
+- [Pass 14] Father described as "an able herder" - unnecessary qualifier
+- [Pass 14] Mother's activities listed in checklist fashion (shaped, smoothing, traded, kept fire, stored)
+
+**Changes made:**
+- Rewrote political structure positively: "A few dozen families lived there, governing themselves through their elders without any chief or lord"
+- Added transition sentence noting this was her first child before the labor
+- Changed "the child" to "the boy" for continuity with opening
+- Added brief explanation for barley offering: "food for whatever journey followed"
+- Removed "an able" qualifier from father
+- Condensed mother's activities into tighter prose, removing checklist feel
+-->

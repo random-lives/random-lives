@@ -153,10 +153,28 @@ continent: "Europe"
 # - F
 ---
 
-Elisabet was born on 12 July 1198 in a village near the lakes and fields of the Mansfeld country, in the eastern lands of the Holy Roman Empire. Her family spoke Middle High German and lived under a lord’s rights and dues, owing labor on demesne strips and payments in grain and small stock. The parish church ordered the week and the year: Sunday Mass when the work allowed, feast days, fasting, and short prayers learned by ear. A sprig of blessed greenery from a past feast hung near the doorbeam; holy water was kept for sickness.
+Elisabet was born on 12 July 1198 in a village near the lakes and fields of the Mansfeld country, within the Landgraviate of Thuringia in the Holy Roman Empire. Her family spoke Middle High German and lived under a lord’s rights and dues, owing labor on demesne strips and payments in grain and small stock. The parish church ordered the week and the year: Sunday Mass when the work allowed, feast days, fasting, and short prayers learned by ear. A sprig of blessed greenery from a past feast hung near the doorbeam; holy water was kept for sickness.
 
 Her father, Hermann, held a peasant tenancy and worked mixed fields and animals. Rye and oats stood on the higher ground; a few pigs and hens fed on scraps and mast. Her mother, Mechthild, ran the household. She spun flax when the light held, stirred pottage over the hearth, and kept the small children close while watching the yard.
 
-Two children already lived in the house: Adelheid, born in 1193, and Heinrich, born in 1195. When labor came hard in midsummer heat, a neighbor woman, Liese, was sent for. The delivery dragged; the child came with no strong cry. Hermann went for the priest, Pfarrer Otto, but the midwife used water at once and spoke the baptismal words over the infant.
+Two children already lived in the house: Adelheid, five years old, and Heinrich, three. When labor came hard in midsummer heat, a neighbor woman, Liese, was sent for. The delivery was long and difficult. The child came at last but drew only shallow, gasping breaths. Hermann ran for the priest, Pfarrer Otto, but Liese did not wait—she used water at once and spoke the baptismal words over the infant.
 
-Elisabet died the same day. They wrapped her in cloth, carried her to the churchyard, and buried her in consecrated ground while Otto recited the prayers for the dead.
+Elisabet's breathing failed within the hour. Mechthild held her until she was still. They wrapped her in cloth and carried her to the churchyard, where Otto recited the prayers for the dead. Because she had been baptized, she could lie in consecrated ground.
+
+<!--
+**Issues found:**
+- [Pass 4] Midwife referred to as "the midwife" after being introduced as "Liese" - inconsistent naming
+- [Pass 6] Cause of death unclear - "no strong cry" ambiguous between stillbirth and birth trauma
+- [Pass 11] "eastern lands of the Holy Roman Empire" too vague - Mansfeld was in Landgraviate of Thuringia
+- [Pass 14] Mother absent from death/burial scene
+- [Pass 14] Siblings introduced with birth years rather than ages (harder to picture)
+- [Pass 14] Final sentence abrupt - didn't explain significance of consecrated ground burial
+
+**Changes made:**
+- Changed "eastern lands of the Holy Roman Empire" to "within the Landgraviate of Thuringia in the Holy Roman Empire"
+- Changed sibling introduction from birth years to ages ("Adelheid, five years old, and Heinrich, three")
+- Clarified cause of death: "drew only shallow, gasping breaths" then "breathing failed within the hour"
+- Changed "the midwife" to "Liese" for consistency
+- Added Mechthild to death scene: "Mechthild held her until she was still"
+- Explained why consecrated ground mattered: "Because she had been baptized, she could lie in consecrated ground"
+-->

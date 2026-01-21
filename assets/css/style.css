@@ -802,29 +802,118 @@ nav a:hover {
   }
 }
 
-/* About page buttons */
+/* About page */
+.about {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.about-hero {
+  text-align: center;
+  padding: 48px 0 56px;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 48px;
+}
+
+.about-hero h1 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin-bottom: 24px;
+}
+
+.about-hero .lede {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: #444;
+  max-width: 580px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 48px;
+  margin-bottom: 20px;
+  letter-spacing: -0.01em;
+}
+
+.about p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 1.4rem;
+}
+
+.about a {
+  color: #000;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+}
+
+.about a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.about-pullquote {
+  border-left: 3px solid #000;
+  padding: 8px 0 8px 24px;
+  margin: 32px 0;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #222;
+  font-style: italic;
+}
+
+.about-note {
+  background: #f8f8f8;
+  border-radius: 6px;
+  padding: 20px 24px;
+  margin: 32px 0;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #555;
+}
+
+.about-note strong {
+  color: #333;
+}
+
 .about-buttons {
   display: flex;
   justify-content: center;
   gap: 16px;
-  margin-top: 48px;
+  margin-top: 56px;
+  padding-top: 40px;
+  border-top: 1px solid #e0e0e0;
   flex-wrap: wrap;
 }
 
 .about-buttons .button {
   display: inline-block;
-  padding: 12px 28px;
+  padding: 14px 32px;
   background: transparent;
   color: #000;
   text-decoration: none;
-  border: 1px solid #000;
+  border: 2px solid #000;
   font-size: 1rem;
+  font-weight: 500;
   transition: all 0.15s ease;
 }
 
 .about-buttons .button:hover {
   background: #000;
   color: #fff;
+}
+
+.about-buttons .button.primary {
+  background: #000;
+  color: #fff;
+}
+
+.about-buttons .button.primary:hover {
+  background: #333;
 }
 
 /* Footer */

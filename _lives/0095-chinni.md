@@ -171,14 +171,22 @@ continent: "Asia"
 # - F
 # - M
 # - M
+#
+# CHANGELOG:
+# 2026-01-20: Review pass completed
+#   - Replaced "stem household" with plain description ("under one roof")
+#   - Added paragraph showing Chinni alive (nursing, sleeping, physical description,
+#     interaction with Jango) before illness onset - makes the loss more tangible
 ---
 
 Chinni was born on July 27, 1654, in a Gond hamlet above the Narmada’s bends, where Mughal officers took revenue through local intermediaries but village affairs stayed in the hands of elders. Her family spoke Gondi at home and kept the old rites: offerings to ancestors at the household post and payments to village powers that brought sickness or let it pass.
 
-Her father, Peko, worked rainfed fields and kept a few animals near the house. He left at dawn with his hoe and came back with leaves for fodder and a bundle of fuel. Her mother, Kanni, spent the days at the hearth, grinding grain, drawing water, and keeping an eye on Jango, the three-year-old boy who climbed on the threshing platform and stole roasted millet. They lived with Peko’s parents, Bori and Kori, in a stem household where the grandmother controlled the fire and the stores.
+Her father, Peko, worked rainfed fields and kept a few animals near the house. He left at dawn with his hoe and came back with leaves for fodder and a bundle of fuel. Her mother, Kanni, spent the days at the hearth, grinding grain, drawing water, and keeping an eye on Jango, the three-year-old boy who climbed on the threshing platform and stole roasted millet. They lived with Peko's parents, Bori and Kori, under one roof; the grandmother controlled the fire and the stores.
 
-After the birth, Bori washed Kanni and the child and tied a black thread at the baby’s wrist. A bit of turmeric and oil went on the stump of the cord. On the third day Kanni set a small leaf cup with rice and liquor at the edge of the yard for the ancestors and the village spirit that brought fever.
+After the birth, Bori washed Kanni and the child and tied a black thread at the baby's wrist. A bit of turmeric and oil went on the stump of the cord. On the third day Kanni set a small leaf cup with rice and liquor at the edge of the yard for the ancestors and the village spirit that brought fever.
 
-Chinni took milk poorly. Her belly tightened and she cried and then went quiet between cries. Kanni’s breasts swelled, and Bori sent Peko to fetch Hirri, the village diviner. Hirri shook seeds in his palm, spat, and ordered more liquor and a small fowl, but the child’s skin turned hot and her stump oozed.
+For a few days Chinni nursed and slept. She had dark hair and a round face. Her fingers curled around Kanni's thumb when she fed. Jango crouched beside the mat and watched her, and Bori shooed him away when he got too close.
+
+Then Chinni took milk poorly. Her belly tightened and she cried and then went quiet between cries. Kanni’s breasts swelled, and Bori sent Peko to fetch Hirri, the village diviner. Hirri shook seeds in his palm, spat, and ordered more liquor and a small fowl, but the child’s skin turned hot and her stump oozed.
 
 Chinni died on August 6, 1654. Kori carried her wrapped in cloth to the burial place beyond the fields, and Bori set a pinch of grain and a drop of liquor on the earth before they covered her.

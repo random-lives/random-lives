@@ -316,14 +316,34 @@ A younger brother, Gadadhar, arrived in 1814. Gadadhar ran ahead and Harihar tra
 
 Harihar grew into a boy who liked watching processes. He sat close to the loom frame to see how the warp tightened, and he touched dyed yarn with his fingertips to see whether color rubbed off. He liked the market days best. Damodar took him along to the edge of the bazaar where cloth bundles lay on mats and where a dyer named Madhusudan hung lengths of damp fabric on a line. Harihar stared at indigo and red until Nilambar tugged his wrist to keep him from wandering. He did not push into groups of boys. He stood behind Gadadhar and laughed when others laughed, even when he did not grasp why.
 
-Between 1817 and 1819, talk of sickness traveled with messengers and pilgrims. Kailash, the village watchman, repeated rumors of sudden deaths in other places, and some families avoided gatherings for a time. Nilambar added extra offerings at the household shrine—bananas when they had them, a few marigolds, and incense on festival mornings. When the rains came each year, mosquitoes thickened near the village tank and the low ground. Harihar fell ill more than once, but he recovered and returned to winding thread on a simple frame, turning the spindle with steady hands.
+Between 1817 and 1819, talk of sickness traveled with messengers and pilgrims. Kailash, the village watchman, repeated rumors of sudden deaths in other places, and some families avoided gatherings for a time. Nilambar added extra offerings at the household shrine—bananas when they had them, a few marigolds, and incense on festival mornings. When neighbors gathered in the courtyard to share news of deaths in distant villages, voices rose with fear and argument about whether to cancel a wedding or close the market. Harihar sat by the loom, watching the rhythm of the shuttle, unbothered. When the rains came each year, mosquitoes thickened near the village tank and the low ground. Harihar fell ill more than once, but he recovered and returned to winding thread on a simple frame, turning the spindle with steady hands.
 
-Gadadhar died in 1822. The loss changed the house’s noise. Harihar stopped following anyone into games and stayed near the loom, doing tasks that no one had to explain twice. That year and the next, with Chintamani gone in 1820 and elder authority weakened, the larger household divided. Mukunda’s family took one cooking hearth; Raghunath’s took another, in adjacent spaces. They still shared tools and sometimes grain, but the tone hardened. Raghunath complained that Harihar took too long and missed instructions. Damodar answered back and then pulled Harihar away before arguments grew.
+Chintamani died in 1820. That same year, the fevers began. After each monsoon, chills and aching limbs sent Harihar to his mat for days at a time. Nilambar wiped him with damp cloth and fed him thin rice water. When he stood, he tired quickly. Mukunda kept him on errands and winding, not on the loom itself.
 
-The fevers began again in 1820 and returned after each monsoon. Chills, aching limbs, and days when he lay quiet while Nilambar wiped him with damp cloth and fed him thin rice water. When he stood, he tired quickly. Mukunda kept him on errands and winding, not on the loom itself.
+Gadadhar died in 1822. The loss changed the house's noise. Harihar stopped following anyone into games and stayed near the loom, doing tasks that no one had to explain twice. That year and the next, with elder authority weakened, the larger household divided. Mukunda's family took one cooking hearth; Raghunath's took another, in adjacent spaces. They still shared tools and sometimes grain, but the tone hardened. Raghunath complained that Harihar took too long and missed instructions. Damodar answered back and then pulled Harihar away before arguments grew.
 
-Late in the monsoon of 1822, Mukunda sent him to carry a small bundle tied in cloth—thread and a note-mark for Jagabandhu, the intermediary who advanced supplies. Harihar took the path by the tank to avoid mud in the lanes. The embankment was slick. He slipped, fell hard, and came home with a swollen ankle and a bruised hip. For weeks he moved by hopping and leaning on walls, and Nilambar shouted at children to clear space so he would not be jostled. When he could walk again, he avoided that path and waited for Damodar to accompany him.
+Late in the monsoon of 1822, Mukunda sent him to carry a small bundle tied in cloth—thread and a note-mark for Jagabandhu, the intermediary who advanced supplies. Harihar took the path by the tank to avoid mud in the lanes. The embankment was slick. He slipped, fell hard, and came home with a swollen ankle and a bruised hip. For weeks he moved by hopping and leaning on walls, and Nilambar shouted at neighbor children to clear space so he would not be jostled. When he could walk again, he avoided that path and waited for Damodar to accompany him.
 
 In September 1824, an eruptive sickness spread through nearby households. Spots rose on Harihar’s skin and his eyes reddened. Dinanath the priest came to chant and to mark the threshold with paste and ash; Nilambar placed a lamp and neem leaves near the sleeping mat and kept a pot of water beside him. He died on October 8, 1824, still unmarried, in the smaller partitioned household where he had spent his life.
 
 Mukunda and Damodar carried his body for cremation, leaving rice and flowers and a lamp near the pyre.
+
+<!-- CHANGELOG
+## Review: 2026-01-20
+
+**Issues found and fixed:**
+
+| Pass | Issue | Fix |
+|------|-------|-----|
+| 3, 9 | Chronological confusion: fevers paragraph (1820) placed after Gadadhar's death (1822) | Restructured: moved Chintamani's death and fever onset to before Gadadhar's death |
+| 5 | Very low neuroticism (2nd percentile) not visible | Added scene showing Harihar unbothered while neighbors argue about epidemic fears |
+| 9 | "Nilambar shouted at children" was unclear | Changed to "neighbor children" for clarity |
+
+**No issues found in:**
+- Pass 1: Family structure (all siblings and caretakers present)
+- Pass 2: Death coverage (all deaths mentioned)
+- Pass 4: No disappearing characters
+- Pass 6: No AI-slop or figurative language
+- Pass 7: Names appropriately varied (Odia/Sanskrit names)
+- Pass 8: No anachronisms (material culture and East India Company context accurate)
+-->

@@ -146,10 +146,27 @@ continent: "North America"
 # - F
 ---
 
-Felipe was born on 12 November 1737 in San Pedro Chacabal, in the Motul district of the Spanish Empire’s Yucatán. His family spoke Yucatec Maya at home and lived under parish Catholic authority, mixing church devotions with household rites. The compound held several related households and a shared cooking space where maize was ground on stone and pots simmered over a low fire.
+Felipe was born on 12 November 1737 in San Pedro Chacabal, in the Motul district of the Spanish Empire's Yucatán. His family spoke Yucatec Maya at home and lived under parish Catholic authority, mixing church devotions with household rites. The compound held several related households and a shared cooking space where maize was ground on stone and pots simmered over a low fire.
 
-His father, K'inam, worked a milpa outside the village and brought back maize, beans, and squash, sometimes a turkey or eggs. His mother, Ixchel, spun and wove for tribute and exchange, keeping thread taut across her backstrap loom while women of the house watched the children. Felipe's older brothers, Juan and Antonio, were grown men with responsibilities of their own. They spoke to K'inam about fields and obligations and held Felipe briefly when he was first carried out to be shown to the family. Before the year ended, both brothers died, and their deaths drew the family into wakes and prayers before the household cross and candles.
+His father, K'inam, worked a milpa outside the village and brought back maize, beans, and squash, sometimes a turkey or eggs. His mother, Ixchel, spun and wove for tribute and exchange, keeping thread taut across her backstrap loom. K'inam's mother Antonia lived with them, helping with cooking and childcare. Felipe had two much older half-brothers from his father's first marriage—Juan and Antonio—both old men who managed their own plots in the compound. They held Felipe briefly when he was first carried out to be shown to the family. Before the year ended, both died within weeks of each other.
 
-Felipe's sister María, seventeen, stayed close to Ixchel. She carried Felipe on her hip while Ixchel worked, rocking him when he cried and handing him back when he rooted for milk.
+Felipe's full sister María, seventeen, stayed close to Ixchel. She carried Felipe on her hip while Ixchel worked, rocking him when he cried and handing him back when he rooted for milk.
 
-During the dry months Felipe failed to gain weight. Ixchel tried more frequent nursing and thin maize gruel. On 30 April 1738 he died in the house. The family wrapped his body in cloth, lit candles, and brought him to the churchyard for burial with prayers to the saints.
+During the dry months Felipe failed to gain weight. María fell ill with fever and could no longer help with his care. Ixchel tried more frequent nursing and thin maize gruel, but her own milk had thinned. Antonia took turns holding him while Ixchel worked at the loom. On 30 April 1738 he died in the house. The family wrapped his body in cloth, lit candles, and brought him to the churchyard for burial with prayers to the saints.
+
+<!--
+**Issues found:**
+- [Pass 2] "women of the house" vague—grandmother Antonia from debug data not named
+- [Pass 3] Brothers Juan (79) and Antonio (72) have implausible age gaps for full siblings
+- [Pass 5] María's death in 1738 not mentioned despite being in debug data and relevant to caregiving
+- [Pass 6] Felipe's failure to thrive lacked concrete mechanism
+- [Pass 7] Paragraph 2 overloaded with introductions and deaths
+
+**Changes made:**
+- Named Antonia (paternal grandmother) explicitly as co-resident caregiver
+- Made Juan and Antonio half-brothers from father's first marriage to explain 79/72-year age gaps
+- Clarified María as full sister to distinguish from half-brothers
+- Added María's illness as a factor in reduced caregiving capacity
+- Added detail about Ixchel's milk thinning to explain feeding failure
+- Split brother introductions from their deaths for better paragraph coherence
+-->

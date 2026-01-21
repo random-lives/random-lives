@@ -180,8 +180,27 @@ continent: "Asia"
 # - F
 ---
 
-Xie Ping was born on January 26, 1857, in a courtyard household near Chengzhuang in northern Anhui, under the Qing empire’s county yamen and tax grain quotas. The family spoke a local Northern Mandarin and lived by dry-field farming on the plain—wheat and beans, a few chickens, and a patched earth-walled room for storing straw and tools. His father, Xie Dahe, worked the fields with his own father, Old Master Xie, while Old Madam Xie ran the women’s side of the household. They burned incense at the household altar, kept a small tablet for patriline ancestors, and set out bowls of food at New Year. The kitchen god, Zaojun, had a paper image pasted above the stove.
+Xie Ping was born on January 26, 1857, in a courtyard household near Chengzhuang in northern Anhui, Qing China. The family spoke local Northern Mandarin and lived by dry-field farming on the plain—wheat and beans, a few chickens, and a patched earth-walled room for storing straw and tools. His father, Xie Dahe, worked the fields with his own father, Old Master Xie, while Old Madam Xie ran the women's side of the household. They burned incense at the household altar, kept a small tablet for ancestors, and set out bowls of food at New Year.
 
-Ping’s mother, a young woman whose natal surname was not spoken outside her home village, labored in late winter. She died in the days after the birth. The men hired a coffin and paid for a brief chanting service; the courtyard returned to planting plans while the women dealt with the baby. Old Madam Xie arranged feeding help from a lactating neighbor, Auntie Liu, and at night she wrapped Ping tight and kept him near the heated brick bed.
+Ping's mother labored in late winter. She died a few days after the birth, and the family buried her with a brief chanting service. Old Madam Xie took charge of the baby. She arranged feeding help from a lactating neighbor, Auntie Liu, and at night wrapped Ping tight and kept him near the heated brick bed.
 
-He stayed small and quiet. Through spring he took little milk and failed to gain strength. On May 21, 1857, Ping died in the women’s room. Dahe placed joss paper and a small dish of cooked millet by the threshold, and Old Master Xie set the baby’s body in a simple burial plot near the family’s fields.
+He stayed small and quiet. Through spring he took little milk and failed to gain strength. On May 21, 1857, Ping died in the women's room. Old Master Xie set the baby's body in a shallow burial plot near the family's fields, and Dahe burned joss paper at the grave.
+
+<!--
+**Issues found:**
+- [Pass 9] "whose natal surname was not spoken outside her home village" was convoluted and unclear
+- [Pass 11] Opening sentence had bureaucratic detail ("county yamen and tax grain quotas") that felt like checkbox-filling
+- [Pass 13] "patriline ancestors" was slightly jargony
+- [Pass 13] "the courtyard returned to planting plans" was abstract/awkward
+- [Pass 14] Kitchen god detail felt inserted rather than organic
+- [Pass 14] Transition from mother's death to "men hired a coffin" was abrupt
+- [Pass 14] "joss paper and millet by the threshold" was unclear in location and purpose
+
+**Changes made:**
+- Simplified opening to "Qing China" instead of bureaucratic detail
+- Removed kitchen god detail (tangential to the story)
+- Changed "patriline ancestors" to just "ancestors"
+- Rewrote second paragraph to make mother's death and funeral sequence clearer
+- Clarified that grandmother "took charge of the baby" to improve transition
+- Simplified final paragraph: moved joss paper burning to the grave site where it makes sense
+-->

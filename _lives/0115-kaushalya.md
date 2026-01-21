@@ -146,9 +146,11 @@ continent: "Asia"
 # - M
 ---
 
-Kaushalya was born on June 20, 1966, in Kotra Lehal in Lehra tahsil, Sangrur district, in the Indian state of Punjab, governed by the Republic of India. Her parents, Suresh and Kamla, were Punjabi-speaking Hindus in the Malwa countryside, in a nuclear household that lived off Suresh’s small and uncertain cultivation and Kamla’s domestic work.
+Kaushalya was born on June 20, 1966, in Kotra Lehal in Lehra tahsil, Sangrur district, Punjab. Her parents, Suresh and Kamla, were Punjabi-speaking Hindus in the Malwa countryside. They lived alone with their children, without grandparents or other relatives in the house. Suresh worked a small plot of land with uncertain returns; Kamla kept the house and cooked.
 
-Their courtyard held the ordinary things: a clay chulha, metal lotas, sacks for grain, and a small wall shelf where Kamla kept a picture of Lakshmi and a tin for sindoor. On auspicious days she lit a diya with mustard oil, set down a pinch of rice and a few marigold petals, and touched Kaushalya’s forehead with a dot before feeding her a bit of prasad. Kaushalya stayed close when visitors came. When women from nearby houses came to talk, she leaned against her mother’s leg, watching faces, answering in a small voice.
+Their courtyard held the ordinary things: a clay chulha, metal lotas, sacks for grain, and a small wall shelf where Kamla kept a picture of Lakshmi and a tin for sindoor. On auspicious days she lit a diya with mustard oil, set down a pinch of rice and a few marigold petals, and touched Kaushalya's forehead with a dot before feeding her a bit of prasad.
+
+Kaushalya was a quiet infant who fussed little. She learned to walk in early 1967, took her first steps across the packed-earth floor of the courtyard. When visitors came, she stayed close to her mother, leaning against Kamla's leg and watching faces. If spoken to, she answered in a small voice.
 
 By the hot season of 1968 she walked with quick, careful steps and stopped to examine whatever caught her eye. At the handpump she squatted beside Kamla, ran wet fingers along the ridges of a bucket, and repeated words under her breath—pānī, lotā—adding her own sounds until Kamla corrected her. She liked putting things back where she had found them: her small sandals near the doorway, a cup near the grain tin. If someone moved them, she argued, then went quiet and fixed it.
 

@@ -199,10 +199,25 @@ continent: "Asia"
 
 Velan was born in the hot season into a Tamil-speaking quarter near the scrubby edges of the southern Deccan, where local chiefs collected dues and market tolls and monks moved between settlements along trade roads. His family lived in a joint house compound. Kodan, his father, carried loads for hire and took digging work when there was building. Ayan, his mother, sold small bundles of cooked grain, greens, and sour beer in the market.
 
-The household already held two stories of sons. The first, Korran, had died as a newborn years earlier. Maran, born after him, survived and by the time Velan arrived he ran messages and fetched water, steady on his feet and quick to pick up tools. Ayan gave birth to Velan after Maran, and the older women kept him wrapped and close. Paran, the grandfather, sat near the doorway and watched the lane. Kilan, the grandmother, kept a small clay lamp and a bowl for offerings.
+The household already held two stories of sons. The first, Korran, had died as a newborn years earlier. Maran, born after him, survived and by the time Velan arrived he ran messages and fetched water, steady on his feet and quick to pick up tools. Ayan gave birth to Velan after Maran, and she and Kilan, the grandmother, kept him wrapped and close. Paran, the grandfather, sat near the doorway and watched the lane. Kilan kept a small clay lamp and a bowl for offerings.
 
 Ayan’s Buddhism showed in what she did, not what she argued about. On days when a monk passed, she placed a scoop of rice and a pinch of salt into his bowl. At home she burned oil in the lamp and set a few flowers beside it, then touched Velan’s forehead with damp fingers.
 
-When Velan was near a year old, an epidemic reached the neighborhood. He broke out in a rash and stopped taking milk. Ayan carried him to the shade and tried thin gruel and water. He died that day.
+When Velan was ten months old, an epidemic reached the neighborhood. Children in several houses fell sick, breaking out in rashes and refusing food. Velan's fever rose in the night. By morning he had stopped taking milk. Ayan carried him to the shade and tried thin gruel and water while Kilan sat beside her. Paran went out to learn what herbs or remedies the neighbors were trying. Nothing helped. The fever did not break. Velan died late that afternoon.
 
 Kodan and Maran carried the small body beyond the houses to a cremation ground and burned it with dry thornwood. Ayan set a lump of rice and a few blossoms on the cooled ash before returning to the compound.
+
+<!-- REVIEW LOG
+**Issues found:**
+- [Pass 2] "older women kept him wrapped" - vague; should specify who
+- [Pass 4] Grandparents (Paran and Kilan) introduced but disappear after P2; they should reappear during the illness/death
+- [Pass 6] Death scene felt abrupt - "broke out in a rash and stopped taking milk. He died that day" compresses illness too much
+- [Pass 8] "near a year old" is hedging; dates show he was about 10 months old
+
+**Changes made:**
+- Specified "older women" as "she and Kilan, the grandmother"
+- Expanded illness scene to include Kilan sitting beside Ayan and Paran going out to seek remedies
+- Changed "near a year old" to "ten months old" for precision
+- Added context about other children in the neighborhood falling sick
+- Extended the timeline of illness from same-day death to overnight fever progressing through the day
+-->

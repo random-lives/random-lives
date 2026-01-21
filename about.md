@@ -4,21 +4,28 @@ title: About
 permalink: /about/
 ---
 
-# About
+<div class="about">
 
-About 70 billion people have ever lived. This project randomly samples just 250 of these lives, to give a window into what a  "typical" human experience was like.
+<div class="about-hero">
+  <h1>About</h1>
+  <p class="lede">About 70 billion people have ever lived. This project randomly samples just 250 of these lives, to give a window into what a "typical" human experience was like.</p>
+</div>
 
 We cannot, of course, randomly sample from all humans the way we can read random articles on [Wikipedia](https://en.wikipedia.org/wiki/Special:Random), view random roads on [Random Street View](https://randomstreetview.com/), or listen to random radio stations on [Radio Garden](https://radio.garden/balloon-ride). For the vast majority of people who ever lived, essentially nothing remains of their lives. In the absence of root access to The Book of Life or a simulator's log, this project aims to simulate such a random draw as best we can with the available data.
 
-The 250 stories here are fictional. We know more about some times and places than others, but the aim was to sample from the full distribution of human lives without biasing toward the historically legible. A 20th-century French bureaucrat leaves more records than a medieval Chinese peasant or a slash-and-burn farmer in Papua New Guinea; we aim to represent all lives proportionally, with verisimilitude if not accuracy. The result is a collection heavy on infant deaths and subsistence farmers, often obscure and sometimes bleak, but better reflecting reality than history filtered through the literate few.
+The 250 stories here are fictional. We know more about some times and places than others, but the aim was to sample from the full distribution of human lives without biasing toward the historically legible. A 20th-century French bureaucrat leaves more records than a medieval Chinese peasant or a slash-and-burn farmer in Papua New Guinea; we aim to represent all lives proportionally, with verisimilitude if not accuracy.
+
+<div class="about-pullquote">
+The result is a collection heavy on infant deaths and subsistence farmers, often obscure and sometimes bleak, but better reflecting reality than history filtered through the literate few.
+</div>
 
 ## The Pipeline
 
 The generation process begins by sampling a birth year and birthplace. For the 95% of humans born in the last 12,000 years, we use the [HYDE database](https://landuse.sites.uu.nl/hyde-project/) for population density combined with estimates of birth rates. Lifespan comes from life tables matched to region and era; detailed and mostly reliable for the last century, increasingly approximate further back.
 
-Generating a list of years and places only gets us so far. We can sample some additional qualities, like sex or handedness, from base rates that have remained stable through history. But for culture, religion, family structure, occuption—there's no dataset that says "for a girl born in Telangana in 323 CE, here are the fraction that that spoke proto-Telugu, were devoted buddhist, and raised by their paternal grandmother."
+Generating a list of years and places only gets us so far. We can sample some additional qualities, like sex or handedness, from base rates that have remained stable through history. But for culture, religion, family structure, occupation—there's no dataset that says "for a girl born in Telangana in 323 CE, here are the fraction that spoke proto-Telugu, were devout Buddhist, and raised by their paternal grandmother."
 
-When I first experimented with this project in 2022, I didn't see a way around this. I considered a blog project of manually researching and sampling one person a week. But generating even a few dozen stories would have taken months and required lots of guess-work which my perfectionist streak would struggle to handle. I shelved it.
+When I first experimented with this project in 2022, I didn't see a way around this. I considered a blog project of manually researching and sampling one person a week. But generating even a few dozen stories would have taken months and required lots of guesswork which my perfectionist streak would struggle to handle. I shelved it.
 
 Large language models changed this. We can ask: "For a girl born in Telangana in 323 CE, what's a plausible probability distribution over native languages?" and get a reasonable answer. Not a perfect answer—given data limitations, even the best expert attempts would often be rough guesses—but good enough to sample from.
 
@@ -26,7 +33,9 @@ To build up a picture of someone's life, we ask a series of questions—ethnicit
 
 Demographics alone produced bland stories. So we also sample life events: violence (as victim or perpetrator), economic crisis, serious illness, warfare, caregiving, and others. Each is estimated as a probability for this specific person, then sampled. The model also identifies historical events that might have touched this person's life—a famine, an epidemic, a war, a new tax—and we sample to determine which ones actually affected them.
 
-The final step is turning this pile of data into a story a human would want to read. Making the LLM write stories was not hard; making it write good stories proved challenging. Left to its own devices, the model would exhaustively describe someone burying each of their family members in sequence, only to end with their own death and burial and invariably concluding with "But the harvest must go on." Descriptions of domestic violence would be interrupted with cheerful asides about their favorite foods. The occasional person would be born to a mother several years deceased, or have an older brother already in their eighties. Asked to review its own work, the model assured me: "This is a remarkable piece of historical fiction, vividly imagined and deeply grounded."
+<div class="about-note">
+<strong>On writing the stories:</strong> Making the LLM write stories was not hard; making it write <em>good</em> stories proved challenging. Left to its own devices, the model would exhaustively describe someone burying each of their family members in sequence, only to end with their own death and burial and invariably concluding with "But the harvest must go on." Descriptions of domestic violence would be interrupted with cheerful asides about their favorite foods. The occasional person would be born to a mother several years deceased, or have an older brother already in their eighties. Asked to review its own work, the model assured me: "This is a remarkable piece of historical fiction, vividly imagined and deeply grounded."
+</div>
 
 After many iterations, what worked best was forcing a narrative planning step: the LLM lists main events and characters in detail and places them in logical order before writing. The story prompt itself evolved through several rounds of whack-a-mole and a growing "banned phrases" list. At some point this process ran out of steam. The automated pipeline gets maybe 80% of the way to good stories. A Claude Code skill catches many remaining issues systematically, but the final step is still me or my wife reviewing manually. I've probably missed some howlers—please send them my way—but for the sake of sanity I've had to declare victory and stop.
 
@@ -45,6 +54,8 @@ Despite these difficulties, I chose to include all the dead infants and shadowy 
 I hope you find the stories interesting. If you spot errors or have suggestions, please contact me at [email].
 
 <div class="about-buttons">
-  <a href="{{ site.baseurl }}/lives/#random" class="button">Random Life</a>
+  <a href="{{ site.baseurl }}/lives/#random" class="button primary">Random Life</a>
   <a href="#" class="button">About the Author</a>
+</div>
+
 </div>

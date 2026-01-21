@@ -165,8 +165,28 @@ continent: "Asia"
 
 Guang was born on June 1, 358, in a small farming hamlet near the creeks and low hills of eastern Guangdong, on the southern edge of Eastern Jin authority. His parents, Zhao and Wei, spoke Chinese at home and lived as registered commoners, owing grain tax and labor service to officials who rarely visited except to count households and collect. Their house stood beside a patch of wet ground they turned into rice beds and a dry plot for vegetables; Wei kept a cooking fire, a water jar, and a small pen for poultry.
 
-After the birth, Wei washed Guang and bound him to her back when she went to the garden. Zhao cut reeds for thatch and mended a hoe handle while watching for floods. At the new moon and on festival days they set a small tray near the doorway: cooked millet, greens, and a cup of rice wine for the household spirits. They burned a twist of incense and spoke the names of Zhao’s dead parents, asking for protection for the child.
+After the birth, Wei washed Guang and bound him to her back when she went to the garden. Zhao cut reeds for thatch and mended a hoe handle while watching for floods. At the new moon and on festival days they set a small tray near the doorway: cooked millet, greens, and a cup of rice wine for the household spirits. They burned a twist of incense and spoke the names of Zhao's dead parents, asking for protection for the child.
+
+By winter Guang was heavier, his cheeks fuller. He turned his head at the clatter of Wei's cooking pot and kicked when Zhao lifted him. He grabbed at his mother's hair and made small noises when she sang work songs over the rice mortar. He slept through the cold nights wrapped against Wei's chest.
 
 In late spring of 359 Guang fell sick with a hot, fast illness that brought coughing and loose stool. Wei boiled water and thin gruel and tried to feed him by spoon. Zhao went to Old Madam Chen, who tied a paper charm and told them to offer a cock and a bowl of rice at the village shrine. Guang died on May 13, 359.
 
 Zhao wrapped him in cloth and buried him on a rise beyond the fields. Wei placed a pinch of rice and a few coins in the grave and bowed before the fresh earth.
+
+<!--
+**Review Changelog (0107-guang.md)**
+
+**Review 1:**
+**Issues found:**
+- Story moved directly from birth/rituals to illness without showing Guang as a living baby with his own moments
+
+**Changes made:**
+- Added a new paragraph showing Guang at a few months old: turning toward sounds, kicking when lifted, grabbing at his mother's hair, responding to her singing, sleeping through winter nights
+
+**Review 2 (full 14-pass review):**
+**Issues found:**
+- [Pass 9/14] "By winter Guang had grown into his body" - vague/odd phrasing
+
+**Changes made:**
+- Changed "had grown into his body" to "was heavier, his cheeks fuller" - more concrete physical description
+-->

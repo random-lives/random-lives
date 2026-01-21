@@ -143,6 +143,21 @@ Xiong Gui was born on November 30, 1431, in a hamlet near the waterways and rice
 
 The winter after his birth stayed damp and cold in the house, with a packed-earth floor and a stove that burned rice straw and wood. Xiong Shi kept him on her back when she carried water and chopped greens for pigs, and she took him to the field edges when transplanting work began. His older sister, Xiong A-jie, born in 1426, had chores of her own but reached for him when her mother needed both hands, bouncing him on her knee and calling for their grandmother when he fussed.
 
-At the new year offerings, Xiong Gong set bowls of rice and cups of warm wine before the ancestors’ tablets, and Xiong Po pasted a fresh paper image for the Kitchen God, Zao Jun. When Gui began coughing in early summer, they burned incense to the Earth God at the field shrine and asked a local ritual man, Daoist Zhang, to write a protective charm to hang by the bed.
+At the new year offerings, Xiong Gong set bowls of rice and cups of warm wine before the ancestors' tablets, and Xiong Po pasted a fresh paper image for the Kitchen God, Zao Jun. When Gui began coughing in early summer, they burned incense to the Earth God at the field shrine and asked a local ritual man, Daoist Zhang, to write a protective charm to hang by the bed.
 
-The cough turned into fast, wet breathing. On August 20, 1432, Gui died in the house. They wrapped him in cloth, buried him on the family’s upland margin, and left a small bowl of rice and a few copper cash beside the mound.
+The cough turned into fast, wet breathing. On August 20, 1432, Gui died in the house. They wrapped him in cloth, buried him on a slope at the edge of the family's land, and left a small bowl of rice and a few copper cash beside the mound.
+
+<!--
+**Review: 2026-01-20**
+
+**Issues found:**
+- [Pass 1] Family structure: Complete - sister A-jie (b. 1426) appears and helps, all four caretakers from narrative plan mentioned
+- [Pass 2] Death coverage: Cause shown (respiratory infection → coughing → fast wet breathing → death)
+- [Pass 3] Chronology: Consistent - born Nov 30 1431, died Aug 20 1432 (~8.5 months old)
+- [Pass 13] Minor: "the family's upland margin" - slightly elevated phrasing
+
+**Changes made:**
+- Changed "buried him on the family's upland margin" to "buried him on a slope at the edge of the family's land" (simpler, more concrete)
+
+**No other issues found.** Story is well-structured for an infant narrative (~330 words, within acceptable range for 0-1 age group).
+-->

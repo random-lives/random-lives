@@ -229,10 +229,28 @@ continent: "Asia"
 
 Hachirōmaru was born on December 7, 1330, in an upland hamlet in Echigo Province, where villagers spoke Japanese and lived under estate dues collected through warrior administrators of the Kamakura shogunate. His mother, Oharu, set rice and a pinch of salt before the household kami shelf and carried offerings of washed rice to the local shrine at seasonal rites; she also took him to the temple when a monk came to chant for the dead.
 
-His father, Jinzaburō, died in 1330, and the household ran on Oharu’s hands. She hoed field edges, stripped hemp, tended a cooking fire, and kept accounts in memory. Hachirōmaru learned to stack kindling by thickness and to coil cord so it did not kink. When other children scattered after being scolded, he returned to finish what he had started. He talked easily with older boys and followed them to communal work days, listening to talk about dues rice, timber loads, and who had become the new man to answer to as Kamakura’s rule broke in 1333.
+His father, Jinzaburō, died in 1330, and Oharu managed the household alone. She hoed field edges, stripped hemp, tended a cooking fire, and kept track of debts and obligations in her head. Hachirōmaru learned to stack kindling by thickness and to coil cord so it did not kink. When other children scattered after being scolded, he returned to finish what he had started. He talked easily with older boys and followed them to communal work days, listening to talk about dues rice, timber loads, and changes in local authority after Kamakura's rule broke in 1333.
 
 A second son, Chiyomaru, arrived in 1334. He died before the year turned. Myōen, the temple attendant, struck a small bell and chanted while Oharu set a bowl of rice and a piece of dried fish by the body.
 
-In 1335, Oharu moved with Hachirōmaru to the nearby village where her brother Sadayoshi headed a household. Winters were heavy with snow; paths narrowed, and stores mattered. At four, Hachirōmaru began taking handfuls of dried grain from Yasabē’s basket when adults were in the paddies’ repair work, and once he pocketed a short length of cord and a worn tool handle. At five, the pattern continued through late winter. Yasabē complained, and Sadayoshi made him return the items in front of the yard. Oharu washed his hands and made him clap twice and bow at the shrine gate with a small offering of rice.
+In 1335, Oharu moved with Hachirōmaru to the nearby village where her brother Sadayoshi headed a household with his wife, their children, and his mother Otsune. Oharu and Hachirōmaru slept in a partitioned corner of the main room, working alongside the others in exchange for shelter. That winter brought heavy snow, and by spring the household's grain stores ran low. At four, Hachirōmaru began taking handfuls of dried millet from Yasabē's storage basket when the adults were out repairing paddy walls. Once he pocketed a short length of cord and a worn tool handle. At five, the pattern continued through the hungry weeks before the spring barley came in. Yasabē complained to Sadayoshi, who made Hachirōmaru return the items in front of the yard while the neighbors watched. That evening Oharu washed his hands and walked him to the shrine gate, where he clapped twice, bowed, and left a small offering of rice.
 
-In early February 1337, after a neighbor’s child fell sick, Hachirōmaru developed an acute fever and cough. On February 11, he died. Myōen chanted again, and the family placed him for burial at the temple ground with incense and a small rice offering.
+In early February 1337, a fever spread through the hamlet after a traveler passed through. Hachirōmaru developed a cough that deepened over several days. Oharu kept him wrapped near the fire and spooned thin rice gruel into his mouth. On February 11, his breathing slowed and stopped. Myōen came again to chant, and the family carried his body to the temple ground for burial with incense and a bowl of rice.
+
+<!--
+**Issues found:**
+- [Pass 2] Sadayoshi's household composition unspecified—reader couldn't picture who else lived there
+- [Pass 9] "the household ran on Oharu's hands" was figurative language
+- [Pass 9] "who had become the new man to answer to" was vague
+- [Pass 9] "paths narrowed, and stores mattered" was abstract scene-setting
+- [Pass 14] Death scene was brief and procedural—lacked emotional grounding
+- [Pass 14] Theft paragraph was dense, combining move + scarcity + theft + discovery without clear timeline
+
+**Changes made:**
+- Specified Sadayoshi's household includes his wife, children, and mother Otsune; added detail about where Oharu and Hachirōmaru sleep
+- Replaced "ran on Oharu's hands" with "Oharu managed the household alone"
+- Replaced vague political reference with "changes in local authority after Kamakura's rule broke"
+- Replaced "paths narrowed, and stores mattered" with concrete detail about heavy snow and low grain stores
+- Expanded death scene: added detail about fever spreading via traveler, Oharu's care (keeping him by fire, spooning gruel), and his breathing stopping
+- Split theft paragraph timeline more clearly: move → winter → spring scarcity → theft at age 4 → continuation at age 5 → discovery and consequences
+-->

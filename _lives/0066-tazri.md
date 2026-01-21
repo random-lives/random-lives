@@ -259,12 +259,36 @@ continent: "Africa"
 
 Tazri was born in early February of 31 in a small Amazigh settlement on the dry steppe edge above the Guir valley. Her family spoke a Berber tongue and marked the year with local rites: milk poured on a flat stone at the edge of the yard, bits of fat set into a small fire, and names of dead kin spoken aloud for protection. News of coastal rulers and Roman demands reached them as talk carried by traders; power sat with local lineages and the men who could gather followers.
 
-Her father, Ider, worked at a craft that stayed close to home. He cured hides, mended straps, shaped small goods that traveled by barter. Her mother, Tafun, kept goats, milked at dawn, and boiled milk down or made sour curds. Tazri trailed behind her, quiet and careful, hands busy with tether knots and bowls. When she tried to speak to visitors, her words caught. The blocking and repeats brought a hard look from strangers. She stopped trying and pointed instead, pressing her face against her mother’s hip.
+Her father, Ider, worked at a craft that stayed close to home. He cured hides, mended straps, shaped small goods that traveled by barter. Her mother, Tafun, kept goats, milked at dawn, and boiled milk down or made sour curds. Ider's mother Masna lived nearby and came most days to help with food and children; she told stories of dead kin and taught Tazri which offerings kept sickness away. Tazri trailed behind Tafun, quiet and careful, hands busy with tether knots and bowls. When she tried to speak to visitors, her words caught. The blocking and repeats brought hard looks from strangers. She stopped trying and pointed instead, pressing her face against her mother's hip.
 
-Ayyur was born when she was two. He died before his first winter ended. Tafun washed the tiny body, and Masna, Ider’s mother, placed a pinch of salt and a tuft of wool beside him before the men carried him out. Tazri learned to watch sick people from a doorway and to keep still.
+Ayyur was born when she was two. He died before his first winter ended. Tafun washed the tiny body, and Masna placed a pinch of salt and a tuft of wool beside him before the men carried him out. Tazri learned to watch sick people from a doorway and to keep still.
 
-Yufri arrived when she was five. Tazri carried him on her back while Tafun milked. In her sixth year she survived a bad fever and cough; afterward she slept lightly and panicked when breath sounded wrong in the dark. At seven, a dry year shrank pasture and milk. Ider took more work at the market, and Tazri stretched meals by bringing in wild seed heads and keeping goats from wasting strength.
+Yufri arrived when she was five. Tazri carried him on her back while Tafun milked. She preferred him to other children—he did not expect her to speak.
+
+In her sixth year she caught a bad fever and cough. Masna rubbed her chest with warmed fat and stayed through the worst nights. Tazri survived, but afterward she slept lightly and panicked when breath sounded wrong in the dark.
+
+At seven, a dry year shrank pasture and milk. Ider took more work at the market, and Tazri stretched meals by bringing in wild seed heads and keeping goats from wasting strength.
 
 When caravan traffic surged in her eighth year, the market filled. Ziri, Ider’s craft partner, pushed her to hand over goods and answer greetings. Her throat locked and only a whisper came out. Kensa laughed once; Tazri never followed her to play again.
 
-In 41, Yufri fell sick and died at five. Tazri helped Tafun rinse cloths and fetch water, speaking only to her mother. That winter she caught a chest illness. Tihya, the elder healer, rubbed her with warmed fat and murmured over a bowl of milk, but Tazri died in mid-December. Her family wrapped her in cloth and placed her in a shallow grave outside the settlement, setting a small cup of curds and a scrap of dyed wool beside her.
+In 41, Yufri fell sick. Tazri helped Tafun rinse cloths and fetch water while Ider went for the healer. She sat with her brother through the nights, her hand on his chest to feel whether he still breathed. He died at five. Tazri spoke to no one but her mother for days.
+
+That winter, in the cold weeks after Yufri's burial, Tazri caught a chest illness. Tihya came again and rubbed her with warmed fat. Masna murmured protective words over a bowl of milk. Ider sat outside the doorway, unable to watch another child struggle for breath. Tazri died in mid-December. Her family wrapped her in cloth and placed her in a shallow grave outside the settlement, setting a small cup of curds and a scrap of dyed wool beside her.
+
+<!--
+**Issues found:**
+- [Pass 2] Masna (grandmother) described as "daily influence" in debug data but only appeared once at Ayyur's death
+- [Pass 4] Ider (father) disappeared after market scene—absent from Tazri's death scene
+- [Pass 7] Paragraph 4 crammed three time periods (age 5, 6, 7) into single dense paragraph
+- [Pass 14] Connection between caring for sick Yufri and Tazri catching illness was unclear
+- [Pass 14] Yufri's death and Tazri's death rushed together without emotional weight
+
+**Changes made:**
+- Added Masna's daily presence to household description (helping with food, telling stories, teaching protective rites)
+- Added Masna caring for Tazri during her age-6 fever, and present at her death
+- Split paragraph 4 into three: Yufri's arrival, the age-6 illness, and the dry year at age 7
+- Added sentence about Tazri's bond with Yufri ("She preferred him to other children—he did not expect her to speak")
+- Expanded Yufri's death scene: Tazri sitting with him through nights, her hand on his chest, her silence afterward
+- Made connection to her own illness explicit ("in the cold weeks after Yufri's burial")
+- Added Ider's presence at Tazri's death ("sat outside the doorway, unable to watch another child struggle for breath")
+-->

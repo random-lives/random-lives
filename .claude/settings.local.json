@@ -49,7 +49,15 @@
       "Bash(__NEW_LINE_9a496fa96caeb448__ echo \"=== Cancer ===\")",
       "Bash(__NEW_LINE_8fc2f624b517a94c__ echo \"=== Starvation/malnutrition ===\")",
       "Bash(__NEW_LINE_57355729d4123c2e__ echo \"=== Other/chronic ===\")",
-      "Bash(__NEW_LINE_dc4e91f493ba2bc8__ echo \"=== Suicide ===\")"
+      "Bash(__NEW_LINE_dc4e91f493ba2bc8__ echo \"=== Suicide ===\")",
+      "Bash(for f in _lives/01{00..18}*.md)",
+      "Bash(do)",
+      "Bash([ -f \"$f\" ])",
+      "Bash(continue)",
+      "Bash(if grep -q \"\\\\[Pass\" \"$f\")",
+      "Bash(then)",
+      "Bash(else)",
+      "Bash(fi)"
     ],
     "deny": []
   }

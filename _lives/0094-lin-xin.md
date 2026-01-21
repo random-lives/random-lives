@@ -218,18 +218,50 @@ continent: "Asia"
 # - M
 ---
 
-Lin Xin was born in 52 CE in the dry borderland of northwest China beyond the line of Han commanderies, where caravan routes crossed the desert and herders moved with flocks. The Han court claimed distant authority through garrisons and tribute. Lin Xin's family lived near a spring used by both Chinese farming households and nomadic groups who passed through. His father, Lin Chao, guarded caravans moving silk and trade goods west; his mother, Mei, managed the household and tended a small vegetable plot and millets. The family lived in a compound with Lin Xin's paternal grandparents—Lin Jun, who enforced ancestral rites, and Gao, who directed the women's work—and his older brother, Lin Bao, who already rode as escort by the time Lin Xin was a boy.
+Lin Xin was born in 52 CE in the dry borderland of northwest China beyond the line of Han commanderies, where caravan routes crossed the desert and herders moved with flocks. Emperor Ming ruled from Luoyang, and the Han court claimed distant authority here through garrisons and tribute arrangements with the Xiongnu and smaller nomadic groups. Lin Xin's family lived near a spring used by both Chinese farming households and Xiongnu herders who passed through seasonally. His father, Lin Chao, guarded caravans moving silk and trade goods west; his mother, Mei, managed the household and tended a small vegetable plot and millets. The family lived in a compound with Lin Xin's paternal grandparents—Lin Jun, who enforced ancestral rites, and Gao, who directed the women's work—and his older brother, Lin Bao, seven years his senior, who already rode as escort by the time Lin Xin was a boy.
 
 Lin Chao died on the road when Lin Xin was four. Mei kept the household together with help from Lin Jun and Gao, and Lin Bao began to fill the role of provider. Lin Xin spent childhood with sheep and goats, drawing water from the spring, and learning to read the weather. Mei died when he was eight. Gao took over the women's work and raised him with strict attention to ancestral offerings. Lin Jun remained head of the household, severe and watchful.
 
-At thirteen Lin Xin got into a fight with a nomadic boy over use of the spring. It started with shoving and turned into thrown rocks. Lin Xin struck the boy in the face, opening a gash. The nomadic group demanded compensation, and Lin Jun gave them a sheep to avoid retaliation. The incident deepened the family's suspicion of outsiders and taught Lin Xin that force was sometimes the cost of holding ground.
+At thirteen Lin Xin got into a fight with a Xiongnu boy over use of the spring. It started with shoving and turned into thrown rocks. Lin Xin struck the boy in the face, opening a gash. The Xiongnu demanded compensation, and Lin Jun gave them a sheep to avoid retaliation. That same year Gao died, and Lin Xin began helping Lin Bao with herding and light caravan preparation.
 
-Gao died when Lin Xin was thirteen. Lin Jun died when he was seventeen. By then Lin Bao had connections with caravan merchants, and he brought Lin Xin along as second escort. The work paid well and involved long absences on dangerous routes. At eighteen Lin Xin was married to Feng, a girl from a neighboring Chinese household. She moved into the compound. Their first son, Yan, was born when Lin Xin was nineteen. Rong followed at twenty-two, Bo at twenty-five.
+Lin Jun died when Lin Xin was seventeen. By then Lin Bao had connections with caravan merchants, and he brought Lin Xin along as second escort. The work paid well and involved long absences on dangerous routes. At eighteen Lin Xin was married to Feng, a girl from a neighboring Chinese household. She moved into the compound. Their first son, Yan, was born when Lin Xin was nineteen. Rong followed at twenty-two, Bo at twenty-five.
 
-At twenty-six Lin Xin and two cousins were escorting a caravan of silk and dried goods through a mountain pass when they were ambushed. Bandits beat him with clubs, tied him, and took the goods. One cousin was killed. Lin Xin survived with broken ribs and lived with pain afterward. He left the escort work and returned to farming, herding, and managing the household. Ling was born when he was twenty-eight, Wei at thirty-one.
+At twenty-six Lin Xin and two cousins were escorting a caravan of silk and dried goods through a mountain pass when they were ambushed. Bandits beat him with clubs, tied him, and took everything. His cousin Lin Tao was killed; the other escaped wounded. Lin Xin survived with broken ribs. He left the escort work and returned to farming and herding. Ling was born when he was twenty-eight, Wei at thirty-one.
 
-He settled into the rhythms of cultivation—plowing, planting millet and wheat, moving sheep to pasture, collecting dung for fuel, repairing walls. He directed labor and kept the ancestral shrine. His daughter Mei was born when he was thirty-four, Xia at thirty-seven. At forty his daughter Nan, two years old, died. At forty-four he developed chronic pain in his legs and back, probably from injury and decades of labor. He adapted by delegating heavy work to Yan, Rong, and Bo and took on lighter tasks like sorting seed and supervising planting.
+He turned to farming full-time—plowing, planting millet and wheat, moving sheep to pasture, collecting dung for fuel, repairing walls. His daughter Mei was born when he was thirty-four, Xia at thirty-seven. Nan came at thirty-eight but died of fever before her third birthday.
 
-As his sons matured they married and brought in wives. Yan took over most of the physical work and became the practical head of the household. Lin Xin spent his later decades as advisor, keeper of the shrine, and teller of stories to grandchildren. When he was fifty-eight his son Wu, thirty years old, died. Lin Xin lived past seventy as an elder respected for survival and continuity. His wife Feng died at seventy-six, when he was seventy-eight.
+At forty-four Lin Xin developed chronic pain in his legs and lower back from the old injury and decades of labor. Cold weather made it worse. He began delegating heavy work to Yan, Rong, and Bo, and took on lighter tasks: sorting seed, supervising planting, keeping the accounts of grain stored and owed.
+
+Lin Bao died when Lin Xin was fifty-six. He had been the last of the older generation, the one who had taught Lin Xin to ride escort and survive. Lin Xin burned offerings at the shrine and took over leading the ancestral rites himself.
+
+By then his sons had married and brought wives into the compound. Yan's wife came first, then Rong's, then Bo's. The household grew crowded with grandchildren. Yan took over the physical labor and became the practical head of farming operations, while Lin Xin handled the shrine, settled disputes, and told the grandchildren about the old days—the caravans, the ambush, the spring that two peoples had fought over.
+
+Feng died at seventy-six, when Lin Xin was seventy-eight. They had been married sixty years. He outlived her by nine years, increasingly frail, moving slowly around the compound, watching the great-grandchildren play in the yard.
 
 Lin Xin died at eighty-seven from a sudden stroke. He was buried with offerings of grain and bronze coins near the family plot, and Yan led the rites for the ancestors.
+
+---
+
+**Issues found:**
+- [Pass 1] Son "Wu" mentioned dying at age 58 but never introduced as being born—inconsistent with established children list
+- [Pass 3] Lin Bao (older brother, mentor figure) disappears after introducing Xin to escort work; his death at 56 never mentioned
+- [Pass 4] Cousin killed in ambush was unnamed
+- [Pass 5] Nan's death given no weight or context (just "At forty his daughter Nan, two years old, died")
+- [Pass 7] Gao's death placed in separate paragraph from the fight that happened same year, creating confusion
+- [Pass 9] "settled into the rhythms of cultivation"—AI-slop phrase; "probably from injury"—hedging
+- [Pass 11] Opening lacked specific historical grounding (which emperor, which nomadic group)
+- [Pass 14] Final paragraphs were choppy and felt procedurally generated
+
+**Changes made:**
+- Added Emperor Ming and Xiongnu to opening for historical grounding
+- Added Lin Bao's age gap ("seven years his senior") at introduction
+- Moved Gao's death to same paragraph as fight, with clearer transition ("That same year")
+- Named the killed cousin "Lin Tao"
+- Rewrote Nan's death with context: "came at thirty-eight but died of fever before her third birthday"
+- Split farming paragraph to separate Nan's death from chronic pain development
+- Removed Wu's death entirely (never introduced, inconsistent with sibling data)
+- Added Lin Bao's death at age 56 with emotional weight and consequence (Xin takes over rites)
+- Expanded late-life section: specified which sons' wives arrived, concrete storytelling to grandchildren
+- Added detail to Feng's death (sixty years married) and Xin's final years
+- Replaced "rhythms of cultivation" with "turned to farming full-time"
+- Removed hedging "probably"—made pain causation direct

@@ -311,14 +311,40 @@ continent: "Africa"
 
 Ioryina was born on March 11, 2016, in Katsina-Ala in Benue State, under Nigeria’s federal government. He grew up in a Tiv-speaking compound where his parents kept to Tiv ritual ways more than church life, even though the children spoke English and Pidgin at school and in town.
 
-His father, Aondohemba, traded on market days, moving yams, rice, and small household goods between villages and larger stalls. His mother, Mker, kept a small spread of items and still farmed, planting and weeding around the seasons. The compound stayed full. Two older sisters, Mlumun and Doosuur, were already old enough to carry water and watch toddlers. After Ioryina came Kpadoo, then Teryima, then Nguwase, Shior, Terna, Akor, Iveren, and finally Tyoakaa. With eleven children, the older ones learned schedules by force of numbers.
+His father, Aondohemba, traded on market days, moving yams, rice, and small household goods between villages and larger stalls. His mother, Mker, kept a small spread of items and still farmed, planting and weeding around the seasons. His paternal grandmother Orkuma lived in the next compound and came most days to help watch children or stir pots while Mker went to market. The household stayed full. Two older sisters, Mlumun and Doosuur, were already old enough to carry water and watch toddlers when Ioryina was born. After him came eight more: four girls and four boys, arriving almost every year until the youngest, Tyoakaa, in 2024.
 
-When school began to matter, Ioryina turned it into a set of rules. Before dawn he swept the yard corners until the dirt lines looked straight, then packed his books the same way each day. If a younger child spilled water, he snapped instructions and made them wipe it again. At school Mr. Ikyur put him in front to collect exercise books because he counted twice and never “forgot” change from errands. He copied words carefully, reading better than he wrote; spelling took him three tries, and he stayed to practice.
+Ioryina started primary school in 2022, the same year Nigeria's naira started falling hard. Prices at the market rose every few weeks. His father came home counting smaller stacks of bills for the same goods, muttering about petrol and transport. At home, Ioryina turned mornings into a set of rules. Before dawn he swept the yard corners until the dirt lines looked straight, then packed his books the same way each day. If a younger sibling, Teryima or Shior, spilled water or tracked mud, he snapped instructions and made them wipe it again. Doosuur told him to stop being so serious. He ignored her.
 
-When he started school in 2022, he found that routines suited him. The rains shifted in those years, and adults argued about planting dates in the evenings.
+At school Mr. Ikyur put him in front to collect exercise books because he counted twice and never pocketed change from errands. A boy named Sati from another compound teased him for it: Ioryina always followed the rules even when no one watched, even when the other boys cut corners. When Sati tried to bend the rules during a ball game, Ioryina argued until Sati backed down. He was not well-liked for it, but he was trusted. He copied words carefully, reading better than he wrote; spelling took him three tries, and he stayed after class to practice while others ran home.
 
-One evening in August 2023, after Aondohemba returned from market, the family discovered his phone and some cash missing from the room where he kept trading money. Mama Aker at the market warned Mker to stop leaving money where visitors could see it. Aondohemba began locking the door and storing cash inside a tin placed under grain sacks.
+One evening in August 2023, after Aondohemba returned from a good market day, the family discovered his phone and trading money missing from the room where he kept it. Someone who knew the household routines had slipped in during the afternoon. Mama Aker, an older trader who knew the family, warned Mker at the market the next week: stop leaving money where visitors could see it. For weeks afterward the house felt tense. Aondohemba began locking the inner room and storing cash inside a tin placed under grain sacks. Ioryina was given the job of watching the compound gate when the adults went to market.
 
-In June 2024, Ioryina’s name was called at assembly for placing near the top of his class. He received a certificate and a bar of soap as a prize, then did it again the next term.
+In June 2024, Mr. Ikyur called Ioryina's name at the end-of-term assembly. He had placed near the top of his class. He walked up to receive a certificate and a bar of soap. His mother stood at the back with Nguwase on her hip. The next term he did it again. Mr. Ikyur told the assembly that Ioryina was the steadiest boy in the school, never late, never without his books.
 
-By late 2025 he is ten, still in Katsina-Ala, reading short passages in English, writing slowly in cramped lines, and walking home to a compound that smells of cassava drying and kerosene smoke.
+By late 2025 he is ten, still in Katsina-Ala, reading short passages in English, writing slowly in cramped lines. At home he watches his younger siblings with the same strictness he brings to homework. Terna tracks dirt across the floor; Ioryina makes him sweep it. Prices keep climbing, but his father still trades, his mother still farms and sells, and the compound still smells of cassava drying and kerosene smoke.
+
+<!--
+**Review: 2026-01-20**
+
+**Issues found:**
+- [Pass 2] Paternal grandmother Orkuma from narrative plan never appeared in story
+- [Pass 3] Eight younger siblings listed by name in a row - unreadable roster style
+- [Pass 4] Sati (classmate/rival meant to show low agreeableness) absent from narrative
+- [Pass 4] Younger siblings listed but never appeared again individually
+- [Pass 7] Paragraph 4 was disconnected (school 2022, then random mention of rains/planting)
+- [Pass 11] Nigeria inflation historical context (2022-2025) barely integrated into narrative
+- [Pass 14] Trait manifestations (100th percentile conscientiousness, low agreeableness) not fully shown through scenes
+
+**Changes made:**
+- Added grandmother Orkuma to household description (lives in next compound, helps with childcare)
+- Replaced sibling name list with summary: "eight more: four girls and four boys"
+- Added Sati as classmate who teases Ioryina for rule-following; added scene where they argue over ball game rules
+- Named specific younger siblings (Teryima, Shior) when showing Ioryina's strictness
+- Merged disconnected paragraph 4 into school paragraph; removed vague "rains shifted" line
+- Added inflation context: naira falling, prices rising, father counting smaller stacks of bills
+- Enhanced conscientiousness scenes: sweeping corners, counting twice, staying after class to practice spelling
+- Added low agreeableness: Doosuur tells him to stop being serious; he ignores her; "not well-liked but trusted"
+- Expanded theft aftermath: added tension, gave Ioryina job of watching compound gate
+- Added Mker with Nguwase at assembly; Mr. Ikyur's praise of Ioryina as "steadiest boy"
+- Added closing paragraph showing ongoing strictness with Terna, inflation continuing
+-->

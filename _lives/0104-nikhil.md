@@ -287,7 +287,7 @@ continent: "Asia"
 
 Nikhil was born on 8 May 1998 in Vejalpur, on the western side of Ahmedabad, in the Indian state of Gujarat. The city sat under India's national government and Gujarat's state government, with neighborhood politics that turned on municipal services and party networks. His family spoke Gujarati at home, switched to Hindi when needed, and treated English as a school and office language. They were Hindu and kept their religion practical: a small shrine in the flat, a few framed pictures, a brass diya, and festivals when they came.
 
-His father, Suresh, left each morning in a tucked-in shirt and carried himself like a man who had passed exams that mattered. He worked as a professional—an engineer in a private firm with a steady salary, deadlines, and colleagues who talked in acronyms. His mother, Meena, worked in a clerical job where files moved from desk to desk and pay came on time. They lived as a nuclear family. Nikhil’s older brother Jayesh, born in 1995, took up space in the house the way older siblings do: louder, faster, always sure he knew the better way to do something.
+His father, Suresh, left each morning in a tucked-in shirt with his bag on his shoulder. He worked as a professional—an engineer in a private firm with a steady salary, deadlines, and colleagues who talked in acronyms. His mother, Meena, worked in a clerical job where files moved from desk to desk and pay came on time. They lived as a nuclear family. Nikhil's older brother Jayesh, born in 1995, was louder and faster, always sure he knew the better way to do something. Both parents worked, so on school afternoons a neighbor named Aarti watched the boys—she fed them snacks, made sure Jayesh did his homework, and kept Nikhil from wandering into the stairwell. She stayed in their lives as an informal aunt figure even after they outgrew supervision.
 
 The home shrine sat in a corner cabinet. On ordinary days Meena lit incense and waved it once or twice, quick and efficient, before leaving for work. On festivals the household changed pace. At Diwali, they cleaned cupboards, put rangoli near the door, and set out sweets from the local shop—soan papdi and kaju katli—alongside a small plate with flowers and kumkum. On Janmashtami, Jayesh pinched pieces of makhan from the kitchen and ran, and Nikhil chased him down the hallway laughing, slipping on the polished floor.
 
@@ -305,11 +305,11 @@ At fourteen, in 2012, his sneezing stopped being a small nuisance and became a r
 
 Stress changed his habits in other ways. In 2014 he began checking the front door lock, once, then again, fingers turning the latch, eyes fixed on the bolt. He washed his hands longer than needed and returned to the sink after touching the doorknob. He stuffed his schoolbag, then reopened it to confirm a notebook was there, then confirmed again. Meena noticed first because he made them late. Suresh reacted with irritation. Jayesh teased him—“Are you locking the whole building?”—until Nikhil snapped once and surprised them both. After that Jayesh stopped mocking and waited while Nikhil did his checks, leaning on the railing and looking down at the street.
 
-In late 2016, demonetization hit. Meena stood in a bank line with other office workers; Suresh asked colleagues for change. At local shops, arguments rose over whether someone could pay by card. Nikhil carried a few small notes like they were fragile, folding them carefully into his wallet and unfolding them again to see what he had left.
+In late 2016, demonetization hit. Meena stood in a bank line with other office workers; Suresh asked colleagues for change. At local shops, arguments rose over whether someone could pay by card. Nikhil carried a few small notes, folding them carefully into his wallet and unfolding them again to see what he had left.
 
 He finished school and moved into entry-level work instead of a long, prestigious professional track. In 2017 he joined a small accounts office near a commercial strip. The work was steady and repetitive: matching invoices, entering voucher details, calling vendors about missing GST numbers. His supervisor, Rakeshbhai, taught him how to keep files in order, then scolded him when he didn’t. Nikhil understood the rules once they were laid out. He could sit for hours making sure figures aligned. What tripped him was timing. He promised to finish a set of entries by lunch and then drifted into helping someone else with a phone call, or he lost ten minutes reopening a spreadsheet because he couldn’t remember where he saved it. Rakeshbhai’s voice sharpened: “Nikhil, you are not a child. Put reminders.”
 
-He kept his honesty simple and firm. When a vendor’s bill had an obvious error that could have benefited the firm if ignored, Nikhil flagged it and called. When someone suggested an “adjustment” to make a problem disappear, he refused and took the longer route: correction, resubmission, a fresh printout.
+He kept his honesty simple and firm. When a vendor’s bill had an obvious error that could have benefited the firm if ignored, Nikhil flagged it and called. When someone suggested an "adjustment" to make a problem disappear, he refused and did it properly: correction, resubmission, a fresh printout.
 
 In 2020 the pandemic shut the city down. Offices closed, transport stopped, and the streets outside their building went quiet. Nikhil stayed indoors and cleaned his phone and keys again and again. He avoided touching elevator buttons with bare fingers. When he returned to work after restrictions eased, he carried sanitizer and wiped his desk before sitting. The breathing trouble didn’t vanish either; masks and heat made him feel tight-chested on some days, and Dr. Shah renewed his inhaler prescriptions.
 
@@ -317,4 +317,22 @@ In 2022 his family arranged meetings with a woman named Pooja. She spoke Gujarat
 
 Married life gave his days more structure. Pooja kept a list on the refrigerator: electricity bill, rent, his clinic follow-up. Nikhil resented the list for about an hour and then used it, crossing items out with a pen. When his allergies flared, she reminded him to take the spray instead of pretending it would go away. He still checked the door more than once, especially on days when he was rushed, but he learned to do it faster. Jayesh visited on weekends and brought snacks, sometimes a packet of fafda-jalebi in the morning. He still acted like an older brother, but with warmth: advice about saving, a warning about a scam call, an extra helmet when Nikhil’s strap broke.
 
-Now, in early 2026, Nikhil sits at his desk in an accounts role he understands. He speaks softly in the office, gets along with people, and keeps his files neat when he remembers to file them. In the evenings he stops at a tea stall for cutting chai, then heads home through traffic and dust. At the door he checks the lock, once and once more, and steps inside to the sound of Pooja’s voice from the kitchen.
+Now, in early 2026, Nikhil sits at his desk in an accounts role he understands. He speaks softly in the office, gets along with people, and keeps his files neat when he remembers to file them. In the evenings he stops at a tea stall for cutting chai, then heads home through traffic and dust. At the door he checks the lock, once and once more, and steps inside to the sound of Pooja's voice from the kitchen.
+
+<!-- CHANGELOG
+Review date: 2026-01-20 (second pass)
+
+Figurative language removal:
+- "carried himself like a man who had passed exams that mattered" → "with his bag on his shoulder" (removed simile)
+- "took up space in the house the way older siblings do" → removed comparison, kept direct description
+- "like they were fragile" → removed simile about handling cash notes
+- "took the longer route" → "did it properly" (removed metaphor)
+
+---
+
+Review date: 2026-01-20 (first pass)
+
+Pass 4 (Named Characters): Added Aarti, the neighbor who supervised Nikhil and Jayesh after school when both parents worked (per narrative plan, prominence 1999-2006). She was missing from the original narrative.
+
+All other passes (Timeline, Household, Siblings, Deaths, Historical Events, Paragraphs, Chronology, Vague Language, Abstract Claims, Anachronisms, Jargon, AI-Slop): No issues found. Story has solid chronological flow, all historical events from the plan are covered (earthquake 2001, communal violence 2002, urban growth, demonetization 2016, GST 2017, COVID 2020), traits are shown through concrete action (OCD checking, low conscientiousness via lost forms), and authentic Gujarati details (fafda-jalebi, cutting chai, Diwali rituals).
+-->

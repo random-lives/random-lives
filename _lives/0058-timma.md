@@ -170,12 +170,29 @@ continent: "Asia"
 # - M
 ---
 
-Timma was born on October 15, 1148, in a Telugu-speaking village in the dry scrub country near Rayadurg on the Deccan plateau. The village paid dues through local chiefs tied into the larger powers of the eastern Deccan, but daily order came from elders and the village assembly. In his compound the family kept a small shrine space near the hearth and leaned on the grāma-devata, the village goddess, for protection, with lamps, neem leaves at the threshold, and bowls of cooked grain set out on vow days.
+Timma was born on October 15, 1148, in a Telugu-speaking village in the dry scrub country near Rayadurg on the Deccan plateau. The region had passed between Chalukya and Chola overlords within living memory; the village paid dues through local chiefs, but daily order came from elders and the village assembly. His family kept a small shrine space near the hearth and leaned on the grāma-devata, the village goddess, for protection, with lamps, neem leaves at the threshold, and bowls of cooked grain set out on vow days.
 
-His father, Kondanna, held a small rainfed plot and went out for seasonal wage work when other landholders hired hands or when earthworks needed labor. Bommamma, his mother, spun thread and did small exchanges through relatives and neighbors while she cooked and watched children. They shared the compound with Kondanna's parents, Komanna and Peddamma, and with his brother Narayya and Narayya's wife Chennamma.
+His father, Kondanna, held a small rainfed plot and went out for seasonal wage work when other landholders needed hands. Bommamma, his mother, spun thread and did small exchanges through relatives and neighbors while she cooked and watched children. They shared the compound with Kondanna's parents—Komanna, who controlled the grain stores, and Peddamma, who ran the household's protective rituals—and with Kondanna's brother Narayya and his wife Chennamma.
 
 Three girls had come before Timma and died young: Lakshamma in 1139 at one year, a second daughter in 1141, and Chinnamma in 1143. Their surviving child was Mallanna, born in 1144. Mallanna carried Timma on his hip to the threshing floor and set him down beside the grain baskets while he helped with goats and errands. When Timma was two, he trailed after him into the yard calling “anna, anna,” then turned and called “amma” toward the cooking place until Bommamma answered.
 
 At three, Timma kept a small clay pellet and a bit of string that Peddamma used for amulets. He crouched near a goat kid and tried to loop the string at its neck. Mallanna yanked him back by the arm; Timma yelled, then returned to the same goat as soon as attention shifted.
 
-After the rains of 1152, he developed severe diarrhea. Bommamma gave thin millet gruel and water; Peddamma rubbed ash on his forehead and hung neem again at the door. Basavayya, a village ritual specialist, came with herbs and a warding rite at the goddess shrine. Timma died on November 10, 1152. The men carried his body to the ground beyond the houses and covered it, and that evening a lamp and cooked grain were set before the grāma-devata.
+After the rains of 1152, he developed severe diarrhea. Bommamma gave thin millet gruel and water; Peddamma rubbed ash on his forehead and hung neem again at the door. Kondanna came back from the fields early and sent for Basavayya, a village ritual specialist, who came with herbs and a warding rite at the goddess shrine. Timma died on November 10, 1152. Kondanna and Narayya carried his body to the ground beyond the houses and covered it. That evening the family set a lamp and cooked grain before the grāma-devata.
+
+<!--
+REVIEW LOG - 0058-timma.md
+
+**Issues found:**
+- [Pass 4] Father Kondanna described but never appears in action
+- [Pass 11] Political context vague ("larger powers of the eastern Deccan")
+- [Pass 14] "The men" at burial impersonal given we know the household
+- [Pass 14] Household listing in para 2 reads like a roster without characterization
+
+**Changes made:**
+- Added Kondanna coming back from fields and sending for the healer during illness
+- Specified "Kondanna and Narayya" as the men who carried the body
+- Added historical context: "region had passed between Chalukya and Chola overlords"
+- Gave Komanna and Peddamma brief characterizing details (grain stores, protective rituals)
+- Changed "the family" instead of impersonal "a lamp... were set"
+-->

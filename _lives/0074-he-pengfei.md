@@ -340,21 +340,21 @@ He arrived as the second of two sons. His older brother, He Wei, already ran aro
 
 In primary school he carried a neat pencil case and a small notebook where he copied homework twice because he distrusted the first version. He read faster than his classmates and corrected their arithmetic without thinking, then flushed when they stared. Teachers praised him and also told him to relax. At home his father talked about money in short sentences, mostly about what something cost now and what it had cost last year. In the late 1980s and early 1990s, new goods appeared in Qingdao’s shops and street stalls, and prices changed quickly. His father bought a secondhand fan, then worried aloud about the electric bill.
 
-Shulan’s illness shaped the apartment’s rhythm. Pengfei learned to heat water, wash rice, and keep track of medicine packets. Wei teased him for being careful and small, then covered for him when their father snapped over something misplaced. Their bond was practical: Wei walked him to school sometimes, slapped his shoulder when he was slow, and later bragged to relatives that his little brother would go farther than both of them.
+Shulan's illness set the pace of the apartment. Pengfei learned to heat water, wash rice, and keep track of medicine packets. Wei teased him for being careful and small, then covered for him when their father snapped over something misplaced. Their bond was practical: Wei walked him to school sometimes, slapped his shoulder when he was slow, and later bragged to relatives that his little brother would go farther than both of them.
 
 By middle school, Pengfei’s body reacted to pressure. He woke before dawn with a tight chest, washed his face in cold water, and checked his bag repeatedly: keys, bus card, pen, ID. He took the same route, avoiding crowded corners where boys shoved each other. He still talked easily in class and laughed at the right times, but afterward he replayed each sentence in his head. He kept a small routine for comfort. After school he bought a skewer of grilled squid from a cart, ate it quickly, and then walked the long way home along a quieter street to stretch the time before stepping back into the apartment’s hush.
 
 When talk of layoffs and “xiagang” spread in the mid-1990s, Guoqiang’s anxiety sharpened. Neighbors who had counted on work-unit jobs started selling small goods or doing errands for cash. Guoqiang was already outside that system, but the mood hit him anyway. He took more jobs, came home later, and argued with Wei about money. Pengfei listened from the doorway, gripping his workbook.
 
-In 2000 he left Shandong for a major city outside the province to attend university. Higher education had expanded, and the campus was crowded with students who had also come from modest homes. The dorm room smelled of instant noodles and wet towels. His roommate Zhao Min joked about everything: the canteen, the professors, the boys who showed off in English class. Zhao called him “Old He” for his seriousness and dragged him to late-night bowls of beef noodle soup. Pengfei liked those meals. The shop was bright, the tables sticky, and the talk stayed on small things.
+In 2000 he left Shandong for a major city outside the province to attend university. Higher education had expanded, and the campus was crowded with students who had also come from modest homes. The dorm room smelled of instant noodles and wet towels. His roommate joked about everything: the canteen, the professors, the boys who showed off in English class. Pengfei sometimes joined him for late-night bowls of beef noodle soup. The shop was bright, the tables sticky, and the talk stayed on small things. He liked those meals, the brief looseness of them, before he walked back to the dorm and started checking his notes for the next day.
 
 He studied hard and kept to routines. He wrote schedules on a calendar and underlined exam dates twice. He took part-time work sorting files and checking receipts at a small office near campus. He sent some money home when he could, and he called his mother on Sundays. Shulan spoke softly, asking if he ate enough and whether the weather was cold. Guoqiang asked about grades and then asked about practical things: when the semester ended, what tickets cost, whether the dorm had heat.
 
 In 2004 he finished his bachelor degree and became the first in his immediate family to do so. He kept the graduation photo even though he disliked how he looked in it. He found a stable office job and stayed in that city. The work was administrative and process-heavy: forms, spreadsheets, stamps, phone calls to confirm documents, and the quiet pressure of deadlines. His supervisor Chen Rong valued accuracy. Chen handed Pengfei stacks of paperwork and said, “You check. Don’t miss anything.” Pengfei checked everything. He built a personal system of folders and labels and kept backup copies on a USB drive in a separate pocket.
 
-The next year his sleep broke apart. He lay awake hearing traffic from the road below and felt his mind click through worries in a fixed order: mistakes at work, his mother’s health, money, his appearance, what coworkers thought of him. In the morning he washed his face, drank strong tea, and went in anyway. When the fatigue piled up, he visited a community hospital and met Dr. Li Wen, who wrote short notes and gave him a small prescription for sleep. Pengfei took it for a few nights, then stopped, then returned months later when he couldn’t stand another week of waking at three.
+The next year his sleep fell apart. He lay awake hearing traffic from the road below and ran through the same worries in the same order: mistakes at work, his mother's health, money, his appearance, what coworkers thought of him. In the morning he washed his face, drank strong tea, and went in anyway. When the fatigue piled up, he visited a community hospital and met Dr. Li Wen, who wrote short notes and gave him a small prescription for sleep. Pengfei took it for a few nights, then stopped, then returned months later when he couldn’t stand another week of waking at three.
 
-At twenty-six, in 2008, a night out ended badly. He and coworkers ate barbecue at a street stall, drinking beer and arguing over a small misunderstanding about a seat and a bill. The voices rose. A group from another table pushed in. Someone grabbed his collar, and fists landed on his cheek and jaw. He fell, covered his head, and later noticed a tooth cracked when his mouth filled with blood. He filed a brief report and let it go. After that he avoided late-night stalls and ate dinner earlier, alone or with one trusted coworker.
+In 2008, a night out ended badly. He and coworkers ate barbecue at a street stall, drinking cheap beer under a plastic awning. A man from another table bumped into him coming back from the toilet, spilling beer down his shirt. Pengfei said something—he couldn't remember what afterward—and the man shoved him. Others stood up. Someone grabbed his collar, and fists landed on his cheek and jaw. He fell, covered his head, and felt his mouth fill with blood from a cracked tooth. The police came, took names, and nothing else happened. After that he avoided late-night stalls and ate dinner earlier, alone.
 
 He tried to build a normal adult life anyway. In 2009 he started dating Liu Xue, a coworker who worked in operations. They met at the copier, making jokes about forms that required three stamps and a signature from someone always “in a meeting.” She liked that he listened closely and remembered details. They took walks after work along a river path, ate dumplings in a small shop, and talked about their families. They slept together after several months. Pengfei enjoyed the closeness and the routine of having plans on weekends, but he also waited for the relationship to fail. He read her expressions too carefully. When she sighed, he asked what he had done.
 
@@ -366,6 +366,34 @@ From 2013 to 2015 he bent rules at work. Money was tight, and he felt trapped be
 
 His mother died in 2016. Guoqiang called with a flat voice, and Pengfei took leave to return to Qingdao. The apartment looked smaller than he remembered. After the funeral he stayed a few days, sorting medicines, helping his father clear drawers, and walking with Wei through the neighborhood. Wei talked about practical arrangements. Pengfei nodded and went along, then woke at night with his throat tight and his heart racing.
 
-In the years of heavy haze, he paid attention to air-quality readings and wore a mask on bad days. He booked checkups and asked Dr. Li more questions than before. During the COVID-19 years he followed the rules, scanned codes, queued for tests, and kept his routine even when routines were hard to keep. He still worked in administration, still filed documents, still corrected mistakes others missed.
+In the years of heavy haze, he checked air-quality apps before leaving his apartment and wore a mask on the worst days, the ones when the sky turned gray-yellow and the buildings across the street blurred. He started seeing Dr. Li more often, asking about chest tightness and fatigue, worried that something new was wrong.
 
-By late 2025 he lives alone in a rented apartment in the city where he settled after university. He keeps his desk clean and his documents in labeled folders. On weekends he buys noodles and a bag of apples, calls his father, and sends short messages to his brother. At Qingming he orders flowers online and asks Wei to place them at the grave. At night he sets an alarm, checks the door lock twice, and lies down with the lights off, listening to traffic until his breathing slows.
+When COVID arrived, the routines he had built for himself suddenly became the rules for everyone: stay inside, scan codes, line up for tests. He found the restrictions easier than most people seemed to. The hard part was the uncertainty—the shifting regulations, the sudden lockdowns, the way plans dissolved overnight. He kept working, kept filing documents, kept finding errors others missed. The job stayed the same even when everything outside it didn't.
+
+By late 2025 he is forty-three and lives alone in a rented apartment in the city where he settled after university. The place is small and clean, with a desk by the window and documents in labeled folders. On weekends he buys noodles and a bag of apples from the same vendor, calls his father, and sends short messages to his brother. Wei lives in Qingdao now, closer to their father, and at Qingming he places flowers at their mother's grave on both their behalf. Pengfei sends money for the flowers and the incense.
+
+At night he sets an alarm, checks the door lock twice, and lies down with the lights off. The traffic sounds the same as it did twenty years ago when he first moved here. He listens until his breathing slows, and then, on good nights, he sleeps.
+
+<!--
+**Review: 2026-01-20**
+
+**Issues found:**
+- [Pass 4] Zhao Min named but only appears once and never reappears despite narrative plan saying he does—loose thread
+- [Pass 6] Assault scene vague about what triggered the escalation ("small misunderstanding about a seat and a bill")
+- [Pass 8] "At twenty-six, in 2008" duplicates year and age redundantly
+- [Pass 13] "shaped the apartment's rhythm"—"rhythm" is AI-slop adjacent
+- [Pass 13] "his mind click through worries"—slightly metaphorical
+- [Pass 14] COVID paragraph read like a checklist rather than lived experience
+- [Pass 14] Final paragraph had a summary feel, lacked emotional texture
+- [Pass 14] Haze paragraph was brief and disconnected
+
+**Changes made:**
+- Removed Zhao Min's name; kept the roommate as unnamed character to avoid loose thread
+- Rewrote assault scene with concrete trigger (beer spilled, words exchanged, shove, escalation)
+- Removed redundant "At twenty-six" from 2008 paragraph
+- Changed "shaped the apartment's rhythm" to "set the pace of the apartment"
+- Changed "felt his mind click through worries" to "ran through the same worries"
+- Expanded COVID paragraph to show why restrictions were easier for him and what was hard
+- Split final paragraph in two, added emotional texture (Wei's location, "on good nights")
+- Expanded haze paragraph with concrete sensory detail (gray-yellow sky, buildings blurring)
+-->

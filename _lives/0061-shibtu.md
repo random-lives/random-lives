@@ -363,23 +363,27 @@ Her mother, Ilat-ummi, died on the day Shibtu entered the world. The women washe
 
 There had already been two graves beyond the houses. Yabni, Hanni's firstborn, had died at two. Tappu, the next child, had lasted a year. Their names were spoken in quick, careful ways, then dropped. Shibtu learned early that adults lowered their voices when they walked past the stones.
 
-When she was two, another baby cried in the house. Her father’s sister-in-law, Miri, held the child close while Nura warmed water and muttered prayers. The baby, Yatrum, died before Shibtu learned to speak her name clearly. A year later Abi was born and also died before her second winter ended. Shibtu’s memories of those seasons stayed as broken pieces: smoke thick in the doorway, the rasp of grinding stones stopping mid-morning, women’s hands in her hair pushing her back from the mat.
+When she was two, another baby cried in the house. Her father’s sister-in-law, Miri, held the child close while Nura warmed water and muttered prayers. The baby, Yatrum, died before Shibtu learned to speak her name clearly. A year later Abi was born and also died before her second winter ended. What Shibtu remembered of those seasons came in fragments: smoke thick in the doorway, the rasp of grinding stones stopping mid-morning, women's hands in her hair pushing her back from the mat.
 
 Nura turned grief into rules. She kept a small clay bowl on a shelf by the hearth and every morning dropped a pinch of flour into it and a thread of wool, then tipped it into the fire with a short petition to El for guarding the house. On new moons she set a little oil in a lamp and placed it at the threshold for Ashtart. Shibtu learned the sequence and corrected herself when she skipped a step. When her father returned with fresh cheese, Nura cut off the first piece and set it aside before anyone ate.
 
 By seven, Shibtu carried water in a skin that left wet marks on her tunic. She ground grain until her forearms tightened and her palms toughened. She liked the quiet of early morning when the air was cool and the path to the spring was empty except for birds. She hated the sound of funeral laments. The singing pushed her stomach tight and made her look for a place behind the storage jars until it ended.
 
-Ayyab died when Shibtu was thirteen. The men washed his body and wrapped it. Nura had Shibtu knead bread without stopping, then sent her to deliver a loaf to a neighbor whose husband was on a labor levy. The next year Nura began to cough and tire. By the time Shibtu was seventeen, Nura was dead. Shibtu took over the hearth, the spinning, and the careful tying of jar stoppers. She did not improvise. When Miri suggested a different way to hang drying figs, Shibtu kept using her grandmother’s method, knots spaced exactly, strings measured by her own fingers.
-
 At ten she understood why men sometimes left before dawn with other men and returned with sore hands and nothing to show. Ili-malik, the headman, stood in the open space near the threshing floor and called households by name. He marked amounts on a board with scratches and watched as barley was poured into a shared basket. Shibtu stood behind her father and counted silently as he measured. If his scoop shook and spilled a little, she reached down and picked up the scattered grains one by one and dropped them back.
 
-At sixteen, Miri negotiated a marriage for her with a man from a nearby settlement, Rimay. The move was local, close enough that Shibtu could still see the ridge line above her father’s house when the air was clear. Rimay’s kin lived nearby but not under the same roof. Their house held a hearth, two storage pits, a small courtyard for animals, and a loom set against a wall. Rimay’s manner stayed steady. He spoke little during meals and listened while others talked. Shibtu matched him. She rose first, swept the floor, checked jar stoppers, and rubbed oil into the wooden pestle so it would not split.
+Ayyab died when Shibtu was thirteen. The men washed his body and wrapped it. Nura had Shibtu knead bread without stopping, then sent her to deliver a loaf to a neighbor whose husband was on a labor levy. The next year Nura began to cough and tire.
+
+At sixteen, Miri negotiated a marriage for Shibtu with a man from a nearby settlement, Rimay. A year later Nura was dead. Shibtu took over the hearth, the spinning, and the careful tying of jar stoppers in her final months in her father's house. She did not improvise. When Miri suggested a different way to hang drying figs, Shibtu kept using her grandmother's method, knots spaced exactly, strings measured by her own fingers.
+
+Then she moved to Rimay's house. The move was local, close enough that she could still see the ridge line above her father's house when the air was clear. Rimay's kin lived nearby but not under the same roof. Their house held a hearth, two storage pits, a small courtyard for animals, and a loom set against a wall. Rimay spoke little during meals and listened while others talked. Shibtu matched him. She rose first, swept the floor, checked jar stoppers, and rubbed oil into the wooden pestle so it would not split.
 
 She made friends with a neighbor, Damaru, who spun wool while her children played in the dust. Damaru liked to tease. When Shibtu measured out flour with the same careful hand every time, Damaru took the scoop and deliberately overfilled it, watching Shibtu’s face. Shibtu snatched it back, then laughed once, short and surprised, and told her to stop acting like a child. They shared roasted chickpeas and onions in the evenings and traded small bits of news, who had borrowed what, who had quarreled with whom.
 
 At eighteen, Shibtu went into labor with her first child. Kusha, an older woman with scarred hands and a sharp voice, came in and took charge. The birth ended with a daughter, Ninsum, who did not live through the day. Shibtu washed the child and held her in her lap until Kusha took her away. That night, any infant cry from a neighbor made Shibtu sit upright, heart hammering, staring at the dark. She stopped going into the corner where the birth had happened, stepping around it.
 
-Two years later she bore a son, Yassib. He died before he could be named with certainty beyond the household. After that, Shibtu’s offerings became more exacting. She kept a small pendant of bronze at the edge of the sleeping mat and touched it each morning before speaking. She asked Rimay to slaughter a young goat for a vow meal and insisted the first portion be placed on a clean shard near the threshold for Ashtart. Rimay complied, then complained once that there was too much given away. Shibtu did not argue. She tightened her jaw, worked longer, and stopped joining Damaru at the spring for a time.
+Two years later she bore a son, Yassib. He died before he could be named with certainty beyond the household. After that, Shibtu's offerings became more exacting. She kept a small pendant of bronze at the edge of the sleeping mat and touched it each morning before speaking. She asked Rimay to slaughter a young goat for a vow meal and insisted the first portion be placed on a clean shard near the threshold for Ashtart. Rimay complied, then complained once that there was too much given away. Shibtu did not argue. She tightened her jaw, worked longer, and stopped joining Damaru at the spring for a time.
+
+The following year, word came that Hanni had died. Shibtu walked to her father's compound and helped wash his body. The house where she had grown up felt smaller than she remembered. She brought back a few things: the clay bowl Nura had used for morning offerings, a bronze pin that had belonged to her mother. Miri stayed on in the compound with her own family.
 
 When Shibtu was twenty-four, she gave birth to Tirzah. The girl lived. Shibtu kept the child close and watched her breathing in the night. She learned to quiet her own startle when dogs barked or footsteps sounded outside, but some nights she still sat up suddenly, gripping the mat. During funerary songs she went busy-handed, pushing Tirzah’s hair back, checking the tie on the infant’s swaddling, counting out lentils to distract herself.
 
@@ -387,10 +391,32 @@ The household survived on grain, olives, goat milk, and what Rimay brought back 
 
 At twenty-five, sickness spread among goats and sheep. Ammur, Rimay’s cousin, brought news of swelling and sudden deaths in nearby herds. Rimay isolated their animals as best he could, but they still lost milk and wool. Shibtu responded with stricter rationing, boiling thin porridge and stretching it with greens. She spun more, fingers moving even when her shoulders ached, and traded a length of coarse cloth for extra barley.
 
-At twenty-six, Shibtu began to cough. At first she blamed smoke. Then the cough stayed, and she spat in the ash by the hearth so others would not see. Fever came in spells. She kept working anyway, moving slower, stopping to brace a hand on the wall when she stood. Tirzah, now a girl of five, brought her water and learned to grind grain under Shibtu’s eye.
+At twenty-six, Shibtu began to cough. At first she blamed smoke. Then the cough stayed, and she spat in the ash by the hearth so others would not see. Fever came in spells. She kept working anyway, moving slower, stopping to brace a hand on the wall when she stood. Tirzah, now two, followed her around the house and learned to hold the distaff while Shibtu spun.
 
 The tribute demands did not stop. Ili-malik still called for measures, still spoke of obligations that traveled down the valley. Rimay carried what he owed, and Shibtu counted what remained at home.
 
-In her twenty-ninth year the cough deepened and her weight fell away. Rimay slept near her and kept the fire low. Damaru came with broth and sat in the courtyard to spin so the house would not be silent. Shibtu died in early autumn, after several days when she could not rise from the mat.
+In her twenty-ninth year the cough deepened and her weight fell away. Rimay slept near her and kept the fire low. Damaru came with broth and sat in the courtyard to spin so the house would not be silent. Tirzah, now five, brought her mother water and sat beside her on the mat. Shibtu died in early autumn, after several days when she could not rise.
 
 They prepared her body and bound it in cloth, then carried it to the family burial place. A lamp with oil and a piece of bread were set beside her, and a short prayer was spoken to El for shelter and to Ashtart for guarding Tirzah.
+
+<!--
+**Review: 2026-01-20**
+
+**Issues found:**
+- [Pass 4/5] Father Hanni disappears from narrative after para 2; his death (1312 BC) never mentioned
+- [Pass 7] Chronological jump backward: age 10 paragraph came after ages 13-17 paragraph
+- [Pass 8] Marriage at 16 mentioned after Nura's death at 17, creating confusing backward jump
+- [Pass 13] "memories stayed as broken pieces" - slightly figurative language
+- [Pass 14] Tirzah's age wrong: said "five" at age 26 when she should be ~2
+- [Pass 14] Dense paragraph combining marriage, Nura's death, and move to Rimay's house
+
+**Changes made:**
+- Added paragraph about Hanni's death (after age 20, before age 24)
+- Reordered paragraphs: moved age 10 (tribute) before age 13 (grandfather's death)
+- Restructured marriage/Nura's death paragraph to flow chronologically (16 -> 17 -> move)
+- Changed "memories stayed as broken pieces" to "What Shibtu remembered... came in fragments"
+- Fixed Tirzah's age: "now two" at age 26, "now five" at age 29
+- Split dense paragraph into two: one for final months in father's house, one for Rimay's house
+- Added Tirzah at deathbed scene
+- Removed redundant "Rimay's manner stayed steady"
+-->
