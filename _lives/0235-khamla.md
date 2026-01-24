@@ -148,8 +148,23 @@ continent: "Asia"
 
 Khamla was born on May 3, 1867 in a Khon Mueang hamlet near Pa Sang in Lamphun, in the Lanna north under Siam’s growing authority. Her parents, Phan and Soi, spoke the local Tai village speech and lived in a two-parent household that worked its own land, balancing rice with dry-field crops and a few animals.
 
-Two small graves lay fresh in the family’s memory. Saen, a three-year-old son, had died in 1866. Noi, born later that same year, lived only days. When Khamla arrived the next hot season, Soi kept her close on a woven mat in the shade and tied a small cord at the baby’s wrist after Mae Uan came to speak protective words and set out a bowl of rice, water, and a pinch of salt at the house spirit post. On wan phra Phan carried sticky rice and a little dried fish to the wat for alms; the monk Nanthā chanted short protective verses and brushed Khamla’s forehead with holy water.
+The family had buried two sons the year before. Saen, three years old, died in 1866. Noi, born later that same year, lived only days. When Khamla arrived the next hot season, Soi kept her close on a woven mat in the shade and tied a small cord at the baby’s wrist after Mae Uan came to speak protective words and set out a bowl of rice, water, and a pinch of salt at the house spirit post. On wan phra Phan carried sticky rice and a little dried fish to the wat for alms; the monk Nanthā chanted short protective verses and brushed Khamla’s forehead with holy water.
 
-Her living brothers filled the yard. Inthar, twelve, watched the animals and went on errands. Khamphun, eight, hovered near the sleeping place and was sent to fetch water or firewood.
+Her brothers Inthar and Khamphun, twelve and eight, filled the yard with noise. Inthar watched the animals and went on errands to the wat or neighboring farms. Khamphun hovered near the sleeping place and was sent to fetch water or firewood.
 
-Late in the rainy season, after weaning foods had begun, Khamla developed watery diarrhea. Soi tried rice-water and boiled herbs; Phan sought help at the temple and from neighbors. On September 27, 1868, Khamla died at home. The family washed her, wrapped her in cloth, and brought her to the wat compound, leaving a small offering of rice and flowers before burial.
+Through the hot season and into the rains Khamla grew. Late in the rainy season, after weaning foods had begun, she developed watery diarrhea. Soi tried rice-water and boiled herbs; Phan sought help at the temple and from neighbors. On September 27, 1868, Khamla died at home. The family washed her, wrapped her in cloth, and brought her to the wat compound, leaving a small offering of rice and flowers before burial.
+
+<!--
+**Review changelog:**
+
+**Issues found:**
+- [Pass 13] "Two small graves lay fresh in the family's memory" - slightly figurative language
+- [Pass 14] Brother introduction felt mechanical with bare age listing
+- [Pass 14] Abrupt transition from brothers paragraph to illness paragraph
+
+**Changes made:**
+- Rewrote opening of paragraph 2 to be more direct: "The family had buried two sons the year before"
+- Integrated brother names and ages more naturally: "Her brothers Inthar and Khamphun, twelve and eight, filled the yard with noise"
+- Added transitional sentence showing passage of time: "Through the hot season and into the rains Khamla grew"
+- Added detail about Inthar's errands to make it less list-like
+-->

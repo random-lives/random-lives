@@ -214,10 +214,27 @@ continent: "Asia"
 
 Otsugi was born on December 4, 1565, in a small settlement in the hills of Harima in Hyōgo, during the years when Oda Nobunaga’s wars and alliances were reshaping rule across central Japan. Her family were Wajin villagers, speaking the local Harima form of Japanese, and they lived by the mixed rites of shrine and temple: a household Buddhist altar with tablets for the dead, and obligations to the village shrine.
 
-The house was a three-generation ie. Her grandfather Genshō held the household together and dealt with village matters; her grandmother Otsune kept the altar in order and knew the practical routines of sickness and birth. Otsugi’s father, Renkei, traveled as a religious practitioner, moving between communities to perform rites and carry charms. Her mother Okiku ran the daily work—water, fuel, cooking, a kitchen patch, and the endless watching of a child who moved fast.
+The house was a three-generation ie. Her grandfather Genshō held the household together and dealt with village matters; her grandmother Otsune kept the altar in order and knew the practical remedies for fever and cough. Otsugi's father, Renkei, traveled as a religious practitioner, moving between communities to perform rites and carry charms. Her mother Okiku ran the daily work—water, fuel, cooking, a kitchen patch, and the endless watching of a child who moved fast. An older sister, Ohana, had died the year before Otsugi was born; the adults spoke the name briefly when the baby cried too long.
 
-An older sister, Ohana, had died the year before Otsugi was born, and the adults spoke the name briefly when the baby cried too long. Otsugi grew into a loud toddler anyway. In the spring of 1567, Otsune lit the altar lamp and set a little rice and salt before it. Otsugi pushed close, pointed, and repeated “hi” at the flame, then “meshi,” trying the words on anyone who entered, as if conversation were a game that had to be played at full volume.
+Otsugi grew into a loud toddler. In the spring of 1567, Otsune lit the altar lamp and set a little rice and salt before it. Otsugi pushed close, pointed, and repeated "hi" at the flame, then "meshi," trying the words on anyone who entered, as if conversation were a game to be played at full volume.
 
 That autumn Renkei returned with a companion, Sukesaburō, carrying a small charm pouch on a cord. Otsugi shoved into the men’s space, grabbed the cord, and insisted on carrying it to the threshold to show a neighbor’s child. Okiku pried it free and handed her a wooden spoon to strike a pot, which satisfied her until she spotted the pouch again.
 
-Jirō was born in November. A few weeks later, in early December 1567, measles spread through the village. Otsugi died on December 8. Her body was washed, dressed, and placed for a brief vigil before the household altar with a small bowl of rice and a lit lamp, then carried to burial under the care of the local temple.
+Jirō was born in November. Okiku was still recovering when measles spread through the village in early December. Otsugi's fever rose fast. She stopped eating. The grandmother tried cool cloths and prayers, but the rash spread across her face and chest, and on December 8 she stopped breathing. They washed her body, dressed it in clean cloth, and placed her before the household altar with a small bowl of rice and a lit lamp. The local temple arranged burial.
+
+<!--
+**Review changelog**
+
+**Issues found:**
+- [Pass 2] "practical routines of sickness and birth" was vague for grandmother's role
+- [Pass 7] Paragraph 2 merged household description, Ohana's death, and toddler development—too much for one paragraph
+- [Pass 14] Death paragraph was compressed and clinical, lacked physical progression of illness
+- [Pass 14] "a loud toddler anyway" had unnecessary "anyway"
+
+**Changes made:**
+- Changed grandmother's role to "practical remedies for fever and cough" (foreshadows her care during illness)
+- Split paragraph 2: household composition ends with Ohana mention; new paragraph for toddler development
+- Expanded death scene with fever progression, cessation of eating, rash spreading, grandmother's interventions
+- Removed "anyway" from "loud toddler" sentence
+- Changed "that had to be played" to "to be played" for tighter prose
+-->

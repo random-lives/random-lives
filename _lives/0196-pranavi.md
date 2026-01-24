@@ -122,10 +122,26 @@ continent: "Asia"
 # - F
 ---
 
-Pranavi was born on November 26, 2018, in Hulikere in Mandya taluk, in India’s Karnataka state, governed by the state administration under the Union government in New Delhi. Her parents were Telugu-speaking Hindus who also used Kannada in the market and with neighbors. Ramesh ran a small kirana-style shop, keeping a handwritten ledger and counting change late into the evening. Lakshmi stayed home with the children.
+Pranavi was born on November 26, 2018, in Hulikere, a town in the Mandya district of Karnataka, India. She arrived five weeks early, weighing just over two kilograms. Her parents were Telugu-speaking Hindus who also used Kannada in the market and with neighbors. Ramesh ran a small kirana shop, keeping a handwritten ledger and counting change late into the evening. Lakshmi stayed home with the children.
 
 A small shrine stood on a shelf in the main room. Lakshmi lit a lamp in front of a framed picture of Lakshmi and a small Ganesha, set a pinch of turmeric and kumkum in metal cups, and placed a few flowers or a banana when she could. After Pranavi’s birth she tied a black thread at the baby’s waist and dabbed kohl at the edge of her eye before relatives came to see her.
 
-Karthik, born in 2015, had started going out for play and early schooling. He tried to touch the baby’s cheeks with fingers that had just been in the dust outside. Lakshmi watched him while balancing Pranavi on her hip, shifting the baby from shoulder to shoulder when her breathing turned fast after feeds. Ramesh paid for formula and clinic visits when breastfeeding failed and the baby did not gain weight.
+Karthik, born in 2015, had started going out for play and early schooling. He tried to touch the baby's cheeks with fingers that had just been in the dust outside. Lakshmi watched him while balancing Pranavi on her hip, shifting the baby from shoulder to shoulder when her breathing turned fast after feeds. Pranavi struggled to latch, and Lakshmi's milk was never enough; Ramesh paid for formula and clinic visits, but the baby gained weight slowly.
 
-On June 22, 2019, Pranavi died from complications linked to prematurity and low birthweight. That afternoon the family took her to a local cremation ground, where an elder relative guided the rites, and Lakshmi placed a small handful of flowers before they left.
+In June 2019, Pranavi caught a respiratory infection. Her small lungs, weakened by the early birth, could not fight it off. She died on June 22nd, seven months old. That afternoon the family took her to a cremation ground outside town, where an elder relative guided the rites. Lakshmi placed a small handful of flowers before they left.
+
+<!--
+**Review changelog (2026-01-21)**
+
+**Issues found:**
+- [Pass 6] Prematurity mentioned in death but never established at birth
+- [Pass 9] "breastfeeding failed" too vague
+- [Pass 11] Opening political description ("governed by the state administration under the Union government") awkwardly bureaucratic
+- [Pass 14] Death felt abrupt without connecting to established health vulnerability
+
+**Changes made:**
+- Added prematurity details to opening paragraph: "five weeks early, weighing just over two kilograms"
+- Rewrote breastfeeding passage to be more concrete: "struggled to latch, and Lakshmi's milk was never enough"
+- Simplified geographic introduction, removing bureaucratic political framing
+- Expanded death paragraph to show progression from infection to death, connecting to established prematurity
+-->

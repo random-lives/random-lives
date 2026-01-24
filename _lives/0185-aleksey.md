@@ -408,28 +408,62 @@ The house held more than parents and children. Aleksey’s paternal grandfather 
 
 A few winters after the 1905 unrest farther away, a teacher tried to gather village children for lessons. Aleksey went for a short stretch. He could not hold letters in his mind. He stared at the slate and copied marks without understanding, then forgot them by the next day. When he was pulled back into chores, no one argued. He carried water, fed the cow, watched geese, and trailed after Stepan to the hayfield. Stepan talked for both of them, quick with village jokes and daring enough to climb where Aleksey would not.
 
-Maksim died in 1908. The household shifted. Fyodor’s word became final, and Ivan’s work began to count as a man’s work. Aleksey fell into a place where he was useful but watched. He could mow if someone set him at the edge of a strip and pointed the direction. He could stack sheaves. He liked threshing time because it brought company: men in a line, boots on the barn floor, talk running ahead of the flails. He laughed easily and repeated the same story twice without noticing.
+Maksim died in 1908. The household shifted. Fyodor's word became final, and Ivan's work began to count as a man's work. Aleksey fell into a place where he was useful but watched. He could mow if someone set him at the edge of a strip and pointed the direction. He could stack sheaves. He liked threshing time because it brought company: men in a line, boots on the barn floor, talk running ahead of the flails. He laughed easily and repeated the same story twice without noticing.
 
-The war that began in 1914 pulled at the village even before soldiers marched through it. Prices rose, iron goods grew scarce, and the men talked about lists and summonses. That same year Stepan died at eighteen. A sickness took him quickly after a short time in bed. Aleksey did not take the loss with words; he walked more often to the edge of the yard and stood there, looking toward the fields where Stepan had worked. Fyodor drove him back to tasks, and Aleksey did them, clumsy and obedient.
+The years between 1909 and 1913 passed in the same pattern: spring plowing, summer haymaking, autumn threshing, winter wood-hauling. Ivan married and brought his wife into the household. Anna left to marry a man in a village three versts away. Aleksey stayed, doing the same tasks, never advancing to the skilled work that Fyodor assigned to Ivan. He was sixteen when the war began.
+
+The war in 1914 pulled at the village even before soldiers marched through it. Prices rose, iron goods grew scarce, and the men talked about lists and summonses. That same year Stepan died at eighteen. A sickness took him quickly after a short time in bed. Aleksey did not take the loss with words; he walked more often to the edge of the yard and stood there, looking toward the fields where Stepan had worked. Fyodor drove him back to tasks, and Aleksey did them, clumsy and obedient.
 
 Ulyana died in 1916. Praskovya wrapped the grandmother’s body and arranged the home prayers with the little she could manage as public church life became less certain. Aleksey kept the habit of crossing himself at the icon corner and touching the wooden frame when he passed, even when he could not explain why.
 
 The upheaval from 1917 onward arrived as men with rifles, new orders, and demands for grain. Aleksey understood little of politics. He understood fear in voices and the need to do what older men said. Ivan handled the bargaining and the arguments. Aleksey carried sacks, held a horse’s head, and followed instructions. When the village talked in whispers, he repeated those whispers too loudly until Anna or his mother hushed him.
 
-In 1922, with the fighting quieter and the new authorities settled enough to issue papers, Aleksey married Ekaterina from a nearby village. She was steady and direct, and she could read enough to recognize a name. In their home she kept a small icon of Saint Nicholas and the Mother of God on a shelf with a cloth under them. Aleksey still prayed by rote. He liked the simple part of feast days: warm kasha with butter when there was butter, a cup of tea sweetened with a spoonful of jam, singing that ran late into the night. He made friends quickly. A neighbor named Pavel became his drinking companion when there was vodka to be had, and Aleksey’s loud talk and easy laughter drew other men to the bench outside the house in summer evenings.
+In 1922, with the fighting quieter and the new authorities settled enough to issue papers, Aleksey married Ekaterina from a nearby village. She was steady and direct, and she could read enough to recognize a name. They lived in a separate izba on the same plot as his parents, sharing labor with Fyodor and Praskovya. Ekaterina's older sister Galina, widowed young, sometimes stayed with them to help. Ekaterina kept a small icon of Saint Nicholas and the Mother of God on a shelf with a cloth under them. Aleksey still prayed by rote. He liked the simple part of feast days: warm kasha with butter when there was butter, a cup of tea sweetened with a spoonful of jam, singing that ran late into the night. He made friends quickly. A neighbor named Pavel became his drinking companion when there was vodka to be had, and Aleksey’s loud talk and easy laughter drew other men to the bench outside the house in summer evenings.
 
-Ekaterina did the planning. Aleksey forgot to latch gates and once left a scythe in wet grass to rust. They argued about it, short and sharp. He would sulk, then turn talkative again, making a show of helping, sweeping the floor with too much force, splashing water from the bucket. When their son Nikolay was born in 1926, Aleksey lifted the baby high for others to see and told the same joke to three different visitors. Ekaterina kept the child warm, kept the cow milked, and kept the household fed.
+Ekaterina did the planning. Aleksey forgot to latch gates and once left a scythe in wet grass to rust. They argued about it, short and sharp. He would sulk, then turn talkative again, making a show of helping, sweeping the floor with too much force, splashing water from the bucket. When their son Nikolay was born in 1926, Aleksey lifted the baby high for others to see and told the same joke to three different visitors. Ekaterina managed the household, milking the cow before dawn and making sure Nikolay was fed before anyone else.
 
 A daughter, Tatyana, was born in 1929 and died the same year. Ekaterina sat by the stove for days with a set face, and Aleksey wandered in and out of the room, not knowing what to do, then went to the icon corner and repeated prayers Ulyana had drilled into him as a boy.
 
 Collectivization arrived with meetings, rules, and fear. Aleksey could not follow speeches. He watched faces and copied the words that seemed safe. By 1932 his father Fyodor died. The next year, with hunger tightening and quotas pressing, Aleksey began taking small amounts of grain after work, tucked into his shirt or a sack. He did it more than once in 1933 and 1934, never speaking of it plainly, only saying, “For the cow,” and looking away. Ekaterina scolded him for the risk, then cooked the grain into thin porridge anyway.
 
-In 1937 and 1938 the village felt the terror in arrests and in silences. Aleksey avoided the loudest talk. He repeated official phrases without understanding them. The next winter, 1938–1939, he hauled wood on a sledge in icy ruts. He slipped, the load shifted, and his lower leg and ankle took the weight. The village set the bone as best they could. It healed crooked. From then on he walked with a limp, putting weight on the other side, grimacing when he thought no one watched. He could not keep up with the hardest field work and was pushed toward lighter tasks, which lowered his standing more.
+In 1937 and 1938 the village felt the terror. A man from the next hamlet was taken away one night; no one spoke his name after that. Aleksey avoided the loudest talk. He repeated official phrases without understanding them and kept his head down.
+
+The next winter he hauled wood on a sledge in icy ruts. He slipped, the load shifted, and his lower leg and ankle took the weight. The village set the bone as best they could. It healed crooked. From then on he walked with a limp, putting weight on the other side, grimacing when he thought no one watched. He could not keep up with the hardest field work and was pushed toward lighter tasks, which lowered his standing more.
 
 Praskovya died in 1939. Aleksey stayed near the grave longer than others after the burial, then went home and sat under the icons until Ekaterina told him to eat.
 
-War came again in 1941. The German advance and the fighting around Bryansk turned the countryside into a place of searches and requisitions. Their household slept in the forest on nights when raids were expected, wrapped in coats, listening for engines and shouting. Soldiers came through the village and took what they wanted. Shots sounded from nearby hamlets. The men in the village watched for partisan couriers; one young courier, known as Yura, appeared at dusk and vanished again. That same year Ekaterina died, worn out and ill during the first hard occupation months. Aleksey became a widower, and the household shrank to him and Nikolay, with an aunt-in-law, Galina, taking charge of many practical matters.
+War came again in 1941. The German advance and the fighting around Bryansk turned the countryside into a place of searches and requisitions. Their household slept in the forest on nights when raids were expected, wrapped in coats, listening for engines and shouting. Soldiers came through the village and took what they wanted. Shots sounded from nearby hamlets. The men in the village watched for partisan couriers; a young man would appear at dusk and vanish again. That autumn Ekaterina fell ill with a fever that would not break. She died in early November, worn down by months of short rations and fear. Aleksey sat by her body for a long time, then went outside and stood in the cold until Nikolay came to bring him back in. Galina moved in permanently to help raise the boy and manage the household.
 
-In the winter of 1943, while the household was out on kolkhoz work, someone stole stored potatoes and a few tools from their shed. The loss forced them to borrow from Ivan and Anna, and Aleksey’s shame came out as angry talk, blaming strangers, then blaming Pavel, then blaming no one. He returned to taking small amounts from kolkhoz stores through 1944, more often now, to keep food in the house.
+The Red Army pushed the Germans back in September 1943. The kolkhoz resumed its routines, though half the horses were gone and the barns had been stripped. That winter, while the household was out in the fields, someone stole stored potatoes and a few tools from their shed. The loss forced them to borrow from Ivan and Anna, and Aleksey’s shame came out as angry talk, blaming strangers, then blaming Pavel, then blaming no one. He returned to taking small amounts from kolkhoz stores through 1944, more often now, to keep food in the house.
 
-In February 1945, after weeks of coughing and cold, Aleksey died of a respiratory infection. His body was washed at home, laid out beneath the icons, and carried to the village cemetery where Orthodox prayers were read and a simple wooden cross was set at the grave.
+In February 1945, after weeks of coughing and cold, Aleksey died of a respiratory infection. Nikolay, now eighteen, helped Galina wash his father's body and lay it out beneath the icons. They carried him to the village cemetery where Orthodox prayers were read and a simple wooden cross was set at the grave.
+
+<!--
+**Review Date:** 2026-01-21
+
+**Issues found:**
+- [Pass 1] 6-year gap between 1908 and 1914 with no narrative content
+- [Pass 2] Galina introduced suddenly in 1941 with no prior context
+- [Pass 2] Household arrangement after marriage unclear (separate or with parents?)
+- [Pass 4] Nikolay absent from death scene despite living to age 62
+- [Pass 4] "Yura" named as one-off character unnecessarily
+- [Pass 6] Ekaterina's death lacked emotional response from Aleksey
+- [Pass 7] Terror paragraph and accident paragraph were combined despite being separate events
+- [Pass 11] "Kolkhoz work" mentioned during German occupation period needed clarification
+- [Pass 14] Terror paragraph was generic, needed concrete detail
+- [Pass 14] "Ekaterina kept the child warm, kept the cow milked, kept the household fed" was formulaic
+- [Pass 14] Post-liberation timeline was confusing ("that autumn... In the winter of 1943")
+
+**Changes made:**
+- Added bridging paragraph for 1909-1913 covering seasonal work pattern and Ivan/Anna's marriages
+- Introduced Galina earlier as Ekaterina's widowed sister who sometimes stayed with them
+- Clarified they lived in separate izba on same plot, sharing labor with parents
+- Added Nikolay (age 18) helping Galina wash body and carry to cemetery at death scene
+- Removed name "Yura" - now just "a young man"
+- Expanded Ekaterina's death scene with Aleksey's response (sat by body, stood in cold, Nikolay brought him back)
+- Split Terror paragraph from accident paragraph
+- Added liberation timing (September 1943) and post-occupation kolkhoz conditions
+- Added concrete detail to Terror ("A man from the next hamlet was taken away one night")
+- Rewrote formulaic parallel structure to more natural prose
+- Clarified winter 1943 timeline after September liberation
+-->

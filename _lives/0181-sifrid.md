@@ -142,10 +142,22 @@ continent: "Europe"
 # - M
 ---
 
-Sifrid was born on 4 September 1361 in the village of Dachtmissen, in the Saxon-speaking countryside of the Holy Roman Empire. The lord's rights and dues governed his family's days: Cord held his strips and pasture as a dependent tenant, owing rents and labor services, and he spoke Low Saxon like the rest of the village. The parish church ordered the week and the year. Latin prayers belonged to the priest; at home they used the Pater Noster and Ave Maria, crossed themselves, and called on saints for protection at childbirth.
+Sifrid was born on 4 September 1361 in the village of Dachtmissen, in the Saxon-speaking countryside of the Holy Roman Empire. His father Cord held strips of land and pasture as a dependent tenant, owing rents and labor services to the local lord. The family spoke Low Saxon like the rest of the village. They crossed themselves morning and evening, said the Pater Noster and Ave Maria, and called on saints for protection at childbirth.
 
 Cord’s household included his wife Elsabe and Cord’s widowed mother, Grete, who kept a close hand in the byre and kitchen and knew what to fetch when labor began. That morning Elsabe labored in the main room while Grete warmed water and laid out clean cloth. A neighbor went for Herme, the midwife, and another ran to tell the priest.
 
 The child came badly. His head crowned and then the birth stalled. Herme pressed and shifted Elsabe’s hips. Grete held a candle and spoke prayers under her breath. When Sifrid finally emerged, he did not cry. Herme rubbed his chest hard with cloth and cleared his mouth with a finger. Grete traced a cross on his forehead and whispered the baptismal words with water from the bowl.
 
 Before evening he was dead. Cord carried the small wrapped body to the churchyard, and Pape Nikolaus read the burial prayers and set him in the ground beside other infants, the soil tamped down and marked with a simple wooden cross.
+
+<!--
+**Review changelog:**
+
+**Issues found:**
+- [Pass 9/11] Opening paragraph had abstract phrasing ("The lord's rights and dues governed his family's days", "Latin prayers belonged to the priest") that felt like an establishing shot rather than immersive prose
+- [Pass 11] "The parish church ordered the week and the year" — slightly abstract, removed as the religious context is established better in the household prayer detail
+
+**Changes made:**
+- Rewrote opening paragraph for more direct, concrete phrasing: introduced Cord by name immediately, simplified religious context to focus on household practice
+- Removed "The parish church ordered the week and the year" sentence as redundant with the more specific prayer details
+-->

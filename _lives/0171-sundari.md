@@ -171,7 +171,7 @@ continent: "Asia"
 #       returning when elders broker a superficial calm.
 #     incident: domestic_violence
 #   - age: 45
-#     connection: Immediately following husband’s death, affinal kin restrict her claims
+#     connection: Immediately following husband’s death, her husband's relatives restrict her claims
 #       on land/grain; she borrows for food and seed, then becomes trapped in high-interest
 #       debt and must hire out for farm labor.
 #     incident: severe_economic_crisis
@@ -278,7 +278,7 @@ continent: "Asia"
 #     timing: ages 14–35 (married adulthood)
 #     trait: Very short stature (0th percentile)
 #   - consequence: Household conflict and reputational damage, making it easier for
-#       affinal kin to justify restricting her support after widowhood.
+#       her husband's relatives to justify restricting her support after widowhood.
 #     scene: Forgets to secure grain jars or misplaces sickles; starts tasks but leaves
 #       them half-done, drawing criticism from older women and triggering arguments
 #       about her 'carelessness' and waste.
@@ -358,28 +358,65 @@ In 1500, Rami bore a son. The baby, Kalo, lived only a short time. That evening 
 
 Sangaji died in 1510. Without him, arguments in the courtyard lasted longer. Kesarba corrected Sundari’s work more sharply. Sundari learned where to sit to avoid being pulled into every exchange: on the low edge of the cattle trough in the late afternoon, when the air cooled and the goats pushed their noses into fodder. She liked the moment when water first hit her hands at the well, and she delayed lifting the pot to enjoy the coolness. It earned her scolding.
 
-Her marriage was arranged in 1511 with Natha from a nearby village, close enough that the dialect and customs felt familiar. She walked there with a small bundle of cloth and a few brass items. In her husband’s house she had to learn a different layout of jars and different ways of working, and older women watched her for mistakes. She rose before sunrise, swept, lit the cooking fire, and went out to weed when the men said the field needed it. She never became someone who enjoyed the cluster of women gossiping at the well. She did her drawing of water quickly and spoke in short replies.
+Her marriage was arranged in 1511 with Natha from a nearby village, close enough that the dialect and customs felt familiar. She walked there with a small bundle of cloth and a few brass items. Natha's mother, Motiba, ran the household and watched Sundari for mistakes—a jar left uncovered, a fire started late. Sundari rose before sunrise, swept, lit the cooking fire, and went out to weed when the men said the field needed it. She never became someone who enjoyed the cluster of women gossiping at the well. She drew water quickly and spoke in short replies.
 
 Jivi, her first child, was born in 1513. Sundari carried the girl on her hip while she winnowed grain, and later set her down under a charpai shade while she worked. Jivi liked to sing fragments of bhajans she heard during festivals, nonsense words mixed with the names of Krishna. Sundari laughed once when the child called a stern auntie "buffalo-face," and then clapped a hand over the girl's mouth.
 
-A second daughter, Ganga, was born in 1516 and died soon after birth. Sundari washed the infant with warm water and turmeric and handed her over for the rites without argument. Kesarba, the grandmother who had once tied a black thread around Sundari's wrist and taken her to the goddess stone, died later that year. Within the year, in 1517, Jivi fell ill during the fever season and did not recover. After that Sundari took vows more seriously. She fasted on certain days, ate plain food, and brought small offerings—coconut, a pinch of rice, a thread—when she went to the goddess stone. She also began keeping a little packet of poppy preparation in the fold of cloth at her waist, first for pain in her back and the sleeplessness that followed Jivi’s death.
+A second daughter, Ganga, was born in 1516 and died within days. Sundari washed the infant with warm water and turmeric and handed her over for the rites without argument. Kesarba, the grandmother who had once tied a black thread around Sundari's wrist, died later that year.
 
-Her son, Kanu, was born in 1519. The house eased its grip on her for a time. She still worked in the fields during peak seasons, bent low in the rows because her height made it easier, her hands moving in quick bursts. She was clever enough to bargain for a fair share of gleaned stalks and to judge the measure of grain in a pot by sound. She also left tasks unfinished when no one stood over her. A half-latched jar drew rats. A pot left too close to the fire cracked. Each mistake became a reason for someone to speak over her.
+In 1517, Jivi fell ill during the fever season and did not recover. The girl had been four years old, old enough to call for her mother, old enough to be missed. After that Sundari took vows more seriously. She fasted on certain days, ate plain food, and brought small offerings—coconut, a pinch of rice, a thread—when she went to the goddess stone. She also began keeping a small packet of poppy preparation in the fold of cloth at her waist, first for pain in her back and the sleeplessness that followed Jivi's death.
 
-By 1523, her use of intoxicants had shifted from occasional to regular. She bought small amounts through a neighbor’s contact, sometimes trading a bit of clarified butter or a brass bangle. On mornings without it she moved slowly, sharp in speech. Natha drank too, and money kept slipping away—into drink, into fees, into the small costs of keeping a household’s standing. Sundari did not lie easily and she refused to pretend a debt was smaller than it was. That honesty gave her no advantage inside the house.
+Her son, Kanu, was born in 1519. The household's attention shifted to the boy, and the criticism of Sundari quieted for a time. She still worked in the fields during peak seasons, bent low in the rows because her height made it easier, her hands moving in quick bursts. She was clever enough to bargain for a fair share of gleaned stalks and to judge the measure of grain in a pot by sound. She also left tasks unfinished when no one stood over her. A half-latched jar drew rats. A pot left too close to the fire cracked. Each mistake became a reason for someone to speak over her.
 
-Between 1526 and 1531, Natha beat her repeatedly during fights about grain and cash. Once, after he accused her of hiding money for herself, he struck her with his hands and then with a stick. Bruises spread along her arms. She slept that night on the packed-earth floor near the cooking area. Another time he hit her in the courtyard in front of a sister-in-law who laughed and called her “little stump.” Sundari went to Hira, a neighbor woman, and stayed there two nights, helping grind grain in exchange for shelter. When she returned, elders spoke of harmony and duty, and Natha stayed quiet for a few weeks before the cycle began again.
+By 1523, her use of intoxicants had shifted from occasional to regular. She bought small amounts through a neighbor's contact, sometimes trading a bit of clarified butter or a brass bangle. On mornings without it she moved slowly, sharp in speech. Natha drank too, and money kept slipping away—into drink, into fees, into the small costs of keeping a household's standing. Sundari did not lie easily and she refused to pretend a debt was smaller than it was. That honesty gave her no advantage inside the house.
+
+Her mother, Rami, died in 1524. Sundari heard the news from a visiting cousin and walked back to her natal village for the rites. Her father looked smaller than she remembered. She stayed three days, grinding grain with women she had known as a girl, and then returned to Natha's house. After that, when trouble came, there was no one she could send word to who might speak on her behalf.
+
+Between 1526 and 1531, Natha beat her repeatedly during fights about grain and cash. Once, after he accused her of hiding money for herself, he struck her with his hands and then with a stick. Bruises spread along her arms. She slept that night on the packed-earth floor near the cooking area. Another time he hit her in the courtyard in front of a sister-in-law who laughed and called her "little stump." Sundari went to Hira, a neighbor woman, and stayed there two nights, helping grind grain in exchange for shelter. When she returned, elders spoke of harmony and duty, and Natha stayed quiet for a few weeks before the cycle began again.
 
 The 1530s brought hard seasons. Some years the rains failed early, fodder thinned, and the price of grain rose. Other years brought sickness through the villages, with coughs and fevers that took children and old people. Sundari watched these shifts carefully, counting days between market trips, listening to what men said about what they owed. She could see trouble approaching and still failed to prepare in the ways others wanted—forgetting to stash kindling, losing a tool, letting the poppy packet empty and then scrambling for it.
 
-Her mother, Rami, died in 1524, and her father, Jetha, in 1530. News arrived by messenger and by visiting relatives, and Sundari did the expected mourning, but their deaths left her with fewer people willing to step into her marriage disputes. Kanu grew into a young man and began to work more independently. He respected his mother’s quick mind but disliked her habits. He avoided speaking to her when he smelled the smoke of her preparation.
+Her father, Jetha, died in 1530. A message came and she went again to her village. She touched his feet and watched the pyre. When she returned, Natha said nothing about it.
 
-Natha died in 1541. His death did not make Sundari safer. In the weeks that followed, decisions about land and grain stores hardened. Men among her husband's relatives said she had no right to a share beyond what they chose to give. Kanu’s marriage brought Sona into the house, and Sona pushed for resources to stay with her husband’s new household. By 1542, Sundari left and lived alone in a small dwelling at the edge of the village.
+Kanu grew into a young man and began to work more independently. He respected his mother's quick mind but disliked her habits. He avoided speaking to her when he smelled the smoke of her preparation.
 
-From 1542 to 1546, debt tightened around her. She borrowed grain from Bhaidar, the moneylender and dealer, with terms she understood and could not escape. To cover interest she sold small things: a cooking pot, then an old brass plate, then a goat. She hired herself out for weeding and harvest work and came home with chaff in her hair. Some evenings she sat outside Hira’s doorway, accepting a cup of watered buttermilk without conversation. When she had a few coins she bought more poppy preparation, and the next morning she could move without trembling.
+Natha died in 1541. His death did not make Sundari safer. In the weeks that followed, his brothers and cousins met without her and divided the land and grain stores among themselves. They gave her a small share of millet and told her the rest was not hers to claim.
+
+Kanu married a woman named Sona the following year. Sona was practical and careful with money. She saw Sundari's habits—the trembling hands in the morning, the small packets bought with grain that could have fed the household—and made clear that she would not support them. Kanu did not argue with his wife. By the end of 1542, Sundari had moved to a small mud-walled room at the edge of the village, alone.
+
+From 1542 to 1546, she fell deeper into debt. She borrowed grain from Bhaidar, the moneylender and dealer, with terms she understood and could not escape. To cover interest she sold small things: a cooking pot, then an old brass plate, then a goat. She hired herself out for weeding and harvest work and came home with chaff in her hair. Some evenings she sat outside Hira’s doorway, accepting a cup of watered buttermilk without conversation. When she had a few coins she bought more poppy preparation, and the next morning she could move without trembling.
 
 In 1548, after another poor season, she stopped being invited to certain courtyard gatherings. She still attended major festivals, standing at the edge with other widows. She carried a small lamp to the goddess stone and left a pinch of rice and a strip of cloth. She liked the first bite of hot millet bread when it came off the griddle, eaten alone, before she had to think of the next day.
 
-In 1552 she developed a harsh cough that did not resolve. She continued to fetch water until she could not carry even the smaller pot. Hira brought her thin gruel once, and Sona sent word that Kanu would not take her back into his house. Sundari died on October 18, 1552.
+In 1552 she developed a harsh cough that did not resolve. She continued to fetch water until she could not carry even the smaller pot. She lay on her mat and listened to the sounds of the village: cattle, children, the creak of a well rope. Hira brought her thin gruel once. Sona sent word through a neighbor that Kanu would not take her back into his house. Sundari did not ask again.
 
-Women washed her body, rubbed it with oil, and placed it on a simple bier. Her family carried her to the cremation place outside the settlement, and the fire was lit with a small offering of ghee and a final pinch of rice.
+She died on October 18, 1552. Women from nearby households washed her body, rubbed it with oil, and placed it on a simple bier. Kanu lit the pyre at the cremation ground outside the settlement, with a small offering of ghee and a final pinch of rice.
+
+<!--
+**Review: 0171-sundari.md**
+
+**Issues found:**
+- [Pass 2] In-law household vague—"older women watched her" without specifying who
+- [Pass 5] Parents' deaths (Rami 1524, Jetha 1530) were cramped into one paragraph with minimal emotional weight
+- [Pass 7] Paragraph 7 too dense—three deaths (Ganga, Kesarba, Jivi) plus addiction onset in one paragraph
+- [Pass 8] Chronology error: Rami's death (1524) mentioned after domestic violence (1526-1531)
+- [Pass 12] "affinal kin" jargon used instead of plain language
+- [Pass 13] "eased its grip on her" and "debt tightened around her" were mild metaphors
+- [Pass 14] Why Kanu didn't support Sundari felt abrupt; final illness too brief
+
+**Changes made:**
+- Named mother-in-law Motiba and specified she ran the household
+- Split dense paragraph 7 into two: Ganga/Kesarba deaths separate from Jivi's death and addiction onset
+- Added concrete detail to Jivi's death ("four years old, old enough to call for her mother")
+- Expanded Rami's death into its own paragraph with sensory detail and consequence
+- Moved Rami's death to correct chronological position (before domestic violence)
+- Expanded Jetha's death into its own short paragraph
+- Replaced "eased its grip on her" with concrete description
+- Replaced "debt tightened around her" with "fell deeper into debt"
+- Replaced "affinal kin" with "her husband's relatives"
+- Expanded Natha's death aftermath: specified brothers and cousins divided property
+- Expanded Sona's introduction: showed her observing Sundari's habits and refusing to support them
+- Clarified Kanu's passivity ("did not argue with his wife")
+- Expanded final illness with sensory detail (lying on mat, village sounds)
+- Added that Kanu lit the pyre (completing his arc)
+-->

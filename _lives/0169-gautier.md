@@ -127,8 +127,32 @@ continent: "Europe"
 
 Gautier was born on 13 October 869 in a small farming settlement near the Saône, under the authority of West Francia’s Carolingian lords and their local agents. His family called themselves Franks, but in the house and at the village hearth they spoke the local Romance speech. They lived as free smallholders, owing dues but working their own strips and keeping a few animals.
 
-His father, Ragenald, spent the autumn days bringing in grain and stacking sheaves, then checking a small herd and a pig pen before dusk. Adela kept the fire, salted food, minded poultry, and turned flax and wool into thread. Gisla, a widowed grandmother in the house, moved between tasks and children, steady with the newborn and strict about warmth and cleanliness. Two years earlier Adela had borne a daughter, Ermentrude, who died within days; the women in the household spoke her name quietly when labor began.
+His father, Ragenald, spent the autumn days bringing in grain and stacking sheaves, then checking a small herd and a pig pen before dusk. Adela kept the fire, salted food, minded poultry, and turned flax and wool into thread. Gisla, a widowed grandmother in the house, moved between tasks and children, wrapping the newborn in wool and checking that cloths were washed and dried. Two years earlier Adela had borne a daughter, Ermentrude, who died within days; the women in the household spoke her name quietly when labor began.
 
 Gautier came into the world small and quick to chill. On the second day his navel seeped and reddened. Gisla boiled water and washed linen; Adela pressed him to her and tried to feed him often. Ragenald sent a neighbor, Aldric, to fetch the priest. Father Anselm arrived with a small vessel of blessed water and baptized the child in the house, marking his forehead with the sign of the cross.
 
 Gautier died on 17 October. Father Anselm read the prayers over the body, and Ragenald carried him to the churchyard for burial in the consecrated ground.
+
+<!--
+**Review: 2026-01-21**
+
+**Summary:** 9th-century Frankish infant boy from rural Burgundy (West Francia). Died at 4 days old from neonatal infection/sepsis. Free smallholder family, Romance-speaking with Frankish identity.
+
+**Issues found:**
+- [Pass 10] "steady with the newborn and strict about warmth and cleanliness" - abstract characterization rather than concrete action
+
+**Changes made:**
+- Replaced abstract description of Gisla with concrete actions: "wrapping the newborn in wool and checking that cloths were washed and dried"
+
+**Review checklist:**
+- [x] **Family structure**: Parents (Ragenald, Adela), grandmother (Gisla), deceased sister (Ermentrude) all present; future brother Hildebert correctly omitted (born after death)
+- [x] **Chronology**: Timeline consistent (born Oct 13, infected day 2, died Oct 17)
+- [x] **Deaths coverage**: Ermentrude's 867 infant death mentioned appropriately
+- [x] **Named characters**: All characters from plan present (Ragenald, Adela, Gisla, Father Anselm, Aldric)
+- [x] **AI-slop**: No figurative language or AI-slop phrases found
+- [x] **Naming**: Germanic/Frankish names appropriate for 9th-century West Francia
+- [x] **Length**: ~300 words, appropriate for infant (0-1)
+- [x] **Historical grounding**: Carolingian context, Romance speech, emergency baptism, church burial all appropriate
+
+**Notes:** Clean story with good historical grounding. The emergency baptism for a dying infant and church burial reflect 9th-century Christian practice accurately. The neonatal sepsis progression (umbilical infection on day 2, death on day 4) is medically plausible.
+-->

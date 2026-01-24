@@ -141,6 +141,19 @@ Tjety was born into an Egyptian-speaking household on the cultivated edge of the
 
 Before Tjety, Merit had borne a son, Khay, who died in the days after his birth. Their next child, Sat-Hathor, lived and learned to fetch small things: a cloth, a pinch of natron, a cup. When Merit delivered Tjety in the hot season, Sat-Hathor was four and watched from the doorway while a neighbor woman and Merit’s mother, Heni, helped with water and clean linen.
 
-In the first months, Tjety wore a small protective amulet on a cord. Merit spoke short prayers over her and set crumbs of bread and a little beer before a household niche where Isis and Hathor stood beside a small token for the family dead. Nebamun brought home a foreign charm from a traveler—knotted cord and a carved bead—and Merit tied it near the cradle.
+In her first months, Tjety wore a small protective amulet on a cord. Merit spoke short prayers over her and set crumbs of bread and a little beer before a household niche where Isis and Hathor stood beside a small token for the family dead. Nebamun brought home a foreign charm from a traveler—knotted cord and a carved bead—and Merit tied it near the cradle. Sat-Hathor helped carry her sister around the courtyard and sang to her when she fussed.
 
-After Tjety was weaned onto thin gruel and water, she fell sick with diarrhea. Merit tried salted water, barley-water, and cooling cloths; Nebamun summoned Pentu, who recited words and rubbed oil mixed with herbs on the child’s belly. Tjety died before the next flood rose. They wrapped her in linen and placed her in a small pit at the edge of the settlement, with a pinch of grain and a drop of beer poured onto the sand.
+Near the end of her first year, Tjety was weaned onto thin gruel and water. Within days she fell sick with diarrhea. Merit tried salted water, barley-water, and cooling cloths; Nebamun summoned Pentu, who recited words and rubbed oil mixed with herbs on the child's belly. Sat-Hathor watched from the corner while her mother held Tjety through the nights. The sickness lasted eight days. Tjety died before the next flood rose. They wrapped her in linen and placed her in a small pit at the edge of the settlement, with a pinch of grain and a drop of beer poured onto the sand.
+
+<!--
+**Issues found:**
+- [Pass 4] Sat-Hathor introduced at birth then completely disappears despite being described as involved in childcare
+- [Pass 8] "After Tjety was weaned" was temporally vague—unclear how old she was
+- [Pass 14] Death scene lacked sense of duration and family's experience
+
+**Changes made:**
+- Added Sat-Hathor helping carry Tjety and singing to her in the third paragraph
+- Changed "After Tjety was weaned" to "Near the end of her first year, Tjety was weaned" for temporal clarity
+- Added Sat-Hathor watching during illness and Merit holding Tjety through nights
+- Added duration of illness ("The sickness lasted eight days")
+-->

@@ -100,10 +100,24 @@ continent: "Asia"
 #   offerings) + major festivals (Diwali/Holi/Navratri) + birth-related rites
 ---
 
-Savitri was born on December 11, 1938, in Kulpahar in Bundelkhand, in the United Provinces under British rule. Her parents, Ram Prasad and Phoolmati, spoke Standard Hindi at home, with the Bundeli of neighbors and laborers mixing into daily talk. They lived as a nuclear household on their own land, with hired hands working the heavier jobs and Ram Prasad overseeing the fields and accounts.
+Savitri was born on December 11, 1938, in Kulpahar in Bundelkhand, in the United Provinces under British rule. Her parents, Ram Prasad and Phoolmati, spoke Standard Hindi at home, though neighbors and laborers spoke Bundeli among themselves. They lived on their own land, just the two of them without grandparents or uncles under the same roof, with hired hands working the heavier jobs and Ram Prasad overseeing the fields and accounts.
 
 Phoolmati had carried water from the well through the late months of pregnancy and still went out to weed when the work pressed. After the birth she stayed indoors for the first days, keeping Savitri close on a cot in the main room. A small shelf shrine held pictures and small figures; each morning Phoolmati lit a diya and set down a pinch of rice and a bit of jaggery, then touched her forehead and murmured the names of Ram and Lakshmi. A neighbor, Dulari, came in the evenings with advice, warm water, and gossip from the lane.
 
 In early January 1939 Savitri developed a sudden illness with fever and fast breathing. Ram Prasad sent for Hakim Karim, who felt the baby’s chest and gave a bitter liquid in a spoon, then advised warmth and rest. The fever did not lift. On January 19, 1939, Savitri died in the house.
 
-That afternoon Ram Prasad and two men carried her wrapped in clean cloth to the edge of the village and buried her in the ground. Phoolmati placed a small pinch of rice and a marigold on the cloth before it was covered.
+That afternoon Ram Prasad and two of the hired laborers carried her wrapped in clean cloth to the edge of the village and buried her in the ground. Phoolmati placed a small pinch of rice and a marigold on the cloth before it was covered.
+
+<!--
+**Review changelog:**
+
+**Issues found:**
+- [Pass 12] "nuclear household" is sociological jargon
+- [Pass 14] "the Bundeli of neighbors and laborers mixing into daily talk" slightly awkward phrasing
+- [Pass 14] "two men" at burial unspecified—who are they?
+
+**Changes made:**
+- Replaced "nuclear household" with concrete description of who lived under the roof
+- Rewrote Bundeli language reference for clearer flow
+- Specified "two men" as "two of the hired laborers" to connect to earlier mention of hired hands
+-->

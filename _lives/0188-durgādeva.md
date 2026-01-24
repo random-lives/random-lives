@@ -161,10 +161,22 @@ continent: "Asia"
 # - F
 ---
 
-Begampur in the lower Ganges plain lay under Sena authority, with Bengali-speaking Gauda/Bangala towns and market villages tied to river traffic and rice country. Somadeva earned his living in town service, hired for errands, watching store yards at night, and carrying messages between shopkeepers and boatmen. His household was a stem family: Somadeva and his wife Kamalā lived with his widowed mother Nandinī, and their first child, Gopāla, a small boy who already ran to the lane when vendors called.
+Begampur in the lower Ganges plain lay under Sena authority, with Bengali-speaking Gauda/Bangala towns and market villages tied to river traffic and rice country. Somadeva earned his living in town service, hired for errands, watching store yards at night, and carrying messages between shopkeepers and boatmen. He lived with his wife Kamalā, his widowed mother Nandinī, and their first child, Gopāla, a small boy who already ran to the lane when vendors called.
 
 On February 8, 1133, Kamalā delivered a second son in the family room behind the courtyard. Nandinī oversaw the birth with their neighborhood attendant, Dhanapati. A lamp burned beside a small shelf where they kept clay figures and a smear of vermilion for protective powers; Kamalā’s sister brought rice, mustard oil, and clean cloth. They spoke their eastern Indo-Aryan speech in the house, and Nandinī recited short Sanskrit lines she knew for childbirth.
 
 They called the baby Durgādeva and tied a thread at his wrist. Kamalā kept him close, fed him, and stayed secluded while Somadeva fetched water and paid for extra fuel so the room stayed warm at night.
 
-On the third day the infant’s belly tightened and his skin turned hot. By February 11 he lay still in Kamalā’s arms. Somadeva carried the small body to the riverbank before midday; Dhanapati marked the forehead with a pinch of red, and Nandinī set a little rice and a few drops of water beside him before they consigned him to the current.
+On the third day the infant's belly tightened and his skin turned hot. By February 11 he lay still in Kamalā's arms. Gopāla stayed with neighbors while Somadeva carried the small body to the riverbank before midday. Dhanapati marked the forehead with a pinch of red, and Nandinī set a little rice and a few drops of water beside him before they gave him to the river.
+
+<!--
+**Issues found:**
+- [Pass 4] Gopāla introduced in para 1 but disappears—unclear where he was during death/burial
+- [Pass 12] "stem family" is sociological jargon
+- [Pass 14] "consigned him to the current" slightly euphemistic
+
+**Changes made:**
+- Replaced "His household was a stem family: Somadeva and his wife Kamalā lived with" → "He lived with his wife Kamalā" (removed jargon, same meaning)
+- Added "Gopāla stayed with neighbors while" to account for the toddler during burial
+- Changed "consigned him to the current" → "gave him to the river" (plainer)
+-->

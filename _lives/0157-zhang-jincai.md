@@ -214,10 +214,15 @@ continent: "Asia"
 
 Zhang Jincai was born on March 15, 1735, in a farming village on the Yellow River plain in southwestern Shandong, under the Qing empire. His family spoke the local Mandarin of Shandong and lived as Han commoners in a joint household with his grandparents and an uncle, renting fields and taking day labor when they could get it. On festival days incense burned at the family altar, and his grandmother set out bowls of millet porridge and a few cups of clear liquor for the ancestors; near the New Year she pasted a fresh image of the Kitchen God and offered candy and beans.
 
-His father, Zhang Shouguo, died in 1736. That year his mother bore another son, Zhang San'er, but the infant died within weeks. In early 1737 she bore Zhang Si'er, who lived only days. After these losses, his mother moved through her days with Jincai close: twisting hemp, spinning thread, cooking at the stove, then walking out to the fields in the busy seasons. His older brother Zhang Shunsheng, three years older, trailed after the men and still got pulled back to mind the toddler.
+His father, Zhang Shouguo, died in 1736. That year his mother bore another son, Zhang San'er, but the infant died within weeks. In early 1737 she bore Zhang Si'er, who lived only days. After these losses, his mother kept Jincai close—on her hip while she twisted hemp, at her feet while she cooked, strapped to her back when she walked out to the fields. His older brother Zhang Shunsheng, three years older, trailed after the men and still got pulled back to mind the toddler.
 
 By the time Jincai could stand and walk, he stayed in the middle of the courtyard noise. He called out for attention and followed Shunsheng from threshold to kang. One afternoon in late 1736 he laughed and lurched after a chicken that flapped across the yard, one hand skimming the edge of the kang for balance, until an aunt grabbed him before he reached the water jar. When he wanted a toy he took it, and he fought hard when hands tried to pin him still.
 
-His seizures began early. In June 1737, as his mother watched a pot and twisted hemp, his eyes fixed and his body went stiff. His grandmother laid him on a straw mat, loosened his collar, and cleared the floor. Shunsheng ran to fetch Zhang Shouyi from outside. When it passed, Jincai sat up and reached for his cracked wooden rattle, calm and impatient to be put down.
+His seizures began early. In June 1737, as his mother watched a pot and twisted hemp, his eyes fixed and his body went stiff. His grandmother laid him on a straw mat, loosened his collar, and cleared the floor. Shunsheng ran to fetch Zhang Shouyi from outside. When it passed, Jincai sat up and reached with his left hand for his cracked wooden rattle, calm and impatient to be put down.
 
 In August 1737 he developed severe diarrhea. His mother fed him thin rice gruel and boiled water, and his grandfather sent Shunsheng to the market road for Master Zhao’s powders. On September 3, 1737, Jincai died in the house. The family wrapped him in cloth, set him in a small coffin, and burned paper at the graveside while his grandmother placed a pinch of rice and a few copper coins with him.
+
+<!--
+CHANGELOG:
+- 2026-01-21: Reviewed. Replaced abstract phrase "moved through her days with Jincai close" with concrete physical description. Added left-handedness detail (reaching with left hand for rattle after seizure).
+-->

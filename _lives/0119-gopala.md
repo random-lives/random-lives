@@ -154,10 +154,21 @@ continent: "Asia"
 # - F
 ---
 
-Gopala was born into an eastern Indo-Aryan farming family in the wet lowlands of the lower Ganges plain, where Mauryan officials collected grain and monitored river routes. His household lived in a joint compound near the fields and waterways, with his father's parents under the same roof. His father Rudda moved between cultivation and transport work, loading sacks onto carts and hiring boatmen when the channels ran high.
+Gopala was born into a farming family in the wet lowlands of the lower Ganges plain, where Mauryan officials collected grain and monitored river routes. His household lived in a joint compound near the fields and waterways, with his father's parents under the same roof. His father Rudda moved between cultivation and transport work, loading sacks onto carts and hiring boatmen when the channels ran high.
 
-Rudda and Lila already carried grief. Their first child, Kanti, had lived only hours three rains earlier. Dhani, the paternal grandmother, ran the women’s work with firm directions: boiling water, keeping ash and oil ready, watching the cooking fire, and enforcing the days of impurity after birth. Bharu, the grandfather, handled visitors and paid Somaka, a local ritual specialist, to recite protective words and set a small offering near the threshold—rice grains, a pinch of salt, and a lamp fed with sesame oil. Lila marked the birth with a simple household rite to Agni at the hearth and a whispered appeal to the family’s ancestors.
+Rudda and Lila had already lost a child. Their first, Kanti, had lived only hours three rains earlier. Dhani, the paternal grandmother, ran the women's work with firm directions: boiling water, keeping ash and oil ready, watching the cooking fire, and enforcing the days of impurity after birth. Nila, an aunt married to Rudda's brother, helped Dhani with the washing and stayed close to the doorway to turn away visitors. Bharu, the grandfather, handled what came from outside the compound and paid Somaka, a local ritual specialist, to recite protective words and set a small offering near the threshold—rice grains, a pinch of salt, and a lamp fed with sesame oil. Lila marked the birth with a simple household rite at the hearth and a whispered appeal to the family's ancestors.
 
-Gopala arrived small. His limbs stayed slack, and he could not keep warmth even when Dhani wrapped him close and Lila tried to feed him through the first night. On the second day he died.
+Gopala arrived small. His limbs stayed slack, and he could not keep warmth even when Dhani wrapped him close. He nursed weakly, mouth falling away from Lila's breast after a few pulls. Through the first night she held him, wiping his face, speaking his name. On the second day he stopped breathing.
 
 They washed his body, tied a plain thread at the wrist, and carried him to the edge of the settlement to place him in the earth. Dhani set a few grains and a drop of milk on the soil before they covered him.
+
+<!-- CHANGELOG
+Review: 2026-01-21
+Passes with no issues: 1 (Timeline), 2 (Household), 3 (Siblings), 5 (Deaths), 6 (Events), 7 (Paragraphs), 8 (Chronology), 9 (Vague Language), 10 (Abstract Claims), 11 (Anachronisms), 13 (AI-Slop)
+
+Fixes made:
+- Pass 4 (Characters): Added Nila (aunt) who was in narrative_plan but missing from text
+- Pass 12 (Jargon): Removed "eastern Indo-Aryan" descriptor—unnecessary ethnic label
+- Pass 12: Removed "to Agni" from hearth rite reference—slightly pedantic
+- Pass 14 (Final Read): Expanded the brief life section to show Gopala alive (nursing weakly, mother speaking his name) before death; changed "carried grief" to "had already lost a child"; changed "he died" to "he stopped breathing" for more concrete ending
+-->

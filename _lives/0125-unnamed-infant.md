@@ -147,10 +147,17 @@ continent: "Europe"
 # - F
 ---
 
-The child was born on 8 May 1315 in Dlouhá Lhota, a small village in central Bohemia under the rule of the Kingdom of Bohemia and the wider order of the Holy Roman Empire. His parents, Matěj and Dorota, spoke the Bohemian Czech vernacular and lived by Latin-rite Catholic parish custom, owing their place in the village to labor more than land.
+The child was born on 8 May 1315 in Dlouhá Lhota, a small village in central Bohemia under the rule of the Kingdom of Bohemia and the wider order of the Holy Roman Empire. His parents, Matěj and Dorota, spoke the Bohemian Czech vernacular and lived by Latin-rite Catholic parish custom. They held no land of their own.
 
-Matěj worked where work could be found: spring digging and manuring on a neighbor’s holding, haymaking when the weather held, and demesne days when the reeve called for hands. Dorota kept the house and took field work when hiring opened, bending for weeding and then for harvest, trading sweat for grain, peas, and small coins. Their home held a chest for linen, a cooking pot, and a small crucifix, and Dorota kept a pinch of blessed salt wrapped in cloth for sickness and storms.
+Matěj worked where work could be found: spring digging and manuring on a neighbor’s holding, haymaking when the weather held, and demesne days when the reeve called for hands. Dorota kept the house and took field work when hiring opened, bending for weeding and then for harvest, earning grain, peas, and small coins. Their home held a chest for linen, a cooking pot, and a small crucifix, and Dorota kept a pinch of blessed salt wrapped in cloth for sickness and storms.
 
 Dorota went into labor before dawn. The midwife, Bába Zdislava, came from the next yard and set water to warm. By midday the child was delivered, motionless. Zdislava rubbed the body with cloth and tried to rouse it while Dorota lay staring at the rafters, her hands still clenched.
 
 Kněz Mikuláš was told, but there was no baptism. Before evening Matěj carried the small body to the churchyard and put it into the earth at the edge of the consecrated ground used for infants. The priest spoke a short prayer over it, and Matěj crossed himself once before walking back to the village.
+
+<!--
+CHANGELOG:
+- 2026-01-21: Review edits
+  - Replaced "owing their place in the village to labor more than land" with plainer "They held no land of their own"
+  - Replaced metaphorical "trading sweat for grain, peas, and small coins" with plain "earning grain, peas, and small coins"
+-->

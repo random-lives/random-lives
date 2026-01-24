@@ -154,12 +154,38 @@ continent: "Africa"
 # - M
 ---
 
-Khadija was born on May 2, 2023 in Tindouf, an Algerian Saharan town governed by the Algerian state. Her family spoke Algerian Arabic at home and used Modern Standard Arabic for prayer and anything formal. They were Sunni Muslims in the Maliki tradition. Friday prayers, Ramadan, and the two Eids set the shape of each week and year.
+Khadija was born on May 2, 2023 in Tindouf, a town in the Algerian Sahara. Her family spoke Algerian Arabic at home and used Modern Standard Arabic for prayer and anything formal. They were Sunni Muslims in the Maliki tradition. Friday prayers, Ramadan, and the two Eids marked the weeks and seasons.
 
 She arrived as the second child. Her brother, Youssef, had been born in 2020 and treated the apartment as his territory. They lived in an extended household with her paternal grandparents, Mohamed and Zohra. Her father, Ahmed, worked in the security services and disappeared for long shifts, returning in uniform, tired, and strict about noise. Her mother, Samira, stayed home and ran the day: tea, meals, laundry, keeping children clean in a dusty place.
 
-When Khadija was two, in mid-2025, she spoke in short bursts and preferred the words that already belonged to the house. “Mama.” “Baba.” “Ma.” “Khobz.” If her aunt Aïcha came by with greetings and kisses, Khadija pressed her face into Zohra’s dress and let her grandmother answer first. She followed prayers by imitation: hands raised for du‘a after a recited surah, then palms over her face, copied exactly.
+At two, she spoke in short bursts and preferred the words that already belonged to the house. “Mama.” “Baba.” “Ma.” “Khobz.” If her aunt Aïcha came by with greetings and kisses, Khadija pressed her face into Zohra’s dress and let her grandmother answer first. She followed prayers by imitation: hands raised for du‘a after a recited surah, then palms over her face, copied exactly.
 
-Youssef tried to pull her into games in the courtyard and with the neighbor girl, Nadia. Khadija watched from a step, then went back inside with her small objects. At three, she lined bottle caps along the edge of a rug and fixed them when someone nudged them out of place. If Youssef swept an arm through the row to tease her, she shouted "la," grabbed the caps back, and cried until Samira lifted her onto her hip and spoke quietly. When her grandmother caught her reaching for the sugar bowl, she froze, then slowly pushed it back without being told.
+Youssef tried to pull her into games in the courtyard with the neighbor girl, Nadia. Khadija watched from a step, then went back inside. At three, she lined bottle caps along the edge of a rug and fixed them when someone nudged them out of place. If Youssef swept an arm through the row to tease her, she shouted "la," grabbed the caps back, and cried until Samira lifted her onto her hip and spoke quietly.
 
-By late 2025, she is in the same rooms, close to her mother and grandmother, repeating her routines: a small cup, a few familiar words, and a straight line of caps on the rug while evening prayer sounds from the neighborhood.
+Mohamed sat in the same corner of the living room each afternoon. Sometimes he handed her a date from the small bowl beside his cushion. She took it without looking up and ate it where she stood. When her grandmother caught her reaching for the sugar bowl, she froze, then slowly pushed it back without being told.
+
+In late 2025, evening prayer sounds from the neighborhood mosque. Khadija sits on the rug with her caps in a line, holding the same small cup, speaking the same few words.
+
+<!--
+**Issues found:**
+- [Pass 4] Mohamed (grandfather) mentioned in paragraph 2 but never appears in any scene
+- [Pass 7] Paragraph 4 too dense with multiple themes; needed splitting
+- [Pass 8] "When Khadija was two, in mid-2025" - redundant year + age
+- [Pass 9] "an Algerian Saharan town governed by the Algerian state" - redundant "Algerian"
+- [Pass 9] "small objects" - vague; should specify bottle caps
+- [Pass 9] "repeating her routines" - redundant with following list
+- [Pass 13] "set the shape of each week and year" - AI-slop phrase
+- [Pass 14] "bottle caps" mentioned twice in close succession
+- [Pass 14] Final paragraph felt like summary rather than living moment
+
+**Changes made:**
+- Added concrete scene with Mohamed handing Khadija a date
+- Split paragraph 4 into two paragraphs for better coherence
+- Simplified "At two, she spoke" (removed redundant year reference)
+- Changed "an Algerian Saharan town governed by the Algerian state" to "a town in the Algerian Sahara"
+- Changed "small objects" to "bottle caps"
+- Removed "repeating her routines" from final paragraph
+- Changed "set the shape of each week and year" to "marked the weeks and seasons"
+- Removed first "bottle caps" mention to avoid repetition
+- Rewrote final paragraph as present-tense scene rather than summary
+-->

@@ -208,6 +208,6 @@ Munyaneza was born on September 3, 1818, in the hills of Byimana in the Kingdom 
 
 Two boys already lived in the household. Karemera, born in 1808, moved between fields and home with small tasks and watched for stray goats. Sebatware, born in 1814, stayed close to his mother and copied what he could, carrying handfuls of firewood and getting in the way. Between them had been two births that ended quickly: Rwabukumba in 1811 and Nyirampuhwe in 1813, losses spoken of in the same low voice used for sickness.
 
-At the birth, the paternal grandmother, Nyirakuru wa Sebatware, took charge of the sleeping place and the cord, keeping the baby close to warmth and smoke. On the second day the cord site swelled and seeped, and Rukundo kept washing and wrapping it while Rugamba sent word to the diviner-healer Rwitekerezo. Munyaneza died on September 5 before any remedy was prepared.
+At the birth, the paternal grandmother, Nyirakuru wa Sebatware, took charge of the sleeping place and the cord, keeping the baby close to warmth and smoke. He nursed that first night, small and warm against Rukundo's chest, and slept through the morning rain. By the second day the cord site swelled and seeped. Rukundo kept washing and wrapping it while Rugamba sent word to the diviner-healer Rwitekerezo. Munyaneza died on September 5 before any remedy was prepared.
 
 They washed his body, wrapped him in cloth, and buried him in the family ground near the homestead. Rukundo set a small bowl of sorghum beer and a pinch of flour beside the burial place, naming ancestors aloud.

@@ -111,4 +111,12 @@ On February 21, 1432, Nuxa went into labor as cold air settled down from the rid
 
 The household did not give him a public name before he died.
 
-Two days later they placed his small body in the ground at the edge of their plot, where field stones marked the boundary. Nuxa laid down a strip of woven cloth and a few kernels of maize; Tohi added a paper offering and a brief prayer learned in Nahuatl, then covered the grave with soil. In 1434 their daughter was born, and she lived until 1480.
+Two days later they placed his small body in the ground at the edge of their plot, where field stones marked the boundary. Nuxa laid down a strip of woven cloth and a few kernels of maize; Tohi added a paper offering and a brief prayer learned in Nahuatl, then covered the grave with soil. Two years later Nuxa gave birth to a daughter who survived.
+
+<!--
+**Issues found:**
+- [Pass 14] Final sentence ("In 1434 their daughter was born, and she lived until 1480") felt like a clinical data dump, giving exact years for a non-protagonist
+
+**Changes made:**
+- Rewrote final sentence to be more natural ("Two years later Nuxa gave birth to a daughter who survived") - removes specific years that feel procedurally generated while preserving the narrative function of showing the family continued
+-->

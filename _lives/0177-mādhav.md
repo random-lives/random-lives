@@ -116,10 +116,20 @@ continent: "Asia"
 # - M
 ---
 
-Bankura's dry forest country lay at the western edge of Bengal, where the Hindu Malla kings of Bishnupur held local authority while distant Muslim sultans in Delhi claimed nominal dominion. Villages paid dues through intermediaries and spoke an eastern Indo-Aryan vernacular. In Rajagram, Śrīdhār the potter and his wife Saraswatī lived in a small thatched house beside their clay pit and drying yard. Their first child, Kamolā, had been born in 1335 and died the same year, and the loss stayed close to the household’s daily decisions.
+Bankura's dry forest country lay at the western edge of Bengal, where the Hindu Malla kings of Bishnupur held local authority while distant Muslim sultans in Delhi claimed nominal dominion. Villages paid dues through intermediaries and spoke an eastern Indo-Aryan vernacular. In Rajagram, Śrīdhār the potter and his wife Saraswatī lived in a small thatched house beside their clay pit and drying yard. Their first child, Kamolā, had been born in 1335 and died the same year.
 
 On February 10, 1337, Saraswatī delivered a boy. They called him Mādhav. For the first weeks she kept him near the hearth while she wedged clay with her feet, shaped small jars on a low wheel, and set them in the sun. Śrīdhār brought water from the tank and gathered fuel for firing. When neighbors passed, Saraswatī pressed a pinch of rice and a flower at the household corner shrine, then tied a thread at the local pīr’s dargah and left a small earthen lamp and a few coins.
 
 At the start of May Mādhav’s stool turned watery and frequent. Saraswatī boiled water, mixed thin rice gruel, and fed him by finger and cloth. Śrīdhār fetched Baidya Nīlambar, who rubbed a paste of herbs and told them to keep the child warm and give sips often.
 
 Mādhav died on May 11, 1337. Śrīdhār wrapped him in clean cloth and buried him at the edge of the homestead near a bamboo clump, and Saraswatī set a small pot of water and a lamp on the mound.
+
+<!--
+**Review (2026-01-21)**
+
+**Issues found:**
+- [Pass 10] Abstract phrase "the loss stayed close to the household's daily decisions" claims significance without showing mechanism
+
+**Changes made:**
+- Cut abstract phrase about Kamolā's death affecting daily decisions—the sentence now simply states the death without empty claims about its ongoing impact
+-->

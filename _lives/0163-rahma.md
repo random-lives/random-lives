@@ -225,12 +225,48 @@ continent: "Africa"
 # - M
 ---
 
-Rahma Rashid was born on 7 July 2016 in Segerea, in Ilala District, when Tanzania was under President John Magufuli and Dar es Salaam was swelling outward with new roads, bus routes, and construction. Her family spoke Kiswahili at home and carried a Swahili coastal identity; Islam marked the calendar more than the daily schedule. Her father, Dr. Salim Rashid, left early for work in a pressed shirt. Her mother, Neema, kept her bank-office badge on a hook by the door and ran the house by lists and reminders. Bibi Zainabu sat on the edge of family decisions, correcting children’s greetings and the angle of a headscarf.
+Rahma Rashid was born on 7 July 2016 in Segerea, in Ilala District, when Tanzania was under President John Magufuli and Dar es Salaam was swelling outward with new roads, bus routes, and construction. Her family spoke Kiswahili at home and carried a Swahili coastal identity; Islamic holidays structured the year more than daily prayers. Her father, Dr. Salim Rashid, left early for work in a pressed shirt. Her mother, Neema, kept her bank-office badge on a hook by the door and ran the house by lists and reminders. Bibi Zainabu corrected children's greetings and the angle of a headscarf, and voiced her opinions on household matters though they were not always followed.
 
-Rahma talked easily with adults and took over games with other children. When the neighborhood kids argued over rules, she settled it fast and loudly. She wanted the same breakfast every morning and refused "new" foods, even when Neema changed brands because prices jumped. If a cousin offered a different cartoon on a phone, Rahma ended the visit early, then complained to her mother in the car. At school she finished sums before the others and walked to Mwalimu Rehema's desk to point out an error in the method, not quietly. Mama Halima cooked and watched the house when both parents worked.
+Rahma talked easily with adults and took over games with other children. When the neighborhood kids argued over rules, she settled it fast and loudly. She wanted the same breakfast every morning and refused "new" foods, even when Neema changed brands because prices jumped. If a cousin offered a different cartoon on a phone, Rahma ended the visit early, then complained to her mother in the car. At school she finished sums before the others and walked to Mwalimu Rehema's desk to point out an error in the method, not quietly. A classmate named Safiya did nearly as well on tests, and the two competed for top marks; Rahma once told Safiya her handwriting looked like a first-grader's, and Safiya stopped sharing pencils. Mama Halima cooked and watched the house when both parents worked.
 
 Amina arrived in 2019. Rahma acted like a second parent, lifting her sister onto chairs and telling her which toys were "for big kids." She also snapped when Amina touched her notebooks. Sometimes she claimed Amina's ideas as her own. She exaggerated when chores went undone, blaming anyone nearby. In 2020, when COVID-19 reached the region, the adults argued about masks and crowds; Neema still kept sanitizer in her handbag, and Bibi Zainabu insisted on extra handwashing before meals.
 
 Yahya was born in 2021 and died before the end of his first year. After that, Neema watched fevers closely. During the long rains of 2023, Rahma caught dengue fever and spent days in a private clinic where Nurse Joyce checked her temperature and drip line. She returned home thin and angry, then started asking to see the thermometer whenever anyone coughed.
 
 Now it is early 2026. Rahma reads quickly, keeps her school bag organized, and corrects Amina's spelling at the table while Mama Halima serves tea and bread. Neema signs school forms, Salim checks homework, and Rahma insists everyone follow her schedule.
+
+<!-- CHANGELOG
+Reviewed: 2026-01-21
+
+Summary: Contemporary Tanzanian girl (b. 2016), still alive at age 9. Very high intelligence (97th percentile), very low openness (3rd percentile), low agreeableness (10th percentile), high extraversion (81st percentile), high conscientiousness (77th percentile), low honesty-humility (22nd percentile). Swahili coastal family in Dar es Salaam, affluent household.
+
+Issues Found:
+
+**Figurative Language (2 instances fixed):**
+1. "Islam marked the calendar" - metaphorical
+2. "sat on the edge of family decisions" - metaphorical
+
+**Missing named character (1 instance fixed):**
+1. Safiya (classmate/rival from narrative plan) not mentioned
+
+Changes Made:
+
+1. "Islam marked the calendar more than the daily schedule" → "Islamic holidays structured the year more than daily prayers"
+2. "Bibi Zainabu sat on the edge of family decisions, correcting..." → "Bibi Zainabu corrected children's greetings and the angle of a headscarf, and voiced her opinions on household matters though they were not always followed."
+3. Added Safiya as classmate/rival after the Mwalimu Rehema sentence, showing the academic competition and Rahma's bluntness damaging the friendship
+
+Review Checklist:
+
+- [x] Family structure: Parents, grandmother, household worker, siblings (including infant Yahya's death) all covered
+- [x] Chronology: Timeline consistent (birth 2016, Amina 2019, Yahya 2021, dengue 2023, present 2026)
+- [x] Trait visibility: All seven traits clearly demonstrated through specific scenes
+- [x] AI-slop: Figurative language removed
+- [x] Naming: Names appropriate for contemporary Swahili coastal Tanzania
+- [x] Length: ~450 words, appropriate for still-living 9-year-old
+- [x] Historical context: COVID-19, inflation/rising prices, urban development all mentioned
+- [x] Health incident: Dengue fever covered with concrete details (Nurse Joyce, clinic, recovery)
+
+Notes:
+
+Strong narrative overall. Good integration of high intelligence with low agreeableness—Rahma's academic success and bluntness create a coherent character. The dengue fever incident is well-placed and leads naturally to the neuroticism trait (checking thermometer). The low honesty-humility trait (taking credit, exaggerating about chores) is subtly shown without making her unsympathetic. Imam Hamisi from the narrative plan was not included, which is appropriate given the family's low religious observance.
+-->

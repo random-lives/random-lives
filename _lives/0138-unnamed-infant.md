@@ -101,8 +101,25 @@ continent: "Asia"
 # - M
 ---
 
-Unnao district in 1746 lay in the countryside of Awadh, where village headmen and revenue agents answered upward to the nawab’s regime that had grown out of Mughal rule. In one hamlet near the main track to Lucknow, a Hindavi-speaking Hindu couple kept a small mud-walled house apart from the husband’s parents. He went out before dawn when there was hiring—cutting fodder, weeding, threshing—taking grain as part of his pay when cash ran short. She stayed near home, keeping the hearth, grinding millet and wheat on the stone quern, carrying water in an earthen pot, and watching the boundary of their few possessions.
+Unnao district in 1746 lay in the countryside of Awadh, where village headmen and revenue agents answered upward to the nawab’s regime that had grown out of Mughal rule. In one hamlet near the main track to Lucknow, a Hindavi-speaking Hindu couple kept a small mud-walled house apart from the husband’s parents. He went out before dawn when there was hiring—cutting fodder, weeding, threshing—taking grain as part of his pay when cash ran short. She stayed near home, keeping the hearth, grinding millet and wheat on the stone quern, and carrying water in an earthen pot.
 
 Their first child, a son, had been born in 1745 and died the same day. After that, the mother followed the women’s advice: she kept a thread amulet tied at her waist and avoided certain foods in late pregnancy. She did not keep a daily shrine routine; worship gathered on festival days. At Holi she had thrown colored powder with the neighbors and offered a small lamp and sweets at the village shrine, and at Diwali she set out a clay lamp with mustard oil on the threshold.
 
-On July 23, 1746, labor began in the heat. Women from nearby houses came in, and a midwife took charge. The child was delivered without life. The father carried the small body at dusk to the riverbank and consigned it to the water after a brief prayer to the household’s protective deities.
+On July 23, 1746, labor began in the heat. Women from nearby houses came in, and a midwife took charge. The child was delivered without life. The father carried the small body at dusk to the riverbank and consigned it to the water after a brief prayer to the household's protective deities.
+
+<!--
+**Review: 2026-01-21**
+
+**Issues found:**
+- [Pass 9/10] "watching the boundary of their few possessions" - vague/abstract phrasing with unclear meaning
+
+**Changes made:**
+- Removed "watching the boundary of their few possessions" - phrase was abstract and didn't add concrete information
+
+**Notes:**
+- Story is otherwise well-structured for an infant narrative
+- Historical grounding is solid (Awadh under nawab's regime, appropriate material culture)
+- Sibling death in 1745 appropriately contextualized
+- Religious practices (Holi, Diwali, thread amulets) appropriate for Hindu rural community
+- Burial practice (consigning to river) appropriate for Hindu infant
+-->

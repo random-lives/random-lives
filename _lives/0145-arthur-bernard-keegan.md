@@ -463,18 +463,53 @@ Demobilization brought him back to Merseyside and to civilian work. In 1946 he m
 
 Their first daughter, Kathleen, was born in 1948. Nora followed in 1950. Arthur held the babies awkwardly at first, then became strict about routine—feeds at a set time, beds made a certain way. Maggie fought him on that, and Arthur answered sharply. He didn't gamble and he wouldn't take what he hadn't earned. If a man at work suggested "borrowing" materials, Arthur shut it down and walked away.
 
-The fight that followed him for years happened in 1948, when he was thirty-four. He had been drinking with Tommy Rourke, a workmate from the shop. Outside a pub in north Liverpool, another man bumped him, words were exchanged, and Arthur swung. He kept swinging even after the man went down. The injured man walked away bleeding and shaken, and the incident stayed mostly at the level of talk and warning; Arthur learned which pubs to avoid afterward. Maggie heard about it through Mary and refused to discuss it in front of the children. In private she told him she wouldn't raise daughters in a house where he brought that home. Arthur promised to stop, then returned to the same pattern.
+The fight that followed him for years happened in 1948. He had been drinking with Tommy Rourke, a workmate from the shop. Outside a pub in north Liverpool, another man bumped him, words were exchanged, and Arthur swung. He kept swinging even after the man went down. The injured man walked away bleeding and shaken, and the incident stayed mostly at the level of talk and warning; Arthur learned which pubs to avoid afterward. Maggie heard about it through Mary and refused to discuss it in front of the children. In private she told him she wouldn't raise a daughter in a house where he brought that home. Arthur promised to stop, then returned to the same pattern. His brother Patrick, who had married steadily and kept the same job at a factory in Bootle, stopped asking Arthur to family gatherings for a time after that.
 
-The third baby, Brigid, was born in 1953 and died that same year. Maggie turned inward. Arthur went to the pub more often, staying late, coming home with his breath sour and his patience thin. In 1956 their daughter Eileen was born, and the household tightened itself into function again. Bernard Keegan died in 1956 as well. Arthur spoke little at the funeral and drank afterward until he grew loud, then angry.
+The third baby, Brigid, was born in 1953 and died that same year. Maggie turned inward. Arthur went to the pub more often, staying late, coming home with his breath sour and his patience thin.
 
-Their youngest daughter, Margaret "Rita," arrived in 1960. By then Arthur’s work in plants and workshops had become harder to keep. He did the job well, but he argued with foremen and took offence at instruction. As Merseyside’s industrial base began to change, jobs went and came back in altered form. In 1968 Nora Keegan died, and Arthur’s connection to the old household ended. He no longer had anyone trying to pull him toward church, and he stopped even pretending; Christmas became a meal and a day off, not a Mass.
+In 1956 their daughter Eileen was born, and the household tightened itself into function again. That same year, Bernard Keegan died. Arthur spoke little at the funeral and drank afterward until he grew loud, then angry.
 
-His health turned in 1966. The cough that had sat in the background for years became constant, and he began to get short of breath climbing stairs. A GP later, Dr. Sanjay Patel, told him to stop smoking. Arthur listened, argued, and carried on. The breathlessness worsened through the early 1970s. He lost jobs when he couldn’t keep up, then took shorter stints and ended up relying on benefits and help from family. Pride made him sharp. He kept his tools clean even when he had no use for them, polishing and sorting them on the kitchen table.
+Their youngest daughter, Margaret "Rita," arrived in 1960. Arthur worked through the early sixties in the same round of plants and workshops, but each job lasted shorter than the one before. He did the work well when his lungs let him, but he argued with foremen and took offence at instruction. Mr. Edwin Mercer, a foreman at one of the repair shops, told him outright that his mouth lost him more positions than his hands ever would. Arthur ignored him.
 
-By the time he reached his late sixties, the household arrangements shifted. Maggie kept her own life and spent long stretches away, staying with family and taking the quiet she needed. Arthur lived with adult relatives, with his daughter Eileen increasingly managing appointments and money. He grew more solitary, choosing the same chair, the same cup, the same route to the corner shop. He still read the paper and corrected people's facts, but he avoided crowds.
+His health turned around 1962. The cough that had sat in the background for years became constant, and he began to get short of breath climbing stairs. In 1968 Nora Keegan died, and Arthur's connection to the old household ended. He no longer had anyone trying to pull him toward church, and he stopped even pretending; Christmas became a meal and a day off, not a Mass.
 
-Mary died in 1992. She had been the one who kept family threads together, the one who smoothed over quarrels and passed news between siblings. Arthur went to the funeral and said little.
+Through the 1970s, Merseyside changed around him. The docks that had fed his father's generation were containerising, and the old workshops closed or shrank. Arthur found shorter stints and longer gaps between them. A GP, Dr. Sanjay Patel, told him to stop smoking. Arthur listened, argued, and carried on. The breathlessness worsened through the decade. By his late sixties he had stopped looking for steady work and relied on benefits and help from family. Pride made him sharp. He kept his tools clean even when he had no use for them, polishing and sorting them on the kitchen table.
 
-Rita died in 1996 at thirty-six. Arthur stopped speaking about her after the funeral and drank more again. His sister Eileen, who had been blunt about his drinking for decades but never cut him off, died in 1997. Then his heart began to trouble him alongside the damaged lungs. Seán, his oldest brother, died earlier in 2000. In September of that year, living with family rather than with Maggie, Arthur suffered a final cardiac event and died on the twenty-first.
+Through the 1980s, the marriage fractured without breaking. Maggie spent long stretches away, staying with their daughter Nora (named for Arthur's mother), taking the quiet she needed. Arthur moved in with his daughter Eileen, who managed his appointments and money. Kathleen, the eldest, coordinated when doctors' visits were needed and when bills had piled too high; she kept her distance otherwise. His sister Eileen came by sometimes and told him plainly that he looked worse, that he needed to eat properly, that the drinking would kill him. Arthur listened without arguing, then did as he pleased. He grew more solitary, choosing the same chair, the same cup, the same route to the corner shop. He still read the paper and corrected people's facts, but he avoided crowds.
 
-His body was taken to a local cemetery after a church service arranged by family, with a priest speaking the familiar words over the coffin. Flowers sat on the lid, and he was buried in the ground with his name and dates recorded.
+Mary died in 1992. She had been the one who sent letters and made phone calls, who passed news between siblings and knew when to step in before arguments hardened. Arthur went to the funeral and said little.
+
+Rita died in 1996 at thirty-six. Of all his daughters, she had been the one most like him—quiet, sharp-tongued, quick to take offence—and he had watched her struggle with work and relationships in ways he recognized. Arthur stopped speaking about her after the funeral and drank more again. His sister Eileen, who had been blunt about his drinking for decades but never cut him off, died in 1997. Then his heart began to trouble him alongside the damaged lungs. Seán, his oldest brother, died in early 2000. In September of that year, still living at Eileen's house, Arthur suffered a final cardiac event and died on the twenty-first.
+
+A church service was arranged by the family—the church Arthur had walked away from sixty years before. A priest spoke the familiar words over the coffin, and he was buried in a local cemetery.
+
+<!--
+**Issues found:**
+- [Pass 1] Gap in timeline coverage for ages 50-65 and 65-78
+- [Pass 2] Final household arrangement vague ("adult relatives") when it should specify daughter Eileen
+- [Pass 4] Patrick (brother) never appears after introduction despite being described as "lifelong foil"
+- [Pass 4] Sister Eileen only appears at her death; Kathleen (daughter) never appears after birth
+- [Pass 6] Rita's death has no setup showing her relationship to Arthur
+- [Pass 7] Paragraph 13 packed three major events (infant death, birth, father's death)
+- [Pass 8] Redundant "in 1948, when he was thirty-four" (year + age)
+- [Pass 10] "kept family threads together" was abstract without concrete mechanism
+- [Pass 14] "raise daughters" when only Kathleen existed in 1948
+- [Pass 14] "earlier in 2000" was confusing phrasing
+- [Pass 14] Ending paragraph felt formulaic; didn't connect to Arthur's religious journey
+
+**Changes made:**
+- Added 1970s paragraph covering deindustrialization and health decline
+- Changed "Through the 1980s" to bridge the timeline gaps
+- Specified "Arthur moved in with his daughter Eileen" and "still living at Eileen's house"
+- Added Patrick appearing after pub fight (stopped inviting Arthur to gatherings)
+- Added sister Eileen visiting in 1980s, speaking bluntly about his drinking
+- Added Kathleen's role coordinating doctors and bills in 1980s
+- Added context about Rita being most like Arthur before her death
+- Split paragraph 13 to separate infant Brigid's death from later events
+- Removed redundant age from pub fight sentence
+- Made Mary's role concrete: "sent letters and made phone calls, passed news, knew when to step in"
+- Changed "daughters" to "a daughter" in Maggie's warning
+- Changed "earlier in 2000" to "in early 2000"
+- Rewrote ending to connect funeral to Arthur's rejection of the church
+- Clarified daughter Nora was named for Arthur's mother to reduce confusion
+-->

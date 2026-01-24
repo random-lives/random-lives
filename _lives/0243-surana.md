@@ -181,12 +181,30 @@ continent: "Europe"
 # - M
 ---
 
-Surana was born on June 20, 505, in a small Alan-speaking camp of herders on the forest-steppe of the Middle Volga. Her people lived under the pull of steppe patrons and their rivals, sending men for service and tribute while keeping cattle and sheep on river meadows. In her household, older ways remained strong, but her mother Vardana also knew short Christian prayers learned through contacts and repeated them over children and sickbeds.
+Surana was born on June 20, 505, in a small Alan-speaking camp of herders on the forest-steppe of the Middle Volga. Her people lived under the pull of steppe patrons and their rivals, sending men for service and tribute while keeping cattle and sheep on river meadows. In her household, the women still prayed to older spirits, but her mother Vardana also knew short Christian prayers learned through contacts and repeated them over children and sickbeds.
 
-Surana came after a first baby, Ardava, who had died in 504 before he could be carried far from the hearth. She was raised in a household where her father's parents held authority. Her grandmother Banu ran the inside work and watched the small ones when Vardana churned and strained milk or twisted wool on a spindle. Her grandfather Mitra set rules, and her aunt Roksa had Surana underfoot while she sorted fleece and patched leather.
+Surana came after a first baby, Ardava, who had died in 504 before he could be carried far from the hearth. She was raised in a household where her father Artana's parents held authority. Artana was away most days with the livestock, but he returned mornings and evenings. Her grandmother Banu ran the inside work and watched the small ones when Vardana churned and strained milk or twisted wool on a spindle. Her grandfather Mitra set rules, and her aunt Roksa had Surana underfoot while she sorted fleece and patched leather.
 
-At sixteen months, in October 506, Surana began insisting on a morning routine at the hearth. She touched the warm stones, then squatted to pat the ashes with a stick. If someone lifted her away before she finished, she stiffened and shrieked until Banu put her back down to complete it.
+At sixteen months Surana began insisting on a morning routine at the hearth. She touched the warm stones, then squatted to pat the ashes with a stick. If someone lifted her away before she finished, she stiffened and shrieked until Banu put her back down to complete it.
 
-A new baby, Mahran, arrived in 507, swaddled tight and kept close to Vardana. Surana shoved at the cloth bundle when she wanted her mother’s lap, then hovered nearby, watching. On her second birthday in June 507, a lamb was brought close for milking. Surana edged forward with a piece of flatbread, stopped at the threshold of the yard, and only fed it when Roksa guided her wrist to the lamb’s nose. She laughed once, retreated to Banu’s skirts, and tried again in short steps.
+A new baby, Mahran, arrived in 507, swaddled tight and kept close to Vardana. Surana shoved at the cloth bundle when she wanted her mother's lap, then hovered nearby, watching. By her second birthday she had learned to share Vardana's attention. A lamb was brought close for milking that day. Surana edged forward with a piece of flatbread, stopped at the threshold of the yard, and only fed it when Roksa guided her wrist to the lamb’s nose. She laughed once, retreated to Banu’s skirts, and tried again in short steps.
 
-In March 508 an acute fever moved through the camp. Vardana washed Surana’s face and hands, held a small cross-shaped charm over her, and murmured a prayer learned from travelers. Surana died on March 22, 508. They wrapped her in a child’s cloth and laid her in the ground on a rise above the river, with a pinch of salt and a small cup set beside her.
+In March 508 an acute fever moved through the camp. Vardana washed Surana's face and hands, held a small cross-shaped charm over her, and murmured a prayer learned from travelers. Surana died on March 22, 508. They wrapped her in a child's cloth and laid her in the ground on a rise above the river, with a pinch of salt and a small cup set beside her.
+
+<!--
+**Reviewed:** 2026-01-22
+
+**Issues found:**
+- [Pass 2] Father Artana not named in narrative despite being in narrative plan
+- [Pass 8] "At sixteen months, in October 506" - redundant age + date
+- [Pass 8] "On her second birthday in June 507" - redundant birthday + month/year
+- [Pass 13] "older ways remained strong" - personification/abstract
+- [Pass 14] Abrupt transition from sibling jealousy scene to lamb scene
+
+**Changes made:**
+- Added father Artana by name: "where her father Artana's parents held authority. Artana was away most days with the livestock, but he returned mornings and evenings."
+- Removed redundant date: "At sixteen months, in October 506" → "At sixteen months"
+- Removed redundant month/year: "On her second birthday in June 507" → "On her second birthday"
+- Made religious practice concrete: "older ways remained strong" → "the women still prayed to older spirits"
+- Improved transition: Added "By her second birthday she had learned to share Vardana's attention" and changed "On her second birthday a lamb was brought close" → "A lamb was brought close for milking that day"
+-->

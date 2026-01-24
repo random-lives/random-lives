@@ -13,7 +13,7 @@ country: "Turkey"
 latitude: 35.98
 longitude: 36.12
 map_url: "https://www.google.com/maps/place/35.98,36.12/@35.98,36.12,5z"
-lifestyle: "Farmer"
+lifestyle: "Rural"
 era: "Holocene"
 sex: "M"
 age_tag: "Child (2–10)"
@@ -283,12 +283,35 @@ continent: "Asia"
 
 Michaēl was born on August 7, 1357 in a small Rum village in the wooded hills above the Orontes plain, where Orthodox Christians lived under Mamluk tax collectors and watched the roads for raiders from the north and east. His father, Iōannēs, took day work wherever an estate needed hands—grape harvest, olive picking, carrying sheaves—while his mother, Maria, kept the house, spun and mended, and went out for weeding and gleaning when she could.
 
-An icon of the Theotokos stood in their corner by a small oil lamp. Maria tucked a bit of blue glass on a string near the children’s necks against the evil eye, and she kept a little pouch of herbs from Eirēnē, the neighbor who gave remedies and prayers. Michaēl copied words he heard, asked why one spring was “strong” and another “weak,” and corrected other boys when they counted animals wrong. He talked to anyone who would answer, even grown men resting at the edge of the fields.
+An icon of the Theotokos stood in the corner by a small oil lamp. Maria tucked blue glass on strings around the children's necks against the evil eye. Michaēl copied words he heard, asked why one spring was "strong" and another "weak," and corrected other boys when they counted animals wrong. He talked to anyone who would answer, even grown men resting at the edge of the fields.
 
-Geōrgios arrived in 1359. Michaēl carried him on his hip while Maria worked, and learned to hush him with crusts and water. The toddler died in 1362 after days of sickness, and the same season a thief came at night and took their small goat. Iōannēs went out angry with other men, but the animal stayed gone.
+Geōrgios arrived in 1359, and Nikolaos in 1361. Michaēl carried them on his hip while Maria worked, hushing them with crusts and water. Geōrgios died in 1362 after days of sickness. The same season a thief came at night and took their small goat. Iōannēs went out angry with other men, but the animal stayed gone.
 
-In late summer 1363 hunger sharpened Michaēl’s choices. Sent to watch a neighbor’s plot, he slipped figs and a few grapes into his shirt and broke kindling from a woodpile. Markos, an older boy, caught him. When Michaēl argued and denied it, Markos’s uncle Theodoros struck him and Markos followed, leaving him bruised for days.
+By late summer 1363 hunger pressed hard. Sent to watch a neighbor's plot, Michaēl slipped figs and a few grapes into his shirt and broke kindling from a woodpile. Markos, an older boy, caught him. When Michaēl argued and denied it, Markos's uncle Theodoros struck him and Markos joined in, leaving him bruised for days.
 
-Winter brought a harder injury. In January 1364, gathering firewood above the terraces, Michaēl fell from a rocky edge. His hip and leg swelled; he lay inside for weeks, then rose with a limp that never left. Maria was heavy with another child and set him to lighter tasks.
+Winter brought a harder injury. In January 1364, gathering firewood above the terraces, Michaēl fell from a rocky edge. His hip and leg swelled; he lay inside for weeks while Maria, heavy with another child, tended both him and Nikolaos. When he could walk again, the limp stayed. Iōannēs set him to minding Nikolaos and sorting stores instead of climbing the slopes.
 
-On October 14, 1364, still limping, he climbed a low terrace wall near the pens and fell again, striking his head on stone. Kyrillos read prayers over the body in the village church; they wrapped him in cloth and buried him in the earth beside other Orthodox graves, with a small wooden cross pressed into the mound.
+On October 14, 1364, Michaēl left Nikolaos sleeping and climbed a low terrace wall near the pens to see where a goat had wandered. His leg buckled and he fell, striking his head on stone. The village priest Kyrillos read prayers over the body in the chapel; they wrapped him in cloth and buried him beside other Orthodox graves, with a small wooden cross pressed into the mound. Nikolaos, not yet four, was too young to remember him clearly, but he grew up hearing how his eldest brother had carried him when he was small.
+
+<!--
+**Review Date:** 2026-01-22
+
+**Issues found:**
+- [Pass 2] Nikolaos (brother born 1361) completely absent from narrative despite being a toddler during Michaēl's life
+- [Pass 4] Father Iōannēs disappeared after paragraph 3, absent during Michaēl's injury and death
+- [Pass 4] Eirēnē named but only appeared once in passing (unnecessary naming)
+- [Pass 6] Second fall lacked motivation—why would a limping child climb a wall?
+- [Pass 11] Frontmatter had "Farmer" instead of standard "Rural" lifestyle category
+- [Pass 13] "hunger sharpened Michaēl's choices" was slightly figurative
+
+**Changes made:**
+- Added Nikolaos to paragraph 3 (born alongside Geōrgios mention)
+- Added Nikolaos to paragraph 5 (Maria tending him during Michaēl's recovery)
+- Brought Iōannēs back in paragraph 5 (assigning lighter tasks after injury)
+- Gave Michaēl's final climb a concrete reason (looking for a wandering goat)
+- Connected his disability to the fall (leg buckled)
+- Added closing note about Nikolaos growing up with Michaēl's memory
+- Removed Eirēnē reference (unnecessary named character)
+- Changed "sharpened" to "pressed hard" (more direct)
+- Fixed lifestyle field from "Farmer" to "Rural"
+-->

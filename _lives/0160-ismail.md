@@ -171,10 +171,23 @@ continent: "Asia"
 # - F
 ---
 
-Ismail was born at the end of January 1268 in a small rural settlement in the foothills west of Shamakhi, in Shirvan, where Mongol power and local lords collected taxes and labor. His father, Rashid, spoke an Iranian village tongue at home and used Oghuz Turkic in the fields and at market. He hired himself out by the day, taking pruning work in orchards, threshing in summer, and hauling loads for better-off neighbors. The household lived under Rashid's father Yunus, with Yunus's wife Safiya directing the women's work.
+Ismail was born at the end of January 1268 in a small rural settlement in the foothills west of Shamakhi, in Shirvan. The region was under the Ilkhanate, the Mongol successor state that had conquered Persia and the Caucasus; local lords collected taxes and labor for distant overlords. His father, Rashid, spoke an Iranian village tongue at home and used Oghuz Turkic in the fields and at market. He hired himself out by the day, taking pruning work in orchards, threshing in summer, and hauling loads for better-off neighbors. The household lived under Rashid's father Yunus, with Yunus's wife Safiya directing the women's work.
 
 Khadija had already lost a son, Yahya, who died in 1266 at one year old. That loss made her watchful. She labored on a pallet near the hearth while Safiya and Bibi Gul, the village midwife, prepared hot water and clean cloth. After the birth, Khadija washed Ismail, rubbed him with salt and oil, and wrapped him tight. She tried to nurse him often, and Safiya kept the room warm, feeding the fire with brush and dung. Fatima, ten years old, carried water and watched her younger sister Amina, seven, while the women worked. The name Ismail was spoken over the child, and a small leather amulet with Qur'anic words was tied to his swaddling.
 
-He stayed small and slept too long. On the seventh day, Rashid fetched Mullah Karim, who recited from the Qur’an at the bedside. Ismail died the same day.
+He stayed small and slept too long. Khadija kept him swaddled against her chest, waking him to nurse, but he took little and tired quickly. Safiya burned wild rue to ward off evil spirits. On the seventh day, his breathing grew shallow. Rashid fetched Mullah Karim, who recited from the Qur'an at the bedside while Khadija held the infant. Ismail died that afternoon in his mother's arms.
 
 Before sunset Yunus arranged a simple washing and shrouding. Men carried the small bundle to the cemetery by the village mosque, and Mullah Karim led a brief prayer before the burial.
+
+<!--
+**Issues found:**
+- [Pass 4] Khadija (mother) disappears after birth paragraph—not present at death scene
+- [Pass 6] Death scene abrupt, lacks emotional texture and detail about who was present
+- [Pass 11] Mongol context could be more specific (Ilkhanate)
+- [Pass 14] Paragraph 3 too compressed—two sentences for entire decline and death
+
+**Changes made:**
+- Added "Ilkhanate" context to opening sentence to ground the Mongol reference historically
+- Expanded death scene: added Khadija keeping him against her chest, his poor nursing, Safiya burning wild rue, shallow breathing, and Khadija holding him as he died
+- Now Khadija appears in all three paragraphs where she would realistically be present
+-->

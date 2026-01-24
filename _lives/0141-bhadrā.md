@@ -247,16 +247,37 @@ continent: "Asia"
 # - F
 ---
 
-Bhadrā was born in the hot season of 59 in a village north of the western Deccan routes, where Satavahana-era officials and local headmen drew grain and labor from households tied to patrons. Her family spoke a local Prakrit. They lived in her father's household, shared with his parents, on the edge of landholding society. Guttā worked rope and hide, taking day labor when a patron called. Sivā carried water, cooked, and went out to weed and harvest for wages.
+Bhadrā was born in the hot season of 59 in a village north of the western Deccan routes, where Satavahana-era officials and local headmen drew grain and labor from households tied to patrons. Her family spoke a local Prakrit. They lived in her father's household, shared with his parents, on the edge of landholding society. Guttā worked rope and hide, taking day labor when a patron called. Sivā carried water, cooked, and went out to weed and harvest for wages. Sirimati, three years old when Bhadrā was born, was already walking and watching.
 
 Devī, the grandmother, kept the household shrine near the threshold: a stone smeared with red earth for the village mother, a pot of water, and a dish for rice and flowers. Her husband Datta had grown too stiff for heavy work but still held household authority and told stories to children who sat near him. Bhadrā watched the offerings and then wandered off to the work area where fibers soaked and strips of hide lay weighted by stones. Datta let her stay and watch the craft work when she sat quietly; otherwise she asked questions at the wrong moments, speaking over adults. When told to fetch water she ran with the other children, came back late, and argued about it.
 
-Sirimati, three years older, pulled her away from the road when traders came through with bullocks and bales. Bhadrā still pushed forward to stare at colored cloth and listen to a caravan woman, Sumanā, counting goods and calling out prices. She repeated unfamiliar words until Sirimati slapped her arm to stop.
+Sirimati pulled her away from the road when traders came through with bullocks and bales. Bhadrā still pushed forward to stare at colored cloth and listen to a caravan woman, Sumanā, counting goods and calling out prices. She repeated unfamiliar words until Sirimati slapped her arm to stop.
 
-A baby brother, Nanda, was born in 61 and died before he left the sleeping mat. Sivā’s face stayed tight for weeks. Two years later Dhamma arrived, loud and healthy, and Bhadrā dragged him along behind her by the wrist, then forgot him at the edge of the grain plot.
+A baby brother, Nanda, was born in 61 and died before he left the sleeping mat. Sivā’s face stayed tight for weeks. Two years later Dhamma arrived, loud and healthy. Bhadrā dragged him along behind her by the wrist. Once she left him at the edge of the grain plot while she chased a goat; Sivā found him crying in the dirt and struck Bhadrā across the face.
 
-A thin monsoon brought bad grain when Bhadrā was six. One evening she spilled a pot of millet flour while rushing past the hearth. Devī struck her with a switch and held her by the ear while Guttā beat her with his hand until her shoulder and back bruised. Bhadrā shouted back, then went silent and watched the doorway for steps for days.
+A thin monsoon brought bad grain when Bhadrā was six. One evening she spilled a pot of millet flour while rushing past the hearth. Devī struck her with a switch and held her by the ear while Guttā beat her with his hand until her shoulder and back bruised. Sirimati stood against the wall and said nothing. Datta watched from his mat. Bhadrā shouted back, then went silent and watched the doorway for steps for days.
 
-Rohinī was born in 66 and died soon after. Bhadrā took more turns guarding Dhamma, resenting the orders and snapping at him when he cried.
+Rohinī was born in 66 and died within days. After that, Bhadrā spent more time watching Dhamma. She pinched his arm when he cried and told him to be quiet.
 
-In March of 70 she developed a sudden fever with shaking and confusion. Yasā the midwife rubbed her with oil and tied protective threads at her wrist, but the illness ended her on the last day of the month. Her body was carried outside the settlement and burned on a small wood pile; Sivā placed a pinch of rice and a few flowers beside the fire.
+In March of 70 she developed a sudden fever with shaking and confusion. Sivā sat with her through the nights. Yasā the midwife rubbed her with oil and tied protective threads at her wrist, but she died on the last day of the month. Her body was carried outside the settlement and burned on a small wood pile. Sivā placed a pinch of rice and a few flowers beside the fire.
+
+<!--
+**Issues found:**
+- [Pass 3] Sirimati appears in paragraph 3 without prior introduction
+- [Pass 4] Datta only appears once in paragraph 2, never again
+- [Pass 4] Sirimati only appears once (at market), should be present during family events
+- [Pass 4] Redundant "three years older" after adding Sirimati to paragraph 1
+- [Pass 6] Death scene lacks family presence (only Yasā mentioned)
+- [Pass 14] "then forgot him at the edge of the grain plot" was unresolved
+- [Pass 14] "resenting the orders and snapping at him" was telling not showing
+- [Pass 14] "the illness ended her" was clinical phrasing
+
+**Changes made:**
+- Added Sirimati introduction to paragraph 1: "Sirimati, three years old when Bhadrā was born, was already walking and watching"
+- Removed redundant "three years older" from paragraph 3
+- Added Sirimati and Datta as witnesses to the beating scene
+- Added "Sivā sat with her through the nights" to death scene
+- Expanded the Dhamma incident with consequences: goat chase, Sivā finding him, slapping Bhadrā
+- Rewrote Rohinī paragraph: "died within days" instead of "soon after"; concrete action "She pinched his arm when he cried and told him to be quiet" instead of abstract "resenting"
+- Changed "the illness ended her" to "she died"
+-->

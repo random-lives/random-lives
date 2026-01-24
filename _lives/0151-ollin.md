@@ -371,7 +371,7 @@ continent: "North America"
 #   type: childhood_abuse
 ---
 
-Ollin was born on February 3, 1192, in the upland forests and fields north of the great lakes of the Basin of Mexico. The place answered to shifting city-states, each with its own rulers and demands; village life turned on tribute, labor service, and the calendar of rites. His people spoke Nahuatl in the household and used Otomí with neighbors and traders who passed through the wooded ridges. At dawn his mother, Chalchiuh, burned a pinch of copal on a clay brazier and set out a small bit of tortilla and beans for the household powers and for Tlaloc, because rain decided almost everything.
+Ollin was born on February 3, 1192, in the upland forests and fields north of the great lakes of the Basin of Mexico. The place answered to shifting city-states, each with its own rulers and demands; village life turned on tribute, labor service, and the calendar of rites. His people spoke Nahuatl in the household and used Otomí with neighbors and traders who passed through the wooded ridges. At dawn his mother, Chalchiuh, burned a pinch of copal on a clay brazier and set out a small bit of tortilla and beans for the household powers and for Tlaloc, because the harvest depended on the rains.
 
 His father, Yaotl, was already dead. Chalchiuh lived in her mother’s compound, where her brother Coatl held the tools and made decisions about fields and woodlots. Ollin learned early what it meant to be watched by relatives. When the women ground maize on the metate, he carried water from a spring and brought kindling from the edge of the pines.
 
@@ -381,7 +381,7 @@ At five, Ollin could carry small loads and should have been able to keep track o
 
 Coatl took him once to Mixtli, a curer who read day-signs and listened to the way a child breathed. Mixtli burned copal and passed smoke over Ollin’s head and chest, then rubbed him with herbs and spoke over a bowl of water. The fits returned anyway. The ritual did not end the punishments. It only gave the adults a reason to say the child needed strictness.
 
-In 1207, his grandmother Iztac died. She had been the one who held food for him when the others passed him over, who spoke to him slowly and repeated herself without anger. After her death, the compound felt colder. Coatl's authority became more direct.
+In 1207, his grandmother Iztac died. She had been the one who held food for him when the others passed him over, who spoke to him slowly and repeated herself without anger. After her death, no one in the compound spoke to him gently. Coatl's authority became more direct.
 
 He grew tall. By fifteen his shoulders were broad enough for heavier burdens, and his work steadied when tasks were simple and repeated. Acatl, an older cousin skilled in woodland work, taught him to stack fuelwood so it dried clean and to dig the shallow pit for charcoal, then cover the burning wood with earth and watch the smoke. Ollin copied exactly what he was shown. When someone suggested a different venting pattern or a faster way to bundle sticks, he refused. He repeated the old method even when it cost time. Acatl called him “stone-headed” once, not kindly, but he also handed him food when the others forgot.
 
@@ -399,7 +399,7 @@ Through his thirties, he earned a steady place by doing what others avoided: lon
 
 Coatl died in 1228. Ollin carried wood for the funeral fire and stood silent while his uncle's body was wrapped and burned with offerings. Without Coatl, decisions about the fields and woodlots passed to Mazatl and a younger man in the compound.
 
-The rains failed badly in 1229 and again the next year. Frost came early on the higher plots. By 1230 the maize jars sat low. Prices at exchange shifted. Tecpatl demanded more charcoal for the same amount of grain. The household began trading away cloth, then tools. Hunger narrowed everything. Ollin spent longer days cutting and hauling. He stopped sharing roasted seeds with children in the compound. He ate quickly and looked away while others scraped bowls.
+The rains failed badly in 1229 and again the next year. Frost came early on the higher plots. By 1230 the maize jars sat low. Prices at exchange shifted. Tecpatl demanded more charcoal for the same amount of grain. The household began trading away cloth, then tools. Everyone ate less. Ollin spent longer days cutting and hauling. He stopped sharing roasted seeds with children in the compound. He ate quickly and looked away while others scraped bowls.
 
 In 1229 he began crossing into a neighboring community’s claimed woodland to cut straighter, thicker trees. He knew the boundary markers. He passed them anyway, moving fast and keeping his eyes down. He did it again and again through 1231, burning charcoal in hidden pits and carrying it back at dawn. Chimal, an elder who watched the boundary, confronted him once on a path. Ollin answered in Otomí to show he understood the claim, then said, flatly, that his household had no maize. Chimal raised a stick and threatened to call men. Ollin did not fight. He backed away with his bundle and returned the next day by a different route.
 

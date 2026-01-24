@@ -175,8 +175,24 @@ continent: "Asia"
 
 Northern Song officials governed the villages west of Luoyang, collecting grain tax and labor service through household registers. Zhang Shi’s family spoke the Central Plains tongue and kept a wooden tablet shelf in the main room for ancestors of the Zhang line, with daily incense and bowls of millet gruel on festival mornings. They also burned paper at the Earth God shrine by the fields and left scraps for the Kitchen God at year’s end.
 
-Zhang Shi farmed his own plots and took sideline jobs when cash ran short—hauling loads on a cart, cutting wood on the low hills, helping on building crews. His wife Li Shi spun and wove at home, then joined fieldwork when wheat needed weeding. Their eldest, Da-niang, born in 1017, cooked, carried water, and minded younger kin; San-lang, born in 1026, shouldered farm tasks and ran errands. Two boys had come and gone in infancy, Er-lang in 1023 and Si-lang in 1033.
+Zhang Shi farmed his own plots and took sideline jobs when cash ran short—hauling loads on a cart, cutting wood on the low hills, helping on building crews. His wife, whose maiden name was Li, spun and wove at home and joined fieldwork when wheat needed weeding. Their eldest daughter Da-niang, twenty-four that year, cooked, carried water, and minded younger children. San-lang, their fifteen-year-old son, shouldered farm tasks and ran errands. Two boys had died in infancy: one in 1023, another in 1033.
 
-On September 22, 1041, Li Shi labored in the family room while Da-niang kept the brazier hot and San-lang went to fetch Wu Po, the midwife. The baby boy arrived small and quiet. Wu Po tied and cut the cord, washed him, and rubbed him with warm cloths. Before nightfall his body stiffened and his jaw clenched; he died that day.
+On September 22, 1041, his wife labored in the family room while Da-niang kept the brazier hot and San-lang went to fetch Wu Po, the midwife. The baby boy arrived small and quiet. Wu Po tied and cut the cord, washed him, and rubbed him with warm cloths. Before nightfall his body stiffened and his jaw clenched; he died that day.
 
-Zhang Shi bought a strip of plain cloth and a small clay jar of wine. They wrapped the infant and buried him in a shallow grave on the family land’s edge, set a little millet and a few copper coins beside him, and lit incense at the ancestor tablets.
+Zhang Shi bought a strip of plain cloth and a small clay jar of wine. They wrapped the infant and buried him in a shallow grave at the edge of the family's land, set a bowl of millet and a few copper coins beside him, and lit incense at the ancestor tablets.
+
+---
+
+**Review changelog:**
+
+**Issues found:**
+- [Pass 12] "Li Shi" naming convention unclear to readers unfamiliar with Chinese married women's naming
+- [Pass 14] Second paragraph reads like a list; ages of living siblings not clearly stated
+- [Pass 14] Dead infant siblings named individually when they serve no narrative purpose beyond showing pattern of loss
+
+**Changes made:**
+- Changed "His wife Li Shi" to "His wife, whose maiden name was Li" for clarity
+- Added ages for Da-niang (24) and San-lang (15) instead of birth years, making family composition more immediate
+- Removed Er-lang and Si-lang names; described as "Two boys had died in infancy: one in 1023, another in 1033" - cleaner and serves same purpose
+- Minor: "a little millet" → "a bowl of millet" (more concrete); "on the family land's edge" → "at the edge of the family's land" (flows better)
+- Changed second reference to "Li Shi labored" → "his wife labored" for consistency after removing the formal name

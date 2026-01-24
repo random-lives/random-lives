@@ -177,8 +177,28 @@ continent: "North America"
 # - F
 ---
 
-Rokhl was born on October 19, 1910, in Brooklyn, in a Yiddish-speaking Lithuanian Jewish household under the city government of New York, part of the United States. Avrom and Hinde lived in a small apartment with three daughters—Sore, Beyle, and Gitele—already trained to keep quiet during prayers and to leave the table when meat and milk dishes were being sorted for kashrut. Avrom worked long days as a clerk in a neighborhood shop, and he came home smelling of street dust and flour sacks. Hinde ran the home. She lit Shabbes candles in brass sticks on Friday afternoons and kept a kerosene lamp trimmed for winter evenings.
+Avrom and Hinde lived in a small apartment in Brooklyn with three daughters—Sore, Beyle, and Gitele—already trained to keep quiet during prayers and to leave the table when meat and milk dishes were being sorted for kashrut. Avrom worked long days as a clerk in a neighborhood shop and came home smelling of street dust and flour sacks. Hinde ran the home. She lit Shabbes candles in brass sticks on Friday afternoons and kept a kerosene lamp trimmed for winter evenings. Yiddish filled the rooms, though the older girls were picking up English from the street.
 
-Rokhl arrived as a fraternal twin. Her brother, Yoysef, cried louder. Hinde wrapped both babies in flannel and set them in a shared cradle near the stove, turning them so neither lay in a draft. At night Avrom murmured the bedtime Shema and washed his hands from a small cup before eating bread. A few days after the birth he went to shul, where the gabbai called out the girl’s name, Rokhl, during the Torah reading.
+On October 19, 1910, Hinde gave birth to twins—a girl and a boy. The boy, Yoysef, cried louder and latched easily. The girl was smaller. Hinde wrapped both babies in flannel and set them in a shared cradle near the stove, turning them so neither lay in a draft. A few days after the birth Avrom went to shul, where the gabbai called out the girl's name, Rokhl, during the Torah reading.
 
-Through the winter Hinde measured milk carefully and boiled water on the stove. Rokhl’s breathing stayed fast, and her lips sometimes turned dark when she fed. On March 2, 1911, a doctor wrote a death certificate naming a congenital defect. Avrom arranged a simple Jewish burial, and Rokhl was placed in the ground the same day with psalms recited over her.
+Through the winter Hinde measured milk carefully and boiled water on the stove. Sore, the eldest at eight, fetched clean rags and kept Gitele from poking at the cradle. Rokhl's breathing stayed fast, and her lips sometimes turned dark when she fed. Hinde noticed but did not know what it meant. By late February the baby had stopped gaining weight. On March 2, 1911, a doctor came and wrote a death certificate naming a congenital heart defect. Avrom arranged a burial at the Jewish cemetery, and Rokhl was placed in the ground the same day with psalms recited over her. She had lived four months.
+
+<!--
+**Review changelog (2026-01-22):**
+
+**Issues found:**
+- [Pass 11] Opening sentence "was born on [date], in [place], in a [ethnicity] household under the city government of New York" was awkward and formulaic
+- [Pass 14] The three older sisters were named but then disappeared entirely from the action
+- [Pass 14] Transition from daily life to death felt abrupt—no buildup showing the baby's decline
+- [Pass 14] The twin comparison in paragraph 2 was choppy ("Her brother, Yoysef, cried louder.")
+- [Pass 14] Religious details felt listed rather than integrated
+
+**Changes made:**
+- Restructured opening to establish the household first, then introduce the birth—more natural narrative flow
+- Added detail about older girls picking up English (period-appropriate immigrant detail)
+- Gave Sore an active role in paragraph 3 (fetching rags, keeping Gitele away) so the sisters participate in the story
+- Added progression of illness: "Hinde noticed but did not know what it meant. By late February the baby had stopped gaining weight."
+- Integrated the twin comparison into the birth scene more naturally
+- Changed "a congenital defect" to "a congenital heart defect" to match the debug data
+- Added closing sentence "She had lived four months" for closure
+-->

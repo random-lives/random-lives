@@ -127,10 +127,10 @@ continent: "Africa"
 
 The camp sat on a rise above a bend of the White Nile, where acacia scrub opened into grass and hard ground. No town governed the place. Kin groups moved and argued and traded favors, speaking a Nilo-Saharan tongue and watching for the spirits that lived in the river eddies, the tall termite mounds, and the wind that came hot across the savanna.
 
-The household belonged to a woman raising children without a resident husband. Her eldest, Older Brother, had been born forty-five rains earlier. He hunted away from the river, following spoor with other men and coming back with strips of dried meat, hide, and news. Older Sister, born twenty-four rains earlier, stayed close to their mother. She carried water in a skin bag, dug for bulbs and roots with a pointed stick, and kept the hearth fed with thornwood.
+The household belonged to a woman raising children without a resident husband. Her eldest, Koro, had been born forty-five rains earlier. He hunted away from the river, following spoor with other men and coming back with strips of dried meat, hide, and news. Amina, born twenty-four rains earlier, stayed close to their mother. She carried water in a skin bag, dug for bulbs and roots with a pointed stick, and kept the hearth fed with thornwood.
 
-On a day of hard heat near the start of the rains, the mother went into labor in the shade of a low shelter. Maternal Grandmother and the camp’s senior birth attendant, Senior Midwife/Healer, rubbed the mother’s belly with fat and pressed a smooth stone charm into her palm. They spoke to the river-place and to the spirits of nearby trees, and set a small pinch of powdered ochre and crushed seed on the ground beside the mat.
+On a day of hard heat near the start of the rains, the mother went into labor in the shade of a low shelter. Her own mother and the camp's senior birth attendant, a woman called Naja, rubbed her belly with fat and pressed a smooth stone charm into her palm. They spoke to the river-place and to the spirits of nearby trees, and set a small pinch of powdered ochre and crushed seed on the ground beside the mat.
 
-A boy was born last, child three of three. His head and shoulders came badly; the cord lay tight. He did not draw breath.
+A boy was born, her third child. His head and shoulders came badly; the cord lay tight. He did not draw breath.
 
-They washed him with warm water, wrapped him in soft hide, and laid him in a shallow scrape above the flood line. Older Sister placed a few beads and a scrap of dried fish beside him, then covered the body with earth and stones.
+They washed him with warm water, wrapped him in soft hide, and laid him in a shallow scrape above the flood line. Amina placed a few beads and a scrap of dried fish beside him, then covered the body with earth and stones.

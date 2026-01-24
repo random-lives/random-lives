@@ -122,12 +122,23 @@ continent: "Africa"
 # - M
 ---
 
-A small camp of rainforest foragers lived along the creeks and higher ground of the Cross‑Niger forest, bound by family and by the obligations of sharing. They spoke an early Niger‑Congo tongue and kept household rites for the dead and for the spirits in the water and trees.
+A small camp of rainforest foragers lived along the creeks and higher ground of the Cross‑Niger forest. They spoke an early Niger‑Congo tongue and kept household rites for the dead and for the spirits in the water and trees.
 
-The father rose before light to check woven fish traps and pull nets in the slow channels. The mother carried baskets and a digging stick to the wet edges of the stream, lifting shellfish from mud and cutting greens, her older child already gone: the firstborn girl who had died as a newborn two seasons earlier. After that loss they kept a little ash from the hearth in a gourd and rubbed it on their wrists before they slept, and they left a pinch of pounded nuts on the ground at the edge of camp for the ancestor they named only as Grandmother.
+The father rose before light to check woven fish traps and pull nets in the slow channels. The mother carried baskets and a digging stick to the wet edges of the stream, lifting shellfish from mud and cutting greens, her older child already gone: the firstborn girl who had died as a newborn a year earlier. After that loss they kept a little ash from the hearth in a gourd and rubbed it on their wrists before they slept, and they left a pinch of pounded nuts on the ground at the edge of camp for the ancestor they named only as Grandmother.
 
-Their second child, a boy, arrived at the start of the heavy rains. They did not give him a settled name. The mother kept him against her skin while she worked the riverbank, and the father brought smoked fish and palm pith, laying small pieces beside the hearth before anyone ate.
+Their second child, a boy, arrived at the start of the heavy rains. They did not give him a name. The mother kept him against her skin while she worked the riverbank, and the father brought smoked fish and palm pith, laying portions beside the hearth before anyone ate.
 
-Near the end of the dry season the boy began passing watery stool and vomited after nursing. The mother fed him thin gruel and water from a leaf cup. The father stayed close and added a bit of smoke to the fire, speaking the brief words used to turn sickness away. The child died before the next sunrise.
+By the dry months the boy could sit upright in the shade of the sleeping shelter, watching the camp dogs and reaching for smoke from the fire. He babbled at his mother when she returned from the creeks.
+
+Near the end of the dry season he began passing watery stool and vomited after nursing. The mother fed him thin gruel and water from a leaf cup. The father stayed close and added a bit of smoke to the fire, speaking the brief words used to turn sickness away. The child died before the next sunrise.
 
 They wrapped the body in a fiber mat and placed it in a shallow pit beyond the sleeping shelters, adding a small bundle of dried fish and a smear of ash from the hearth.
+
+<!--
+CHANGELOG (0159-unnamed-infant.md):
+- Removed "bound by family and by the obligations of sharing" (abstract/flowery phrasing)
+- Fixed timeline: "two seasons earlier" → "a year earlier" (firstborn sister died in 4773 BC, protagonist born 4772 BC)
+- Simplified "settled name" → "name" (unnecessary jargon)
+- Changed "small pieces" → "portions" (more concrete)
+- Added developmental paragraph showing the baby alive at ~8 months: sitting upright, watching camp dogs, reaching for smoke, babbling at mother. This makes his death more felt and the story less procedural.
+-->

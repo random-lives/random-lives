@@ -48,7 +48,7 @@ I hope you find the stories interesting. If you spot errors or have suggestions,
 
 <div class="about-buttons">
   <a href="{{ site.baseurl }}/lives/#random" class="button primary">Random Life</a>
-  <a href="#" class="button">About the Author</a>
+  <a href="{{ site.baseurl }}/author/" class="button">About the Author</a>
 </div>
 
 </div>

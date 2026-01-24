@@ -193,7 +193,7 @@ continent: "Europe"
 #     prominence: age 18-20; antagonist in the work-pace dispute leading to Petrus'
 #       beating
 #     relationship: Older male coworker/overseer-type figure in the employer household
-#   - name: Vend Dietrich
+#   - name: Father Dietrich
 #     prominence: childhood and at deaths/funerals; represents parish obligations and
 #       rites rather than personal spiritual transformation
 #     relationship: Local priest/clerk figure (German-speaking, mediated through interpreters/rote
@@ -356,29 +356,29 @@ continent: "Europe"
 
 Petrus was born on November 5, 1310, in a small settlement in the forests and fields of northern Estonia, in the Danish king’s duchy. The manor and the parish church set the boundaries of life: labor dues were counted in days and tasks, and the priest’s calendar set fasts, feast days, and when the dead were carried to consecrated ground. At home people spoke Finnic words, and Petrus learned prayers by sound rather than from any page.
 
-His parents, Henricus and Margareta, lived in an extended household with Henricus’s mother, Liisa. The family had already buried one baby, Johannes, born the year before Petrus and dead before the first winter ended. Petrus’s baptism came quickly. Margareta took him to the parish church wrapped in a wool cloth, and the priest, Vend Dietrich, poured water and named him in Latin. At home, Liisa watched the fire, kept a place for drying mittens and footcloths, and took Petrus on her knee to repeat the Pater noster and the Ave as best a small child could manage.
+His parents, Henricus and Margareta, lived in an extended household with Henricus’s mother, Liisa. The family had already buried one baby, Johannes, born the year before Petrus and dead before the first winter ended. Petrus’s baptism came quickly. Margareta took him to the parish church wrapped in a wool cloth, and the priest, Father Dietrich, poured water and named him in Latin. At home, Liisa watched the fire, kept a place for drying mittens and footcloths, and took Petrus on her knee to repeat the Pater noster and the Ave as best a small child could manage.
 
 Food and weather shaped his earliest memories. The mid-1310s brought poor years. Bread thinned with chaff, and in spring the adults checked the grain bin each morning. Henricus tightened discipline when stores ran low. Petrus learned to stop asking for second helpings and to carry water without spilling. He also learned small tricks. If he brought in kindling before anyone asked, the older men gave him a heel of bread without the usual scolding.
 
-Andreas was born in 1312 and lived. Petrus treated him as a shadow in the yard, dragging him away from the well or the pigs’ trough when Margareta’s back was turned. Two more births followed. Martinus came in 1314 and died the same year. Petrus never saw him walking, only the bundled shape carried out and the hush that followed. Katerina arrived in 1316 and grew into a thin-legged girl who could run errands and laugh at jokes she barely understood. Nicolaus was born in 1319, a winter baby, and Petrus remembered that one clearly: the small cry, the rush of warm water, then silence, and Margareta sitting stiff on the bed while Liisa said prayers in a low voice.
+Andreas was born in 1312 and lived. Petrus watched over him in the yard, dragging him away from the well or the pigs' trough when Margareta's back was turned. Two more births followed. Martinus came in 1314 and died the same year. Petrus never saw him walking, only the bundled shape carried out and the hush that followed. Katerina arrived in 1316 and grew into a thin-legged girl who could run errands and laugh at jokes she barely understood. Nicolaus was born in 1319, a winter baby, and Petrus remembered that one clearly: the small cry, the rush of warm water, then silence, and Margareta sitting stiff on the bed while Liisa said prayers in a low voice.
 
 When Petrus was six, he began going out with the men for small work. He pulled brush to the edge of fields, carried straw, watched sheep and geese, and learned how to keep a knife edge true on a stone. Henricus expected him to listen without answering back. Liisa softened that when she could. She saved him the thicker curds from the milk pot and let him sit near the hearth on storm nights. She died in 1322, and the household changed shape immediately. Petrus stopped being indulged and became useful in a way that could be measured: how many armloads of hay, how quickly he could lead an ox without letting it turn, how well he could keep a harness from rotting.
 
-Winters in the 1320s cut hard. Snow crusted over the fields and the forest track turned to ice. Petrus, short for a man even when he reached his full height, learned to take larger steps to keep up and to keep his hands busy so he would not be mocked for moving slowly. He took teasing badly when it touched his looks. Men joked about his face and his thin frame; he answered with sharp words and then made sure his own tasks were done before theirs. When the adults wanted to send a boy to a nearby holding with a message or a tool to lend, Petrus was chosen because he brought things back and did not lose them.
+Winters in the 1320s were harsh. Snow crusted over the fields and the forest track turned to ice. Petrus, short for a man even when he reached his full height, learned to take larger steps to keep up and to keep his hands busy so he would not be mocked for moving slowly. He took teasing badly when it touched his looks. Men joked about his face and his thin frame; he answered with sharp words and then made sure his own tasks were done before theirs. When the adults wanted to send a boy to a nearby holding with a message or a tool to lend, Petrus was chosen because he brought things back and did not lose them.
 
-By fifteen he was doing work beyond his family’s plot, pushed into the manor’s obligations and the web of favors among peasants. In 1326 his mother's brother, Jaan, arranged a place for him as a farmhand in the household of Toomas, a better-off peasant within the same parish. Petrus moved there with a rolled blanket, a spare shirt, and his knife. The sleeping bench in Toomas’s house held servants shoulder to shoulder, and the air smelled of smoke, damp wool, and sour ale.
+By fifteen he was doing work beyond his family's plot, helping neighbors who would owe his family labor in return. In 1326 his mother's brother, Jaan, arranged a place for him as a farmhand in the household of Toomas, a better-off peasant within the same parish. Petrus moved there with a rolled blanket, a spare shirt, and his knife. The sleeping bench in Toomas’s house held servants shoulder to shoulder, and the air smelled of smoke, damp wool, and sour ale.
 
-Toomas set rules early. Petrus rose before dawn, fed animals, hauled water, and went to the fields or the forest as ordered. He found quiet pride in keeping things in order. He hung tack where it would dry, rubbed a tool handle with fat so it would not split, and counted tasks in his head the way other boys counted coins they did not have. When he went to Rakvere with a cart, the town’s walls and the German voices in the streets meant little to him, but he watched how traders looked at hides and counted sacks. He understood that more goods moving through the towns did not lighten his load; it made the manor press harder for what could be sold.
+Toomas set rules early. Petrus rose before dawn, fed animals, hauled water, and went to the fields or the forest as ordered. He found quiet pride in keeping things in order. He hung tack where it would dry, rubbed a tool handle with fat so it would not split, and kept a running count of tasks in his head. When he went to Rakvere with a cart, the town’s walls and the German voices in the streets meant little to him, but he watched how traders looked at hides and counted sacks. He understood that more goods moving through the towns did not lighten his load; it made the manor press harder for what could be sold.
 
 A run of bad yields hit in 1326. Toomas’s household owed the manor grain and animal products, and the steward’s demand did not shrink because the fields had given less. Seed grain left the bin anyway. By winter the household ate thinner pottage and smaller loaves. Petrus took extra day labor when it was offered—mending fences, hauling timber, cleaning stalls—and he watched the grain store with a tight feeling in his chest. He checked it when no one asked him to, lifting the lid, listening for mice, rubbing a handful between his fingers. If someone took a little more at supper, he noticed.
 
-In 1328 a message came from his natal home that Margareta had died. She had been sick through the cold season, and when spring came she did not rise from bed. Petrus went back for the burial. Vend Dietrich spoke Latin over her grave; Petrus understood the gestures and the rhythm, not the words. Afterward he returned to Toomas’s household without delay, because a servant who lingered became a servant who was replaced.
+In 1328 a message came from home that Margareta had died. She had been sick through the cold season, and when spring came she did not rise from bed. Petrus went back for the burial. Henricus stood at the graveside, older and quieter than Petrus remembered, with Andreas and Katerina beside him. Father Dietrich spoke Latin over the grave; Petrus understood the gestures and the rhythm, not the words. Afterward he returned to Toomas's household without delay, because a servant who lingered became a servant who was replaced.
 
 Mid-winter 1329 brought his serious accident. Petrus was hauling timber and fodder by sled over a packed, icy track. He slipped while guiding the load, and the sled lurched. A beam and the weight of the cargo pinned him, and an ox’s hoof struck as it struggled. Men pulled him free, and he lay in the house for weeks with his side wrapped and his breath shallow. When he stood again he could work, but he moved with care and grew angry when anyone commented on his slowness.
 
-That autumn, when the sleeping bench was crowded with extra hands brought in for heavy work, his knife and a piece of winter cloth vanished from where he kept them. Petrus searched without asking permission, turned over bundles, and questioned a younger servant, Aavo, with a smile that did not reach his eyes. He spoke to Toomas as if he only wanted order kept, then he began taking small things when he had the chance—an extra spoon of butter, the better end of a strap, first pick at a tool—calling it payment for what had been taken. He kept his face open and friendly in the yard, joked loud enough for others to hear, and watched closely who avoided his gaze.
+That autumn, when the sleeping bench was crowded with extra hands brought in for heavy work, his knife and a piece of winter cloth vanished from where he kept them. Petrus searched without asking permission, turned over bundles, and questioned a younger servant while keeping his voice friendly and his grip firm. He spoke to Toomas as if he only wanted order kept, then he began taking small things when he had the chance—an extra spoon of butter, the better end of a strap, first pick at a tool—calling it payment for what had been taken. He kept his face open and friendly in the yard, joked loud enough for others to hear, and watched closely who avoided his gaze.
 
-He spent time with Annike, another servant, in late 1329. They spoke while stirring the mash for ale and while separating flax. She laughed at his quick talk and the way he could mimic Toomas’s gruff voice without being caught. They met in the dark at the edge of the byre once the animals were settled. The closeness ended the next year when gossip rose and Annike began avoiding him in the house, her mouth tight, her answers short.
+He spent time with Annike, another servant, in late 1329. They spoke while stirring the mash for ale and while separating flax. She laughed at his quick talk and the way he could mimic Toomas’s gruff voice without being caught. They met in the dark at the edge of the byre once the animals were settled. The closeness ended the next year when talk spread among the household. If she became pregnant, she would lose her place. Annike began avoiding him, her mouth tight, her answers short.
 
 Summer 1330 brought the beating. The manor’s demands and Toomas’s temper rose together, and Petrus’s old injury flared when he lifted and carried in heat. One afternoon an older man in the household, Old Peeter, accused him of dragging his feet and leaving a task half done. Petrus answered back. The argument moved from words to fists. Old Peeter struck him, then took up a stick and hit him across the shoulders and ribs until Petrus fell against a fence. Petrus stood the next day and worked, stiff and bruised, and did not speak of it again except in a low voice to Andreas when they met at a parish gathering.
 
@@ -386,4 +386,32 @@ He turned twenty in November 1330 with no wife and no household of his own, but 
 
 On January 29, 1331, Petrus died in an accident during winter work. He was hauling a loaded sled, the track hard and slick, and the team jolted. The load shifted; he went down under it and the weight crushed him before anyone could pull it free.
 
-They carried his body to the parish churchyard and buried him in consecrated ground, wrapped in cloth. Vend Dietrich spoke the burial prayers, and the men filled the grave and stamped the earth flat in the frozen soil.
+They carried his body to the parish churchyard and buried him in consecrated ground, wrapped in cloth. Father Dietrich spoke the burial prayers, and the men filled the grave and stamped the earth flat in the frozen soil.
+
+<!--
+**Review: 2026-01-21**
+
+**Issues found:**
+- [Pass 4] Henricus (father) vanishes after age 6, never appears again despite being alive throughout
+- [Pass 4] Aavo (younger servant) named but only appears once
+- [Pass 6] Annike relationship ending due to "gossip" was vague—what was the risk?
+- [Pass 11] "Vend Dietrich" uses incorrect title—"Vend" is not appropriate for a parish priest
+- [Pass 12] "natal home" is sociological jargon
+- [Pass 13] "a smile that did not reach his eyes" is AI-slop cliché
+- [Pass 13] "treated him as a shadow in the yard" is metaphorical
+- [Pass 13] "cut hard" in "Winters in the 1320s cut hard" is figurative
+- [Pass 14] "the web of favors among peasants" is abstract
+- [Pass 14] "counted tasks in his head the way other boys counted coins they did not have" is a simile
+
+**Changes made:**
+- Added Henricus, Andreas, and Katerina at Margareta's funeral to resolve father's disappearance
+- Removed Aavo's name—now just "a younger servant"
+- Clarified why Annike ended the relationship: pregnancy risk and losing her position
+- Changed "Vend Dietrich" to "Father Dietrich" throughout
+- Changed "natal home" to "home"
+- Replaced "a smile that did not reach his eyes" with "keeping his voice friendly and his grip firm"
+- Changed "treated him as a shadow in the yard" to "watched over him in the yard"
+- Changed "cut hard" to "were harsh"
+- Replaced "the web of favors among peasants" with "helping neighbors who would owe his family labor in return"
+- Simplified "counted tasks in his head the way other boys counted coins they did not have" to "kept a running count of tasks in his head"
+-->

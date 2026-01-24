@@ -409,15 +409,17 @@ continent: "Asia"
 
 Wu Changsheng was born on September 24, 1798, on Yangzhong’s low river island in Jiangsu, where Qing officials governed through the county yamen and village headmen and most people spoke the local Jianghuai Mandarin speech. His family honored the ancestors with incense and paper money and kept the Kitchen God image above the stove. On the last days of the twelfth lunar month his grandmother Liu-shi pasted fresh red paper on the door and set out a bowl of rice, a few coins, and a cup of tea before the tablets in the hall.
 
-He entered a house that already carried loss. The first son, Wu Dacai, had died in 1788 at two years old; the elders still spoke his name when a baby coughed too hard. Changsheng’s surviving siblings shaped the courtyard’s life: his oldest sister Wu Xiuying with her sharp eyes and quick hands, the middle sister Wu Lanhua who sang while twisting hemp fiber, his brother Wu Ershun who could carry two sheaves at once, and the sister closest to him, Wu Xiuzhen, who teased him for his soft face and the way strangers smiled at him at market.
+He entered a house that already carried loss. The first son, Wu Dacai, had died in 1788 at two years old; the elders still spoke his name when a baby coughed too hard. Changsheng's surviving siblings filled the courtyard: his oldest sister Wu Xiuying with her sharp eyes and quick hands, the middle sister Wu Lanhua who sang while twisting hemp fiber, his brother Wu Ershun who could carry two sheaves at once, and the sister closest to him, Wu Xiuzhen, who teased him for his soft face and the way strangers smiled at him at market.
 
 The household was three generations. His paternal grandfather Wu Shoulin held authority, kept the land boundaries in his head, and decided when to sell a pig or borrow grain. Changsheng learned early to keep his mouth polite in front of him. His grandmother, in charge of the stove and the jars, watched him more gently. She sent him to the riverbank to rinse vegetables and scolded him only when he came back with wet sleeves and no vegetables because he had stopped to talk to boatmen.
 
 His father Wu Fusheng farmed the family’s plots and rented a little extra when the rent was fair. Changsheng followed him into the paddies before he could carry a full bucket, first to pull weeds and later to transplant seedlings in straight rows. In the slack season he ran errands with Ershun—salt, oil, a coil of rope, sometimes a message to an uncle across a canal. He liked the market days more than the fields. He remembered faces, enjoyed the talk at the teahouse stall, and could trade jokes with porters and ferrymen until his mother Zhang-shi called him back, angry that he had forgotten the bean cakes she had sent him to buy.
 
-In 1810, when Changsheng was eleven, his grandfather died. The funeral brought Daoist ritual specialists to chant and ring bells, and the family set out steamed buns, fish, and bowls of rice wine before the coffin. After that, the house loosened. His father still worked hard, but he let Changsheng slip away to the river landing more often. Changsheng never held fear close. When a summer storm knocked down stalks, he waded in without complaint, calm and talkative, giving orders to the others.
+In 1810, when Changsheng was eleven, his grandfather died. The funeral brought Daoist ritual specialists to chant and ring bells, and the family set out steamed buns, fish, and bowls of rice wine before the coffin. With his grandfather gone, his father made the decisions but enforced them less strictly. Changsheng slipped away to the river landing more often. He did not scare easily. When a summer storm knocked down stalks, he waded in without complaint, calm and talkative, giving orders to the others.
 
-Five years later Ershun died at twenty-one. The village spoke of a fever that took him quickly. Changsheng helped wash the body and stood through the rites with incense burning in his hands, then went back to the fields because seedlings did not wait. The death changed how others looked at him. He became the only surviving son, the one who had to carry the line and keep the tablets supplied with offerings.
+In 1815 Ershun died at twenty-one. The village spoke of a fever that took him quickly. Changsheng helped wash the body and stood through the rites with incense burning in his hands, then went back to the fields because seedlings did not wait. After that, his father asked him more often about the fields and the accounts. His mother reminded him that he was now the only surviving son, the one who had to carry the line and keep the tablets supplied with offerings.
+
+Two years later his grandmother Liu-shi died. Changsheng was eighteen and helped carry offerings to the grave. The house felt quieter without her voice calling from the kitchen. By then his older sisters had married into other villages—Xiuying to a family two hours upriver, Xiuzhen closer by. They returned for festivals and funerals, carrying news and small gifts.
 
 At twenty-two he married Chen-shi, a woman from a nearby village, brought by Zhou Matchmaker. She arrived with a small chest of cloth, bowls wrapped in straw, and a woven basket. Changsheng’s good looks eased the match; even the older women said he would not embarrass the family. Chen-shi proved steady in ways he was not. She could count strings of cash and remember who had borrowed a hoe. Changsheng preferred to settle things by talk and handshakes, and he disliked sitting still long enough to learn characters. If a notice was posted outside the yamen or a contract needed reading, he asked others.
 
@@ -425,18 +427,62 @@ Their first son, Wu Jinchang, was born in 1821. In 1824 a second son arrived, Wu
 
 In 1831 his sister Wu Lanhua died at thirty-nine. Changsheng went to her husband’s village for the mourning. He handled the practical work—fetching water, helping fold the burial clothes—without shaking. On the last night he sat outside with Shen Laosi, a neighbor who made him laugh, and they shared a bottle of thin rice wine and salted peanuts while the women inside wept.
 
-The mid-1830s brought pressure that did not come from any one storm. Rent collectors demanded payment in good silver. Prices shifted in ways Changsheng did not understand, and pawnbrokers grew more important in the town. Changsheng kept his temper and tried to smooth every conversation, but his household accounts were loose. He mislaid a pawn ticket once and spent a day searching under mats and jars while Chen-shi looked at him with hard eyes.
-
 In the winter of 1833, after the harvest had been stored and the paddies lay quiet, someone came at night by the riverside path. The latch on the grain chest was cut. Several dou of rice were gone, and a small string of copper cash that Changsheng had tied in cloth for spring seed and rent had vanished with it. He confronted no one directly. He went from house to house asking calmly, half-joking. Shen Laosi avoided his eyes. Changsheng never proved anything.
 
-By 1839, talk of war reached the river towns. Salt boats and grain boats moved differently, and people repeated rumors about foreign ships and coastal fighting. The changes came to Changsheng in the form of uncertainty: traders offered worse terms, the landlord’s agent demanded payment on stricter dates, and small debts grew teeth. Qian Youtong, the rent-collector, came more often. Changsheng spoke politely to him and offered tea, promising payment after the next threshing. Qian listened without warmth and wrote marks in a book Changsheng could not read.
+The years after the theft brought more pressure. Rent collectors demanded payment in good silver. Prices shifted in ways Changsheng did not understand, and pawnbrokers grew more important in the town. Changsheng kept his temper and tried to smooth every conversation, but his household accounts were loose. He mislaid a pawn ticket once and spent a day searching under mats and jars while Chen-shi looked at him with hard eyes.
 
-In 1841 the household broke into its reserves. Chen-shi pawned cloth. A share of tools went next. Changsheng took day-labor work hauling and repairing dike earth when it was offered, then returned to his own rented fields at night. Jinchang, still young, began to plan the household’s work with a seriousness that embarrassed his father. Changsheng smiled and agreed to schedules he did not keep. He showed up late to a ditch-clearing, still cheerful, and was cursed by men who had been waiting.
+By 1839, talk of war reached the river towns. Salt boats and grain boats moved differently, and people repeated rumors about foreign ships and coastal fighting. The changes came to Changsheng in the form of uncertainty: traders offered worse terms, the landlord's agent demanded payment on stricter dates, and small debts that he had ignored for years now brought collectors to his door. Qian Youtong, the rent-collector, came more often. Changsheng spoke politely to him and offered tea, promising payment after the next threshing. Qian listened without warmth and wrote marks in a book Changsheng could not read.
 
-Hard years continued into the late 1840s with grain price spikes and wet seasons that left the paddies sour. In 1846 Changsheng’s father Wu Fusheng became weak and feverish. Changsheng moved him closer to the stove, fed him thin rice gruel, and washed him with warm water heated in a clay pot. He asked Master Zhao at the local temple to perform a small rite and burned incense before the Earth God at the field edge, setting out a few coins and a bowl of rice. The nursing lasted months. Changsheng stayed steady, never frantic, even when work piled up. He relied on his children and kin for labor and accepted help without pride.
+In 1841 the household broke into its reserves. Chen-shi pawned cloth. A share of tools went next. Changsheng took day-labor work hauling and repairing dike earth when it was offered, then returned to his own rented fields at night. Jinchang, now twenty, began to plan the household's work with a seriousness that embarrassed his father. Shunhe, seventeen, worked beside him without complaint. Changsheng smiled and agreed to schedules he did not keep. He showed up late to a ditch-clearing, still cheerful, and was cursed by men who had been waiting. His sister Xiuying, visiting from upriver, told him plainly that he needed to keep better track of what he owed. He nodded and thanked her and did not change.
 
-His wife Chen-shi died in 1850, before the household regained its footing. By then Jinchang was a grown man and the daughters were near marriageable age. Changsheng remained head of the house, a widower, with younger dependents and grandchildren under the roof. He kept the ancestor tablets dusted and watched the Kitchen God image darken with smoke.
+Hard years continued into the late 1840s with grain price spikes and wet seasons that left the paddies sour. Qian Youtong stopped coming so often; he had other tenants to press, and Changsheng's arrears were too small to be worth much threat.
 
-Worries grew sharper as the Taiping forces moved through the lower Yangtze region. Travelers brought stories of requisitions and bandit gangs. Changsheng’s calm did not change, but he slept lighter. He stored a little grain in a concealed jar and told the children not to talk about it outside. In 1854 his second son Shunhe died at thirty, another blow that left fewer hands for the fields and fewer voices at the evening meal.
+In 1846 Changsheng's father Wu Fusheng became weak and feverish. Changsheng moved him closer to the stove, fed him thin rice gruel, and washed him with warm water heated in a clay pot. He asked Master Zhao at the local temple to perform a small rite and burned incense before the Earth God at the field edge, setting out a few coins and a bowl of rice. The nursing lasted nearly three years. Changsheng stayed steady, never frantic, even when work piled up. He relied on his children and kin for labor and accepted help without pride. His father died in the spring of 1849, and the family carried him to the burial ground with the proper rites.
+
+His wife Chen-shi died in 1850, before the household regained its footing. By then Jinchang was a grown man with a wife and children of his own. The daughters had married out—Ailan to a village across the canal, Yumei to a household nearer by. Both visited when they could, bringing cloth or grain when their father's stores ran low. Changsheng remained head of the house, a widower, with Jinchang's family and a few grandchildren under the roof. He kept the ancestor tablets dusted and watched the Kitchen God image darken with smoke.
+
+Worries grew sharper as the Taiping forces moved through the lower Yangtze region. Travelers brought stories of requisitions and bandit gangs. Changsheng's calm did not change, but he slept lighter. He stored a little grain in a concealed jar and told the children not to talk about it outside. In 1854 his mother Zhang-shi died, five years after her husband and bedridden for the last two. That same year his second son Shunhe died at thirty, a fever that took him in less than a week. Changsheng washed both bodies himself and stood through both sets of rites.
 
 On March 22, 1856, Changsheng rose and spoke normally, then collapsed in the courtyard. He did not get up again. The household washed him, dressed him in clean clothes, and laid him on a board. They burned incense and paper money before the tablets, and after the mourning days they carried him to burial ground near the village, setting a small offering of rice, tea, and joss paper at the grave.
+
+<!--
+**Review changelog (2026-01-22):**
+
+**Issues found:**
+- [Pass 1] Father's death in 1849 not explicitly stated after illness description
+- [Pass 1] Mother Zhang-shi's death in 1854 not mentioned
+- [Pass 1] Grandmother Liu-shi's death in 1817 not mentioned
+- [Pass 2] Sisters' marriages not explicitly noted
+- [Pass 2] Daughters' marriages not resolved
+- [Pass 4] Sister Xiuying doesn't reappear during hard years despite debug saying she "offered advice"
+- [Pass 4] Shunhe only appears at birth and death
+- [Pass 4] Qian Youtong introduced then never resolved
+- [Pass 7] Long paragraph covering late 1840s economic context and father's illness needed splitting
+- [Pass 8] "Mid-1830s" paragraph came before 1833 theft paragraph (chronology error)
+- [Pass 9] "small debts grew teeth" - figurative language
+- [Pass 9] "The death changed how others looked at him" - vague
+- [Pass 9] "her strength by more" - figurative
+- [Pass 10] "the house loosened" - abstract claim without mechanism
+- [Pass 13] "shaped the courtyard's life" - slightly figurative
+- [Pass 13] "never held fear close" - figurative
+- [Pass 14] "Two burials in one year left fewer hands..." - mechanical structure
+
+**Changes made:**
+- Added explicit father death in 1849 after nursing description
+- Added mother Zhang-shi's death in 1854 with detail about being bedridden
+- Added grandmother Liu-shi's death in 1817
+- Added note that older sisters had married into other villages by 1817
+- Added daughters' marriages and their visits to widowed father
+- Added Xiuying visiting and giving advice during 1841 crisis
+- Added Shunhe working beside Jinchang in 1841
+- Added Qian Youtong resolution (stopped coming, arrears too small)
+- Split long paragraph into two (economic context / father's illness)
+- Reordered 1833 theft before "years after the theft" pressure paragraph
+- Changed "small debts grew teeth" to "small debts that he had ignored for years now brought collectors to his door"
+- Changed vague "death changed how others looked at him" to concrete actions by father and mother
+- Changed "outlived her husband by five years and her strength by more" to "five years after her husband and bedridden for the last two"
+- Changed "the house loosened" to "his father made the decisions but enforced them less strictly"
+- Changed "shaped the courtyard's life" to "filled the courtyard"
+- Changed "never held fear close" to "did not scare easily"
+- Changed "Two burials in one year left fewer hands..." to "Changsheng washed both bodies himself and stood through both sets of rites"
+-->

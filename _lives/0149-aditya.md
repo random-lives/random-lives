@@ -207,12 +207,34 @@ continent: "Asia"
 #   type: victim_property_crime
 ---
 
-Aditya was born on May 28, 2021, in Pimpalkhunta Mahadeo in Buldhana district, Maharashtra, under India’s national government and Maharashtra’s state administration. His family spoke Marathi at home and lived as Hindus with his paternal grandparents Shantabai and Dattatray in the same courtyard house.
+Aditya was born on May 28, 2021, in Pimpalkhunta Mahadeo, a village in Buldhana district, Maharashtra. India was in the second wave of COVID-19. His family spoke Marathi at home and lived as Hindus with his paternal grandparents Shantabai and Dattatray in the same courtyard house.
 
-The first years were shaped by COVID-19 rules. His father, Mahesh, kept a small shop running with shortened hours and sanitizer bottles on the counter; his mother, Sunita, managed the house and quieted Aditya when he grew restless indoors. Shantabai kept the daily routine steady. A small shrine near the kitchen held framed pictures and a brass lamp; Sunita lit a diya in the mornings, placed flowers, and offered a pinch of sugar and a banana before the family ate. On Tuesdays Shantabai insisted on a quick visit to the Hanuman image at the edge of the lane, with coconuts broken on festival days.
+His father, Mahesh, ran a small provisions shop. During the lockdowns he kept it open with shortened hours and sanitizer bottles on the counter. His mother, Sunita, managed the house and quieted Aditya when he grew restless indoors. Shantabai oversaw the cooking and the household prayers. A small shrine near the kitchen held framed pictures and a brass lamp; Sunita lit a diya in the mornings, placed flowers, and offered a pinch of sugar and a banana before the family ate. On Tuesdays Shantabai took Aditya to the Hanuman image at the edge of the lane, and on festival days they broke coconuts there.
 
-Aditya learned to smooth things over early. When older cousins grabbed his toy car, he handed it over and went to fetch something else instead of shouting. At school he gave up his spot in line and tried to settle arguments by promising to share his tiffin. Teachers liked him for that. Classmates also learned they could borrow his pencil box and return it late.
+Aditya learned to smooth things over early. When cousins from a neighboring house grabbed his toy car during a visit, he handed it over and went to fetch something else instead of shouting. At school he gave up his spot in line and tried to settle arguments by promising to share his tiffin. Teachers liked him for that. Classmates also learned they could borrow his pencil box and return it late.
 
-Heat waves came hard in his early childhood. The afternoons moved indoors, and Dattatray slept near the fan, reminding Aditya to fill the earthen pot and drink water. In 2024, Vedant was born. Aditya hovered close to the cradle, bringing Sunita diapers and a steel tumbler of water, then stepping back when Shantabai clicked her tongue and told him not to crowd the baby.
+The summers in Buldhana brought temperatures above forty degrees. The afternoons moved indoors, and Dattatray slept near the fan, reminding Aditya to fill the earthen pot and drink water.
+
+In 2024, Vedant was born. Aditya hovered close to the cradle, bringing Sunita diapers and a steel tumbler of water, then stepping back when Shantabai clicked her tongue and told him not to crowd the baby.
 
 By 2025, Aditya recognizes a few Marathi letters and can trace his name. He helps Mahesh count change at the shop, sometimes losing focus and needing reminders. In the evenings he sits on the floor beside Vedant, showing him picture books while Sunita folds clothes and the incense smoke from the shrine drifts into the room.
+
+<!--
+**Review: 2026-01-21**
+
+**Issues found:**
+- [Pass 7] Paragraph 4 combined two unrelated topics (heat waves and Vedant's birth) without connection
+- [Pass 9] "The first years were shaped by COVID-19 rules" used AI-slop "shaped by" and was abstract
+- [Pass 9] "Heat waves came hard in his early childhood" was vague and weak phrasing
+- [Pass 11] Opening paragraph lacked specific historical grounding (just "India's national government")
+- [Pass 9] "older cousins" was too vague about who these people are
+- [Pass 9] "kept the daily routine steady" was vague about what Shantabai actually did
+
+**Changes made:**
+- Split heat waves and Vedant's birth into separate paragraphs
+- Rewrote opening to place birth in context of COVID-19 second wave
+- Changed "older cousins" to "cousins from a neighboring house" for specificity
+- Specified that Shantabai "oversaw the cooking and the household prayers"
+- Replaced "The first years were shaped by COVID-19 rules" with concrete details about Mahesh's shop during lockdowns
+- Replaced vague "Heat waves came hard" with specific temperature ("above forty degrees") and location
+-->

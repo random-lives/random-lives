@@ -219,12 +219,34 @@ continent: "Asia"
 # - M
 ---
 
-Salma was born on August 29, 1349, in a Sindhi-speaking hamlet north of the Indus bends in what is now Ghotki district, under the reach of the Delhi Sultanate’s officers and local chiefs who collected dues and kept armed men. Her mother, Amina, lived in her own mother’s house and worked as attached help in the compound of Haji Qasim, a local notable with fields and dependents. Salma’s father, Rashid, served as a guard in that same circle and did not take Amina as a recognized wife. In the room where Salma slept, women spoke quietly about earlier babies who had died at birth—Yusuf, Hasan, Musa, Umar—names said at the end of prayers.
+Salma was born on August 29, 1349, in a Sindhi-speaking hamlet north of the Indus bends in what is now Ghotki district, under the reach of the Delhi Sultanate’s officers and local chiefs who collected dues and kept armed men. Her mother, Amina, lived in her own mother’s house and worked as attached help in the compound of Haji Qasim, a local notable with fields and dependents. Salma’s father, Rashid, served as a guard in that same circle and did not take Amina as a recognized wife. In the room where Salma slept, women spoke quietly about earlier babies who had not lived—Yusuf, Hasan, Musa, Umar—names said at the end of prayers.
 
-The household that held Salma together was her mother’s kin. Bibi Mariam ran the hearth and water jars. Zahra, an adult sister, watched Salma most days. Two older brothers were alive: Ibrahim, already a working man, and Karim, a youth who came and went. Salma followed noise. If someone entered the yard she called out and went toward them on fast, unsteady feet, then grabbed at whatever they carried.
+Salma lived with her mother's family. Bibi Mariam ran the hearth and water jars. Three older siblings were alive: Ibrahim, already a working man, Zahra, who was fifteen and watched Salma most days, and Karim, a small boy of three. Salma followed noise. If someone entered the yard she called out and went toward them on fast, unsteady feet, then grabbed at whatever they carried. Ibrahim sometimes lifted her when he came home, and Karim made faces at her until she laughed, then ran off and left her wailing.
 
-In March 1351 Amina brought her to Haji Qasim’s compound while she scrubbed pots and swept. Salma trailed behind and clutched a brass water pot by its rim. When a servant woman, Sajida, tried to pull it away, Salma shrieked, slapped, and twisted her body to keep it. A chicken flapped close and she dropped the pot and cried until Zahra lifted her and let her pat a tied goat kid. Salma laughed, then kept one fist locked in Zahra’s skirt.
+In March 1351 Amina brought her and Zahra to Haji Qasim's compound while she scrubbed pots and swept. Salma trailed behind and clutched a brass water pot by its rim. When a servant woman, Sajida, tried to pull it away, Salma shrieked, slapped, and twisted her body to keep it. A chicken flapped close and she dropped the pot and cried until Zahra lifted her and let her pat a tied goat kid. Salma laughed, then kept one fist locked in Zahra’s skirt.
 
-By the winter of 1351 she said “Amma” and “pani,” and echoed the last words of a short du’a after Bibi Mariam. Sudden sounds still broke her. A dog bark at the reed door sent her scrambling into arms, fingers searching for the small amulet pouch tied to her shirt.
+By the winter of 1351 she said “Amma” and “pani,” and echoed the last words of a short du’a after Bibi Mariam. Sudden sounds still startled her. A dog bark at the reed door sent her scrambling into arms, fingers searching for the small amulet pouch tied to her shirt.
 
-In late June 1352 her belly swelled and she passed worms and thin stool; she stopped eating and drinking. On July 4, 1352, she died in the house. They washed her, wrapped her in cloth, and buried her outside the settlement with a brief prayer facing west.
+In late June 1352 her belly swelled and she passed worms and thin stool; she stopped eating and drinking. Bibi Mariam rubbed her belly with warmed oil and gave her water mixed with honey, but Salma could not keep it down. On July 4, 1352, she died in the house. They washed her, wrapped her in cloth, and buried her outside the settlement with a brief prayer facing west.
+
+<!--
+**Issues found:**
+- [Pass 3] Karim described as "a youth who came and went" but debug data shows he was born 1346, making him only 3 at Salma's birth
+- [Pass 3] Zahra introduced twice - once separately, once in sibling list
+- [Pass 4] Ibrahim and Karim introduced but never appear again in narrative
+- [Pass 6] Death scene lacked any mention of attempted treatment
+- [Pass 9] "The household that held Salma together" - unnecessarily abstract phrasing
+- [Pass 13] "Sudden sounds still broke her" - slightly figurative
+- [Pass 14] Zahra's presence at Haji Qasim's compound unexplained
+- [Pass 14] "died at birth" too specific for siblings who died at age 0
+
+**Changes made:**
+- Fixed Karim's age: "a youth who came and went" → "a small boy of three"
+- Consolidated sibling introduction with Zahra integrated
+- Added Ibrahim and Karim appearing in household: "Ibrahim sometimes lifted her when he came home, and Karim made faces at her until she laughed, then ran off and left her wailing"
+- Added treatment attempt: "Bibi Mariam rubbed her belly with warmed oil and gave her water mixed with honey, but Salma could not keep it down"
+- Simplified: "The household that held Salma together was her mother's kin" → "Salma lived with her mother's family"
+- Changed: "broke her" → "startled her"
+- Clarified Zahra at compound: "Amina brought her" → "Amina brought her and Zahra"
+- Changed: "died at birth" → "had not lived"
+-->

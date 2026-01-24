@@ -210,10 +210,22 @@ continent: "Asia"
 # - M
 ---
 
-Sundarī’s household stood on the flat, wet fields near the Kosi’s channels in the Mithila country, where Eastern Indo-Aryan speech filled the lanes and a village headman answered upward to distant lords collecting revenue. Keshava farmed a small rented strip and took day wages when the work ran out. They lived in a joint compound under Dīnarāyaṇa’s authority, with Jasodā running the hearthside tasks and the women sharing water-carrying, husking, and weeding.
+Sundarī’s household stood on the flat, wet fields near the Kosi’s channels in the Mithila country, where Eastern Indo-Aryan speech filled the lanes and a village headman answered upward to distant lords collecting revenue. Keshava farmed a small rented strip and took day wages when the work ran out. They lived in a joint compound under Dīnarāyaṇa's authority: Keshava's brother Bhola and his wife Phūlanī shared the same courtyard, and Jasodā ran the hearthside tasks. The women—Sundarī, Phūlanī, Jasodā—shared water-carrying, husking, and weeding.
 
-The births had come close together. Sītā, the first, lay in the ground since 1192. Mallikā had been born and lost in 1199. Three children lived: Rāmā, already a grown man who handled ploughing teams and bargaining with landlords; Gaurī, old enough to help Sundarī grind grain and watch smaller children; and Mādhava, a boy quick on errands between house and field.
+The births had come close together. Sītā, the first, had died at four and been buried in 1192. Mallikā had been born and lost in 1199. Three children lived: Rāmā, twelve years old and already working the ploughing teams; Gaurī, old enough to help Sundarī grind grain and watch smaller children; and Mādhava, a boy quick on errands between house and field.
 
 On March 9, 1201, Nirmalā, an experienced village midwife, squatted beside Sundarī on the packed earth floor. Jasodā heated water and set a small lamp near the doorway. The labor dragged. Sundarī strained, and the baby came out limp. Nirmalā rubbed him hard and cleared his mouth; Keshava waited outside the room, listening for a cry that did not come.
 
 The infant was a son. He never cried. Nirmalā kept rubbing, but the baby stayed limp and blue. He died before midday, unnamed. That evening Deva Miśra spoke brief Sanskrit over a pinch of rice and a spoon of ghee, and Dīnarāyaṇa carried the small body to the riverbank and set it into the moving water.
+
+---
+
+**Issues found:**
+- [Pass 2] Uncle Bhola and aunt Phūlanī missing from household description despite debug indicating joint/extended household
+- [Pass 14] "Rāmā, already a grown man" incorrect—he would be 12 in 1201
+- [Pass 14] "lay in the ground since 1192" awkward phrasing
+
+**Changes made:**
+- Added Bhola and Phūlanī to household description, specifying women who share tasks
+- Changed Rāmā's description from "already a grown man who handled ploughing teams and bargaining with landlords" to "twelve years old and already working the ploughing teams"
+- Changed "Sītā, the first, lay in the ground since 1192" to "Sītā, the first, had died at four and been buried in 1192"

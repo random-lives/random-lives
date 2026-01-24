@@ -453,7 +453,7 @@ At nineteen he married Yapaʿ, a woman from a neighboring family, in a match set
 
 At twenty-one the levy reached him. He left the fields in rotation with other men and took up militia duty tied to Assyrian campaigns and garrison needs. He guarded grain stores, stood watch at road points, and walked with a small group escorting officials who came to assess livestock and collect grain. He followed orders and did not volunteer for talk. In camp he ate when told and slept when told. The older men teased him for using few words; he answered with a brief nod that did not invite more.
 
-Children came fast and died fast. Hadad-nuri lived three years, long enough to toddle into the courtyard and tug at Ben-Hadad’s belt. A fever took the boy in his third year, and Ben-Hadad marked the doorway with ash again and poured beer at the household offering place. The next son, El-zer, died at birth. Two years later Šamaš-zer died the same way, a brief cry and then silence. Yapaʿ grew thinner after each loss; she returned to grinding and baking with a face set hard. Ben-Hadad carried water more often, without comment.
+Children came fast and died fast. Hadad-nuri lived three years, long enough to toddle into the courtyard and tug at Ben-Hadad’s belt. A fever took the boy in his third year, and Ben-Hadad marked the doorway with ash again and poured beer at the household offering place. The next son, El-zer, died at birth. Two years later Šamaš-zer died the same way, a brief cry and then silence. Yapaʿ grew thinner after each loss; she returned to grinding and baking with her jaw tight and her eyes fixed on the grain. Ben-Hadad carried water more often.
 
 At twenty-seven their daughter Atar-ʿatti was born and survived. Ben-Hadad watched her with an attention he did not show the infants. He taught her where to step on the threshing floor so the packed earth would not break, and he let her sit beside him while he checked jar seals. She learned to speak softly, and he preferred that.
 
@@ -463,13 +463,17 @@ War reached their doorstep in his thirty-third year. An imperial campaign and co
 
 His brother Paqaḥ died at thirty-five, in the same season when people watched the roads more than the sky. The loss tightened the household’s adult labor. When Bar-Hadad died a few years later, Ben-Hadad was forty-one and already managing much of the storage and field pacing. His oldest surviving brother, Zakkur, did the bargaining and spoke to the levy collectors. Ben-Hadad kept the measures straight and remembered the old boundary stones. He sat through meetings without interrupting, then spoke once at the end, a few sentences that settled what needed settling.
 
+An older village elder, Ṣillaya son of Mati-El, had watched him during those meetings. Ṣillaya handled disputes the same way: wait, listen, speak last. He showed Ben-Hadad how to keep offerings when a field changed hands and how to mark a boundary with witnesses who would remember. Ben-Hadad never sought him out for talk, but he paid attention when the old man was present.
+
 Hannatu died when Ben-Hadad was forty-seven. She had grown slower in her final years, rising later each morning. The household offerings continued without her; Yapaʿ took over the dawn grinding.
 
 Atar-ʿatti married Yamlik, a competent man who worked steadily and did not waste words. Ben-Hadad accepted him. He and Yamlik could sit a long time over a jar of beer without turning it into a contest. Yamlik made one joke that Ben-Hadad repeated twice over the next year: that a man should argue with weeds, not with neighbors. Ben-Hadad gave a brief laugh each time, more through his nose than his mouth.
 
 Zakkur died at fifty-five, when Ben-Hadad was fifty-one. The brother who had done the talking and bargaining was gone. Ben-Hadad did not take over that role; Yamlik stepped into it, while Ben-Hadad continued keeping the boundaries straight.
 
-Then Atar-ʿatti died at twenty-five, when Ben-Hadad was fifty-two. Her children remained, and Ben-Hadad and Yapaʿ fed them and set them to small tasks. Yapaʿ did the soothing; Ben-Hadad did the ordering. He took pride in seeing the grandchildren learn to count sheaves accurately.
+That same year a traveler who had passed through Carchemish mentioned that farmers down the corridor were sowing earlier and trying a different mix of barley and emmer. Yamlik brought the idea to Ben-Hadad. He listened, then shook his head. His father had sown at the same time his grandfather had. He saw no reason to change.
+
+The next year Atar-ʿatti died at twenty-five. Her children remained, and Ben-Hadad and Yapaʿ fed them and set them to small tasks. Yapaʿ did the soothing; Ben-Hadad did the ordering. He took pride in seeing the grandchildren learn to count sheaves accurately.
 
 His health shifted at fifty-five. A chronic cough took hold, worst in winter when smoke hung in low rooms and damp air rose from the river. Breathlessness made plowing and heavy lifting difficult. He moved into supervision: deciding when to thresh, checking jar seals, settling small disputes, and receiving visitors as an elder. When the levy collector, Nabu-šarra, came with his tablets and attendants, Ben-Hadad stayed seated and let Yamlik speak. He answered only when asked and did not contradict himself.
 
@@ -478,3 +482,20 @@ Sillaya, his father's second wife, died when Ben-Hadad was fifty-eight. She had 
 By sixty-seven his hearing dulled and his eyes failed at dusk. He misheard names at meetings and turned his head to catch words. In markets he could not pick out faces across the crowd. Yapaʿ stood close and repeated what others said. Yamlik spoke for him when needed. Their household became centered on the daughter’s line: Yamlik and the grandchildren supporting the old couple in the same compound.
 
 Ben-Hadad reached eighty still in his birthplace. In the hot season after a day of sitting in the courtyard shade, he ate bread and lentils, drank a cup of beer, and rose to adjust his cloak. He fell hard onto the packed earth and could not speak. Before sunrise his body was washed, wrapped, and carried to a family burial place near the village, and Yapaʿ placed bread and a small cup of beer beside him for the household rites.
+
+<!-- REVIEW CHANGELOG (2026-01-21)
+Issues found and fixed:
+1. AI-slop: "face set hard" → "jaw tight and her eyes fixed on the grain" (more concrete)
+2. Missing character: Added Ṣillaya son of Mati-El (village elder/mentor from narrative_plan, prominence ages 40-60)
+3. Trait visibility: Added scene showing low openness (2nd percentile) - refusing new sowing methods suggested by traveler
+4. Timeline clarity: Changed "Then Atar-ʿatti died" to "The next year Atar-ʿatti died" after Zakkur's death paragraph
+5. Removed redundant "when Ben-Hadad was fifty-two" (timeline already clear from preceding paragraph)
+
+No issues found with:
+- Timeline/chronology (ages and years consistent)
+- Sibling deaths (all 7 siblings accounted for)
+- Children deaths (all 4 children covered: 3 infant/child deaths, 1 adult daughter)
+- Structured incidents (physical assault, chronic illness, acquired disability, military service, civilian war exposure all present)
+- Historical context (Assyrian control, Carchemish campaigns)
+- Introversion trait (1st percentile) already well-shown throughout
+-->

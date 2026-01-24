@@ -297,10 +297,29 @@ He was the second child. Amina, two years older, carried him on her hip when the
 
 Shahzad learned early to bring back exact change. If a shopkeeper handed him too much, he pushed the notes back across the counter and waited until the count matched. When a cup broke, he said it plainly before anyone asked.
 
-School started in 2024, after months when COVID closures had already made routines uncertain. He copied neatly from the blackboard and could write his name and numbers, but he stared at sentences and guessed at words. Ustad Nasir made him stand and read; Amina later sounded out the same lines with him at home, pointing under each word with a fingertip.
+The household grew. Maryam arrived in 2020, a quiet girl who followed Amina everywhere. Bilal came the next year, quick and loud, grabbing at everything within reach. By then fuel and flour were growing expensive. Drought thinned the pasture. Abdul Wahid argued with his brother Rahim about selling a goat.
 
-Maryam arrived in 2020, then Bilal in 2021, and Hamid in 2023. In 2024 a baby sister, Zahra, lived only hours. After that Gul Bibi kept a tighter watch on fevers and coughs, and money went first to medicine.
+Hamid was born in 2023, and Shahzad was old enough now to hold him, to fetch clean cloths, to run for Bibi Shirin when the baby cried. He took on more errands without complaint, carrying jugs from the tap, sweeping the courtyard, watching Hamid when the adults met visitors. In 2024 another sister, Zahra, lived only hours. After that Gul Bibi kept a tighter watch on fevers and coughs, and money went first to medicine.
 
-Fuel and flour grew expensive through 2022 and 2023. Drought thinned the pasture. Abdul Wahid argued with his brother Rahim about selling a goat. Shahzad took on more errands without complaint, carrying jugs from the tap, sweeping the courtyard, watching Hamid when the adults met visitors.
+School started that same year, after months when COVID closures had already made routines uncertain. Shahzad copied neatly from the blackboard and could write his name and numbers, but he stared at sentences and guessed at words. Ustad Nasir made him stand and read; Amina later sounded out the same lines with him at home, pointing under each word with a fingertip.
 
-In late 2025 he is seven. He sits in the men’s room when guests come, quiet and alert, and then goes back outside to stack dung cakes by the wall while Amina checks his homework page.
+In late 2025 he is seven. He sits in the men's room when guests come, quiet beside Haji Karim, who nods approvingly at his stillness. When the talk turns to prices and water, Shahzad slips outside to stack dung cakes by the wall. Later Amina checks his homework page, her finger tracing the letters he cannot quite hold in his head.
+
+<!--
+**Review date:** 2026-01-21
+
+**Issues found:**
+- [Pass 3] Sibling introduction was a dense list rattling off four names with birth years
+- [Pass 4] Haji Karim (grandfather) introduced as authority figure but never appeared again
+- [Pass 4] Bibi Shirin (grandmother) only appeared once in the household description
+- [Pass 8] Chronology jumped backward from 2024 (school) to 2020-2023 (siblings) to 2022-2023 (economic stress)
+- [Pass 14] "always testing limits" was generic/formulaic description for Bilal
+
+**Changes made:**
+- Expanded sibling introduction to give each child brief characterization rather than just birth years
+- Added Haji Karim to final paragraph sitting with Shahzad in the men's room
+- Added Bibi Shirin to Hamid paragraph (Shahzad runs to her when baby cries)
+- Restructured paragraphs for chronological flow: siblings (2020-2023) now comes before school (2024)
+- Integrated economic stress into the siblings paragraph where it fits chronologically
+- Changed "always testing limits" to "grabbing at everything within reach" for more specific toddler behavior
+-->

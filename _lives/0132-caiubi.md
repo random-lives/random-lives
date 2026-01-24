@@ -238,8 +238,23 @@ continent: "South America"
 
 Caiubi was born in February 921 in the Atlantic Forest uplands above the Paraíba do Sul, in a Tupi‑Guarani village tied to river travel, hunting paths, and kin alliances. Authority sat with elders and headmen in the settlement, not with any distant state. His family followed shaman-led curing and protection rites; tobacco smoke, chanting, and strict everyday taboos shaped how they handled illness, dreams, and the remains of hunted animals.
 
-He entered an extended household compound where several related adults shared fires and stored baskets under the same shelter. His father, Ibyra, left before dawn with other men to hunt and check traps, returning with small game and fish when the river ran clear. His mother, Anumã, carried Caiubi against her hip while she gathered palm fruit and tubers, split kindling, and stirred pots. Guarí, Anumã’s mother, watched the children close to the hearth and the water pots, pulling older hands away from blades and embers. Araí, Caiubi’s older brother, was five and already ran messages between cooking places.
+He entered an extended household compound where his parents, grandmother, and uncle shared fires and stored baskets under the same shelter. His father, Ibyra, left before dawn with other men to hunt and check traps, returning with small game and fish when the river ran clear. Ibyra's brother Uiraí often stayed closer to camp, mending nets and watching over the older children. His mother, Anumã, carried Caiubi against her hip while she gathered palm fruit and tubers, split kindling, and stirred pots. Guarí, Anumã's mother, watched the children close to the hearth and the water pots, pulling older hands away from blades and embers. Araí, Caiubi's older brother, was five and already ran messages between cooking places.
 
 Anumã had buried a daughter, Potyra, the previous year, and she kept Caiubi close. After a difficult dream, Sairi the healer blew tobacco smoke over the baby and rubbed him with crushed leaves, then warned against leaving him near the riverbank.
 
-On October 25, 921, during a busy morning at the water’s edge, Caiubi slid from a resting mat while Guarí turned to answer a call. He tumbled into the shallows and did not recover. His family washed him, wrapped him in woven fiber, and buried him in soft ground near the settlement, with a pinch of food and tobacco placed beside him while Sairi chanted.
+On October 25, 921, during a busy morning at the water's edge, Caiubi slid from a resting mat while Guarí turned to answer a call. He tumbled into the shallows and drowned. Ibyra returned from hunting to find the camp already in mourning. The family washed the body, wrapped it in woven fiber, and buried it in soft ground near the settlement, with a pinch of food and tobacco placed beside it while Sairi chanted.
+
+---
+
+**Review changelog:**
+
+**Issues found:**
+- [Pass 2] Paternal uncle Uiraí missing from household description despite being listed as co-resident caretaker
+- [Pass 4] Father Ibyra appears only once in daily routine; absent from death/mourning scene
+- [Pass 14] "did not recover" is euphemistic for drowning
+
+**Changes made:**
+- Added Uiraí to household composition: "Ibyra's brother Uiraí often stayed closer to camp, mending nets and watching over the older children"
+- Changed "several related adults" to specific list: "his parents, grandmother, and uncle"
+- Added father to death scene: "Ibyra returned from hunting to find the camp already in mourning"
+- Changed "did not recover" to "drowned" for directness

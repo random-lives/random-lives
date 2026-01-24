@@ -191,9 +191,9 @@ continent: "Asia"
 
 Ming officials ruled the lower Yangtze plain through county yamen and village headmen, and in a farming hamlet near Nantong the Zhang household spoke the local Jianghuai Mandarin and kept an incense bowl on the home altar for ancestors and the Earth God, Tudi. Zhang Shunhe farmed rented strips and a small patch of his own, and his wife Li shi kept chickens, tended greens near the door, and went into the fields when planting and harvest demanded it.
 
-They had buried two little girls in 1595, one aged six and the other three. Their third daughter, Zhang Yulan, born in 1584, grew into a strong worker. She hauled water from the ditch, mended winter shoes, and in the twelfth lunar month of 1601 she helped her mother boil water and wash cloths ahead of the birth.
+They had buried two little girls in 1595, one aged six and the other three, and Li shi still burned paper for them at Qingming. Their third daughter, Zhang Yulan, born in 1584, grew into a strong worker. She hauled water from the ditch, mended winter shoes, and in the twelfth lunar month of 1601 she helped her mother boil water and wash cloths ahead of the birth.
 
-On January 17, 1602, a midwife delivered a fourth daughter. She was not given a formal name. Li shi wrapped her in a quilted cloth and kept her near the kang; Yulan warmed bricks by the hearth and brought them, wrapped, to the bedding. Each morning Shunhe lit incense, set a small cup of tea before the ancestral tablets, and murmured a request for the baby’s safety.
+On January 17, 1602, a midwife delivered a fourth daughter. She was not given a formal name. Li shi wrapped her in a quilted cloth and kept her near the kang; Yulan warmed bricks by the hearth and brought them, wrapped, to the bedding. Each morning Shunhe lit incense, set a small cup of tea before the ancestral tablets, and asked the ancestors to watch over the child.
 
 On the sixth day the child’s cord stump and belly turned foul and wet. The midwife rinsed and packed it with medicine, but on January 23, 1602, the baby died.
 

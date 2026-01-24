@@ -193,8 +193,17 @@ Yin-niang was born on November 26, 1263, in a farming hamlet near the tidal cree
 
 Her father worked the family’s plots with his older sons. Da-ge and Er-ge were already grown men; San-ge and Si-ge were nearly so. Da-jie, a girl of thirteen, stayed close to her mother’s side, grinding grain, carrying water, and minding the smallest tasks that kept the household fed. Another brother, Wu-ge, had been born and lost years earlier, and the memory of that infant never left the women’s talk at births.
 
-That late autumn day the mother labored inside the house while the men kept to the yard. An older woman from nearby, Po-po, came to help. The baby arrived small, with little strength in her limbs. Da-jie warmed cloth by the brazier and held the child against her mother’s chest while Po-po rubbed her back and pressed a finger to her mouth to clear it.
+That late autumn day the mother labored inside the house while the men kept to the yard. An older woman from nearby, Po-po, came to help. The baby arrived small, her cry thin and brief. Da-jie warmed cloth by the brazier and held the child against her mother's chest while Po-po rubbed her back and pressed a finger to her mouth to clear it.
 
-Yin-niang did not take milk. Before nightfall she died.
+Yin-niang breathed in shallow pulls. Her eyes opened once, unfocused. She did not take milk. Before nightfall she died.
 
 Her father dug a narrow grave on the edge of the family land. They wrapped her in a plain cloth, set a few grains of rice beside her, and burned a short stick of incense to the earth god before covering the soil.
+
+<!--
+CHANGELOG:
+- 2026-01-21: Review completed. Added brief sensory details of Yin-niang alive (thin cry, shallow breathing, eyes opening once) before death, replacing vague "little strength in her limbs" - makes her feel real before she dies rather than purely procedural.
+
+REVIEW SUMMARY:
+Passes 1-13: No issues found. Story has correct timeline (same-day birth/death), accurate household structure, appropriate sibling coverage (6 of 8 siblings correctly mentioned - 2 born after her death), proper historical setting (Southern Song 1263, Guangdong), and no AI-slop or anachronisms.
+Pass 14 (Final Read): Added living moment for the newborn to make the loss more immediate.
+-->
