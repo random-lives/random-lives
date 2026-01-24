@@ -8,7 +8,7 @@ permalink: /about/
 
 # About
 
-About 70 billion people have ever lived. This project randomly samples just 250 of these lives, to give a window into what a "typical" human experience was like.
+[About 70 billion people have ever lived]({{ site.baseurl }}/blog/how-many-people-have-ever-lived/). This project randomly samples just 250 of these lives, to give a window into what a "typical" human experience was like.
 
 We cannot, of course, randomly sample from all humans the way we can read random articles on [Wikipedia](https://en.wikipedia.org/wiki/Special:Random), view random roads on [Random Street View](https://randomstreetview.com/), or listen to random radio stations on [Radio Garden](https://radio.garden/balloon-ride). For the vast majority of people who ever lived, essentially nothing remains of their lives. In the absence of root access to The Book of Life or a simulator's log, this project aims to simulate such a random draw as best we can with the available data.
 
@@ -47,8 +47,26 @@ Despite these difficulties, I chose to include all the dead infants and shadowy 
 I hope you find the stories interesting. If you spot errors or have suggestions, please contact me at [email].
 
 <div class="about-buttons">
-  <a href="{{ site.baseurl }}/lives/#random" class="button primary">Random Life</a>
+  <a href="#" class="button" id="random-life-btn">Random Life</a>
   <a href="{{ site.baseurl }}/author/" class="button">About the Author</a>
 </div>
 
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const allLives = [
+    {% for life in site.lives %}
+      "{{ life.url | relative_url }}"{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
+  var btn = document.getElementById('random-life-btn');
+  if (btn) {
+    btn.addEventListener('click', function(e) {
+      e.preventDefault();
+      const randomIndex = Math.floor(Math.random() * allLives.length);
+      window.location.href = allLives[randomIndex];
+    });
+  }
+});
+</script>

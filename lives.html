@@ -5,16 +5,19 @@ title: All Lives
 
 <div class="home">
   <h1>All Lives</h1>
-  <p class="intro">
-    Browse and filter all {{ site.lives.size }} biographical stories.
-  </p>
+
+  <div class="view-switcher">
+    <a href="{{ '/lives' | relative_url }}" class="active">List</a>
+    <a href="{{ '/map' | relative_url }}">Map</a>
+    <a href="{{ '/timeline' | relative_url }}">Timeline</a>
+  </div>
 
   <div class="order-bar">
-    <span class="order-label">Order:</span>
-    <button type="button" class="tag selected" data-value="default">Default</button>
-    <button type="button" class="tag toggle-btn" data-values="chronological,reverse" data-value="chronological">Birth ↑</button>
-    <button type="button" class="tag toggle-btn" data-values="alphabetical,reverse-alpha" data-value="alphabetical">Name ↑</button>
-    <button type="button" class="tag" data-value="random">Shuffle</button>
+    <label>Order by:</label>
+    <button type="button" class="color-btn selected" data-value="default">Default</button>
+    <button type="button" class="color-btn toggle-btn" data-values="chronological,reverse" data-value="chronological">Birth ↑</button>
+    <button type="button" class="color-btn toggle-btn" data-values="alphabetical,reverse-alpha" data-value="alphabetical">Name ↑</button>
+    <button type="button" class="color-btn" data-value="random">Shuffle</button>
   </div>
 
   <div class="filters">
@@ -96,7 +99,6 @@ title: All Lives
         <h3>{{ life.title }}</h3>
         <div class="meta">
           <span class="years">{% if life.birth_year == life.death_year %}{{ life.birth_year }}{% else %}{{ life.birth_year }} – {{ life.death_year }}{% endif %}</span>
-          {% if life.region %}<span class="region">{{ life.region }}</span>{% endif %}
           {% if life.country %}<span class="country">{{ life.country }}</span>{% endif %}
           <span class="lifestyle">{{ life.lifestyle }}</span>
         </div>
@@ -367,7 +369,7 @@ title: All Lives
 
   // Get current sort order from order bar
   function getCurrentOrder() {
-    const selected = orderBar.querySelector('.tag.selected');
+    const selected = orderBar.querySelector('.color-btn.selected');
     return selected ? selected.dataset.value : 'default';
   }
 
@@ -385,7 +387,7 @@ title: All Lives
 
   // Setup order buttons with toggle behavior
   function setupOrderButtons() {
-    orderBar.querySelectorAll('.tag').forEach(btn => {
+    orderBar.querySelectorAll('.color-btn').forEach(btn => {
       btn.addEventListener('click', () => {
         const wasSelected = btn.classList.contains('selected');
         const isToggle = btn.classList.contains('toggle-btn');
@@ -404,7 +406,7 @@ title: All Lives
           applySorting();
         } else {
           // Select this button, deselect others
-          orderBar.querySelectorAll('.tag').forEach(b => b.classList.remove('selected'));
+          orderBar.querySelectorAll('.color-btn').forEach(b => b.classList.remove('selected'));
           btn.classList.add('selected');
 
           // Apply sorting (re-randomize if clicking random again)
@@ -584,7 +586,7 @@ title: All Lives
     });
 
     // Reset order to default and restore toggle button arrows
-    orderBar.querySelectorAll('.tag').forEach(btn => {
+    orderBar.querySelectorAll('.color-btn').forEach(btn => {
       btn.classList.remove('selected');
       // Reset toggle buttons to their first state (↑)
       if (btn.classList.contains('toggle-btn')) {

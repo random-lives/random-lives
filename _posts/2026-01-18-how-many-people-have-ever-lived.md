@@ -1,11 +1,9 @@
 ---
-layout: default
+layout: post
 title: "How many people have ever lived?"
 date: 2026-01-18
 permalink: /blog/how-many-people-have-ever-lived/
 ---
-
-# How many people have ever lived?
 
 *Draft — to be written*
 

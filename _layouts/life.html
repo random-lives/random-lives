@@ -9,29 +9,7 @@ layout: default
       <div class="life-meta">
         <p><strong>Born:</strong> {{ page.birth_date }}</p>
         {% if page.death_year != "present" %}<p><strong>Died:</strong> {{ page.death_date }} (Age {{ page.age_at_death }})</p>{% endif %}
-        {% if page.region %}
-          <p><strong>Birthplace:</strong>
-            {% if page.map_url %}
-              <a href="{{ page.map_url }}" target="_blank" rel="noopener noreferrer">
-                {% if page.subsubregion %}
-                  {{ page.subsubregion }}, {{ page.subregion }}, {{ page.region }}
-                {% elsif page.subregion %}
-                  {{ page.subregion }}, {{ page.region }}
-                {% else %}
-                  {{ page.region }}
-                {% endif %}
-              </a>
-            {% else %}
-              {% if page.subsubregion %}
-                {{ page.subsubregion }}, {{ page.subregion }}, {{ page.region }}
-              {% elsif page.subregion %}
-                {{ page.subregion }}, {{ page.region }}
-              {% else %}
-                {{ page.region }}
-              {% endif %}
-            {% endif %}
-          </p>
-        {% elsif page.location %}
+        {% if page.location %}
           <p><strong>Birthplace:</strong>
             <a href="{{ page.map_url }}" target="_blank" rel="noopener noreferrer">
               {{ page.location }}
@@ -63,7 +41,13 @@ layout: default
       const HYDE_RADIUS_METERS = 4600;
       const ZOOM_THRESHOLD = 8; // Show uncertainty circles at zoom 8+
 
-      var map = L.map('map', { zoomControl: false, attributionControl: false }).setView([{{ page.latitude }}, {{ page.longitude }}], 4);
+      var map = L.map('map', {
+        zoomControl: false,
+        attributionControl: false,
+        minZoom: 3,
+        maxBounds: [[-85, -200], [85, 200]],
+        maxBoundsViscosity: 1.0
+      }).setView([{{ page.latitude }}, {{ page.longitude }}], 4);
       L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
         maxZoom: 19
       }).addTo(map);
@@ -135,7 +119,7 @@ layout: default
   {% endif %}
 
   <nav class="life-navigation">
-    <a href="{{ '/' | relative_url }}">← Back to all lives</a>
+    <a href="{{ '/lives' | relative_url }}">← Back to all lives</a>
   </nav>
 
   <nav class="life-nav-buttons">

@@ -15,19 +15,14 @@ title: Map View
 }
 
 .map-view {
-  max-width: 1200px;
+  padding-bottom: 40px;
 }
 
 .map-view h1 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 600;
-  margin-bottom: 8px;
-}
-
-.map-view .intro {
-  font-size: 1.1rem;
-  margin: 0 0 24px;
-  color: #555;
+  margin-bottom: 12px;
+  letter-spacing: -0.02em;
 }
 
 .map-popup {
@@ -125,15 +120,20 @@ title: Map View
 </style>
 
 <div class="map-view">
-  <h1>Map View</h1>
-  <p class="intro">Explore lives by location across all of human history. Click a marker to read their story.</p>
+  <h1>All Lives</h1>
+
+  <div class="view-switcher">
+    <a href="{{ '/lives' | relative_url }}">List</a>
+    <a href="{{ '/map' | relative_url }}" class="active">Map</a>
+    <a href="{{ '/timeline' | relative_url }}">Timeline</a>
+  </div>
 
   <div class="map-controls">
     <div class="map-controls-row">
       <label>Color by:</label>
+      <button type="button" class="color-btn" data-value="lifestyle">Lifestyle</button>
       <button type="button" class="color-btn" data-value="era">Era</button>
       <button type="button" class="color-btn" data-value="age">Age at death</button>
-      <button type="button" class="color-btn" data-value="lifestyle">Lifestyle</button>
     </div>
     <div id="legend" class="legend"></div>
   </div>
@@ -147,11 +147,16 @@ title: Map View
 (function() {
   const map = L.map('world-map', {
     zoomControl: true,
-    attributionControl: false
-  }).setView([20, 0], 2);
+    attributionControl: false,
+    minZoom: 2,
+    zoomSnap: 0.1,
+    maxBounds: [[-85, -200], [85, 200]],
+    maxBoundsViscosity: 1.0
+  }).setView([31.1, 11.1], 2);
 
   L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
-    maxZoom: 19
+    maxZoom: 19,
+    minZoom: 2
   }).addTo(map);
 
   const lives = [
@@ -197,7 +202,7 @@ title: Map View
   };
 
   const eraColors = {
-    'Prehistoric (10,000 – 3000 BC)': '#7c3aed',
+    'Prehistoric (before 3000 BC)': '#7c3aed',
     'Ancient (3000 BC – 500 AD)': '#dc2626',
     'Medieval (500 – 1500)': '#f59e0b',
     'Early Modern (1500 – 1800)': '#0ea5e9',
@@ -213,7 +218,7 @@ title: Map View
   };
 
   function getEra(birthYear) {
-    if (birthYear < -3000) return 'Prehistoric (10,000 – 3000 BC)';
+    if (birthYear < -3000) return 'Prehistoric (before 3000 BC)';
     if (birthYear < 500) return 'Ancient (3000 BC – 500 AD)';
     if (birthYear < 1500) return 'Medieval (500 – 1500)';
     if (birthYear < 1800) return 'Early Modern (1500 – 1800)';
@@ -238,14 +243,26 @@ title: Map View
   // Create markers (both dots and uncertainty circles)
   const markers = [];
   lives.forEach(life => {
-    // Circle marker (dot) for low zoom levels
+    // Circle marker (dot) for low zoom levels - visual only
     const dot = L.circleMarker([life.lat, life.lng], {
       radius: 5,
       fillColor: "#000",
       color: "#fff",
       weight: 1,
       opacity: 1,
-      fillOpacity: 0.9
+      fillOpacity: 0.9,
+      interactive: false,
+      bubblingMouseEvents: false
+    });
+
+    // Invisible larger hit area for easier clicking (added after dot so it's on top)
+    const hitArea = L.circleMarker([life.lat, life.lng], {
+      radius: 10,
+      fillColor: "#000",
+      color: "#000",
+      weight: 0,
+      opacity: 0,
+      fillOpacity: 0
     });
 
     // Circle (uncertainty region) for high zoom levels
@@ -266,13 +283,14 @@ title: Map View
       </div>
     `);
 
-    dot.bindPopup(popup);
+    hitArea.bindPopup(popup);
     circle.bindPopup(popup);
 
-    // Start with dots visible
+    // Start with dots visible (dot first, then hitArea on top for clicks)
     dot.addTo(map);
+    hitArea.addTo(map);
 
-    markers.push({ dot, circle, life });
+    markers.push({ dot, hitArea, circle, life });
   });
 
   // Update colors
@@ -290,13 +308,15 @@ title: Map View
     const zoom = map.getZoom();
     const showCircles = zoom >= ZOOM_THRESHOLD;
 
-    markers.forEach(({ dot, circle }) => {
+    markers.forEach(({ dot, hitArea, circle }) => {
       if (showCircles) {
         if (map.hasLayer(dot)) map.removeLayer(dot);
+        if (map.hasLayer(hitArea)) map.removeLayer(hitArea);
         if (!map.hasLayer(circle)) map.addLayer(circle);
       } else {
         if (map.hasLayer(circle)) map.removeLayer(circle);
         if (!map.hasLayer(dot)) map.addLayer(dot);
+        if (!map.hasLayer(hitArea)) map.addLayer(hitArea);
       }
     });
   }
@@ -342,5 +362,6 @@ title: Map View
       updateColors(colorBy);
     });
   });
+
 })();
 </script>

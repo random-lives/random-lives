@@ -5,19 +5,14 @@ title: Timeline View
 
 <style>
 .timeline-view {
-  max-width: 1200px;
+  padding-bottom: 40px;
 }
 
 .timeline-view h1 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 600;
-  margin-bottom: 8px;
-}
-
-.timeline-view .intro {
-  font-size: 1.1rem;
-  margin: 0 0 24px;
-  color: #555;
+  margin-bottom: 12px;
+  letter-spacing: -0.02em;
 }
 
 .timeline-controls {
@@ -139,14 +134,22 @@ title: Timeline View
 
 .life-bar {
   position: absolute;
-  border-radius: 1px;
   cursor: pointer;
-  transition: opacity 0.1s ease;
   min-width: 4px;
 }
 
-.life-bar:hover {
+.life-bar .life-bar-visual {
+  position: absolute;
+  border-radius: 1px;
+  transition: opacity 0.1s ease;
+  min-width: 6px;
+}
+
+.life-bar:hover .life-bar-visual {
   opacity: 0.8;
+}
+
+.life-bar:hover {
   z-index: 100;
 }
 
@@ -185,29 +188,131 @@ title: Timeline View
   font-size: 0.75rem;
 }
 
+.timeline-nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.timeline-nav-group {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.timeline-nav-btn {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #fff;
+  color: #555;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s;
+  font-family: inherit;
+  padding: 0;
+  line-height: 1;
+}
+
+.timeline-nav-btn:hover {
+  border-color: #bbb;
+  background: #f5f5f5;
+}
+
+.timeline-nav-btn:active {
+  background: #eee;
+}
+
+.preset-btn {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #fff;
+  color: #555;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: inherit;
+  white-space: nowrap;
+}
+
+.preset-btn:hover {
+  border-color: #bbb;
+  background: #f5f5f5;
+}
+
+.preset-btn.active {
+  background: #333;
+  border-color: #333;
+  color: #fff;
+}
+
+.nav-separator {
+  width: 1px;
+  height: 20px;
+  background: #ddd;
+  margin: 0 8px;
+}
+
 @media (max-width: 600px) {
   .timeline-canvas {
     height: 300px;
+  }
+
+  .timeline-nav {
+    gap: 6px;
+  }
+
+  .preset-btn {
+    font-size: 0.75rem;
+    padding: 4px 8px;
   }
 }
 </style>
 
 <div class="timeline-view">
-  <h1>Timeline View</h1>
-  <p class="intro">Explore lives across time. Each bar shows a person's lifespan. Hover for details, click to read their story. Scroll to zoom, drag to pan.</p>
+  <h1>All Lives</h1>
+
+  <div class="view-switcher">
+    <a href="{{ '/lives' | relative_url }}">List</a>
+    <a href="{{ '/map' | relative_url }}">Map</a>
+    <a href="{{ '/timeline' | relative_url }}" class="active">Timeline</a>
+  </div>
 
   <div class="timeline-controls">
     <div class="timeline-controls-row">
       <label>Color by:</label>
-      <button type="button" class="color-btn" data-value="continent">Continent</button>
       <button type="button" class="color-btn" data-value="lifestyle">Lifestyle</button>
+      <button type="button" class="color-btn" data-value="continent">Continent</button>
     </div>
     <div id="legend" class="timeline-legend"></div>
   </div>
 
-  <div class="timeline-container" id="timeline-container">
+  <div class="timeline-container" id="timeline-container" tabindex="0">
     <div class="timeline-axis" id="timeline-axis"></div>
     <div class="timeline-canvas" id="timeline-canvas"></div>
+  </div>
+
+  <div class="timeline-nav">
+    <div class="timeline-nav-group">
+      <button type="button" class="timeline-nav-btn" id="pan-left" title="Pan left (←)">←</button>
+      <button type="button" class="timeline-nav-btn" id="pan-right" title="Pan right (→)">→</button>
+    </div>
+    <div class="timeline-nav-group">
+      <button type="button" class="timeline-nav-btn" id="zoom-in" title="Zoom in (↑)">+</button>
+      <button type="button" class="timeline-nav-btn" id="zoom-out" title="Zoom out (↓)">−</button>
+    </div>
+    <span class="nav-separator"></span>
+    <button type="button" class="preset-btn" data-start="1526" data-end="2026">Last 500 years</button>
+    <button type="button" class="preset-btn" data-start="-1000" data-end="2026">Last 3,000 years</button>
+    <button type="button" class="preset-btn" data-start="-10000" data-end="2026">Last 12,000 years</button>
+    <button type="button" class="preset-btn" data-start="-200000" data-end="2026">All time</button>
   </div>
 </div>
 
@@ -235,11 +340,21 @@ title: Timeline View
     return birthYear;
   }
 
-  // Shuffle array
-  function shuffle(array) {
+  // Seeded random number generator (mulberry32)
+  function seededRandom(seed) {
+    return function() {
+      let t = seed += 0x6D2B79F5;
+      t = Math.imul(t ^ t >>> 15, t | 1);
+      t ^= t + Math.imul(t ^ t >>> 7, t | 61);
+      return ((t ^ t >>> 14) >>> 0) / 4294967296;
+    };
+  }
+
+  // Shuffle array with seeded RNG for deterministic order
+  function shuffle(array, rng) {
     const arr = array.slice();
     for (let i = arr.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
+      const j = Math.floor(rng() * (i + 1));
       [arr[i], arr[j]] = [arr[j], arr[i]];
     }
     return arr;
@@ -272,7 +387,9 @@ title: Timeline View
   });
 
   // Shuffle for random order and assign permanent rows
-  const shuffledLives = shuffle(lives);
+  // Use fixed seed for deterministic layout across page loads
+  const rng = seededRandom(42);
+  const shuffledLives = shuffle(lives, rng);
 
   // Sort by birth year for stable row assignment
   const sortedForRows = shuffledLives.slice().sort((a, b) => a.birthYear - b.birthYear);
@@ -470,12 +587,68 @@ title: Timeline View
 
     const totalBarSpace = totalPermanentRows * (barHeight + gap);
     const verticalOffset = Math.max(0, (CANVAS_HEIGHT - totalBarSpace) / 2);
+    const rowHeight = barHeight + gap;
+
+    // For each visible life, calculate how much we can expand the click target
+    // without overlapping neighboring bars (both vertically and horizontally)
+    visibleLives.forEach(life => {
+      // Find nearest bar above/below in same time range (vertical expansion)
+      let nearestAbove = -1;
+      let nearestBelow = totalPermanentRows;
+      // Find nearest bar left/right in same row (horizontal expansion)
+      let nearestLeftPct = 0;
+      let nearestRightPct = 100;
+
+      visibleLives.forEach(other => {
+        if (other === life) return;
+
+        // Check if time ranges overlap (for vertical neighbors)
+        const overlaps = !(other.endPct < life.startPct - 1 || other.startPct > life.endPct + 1);
+        if (overlaps) {
+          if (other.permanentRow < life.permanentRow && other.permanentRow > nearestAbove) {
+            nearestAbove = other.permanentRow;
+          }
+          if (other.permanentRow > life.permanentRow && other.permanentRow < nearestBelow) {
+            nearestBelow = other.permanentRow;
+          }
+        }
+
+        // Check if same row (for horizontal neighbors)
+        if (other.permanentRow === life.permanentRow) {
+          // Other bar is to the left
+          if (other.endPct <= life.startPct && other.endPct > nearestLeftPct) {
+            nearestLeftPct = other.endPct;
+          }
+          // Other bar is to the right
+          if (other.startPct >= life.endPct && other.startPct < nearestRightPct) {
+            nearestRightPct = other.startPct;
+          }
+        }
+      });
+
+      // Calculate available vertical expansion (in pixels)
+      const rowsAbove = life.permanentRow - nearestAbove - 1;
+      const rowsBelow = nearestBelow - life.permanentRow - 1;
+
+      // Expand up to 6px vertically, limited by available space
+      const maxExpandV = 6;
+      life.expandTop = Math.min(maxExpandV, rowsAbove * rowHeight + gap);
+      life.expandBottom = Math.min(maxExpandV, rowsBelow * rowHeight + gap);
+
+      // Calculate available horizontal expansion (in percentage points)
+      // Expand up to 0.5% in each direction, limited by available space
+      const maxExpandH = 0.5;
+      const gapLeft = life.startPct - nearestLeftPct;
+      const gapRight = nearestRightPct - life.endPct;
+      life.expandLeft = Math.min(maxExpandH, gapLeft / 2); // Split gap with neighbor
+      life.expandRight = Math.min(maxExpandH, gapRight / 2);
+    });
 
     // Render bars
     const barsHtml = visibleLives.map(life => {
       const color = getColor(life, colorBy);
-      const top = verticalOffset + life.permanentRow * (barHeight + gap);
-      const width = life.endPct - life.startPct;
+      const top = verticalOffset + life.permanentRow * rowHeight;
+      const visualWidth = life.endPct - life.startPct;
       const ageText = life.ageAtDeath !== null
         ? `Died at ${life.ageAtDeath}`
         : `Age ${maxYear - life.birthYear} (alive)`;
@@ -483,13 +656,24 @@ title: Timeline View
       // Skip if bar would be outside canvas
       if (top > CANVAS_HEIGHT) return '';
 
+      // Clickable area expands based on available space
+      const clickTop = top - life.expandTop;
+      const clickHeight = barHeight + life.expandTop + life.expandBottom;
+      const clickLeft = life.startPct - life.expandLeft;
+      const clickWidth = visualWidth + life.expandLeft + life.expandRight;
+
+      // Visual bar position relative to click area
+      const visualLeftPx = (life.expandLeft / clickWidth) * 100;
+      const visualWidthPx = (visualWidth / clickWidth) * 100;
+
       return `
         <a href="${life.url}" class="life-bar"
-           style="left: ${life.startPct}%; width: ${Math.max(0.1, width)}%; top: ${top}px; height: ${barHeight}px; background: ${color};"
+           style="left: ${clickLeft}%; width: ${Math.max(0.1, clickWidth)}%; top: ${clickTop}px; height: ${clickHeight}px;"
            data-name="${life.name}"
            data-years="${life.years}"
            data-location="${life.location}"
            data-age="${ageText}">
+          <span class="life-bar-visual" style="left: ${visualLeftPx}%; width: ${visualWidthPx}%; top: ${life.expandTop}px; height: ${barHeight}px; background: ${color};"></span>
         </a>
       `;
     }).join('');
@@ -558,30 +742,21 @@ title: Timeline View
     });
   });
 
-  // Mouse wheel zoom
-  timelineContainer.addEventListener('wheel', (e) => {
-    e.preventDefault();
-
-    const rect = timelineCanvas.getBoundingClientRect();
-    const mouseX = e.clientX - rect.left;
-    const mousePercent = mouseX / rect.width;
-    const mouseYear = viewStart + (viewEnd - viewStart) * mousePercent;
-
-    // Zoom factor
-    const zoomFactor = e.deltaY > 0 ? 1.3 : 0.7;
+  // Shared zoom function
+  function zoomTimeline(zoomFactor, centerPercent = 0.5) {
+    const centerYear = viewStart + (viewEnd - viewStart) * centerPercent;
     const currentRange = viewEnd - viewStart;
     let newRange = currentRange * zoomFactor;
 
     // Clamp range
     newRange = Math.max(50, Math.min(totalRange, newRange));
 
-    // Calculate new view centered on mouse position
-    let newStart = mouseYear - newRange * mousePercent;
-    let newEnd = mouseYear + newRange * (1 - mousePercent);
+    // Calculate new view centered on the specified position
+    let newStart = centerYear - newRange * centerPercent;
+    let newEnd = centerYear + newRange * (1 - centerPercent);
 
-    // If zooming in and mouse cursor is near the right edge (within 20% of container width),
-    // preserve the current right-hand year instead of following mouse
-    const nearRightEdge = mousePercent > 0.8;
+    // If zooming in near the right edge, preserve the current right-hand year
+    const nearRightEdge = centerPercent > 0.8;
     const zoomingIn = zoomFactor < 1;
 
     if (nearRightEdge && zoomingIn) {
@@ -601,7 +776,60 @@ title: Timeline View
       viewEnd = newEnd;
     }
 
+    updatePresetButtons();
     renderTimeline();
+  }
+
+  // Shared pan function
+  function panTimeline(deltaPercent) {
+    const viewRange = viewEnd - viewStart;
+    const deltaYears = deltaPercent * viewRange;
+
+    let newStart = viewStart + deltaYears;
+    let newEnd = viewEnd + deltaYears;
+
+    // Clamp to bounds
+    if (newStart < minYear) {
+      newStart = minYear;
+      newEnd = minYear + viewRange;
+    } else if (newEnd > maxYear) {
+      newEnd = maxYear;
+      newStart = maxYear - viewRange;
+    }
+
+    viewStart = newStart;
+    viewEnd = newEnd;
+    updatePresetButtons();
+    renderTimeline();
+  }
+
+  // Update preset button active states
+  function updatePresetButtons() {
+    document.querySelectorAll('.preset-btn').forEach(btn => {
+      const presetStart = parseInt(btn.dataset.start);
+      const presetEnd = parseInt(btn.dataset.end);
+      const isActive = Math.abs(viewStart - presetStart) < 100 && Math.abs(viewEnd - presetEnd) < 10;
+      btn.classList.toggle('active', isActive);
+    });
+  }
+
+  // Mouse wheel zoom (with slower zoom for trackpads)
+  timelineContainer.addEventListener('wheel', (e) => {
+    e.preventDefault();
+
+    const rect = timelineCanvas.getBoundingClientRect();
+    const mouseX = e.clientX - rect.left;
+    const mousePercent = mouseX / rect.width;
+
+    // Detect trackpad vs mouse wheel: trackpad typically has smaller, more frequent deltas
+    // and often has non-zero deltaX for horizontal scrolling
+    const isTrackpad = Math.abs(e.deltaY) < 50 || e.deltaX !== 0;
+
+    // Use gentler zoom for trackpad (50% slower)
+    const baseZoom = isTrackpad ? 1.15 : 1.3;
+    const zoomFactor = e.deltaY > 0 ? baseZoom : (1 / baseZoom);
+
+    zoomTimeline(zoomFactor, mousePercent);
   }, { passive: false });
 
   // Drag to pan horizontally
@@ -655,7 +883,169 @@ title: Timeline View
     }
   });
 
+  // Smooth keyboard controls with velocity and easing
+  const keysPressed = new Set();
+  let animationFrameId = null;
+  let lastFrameTime = 0;
+
+  // Velocity state (builds up while key held, decays when released)
+  let panVelocity = 0;    // negative = left, positive = right
+  let zoomVelocity = 0;   // negative = zoom in, positive = zoom out
+
+  // Tuning parameters
+  const MAX_PAN_SPEED = 0.4;      // max 40% of view per second
+  const MAX_ZOOM_SPEED = 0.8;     // max 80% zoom per second (as log scale)
+  const ACCELERATION = 3.0;       // how fast velocity builds up
+  const FRICTION = 6.0;           // how fast velocity decays (higher = faster stop)
+
+  function animateKeyboard(currentTime) {
+    // Calculate delta time
+    const deltaTime = lastFrameTime ? Math.min((currentTime - lastFrameTime) / 1000, 0.1) : 0.016;
+    lastFrameTime = currentTime;
+
+    // Calculate target velocities based on keys pressed
+    let targetPan = 0;
+    let targetZoom = 0;
+
+    if (keysPressed.has('ArrowLeft')) targetPan -= MAX_PAN_SPEED;
+    if (keysPressed.has('ArrowRight')) targetPan += MAX_PAN_SPEED;
+    if (keysPressed.has('ArrowUp')) targetZoom -= MAX_ZOOM_SPEED;
+    if (keysPressed.has('ArrowDown')) targetZoom += MAX_ZOOM_SPEED;
+
+    // Ease velocity toward target (acceleration when key pressed)
+    // Ease velocity toward zero (friction/deceleration when key released)
+    if (targetPan !== 0) {
+      // Accelerate toward target
+      panVelocity += (targetPan - panVelocity) * ACCELERATION * deltaTime;
+    } else {
+      // Decelerate with friction
+      panVelocity *= Math.exp(-FRICTION * deltaTime);
+      if (Math.abs(panVelocity) < 0.001) panVelocity = 0;
+    }
+
+    if (targetZoom !== 0) {
+      zoomVelocity += (targetZoom - zoomVelocity) * ACCELERATION * deltaTime;
+    } else {
+      zoomVelocity *= Math.exp(-FRICTION * deltaTime);
+      if (Math.abs(zoomVelocity) < 0.001) zoomVelocity = 0;
+    }
+
+    // Stop animation if no velocity and no keys pressed
+    if (panVelocity === 0 && zoomVelocity === 0 && keysPressed.size === 0) {
+      animationFrameId = null;
+      return;
+    }
+
+    let needsRender = false;
+
+    // Apply pan velocity
+    if (panVelocity !== 0) {
+      const viewRange = viewEnd - viewStart;
+      const delta = panVelocity * viewRange * deltaTime;
+      let newStart = viewStart + delta;
+      let newEnd = viewEnd + delta;
+
+      if (newStart < minYear) {
+        newStart = minYear;
+        newEnd = minYear + viewRange;
+        panVelocity = 0; // Stop at boundary
+      } else if (newEnd > maxYear) {
+        newEnd = maxYear;
+        newStart = maxYear - viewRange;
+        panVelocity = 0; // Stop at boundary
+      }
+
+      viewStart = newStart;
+      viewEnd = newEnd;
+      needsRender = true;
+    }
+
+    // Apply zoom velocity
+    if (zoomVelocity !== 0) {
+      const centerYear = (viewStart + viewEnd) / 2;
+      const currentRange = viewEnd - viewStart;
+      // Use exponential zoom for natural feel
+      const zoomFactor = Math.exp(zoomVelocity * deltaTime);
+      let newRange = currentRange * zoomFactor;
+
+      // Clamp range
+      if (newRange < 50) {
+        newRange = 50;
+        zoomVelocity = 0;
+      } else if (newRange > totalRange) {
+        newRange = totalRange;
+        zoomVelocity = 0;
+      }
+
+      viewStart = centerYear - newRange / 2;
+      viewEnd = centerYear + newRange / 2;
+
+      // Clamp to bounds
+      if (viewStart < minYear) {
+        viewStart = minYear;
+        viewEnd = minYear + newRange;
+      }
+      if (viewEnd > maxYear) {
+        viewEnd = maxYear;
+        viewStart = maxYear - newRange;
+      }
+
+      needsRender = true;
+    }
+
+    if (needsRender) {
+      updatePresetButtons();
+      renderTimeline();
+    }
+
+    animationFrameId = requestAnimationFrame(animateKeyboard);
+  }
+
+  document.addEventListener('keydown', (e) => {
+    // Ignore if user is typing in an input field
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+
+    const arrowKeys = ['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown'];
+    if (arrowKeys.includes(e.key)) {
+      e.preventDefault();
+      keysPressed.add(e.key);
+      if (!animationFrameId) {
+        lastFrameTime = 0;
+        animationFrameId = requestAnimationFrame(animateKeyboard);
+      }
+    }
+  });
+
+  document.addEventListener('keyup', (e) => {
+    keysPressed.delete(e.key);
+    // Don't stop animation - let velocity decay naturally
+  });
+
+  // Stop animation if window loses focus
+  window.addEventListener('blur', () => {
+    keysPressed.clear();
+    panVelocity = 0;
+    zoomVelocity = 0;
+  });
+
+  // On-screen navigation buttons
+  document.getElementById('pan-left').addEventListener('click', () => panTimeline(-0.2));
+  document.getElementById('pan-right').addEventListener('click', () => panTimeline(0.2));
+  document.getElementById('zoom-in').addEventListener('click', () => zoomTimeline(0.7, 0.5));
+  document.getElementById('zoom-out').addEventListener('click', () => zoomTimeline(1.3, 0.5));
+
+  // Preset view buttons
+  document.querySelectorAll('.preset-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      viewStart = parseInt(btn.dataset.start);
+      viewEnd = parseInt(btn.dataset.end);
+      updatePresetButtons();
+      renderTimeline();
+    });
+  });
+
   // Initial render
+  updatePresetButtons();
   renderTimeline();
 
   // Handle resize

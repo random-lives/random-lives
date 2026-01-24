@@ -394,10 +394,6 @@ continent: "Asia"
 #   type: pregnancy_complications
 ---
 
-<!-- CHANGELOG
-- 2026-01-21: Reviewed. No changes needed. Story follows guidelines well: all family members accounted for with deaths, incidents covered, personality traits visible (extreme height/agreeableness/low intelligence/low conscientiousness all shown through action), chronology consistent, no AI-slop phrases, prose is plain and direct.
--->
-
 Otsuru was born on July 26, 1654, in a small upland settlement in Bitchū, under the Tokugawa order. Officials counted households through village registers tied to a Buddhist temple, and village headmen carried domain rules down to families who rented their fields. She spoke the local Japanese dialect and grew up with both temple and shrine obligations: incense and rice at the household memorial tablets when there was any to spare, and sake offered at the village shrine at festival time.
 
 Her father, Genzō, did not live in the household. In Otsuru’s earliest memories her world had women’s hands and women’s voices: her mother Omasa, and an older female relative, Oba Kiyo, who slept near the cooking hearth and woke the children before dawn. Otsuru was very small even as a toddler. When she was sent to fetch water or carry kindling, she had to make extra trips. Omasa put a bundle on her back anyway. When it fell, Omasa struck her and shouted until she did it again.
