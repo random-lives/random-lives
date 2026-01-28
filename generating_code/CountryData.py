@@ -47,7 +47,7 @@ class Raw_Data:
 country_data_years = np.concatenate(([1600],np.arange(1700,1950,10),np.arange(1950,2026)))
 
 class Country_Data:
-    def __init__(self, country, LE_1600 = 25, cbr_1600 = 45):
+    def __init__(self, country, LE_1600 = 25, cbr_1600 = 42):
         self.hyde_id   = country.hyde_id
         self.lifetable = country.lifetable
         self.years = country_data_years

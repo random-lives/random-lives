@@ -36,8 +36,8 @@ title: All Lives
       <div class="year-slider-container">
         <div class="year-slider-track" id="year-slider-track">
           <div class="year-slider-range" id="year-slider-range"></div>
-          <input type="range" class="year-slider" id="year-slider-min" min="0" max="10000" value="0" step="1">
-          <input type="range" class="year-slider" id="year-slider-max" min="0" max="10000" value="10000" step="1">
+          <input type="range" class="year-slider" id="year-slider-min" min="0" max="20000" value="0" step="1">
+          <input type="range" class="year-slider" id="year-slider-max" min="0" max="20000" value="20000" step="1">
         </div>
         <div class="year-slider-labels">
           <span id="year-label-min">200,000 BC</span>
@@ -132,18 +132,18 @@ title: All Lives
   const labelMax = document.getElementById('year-label-max');
 
   // Year range slider: 200,000 BC to 2025 AD
-  // Slider goes 0-10000 for fine granularity
+  // Slider goes 0-20000 for fine granularity
   // Non-linear scale with more density for recent history
-  const SLIDER_MAX = 10000;
+  const SLIDER_MAX = 20000;
   const yearBreakpoints = [
     { slider: 0, year: -200000 },
-    { slider: 1000, year: -50000 },
-    { slider: 2000, year: -10000 },
-    { slider: 3000, year: -3000 },
-    { slider: 4500, year: 1 },
-    { slider: 6000, year: 1000 },
-    { slider: 7500, year: 1800 },
-    { slider: 10000, year: 2025 }
+    { slider: 2000, year: -50000 },
+    { slider: 4000, year: -10000 },
+    { slider: 6000, year: -3000 },
+    { slider: 9000, year: 1 },
+    { slider: 12000, year: 1000 },
+    { slider: 15000, year: 1800 },
+    { slider: 20000, year: 2025 }
   ];
 
   // Round year to appropriate interval based on era
@@ -478,7 +478,7 @@ title: All Lives
 
     // Get year range from slider
     const { yearMin, yearMax } = updateSliderRange();
-    const yearSliderAtFullRange = parseInt(sliderMin.value) === 0 && parseInt(sliderMax.value) === 100;
+    const yearSliderAtFullRange = parseInt(sliderMin.value) === 0 && parseInt(sliderMax.value) === SLIDER_MAX;
 
     // Get age range from slider
     const { ageMin, ageMax, sliderAtMax } = updateAgeSliderRange();
@@ -567,7 +567,7 @@ title: All Lives
     e.stopPropagation();
     // Reset year sliders to full range
     sliderMin.value = 0;
-    sliderMax.value = 100;
+    sliderMax.value = SLIDER_MAX;
     updateSliderRange();
 
     // Reset age sliders to full range

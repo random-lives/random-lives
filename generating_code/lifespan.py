@@ -69,8 +69,8 @@ class LifespanCalculator:
         self.hg_Px = make_Px(hg_Sx)
 
         # Pre-compute pre-modern death distributions (Chilean data as proxy)
-        self.premod_M_Px = make_Px(make_Sx(self.lifetable_data[('Chilean', 'M', 22)]))
-        self.premod_F_Px = make_Px(make_Sx(self.lifetable_data[('Chilean', 'F', 22)]))
+        self.premod_M_Px = make_Px(make_Sx(self.lifetable_data[('Chilean', 'M', 24)]))
+        self.premod_F_Px = make_Px(make_Sx(self.lifetable_data[('Chilean', 'F', 24)]))
 
     def age_at_death(self, country, birth_year, sex, lifestyle):
         """Calculate age at death for a person based on their demographics."""

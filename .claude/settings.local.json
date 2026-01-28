@@ -57,7 +57,8 @@
       "Bash(if grep -q \"\\\\[Pass\" \"$f\")",
       "Bash(then)",
       "Bash(else)",
-      "Bash(fi)"
+      "Bash(fi)",
+      "Bash(node -e:*)"
     ],
     "deny": []
   }
