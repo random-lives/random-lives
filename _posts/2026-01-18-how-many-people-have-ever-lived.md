@@ -6,8 +6,6 @@ permalink: /blog/how-many-people-have-ever-lived/
 mathjax: true
 ---
 
-# How many people have ever lived?
-
 This is a difficult question to answer, because for almost all of human history there were no accurate censuses. Even today, counting people is hard. Papua New Guinea's 2024 census was their first in 24 years, with prior estimates ranging [from 10 million to 17 million](https://www.lowyinstitute.org/the-interpreter/png-needs-census-not-more-population-estimates); Afghanistan hasn't conducted one since 1979\. But such disputes are nothing compared to the uncertainty in pre-industrial populations—estimates for the world population in 10,000 BC range from 1 million to 20 million.
 
 On the internet, a figure of 108 billion or 117 billion is usually, and uncritically, repeated. Both estimates come from a series of articles from the [Population Reference Bureau](https://www.prb.org/articles/how-many-people-have-ever-lived-on-earth/). When I tried to reproduce their methodology for this project, I found I couldn't—the pre-industrial life expectancy they assumed were far lower than any documented population over a sustained time period. My median estimate is **66 billion**, which is what I use when sampling lives. 
@@ -55,7 +53,7 @@ Pre-modern population growth was extremely slow. To steadily increase from 4.4 m
 
 $$\text{Crude birth rate} = \frac{1}{\text{life expectancy}}$$
 
-Unfortunately, [life expectancy estimates](https://ourworldindata.org/grapher/life-expectancy) are available only for the past century. Before that we rely on fragmentary documentary evidence and skeletal remains, both with substantial limitations. Still, the available evidence consistently suggests very low life expectancies. For the ancient world, Roman Egypt is best documented: scattered census papyri suggest life expectancy somewhere between 20–25 years, thought to be typical for the classical world ([Bagnall & Frier 1994](https://books.google.com/books/about/The_Demography_of_Roman_Egypt.html?id=ara8tHZRiLIC)). Similar estimates appear in medieval demography (e.g. [Koepke 2021](https://pubmed.ncbi.nlm.nih.gov/34237609/)). Skeletal evidence points in the same direction: 24 years in medieval Japan ([Nagaoka 2006](https://pubmed.ncbi.nlm.nih.gov/16444727/)), 28 years in Neolithic Czechia ([Galeta 2015](https://www.jstor.org/stable/26292836)), and 20 years in 1100 CE Ohio ([Lovejoy et al. 1977](https://www.science.org/doi/10.1126/science.198.4314.291)). By 1800, ([Riley, 2005](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1728-4457.2005.00083.x)) estimates a global average of 29 years.
+Unfortunately, [life expectancy estimates](https://ourworldindata.org/grapher/life-expectancy) are available only for the past century. Before that we rely on fragmentary documentary evidence and skeletal remains, both with substantial limitations. Still, the available evidence consistently suggests very low life expectancies. For the ancient world, Roman Egypt is best documented: scattered census papyri suggest life expectancy somewhere between 20–25 years, thought to be typical for the classical world ([Bagnall & Frier 1994](https://books.google.com/books/about/The_Demography_of_Roman_Egypt.html?id=ara8tHZRiLIC)). Similar estimates appear in medieval demography (e.g. [Koepke 2021](https://pubmed.ncbi.nlm.nih.gov/34237609/)). Skeletal evidence points in the same direction: 24 years in medieval Japan ([Nagaoka 2006](https://pubmed.ncbi.nlm.nih.gov/16444727/)), 28 years in Neolithic Czechia ([Galeta 2015](https://www.jstor.org/stable/26292836)), and 20 years in 1100 CE Ohio ([Lovejoy et al. 1977](https://www.science.org/doi/10.1126/science.198.4314.291)). By 1800, ([Riley 2005](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1728-4457.2005.00083.x)) estimates a global average of 29 years.
 
 These low figures do not mean the average person died young—as you can see from the stories on this site, many lived to old age. Life expectancy was low because infant mortality was extraordinarily high, with perhaps 50% of children dying before age five ([Roser 2019](https://ourworldindata.org/child-mortality-in-the-past)).
 
@@ -65,7 +63,9 @@ This is where the PRB estimate diverges most sharply from mine. They assume life
 
 ## Paleolithic Births
 
-Before 10,000 BC I could find no global population estimates. I instead worked with Claude to synthesize genetic studies of effective population size, archaeological site densities, and ecological carrying capacity models, calibrated to match HYDE estimates at 10,000 BC. Useful sources included [Tallavaara *et al* 2015](https://pubmed.ncbi.nlm.nih.gov/26100880/)  for European populations, [Sjödin et al. 2012](https://pubmed.ncbi.nlm.nih.gov/22319141/) for effective population size in Africa, and [Gautney & Holliday, 2015](https://www.sciencedirect.com/science/article/abs/pii/S0305440315001211) for a rough estimate of world population at the Last Glacial Maximum. But the honest answer is that Claude mostly guessed populations for each continent, and the guesses looked broadly reasonable; perhaps optimistically within a factor of 2 of the correct answer.
+Before 10,000 BC I could find no global population estimates. I instead worked with Claude to synthesize genetic studies of effective population size, archaeological site densities, and ecological carrying capacity models, calibrated to match HYDE estimates at 10,000 BC. Useful sources included [Tallavaara *et al* 2015](https://pubmed.ncbi.nlm.nih.gov/26100880/)  for European populations, [Sjödin et al. 2012](https://pubmed.ncbi.nlm.nih.gov/22319141/) for effective population size in Africa, and [Gautney & Holliday, 2015](https://www.sciencedirect.com/science/article/abs/pii/S0305440315001211) for a rough estimate of world population at the Last Glacial Maximum. But the honest answer is that Claude mostly guessed populations for each continent, and the guesses looked broadly reasonable; perhaps optimistically within a factor of 2 of the correct answer. 
+
+I start at 200,000 BC as a convenient starting date. There was, of course, no first human, but 200,000 years ago is before the estimated dates for mitochondrial Eve and (probably) Y-chromosomal Adam, before the deepest splits in modern human populations, and before most evidence of behavioral modernity. Older anatomically modern remains have been found; the split with Neanderthals and Denisovans—anatomically distinct populations that nevertheless contributed a few percent to modern genomes—would take us back over half a million years. Any starting point is somewhat arbitrary; moving it back to 300,000 BC would add perhaps 1 billion to the total.
 
 For birth rates, I use ethnographic data from recent hunter-gatherer populations compiled by [Gurven & Kaplan (2007)](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1728-4457.2007.00171.x). Their synthesis shows life expectancies of 21–37 years across foraging societies, with a central tendency around 30 years. I use this figure, implying a crude birth rate of 33 per 1000—lower than agricultural populations due to longer interbirth intervals, extended breastfeeding, and higher mobility.
 
@@ -76,23 +76,24 @@ Putting everything together, here are my estimates for world population over tim
 | Year       | Population (M) | Crude Birth Rate | Births since Previous (B) |               |
 | :--------- | :------------- | :--------------- | ------------------------- | :------------ |
 |            |                |                  | Median                    | 90% CI        |
-| 200,000 BC | 0.10           | 33               | —                         | —             |
+| 200,000 BP | 0.10           | 33               | —                         | —             |
 | 10,000 BC  | 4.4            | 34               | 2.9                       | 1.4–6.3       |
 | 3000 BC    | 45             | 40               | 4.0                       | 2.5–6.3       |
 | 1000 BC    | 110            | 41               | 6.2                       | 4.5–8.5       |
-| 500        | 250            | 41               | 12.0                      | 9.2–15.7      |
+| 500 AD     | 250            | 41               | 12.0                      | 9.2–15.7      |
 | 1500       | 500            | 41               | 14.8                      | 12.0–18.4     |
 | 1800       | 950            | 40               | 7.6                       | 6.5–8.8       |
 | 1950       | 2490           | 36               | 8.65                      | 8.21–9.11     |
 | 2026       | 8300           | 16               | 9.61                      | 9.49–9.72     |
 |            |                | **Total**        | **65.7**                  | **53.8–82.7** |
 
-The table below shows slightly lower rates in earlier periods because hunter-gatherers—with their lower fertility—comprised a larger share of the population. By the Holocene, the rate rises toward 42 as agriculture dominates, then falls after 1800 as the demographic transition begins.
+The table above shows slightly lower rates in earlier periods because hunter-gatherers—with their lower fertility—comprised a larger share of the population. By the Holocene, the rate rises toward 42 as agriculture dominates, then falls after 1800 as the demographic transition begins.
 
 The largest uncertainties come from the period between 10,000 BC and 1800 AD, which accounts for roughly 70% of everyone who ever lived. After 1800, we have reasonably accurate birth records; before 10,000 BC, uncertainties are vast but the population was small enough that it barely affects the total. When combining estimates across periods, I assume perfect correlation—summing medians, summing 5th percentiles, summing 95th percentiles. This is crude, but errors in population and life expectancy estimates probably do correlate across periods.
 
-Let us finish with a few observations. The common complaint about "recency bias" in history is somewhat justified on demographic grounds—but perhaps not as much as you'd think. Paleolithic hunter-gatherers represent 95% of human history by time, but only about 5% of all people who ever lived. Still, the pre-modern era dominates: roughly 80% of all humans were born before 1800\.
+Aside from a more accurate accounting, what else can we learn from this exercise? The common complaint about "recency bias" in history is somewhat justified on demographic grounds—but perhaps not as much as you'd think. Paleolithic hunter-gatherers represent 95% of human history by time, but only about 5% of all people who ever lived. 
 
-Meanwhile, about 15% of everyone who ever lived was born in the last 75 years. And nearly 13% of all humans who ever lived are alive right now.
+The median person in human history was born around 1121 AD—a date that's currently being pulled forward by about 4 years per year. The "Middle Ages," in other words, really are the middle—at least from our current vantage point.
 
-The median person in human history was born around 1121 AD—a date that's currently being pulled forward by about 4 years per year.
+About 15% of everyone who ever lived was born in the last 75 years---impressive for a timespan covering less than 0.04% of our species history. Nearly 13% of all humans who ever lived are alive right now. Nearly 13% of all humans who ever lived are alive right now. This is either extraordinary—you exist during the most populous moment in history—or utterly ordinary, since so does everyone you know.
+
