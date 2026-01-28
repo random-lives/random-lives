@@ -3,6 +3,7 @@ layout: post
 title: "How many people have ever lived?"
 date: 2026-01-18
 permalink: /blog/how-many-people-have-ever-lived/
+mathjax: true
 ---
 
 # How many people have ever lived?
@@ -21,15 +22,17 @@ Most countries today record births, which the UN collates globally. The United N
 
 ## Pre-1800: Estimating from Population
 
-Before 1800, direct birth estimates don't exist. Instead, we estimate births from population and birth rates:  
-   Total births \= \\sum population x birth rate  
+Before 1800, direct birth estimates don't exist. Instead, we estimate births from population and birth rates:
+
+$$\text{Total births} = \sum \text{population} \times \text{birth rate}$$
+
 summed across human history. 
 
 The HYDE project provides gridded population maps and totals from 10,000 BC onward—millennial resolution to 1 AD, centennial thereafter (see their [2017 paper](https://essd.copernicus.org/articles/9/927/2017/essd-9-927-2017.html) for methodology). I use HYDE estimates directly for my medians.
 
 Estimating uncertainty is harder. HYDE provides ranges, but these become implausibly wide in the deep past—their lower bound for 10,000 BC is just 10,000 people. Other published estimates (see the [US Census compilation](https://www.census.gov/data/tables/time-series/demo/international-programs/historical-est-worldpop.html)) give a sense of scholarly opinion, but are themselves point estimates that don't capture plausible ranges.
 
-To calibrate my uncertainty, I looked deeper into the early population estimates. Take 1 AD. A [Han Chinese census in 2 AD](https://www.cambridge.org/core/books/abs/cambridge-history-of-china/economic-and-social-history-of-former-han/2C38C79DC7D76BDA4A073CAE0572086C) records 59,594,978 people. This may be the best attested demographic figure in ancient history, even though we should suspect all but the first digit as false precision. The ancient Romans also took censuses, most importantly three under Augustus that counted 4.06 million in 28 BC, 4.23 million in 8 BC, and 4.94 million in 14 AD. Unfortunately, we are not exactly sure who was counted, creating so-called “high” and “low” counts for the population of Roman Italy which vary by more than a factor of two. Estimates for the empire as a whole in 1 AD are generally around 45–60 million (see Scheidel 2007 for an introduction to the debate, or [this ACOUP post](https://acoup.blog/2023/12/22/collections-how-many-people-ancient-demography/) for an accessible overview of historical demography).
+To calibrate my uncertainty, I looked deeper into the early population estimates. Take 1 AD. A [Han Chinese census in 2 AD](https://www.cambridge.org/core/books/abs/cambridge-history-of-china/economic-and-social-history-of-former-han/2C38C79DC7D76BDA4A073CAE0572086C) records 59,594,978 people. This may be the best attested demographic figure in ancient history, even though we should suspect all but the first digit as false precision. The ancient Romans also took censuses, most importantly three under Augustus that counted 4.06 million in 28 BC, 4.23 million in 8 BC, and 4.94 million in 14 AD. Unfortunately, we are not exactly sure who was counted, creating so-called “high” and “low” counts for the population of Roman Italy which vary by more than a factor of two. Estimates for the empire as a whole in 1 AD are generally around 45–60 million (see [Scheidel 2007](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1096415) for an introduction to the debate, or [this ACOUP post](https://acoup.blog/2023/12/22/collections-how-many-people-ancient-demography/) for an accessible overview of historical demography).
 
 That's at least 100 million between these two empires, already greater than the HYDE "low estimate" of 58 million for 1 AD. South Asian populations are poorly documented, but given later population comparisons and relative agriculture endowments, they were probably somewhat larger than China. Including Parthia, Southeast Asia, Mesoamerica, and sub-Saharan Africa, it is difficult to see how world population could be below 180 million. Populations above 300 million, however, also appear difficult without very high estimates outside of Rome and China. I set my 90% CI at 180M–300M, log-symmetric around HYDE's 232M, and applied similar reasoning at other benchmark years: 
 
@@ -48,10 +51,11 @@ Between benchmarks, I assume constant exponential growth—reasonable given how 
 
 ## Birth Rates and Life Expectancies
 
-Pre-modern population growth was extremely slow. To steadily increase from 4.4 million in 10,000 BC to 232 million at 1 AD requires a growth rate of just 0.04% per year. Modern countries, by contrast, generally see population changes of 1% or more. So for most of human history, we can treat populations as approximately stationary, with crude birth rate equal to crude death rate and hence:  
-   Crude birth rate \= 1 / life expectancy.
+Pre-modern population growth was extremely slow. To steadily increase from 4.4 million in 10,000 BC to 232 million at 1 AD requires a growth rate of just 0.04% per year. Modern countries, by contrast, generally see population changes of 1% or more. So for most of human history, we can treat populations as approximately stationary, with crude birth rate equal to crude death rate and hence:
 
-Unfortunately, [life expectancy estimates](https://ourworldindata.org/grapher/life-expectancy) are available only for the past century. Before that we rely on fragmentary documentary evidence and skeletal remains, both with substantial limitations. Still, the available evidence consistently suggests very low life expectancies. For the ancient world, Roman Egypt is best documented: scattered census papyri suggest life expectancy somewhere between 20–25 years, thought to be typical for the classical world (Bagnall & Frier 1994). Similar estimates appear in medieval demography (e.g. [Koepke 2021](https://pubmed.ncbi.nlm.nih.gov/34237609/)). Skeletal evidence points in the same direction: 24 years in medieval Japan ([Nagaoka 2006](https://pubmed.ncbi.nlm.nih.gov/16444727/)), 28 years in Neolithic Czechia ([Galeta 2015](https://www.jstor.org/stable/26292836)), and 20 years in 1100 CE Ohio ([Lovejoy et al. 1977](https://www.science.org/doi/10.1126/science.198.4314.291)). By 1800, ([Riley, 2005](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1728-4457.2005.00083.x)) estimates a global average of 29 years.
+$$\text{Crude birth rate} = \frac{1}{\text{life expectancy}}$$
+
+Unfortunately, [life expectancy estimates](https://ourworldindata.org/grapher/life-expectancy) are available only for the past century. Before that we rely on fragmentary documentary evidence and skeletal remains, both with substantial limitations. Still, the available evidence consistently suggests very low life expectancies. For the ancient world, Roman Egypt is best documented: scattered census papyri suggest life expectancy somewhere between 20–25 years, thought to be typical for the classical world ([Bagnall & Frier 1994](https://books.google.com/books/about/The_Demography_of_Roman_Egypt.html?id=ara8tHZRiLIC)). Similar estimates appear in medieval demography (e.g. [Koepke 2021](https://pubmed.ncbi.nlm.nih.gov/34237609/)). Skeletal evidence points in the same direction: 24 years in medieval Japan ([Nagaoka 2006](https://pubmed.ncbi.nlm.nih.gov/16444727/)), 28 years in Neolithic Czechia ([Galeta 2015](https://www.jstor.org/stable/26292836)), and 20 years in 1100 CE Ohio ([Lovejoy et al. 1977](https://www.science.org/doi/10.1126/science.198.4314.291)). By 1800, ([Riley, 2005](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1728-4457.2005.00083.x)) estimates a global average of 29 years.
 
 These low figures do not mean the average person died young—as you can see from the stories on this site, many lived to old age. Life expectancy was low because infant mortality was extraordinarily high, with perhaps 50% of children dying before age five ([Roser 2019](https://ourworldindata.org/child-mortality-in-the-past)).
 
@@ -69,19 +73,19 @@ For birth rates, I use ethnographic data from recent hunter-gatherer populations
 
 Putting everything together, here are my estimates for world population over time:
 
-| Year | Population (M) | Crude Birth Rate | Births since Previous (B) |  |
-| :---- | :---- | :---- | ----- | :---- |
-|  |  |  | Median | 90% CI |
-| 200,000 BC | 0.10 | 33 | — | — |
-| 10,000 BC | 4.4 | 34 | 2.9 | 1.4–6.3 |
-| 3000 BC | 45 | 40 | 4.0 | 2.5–6.3 |
-| 1000 BC | 110 | 41 | 6.2 | 4.5–8.5 |
-| 500 | 250 | 41 | 12.0 | 9.2–15.7 |
-| 1500 | 500 | 41 | 14.8 | 12.0–18.4 |
-| 1800 | 950 | 40 | 7.6 | 6.5–8.8 |
-| 1950 | 2490 | 36 | 8.65 | 8.21–9.11 |
-| 2026 | 8300 | 16 | 9.61 | 9.49–9.72 |
-|  |  | **Total** | **65.7** | **53.8–82.7** |
+| Year       | Population (M) | Crude Birth Rate | Births since Previous (B) |               |
+| :--------- | :------------- | :--------------- | ------------------------- | :------------ |
+|            |                |                  | Median                    | 90% CI        |
+| 200,000 BC | 0.10           | 33               | —                         | —             |
+| 10,000 BC  | 4.4            | 34               | 2.9                       | 1.4–6.3       |
+| 3000 BC    | 45             | 40               | 4.0                       | 2.5–6.3       |
+| 1000 BC    | 110            | 41               | 6.2                       | 4.5–8.5       |
+| 500        | 250            | 41               | 12.0                      | 9.2–15.7      |
+| 1500       | 500            | 41               | 14.8                      | 12.0–18.4     |
+| 1800       | 950            | 40               | 7.6                       | 6.5–8.8       |
+| 1950       | 2490           | 36               | 8.65                      | 8.21–9.11     |
+| 2026       | 8300           | 16               | 9.61                      | 9.49–9.72     |
+|            |                | **Total**        | **65.7**                  | **53.8–82.7** |
 
 The table below shows slightly lower rates in earlier periods because hunter-gatherers—with their lower fertility—comprised a larger share of the population. By the Holocene, the rate rises toward 42 as agriculture dominates, then falls after 1800 as the demographic transition begins.
 
