@@ -58,7 +58,8 @@
       "Bash(then)",
       "Bash(else)",
       "Bash(fi)",
-      "Bash(node -e:*)"
+      "Bash(node -e:*)",
+      "Bash(pkill:*)"
     ],
     "deny": []
   }
