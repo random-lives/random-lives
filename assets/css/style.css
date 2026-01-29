@@ -1091,6 +1091,7 @@ nav a:hover {
   background: #f5f5f5;
   color: #333;
   border-bottom: 2px solid #ccc;
+  text-align: center;
 }
 
 .post-content tbody tr:nth-child(even) {
@@ -1122,6 +1123,10 @@ nav a:hover {
 .post-content tfoot td {
   background: #f5f5f5;
   border-top: 2px solid #ccc;
+}
+
+.post-content tfoot td[colspan] {
+  text-align: right;
 }
 
 .post-content th .unit {

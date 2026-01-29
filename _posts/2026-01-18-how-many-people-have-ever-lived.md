@@ -111,7 +111,7 @@ Putting everything together, here are my estimates for world population over tim
     <tr><td>2026</td><td>8300</td><td>16</td><td>9.61</td><td>9.49–9.72</td></tr>
   </tbody>
   <tfoot>
-    <tr><td></td><td></td><td><strong>Total</strong></td><td><strong>65.7</strong></td><td><strong>53.8–82.7</strong></td></tr>
+    <tr><td colspan="3"><strong>Total</strong></td><td><strong>65.7</strong></td><td><strong>53.8–82.7</strong></td></tr>
   </tfoot>
 </table>
 
