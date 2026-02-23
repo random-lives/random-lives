@@ -18,3 +18,4 @@ generating_code/__pycache__/
 generating_code/Outputs/
 Claude.md
 CLAUDE.md
+.claude/worktrees/
