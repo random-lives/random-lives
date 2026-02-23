@@ -293,7 +293,7 @@ continent: "Asia"
 
 Shahzad was born on 5 July 2018 in the dry uplands of Surab in Pakistan's Baluchistan, in a Pashtun household that prayed at the village mosque and lived by rainfed fields and a few animals. The state was Pakistan's, but daily authority sat with elders, landowners, and the men who controlled water turns and access to wage work. At home he heard Pashto; in shops and school he used Urdu.
 
-He was the second child. Amina, two years older, carried him on her hip when their mother, Gul Bibi, was busy with bread and tea and washing. Their father, Abdul Wahid, worked a small plot and took day labor when seed and diesel prices jumped. They lived in a joint household with Abdul Wahid's parents—his grandfather Haji Karim, who still held authority over family decisions, and his grandmother Bibi Shirin, who shared childcare and taught the children their prayers. Uncle Rahim, Abdul Wahid's brother, also lived under the same roof.
+He was the second child. Amina, two years older, carried him on her hip when their mother, Gul Bibi, was busy with bread and tea and washing. Their father, Abdul Wahid, worked a small plot and took day labor when seed and diesel prices jumped. They lived in a household with Abdul Wahid's parents—his grandfather Haji Karim, who still held authority over family decisions, and his grandmother Bibi Shirin, who shared childcare and taught the children their prayers. Uncle Rahim, Abdul Wahid's brother, also lived under the same roof.
 
 Shahzad learned early to bring back exact change. If a shopkeeper handed him too much, he pushed the notes back across the counter and waited until the count matched. When a cup broke, he said it plainly before anyone asked.
 

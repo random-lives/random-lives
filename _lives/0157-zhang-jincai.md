@@ -212,7 +212,7 @@ continent: "Asia"
 # - M
 ---
 
-Zhang Jincai was born on March 15, 1735, in a farming village on the Yellow River plain in southwestern Shandong, under the Qing empire. His family spoke the local Mandarin of Shandong and lived as Han commoners in a joint household with his grandparents and an uncle, renting fields and taking day labor when they could get it. On festival days incense burned at the family altar, and his grandmother set out bowls of millet porridge and a few cups of clear liquor for the ancestors; near the New Year she pasted a fresh image of the Kitchen God and offered candy and beans.
+Zhang Jincai was born on March 15, 1735, in a farming village on the Yellow River plain in southwestern Shandong, under the Qing empire. His family spoke the local Mandarin of Shandong and lived as Han commoners in a household with his grandparents and an uncle, renting fields and taking day labor when they could get it. On festival days incense burned at the family altar, and his grandmother set out bowls of millet porridge and a few cups of clear liquor for the ancestors; near the New Year she pasted a fresh image of the Kitchen God and offered candy and beans.
 
 His father, Zhang Shouguo, died in 1736. That year his mother bore another son, Zhang San'er, but the infant died within weeks. In early 1737 she bore Zhang Si'er, who lived only days. After these losses, his mother kept Jincai close—on her hip while she twisted hemp, at her feet while she cooked, strapped to her back when she walked out to the fields. His older brother Zhang Shunsheng, three years older, trailed after the men and still got pulled back to mind the toddler.
 

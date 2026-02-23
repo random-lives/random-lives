@@ -181,7 +181,7 @@ continent: "Asia"
 # - F
 ---
 
-Kusum was born on 31 August 1913 in Kanurampur village in Mymensingh District, under the British Raj in the Bengal Presidency. Her family were Bengali-speaking Hindus in a joint household with her father's parents, living from tenant cultivation. The men worked rainfed fields of rice and jute; the women cooked, carried water, husked paddy, and went out for weeding and harvest when the household needed hands.
+Kusum was born on 31 August 1913 in Kanurampur village in Mymensingh District, under the British Raj in the Bengal Presidency. Her family were Bengali-speaking Hindus in a household with her father's parents, living from tenant cultivation. The men worked rainfed fields of rice and jute; the women cooked, carried water, husked paddy, and went out for weeding and harvest when the household needed hands.
 
 Her father, Madhab, left before sunrise for the fields and came back with mud on his ankles. Her mother, Sushila, had already borne five children. Haridas, the eldest, was nineteen and moved between the plow and the market path. Annapurna, sixteen, cooked and carried water when Sushila lay in confinement. Sukeshini, ten, was sent on errands and kept Kamala, seven, from underfoot. The name Gopal still surfaced in the courtyard talk, a boy who had died at three.
 

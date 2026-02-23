@@ -130,7 +130,7 @@ continent: "Asia"
 #     role: mother
 #   - death_year: 1956
 #     name: Haji Ghulam Rasul
-#     narrative_role: Embodies the joint household’s authority and memory of 'before
+#     narrative_role: Embodies the household’s authority and memory of 'before
 #       Partition.' He judges people by reliability and kin duty; he is the main brake
 #       on Fazal’s more curious, questioning side.
 #     role: paternal grandfather (co-resident elder in joint household)
@@ -366,7 +366,7 @@ Fazal Karim was born on March 8, 1934, in Gaggan in the Potohar plateau of north
 
 He entered a joint house with his father's parents that ran on shared labor and shared authority. His father, Karim Bakhsh, farmed as a tenant and sharecropper under a local malik, and his paternal grandfather Haji Ghulam Rasul decided most matters: when to plant, when to borrow, who would speak in disputes. His mother, Amina Bibi, kept the hearth and the children, with help and supervision from his grandmother Sakina Bibi. Fazal was the second child. His older sister Zainab had been born in 1931 and died in 1933, before he arrived. Her small grave and the way adults lowered their voices when they said her name stayed inside family talk. Amina watched Fazal closely through his early fevers and coughs and did not let him sleep outdoors the way some boys did in the hot months.
 
-By six he carried water in a small container, fetched fodder, and kept chickens from wandering into the cooking area. The joint household meant constant voices: men returning from the fields, women trading gossip while grinding grain, a baby crying, someone calling for salt. Fazal liked the hours after the evening meal when the older men sat near the hujra and talked. He asked questions that irritated his grandfather—about where a peddler came from, what a train looked like, why some villages had wells lined with brick and others did not. When an elder scolded him for interrupting, he stopped for a while, then leaned toward another speaker and started again.
+By six he carried water in a small container, fetched fodder, and kept chickens from wandering into the cooking area. The household meant constant voices: men returning from the fields, women trading gossip while grinding grain, a baby crying, someone calling for salt. Fazal liked the hours after the evening meal when the older men sat near the hujra and talked. He asked questions that irritated his grandfather—about where a peddler came from, what a train looked like, why some villages had wells lined with brick and others did not. When an elder scolded him for interrupting, he stopped for a while, then leaned toward another speaker and started again.
 
 His father tried mosque lessons for him in 1940, sending him with a slate and a bit of chalk. Attendance broke against work needs. Some mornings he went; many mornings he was needed to mind animals or help bring bundles. He learned to recognize a few Qur’anic phrases by sound and rhythm, and he could repeat short surahs, but he never learned to read or write. As he grew, he compensated by listening carefully and remembering what he heard. He could repeat a list of market prices from Rawalpindi bazaar without mixing up the numbers, and he remembered who owed whom a favor.
 
@@ -374,7 +374,7 @@ Partition reached him as a teenager. In 1947 and 1948 the roads near Rawalpindi 
 
 As soon as he had the strength, he worked as a full hand. By 1950 he bargained for day wages during harvests in neighboring villages and carried his earnings home in a cloth knot. He liked the tea stall near the road where laborers gathered. He teased his friend Bashir about his loud laugh and Bashir teased him back about his short height, and they both kept watch for a contractor looking for hands. Fazal avoided men who bragged too much; he preferred someone who could tell a clear story of where work was available. Sometimes in the cool season they sat outside and ate roasted gram with salt, sharing a single newspaper someone else read aloud.
 
-Marriage came in 1955. His parents arranged it with a family they trusted, and Jamila Bibi entered the joint household as his wife. She learned quickly where things were kept, which elder to ask before slaughtering a chicken, and how to speak to Sakina Bibi without inviting a quarrel. Fazal and Jamila did not build a romantic life; they built a working one. He brought home wages and grain; she turned it into meals, kept accounts in her head, and pressed him to keep shoes in decent repair.
+Marriage came in 1955. His parents arranged it with a family they trusted, and Jamila Bibi entered the household as his wife. She learned quickly where things were kept, which elder to ask before slaughtering a chicken, and how to speak to Sakina Bibi without inviting a quarrel. Fazal and Jamila did not build a romantic life; they built a working one. He brought home wages and grain; she turned it into meals, kept accounts in her head, and pressed him to keep shoes in decent repair.
 
 Their first son, Naveed, was born in 1956. That same year Haji Ghulam Rasul died, and Fazal's father became head of the household. Another son, Salman, came in 1962. In 1964 Sakina Bibi died, leaving Amina the eldest woman in the house. Shabana followed in 1965. Fazal lifted each baby with care and then handed them back to Jamila, not trusting his own rough hands. He took pride in the sound of a full house after the memory of Zainab.
 
@@ -390,7 +390,7 @@ Through the 1990s he lived with narrowing options. He sat in the courtyard in la
 
 Jamila died in 1999. After the burial he moved more fully into the care of Salman's household, sleeping in a small room near the courtyard. Salman carried the main burden then, arranging clinic visits and paying for medicines. Salman died in 2001 at thirty-nine, leaving Fazal in the care of his daughter-in-law and grandchildren. His routines tightened again: prayer, short walks, sitting with the men for a while, then retreating when his breath shortened. Shabana, married into another household, visited frequently and argued with her sister-in-law when she needed money for his treatment. He accepted her help without ceremony.
 
-In his last years chronic kidney disease joined his lung trouble, bringing swelling and fatigue. On May 9, 2009, he died in the joint household where he had spent almost his whole life, in the Rawalpindi district countryside. The men washed his body, wrapped it in a white kafan, prayed the janazah, and buried him in the village graveyard, laying him on his right side facing the qibla.
+In his last years chronic kidney disease joined his lung trouble, bringing swelling and fatigue. On May 9, 2009, he died in the household where he had spent almost his whole life, in the Rawalpindi district countryside. The men washed his body, wrapped it in a white kafan, prayed the janazah, and buried him in the village graveyard, laying him on his right side facing the qibla.
 
 <!--
 **Issues found:**

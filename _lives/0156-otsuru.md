@@ -428,7 +428,7 @@ Oshino married out young and died in 1713 at twenty-four. Otsuru attended the fu
 
 Otsune died in 1719. She had been the last of Otsuru's siblings, and after that funeral Otsuru had no one left from her natal household. She focused on tasks she could still do well: cooking, cleaning, watching children, spinning when her fingers cooperated.
 
-Heisuke died in 1726. Otsuru, now an old widow, lived within a stem-family household headed by the next generation. She rose before dawn, put water before the memorial tablets, and folded her bedding away neatly. She minded grandchildren, told them to stay quiet during official visits, and taught them to bow properly at the temple on memorial days. When she did errands, she chose paths where she would not have to argue with anyone.
+Heisuke died in 1726. Otsuru, now an old widow, lived in the household of her son's widow and her grandchildren. She rose before dawn, put water before the memorial tablets, and folded her bedding away neatly. She minded grandchildren, told them to stay quiet during official visits, and taught them to bow properly at the temple on memorial days. When she did errands, she chose paths where she would not have to argue with anyone.
 
 During the Kyōhō famine years of 1732 and 1733, prices rose and grain grew scarce. The village tightened its controls, and Gorōbei brought instructions that nobody argued with openly. Otsuru ate smaller portions and kept the hearth going with carefully saved fuel. She offered water and incense to the household dead and said the same short prayers she had said for decades.
 

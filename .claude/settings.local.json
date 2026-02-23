@@ -59,7 +59,9 @@
       "Bash(else)",
       "Bash(fi)",
       "Bash(node -e:*)",
-      "Bash(pkill:*)"
+      "Bash(pkill:*)",
+      "Bash(while read -r line)",
+      "Bash(do echo \"$f: $line\")"
     ],
     "deny": []
   }
