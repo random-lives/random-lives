@@ -285,13 +285,13 @@ Michaēl was born on August 7, 1357 in a small Rum village in the wooded hills a
 
 An icon of the Theotokos stood in the corner by a small oil lamp. Maria tucked blue glass on strings around the children's necks against the evil eye. Michaēl copied words he heard, asked why one spring was "strong" and another "weak," and corrected other boys when they counted animals wrong. He talked to anyone who would answer, even grown men resting at the edge of the fields.
 
-Geōrgios arrived in 1359, and Nikolaos in 1361. Michaēl carried them on his hip while Maria worked, hushing them with crusts and water. Geōrgios died in 1362 after days of sickness. The same season a thief came at night and took their small goat. Iōannēs went out angry with other men, but the animal stayed gone.
+Geōrgios arrived in 1359, and Nikolaos in 1361. By five Michaēl was old enough to sit with Nikolaos, fetch water for Maria, and wave flies from the baby's face while she worked. Geōrgios died in 1362 after days of sickness. The same season a thief came at night and took their small goat. Iōannēs went out angry with other men, but the animal stayed gone.
 
 By late summer 1363 hunger pressed hard. Sent to watch a neighbor's plot, Michaēl slipped figs and a few grapes into his shirt and broke kindling from a woodpile. Markos, an older boy, caught him. When Michaēl argued and denied it, Markos's uncle Theodoros struck him and Markos joined in, leaving him bruised for days.
 
 Winter brought a harder injury. In January 1364, gathering firewood above the terraces, Michaēl fell from a rocky edge. His hip and leg swelled; he lay inside for weeks while Maria, heavy with another child, tended both him and Nikolaos. When he could walk again, the limp stayed. Iōannēs set him to minding Nikolaos and sorting stores instead of climbing the slopes.
 
-On October 14, 1364, Michaēl left Nikolaos sleeping and climbed a low terrace wall near the pens to see where a goat had wandered. His leg buckled and he fell, striking his head on stone. The village priest Kyrillos read prayers over the body in the chapel; they wrapped him in cloth and buried him beside other Orthodox graves, with a small wooden cross pressed into the mound. Nikolaos, not yet four, was too young to remember him clearly, but he grew up hearing how his eldest brother had carried him when he was small.
+On October 14, 1364, Michaēl left Nikolaos sleeping and climbed a low terrace wall near the pens to see where a goat had wandered. His leg buckled and he fell, striking his head on stone. The village priest Kyrillos read prayers over the body in the chapel; they wrapped him in cloth and buried him beside other Orthodox graves, with a small wooden cross pressed into the mound. 
 
 <!--
 **Review Date:** 2026-01-22

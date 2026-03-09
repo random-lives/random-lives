@@ -160,11 +160,11 @@ She arrived as the second child. Her brother, Youssef, had been born in 2020 and
 
 At two, she spoke in short bursts and preferred the words that already belonged to the house. “Mama.” “Baba.” “Ma.” “Khobz.” If her aunt Aïcha came by with greetings and kisses, Khadija pressed her face into Zohra’s dress and let her grandmother answer first. She followed prayers by imitation: hands raised for du‘a after a recited surah, then palms over her face, copied exactly.
 
-Youssef tried to pull her into games in the courtyard with the neighbor girl, Nadia. Khadija watched from a step, then went back inside. At three, she lined bottle caps along the edge of a rug and fixed them when someone nudged them out of place. If Youssef swept an arm through the row to tease her, she shouted "la," grabbed the caps back, and cried until Samira lifted her onto her hip and spoke quietly.
+Youssef tried to pull her into games in the courtyard with the neighbor girl, Nadia. Khadija watched from a step, then went back inside. At two, she lined bottle caps along the edge of a rug and fixed them when someone nudged them out of place. If Youssef swept an arm through the row to tease her, she shouted "la," grabbed the caps back, and cried until Samira lifted her onto her hip and spoke quietly.
 
 Mohamed sat in the same corner of the living room each afternoon. Sometimes he handed her a date from the small bowl beside his cushion. She took it without looking up and ate it where she stood. When her grandmother caught her reaching for the sugar bowl, she froze, then slowly pushed it back without being told.
 
-In late 2025, evening prayer sounds from the neighborhood mosque. Khadija sits on the rug with her caps in a line, holding the same small cup, speaking the same few words.
+In early 2026, evening prayer sounds from the neighborhood mosque. Khadija sits on the rug with her caps in a line, holding the same small cup, speaking the same few words.
 
 <!--
 **Issues found:**

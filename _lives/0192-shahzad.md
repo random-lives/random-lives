@@ -293,17 +293,17 @@ continent: "Asia"
 
 Shahzad was born on 5 July 2018 in the dry uplands of Surab in Pakistan's Baluchistan, in a Pashtun household that prayed at the village mosque and lived by rainfed fields and a few animals. The state was Pakistan's, but daily authority sat with elders, landowners, and the men who controlled water turns and access to wage work. At home he heard Pashto; in shops and school he used Urdu.
 
-He was the second child. Amina, two years older, carried him on her hip when their mother, Gul Bibi, was busy with bread and tea and washing. Their father, Abdul Wahid, worked a small plot and took day labor when seed and diesel prices jumped. They lived in a household with Abdul Wahid's parents—his grandfather Haji Karim, who still held authority over family decisions, and his grandmother Bibi Shirin, who shared childcare and taught the children their prayers. Uncle Rahim, Abdul Wahid's brother, also lived under the same roof.
+He was the second child, after his sister Amina. Their mother, Gul Bibi, managed bread and tea and washing; their father, Abdul Wahid, worked a small plot and took day labor when seed and diesel prices jumped. They lived with Abdul Wahid's parents—Haji Karim, who held authority over family decisions, and Bibi Shirin, who shared childcare and taught the children their prayers—and his brother, Uncle Rahim.
 
 Shahzad learned early to bring back exact change. If a shopkeeper handed him too much, he pushed the notes back across the counter and waited until the count matched. When a cup broke, he said it plainly before anyone asked.
 
-The household grew. Maryam arrived in 2020, a quiet girl who followed Amina everywhere. Bilal came the next year, quick and loud, grabbing at everything within reach. By then fuel and flour were growing expensive. Drought thinned the pasture. Abdul Wahid argued with his brother Rahim about selling a goat.
+The household grew. Maryam arrived in 2020, quiet, following Amina everywhere. Bilal came the next year, quick and loud, grabbing at everything within reach. Fuel and flour were growing expensive. Drought thinned the pasture. Abdul Wahid argued with Rahim about selling a goat.
 
-Hamid was born in 2023, and Shahzad was old enough now to hold him, to fetch clean cloths, to run for Bibi Shirin when the baby cried. He took on more errands without complaint, carrying jugs from the tap, sweeping the courtyard, watching Hamid when the adults met visitors. In 2024 another sister, Zahra, lived only hours. After that Gul Bibi kept a tighter watch on fevers and coughs, and money went first to medicine.
+Hamid was born in 2023, and Shahzad was old enough to hold him, fetch clean cloths, run for Bibi Shirin when the baby cried. He carried jugs from the tap, swept the courtyard, watched Hamid when the adults met visitors. In 2024 another sister, Zahra, lived only hours. After that Gul Bibi kept a tighter watch on fevers, and money went first to medicine.
 
-School started that same year, after months when COVID closures had already made routines uncertain. Shahzad copied neatly from the blackboard and could write his name and numbers, but he stared at sentences and guessed at words. Ustad Nasir made him stand and read; Amina later sounded out the same lines with him at home, pointing under each word with a fingertip.
+School started that year. Shahzad copied neatly from the blackboard and could write his name and numbers, but he stared at sentences and guessed at words. Ustad Nasir made him stand and read; Amina sounded out the same lines with him at home, pointing under each word.
 
-In late 2025 he is seven. He sits in the men's room when guests come, quiet beside Haji Karim, who nods approvingly at his stillness. When the talk turns to prices and water, Shahzad slips outside to stack dung cakes by the wall. Later Amina checks his homework page, her finger tracing the letters he cannot quite hold in his head.
+In early 2026 he is seven. He sits in the men's room when guests come, quiet beside Haji Karim, who nods approvingly at his stillness. When the talk turns to prices and water, Shahzad slips outside to stack dung cakes by the wall. Later Amina checks his homework page, her finger tracing the letters he cannot quite hold in his head.
 
 <!--
 **Review date:** 2026-01-21

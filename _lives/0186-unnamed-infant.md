@@ -107,11 +107,11 @@ continent: "North America"
 
 In the high pine-oak country northwest of the Basin of Mexico, Otomí-speaking families farmed milpa fields under local lords who demanded labor and goods, and they traded in markets where Nahua speech carried weight. Tohi, a smallholder farmer, lived with his wife Nuxa in a one-room adobe house with a packed-earth floor, a hearth, and baskets of dried maize. Nuxa ground corn on a metate before dawn and walked to market with woven cloth and maguey fiber goods, speaking Otomí at home and enough Nahuatl to bargain.
 
-On February 21, 1432, Nuxa went into labor as cold air settled down from the ridges. A midwife from nearby houses came with a bundle of clean cloth, obsidian blades, and copal. The child was born male. His body showed a congenital defect that left him unable to live through the day. Tohi set a small clay bowl of water near the hearth and burned a pinch of copal; Nuxa pressed a bit of maize dough to the infant’s lips as a first offering.
+On February 21, 1432, Nuxa went into labor as cold air settled down from the ridges. A midwife from nearby houses came with a bundle of clean cloth, obsidian blades, and copal. The child was born male. His skull had not closed properly, the soft bone open and malformed at the top, and he did not cry or move with purpose. Tohi set a small clay bowl of water near the hearth and burned a pinch of copal; Nuxa pressed a bit of maize dough to the infant’s lips as a first offering.
 
 The household did not give him a public name before he died.
 
-Two days later they placed his small body in the ground at the edge of their plot, where field stones marked the boundary. Nuxa laid down a strip of woven cloth and a few kernels of maize; Tohi added a paper offering and a brief prayer learned in Nahuatl, then covered the grave with soil. Two years later Nuxa gave birth to a daughter who survived.
+Two days later they placed his small body in the ground at the edge of their plot, where field stones marked the boundary. Nuxa laid down a strip of woven cloth and a few kernels of maize; Tohi added a paper offering and a brief prayer learned in Nahuatl, then covered the grave with soil.
 
 <!--
 **Issues found:**

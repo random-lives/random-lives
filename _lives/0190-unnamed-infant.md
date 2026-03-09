@@ -210,9 +210,9 @@ continent: "Asia"
 # - M
 ---
 
-Sundarī’s household stood on the flat, wet fields near the Kosi’s channels in the Mithila country, where Eastern Indo-Aryan speech filled the lanes and a village headman answered upward to distant lords collecting revenue. Keshava farmed a small rented strip and took day wages when the work ran out. They lived in a joint compound under Dīnarāyaṇa's authority: Keshava's brother Bhola and his wife Phūlanī shared the same courtyard, and Jasodā ran the hearthside tasks. The women—Sundarī, Phūlanī, Jasodā—shared water-carrying, husking, and weeding.
+Sundarī’s household stood on the flat, wet fields near the Kosi’s channels in the Mithila country, where Eastern Indo-Aryan speech filled the lanes and a village headman answered upward to distant lords collecting revenue. Her husband Keshava farmed a small rented strip and took day wages when the work ran out. They lived in a joint compound under the authority of Keshava's father, with his younger brother and his wife sharing the same courtyard. Sundarī shared the water-carrying, husking, and weeding with her mother-in-law and sister-in-law.
 
-The births had come close together. Sītā, the first, had died at four and been buried in 1192. Mallikā had been born and lost in 1199. Three children lived: Rāmā, twelve years old and already working the ploughing teams; Gaurī, old enough to help Sundarī grind grain and watch smaller children; and Mādhava, a boy quick on errands between house and field.
+Sundarī had three living children: Rāmā, twelve years old and already working the ploughing teams; Gaurī, old enough to help Sundarī grind grain and watch smaller children; and Mādhava, a boy quick on errands between house and field. Their firstborn had died at four, almost a decade previously, while another infant had been born and lost in 1199. 
 
 On March 9, 1201, Nirmalā, an experienced village midwife, squatted beside Sundarī on the packed earth floor. Jasodā heated water and set a small lamp near the doorway. The labor dragged. Sundarī strained, and the baby came out limp. Nirmalā rubbed him hard and cleared his mouth; Keshava waited outside the room, listening for a cry that did not come.
 

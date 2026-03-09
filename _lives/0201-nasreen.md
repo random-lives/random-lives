@@ -448,13 +448,15 @@ In 2012, a bombing hit near a market road she used. She arrived soon after, thin
 
 Diabetes and high blood pressure were diagnosed in 2014. Dr. Farah told her to cut down on sweets and stop tobacco. Nasreen nodded, kept the paper, and asked Imran to read it aloud later because she did not like filling forms at the clinic. She followed the medicine schedule precisely for a week, then slipped back into old eating patterns when guests came or stress rose. She took her pills most days, though, counted them, and scolded the children if a bottle was moved. Her brother Naeem, who had more education than the rest of the family, lectured her about the tobacco when he visited. She listened politely, agreed with everything he said, and changed nothing.
 
-Her mother, Bibi Gul, died in 2016. Nasreen traveled to Peshawar for the funeral and sat with the women again, as she had for her father twelve years before. The house in Hayatabad felt smaller without her mother's voice in the kitchen. Nasreen returned to her own household and resumed her routines.
+Her mother, Bibi Gul, died in 2016. Nasreen traveled to Peshawar for the funeral and sat with the women again, as she had for her father twelve years before. The house in Hayatabad felt smaller without her mother's voice in the kitchen. Nasreen returned to her own household and resumed her routines. That same year Imran married. His wife moved in, and Nasreen taught her the kitchen the way Ana Bibi had once taught her—watching, correcting, pointing at the task until it was done right.
 
 By 2020 her eyesight blurred. She could no longer read fine print, not even the simple Urdu she once handled. Dr. Farah said the diabetes had reached her eyes. Imran, her eldest, became her reader—medicine labels, utility bills, official letters. He was patient but sometimes snapped when she asked him to read the same thing twice. Zara, her youngest daughter, learned to handle phone calls and appointment dates. Ayesha, who had always been her closest helper in the kitchen, resented how much was expected of her now that Nasreen could not see clearly. Bilal drifted further from the household, spending time with friends and coming home late. Nasreen worried about him most but kept her worry quiet, expressing it only through stricter rules when he was present. The loss of control irritated her; she responded by making more lists in her head, repeating instructions, checking the spice jars and the rice tin as if they might have shifted when she looked away.
 
-In 2025 she lives in the same KP town where she married, in a household that still feels joint even when people sleep under separate roofs. She prays, prepares food, and attends women's milad gatherings when her health allows, sitting against a wall with her dupatta pinned tight. She keeps naswar in the cupboard and thinks she hides it, though the children smell it. In the afternoon she sits where the light is strongest and asks Ayesha to read messages that arrive on a phone. When the call to maghrib comes, she stands carefully, checks the latch on the gate, and goes back to the small tasks that keep the house running.
+Ayesha married in 2021 and moved to her husband's family in Peshawar. Nasreen kept her face still during the rukhsati and gripped Zara's arm on the walk home. Imran's wife took over the kitchen work. Bilal married the following year, though he still spent more time out than Nasreen liked.
 
----
+In 2025 she lives in the same KP town where she married. Imran's children run through the courtyard, and she calls after them in the same voice she once used on her brothers. She prays, prepares food, and attends women's milad gatherings when her health allows, sitting against a wall with her dupatta pinned tight. She keeps naswar in the cupboard and thinks she hides it, though everyone smells it. In the afternoon she sits where the light is strongest and asks Zara to read messages on a phone. When the call to maghrib comes, she stands carefully, checks the latch on the gate, and goes back to the small tasks that keep the house running.
+
+<!---
 
 **Issues found:**
 - [Pass 3/4] Brothers Naeem and Jamal introduced at birth then disappeared entirely from narrative
@@ -477,3 +479,5 @@ In 2025 she lives in the same KP town where she married, in a household that sti
 - Changed "later in 2004" to "in late 2004"
 - Replaced "politics reached into ordinary courtyards" with concrete list
 - Replaced "center of gravity shifted" with concrete description of sons taking over decisions
+
+--->
