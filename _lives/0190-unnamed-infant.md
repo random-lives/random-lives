@@ -218,8 +218,7 @@ On March 9, 1201, Nirmalā, an experienced village midwife, squatted beside Sund
 
 The infant was a son. He never cried. Nirmalā kept rubbing, but the baby stayed limp and blue. He died before midday, unnamed. That evening Deva Miśra spoke brief Sanskrit over a pinch of rice and a spoon of ghee, and Dīnarāyaṇa carried the small body to the riverbank and set it into the moving water.
 
----
-
+<!--
 **Issues found:**
 - [Pass 2] Uncle Bhola and aunt Phūlanī missing from household description despite debug indicating joint/extended household
 - [Pass 14] "Rāmā, already a grown man" incorrect—he would be 12 in 1201
@@ -229,3 +228,4 @@ The infant was a son. He never cried. Nirmalā kept rubbing, but the baby stayed
 - Added Bhola and Phūlanī to household description, specifying women who share tasks
 - Changed Rāmā's description from "already a grown man who handled ploughing teams and bargaining with landlords" to "twelve years old and already working the ploughing teams"
 - Changed "Sītā, the first, lay in the ground since 1192" to "Sītā, the first, had died at four and been buried in 1192"
+-->

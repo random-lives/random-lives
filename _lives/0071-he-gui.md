@@ -460,6 +460,7 @@ Yan washed her body and wrapped it in the cloth Gui had woven years before. They
 
 **Review changelog (2026-01-20):**
 
+<!--
 **Issues found:**
 - [Pass 2] Uncle He Bo not introduced in birth household despite being co-resident
 - [Pass 2] Zhang De's father not mentioned in marriage household
@@ -487,3 +488,4 @@ Yan washed her body and wrapped it in the cloth Gui had woven years before. They
 - Made "support thinned" concrete: men no longer helping with harvest cutting
 - Removed names from one-appearance characters (Fajing → "a monk", Auntie Shen → "a local healer", Qin → "a local functionary")
 - Personalized ending: Yan washes and buries her mother, cloth Gui had woven, grave next to Zhang De
+-->

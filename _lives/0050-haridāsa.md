@@ -505,8 +505,7 @@ In 1145 Kamala died at twenty-nine, after an illness that left her too weak to s
 
 They carried his body to the cremation place by the water, laid him on a wood pyre, and performed the rites with ghee and a clay lamp; afterward, they offered rice balls and water for his ancestor path.
 
----
-
+<!--
 **Issues found:**
 - [Pass 4] Sibling listing felt mechanical and repetitive
 - [Pass 5] Padmā's death mentioned but impact as "social fixer" not shown
@@ -528,3 +527,4 @@ They carried his body to the cremation place by the water, laid him on a wood py
 - Changed "forced her face back to hard lines" to "her mouth twitched" (concrete)
 - Added specific ritual occasions: first ploughing, wedding processions
 - Rewrote old-age transition to show concrete change (leg stiffness, cost of anger) rather than abstract "tired of fighting"
+-->

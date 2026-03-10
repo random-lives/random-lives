@@ -331,8 +331,7 @@ Pilla remained in the same hamlet, still tied to the small field rights that had
 
 Her body was washed, wrapped in cloth, and carried out beyond the settlement to the burning ground. A small offering of cooked rice and sesame was placed for her, and the fire was tended until the last embers settled.
 
----
-
+<!--
 **Issues found:**
 - [Pass 1] 15-year gap (ages 17-33) with minimal content during married life
 - [Pass 2] Korra's mother mentioned once then vanished; Korra's brothers appeared from nowhere
@@ -362,3 +361,4 @@ Her body was washed, wrapped in cloth, and carried out beyond the settlement to 
 - Replaced abstract "Debt became a season of its own" with "Each year the debt rolled forward"
 - Added Soma bringing food at the end to maintain her presence
 - Changed date formats from "-49" to "49 BC" throughout for consistency
+-->

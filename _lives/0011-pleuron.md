@@ -493,8 +493,7 @@ The years after Lator's death were quieter. He gave up driving pigs by sixty-fiv
 
 His family prepared his body, bound it in cloth and hide, and carried him to the burial place near the grove. They poured beer onto the ground, left a piece of meat and a simple iron knife beside him, and covered him with earth.
 
----
-
+<!--
 **Review completed: All 14 passes**
 
 **Issues found:**
@@ -526,3 +525,4 @@ His family prepared his body, bound it in cloth and hide, and carried him to the
 - Rewrote iron tools paragraph opener
 - Fixed Scenon paragraph to remove redundancy and move "never married" to end
 - Clarified sibling deaths sequence: "A year after Varis" instead of "the years that followed"
+-->

@@ -410,8 +410,7 @@ By the early 1970s the children were grown and gone. Frances and Walter lived as
 
 A Catholic funeral Mass was held, and her body was buried in a cemetery plot with a simple marker bearing "Frances Mary." A rosary was placed in her hands before the coffin was closed.
 
----
-
+<!--
 **Issues found:**
 - [Pass 6] Skimming period mentioned but end point unclear—reader left wondering when/why it stopped
 - [Pass 7] Vaccines/antibiotics paragraph felt disconnected from Frances's life, more like historical aside
@@ -427,3 +426,4 @@ A Catholic funeral Mass was held, and her body was buried in a cemetery plot wit
 - Changed "ran the house and yard with a rope of routines" to "ran the house and yard on a schedule that never changed"
 - Changed "grew up in Evelyn's shadow" to "spent her early childhood following Evelyn, imitating her"
 - Made siblings' later lives more concrete (Joseph ran the farm, Helen tracked birthdays, Agnes attended Mass weekly, Bernice wore nice clothes)
+-->

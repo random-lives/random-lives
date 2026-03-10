@@ -432,8 +432,7 @@ During the COVID-19 lockdown in 2020, the market shut down and police chased ven
 
 By late 2025 Salma still lived in town, widowed, tall even when her shoulders slumped with age. She visited the dargah on Thursdays when she could, carrying a small cloth, incense, and sweets. She ran her stall in a reduced way now—more mending, fewer snacks—and let her sons handle bigger purchases. In the evening she sat near the doorway with a cup of tea she had made herself, calling out to passing neighbors, laughing at something Saba said, and then scolding a grandchild for stepping on a spool of thread.
 
----
-
+<!--
 **Review completed: January 2026**
 
 **Issues found:**
@@ -462,3 +461,4 @@ By late 2025 Salma still lived in town, widowed, tall even when her shoulders sl
 - Added historical context: Nizam's rule ended 1948, parents remembered the transition
 - Fixed figurative language: "heat stayed in the house even at night," "stall kept her going," "Religion was part of the day"
 - Changed ending: Bibi Jaan → Saba; "child" → "grandchild"
+-->

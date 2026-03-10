@@ -367,6 +367,7 @@ At sixteen he was still small, still quick, still talking, though the recurring 
 
 **Review completed**: 2026-01-16
 
+<!--
 **Issues found:**
 - [Pass 3] "four children" buried but only three listed (Pirwa, Mara, Arnuwi)
 - [Pass 3] Sibling ages inconsistent with debug data (Tiwati, Luli, Aruna)
@@ -390,3 +391,4 @@ At sixteen he was still small, still quick, still talking, though the recurring 
 - Added "Word came that the Great King in Hattusa wanted more grain, more wool, more labor"
 - Changed "kinswoman" to "her sister's house"
 - Improved death paragraph phrasing: "what a stronger body might have thrown off in days"
+-->

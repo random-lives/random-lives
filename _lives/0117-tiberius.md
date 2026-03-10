@@ -319,8 +319,7 @@ By 215, a sickness passed through the town and the fort area and touched the cou
 
 Early in 216, he returned to Priscus' house more steadily, boarding there again. His mother walked him partway on the road and turned back at the milestone. In late summer, as carts moved in and out and soldiers and traders crowded the roads, he caught a fever. It worsened over four days. He died on October 3, 216, in the settlement near the fort where he worked. Priscus paid for a simple cremation outside the settlement boundary; a small portion of the ash was placed in a jar, and Flavia Iusta set bread and a coin beside it before it was sealed. A message was sent to the farm.
 
----
-
+<!--
 **Issues found:**
 - [Pass 2] Flavia Iusta's relationship to Priscus unclear in narrative
 - [Pass 4] Materna only appeared at her death with no prior presence
@@ -345,3 +344,4 @@ Early in 216, he returned to Priscus' house more steadily, boarding there again.
 - Changed "Hartkirchen" to "the valleys south of the Danube"
 - Changed "sat on the same shelf" to "mixed with the Roman ones"
 - Reworded "He took pride in keeping the household from falling into arrears" to "The household had not fallen into arrears" (removes bolted-on pride statement)
+-->

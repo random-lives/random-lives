@@ -240,8 +240,7 @@ Feng died at seventy-six, when Lin Xin was seventy-eight. They had been married 
 
 Lin Xin died at eighty-seven from a sudden stroke. He was buried with offerings of grain and bronze coins near the family plot, and Yan led the rites for the ancestors.
 
----
-
+<!--
 **Issues found:**
 - [Pass 1] Son "Wu" mentioned dying at age 58 but never introduced as being born—inconsistent with established children list
 - [Pass 3] Lin Bao (older brother, mentor figure) disappears after introducing Xin to escort work; his death at 56 never mentioned
@@ -265,3 +264,5 @@ Lin Xin died at eighty-seven from a sudden stroke. He was buried with offerings 
 - Added detail to Feng's death (sixty years married) and Xin's final years
 - Replaced "rhythms of cultivation" with "turned to farming full-time"
 - Removed hedging "probably"—made pain causation direct
+
+-->

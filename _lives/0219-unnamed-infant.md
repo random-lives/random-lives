@@ -181,8 +181,7 @@ On September 22, 1041, his wife labored in the family room while Da-niang kept t
 
 Zhang Shi bought a strip of plain cloth and a small clay jar of wine. They wrapped the infant and buried him in a shallow grave at the edge of the family's land, set a bowl of millet and a few copper coins beside him, and lit incense at the ancestor tablets.
 
----
-
+<!--
 **Review changelog:**
 
 **Issues found:**
@@ -196,3 +195,4 @@ Zhang Shi bought a strip of plain cloth and a small clay jar of wine. They wrapp
 - Removed Er-lang and Si-lang names; described as "Two boys had died in infancy: one in 1023, another in 1033" - cleaner and serves same purpose
 - Minor: "a little millet" → "a bowl of millet" (more concrete); "on the family land's edge" → "at the edge of the family's land" (flows better)
 - Changed second reference to "Li Shi labored" → "his wife labored" for consistency after removing the formal name
+-->

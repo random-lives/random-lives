@@ -312,8 +312,7 @@ By 2024 she was preparing for the Teacher Eligibility Test, pushing toward a gov
 
 Now, in late 2025, she lives in that district town in a modest rented room, close enough to reach campus by bus without changing routes. She wakes early, makes instant coffee, and reads notes at the small table by the window before the street grows loud. Her phone is backed up. Her documents sit in a labeled folder. On weekends she meets Muthulakshmi for dosa and sambar at a familiar place near the stand, and they trade small complaints about crowds, deadlines, and the price of everything, then laugh at a joke they heard in class. She calls Shanthi most evenings, answers Ravichandran's practical questions, and waits for the test results that will decide what comes next.
 
----
-
+<!--
 **Issues found:**
 - [Pass 6] Assault escape was vague ("froze, then fought to get away")
 - [Pass 7] Religious drift content duplicated across two paragraphs
@@ -336,3 +335,4 @@ Now, in late 2025, she lives in that district town in a modest rented room, clos
 - Replaced "carried that sentence around like a permit" with "remembered it whenever her mother asked about temple visits"
 - Replaced "rode the ups and downs" with "faced good years and bad years"
 - Replaced "keeps moving toward the life she is building" with "waits for the test results that will decide what comes next"
+-->

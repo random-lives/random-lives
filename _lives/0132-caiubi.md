@@ -244,8 +244,7 @@ Anumã had buried a daughter, Potyra, the previous year, and she kept Caiubi clo
 
 On October 25, 921, during a busy morning at the water's edge, Caiubi slid from a resting mat while Guarí turned to answer a call. He tumbled into the shallows and drowned. Ibyra returned from hunting to find the camp already in mourning. The family washed the body, wrapped it in woven fiber, and buried it in soft ground near the settlement, with a pinch of food and tobacco placed beside it while Sairi chanted.
 
----
-
+<!--
 **Review changelog:**
 
 **Issues found:**
@@ -258,3 +257,4 @@ On October 25, 921, during a busy morning at the water's edge, Caiubi slid from 
 - Changed "several related adults" to specific list: "his parents, grandmother, and uncle"
 - Added father to death scene: "Ibyra returned from hunting to find the camp already in mourning"
 - Changed "did not recover" to "drowned" for directness
+-->
