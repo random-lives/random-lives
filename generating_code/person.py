@@ -131,6 +131,22 @@ def _hyde_indices(year):
     return (idx - 1, None)
 
 
+# Cache for precomputed cumulative birth weights (keyed by HYDE time index)
+_birth_cumsum_cache = {}
+
+def _sample_from_birth_map(idx):
+    """Sample a flat index from the birth map using cached cumulative sums."""
+    if idx not in _birth_cumsum_cache:
+        weights = _births_array[idx].ravel()
+        weights = np.nan_to_num(weights, 0)
+        weights = np.maximum(weights, 0)
+        cumsum = np.cumsum(weights)
+        _birth_cumsum_cache[idx] = cumsum
+    cumsum = _birth_cumsum_cache[idx]
+    r = np.random.random() * cumsum[-1]
+    return np.searchsorted(cumsum, r)
+
+
 # =============================================================================
 # Person Class
 # =============================================================================
@@ -138,8 +154,9 @@ def _hyde_indices(year):
 class Person:
     """A person from human history."""
 
-    def __init__(self, year):
+    def __init__(self, year, light=False):
         _ensure_data_loaded()
+        self._light = light
         self.birth_year = year
         self.birth_year_str = _format_year(year)
         self.sex = 'M' if np.random.random() < 0.512 else 'F'
@@ -217,12 +234,27 @@ class Person:
     def _init_holocene(self):
         """Initialize Holocene-specific attributes."""
         self.row, self.col = self._sample_holocene_location()
-        self.location = Location(self.row, self.col)
         self.region = None  # Use location instead
-        self.lifestyle = self._sample_lifestyle()
-        self.age_at_death = age_at_death(
-            self.location.country, self.birth_year, self.sex, self.lifestyle
-        )
+
+        if self._light:
+            # Lightweight mode: skip Location object, just get country/subregion
+            import location as _loc_mod
+            _loc_mod._ensure_light_data_loaded()
+            country_id = _loc_mod._iso_data[self.row, self.col]
+            country = _loc_mod._ID_to_country.get(country_id, 'Unknown')
+            isocode = int(_loc_mod._sub_iso_data[self.row, self.col])
+            subregion = _loc_mod._Subregion_ID.get(isocode, None)
+            self.location = type('LightLocation', (), {
+                'country': country, 'subregion': subregion
+            })()
+            self.lifestyle = 'Rural'
+            self.age_at_death = age_at_death(country, self.birth_year, self.sex, self.lifestyle)
+        else:
+            self.location = Location(self.row, self.col)
+            self.lifestyle = self._sample_lifestyle()
+            self.age_at_death = age_at_death(
+                self.location.country, self.birth_year, self.sex, self.lifestyle
+            )
 
     def _sample_paleo_region(self):
         """Sample region weighted by population at birth year."""
@@ -247,18 +279,8 @@ class Person:
     def _sample_holocene_location(self):
         """Sample grid cell weighted by births."""
         idx1, idx2 = _hyde_indices(self.birth_year)
-
-        if idx2 is None:
-            birth_map = _births_array[idx1]
-        else:
-            gap = _hyde_years[idx2] - _hyde_years[idx1]
-            w1 = (_hyde_years[idx2] - self.birth_year) / gap
-            birth_map = w1 * _births_array[idx1] + (1 - w1) * _births_array[idx2]
-
-        weights = birth_map.flatten()
-        weights = weights / weights.sum()
-        flat_idx = np.random.choice(len(weights), p=weights)
-        return np.unravel_index(flat_idx, birth_map.shape)
+        flat_idx = _sample_from_birth_map(idx1)
+        return np.unravel_index(flat_idx, _births_array[idx1].shape)
 
     def _sample_lifestyle(self):
         """Determine lifestyle (Urban, Rural, or Hunter-Gatherer)."""
@@ -454,6 +476,10 @@ def sample_year():
     return int(np.round(year))
 
 
-def sample_person():
-    """Sample a random person from all of human history."""
-    return Person(sample_year())
+def sample_person(light=False):
+    """Sample a random person from all of human history.
+
+    Args:
+        light: If True, skip expensive geocoding lookups (faster for bulk sampling).
+    """
+    return Person(sample_year(), light=light)

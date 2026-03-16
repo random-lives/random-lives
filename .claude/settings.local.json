@@ -61,7 +61,18 @@
       "Bash(node -e:*)",
       "Bash(pkill:*)",
       "Bash(while read -r line)",
-      "Bash(do echo \"$f: $line\")"
+      "Bash(do echo \"$f: $line\")",
+      "Bash(sysctl -n hw.ncpu)",
+      "Bash(sysctl -n hw.memsize)",
+      "WebFetch(domain:today.yougov.com)",
+      "WebFetch(domain:yougov.com)",
+      "WebFetch(domain:www.gallup-international.com)",
+      "WebFetch(domain:www.historysnob.com)",
+      "WebFetch(domain:www.oreateai.com)",
+      "WebFetch(domain:zenit.org)",
+      "WebFetch(domain:www.npr.org)",
+      "WebFetch(domain:en.wikipedia.org)",
+      "Bash(python3 -c \":*)"
     ],
     "deny": []
   }

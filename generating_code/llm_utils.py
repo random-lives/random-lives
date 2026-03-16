@@ -14,7 +14,6 @@ from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
 from langchain_core.callbacks import BaseCallbackHandler
 from langchain_anthropic import ChatAnthropic
 from langchain_openai import ChatOpenAI
-from langchain_google_vertexai import ChatVertexAI
 
 
 # Model name mappings
@@ -51,6 +50,7 @@ def get_client(model, timeout=300, **kwargs):
         return ChatOpenAI(model=model_name, timeout=timeout, **kwargs)
     # Google models
     elif model.startswith("gemini"):
+        from langchain_google_vertexai import ChatVertexAI
         return ChatVertexAI(model=model_name, timeout=timeout, **kwargs)
     else:
         raise ValueError(f"Unknown model: {model}")

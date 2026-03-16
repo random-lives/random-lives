@@ -61,12 +61,13 @@ _clim_vars = {
 }
 
 
-def _ensure_data_loaded():
-    """Load all geographic data files on first call. Subsequent calls are no-ops."""
-    global _data_loaded, _iso_data, _sub_iso_data, _max_land_area, _total_area
-    global _ID_to_country, _Subregion_ID, _ecoregions, _elevation, _clim_maps
+_light_data_loaded = False
 
-    if _data_loaded:
+def _ensure_light_data_loaded():
+    """Load only country/subregion data (fast). For light mode sampling."""
+    global _light_data_loaded, _iso_data, _sub_iso_data, _ID_to_country, _Subregion_ID
+
+    if _light_data_loaded:
         return
 
     # ISO country codes
@@ -82,15 +83,6 @@ def _ensure_data_loaded():
         cellsize = float(f.readline().split()[1])
         nodata = float(f.readline().split()[1])
         _sub_iso_data = np.loadtxt(f).reshape(nrows, ncols)
-
-    # Land area data
-    with rasterio.open('Raw_Data/HYDE34/general/maxln_cr.asc') as src:
-        _max_land_area = src.read(1)
-        _max_land_area = _max_land_area * (_max_land_area > 0)
-
-    with rasterio.open('Raw_Data/HYDE34/general/garea_cr.asc') as src:
-        _total_area = src.read(1)
-        _total_area = _total_area * (_max_land_area > 0)
 
     # Country ID mapping (loaded from processed data)
     import dill
@@ -109,6 +101,29 @@ def _ensure_data_loaded():
         for row in csvreader:
             _Subregion_ID[int(row[1])] = row[5]
     _Subregion_ID[-9999] = None
+
+    _light_data_loaded = True
+
+
+def _ensure_data_loaded():
+    """Load all geographic data files on first call. Subsequent calls are no-ops."""
+    global _data_loaded, _max_land_area, _total_area
+    global _ecoregions, _elevation, _clim_maps
+
+    if _data_loaded:
+        return
+
+    # Load light data first (country/subregion)
+    _ensure_light_data_loaded()
+
+    # Land area data
+    with rasterio.open('Raw_Data/HYDE34/general/maxln_cr.asc') as src:
+        _max_land_area = src.read(1)
+        _max_land_area = _max_land_area * (_max_land_area > 0)
+
+    with rasterio.open('Raw_Data/HYDE34/general/garea_cr.asc') as src:
+        _total_area = src.read(1)
+        _total_area = _total_area * (_max_land_area > 0)
 
     # Biome data
     _ecoregions = gpd.read_file('Raw_Data/Geography/wwf_eco/wwf_terr_ecos.shp')
@@ -177,7 +192,7 @@ class Location:
     - Elevation and climate data
     """
 
-    def __init__(self, row, col):
+    def __init__(self, row, col, light=False):
         _ensure_data_loaded()
         self.row = row
         self.col = col
@@ -188,7 +203,10 @@ class Location:
         self._get_latlon()
         self._get_country()
         self._get_subregion()
-        self._get_detailed_location()
+        if not light:
+            self._get_detailed_location()
+        else:
+            self.address = None
 
     def _get_latlon(self):
         """Convert grid coordinates to lat/lon."""

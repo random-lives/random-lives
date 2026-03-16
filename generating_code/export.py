@@ -86,6 +86,14 @@ COUNTRY_TO_CONTINENT = {
     'New Zealand': 'Oceania', 'Palau': 'Oceania', 'Papua New Guinea': 'Oceania',
     'Samoa': 'Oceania', 'Solomon Islands': 'Oceania', 'Tonga': 'Oceania',
     'Tuvalu': 'Oceania', 'Vanuatu': 'Oceania',
+
+    # Aliases and territories
+    'Congo': 'Africa', 'Democratic Republic of Congo': 'Africa',
+    'Czechia': 'Europe', 'East Timor': 'Asia', 'Hong Kong': 'Asia',
+    'French Guiana': 'South America', 'Reunion': 'Africa',
+    'Guadeloupe': 'North America', 'Martinique': 'North America',
+    'Puerto Rico': 'North America', 'United States Virgin Islands': 'North America',
+    'Montserrat': 'North America', 'New Caledonia': 'Oceania',
 }
 
 
