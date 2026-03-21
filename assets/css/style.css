@@ -1113,6 +1113,11 @@ nav a:hover {
   white-space: nowrap;
 }
 
+.post-content td:nth-child(3),
+.post-content td:nth-child(4) {
+  white-space: nowrap;
+}
+
 .post-content td:not(:first-child) {
   text-align: right;
 }
@@ -1138,6 +1143,31 @@ nav a:hover {
   font-weight: 400;
   font-size: 0.85em;
   color: #666;
+}
+
+.post-content th.sortable {
+  cursor: pointer;
+  user-select: none;
+}
+
+.post-content th.sortable:hover {
+  background: #e8e8e8;
+}
+
+#sensitivity-table th:nth-child(n+3):nth-child(-n+5),
+#sensitivity-table td:nth-child(n+3):nth-child(-n+5) {
+  width: 20%;
+}
+
+.post-content th.sortable::after {
+  content: ' ↓';
+  font-size: 0.8em;
+  color: #999;
+}
+
+.post-content th.sort-desc::after {
+  content: ' ↓';
+  color: #333;
 }
 
 .post-navigation {
