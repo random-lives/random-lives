@@ -333,7 +333,53 @@ There are three main sources of error.
 
 Modern figures (Hitler, Einstein, Michael Jackson) are pulled up under the low population scenario, and ancient figures (the Buddha, Confucius, John the Baptist) are pulled up under the high population scenario. But the effect is modest: no figure moves by more than two ranks, and the only change in the top 5 is that Jesus overtakes the Buddha under the low population estimate. There are other ways the demographics could vary—for instance, the relative size of India and China versus Europe matters for the Buddha-Jesus comparison—but overall the rankings are not very sensitive, probably because even for ancient figures, most of their recognition comes from people alive in the last few centuries.
 
-**LLM estimation error** is the hardest to quantify. When the probability is near zero, for instance because the person lived on the wrong continent, died too young, or because a figure was only recognisable to the literate, the model reproduces this. Likewise, the model is good at recognising near-certainties, like that every adult American has heard of Donald Trump. The real uncertainty is in the middle: figures with mixed or partial global reach, like Michael Jackson or Cristiano Ronaldo. If I had to guess, I'd say the model probably overrates these figures slightly, but I can't be sure: the model is in fact reasoning through the relevant considerations, including the kinds of errors it might make. The best way to improve this would be to collect real-world name-recognition data for even a handful of figures and calibrate the LLM against it, but I'll leave that for when GPT-7 can conduct its own fieldwork.
+**LLM estimation error** is the hardest to quantify. When the probability is near zero—because the person lived on the wrong continent, died too young, or because a figure was only recognisable to the literate—the model reproduces this. Likewise, the model is good at recognising near-certainties, like that every adult American has heard of Donald Trump. The real uncertainty is in the middle: figures with mixed or partial global reach, like Michael Jackson or Cristiano Ronaldo.
+
+We can do a crude sensitivity check by asking: what happens if we systematically scale every LLM probability estimate up or down? Specifically, we multiply each estimate's odds ratio by a factor—so a 1% estimate with a +20% bias becomes about 1.2%, while a 99% estimate becomes about 99.2%. (Technically, we apply the bias in log-odds space, which ensures the transformation is symmetric around 50% and keeps all probabilities between 0 and 1.) Here are the top 20 under ±20% bias:
+
+<table id="llm-bias-table">
+  <thead>
+    <tr>
+      <th rowspan="2">Rank</th>
+      <th rowspan="2">Person</th>
+      <th colspan="3">Recognition among all people (%)</th>
+      <th rowspan="2" class="sortable" data-col="5" data-table="llm-bias-table">Spread</th>
+    </tr>
+    <tr>
+      <th class="sortable" data-col="2" data-table="llm-bias-table">Odds −20%</th>
+      <th class="sortable" data-col="3" data-table="llm-bias-table">Baseline</th>
+      <th class="sortable" data-col="4" data-table="llm-bias-table">Odds +20%</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>The Buddha</td><td>20.51</td><td>21.94</td><td>23.06</td><td>+2.55</td></tr>
+    <tr><td>2</td><td>Jesus of Nazareth</td><td>20.72</td><td>21.46</td><td>22.05</td><td>+1.33</td></tr>
+    <tr><td>3</td><td>Muhammad</td><td>16.90</td><td>17.95</td><td>18.81</td><td>+1.91</td></tr>
+    <tr><td>4</td><td>The Virgin Mary</td><td>16.36</td><td>17.15</td><td>17.80</td><td>+1.44</td></tr>
+    <tr><td>5</td><td>Adolf Hitler</td><td>13.71</td><td>14.16</td><td>14.49</td><td>+0.78</td></tr>
+    <tr><td>6</td><td>Confucius</td><td>12.10</td><td>12.90</td><td>13.57</td><td>+1.46</td></tr>
+    <tr><td>7</td><td>John the Baptist</td><td>11.88</td><td>12.79</td><td>13.55</td><td>+1.67</td></tr>
+    <tr><td>8</td><td>Albert Einstein</td><td>12.04</td><td>12.60</td><td>13.04</td><td>+0.99</td></tr>
+    <tr><td>9</td><td>St Joseph</td><td>11.60</td><td>12.50</td><td>13.25</td><td>+1.66</td></tr>
+    <tr><td>10</td><td>Genghis Khan</td><td>10.97</td><td>12.02</td><td>12.90</td><td>+1.92</td></tr>
+    <tr><td>11</td><td>Michael Jackson</td><td>11.41</td><td>11.86</td><td>12.20</td><td>+0.79</td></tr>
+    <tr><td>12</td><td>Gandhi</td><td>10.92</td><td>11.57</td><td>12.08</td><td>+1.16</td></tr>
+    <tr><td>13</td><td>Walt Disney</td><td>10.41</td><td>11.04</td><td>11.53</td><td>+1.13</td></tr>
+    <tr><td>14</td><td>Queen Elizabeth II</td><td>10.14</td><td>10.81</td><td>11.33</td><td>+1.18</td></tr>
+    <tr><td>15</td><td>Alexander the Great</td><td>9.68</td><td>10.78</td><td>11.72</td><td>+2.03</td></tr>
+    <tr><td>16</td><td>Napoleon Bonaparte</td><td>9.94</td><td>10.76</td><td>11.43</td><td>+1.49</td></tr>
+    <tr><td>17</td><td>Osama Bin Laden</td><td>10.38</td><td>10.73</td><td>10.99</td><td>+0.61</td></tr>
+    <tr><td>18</td><td>Jackie Chan</td><td>10.16</td><td>10.67</td><td>11.06</td><td>+0.90</td></tr>
+    <tr><td>19</td><td>Cristiano Ronaldo</td><td>10.01</td><td>10.45</td><td>10.78</td><td>+0.77</td></tr>
+    <tr><td>20</td><td>Winston Churchill</td><td>9.63</td><td>10.36</td><td>10.92</td><td>+1.29</td></tr>
+  </tbody>
+</table>
+
+The spread column shows how sensitive each figure's estimate is to LLM calibration. Figures whose fame rests on many middling probabilities—the Buddha, Genghis Khan, Alexander the Great—are the most affected, with spreads above 1.9 points across the ±20% range. Figures whose fame comes from near-certain recognition in a well-defined population—Hitler, Michael Jackson, Osama Bin Laden—are the least affected, because pushing a 90% probability up or down by 20% of the odds barely changes it.
+
+The top 5 are stable across this range. The most interesting consequence is for the Buddha-Jesus race: Jesus overtakes the Buddha once the LLM overestimates odds by about 15%. This is because the Buddha's fame relies more on partial recognition across South and East Asia—many estimates in the 30–70% range where the bias has the most leverage—while Jesus's fame is more bimodal, either very high (Christian and post-colonial populations) or near zero. 
+
+If I had to guess, I'd say the model probably overrates recognition probabilities for pop culture figures like Michael Jackson or Cristiano Ronaldo. I can't be sure: the model is in fact reasoning through the relevant considerations, including the kinds of errors it might make. The best way to improve this would be to collect real-world name-recognition data for even a handful of figures and calibrate the LLM against it, but I'll leave that for when GPT-7 can conduct its own fieldwork.
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
@@ -372,5 +418,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
   setupSortable('full-table');
   setupSortable('sensitivity-table');
+  setupSortable('llm-bias-table');
 });
 </script>
