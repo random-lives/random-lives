@@ -17,6 +17,25 @@ generating_code/.ipynb_checkpoints/
 generating_code/.virtual_documents/
 generating_code/__pycache__/
 generating_code/Outputs/
+
+# BiggestPolities - large data files
+generating_code/BiggestPolities/*.geojson
+generating_code/BiggestPolities/*.zip
+generating_code/BiggestPolities/*.pkl
+generating_code/BiggestPolities/Seshat-Global-History-Databank-cliopatria-1f48563/
+generating_code/BiggestPolities/__pycache__/
+generating_code/BiggestPolities/.ipynb_checkpoints/
+
+# WhimsicalQuestions
+generating_code/WhimsicalQuestions/__pycache__/
+generating_code/WhimsicalQuestions/.ipynb_checkpoints/
+
+# BiggestEvents
+generating_code/BiggestEvents/__pycache__/
+generating_code/BiggestEvents/.ipynb_checkpoints/
+
+# General
+**/.DS_Store
 Claude.md
 CLAUDE.md
 .claude/worktrees/
