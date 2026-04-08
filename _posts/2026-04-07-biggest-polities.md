@@ -23,7 +23,7 @@ States also evolve over time in ways that make it hard to draw clean boundaries.
 
 Rather than try to resolve all these questions myself, I used the [Cliopatria dataset](https://www.nature.com/articles/s41597-025-04516-9)—a recently published set of ~15,000 historical polity polygons covering 3400 BCE to 2024. For each polity, I rasterized its polygon onto the [HYDE 3.4](https://essd.copernicus.org/articles/9/927/2017/) population grid and summed the population and births within it at each time step, interpolating between HYDE's 127 time steps to get annual values. Cliopatria generally splits rather than lumps: the Song Dynasty is divided into Northern and Southern Song, colonies are separate from their metropoles, and so on.
 
-## The rankings
+## The Rankings
 
 Here are rankings for the top 300 polities through history:
 
@@ -353,7 +353,7 @@ Sorting by peak population puts the Republic of India on top. Its current popula
 
 The top 10 polities account for just 18% of all people who ever lived. The median person was born in a state ranked 187th, the First Toungoo Empire, which at its peak in the 16th century was the dominant power in Southeast Asia with 8 million people. The top 300 polities together account for only 55% of all births, and the remaining 1,214 polities in the Cliopatria dataset add just 7% more. The remaining 38% were born in states too ancient or too poorly defined for Cliopatria to map, or pre-state hunter-gatherer and farming communities. 
 
-## Dynastic power
+## Dynastic Power
 
 The main table splits polities that shared a ruling family. The House of Hanover and its descendants ruled Britain, the Raj, and dozens of colonial possessions that appear as separate entries above. If we group by dynasty instead, which families come out on top?
 
@@ -438,7 +438,7 @@ The Spanish and Portuguese arrived in the Americas first, but despite this head 
 
 Japan, despite not being European, was the most successful latecomer. Within fifty years of being forcibly opened by the Americans in 1853, it had colonies in Korea, Taiwan, and Okinawa. Germany and Italy, by contrast, acquired little and soon lost all in the world wars. The Dutch and Belgian empires were each built on a single colony—the East Indies and the Congo—that dwarfed the home country in population.
 
-## Appendix: Population over time
+## Appendix: Population Over Time
 
 The chart below shows population over time for the top 100 polities, combining the HYDE population maps with the Cliopatria polity boundaries. All of these estimates are subject to substantial uncertainty, particularly for any pre-modern polity.
 
