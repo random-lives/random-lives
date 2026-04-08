@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What were the biggest states in history?"
+title: What was the biggest state?
 date: 2026-04-07
 permalink: /blog/biggest-polities/
 published: true
