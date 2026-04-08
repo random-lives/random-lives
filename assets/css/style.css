@@ -1046,6 +1046,12 @@ nav a:hover {
   margin-bottom: 1.4rem;
 }
 
+.post-content ol, .post-content ul {
+  padding-left: 2em;
+  margin-top: -0.5rem;
+  margin-bottom: 1.4rem;
+}
+
 .post-content h2 {
   font-size: 1.5rem;
   font-weight: 600;
