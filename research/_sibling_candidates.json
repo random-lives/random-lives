@@ -1,0 +1,845 @@
+[
+  {
+    "file": "0017-unnamed-infant.md",
+    "prot_birth": 525,
+    "prot_birth_str": "525 AD",
+    "prot_death_str": "525 AD",
+    "age_at_death": "0",
+    "span": 24,
+    "worst_gap": -25,
+    "siblings": [
+      {
+        "name": "Da-lang",
+        "sex": "M",
+        "birth_year": 500,
+        "death_year": 524,
+        "death_age": 24,
+        "role": "Firstborn son; remembered as the capable older brother who had already taken on adult work and obligations. His recent d"
+      },
+      {
+        "name": "Er-niang",
+        "sex": "F",
+        "birth_year": 509,
+        "death_year": 515,
+        "death_age": 6,
+        "role": "A sister who died in early childhood; more a presence in family stories and rituals than in living memory for the younge"
+      },
+      {
+        "name": "San-lang",
+        "sex": "M",
+        "birth_year": 511,
+        "death_year": 553,
+        "death_age": 42,
+        "role": "Adult in the making at 14 when the protagonist is born; an older-brother figure who helps with heavy labor and errands. "
+      },
+      {
+        "name": "Si-niang",
+        "sex": "F",
+        "birth_year": 516,
+        "death_year": 535,
+        "death_age": 19,
+        "role": "A teenage sister (about 9 at the protagonist’s birth) who helps the mother with childcare and household tasks; part play"
+      },
+      {
+        "name": "Wu-lang",
+        "sex": "M",
+        "birth_year": 522,
+        "death_year": 522,
+        "death_age": 0,
+        "role": "An infant brother who died the year of birth; invoked as a recent warning about frailty in newborns. His short life like"
+      },
+      {
+        "name": "Liu-lang",
+        "sex": "M",
+        "birth_year": 524,
+        "death_year": 604,
+        "death_age": 80,
+        "role": "Closest-in-age older brother (about 1 at the protagonist’s birth). Too young to understand, but in family memory he beco"
+      }
+    ]
+  },
+  {
+    "file": "0031-eirēnē.md",
+    "prot_birth": -4,
+    "prot_birth_str": "5 BC",
+    "prot_death_str": "4 BC",
+    "age_at_death": "1",
+    "span": 57,
+    "worst_gap": -59,
+    "siblings": [
+      {
+        "name": "Dionysios",
+        "sex": "M",
+        "birth_year": -63,
+        "death_year": -4,
+        "death_age": 59,
+        "role": "Much-older brother, effectively a second father figure in the household economy; as a grown man by the time Eirēnē was b"
+      },
+      {
+        "name": "Philōn",
+        "sex": "M",
+        "birth_year": -6,
+        "death_year": -6,
+        "death_age": 0,
+        "role": "Immediate older brother who died in infancy before Eirēnē was born; his brief life would have shaped parental anxiety an"
+      }
+    ]
+  },
+  {
+    "file": "0042-alo.md",
+    "prot_birth": -140,
+    "prot_birth_str": "141 BC",
+    "prot_death_str": "141 BC",
+    "age_at_death": "0",
+    "span": 0,
+    "worst_gap": -22,
+    "siblings": [
+      {
+        "name": "Lia",
+        "sex": "F",
+        "birth_year": -162,
+        "death_year": -141,
+        "death_age": 21,
+        "role": "Older sister, about 21 years older; functionally a young-adult helper in the household. She would have been present at A"
+      }
+    ]
+  },
+  {
+    "file": "0046-walwata.md",
+    "prot_birth": -1314,
+    "prot_birth_str": "1315 BC",
+    "prot_death_str": "1314 BC",
+    "age_at_death": "0",
+    "span": 22,
+    "worst_gap": -22,
+    "siblings": [
+      {
+        "name": "Tarpawi",
+        "sex": "M",
+        "birth_year": -1336,
+        "death_year": -1336,
+        "death_age": 0,
+        "role": "Firstborn who died in infancy; remembered through family grief and ritual language more than personal memory. His existe"
+      },
+      {
+        "name": "Maliya",
+        "sex": "F",
+        "birth_year": -1334,
+        "death_year": -1334,
+        "death_age": 0,
+        "role": "An early infant loss; her name would be spoken in quiet remembrance during household offerings. Helped set a pattern of "
+      },
+      {
+        "name": "Tarhuntiya",
+        "sex": "M",
+        "birth_year": -1332,
+        "death_year": -1261,
+        "death_age": 71,
+        "role": "Much older brother, already a capable youth/young worker when Walwata was born. A steady presence in the courtyard—pract"
+      },
+      {
+        "name": "Piyama",
+        "sex": "M",
+        "birth_year": -1330,
+        "death_year": -1322,
+        "death_age": 8,
+        "role": "Closest of the older brothers in age to Walwata’s immediate household bustle (still a child when she was born). Likely c"
+      },
+      {
+        "name": "Runtiya",
+        "sex": "M",
+        "birth_year": -1328,
+        "death_year": -1254,
+        "death_age": 74,
+        "role": "Older brother in late childhood/early adolescence at Walwata’s birth; likely involved in herding and transport tasks. In"
+      },
+      {
+        "name": "Kubabi",
+        "sex": "F",
+        "birth_year": -1326,
+        "death_year": -1326,
+        "death_age": 0,
+        "role": "Another infant who did not survive; her brief life reinforced intensified protective rites (amulets, blessings, extra of"
+      },
+      {
+        "name": "Zidanta",
+        "sex": "M",
+        "birth_year": -1324,
+        "death_year": -1285,
+        "death_age": 39,
+        "role": "Older brother likely in early teens at Walwata’s birth—old enough to be entrusted with real work (animals, loads, messag"
+      },
+      {
+        "name": "Walwata",
+        "sex": "F",
+        "birth_year": -1314,
+        "death_year": -1313,
+        "death_age": 0,
+        "role": "Youngest child; her brief life concentrated the household’s attention—especially women’s caretaking and protective rites"
+      }
+    ]
+  },
+  {
+    "file": "0055-asha.md",
+    "prot_birth": 14,
+    "prot_birth_str": "14 AD",
+    "prot_death_str": "14 AD",
+    "age_at_death": "0",
+    "span": 10,
+    "worst_gap": -34,
+    "siblings": [
+      {
+        "name": "Tama",
+        "sex": "M",
+        "birth_year": -16,
+        "death_year": 8,
+        "death_age": 24,
+        "role": "Eldest brother; by the time Asha was born he was a grown man with adult responsibilities (field labor, herding, route er"
+      },
+      {
+        "name": "Bima",
+        "sex": "M",
+        "birth_year": -10,
+        "death_year": 23,
+        "death_age": 33,
+        "role": "Second brother; an adult at Asha's birth, often present in the household economy and in dealings outside the homestead. "
+      },
+      {
+        "name": "Sumi",
+        "sex": "F",
+        "birth_year": -20,
+        "death_year": 37,
+        "death_age": 57,
+        "role": "Older sister; substantially older than Asha and likely already managing heavy domestic work (textiles, food processing, "
+      }
+    ]
+  },
+  {
+    "file": "0062-kanu.md",
+    "prot_birth": -2769,
+    "prot_birth_str": "2770 BC",
+    "prot_death_str": "2754 BC",
+    "age_at_death": "16",
+    "span": 30,
+    "worst_gap": -22,
+    "siblings": [
+      {
+        "name": "Darol",
+        "sex": "M",
+        "birth_year": -2791,
+        "death_year": -2769,
+        "death_age": 22,
+        "role": "Oldest brother; a capable near-adult provider when Kanu is small. Alternates between protective mentoring (teaches track"
+      },
+      {
+        "name": "Suna",
+        "sex": "F",
+        "birth_year": -2788,
+        "death_year": -2786,
+        "death_age": 2,
+        "role": "Older sister who dies in early childhood; remembered mostly through family ritual talk and a few objects (a small corded"
+      },
+      {
+        "name": "Kanu",
+        "sex": "M",
+        "birth_year": -2769,
+        "death_year": -2753,
+        "death_age": 16,
+        "role": "Protagonist; bright, curious, sharp-eyed, but tense and quick to assume danger. A junior hunter-fisher-forager who later"
+      },
+      {
+        "name": "Nari",
+        "sex": "F",
+        "birth_year": -2766,
+        "death_year": -2745,
+        "death_age": 21,
+        "role": "Younger sister; sociable and steady, often mediates between Kanu and others when he gets prickly. Her later (post-Kanu) "
+      },
+      {
+        "name": "Mugin",
+        "sex": "M",
+        "birth_year": -2761,
+        "death_year": -2695,
+        "death_age": 66,
+        "role": "Youngest brother; born when Kanu is already a boy. Kanu helps watch him and resents the responsibility at times. Represe"
+      }
+    ]
+  },
+  {
+    "file": "0063-felipe.md",
+    "prot_birth": 1737,
+    "prot_birth_str": "1737 AD",
+    "prot_death_str": "1738 AD",
+    "age_at_death": "0",
+    "span": 63,
+    "worst_gap": -79,
+    "siblings": [
+      {
+        "name": "Juan",
+        "sex": "M",
+        "birth_year": 1658,
+        "death_year": 1737,
+        "death_age": 79,
+        "role": "Much older brother—old enough to feel like a second father or grandfather figure. Likely an established household head i"
+      },
+      {
+        "name": "Antonio",
+        "sex": "M",
+        "birth_year": 1665,
+        "death_year": 1737,
+        "death_age": 72,
+        "role": "Older brother of similar generation to Juan, also far older than Felipe. More like an uncle/secondary patriarch than a p"
+      },
+      {
+        "name": "María",
+        "sex": "F",
+        "birth_year": 1721,
+        "death_year": 1738,
+        "death_age": 17,
+        "role": "Closest-in-age sibling and the most direct day-to-day presence. As a teenage sister she likely helped with childcare—roc"
+      }
+    ]
+  },
+  {
+    "file": "0108-sina.md",
+    "prot_birth": -6302,
+    "prot_birth_str": "6303 BC",
+    "prot_death_str": "6301 BC",
+    "age_at_death": "1",
+    "span": 33,
+    "worst_gap": -24,
+    "siblings": [
+      {
+        "name": "Aka",
+        "sex": "F",
+        "birth_year": -6326,
+        "death_year": -6326,
+        "death_age": 0,
+        "role": "A first baby lost long before Sina; remembered mostly through the mother's occasional, quiet references—more a shadow in"
+      },
+      {
+        "name": "Mira",
+        "sex": "F",
+        "birth_year": -6323,
+        "death_year": -6264,
+        "death_age": 59,
+        "role": "Oldest living sister at Sina’s birth; a steady helper around camp—carrying water, minding smaller children, and later sp"
+      },
+      {
+        "name": "Taki",
+        "sex": "M",
+        "birth_year": -6320,
+        "death_year": -6276,
+        "death_age": 44,
+        "role": "An adult brother by the time Sina was born; often away with men on hunting trips, but part of the protective circle arou"
+      },
+      {
+        "name": "Nali",
+        "sex": "F",
+        "birth_year": -6317,
+        "death_year": -6244,
+        "death_age": 73,
+        "role": "A grown sister and eventual matriarch figure; she would have handled babies confidently, and later carried the story of "
+      },
+      {
+        "name": "Raku",
+        "sex": "M",
+        "birth_year": -6314,
+        "death_year": -6300,
+        "death_age": 14,
+        "role": "An older boy/young teen when Sina was an infant—old enough to be tasked with watching small children at the edge of camp"
+      },
+      {
+        "name": "Kuna",
+        "sex": "M",
+        "birth_year": -6311,
+        "death_year": -6249,
+        "death_age": 62,
+        "role": "A young man at Sina’s birth; likely affectionate in brief moments (a touch on the head, bringing a small treat) but most"
+      },
+      {
+        "name": "Luma",
+        "sex": "M",
+        "birth_year": -6304,
+        "death_year": -6304,
+        "death_age": 0,
+        "role": "The baby immediately before Sina, lost in infancy; his recent death would have made Sina’s mother and older sisters anxi"
+      },
+      {
+        "name": "Sina",
+        "sex": "F",
+        "birth_year": -6302,
+        "death_year": -6300,
+        "death_age": 1,
+        "role": "Eighth child, born into a large, competent household; briefly the center of daily care before dying in an accident—her m"
+      },
+      {
+        "name": "Pana",
+        "sex": "M",
+        "birth_year": -6299,
+        "death_year": -6299,
+        "death_age": 0,
+        "role": "A younger brother born after Sina’s death and also lost in infancy; part of a painful cluster of baby deaths that older "
+      },
+      {
+        "name": "Sari",
+        "sex": "F",
+        "birth_year": -6296,
+        "death_year": -6260,
+        "death_age": 36,
+        "role": "Younger sister born later; she grew up hearing Sina’s name as an absence—someone she was compared to only in the sense o"
+      },
+      {
+        "name": "Ima",
+        "sex": "M",
+        "birth_year": -6293,
+        "death_year": -6293,
+        "death_age": 0,
+        "role": "Youngest brother, also lost as a newborn/infant; his short life reinforced the household’s sense that babies were fragil"
+      }
+    ]
+  },
+  {
+    "file": "0126-kanu.md",
+    "prot_birth": -1497,
+    "prot_birth_str": "1498 BC",
+    "prot_death_str": "1494 BC",
+    "age_at_death": "3",
+    "span": 14,
+    "worst_gap": -51,
+    "siblings": [
+      {
+        "name": "Sali",
+        "sex": "F",
+        "birth_year": -1534,
+        "death_year": -1497,
+        "death_age": 37,
+        "role": "Oldest sister; by Kanu’s toddler years she is a competent adolescent helper who does real work (watching him near the he"
+      },
+      {
+        "name": "Mina",
+        "sex": "F",
+        "birth_year": -1548,
+        "death_year": -1493,
+        "death_age": 55,
+        "role": "Middle sister; a young adult already contributing heavily to household production (grinding, carrying water, tending sma"
+      }
+    ]
+  },
+  {
+    "file": "0133-phuntsok.md",
+    "prot_birth": 1868,
+    "prot_birth_str": "1868 AD",
+    "prot_death_str": "1869 AD",
+    "age_at_death": "1",
+    "span": 40,
+    "worst_gap": -65,
+    "siblings": [
+      {
+        "name": "Tsering",
+        "sex": "M",
+        "birth_year": 1803,
+        "death_year": 1869,
+        "death_age": 66,
+        "role": "Much older brother—closer in age to an uncle than a playmate. In the stem household he would have been an experienced he"
+      },
+      {
+        "name": "Drolma",
+        "sex": "F",
+        "birth_year": 1823,
+        "death_year": 1868,
+        "death_age": 45,
+        "role": "Older sister in midlife—an adult household worker who likely managed much of the daily domestic rhythm (dairy, cooking, "
+      },
+      {
+        "name": "Pema",
+        "sex": "F",
+        "birth_year": 1843,
+        "death_year": 1868,
+        "death_age": 25,
+        "role": "Older sister, young adult. Likely a primary hands-on helper for an infant—warming him, carrying him while work was done,"
+      }
+    ]
+  },
+  {
+    "file": "0139-sin-uballit.md",
+    "prot_birth": -489,
+    "prot_birth_str": "490 BC",
+    "prot_death_str": "490 BC",
+    "age_at_death": "0",
+    "span": 48,
+    "worst_gap": -43,
+    "siblings": [
+      {
+        "name": "Belesunu",
+        "sex": "F",
+        "birth_year": -525,
+        "death_year": -499,
+        "death_age": 26,
+        "role": "Eldest sister; old enough to be a steady helper in the household—carrying water, minding younger children, and later tak"
+      },
+      {
+        "name": "Amat-Sin",
+        "sex": "F",
+        "birth_year": -532,
+        "death_year": -491,
+        "death_age": 41,
+        "role": "Second child, significantly older than Sîn-uballiṭ; effectively a young-adult woman by the time of his birth (marriageab"
+      },
+      {
+        "name": "Sin-uballit",
+        "sex": "M",
+        "birth_year": -489,
+        "death_year": -489,
+        "death_age": 0,
+        "role": "Protagonist; third-born, first son after two daughters. Lived about two weeks; his brief life became a focal point for t"
+      },
+      {
+        "name": "Nabu-iddina",
+        "sex": "M",
+        "birth_year": -488,
+        "death_year": -488,
+        "death_age": 0,
+        "role": "Younger brother born after Sîn-uballiṭ; another neonatal loss that reinforced the household’s expectation that births co"
+      },
+      {
+        "name": "Bel-uballit",
+        "sex": "M",
+        "birth_year": -487,
+        "death_year": -438,
+        "death_age": 49,
+        "role": "Younger brother who survived to adulthood; became the household’s main male successor after repeated infant losses. Not "
+      },
+      {
+        "name": "Shamash-iddina",
+        "sex": "M",
+        "birth_year": -486,
+        "death_year": -486,
+        "death_age": 0,
+        "role": "Another younger brother who died as an infant; part of a cluster of early deaths that likely kept the family in a cycle "
+      },
+      {
+        "name": "Marduk-nasir",
+        "sex": "M",
+        "birth_year": -485,
+        "death_year": -485,
+        "death_age": 0,
+        "role": "Younger brother, neonatal death; one more loss that made the surviving children feel both precious and vulnerable. Not a"
+      },
+      {
+        "name": "Sin-iddina",
+        "sex": "M",
+        "birth_year": -484,
+        "death_year": -484,
+        "death_age": 0,
+        "role": "Youngest brother, died in infancy; the final infant loss in the sequence. His death closed the period of repeated neonat"
+      }
+    ]
+  },
+  {
+    "file": "0144-yin-niang.md",
+    "prot_birth": 1263,
+    "prot_birth_str": "1263 AD",
+    "prot_death_str": "1263 AD",
+    "age_at_death": "0",
+    "span": 27,
+    "worst_gap": -22,
+    "siblings": [
+      {
+        "name": "Da-ge",
+        "sex": "M",
+        "birth_year": 1241,
+        "death_year": 1282,
+        "death_age": 41,
+        "role": "Eldest brother; already a grown young man when Yin-niang was born. Likely helped the father with heavier farm work and r"
+      },
+      {
+        "name": "Er-ge",
+        "sex": "M",
+        "birth_year": 1243,
+        "death_year": 1326,
+        "death_age": 83,
+        "role": "Second brother; near-adult in 1263 and likely the long-lived pillar of the sibling line. Alive at her birth; would remem"
+      },
+      {
+        "name": "San-ge",
+        "sex": "M",
+        "birth_year": 1245,
+        "death_year": 1298,
+        "death_age": 53,
+        "role": "Third brother; a teenager/young man at Yin-niang's birth. Alive at her birth. Would have been part of the labor pool and"
+      },
+      {
+        "name": "Si-ge",
+        "sex": "M",
+        "birth_year": 1247,
+        "death_year": 1267,
+        "death_age": 20,
+        "role": "Fourth brother; mid-to-late teens in 1263. Alive at her birth but died only a few years later, adding another early loss"
+      },
+      {
+        "name": "Wu-ge",
+        "sex": "M",
+        "birth_year": 1249,
+        "death_year": 1249,
+        "death_age": 0,
+        "role": "Fifth brother; died as an infant long before Yin-niang was born. His earlier death likely shaped parental anxiety and pr"
+      },
+      {
+        "name": "Da-jie",
+        "sex": "F",
+        "birth_year": 1250,
+        "death_year": 1327,
+        "death_age": 77,
+        "role": "Older sister; a young adolescent (about 13) when Yin-niang was born. Alive at her birth. Likely helped the mother with c"
+      },
+      {
+        "name": "Yin-niang",
+        "sex": "F",
+        "birth_year": 1263,
+        "death_year": 1263,
+        "death_age": 0,
+        "role": "Premature newborn girl who lived only hours; her brief life is experienced through the household’s response—women’s care"
+      },
+      {
+        "name": "Er-jie",
+        "sex": "F",
+        "birth_year": 1266,
+        "death_year": 1272,
+        "death_age": 6,
+        "role": "Younger sister; born after Yin-niang and died in early childhood. Not alive at Yin-niang’s birth. Her later short life w"
+      },
+      {
+        "name": "San-jie",
+        "sex": "F",
+        "birth_year": 1268,
+        "death_year": 1308,
+        "death_age": 40,
+        "role": "Youngest sister; born after Yin-niang. Not alive at Yin-niang’s birth. Would grow up hearing of the lost infant sister a"
+      }
+    ]
+  },
+  {
+    "file": "0200-kira.md",
+    "prot_birth": -2107,
+    "prot_birth_str": "2108 BC",
+    "prot_death_str": "2108 BC",
+    "age_at_death": "0",
+    "span": 26,
+    "worst_gap": -24,
+    "siblings": [
+      {
+        "name": "Tali",
+        "sex": "F",
+        "birth_year": -2131,
+        "death_year": -2107,
+        "death_age": 24,
+        "role": "Much older sister—already doing near-adult work (hauling water, minding small children, helping at the hearth and with c"
+      },
+      {
+        "name": "Juna",
+        "sex": "M",
+        "birth_year": -2112,
+        "death_year": -2110,
+        "death_age": 2,
+        "role": "Older brother who died in toddlerhood a couple of years before Kira’s birth. Remembered indirectly through the mother’s "
+      },
+      {
+        "name": "Kira",
+        "sex": "F",
+        "birth_year": -2107,
+        "death_year": -2107,
+        "death_age": 0,
+        "role": "Third child; died within days from birth complications/asphyxia. The household’s rituals focused on immediate protection"
+      },
+      {
+        "name": "Ami",
+        "sex": "F",
+        "birth_year": -2106,
+        "death_year": -2106,
+        "death_age": 0,
+        "role": "Younger sister born after Kira; another newborn loss. Her death would have compounded the sense that the household was b"
+      },
+      {
+        "name": "Nira",
+        "sex": "F",
+        "birth_year": -2105,
+        "death_year": -2102,
+        "death_age": 3,
+        "role": "Youngest sister; survived infancy but died as a small child. For the brief overlap she would have been the focus of the "
+      }
+    ]
+  },
+  {
+    "file": "0219-unnamed-infant.md",
+    "prot_birth": 1041,
+    "prot_birth_str": "1041 AD",
+    "prot_death_str": "1041 AD",
+    "age_at_death": "0",
+    "span": 26,
+    "worst_gap": -24,
+    "siblings": [
+      {
+        "name": "Da-niang",
+        "sex": "F",
+        "birth_year": 1017,
+        "death_year": 1041,
+        "death_age": 24,
+        "role": "Eldest sister. A steady household helper who had already taken on adult responsibilities (spinning, childcare, field hel"
+      },
+      {
+        "name": "Er-lang",
+        "sex": "M",
+        "birth_year": 1023,
+        "death_year": 1023,
+        "death_age": 0,
+        "role": "Second child, a boy who died as a newborn. In family memory he would be an unnamed/briefly-named loss, often referenced "
+      },
+      {
+        "name": "San-lang",
+        "sex": "M",
+        "birth_year": 1026,
+        "death_year": 1057,
+        "death_age": 31,
+        "role": "Third child and oldest surviving son at the time. As a teenager in 1041, he would have been doing heavy farm work and er"
+      },
+      {
+        "name": "Si-lang",
+        "sex": "M",
+        "birth_year": 1033,
+        "death_year": 1033,
+        "death_age": 0,
+        "role": "Fourth child, another newborn death. Reinforces a pattern of perinatal loss in the family; likely influenced the mother’"
+      },
+      {
+        "name": "(protagonist)",
+        "sex": "M",
+        "birth_year": 1041,
+        "death_year": 1041,
+        "death_age": 0,
+        "role": "Fifth child, born and died the same day from acute neonatal infection. Remembered through a small burial and household r"
+      },
+      {
+        "name": "Xiao-niang",
+        "sex": "F",
+        "birth_year": 1043,
+        "death_year": 1047,
+        "death_age": 4,
+        "role": "Youngest sister, born after the protagonist’s death. Her short life (to age 4) would later be folded into the same famil"
+      }
+    ]
+  },
+  {
+    "file": "0224-salma.md",
+    "prot_birth": 1349,
+    "prot_birth_str": "1349 AD",
+    "prot_death_str": "1352 AD",
+    "age_at_death": "2",
+    "span": 30,
+    "worst_gap": -33,
+    "siblings": [
+      {
+        "name": "Yusuf",
+        "sex": "M",
+        "birth_year": 1316,
+        "death_year": 1316,
+        "death_age": 0,
+        "role": "Remembered only as 'the first baby who didn’t live'; invoked in women’s talk about bad luck and fragile infants."
+      },
+      {
+        "name": "Hasan",
+        "sex": "M",
+        "birth_year": 1318,
+        "death_year": 1318,
+        "death_age": 0,
+        "role": "Another lost infant; part of the household’s background fear of babies ‘fading’ before they take well to milk/food."
+      },
+      {
+        "name": "Ibrahim",
+        "sex": "M",
+        "birth_year": 1322,
+        "death_year": 1378,
+        "death_age": 56,
+        "role": "Much older working-age brother; a steady presence who brings scraps of food and sometimes lifts Salma up to quiet her."
+      },
+      {
+        "name": "Musa",
+        "sex": "M",
+        "birth_year": 1326,
+        "death_year": 1326,
+        "death_age": 0,
+        "role": "A name said softly in prayers; reinforces the mother’s vigilance and anxiety around illness."
+      },
+      {
+        "name": "Umar",
+        "sex": "M",
+        "birth_year": 1331,
+        "death_year": 1331,
+        "death_age": 0,
+        "role": "Another baby lost; older women use his memory to justify protective charms and strict weaning habits."
+      },
+      {
+        "name": "Zahra",
+        "sex": "F",
+        "birth_year": 1334,
+        "death_year": 1388,
+        "death_age": 54,
+        "role": "Adult sister; closest consistent female helper. She supervises Salma while the mother works and scolds her when she snat"
+      },
+      {
+        "name": "Karim",
+        "sex": "M",
+        "birth_year": 1346,
+        "death_year": 1371,
+        "death_age": 25,
+        "role": "Teen/young adult brother; playful but impatient. Teases Salma, makes her laugh, then startle-cry when he disappears."
+      }
+    ]
+  },
+  {
+    "file": "0231-unnamed-infant.md",
+    "prot_birth": -3000,
+    "prot_birth_str": "3001 BC",
+    "prot_death_str": "3001 BC",
+    "age_at_death": "0",
+    "span": 21,
+    "worst_gap": -45,
+    "siblings": [
+      {
+        "name": "Older Brother",
+        "sex": "M",
+        "birth_year": -3045,
+        "death_year": -3000,
+        "death_age": 45,
+        "role": "Eldest sibling, much older (about a generation gap). At the time of the protagonist’s birth he was a fully adult man—an "
+      },
+      {
+        "name": "Older Sister",
+        "sex": "F",
+        "birth_year": -3024,
+        "death_year": -3000,
+        "death_age": 24,
+        "role": "Middle child and the closest in age. At the time of the birth she was a young adult woman, likely deeply involved in day"
+      }
+    ]
+  },
+  {
+    "file": "0240-sana.md",
+    "prot_birth": -60200,
+    "prot_birth_str": "60,201 BC",
+    "prot_death_str": "60,200 BC",
+    "age_at_death": "1",
+    "span": 0,
+    "worst_gap": -22,
+    "siblings": [
+      {
+        "name": "Kori",
+        "sex": "M",
+        "birth_year": -60222,
+        "death_year": -60202,
+        "death_age": 20,
+        "role": "Older brother by about 22 years; already a near-adult/young man when Sana was born. Present at Sana’s birth and infancy,"
+      }
+    ]
+  }
+]

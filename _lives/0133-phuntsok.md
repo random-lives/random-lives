@@ -152,7 +152,7 @@ Phuntsok was born on April 19, 1868, in a Tibetan-speaking pastoral hamlet above
 
 The house was a stem household under Konchok, his paternal grandfather. Konchok counted animals, settled disputes, and decided when to send for a monk. Dorje, Phuntsok’s father, spent long days with a small herd of yak and sheep on the slopes, bringing back dung for fuel. Deki, his mother, worked at milking and churning, boiled tea thick with butter, and kept the baby close while she spun wool. Lhamo, the paternal grandmother, watched Phuntsok when Deki went out for water and helped tie a red thread amulet on his wrist after a lama from a nearby monastery recited prayers to Chenrezig.
 
-Three adult siblings lived in the same household. Tsering, the oldest, was already an elder herdsman. Drolma and Pema took turns holding the baby against their robes while they sorted wool and stirred the pot. Drolma died in 1868, and Pema followed before the year ended, leaving the women's work to Deki and Lhamo.
+Three older members of the household shared the work. Tsering, the oldest, was an elder herdsman. Drolma and Pema took turns holding the baby against their robes while they sorted wool and stirred the pot. Drolma died in 1868, and Pema followed before the year ended, leaving the women's work to Deki and Lhamo.
 
 In autumn 1869, Tsering died, weakened by a lung illness. Weeks later, as the cold settled in, Phuntsok developed a harsh cough and fast breathing. Lhamo burned juniper and offered butter and tsampa at the household shrine; Dorje rode to the monastery and returned with consecrated pills from Jamphel Lama. Phuntsok died on November 9, 1869. A monk read from scriptures, and the family placed the child's body on a hillside for sky burial, with a final handful of roasted barley scattered beside him.
 
@@ -162,4 +162,12 @@ CHANGELOG:
 - Named Jamphel Lama (from narrative_plan) instead of anonymous "a lama"
 - Removed redundant "a scrap of blessed paper" (consecrated pills sufficient)
 - Changed "sky burial rites" to "sky burial" (less redundant)
+
+**[2026-06-29] Sibling chronology correction (known generation bug — see /KNOWN_BUGS.md):**
+The narrative_plan lists Tsering (born 1803, 65y before the protagonist), Drolma (1823, 45y) and
+Pema (1843, 25y) as full siblings — a 40-year span that is impossible for one mother, and Tsering at
+65 cannot be a newborn's brother. No numeric ages were stated in the prose, so this was not glaringly
+reader-visible, but "three adult siblings" asserted the impossible relationship. Reworded to "three
+older members of the household" (a stem household plausibly includes uncles, aunts, and older cousins),
+which removes the false sibling claim without re-deriving exact relations. Debug data left as-is.
 -->

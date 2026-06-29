@@ -249,4 +249,6 @@ In late June 1352 her belly swelled and she passed worms and thin stool; she sto
 - Changed: "broke her" → "startled her"
 - Clarified Zahra at compound: "Amina brought her" → "Amina brought her and Zahra"
 - Changed: "died at birth" → "had not lived"
+
+**[2026-06-29] Sibling chronology note (known generation bug — see /KNOWN_BUGS.md):** The narrative_plan's most-distant sibling by birth year is an infant death (Yusuf); Ibrahim, born ~27 years before the protagonist, is depicted as a plausible "working man". No prose correction needed. Debug data left as the raw generation artifact.
 -->

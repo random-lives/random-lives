@@ -56,6 +56,17 @@ Fix before moving on to the next phase.
 - Dense paragraph listing 8 siblings with birth years (unreadable)
 - Sibling that is multiple decades older or younger with no explanation
 
+> **Known data bug — do NOT reconcile prose to impossible sibling birth years.** The
+> generation pipeline sometimes assigns a sibling a birth year decades before the protagonist
+> (one mother bearing children across a 40-to-79-year span), which is biologically impossible.
+> The `narrative_plan` birth years are NOT ground truth. If the debug data implies an impossible
+> maternal window (all of a mother's children should fall within a ~25–30-year span, mother aged
+> ~15–45 at each birth), fix the DATA's implication, not the prose: state a plausible age in
+> prose, recast the much-older sibling as a half-sibling from the father's earlier marriage, or
+> drop the numeric age. Never "correct" a plausible prose age *up* to match a buggy birth year —
+> that is exactly how story 0139 acquired a 42-year-old daughter coexisting with a newborn. See
+> `/KNOWN_BUGS.md` bug #1.
+
 Fix before moving on to the next phase.
 
 ---

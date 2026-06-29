@@ -185,4 +185,6 @@ On June 22 the baby died from weakness after a premature birth. That evening Zho
 - Rewrote Wu-lang memory sentence to be direct: "Chen Shi had not forgotten; she washed the newborn carefully and tied the cord tight"
 - Changed "the family's slope" to "an unused slope above the village" for consistency with landless status
 - Split paragraph 1 into shorter sentences for better flow
+
+**[2026-06-29] Sibling chronology note (known generation bug — see /KNOWN_BUGS.md):** The narrative_plan places Da-lang born ~25 years before the protagonist. No prose correction needed: the prose correctly handles him as already deceased ("had died the previous year at twenty-four") and the other siblings' ages are plausible. Debug data left as the raw generation artifact.
 -->

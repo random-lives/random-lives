@@ -195,4 +195,6 @@ Zhang Shi bought a strip of plain cloth and a small clay jar of wine. They wrapp
 - Removed Er-lang and Si-lang names; described as "Two boys had died in infancy: one in 1023, another in 1033" - cleaner and serves same purpose
 - Minor: "a little millet" → "a bowl of millet" (more concrete); "on the family land's edge" → "at the edge of the family's land" (flows better)
 - Changed second reference to "Li Shi labored" → "his wife labored" for consistency after removing the formal name
+
+**[2026-06-29] Sibling chronology note (known generation bug — see /KNOWN_BUGS.md):** The narrative_plan's flagged sibling (Da-niang) is depicted at a plausible age in prose ("twenty-four that year"), a reasonable eldest sister. No prose correction needed. Debug data left as the raw generation artifact.
 -->

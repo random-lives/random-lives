@@ -206,4 +206,6 @@ CHANGELOG:
 REVIEW SUMMARY:
 Passes 1-13: No issues found. Story has correct timeline (same-day birth/death), accurate household structure, appropriate sibling coverage (6 of 8 siblings correctly mentioned - 2 born after her death), proper historical setting (Southern Song 1263, Guangdong), and no AI-slop or anachronisms.
 Pass 14 (Final Read): Added living moment for the newborn to make the loss more immediate.
+
+**[2026-06-29] Sibling chronology note (known generation bug — see /KNOWN_BUGS.md):** The narrative_plan places older brothers born 16–22 years before the protagonist, all of which are plausible. No prose correction needed. Debug data left as the raw generation artifact.
 -->

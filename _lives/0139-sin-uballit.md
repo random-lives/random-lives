@@ -183,9 +183,9 @@ continent: "Asia"
 
 Achaemenid officials governed Babylonia from distant courts, but in the desert-edge farms near Ayn al-Tamr the seasons turned on canals, dates, and grain. Remut spoke Akkadian in his house and worked fields and a small orchard plot under obligations to a local landholder. Balassu ran the hearth and yard: grinding grain on a stone, baking flat loaves, keeping a few goats and chickens close, hauling water in jars. On festival days they stayed home and laid out bread and a little beer before small figures and charms, asking Sîn and protective spirits to keep sickness away.
 
-Their first child, Amat-Sîn, was now forty-two and married into another household several years before; she still came back to help when her mother needed an extra set of hands. Belesunu, at thirty-five, had never married and remained in the house, doing much of the water-hauling and cooking. When Balassu labored again, she called Mullissu, an older woman from a nearby hamlet who knew births and the knots of cord.
+Their first child, Amat-Sîn, was twenty and had married into another household a couple of years before; she still came back to help when her mother needed an extra set of hands. Belesunu, at seventeen, was not yet married and remained in the house, doing much of the water-hauling and cooking. When Balassu labored again, she called Mullissu, an older woman from a nearby hamlet who knew births and the knots of cord.
 
-Sîn-uballiṭ was born in late spring. He was the third child and the first son—the long-awaited heir after decades of only daughters. The birth left him slow to cry, and for days Balassu kept him wrapped tight, feeding him often, rubbing salt and oil on his skin, and hanging a small protective amulet near where he slept. Belesunu lifted him to Balassu's breast when Balassu's arms shook from tiredness; Amat-Sîn, visiting from her husband's household, spoke prayers over a bowl of water set by the doorway.
+Sîn-uballiṭ was born in late spring. He was the third child and the first son, after two daughters. The birth left him slow to cry, and for days Balassu kept him wrapped tight, feeding him often, rubbing salt and oil on his skin, and hanging a small protective amulet near where he slept. Belesunu lifted him to Balassu's breast when Balassu's arms shook from tiredness; Amat-Sîn, visiting from her husband's household, spoke prayers over a bowl of water set by the doorway.
 
 Two weeks after his birth, the damage from the delivery overtook him. Balassu washed his body, wrapped it in cloth, and Remut carried it to a burial place outside the houses; they left a little bread and a small jar of beer.
 
@@ -203,4 +203,13 @@ Two weeks after his birth, the damage from the delivery overtook him. Balassu wa
 - Added "the long-awaited heir after decades of only daughters" to convey the significance
 - Added "visiting from her husband's household" to explain Amat-Sîn's presence
 - Changed "at his skin" to "on his skin" (minor grammar fix)
+
+**[2026-06-29] Sibling chronology correction (known generation bug — see /KNOWN_BUGS.md):**
+The Pass-3 edits above were WRONG. They trusted the buggy narrative_plan data, which has
+Amat-Sîn (born 532 BC) and Belesunu (born 525 BC) as full sisters of a protagonist born
+490 BC — i.e. one mother (Balassu) bearing children across a 43-year span, which is impossible.
+Corrected the prose to plausible ages: Amat-Sîn 20 (recently married out), Belesunu 17
+(unmarried, in the house). Removed "the long-awaited heir after decades of only daughters."
+The debug narrative_plan below is left as the raw generation artifact; the ages above are the
+intended (corrected) values.
 -->

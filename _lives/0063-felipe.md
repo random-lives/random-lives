@@ -148,7 +148,7 @@ continent: "North America"
 
 Felipe was born on 12 November 1737 in San Pedro Chacabal, in the Motul district of the Spanish Empire's Yucatán. His family spoke Yucatec Maya at home and lived under parish Catholic authority, mixing church devotions with household rites. The compound held several related households and a shared cooking space where maize was ground on stone and pots simmered over a low fire.
 
-His father, K'inam, worked a milpa outside the village and brought back maize, beans, and squash, sometimes a turkey or eggs. His mother, Ixchel, spun and wove for tribute and exchange, keeping thread taut across her backstrap loom. K'inam's mother Antonia lived with them, helping with cooking and childcare. Felipe had two much older half-brothers from his father's first marriage—Juan and Antonio—both old men who managed their own plots in the compound. They held Felipe briefly when he was first carried out to be shown to the family. Before the year ended, both died within weeks of each other.
+His father, K'inam, worked a milpa outside the village and brought back maize, beans, and squash, sometimes a turkey or eggs. His mother, Ixchel, spun and wove for tribute and exchange, keeping thread taut across her backstrap loom. K'inam's mother Antonia lived with them, helping with cooking and childcare. Felipe had two grown half-brothers from his father's first marriage—Juan and Antonio—who managed their own plots in the compound. They held Felipe briefly when he was first carried out to be shown to the family. Before the year ended, both died within weeks of each other.
 
 Felipe's full sister María, seventeen, stayed close to Ixchel. She carried Felipe on her hip while Ixchel worked, rocking him when he cried and handing him back when he rooted for milk.
 
@@ -169,4 +169,6 @@ During the dry months Felipe failed to gain weight. María fell ill with fever a
 - Added María's illness as a factor in reduced caregiving capacity
 - Added detail about Ixchel's milk thinning to explain feeding failure
 - Split brother introductions from their deaths for better paragraph coherence
+
+**[2026-06-29] Sibling chronology correction (known generation bug — see /KNOWN_BUGS.md):** The narrative_plan places Juan and Antonio born ~72–79 years before the protagonist. A prior reviewer recast them as "much older half-brothers from his father's first marriage ... both old men" — but that is still impossible: their father K'inam would be ~100 at Felipe's birth (and K'inam's own mother Antonia is alive in the house). Corrected the prose to "two grown half-brothers from his father's first marriage" and dropped "much older"/"both old men", so K'inam is a normal age. Debug data left as the raw generation artifact.
 -->

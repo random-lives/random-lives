@@ -239,4 +239,6 @@ Before her first summer she died in the compound. Anniya washed her, wrapped her
 - Changed "stayed close to the newborn" to "hovered over the newborn"
 - Changed "watching her weight" to "checking her limbs for flesh"
 - Improved transition: moved failure-to-thrive description to end of para 3 and started para 4 with "Before her first summer she died"
+
+**[2026-06-29] Sibling chronology note (known generation bug — see /KNOWN_BUGS.md):** The narrative_plan's most-distant sibling by birth year is an infant death (Tarpawi); the long-lived brothers were born 14–18 years before the protagonist, which is plausible, and all prose ages are fine. No prose correction needed. Debug data left as the raw generation artifact.
 -->

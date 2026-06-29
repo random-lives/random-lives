@@ -1,15 +1,6 @@
----
-layout: post
-title: "What is the most common religion in history?"
-date: 2026-03-22
-permalink: /blog/most-common-religion/
-published: false
-mathjax: true
----
-
 # Research Notes: Most Common Religion in History
 
-**Status**: Early research / category definition phase
+**Status**: Early research / category definition phase (started 2026-03-22)
 
 ## The Question
 
