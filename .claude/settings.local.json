@@ -13,7 +13,6 @@
       "Bash(head:*)",
       "Bash(tail:*)",
       "Bash(grep:*)",
-      "Bash(sort:*)",
       "Bash(wc:*)",
       "Bash(echo:*)",
       "Bash(lsof:*)",
@@ -28,8 +27,8 @@
       "Bash(du -sh generating_code/BiggestPolities/cliopatria_polities_only.geojson generating_code/BiggestPolities/cliopatria.zip generating_code/BiggestPolities/Seshat-Global-History-Databank-cliopatria-1f48563/cliopatria.geojson.zip generating_code/BiggestPolities/*.pkl)",
       "Bash(awk '/^#   children:/{flag=1} flag{print} /^#   incident_placements:/{if\\(flag\\)exit}' _lives/0002-bhima.md)",
       "Bash(awk '/^#   children:/{flag=1} flag{print} /^#   incident_placements:|^#   conflicts:|^#   life_phases:/{if\\(flag\\)exit}' _lives/0094-lin-xin.md)",
-      "Edit(_lives/*)",
-      "Edit(_lives_pending/*)",
+      "Edit(_lives/*.md)",
+      "Edit(_lives_pending/*.md)",
       "Skill(review-stories)",
       "Skill(classify-lifestyles)",
       "Skill(push)",
@@ -44,7 +43,6 @@
       "WebFetch(domain:www.worldometers.info)",
       "WebFetch(domain:www.nature.com)",
       "WebFetch(domain:doi.org)",
-      "WebFetch(domain:zenodo.org)",
       "mcp__Claude_in_Chrome__tabs_context_mcp",
       "mcp__Claude_Preview__preview_start"
     ],
@@ -60,6 +58,8 @@
       "Bash(pip3:*)",
       "Bash(jupyter:*)",
       "Bash(ruby:*)",
+      "Bash(gem:*)",
+      "Bash(rake:*)",
       "Bash(perl:*)",
       "Bash(osascript:*)",
       "Bash(sh:*)",
@@ -70,6 +70,7 @@
       "Bash(source:*)",
       "Bash(xargs:*)",
       "Bash(find:*)",
+      "Bash(sort:*)",
       "Bash(claude:*)",
       "Bash(curl:*)",
       "Bash(wget:*)",
@@ -98,7 +99,13 @@
       "Read(~/.config/gh/**)",
       "Read(~/.claude/.credentials.json)",
       "Read(./.env)",
-      "Read(./.env.*)"
+      "Read(./.env.*)",
+      "Edit(./Gemfile)",
+      "Edit(./Gemfile.lock)",
+      "Edit(./_config.yml)",
+      "Edit(./_plugins/**)",
+      "Edit(./.claude/**)",
+      "Edit(./.git/**)"
     ]
   }
 }
