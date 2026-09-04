@@ -35,6 +35,9 @@ layout: default
   {% if page.latitude and page.longitude %}
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <script src="https://unpkg.com/@maplibre/maplibre-gl-leaflet@0.0.22/leaflet-maplibre-gl.js"></script>
   <script>
     (function() {
       // HYDE grid resolution: 5 arcminutes = ~9.2 km at equator = ~4.6 km radius
@@ -43,13 +46,15 @@ layout: default
 
       var map = L.map('map', {
         zoomControl: false,
-        attributionControl: false,
+        attributionControl: true,
         minZoom: 3,
+        maxZoom: 19,
         maxBounds: [[-85, -200], [85, 200]],
         maxBoundsViscosity: 1.0
       }).setView([{{ page.latitude }}, {{ page.longitude }}], 4);
-      L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-        maxZoom: 19
+      L.maplibreGL({
+        style: 'https://tiles.openfreemap.org/styles/positron',
+        attribution: '&copy; <a href="https://openfreemap.org/">OpenFreeMap</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       }).addTo(map);
 
       // Circle marker (dot) for low zoom levels

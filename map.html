@@ -4,6 +4,7 @@ title: Map View
 ---
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
 
 <style>
 #world-map {
@@ -142,22 +143,32 @@ title: Map View
 </div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="https://unpkg.com/@maplibre/maplibre-gl-leaflet@0.0.22/leaflet-maplibre-gl.js"></script>
 
 <script>
 (function() {
   const map = L.map('world-map', {
     zoomControl: true,
-    attributionControl: false,
+    attributionControl: true,
     minZoom: 2,
+    maxZoom: 19,
     zoomSnap: 0.1,
     maxBounds: [[-85, -200], [85, 200]],
     maxBoundsViscosity: 1.0
   }).setView([31.1, 11.1], 2);
 
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
-    maxZoom: 19,
-    minZoom: 2
-  }).addTo(map);
+  // OpenFreeMap Positron, with the label layers dropped for a clean dot map.
+  fetch('https://tiles.openfreemap.org/styles/positron')
+    .then(function(r) { return r.json(); })
+    .then(function(style) {
+      style.layers = style.layers.filter(function(l) { return l.type !== 'symbol'; });
+      L.maplibreGL({
+        style: style,
+        attribution: '&copy; <a href="https://openfreemap.org/">OpenFreeMap</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      }).addTo(map);
+    })
+    .catch(function(err) { console.error('Basemap failed to load', err); });
 
   const lives = [
     {% assign first = true %}
