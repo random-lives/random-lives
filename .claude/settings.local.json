@@ -44,7 +44,30 @@
       "WebFetch(domain:www.nature.com)",
       "WebFetch(domain:doi.org)",
       "mcp__Claude_in_Chrome__tabs_context_mcp",
-      "mcp__Claude_Preview__preview_start"
+      "mcp__Claude_Preview__preview_start",
+      "Read(//tmp/**)",
+      "Bash(file esri.png)",
+      "Bash(ls -la e_*.png)",
+      "Bash(awk '{print $NF, $5}')",
+      "Bash(file cmp_esri_z4.jpg)",
+      "Bash(file tile_lowz.png)",
+      "Bash(awk '{print $5\" bytes\"}')"
+    ],
+    "deny": [
+      "Read(~/.ssh/**)",
+      "Read(~/.aws/**)",
+      "Read(~/.gnupg/**)",
+      "Read(~/.netrc)",
+      "Read(~/.config/gh/**)",
+      "Read(~/.claude/.credentials.json)",
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Edit(./Gemfile)",
+      "Edit(./Gemfile.lock)",
+      "Edit(./_config.yml)",
+      "Edit(./_plugins/**)",
+      "Edit(./.claude/**)",
+      "Edit(./.git/**)"
     ],
     "ask": [
       "Bash(python:*)",
@@ -90,22 +113,6 @@
       "Bash(git push:*)",
       "Bash(git reset:*)",
       "Bash(open:*)"
-    ],
-    "deny": [
-      "Read(~/.ssh/**)",
-      "Read(~/.aws/**)",
-      "Read(~/.gnupg/**)",
-      "Read(~/.netrc)",
-      "Read(~/.config/gh/**)",
-      "Read(~/.claude/.credentials.json)",
-      "Read(./.env)",
-      "Read(./.env.*)",
-      "Edit(./Gemfile)",
-      "Edit(./Gemfile.lock)",
-      "Edit(./_config.yml)",
-      "Edit(./_plugins/**)",
-      "Edit(./.claude/**)",
-      "Edit(./.git/**)"
     ]
   }
 }
